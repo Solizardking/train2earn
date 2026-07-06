@@ -1,0 +1,32 @@
+# syntax=docker/dockerfile:1.7
+
+ARG BASE_IMAGE=python:3.12-slim
+FROM ${BASE_IMAGE}
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    CLAWD_NGC_APP_HOST=0.0.0.0 \
+    CLAWD_NGC_APP_PORT=8000
+
+WORKDIR /app
+
+RUN python -m pip install --no-cache-dir --upgrade pip \
+    && python -m pip install --no-cache-dir \
+      fastapi \
+      uvicorn[standard] \
+      httpx \
+      pydantic
+
+COPY README.md /app/nvidia/README.md
+COPY ngc_app.py /app/nvidia/ngc_app.py
+COPY fal_serverless_app.py /app/nvidia/fal_serverless_app.py
+COPY configs /app/nvidia/configs
+COPY integration /app/nvidia/integration
+COPY blueprints/aiq /app/nvidia/blueprints/aiq
+COPY blueprints/signal-discovery /app/nvidia/blueprints/signal-discovery
+COPY cufolio /app/nvidia/cufolio
+
+WORKDIR /app/nvidia
+EXPOSE 8000
+
+CMD ["python", "ngc_app.py"]

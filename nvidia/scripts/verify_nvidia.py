@@ -17,21 +17,41 @@ sys.path.insert(0, str(BASE_DIR / "trading_factory"))
 sys.path.insert(0, str(BASE_DIR / "nvidia" / "integration"))
 sys.path.insert(0, str(BASE_DIR / "nvidia" / "blueprints" / "transaction-foundation-model"))
 
-from solana_factory.factory import build_strategy_bundle  # noqa: E402
-from solana_factory.nvidia_agent import NVIDIA_BLUEPRINTS  # noqa: E402
-from solana_factory.validation import validate_strategy_bundle  # noqa: E402
-from nemo_clawd import write_nemo_clawd_assets  # noqa: E402
+try:
+    from solana_factory.factory import build_strategy_bundle  # type: ignore  # noqa: E402
+    from solana_factory.nvidia_agent import NVIDIA_BLUEPRINTS  # type: ignore  # noqa: E402
+    from solana_factory.validation import validate_strategy_bundle  # type: ignore  # noqa: E402
+except ModuleNotFoundError:  # train2earn keeps the NVIDIA lane without vendoring trading_factory.
+    build_strategy_bundle = None  # type: ignore[assignment]
+    validate_strategy_bundle = None  # type: ignore[assignment]
+    NVIDIA_BLUEPRINTS = {
+        "transaction_foundation_model": {"local_path": "nvidia/blueprints/transaction-foundation-model"},
+        "model_distillation": {"local_path": "nvidia/blueprints/model-distillation"},
+        "enterprise_rag": {"local_path": "nvidia/blueprints/enterprise-rag"},
+        "signal_discovery": {"local_path": "nvidia/blueprints/signal-discovery"},
+        "portfolio_optimization": {"local_path": "nvidia/blueprints/portfolio-optimization"},
+        "aiq": {"local_path": "nvidia/blueprints/aiq"},
+    }
+
+try:
+    from nemo_clawd import write_nemo_clawd_assets  # type: ignore  # noqa: E402
+except ModuleNotFoundError:
+    write_nemo_clawd_assets = None  # type: ignore[assignment]
+
 from tx_foundation_common import build_dataset_manifest  # noqa: E402
 from notebook_bridge import NOTEBOOKS, check_notebook  # noqa: E402
 
 
 REQUIRED_FILES = [
-    "STRUCTURE.md",
     "nvidia/README.md",
+    "nvidia/Dockerfile.ngc",
+    "nvidia/Dockerfile.ngc.dockerignore",
     "nvidia/pyproject.toml",
     "nvidia/fal_serverless_app.py",
+    "nvidia/ngc_app.py",
     "nvidia/integration/README.md",
     "nvidia/configs/nemo_clawd_factory.yaml",
+    "nvidia/configs/ngc_deploy.yaml",
     "nvidia/integration/nemo_clawd.py",
     "nvidia/integration/nemo_clawd_agent.py",
     "nvidia/blueprints/aiq/agent.py",
@@ -58,12 +78,19 @@ REQUIRED_FILES = [
     "nvidia/integration/dataset_nvidia_sft.py",
     "nvidia/integration/trading_factory_nvidia.py",
     "nvidia/scripts/deploy_fal_serverless.sh",
+    "nvidia/scripts/deploy_ngc.sh",
     "nvidia/scripts/fal_assets.py",
     "nvidia/scripts/verify_fal_serverless.py",
+    "nvidia/scripts/verify_ngc_deploy.py",
     "nvidia/scripts/validate_configs.py",
     "data/perps/nvidia_perps_handoff.json",
     "model-kit/clawd_model_kit.py",
     "model-kit/config.example.yaml",
+    "nvidia/outputs/fal_asset_manifest.json",
+]
+
+OPTIONAL_FILES = [
+    "STRUCTURE.md",
     "model-kit/docs/PERPS.md",
     "model-kit/frontend/index.html",
     "perps/README.md",
@@ -115,6 +142,12 @@ def verify_files() -> bool:
         else:
             ok = False
             print(f"FAIL {rel}: missing")
+    for rel in OPTIONAL_FILES:
+        path = BASE_DIR / rel
+        if path.exists():
+            print(f"OK   optional {rel}")
+        else:
+            print(f"SKIP optional {rel}: missing")
     for name, meta in NVIDIA_BLUEPRINTS.items():
         path = BASE_DIR / meta["local_path"]
         if path.exists():
@@ -128,6 +161,9 @@ def verify_files() -> bool:
 def verify_layout_contract() -> bool:
     print("[layout]")
     script_path = BASE_DIR / "scripts" / "organize_ai_training.py"
+    if not script_path.exists():
+        print("SKIP layout inventory: scripts/organize_ai_training.py is not present in this workspace")
+        return True
     spec = importlib.util.spec_from_file_location("organize_ai_training", script_path)
     if spec is None or spec.loader is None:
         print(f"FAIL could not load {script_path}")
@@ -168,6 +204,9 @@ def verify_config_contracts() -> bool:
 
 def verify_generated_bundle() -> bool:
     print("[bundle]")
+    if build_strategy_bundle is None or validate_strategy_bundle is None:
+        print("SKIP generated strategy bundle: optional trading_factory package is not present")
+        return True
     with tempfile.TemporaryDirectory(prefix="solana-clawd-nvidia-") as tmpdir:
         output_dir = Path(tmpdir)
         manifest = build_strategy_bundle(repo_root=BASE_DIR, output_dir=output_dir)
@@ -207,9 +246,16 @@ def verify_generated_bundle() -> bool:
 
 def verify_nemo_clawd_assets() -> bool:
     print("[nemo-clawd]")
+    if write_nemo_clawd_assets is None:
+        print("SKIP Nemo Clawd assets: nemo_clawd integration module is not importable")
+        return True
+    core_ai_dir = BASE_DIR.parent / "core-ai"
+    if not core_ai_dir.exists():
+        print(f"SKIP Nemo Clawd assets: external Core AI tree missing at {core_ai_dir}")
+        return True
     with tempfile.TemporaryDirectory(prefix="solana-clawd-nemoclawd-") as tmpdir:
         output_dir = Path(tmpdir)
-        assets = write_nemo_clawd_assets(output_dir=output_dir, core_ai_dir=BASE_DIR.parent / "core-ai")
+        assets = write_nemo_clawd_assets(output_dir=output_dir, core_ai_dir=core_ai_dir)
         inventory_path = assets["inventory_path"]
         blueprint_path = assets["blueprint_path"]
         if not inventory_path.exists() or not blueprint_path.exists():
@@ -249,9 +295,15 @@ def verify_transaction_foundation_assets() -> bool:
         print(f"FAIL transaction foundation split total {split_total} != examples {total}")
         return False
     processed = manifest.get("processed_files", {})
-    missing_processed = [name for name in ("train", "eval", "test") if name not in processed]
+    processed_dir = Path(manifest.get("processed_dir", ""))
+    missing_processed: list[str] = []
+    for name in ("train", "eval", "test"):
+        has_parquet = name in processed
+        has_hf_split = (processed_dir / name / "state.json").exists() and (processed_dir / name / "dataset_info.json").exists()
+        if not has_parquet and not has_hf_split:
+            missing_processed.append(name)
     if missing_processed:
-        print(f"FAIL transaction foundation processed splits missing: {missing_processed}")
+        print(f"FAIL transaction foundation processed split metadata missing: {missing_processed}")
         return False
     print(
         "OK   transaction foundation CPT "

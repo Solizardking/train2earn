@@ -20,6 +20,7 @@ CONFIG_DIR = BASE_DIR / "nvidia" / "configs"
 CONFIG_FILES = [
     "aiq_config.yaml",
     "nemo_clawd_factory.yaml",
+    "ngc_deploy.yaml",
     "nim_config.yaml",
     "pretrain_financial_decoder.yaml",
     "pretrain_solana_decoder.yaml",
@@ -102,6 +103,30 @@ def validate_nim(cfg: dict[str, Any]) -> list[str]:
     return findings
 
 
+def validate_ngc(cfg: dict[str, Any]) -> list[str]:
+    findings: list[str] = []
+    ngc = cfg.get("ngc", {})
+    image = cfg.get("image", {})
+    runtime = cfg.get("runtime", {})
+    account = cfg.get("account_requirements", {})
+    security = cfg.get("security", {})
+    require(ngc.get("registry") == "nvcr.io", findings, "ngc_deploy.yaml: registry must be nvcr.io")
+    require(ngc.get("api_key_env") == "NGC_API_KEY", findings, "ngc_deploy.yaml: api_key_env must be NGC_API_KEY")
+    require(ngc.get("org_env") == "NGC_ORG", findings, "ngc_deploy.yaml: org_env must be NGC_ORG")
+    require(image.get("dockerfile") == "nvidia/Dockerfile.ngc", findings, "ngc_deploy.yaml: dockerfile must be nvidia/Dockerfile.ngc")
+    require(image.get("dockerignore") == "nvidia/Dockerfile.ngc.dockerignore", findings, "ngc_deploy.yaml: dockerignore must be nvidia/Dockerfile.ngc.dockerignore")
+    require(image.get("context") == "nvidia", findings, "ngc_deploy.yaml: build context must stay at nvidia/")
+    require(int(image.get("app_port", 0) or 0) == 8000, findings, "ngc_deploy.yaml: app_port must be 8000")
+    require(runtime.get("entrypoint") == "nvidia/ngc_app.py", findings, "ngc_deploy.yaml: runtime entrypoint must be nvidia/ngc_app.py")
+    require("NVIDIA_API_KEY" in runtime.get("environment_only_secrets", []), findings, "ngc_deploy.yaml: runtime must declare NVIDIA_API_KEY as env-only")
+    require("Private Registry" in account.get("personal_key_services", []), findings, "ngc_deploy.yaml: Personal key must include Private Registry")
+    require("NVIDIA Public API Endpoints" in account.get("personal_key_services", []), findings, "ngc_deploy.yaml: Personal key must include Public API Endpoints")
+    require("Upload Container" in account.get("private_registry_scopes", []), findings, "ngc_deploy.yaml: private registry upload scope required")
+    require(security.get("persist_secrets") is False, findings, "ngc_deploy.yaml: persist_secrets must be false")
+    require(security.get("docker_login_username") == "$oauthtoken", findings, "ngc_deploy.yaml: docker login username must be $oauthtoken")
+    return findings
+
+
 def validate_decoder(name: str, cfg: dict[str, Any]) -> list[str]:
     findings: list[str] = []
     model_cfg = cfg.get("model", {}).get("config", {})
@@ -152,6 +177,8 @@ def validate_all_configs(base_dir: Path = BASE_DIR) -> list[str]:
             findings.extend(validate_aiq(cfg))
         elif name == "nemo_clawd_factory.yaml":
             findings.extend(validate_factory(cfg))
+        elif name == "ngc_deploy.yaml":
+            findings.extend(validate_ngc(cfg))
         elif name == "nim_config.yaml":
             findings.extend(validate_nim(cfg))
         elif name in {"pretrain_financial_decoder.yaml", "pretrain_solana_decoder.yaml"}:

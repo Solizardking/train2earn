@@ -131,6 +131,99 @@ python3 nvidia/blueprints/signal-discovery/agent.py --mode paper
 python3 nvidia/scripts/verify_nvidia.py
 ```
 
+## NGC Account And Private Registry Deployment
+
+This repo now has an NGC deployment lane for the Clawd NVIDIA agent under:
+
+- `nvidia/configs/ngc_deploy.yaml` - non-secret account/image contract
+- `nvidia/Dockerfile.ngc` - container image for NGC Private Registry; build context is `nvidia/`
+- `nvidia/ngc_app.py` - HTTP `/health` and `/generate` runtime
+- `nvidia/scripts/verify_ngc_deploy.py` - local readiness check
+- `nvidia/scripts/deploy_ngc.sh` - check/build/login/push wrapper
+
+NVIDIA's current NGC docs define the account flow as:
+
+1. Sign in or create an NGC org at `https://ngc.nvidia.com/signin`.
+2. Generate a Personal API Key for individual development, or a Service API Key
+   for automation owned by the org.
+3. Include `Private Registry` permissions for container push/pull. Include
+   `NVIDIA Public API Endpoints` if the deployed app will call NIM API
+   endpoints with `NVIDIA_API_KEY`.
+4. For production NVCF automation, grant the service key the required Cloud
+   Functions scopes and keep it in a secret manager.
+
+Local environment:
+
+```bash
+export NGC_ORG=<your-ngc-org>
+export NGC_TEAM=<optional-team>
+export NGC_API_KEY=<set-in-shell-only>
+export NGC_IMAGE_TAG=$(git rev-parse --short HEAD)
+
+# Runtime inference key for the deployed app, not for image push.
+export NVIDIA_API_KEY=<set-in-shell-only>
+```
+
+Check readiness without printing secrets:
+
+```bash
+python3 nvidia/scripts/verify_ngc_deploy.py
+python3 nvidia/scripts/verify_ngc_deploy.py --strict
+```
+
+Build and push to NGC Private Registry:
+
+```bash
+nvidia/scripts/deploy_ngc.sh check
+nvidia/scripts/deploy_ngc.sh build
+nvidia/scripts/deploy_ngc.sh login
+nvidia/scripts/deploy_ngc.sh push
+```
+
+`build` and `push` run stricter preflights than `check`: Docker must be healthy
+and the host must have enough free disk for Docker layers. The default minimum
+is 10 GB and can be overridden for constrained test machines:
+
+```bash
+export NGC_MIN_FREE_GB=5
+nvidia/scripts/deploy_ngc.sh build
+```
+
+The target image is:
+
+```text
+nvcr.io/$NGC_ORG/$NGC_IMAGE_NAME:$NGC_IMAGE_TAG
+# or, with a team:
+nvcr.io/$NGC_ORG/$NGC_TEAM/$NGC_IMAGE_NAME:$NGC_IMAGE_TAG
+```
+
+Defaults:
+
+```bash
+export NGC_IMAGE_NAME=clawd-nvidia-agent
+export NGC_IMAGE_TAG=local
+export NGC_BASE_IMAGE=python:3.12-slim
+```
+
+To build from an NVIDIA-hosted base image instead:
+
+```bash
+export NGC_BASE_IMAGE=nvcr.io/nvidia/pytorch:25.06-py3
+nvidia/scripts/deploy_ngc.sh build
+```
+
+The Docker login flow uses NVIDIA's documented `$oauthtoken` username and reads
+`NGC_API_KEY` from stdin. The key is never written by the deploy script.
+
+If preflight reports `ngc: not found`, install the NGC CLI from the NGC Setup
+page after signing in. Docker push still works without the `ngc` binary, but
+the CLI is useful for org/team registry discovery and artifact inspection.
+
+If Docker reports containerd blob `input/output error` or the host has very low
+free disk, repair Docker storage first. Typical local fixes are freeing disk,
+pruning unused Docker data, or restarting/recreating the Docker/Colima VM before
+rerunning `deploy_ngc.sh build`.
+
 ## fal Serverless
 
 The `nvidia/pyproject.toml` file defines a private fal app named

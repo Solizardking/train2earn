@@ -7,16 +7,18 @@ echo "[nvidia-setup] root: ${ROOT_DIR}"
 echo "[nvidia-setup] this script validates local files only; install heavy NVIDIA stacks explicitly."
 
 python3 "${ROOT_DIR}/nvidia/scripts/verify_nvidia.py" --strict
+python3 "${ROOT_DIR}/nvidia/scripts/verify_ngc_deploy.py"
 
 cat <<'MSG'
 
 Next optional installs depend on the target environment:
+  - NGC CLI for org/team registry discovery and NGC artifact management
   - NeMo / NIM / NeMo Agent Toolkit for NVIDIA-hosted or self-hosted models
   - fal CLI / fal-client for fal Serverless and hosted Nemotron Omni routing
   - RAPIDS / cuOpt / cuFOLIO for GPU portfolio optimization
   - nv-ingest / NeMo Retriever for enterprise RAG ingestion
 
-Keep NVIDIA_API_KEY, FAL_API_KEY/FAL_KEY, HF_TOKEN, WANDB_API_KEY, and wallet
-secrets in the shell or secret manager. Do not write them into YAML, JSON,
-markdown, or git history.
+Keep NGC_API_KEY, NVIDIA_API_KEY, FAL_API_KEY/FAL_KEY, HF_TOKEN, WANDB_API_KEY,
+and wallet secrets in the shell or secret manager. Do not write them into YAML,
+JSON, markdown, or git history.
 MSG

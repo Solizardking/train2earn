@@ -1,0 +1,62 @@
+# NGC private-registry deployment contract for the Clawd NVIDIA agent.
+# Keep API keys in the shell or a secret manager. Do not put them in this file.
+
+ngc:
+  registry: nvcr.io
+  org_env: NGC_ORG
+  team_env: NGC_TEAM
+  api_key_env: NGC_API_KEY
+  image_name_env: NGC_IMAGE_NAME
+  image_tag_env: NGC_IMAGE_TAG
+
+image:
+  name: clawd-nvidia-agent
+  tag: local
+  dockerfile: nvidia/Dockerfile.ngc
+  dockerignore: nvidia/Dockerfile.ngc.dockerignore
+  context: nvidia
+  app_port: 8000
+  platform: linux/amd64
+  base_image_arg: BASE_IMAGE
+  default_base_image: python:3.12-slim
+  nvidia_base_image_example: nvcr.io/nvidia/pytorch:25.06-py3
+
+runtime:
+  entrypoint: nvidia/ngc_app.py
+  health_path: /health
+  generate_path: /generate
+  environment_only_secrets:
+    - NVIDIA_API_KEY
+    - HF_TOKEN
+    - FAL_API_KEY
+    - FAL_KEY
+    - CLAWD_INFERENCE_URL
+    - CLAWD_API_KEY
+    - CLAWD_ROUTER_KEY
+
+account_requirements:
+  personal_key_services:
+    - Private Registry
+    - NVIDIA Public API Endpoints
+  service_key_services:
+    - Private Registry
+    - NVIDIA Cloud Functions
+    - NVIDIA Public API Endpoints
+  private_registry_scopes:
+    - List Container
+    - Upload Container
+    - Download Container
+  nvcf_scopes_if_used:
+    - Register Function
+    - Deploy Function
+    - List Functions
+    - List Function Details
+    - Update Function
+    - Delete Function
+
+security:
+  persist_secrets: false
+  docker_login_username: "$oauthtoken"
+  registry_key_storage: shell_or_secret_manager
+  include_model_weights_in_image: false
+  publish_runtime_secrets_to_git: false
