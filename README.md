@@ -584,8 +584,10 @@ train2earn/
 │   ├── public/
 │   └── assets/
 ├── tools/                      # Static-site and W&B/data sync helpers
+├── training/                   # Imported Nemo Clawd training scaffold
 ├── training-data/              # Source-grounded corpus/SFT/eval workspace
 ├── wandb/                      # Local/offline W&B runs; ignored by Git
+├── TRAINING_DATA_MAP.md        # Machine-wide training asset inventory
 ├── .gitattributes              # Git LFS rules and text normalization
 └── .gitignore                  # Generated/local cache exclusions
 ```

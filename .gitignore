@@ -4,33 +4,9 @@
 .LSOverride
 .idea/
 .vscode/
-wandb/
-.env
-.env.local
-.env.*.local
-.cache/
-build/
-dist/
-node_modules
-node_modules/
-.DS_Store
-*.log
-coverage/
-web/frontend/dist/
-web/frontend/.npm-cache/
-openclawd-studio/.next/
-openclawd-studio/node_modules
-openclawd-studio/node_modules/
-openclawd-studio/.npm-cache/
-openclawd-studio/test-results/
-openclawd-studio/coverage/
-openclawd-studio/.env
-openclawd-studio/.env.local
-openclawd-studio/.env.*.local
-zk-primitives/**/node_modules/
-zk-primitives/**/.env
-zk-primitives/**/.env.local
-zk-primitives/**/dist/
+.hf/
+.playwright-mcp/
+.claude/settings.local.json
 
 # Environment, credentials, and local auth material
 .env
@@ -38,17 +14,26 @@ zk-primitives/**/dist/
 !.env.example
 !.env.sample
 !.env.template
-*secret*
-*credentials*
-*keypair*
 wallet.json
 id.json
+keypair.json
+*-keypair.json
+*-wallet.json
+credentials.json
+credentials*.json
+service-account*.json
+gcp-credentials*.json
+google-credentials*.json
+firebase-adminsdk*.json
+*.secret
+*.secret.*
+*-secret.json
 *.pem
 *.key
 *.p12
 *.pfx
 
-# Python generated files
+# Python generated files and virtual environments
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -63,7 +48,9 @@ env/
 node_modules/
 .npm-cache/
 dist/
+.next/
 coverage/
+test-results/
 
 # Local deployment metadata
 .vercel/
