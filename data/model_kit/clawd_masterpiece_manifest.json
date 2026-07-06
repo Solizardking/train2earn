@@ -1,0 +1,100 @@
+{
+  "dataset_name": "Clawd Solana Conversational Masterpiece",
+  "generated_at": "2026-06-21T19:47:38+00:00",
+  "message_inputs": [
+    {
+      "exists": true,
+      "path": "data/model_kit/solana_clawd_reasoning_tooling_sft.jsonl",
+      "sha256": "8913adb01584d00a9ec7756ef5d5c5e86a2f4367747748cf77f5803de3eeada4",
+      "size_bytes": 237970883
+    },
+    {
+      "exists": true,
+      "path": "data/model_kit/clawd_autoresearch_wiki_sft.jsonl",
+      "sha256": "a70715c26c25c12f2de10a76d6c3f00a58a76748dd4a1aad90d0b34dccbf8e03",
+      "size_bytes": 1312388
+    },
+    {
+      "exists": true,
+      "path": "data/core_ai_clawd_sft.jsonl",
+      "sha256": "244fa41cad3e7eb7bba4f5ac2f8e452b6ded05a29e6b25c6c143718916be1201",
+      "size_bytes": 100383412
+    },
+    {
+      "exists": true,
+      "path": "data/realtime_research_sft.jsonl",
+      "sha256": "2a217a1a11f4a8e1631d9ef2306d5ce58eb6e894c8815264ac2a64af41209c43",
+      "size_bytes": 102578180
+    },
+    {
+      "exists": true,
+      "path": "data/nvidia_trading_factory_sft.jsonl",
+      "sha256": "ee8ca8e2c9b50a4dd58b8480884a8776504b9373f2f64fb1acfc3a4894d1aebf",
+      "size_bytes": 641065
+    },
+    {
+      "exists": true,
+      "path": "data/solana_clawd_merged.jsonl",
+      "sha256": "6abaa01306dfe803ab6c567785850f72a1dfb1d6e7def2800d4599dd8650714f",
+      "size_bytes": 43369534
+    },
+    {
+      "exists": true,
+      "path": "data/solana_clawd_seed.jsonl",
+      "sha256": "dd644c09a95f23e7eb559bba391c6ae45991561d8bceeb7923ab9c53dd15563b",
+      "size_bytes": 167898
+    },
+    {
+      "exists": true,
+      "path": "trading_factory/clawd-autoresearch-wiki/solana-chat/data/solana_chat_seed.jsonl",
+      "sha256": "1648131d8740e6412f9e044baeb1639e5d4ac90c9546bfd8c7df42bf401098f1",
+      "size_bytes": 20412
+    },
+    {
+      "exists": true,
+      "path": "trading_factory/clawd-autoresearch-wiki/solana-chat/data/solana_chat_eval.jsonl",
+      "sha256": "e49de6865ef3d9c8ea4c761dbea517ef487f162ddf415de99f3aafc08d3795a5",
+      "size_bytes": 20412
+    }
+  ],
+  "output": "data/model_kit/clawd_masterpiece_sft.jsonl",
+  "policy": {
+    "bigquery_dataset": "bigquery-public-data.crypto_solana_mainnet_us",
+    "execution_default": "observer_or_paper",
+    "hub_target": "solanaclawd/clawd-solana-masterpiece-qwen15-lora",
+    "messages_only": true,
+    "secret_scan": true
+  },
+  "stats": {
+    "by_kind": {
+      "messages": 160287,
+      "text_wrapped_as_messages": 17302
+    },
+    "by_source": {
+      "data/model_kit/bigquery_solana_mainnet_cpt.jsonl": 18,
+      "data/model_kit/clawd_autoresearch_wiki_sft.jsonl": 34,
+      "data/model_kit/solana_clawd_reasoning_tooling_sft.jsonl": 64907,
+      "data/model_kit/tx_foundation_cpt_clean.jsonl": 17262
+    },
+    "duplicates": 95368,
+    "invalid": 0,
+    "kept": 82221,
+    "raw": 177651,
+    "secret_skipped": 61,
+    "too_short": 1
+  },
+  "text_inputs": [
+    {
+      "exists": true,
+      "path": "data/model_kit/bigquery_solana_mainnet_cpt.jsonl",
+      "sha256": "9c4927f7d3786b0d7bf512227c00e33eb5e9cc735b8914cfe991a686e51ef0b6",
+      "size_bytes": 17742
+    },
+    {
+      "exists": true,
+      "path": "data/model_kit/tx_foundation_cpt_clean.jsonl",
+      "sha256": "30033abbfcd82a283c8df8d8cd687deef10ad0b68cdcdcf7158ba1aa0ab5704c",
+      "size_bytes": 22089161
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "num_examples": 17262,
+  "splits": {
+    "train": 15535,
+    "eval": 863,
+    "test": 864
+  },
+  "schema": {
+    "text": "str continued-pretraining text",
+    "metadata": "optional dict[str, str] normalized across splits"
+  },
+  "source_files": [
+    "data/model_kit/tx_foundation_cpt_clean.jsonl"
+  ],
+  "duplicates_removed": 0
+}

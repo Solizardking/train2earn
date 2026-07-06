@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solana Clawd Training Index</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Solana Clawd Training Index">
+        <span class="brand-mark">CLAWD</span>
+        <span>
+          <strong>Training Index</strong>
+          <small>Static workspace data</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#datasets">Datasets</a>
+        <a href="#roots">Roots</a>
+        <a href="#files">Files</a>
+        <a href="./site-data.json">JSON</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro-band" aria-label="Workspace overview">
+        <div class="intro-copy">
+          <p class="eyebrow">Generated workspace index</p>
+          <h1>Solana Clawd AI Training Framework</h1>
+          <p id="workspacePath" class="lede">Loading workspace data...</p>
+          <div class="toolbar" role="search">
+            <label class="field search-field">
+              <span>Search</span>
+              <input id="searchInput" type="search" autocomplete="off" placeholder="Path, root, dataset, config" />
+            </label>
+            <label class="field root-field">
+              <span>Root</span>
+              <select id="rootFilter">
+                <option value="all">All roots</option>
+              </select>
+            </label>
+            <label class="field kind-field">
+              <span>Kind</span>
+              <select id="kindFilter">
+                <option value="all">All kinds</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <figure class="intro-asset">
+          <img src="./assets/clawd-mascot.png" alt="Clawd mascot asset" />
+        </figure>
+      </section>
+
+      <section id="metrics" class="metrics-grid" aria-label="Workspace metrics"></section>
+
+      <section class="workspace-layout">
+        <aside class="rail" aria-label="Workspace roots">
+          <div class="rail-head">
+            <p class="eyebrow">Roots</p>
+            <strong id="rootCount">0</strong>
+          </div>
+          <div id="rootRail" class="root-rail"></div>
+          <div id="policyBox" class="policy-box"></div>
+        </aside>
+
+        <div class="main-stack">
+          <section id="datasets" class="data-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Datasets</p>
+                <h2>Training Corpora And Manifests</h2>
+              </div>
+              <strong id="datasetCount">0</strong>
+            </div>
+            <div id="datasetGrid" class="dataset-grid"></div>
+          </section>
+
+          <section id="roots" class="data-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Source Roots</p>
+                <h2>Included Workspace Areas</h2>
+              </div>
+              <strong id="includedBytes">0 B</strong>
+            </div>
+            <div id="rootGrid" class="root-grid"></div>
+          </section>
+
+          <section id="docs" class="data-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Docs</p>
+                <h2>Cards, Model Notes, And Registry Text</h2>
+              </div>
+              <strong id="docCount">0</strong>
+            </div>
+            <div id="docList" class="doc-list"></div>
+          </section>
+
+          <section id="files" class="data-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Files</p>
+                <h2>Static Inventory</h2>
+              </div>
+              <strong id="fileCount">0</strong>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Path</th>
+                    <th>Root</th>
+                    <th>Kind</th>
+                    <th>Rows</th>
+                    <th>Size</th>
+                  </tr>
+                </thead>
+                <tbody id="fileTable"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="previews" class="data-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Previews</p>
+                <h2>Redacted Samples</h2>
+              </div>
+              <strong id="previewCount">0</strong>
+            </div>
+            <div id="previewList" class="preview-list"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

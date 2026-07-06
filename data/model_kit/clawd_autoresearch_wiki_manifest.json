@@ -1,0 +1,963 @@
+{
+  "generated_at": "2026-06-21T19:46:26+00:00",
+  "dataset_name": "Clawd Autoresearch Wiki Instruct",
+  "repo_id": "solanaclawd/clawd-autoresearch-wiki-instruct",
+  "builder": "scripts/realtime_dataset_ingest.py",
+  "counts": {
+    "examples": 530,
+    "sources": 77,
+    "missing_inputs": 0,
+    "duplicate_examples": 0,
+    "duplicate_files_skipped": 0,
+    "secret_or_invalid_skipped": 13,
+    "by_source_type": {
+      "code": 428,
+      "json": 43,
+      "text": 59
+    }
+  },
+  "splits": {
+    "train": 477,
+    "eval": 26,
+    "test": 27
+  },
+  "settings": {
+    "train_ratio": 0.9,
+    "eval_ratio": 0.05,
+    "seed": 42,
+    "chunk_chars": 1800,
+    "chunk_overlap": 120,
+    "max_context_chars": 5000,
+    "min_text_chars": 80,
+    "keep_duplicate_files": false,
+    "save_arrow_dataset": false
+  },
+  "missing_inputs": [],
+  "sources": [
+    {
+      "source_id": "SOVEREIGN_RESEARCH.md",
+      "source_type": "text",
+      "sha256": "967692657d50ab0402b5a2ff98e4e597f7a42621451bbe6e4cd9be571622924f",
+      "size_bytes": 21528,
+      "records": 14,
+      "skipped": 1,
+      "metadata": {
+        "chars": 20876,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "wiki.md",
+      "source_type": "text",
+      "sha256": "f41a1e8176c3674c34fabfe642aa7a741da436e7eb3514f050c3737f340f9ecf",
+      "size_bytes": 15727,
+      "records": 11,
+      "skipped": 0,
+      "metadata": {
+        "chars": 13712,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "openclawd-hermes-memory.md",
+      "source_type": "text",
+      "sha256": "74da47d9d42518e3672a3b45d974d6ece39d8fba8ccfacabfcc5422098d5b9e9",
+      "size_bytes": 5856,
+      "records": 5,
+      "skipped": 0,
+      "metadata": {
+        "chars": 5840,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "clawd-character.md",
+      "source_type": "text",
+      "sha256": "cbd164c11999578ca138c1804fcbd31d5ab5802a02808bacace6293814eea4fe",
+      "size_bytes": 5079,
+      "records": 4,
+      "skipped": 0,
+      "metadata": {
+        "chars": 5061,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "patterns.jsonl",
+      "source_type": "json",
+      "sha256": "bab3ba3de062cbae2a4e0e99a4a4e51f9ebd5a467fcf4781784a44ebf8a2f705",
+      "size_bytes": 12144,
+      "records": 11,
+      "skipped": 3,
+      "metadata": {
+        "rows": 11
+      }
+    },
+    {
+      "source_id": "codebase-facts.jsonl",
+      "source_type": "json",
+      "sha256": "e77eb7bcbf9134e451cb0ce9eb82d40a0242f352267d580f38ddd7276200331a",
+      "size_bytes": 11153,
+      "records": 11,
+      "skipped": 3,
+      "metadata": {
+        "rows": 11
+      }
+    },
+    {
+      "source_id": "decisions.jsonl",
+      "source_type": "json",
+      "sha256": "28d94b5b8c3434b0101ba8df5691970c94ff0bb28c1da3cd78502485ba3426e0",
+      "size_bytes": 9664,
+      "records": 9,
+      "skipped": 3,
+      "metadata": {
+        "rows": 9
+      }
+    },
+    {
+      "source_id": "api-behaviors.jsonl",
+      "source_type": "json",
+      "sha256": "ebf8535ac7dda8db303fc186c76379d86e7e52ca1352119763e1ae3553e20f97",
+      "size_bytes": 10755,
+      "records": 11,
+      "skipped": 3,
+      "metadata": {
+        "rows": 11
+      }
+    },
+    {
+      "source_id": "README.md",
+      "source_type": "text",
+      "sha256": "07f9b3ac64eaa03b06a068cb9de03f8f95e4a9bfde15f7beed2f82b97261c156",
+      "size_bytes": 2826,
+      "records": 2,
+      "skipped": 0,
+      "metadata": {
+        "chars": 2820,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "__init__.py",
+      "source_type": "code",
+      "sha256": "cea9d8fd478e36ed33b3ee431cefdf7051522359824e4ef7527caf802781f70d",
+      "size_bytes": 725,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 725,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "cufolio_adapter.py",
+      "source_type": "code",
+      "sha256": "e450d4055a523b2063b4fbbecc5678e22938ab2d2c26d1115809982a1036c28a",
+      "size_bytes": 4122,
+      "records": 3,
+      "skipped": 0,
+      "metadata": {
+        "chars": 4122,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "factory.py",
+      "source_type": "code",
+      "sha256": "f8d6421b48479713c4ee62d5b3077640892ce4a68a30b0f1be70e9565c79ec7f",
+      "size_bytes": 5245,
+      "records": 5,
+      "skipped": 0,
+      "metadata": {
+        "chars": 5245,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "nvidia_agent.py",
+      "source_type": "code",
+      "sha256": "c7c364b63b31bed0f624f537121d5aacb5cd649bdff9874b93c20972d1706b05",
+      "size_bytes": 13780,
+      "records": 10,
+      "skipped": 0,
+      "metadata": {
+        "chars": 13780,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "rise_client.py",
+      "source_type": "code",
+      "sha256": "285db612d95d92481499a122fafa4d9f2c0dd44f2f405dc748c684abfa118d09",
+      "size_bytes": 3177,
+      "records": 2,
+      "skipped": 0,
+      "metadata": {
+        "chars": 3177,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "vulcan_specs.py",
+      "source_type": "code",
+      "sha256": "39870fb9a71dac28bb5c23932f32c4e8be4dee04a3047f8f6f57bc2116da9f72",
+      "size_bytes": 8684,
+      "records": 7,
+      "skipped": 0,
+      "metadata": {
+        "chars": 8684,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "README.md",
+      "source_type": "text",
+      "sha256": "e0d91e1d6b96cdd5ff0e82257cbb1db556b7d7a02ba1582d5eea04266117f67a",
+      "size_bytes": 13110,
+      "records": 9,
+      "skipped": 0,
+      "metadata": {
+        "chars": 11864,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "program.md",
+      "source_type": "text",
+      "sha256": "c686fa02cc5aa7ed73c2a742c551302e6c26d1b4b113b637dde319f650fe9806",
+      "size_bytes": 1833,
+      "records": 2,
+      "skipped": 0,
+      "metadata": {
+        "chars": 1822,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "strategy.md",
+      "source_type": "text",
+      "sha256": "6a2b3b935fc8583249c86bb27a0c66c80d342ccdc49f32082e0fd33705226869",
+      "size_bytes": 458,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 456,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "pyproject.toml",
+      "source_type": "code",
+      "sha256": "675c150a9e0769f0e39a43eb7d836934266fa348d6e2403521f1ff99f9b9f1af",
+      "size_bytes": 543,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 543,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "package.json",
+      "source_type": "json",
+      "sha256": "154ee1dfeeb450c4ad4ed84885c4a93f0934eba3be91f084fb7944c4b093f90b",
+      "size_bytes": 926,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "rows": 1
+      }
+    },
+    {
+      "source_id": "schema.sql",
+      "source_type": "code",
+      "sha256": "bfb220bc16d2edfa38cc4a33af0d5c3fd1d69f1821ebfdd0bc5678fc57d0d33b",
+      "size_bytes": 13909,
+      "records": 9,
+      "skipped": 0,
+      "metadata": {
+        "chars": 13713,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "bridge_client.py",
+      "source_type": "code",
+      "sha256": "d85d78b42357fa308841ba4ab476725d0454952030310af040b73db89ad7e2be",
+      "size_bytes": 6053,
+      "records": 4,
+      "skipped": 0,
+      "metadata": {
+        "chars": 5526,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "solana_das.py",
+      "source_type": "code",
+      "sha256": "670e8dab179ce94db4335fc333d5c9955ea6bbd2880cbffd374de6a4fbfe2dc4",
+      "size_bytes": 13376,
+      "records": 10,
+      "skipped": 0,
+      "metadata": {
+        "chars": 13376,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "prepare.py",
+      "source_type": "code",
+      "sha256": "95fd1bac79614eccc45673b7ae22a7dca7e5f496d7b487fd362fde5663e2734c",
+      "size_bytes": 14976,
+      "records": 10,
+      "skipped": 0,
+      "metadata": {
+        "chars": 14968,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "train.py",
+      "source_type": "code",
+      "sha256": "69dcf78cbca5d54a3f80259a0cb7b788cd46fdfea62d24263104c5623c67af8f",
+      "size_bytes": 26183,
+      "records": 20,
+      "skipped": 0,
+      "metadata": {
+        "chars": 26177,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "TradingAgent.ts",
+      "source_type": "code",
+      "sha256": "76d4b058b2e7d543d56e8115823890c32d99a91208638c9e46585923edb0a290",
+      "size_bytes": 17138,
+      "records": 11,
+      "skipped": 0,
+      "metadata": {
+        "chars": 16702,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "clawdbot.ts",
+      "source_type": "code",
+      "sha256": "6138b3d6fbb2235e9e17a096ac3eefd207e20e66afaeb15150c8a34c622461c0",
+      "size_bytes": 19054,
+      "records": 12,
+      "skipped": 0,
+      "metadata": {
+        "chars": 17841,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "scratchpad.ts",
+      "source_type": "code",
+      "sha256": "12b4fec2680bdb287350c7d7e51c94f946337bffb0002fcf2bf4f1dd217de6ef",
+      "size_bytes": 11761,
+      "records": 7,
+      "skipped": 0,
+      "metadata": {
+        "chars": 10882,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "PatternRecognizer.ts",
+      "source_type": "code",
+      "sha256": "4f6aebc6ae83bc1e5fd44e3eafda1e7f42520531f347d4893885f902231178f9",
+      "size_bytes": 6010,
+      "records": 4,
+      "skipped": 0,
+      "metadata": {
+        "chars": 6006,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "SignalGenerator.ts",
+      "source_type": "code",
+      "sha256": "e8eab046b4f56ba3d9ddb816f33683c0810aac2c14702b71101dd3da57b943a7",
+      "size_bytes": 9937,
+      "records": 7,
+      "skipped": 0,
+      "metadata": {
+        "chars": 9679,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "server.ts",
+      "source_type": "code",
+      "sha256": "90483dd438ecc7e50c79446218662b3992351b9daba405da2ab454bb677fa164",
+      "size_bytes": 28714,
+      "records": 17,
+      "skipped": 0,
+      "metadata": {
+        "chars": 26040,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "config.ts",
+      "source_type": "code",
+      "sha256": "7dfb4b18009ebf7ef16aad77702bc86527248e80e439a98ef52603abc438f16c",
+      "size_bytes": 4162,
+      "records": 3,
+      "skipped": 0,
+      "metadata": {
+        "chars": 3550,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "aster.ts",
+      "source_type": "code",
+      "sha256": "33a6ddf9adace0f388ea2eae73523722cfed31569fee85cce29a416feaa4c319",
+      "size_bytes": 10168,
+      "records": 7,
+      "skipped": 0,
+      "metadata": {
+        "chars": 9568,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "birdeye.ts",
+      "source_type": "code",
+      "sha256": "927b32f4e48b69e32bcebeca9c50de32e8eca80ed77435fe79ef81236a49ae18",
+      "size_bytes": 9855,
+      "records": 6,
+      "skipped": 0,
+      "metadata": {
+        "chars": 9043,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "coingecko.ts",
+      "source_type": "code",
+      "sha256": "ab7416d4ee758e1696781a7c09cd6d57281b24bb816d2281b1b25a7135259fd4",
+      "size_bytes": 4519,
+      "records": 3,
+      "skipped": 0,
+      "metadata": {
+        "chars": 4261,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "financial.ts",
+      "source_type": "code",
+      "sha256": "def250d85203327b38b471962de74ae53301180aea60bdd8a2cde64e2cd9d722",
+      "size_bytes": 4335,
+      "records": 3,
+      "skipped": 0,
+      "metadata": {
+        "chars": 4077,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "helius.ts",
+      "source_type": "code",
+      "sha256": "1a669860580ad1c98aa499e06e6e75c3b16be65f7f9d10170d0b998fd20f582c",
+      "size_bytes": 10550,
+      "records": 7,
+      "skipped": 0,
+      "metadata": {
+        "chars": 9847,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "index.ts",
+      "source_type": "code",
+      "sha256": "abfa2507766cc1baa446c225977aaad9145fc7f8298e2745ce5c0db6e68c997f",
+      "size_bytes": 7864,
+      "records": 5,
+      "skipped": 0,
+      "metadata": {
+        "chars": 7156,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "MemoryEngine.ts",
+      "source_type": "code",
+      "sha256": "30e3f78df3057c1f439d821f630ebb1ad160196dd1eacbbc2bacb1ea302603d2",
+      "size_bytes": 11576,
+      "records": 7,
+      "skipped": 0,
+      "metadata": {
+        "chars": 10966,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "types.ts",
+      "source_type": "code",
+      "sha256": "f48bc97f5465f5df0b6ab06060b7239782007c795e7045be2ca203f149005554",
+      "size_bytes": 3346,
+      "records": 2,
+      "skipped": 0,
+      "metadata": {
+        "chars": 2898,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "vault.ts",
+      "source_type": "code",
+      "sha256": "1c96c72bb9ea4e09c2b4b6be0b8aafba8496b7e2f405ec44eb746dccc9e00666",
+      "size_bytes": 18624,
+      "records": 12,
+      "skipped": 0,
+      "metadata": {
+        "chars": 17626,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "llm.ts",
+      "source_type": "code",
+      "sha256": "393e5d5fbc1535f432c0a72a20a76ba8f857cd63ca831235a8a3da1793040e88",
+      "size_bytes": 7857,
+      "records": 5,
+      "skipped": 0,
+      "metadata": {
+        "chars": 7283,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "loop.ts",
+      "source_type": "code",
+      "sha256": "b6e5a062fe07691033c1c34e2a1f01d2ce88b6c5920ccbe68dd4d55e53eec9f6",
+      "size_bytes": 19271,
+      "records": 12,
+      "skipped": 0,
+      "metadata": {
+        "chars": 18525,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "ClawdBotStrategy.ts",
+      "source_type": "code",
+      "sha256": "e6294fb467ef205e96f61dc1174141b84d0f47a5d1ecbf97e4c471bc58d8d502",
+      "size_bytes": 10947,
+      "records": 7,
+      "skipped": 0,
+      "metadata": {
+        "chars": 10333,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "StrategyRegistry.ts",
+      "source_type": "code",
+      "sha256": "465cae36d99ed1988dbd204e10efe909825ec6323243047f9e5d34d6911ad2ec",
+      "size_bytes": 11760,
+      "records": 7,
+      "skipped": 0,
+      "metadata": {
+        "chars": 11194,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "indicators.ts",
+      "source_type": "code",
+      "sha256": "b48510e08e4191d3faf520f10320ae18528b6cf9d0dce58927b29685cceb915a",
+      "size_bytes": 5702,
+      "records": 4,
+      "skipped": 0,
+      "metadata": {
+        "chars": 5122,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "types.ts",
+      "source_type": "code",
+      "sha256": "6e398760c59d9d98a1c4856befa00d0cd8a0219ec4e5d9ef5cc86d0fb92d0cde",
+      "size_bytes": 3802,
+      "records": 2,
+      "skipped": 0,
+      "metadata": {
+        "chars": 3212,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "logger.ts",
+      "source_type": "code",
+      "sha256": "c5be8f46d3a275e807d04162b63ec534b4ed6dc649cf8d0df614b0a803b5be31",
+      "size_bytes": 1792,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 1790,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "__init__.py",
+      "source_type": "code",
+      "sha256": "49403c505ba934f9731304eda3eb26bf44a8d417775b02b8bb4efb509413d98c",
+      "size_bytes": 737,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 737,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "nemotron.py",
+      "source_type": "code",
+      "sha256": "cab569c74ddef3b3d4d2f065c093cde804bdc95e5a32b033a1dad4bfb2ccb22d",
+      "size_bytes": 15793,
+      "records": 10,
+      "skipped": 0,
+      "metadata": {
+        "chars": 14245,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "nvidia_signals.py",
+      "source_type": "code",
+      "sha256": "144ae9b736b4816773ee24a4a691d5eb70714a30841ca2310deb14b2935ee614",
+      "size_bytes": 4453,
+      "records": 3,
+      "skipped": 0,
+      "metadata": {
+        "chars": 4445,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "paper.py",
+      "source_type": "code",
+      "sha256": "9a952a20b7ce1d7202b500f28c9f3648d37cbc97e9ddd17eb4981c2d10a12c56",
+      "size_bytes": 16887,
+      "records": 12,
+      "skipped": 0,
+      "metadata": {
+        "chars": 16887,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "rise.py",
+      "source_type": "code",
+      "sha256": "8f633835cc6f368c2a5e9df07abbfe9df0cf8ba175aa7b23db37ff51e30b3665",
+      "size_bytes": 3147,
+      "records": 2,
+      "skipped": 0,
+      "metadata": {
+        "chars": 3147,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "vulcan.py",
+      "source_type": "code",
+      "sha256": "10edc489246b1219e2930727c880c5dab0f91e466ff36aabb8be885d9bd1f477",
+      "size_bytes": 17423,
+      "records": 12,
+      "skipped": 0,
+      "metadata": {
+        "chars": 17319,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "__init__.py",
+      "source_type": "code",
+      "sha256": "a093beb5a6599c63e9c6277125771978cb7108347d4a991623ced66b0cbaf7a2",
+      "size_bytes": 618,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 618,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "grid.py",
+      "source_type": "code",
+      "sha256": "5f4d98a56dfae675f3c095c3cca7263dc32bc1fad7cf672f1a6e0f37f31f97f3",
+      "size_bytes": 4834,
+      "records": 4,
+      "skipped": 0,
+      "metadata": {
+        "chars": 4832,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "runner.py",
+      "source_type": "code",
+      "sha256": "dedc52a5d46021c2ab5340679b746896f769ced11c361dbf0be8d906692c3b82",
+      "size_bytes": 7279,
+      "records": 5,
+      "skipped": 0,
+      "metadata": {
+        "chars": 7279,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "ta.py",
+      "source_type": "code",
+      "sha256": "c698cd2a3b617e4ddd155fe807f565624c5a6e74c7c1027b19161bcb5fb4345a",
+      "size_bytes": 7855,
+      "records": 6,
+      "skipped": 0,
+      "metadata": {
+        "chars": 7853,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "twap.py",
+      "source_type": "code",
+      "sha256": "bca3e8d0b41543b4f805f11e04e200b09543125a84482ae5effbba8d1b62f629",
+      "size_bytes": 3668,
+      "records": 3,
+      "skipped": 0,
+      "metadata": {
+        "chars": 3668,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "__init__.py",
+      "source_type": "code",
+      "sha256": "3b75fe3e31b138f812a4bc6eb140ba78ebb5a3255fafffce0a30fa3fa125f0f9",
+      "size_bytes": 682,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 682,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "honcho.py",
+      "source_type": "code",
+      "sha256": "f334fbd00b9ae05c997d13d0284d918dcc86b33f25179dcdca1fc547f73e0382",
+      "size_bytes": 23566,
+      "records": 16,
+      "skipped": 0,
+      "metadata": {
+        "chars": 23552,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "README.md",
+      "source_type": "text",
+      "sha256": "1e575327d16e034cce0328f9b0f0e6fb6f97ad306d1a6a274dc243bfe49fd12a",
+      "size_bytes": 14150,
+      "records": 10,
+      "skipped": 0,
+      "metadata": {
+        "chars": 13778,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "PLAN_SOLANA_REWRITE.md",
+      "source_type": "text",
+      "sha256": "fed2eb149428eb9322f66fd088fb52e1546e657feaad94e03419936dffc066bb",
+      "size_bytes": 1112,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 1110,
+        "redacted": false
+      }
+    },
+    {
+      "source_id": "__init__.py",
+      "source_type": "code",
+      "sha256": "0b48edbc841a1b554ef3fb1f7a2ee2c348ce2eb26a98928d44c75982c615273b",
+      "size_bytes": 182,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 182,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "dataset.py",
+      "source_type": "code",
+      "sha256": "7605ca15f03488379bc7dd48af501443e3f71f979d1eef811336eaf8e60ff1bf",
+      "size_bytes": 17405,
+      "records": 11,
+      "skipped": 0,
+      "metadata": {
+        "chars": 17241,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "light_protocol.py",
+      "source_type": "code",
+      "sha256": "0f9105c5b527bf7742be4ea370a55296692f944ad798546ef7dc112de81a9a78",
+      "size_bytes": 33873,
+      "records": 23,
+      "skipped": 0,
+      "metadata": {
+        "chars": 33853,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "nemotron_labeler.py",
+      "source_type": "code",
+      "sha256": "46cd66cd014d14594781e40eea97f674eda94e678f425153c1bd96fcda72824a",
+      "size_bytes": 8248,
+      "records": 5,
+      "skipped": 0,
+      "metadata": {
+        "chars": 7718,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "rpc.py",
+      "source_type": "code",
+      "sha256": "2d19b4d6e3e12c309d3ac713ca2a4c187c45151c1f3126ffdbac809bc6ded32b",
+      "size_bytes": 7448,
+      "records": 5,
+      "skipped": 0,
+      "metadata": {
+        "chars": 7446,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "tasks.py",
+      "source_type": "code",
+      "sha256": "4f864854f7fb7a328ab628b403142ba554da5662049fd004b74c9695d59d50c3",
+      "size_bytes": 12359,
+      "records": 9,
+      "skipped": 0,
+      "metadata": {
+        "chars": 12245,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "zk_routing.py",
+      "source_type": "code",
+      "sha256": "efde76331671cf64279addb1cca4b49395cd954c0ac6a74ba6d4d2f17c5e762d",
+      "size_bytes": 12198,
+      "records": 8,
+      "skipped": 0,
+      "metadata": {
+        "chars": 11810,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "functioncall.py",
+      "source_type": "code",
+      "sha256": "bb63ad931150791a8eb6b556d792d68bc4264b1e1f04f5aac19ebf57a716757c",
+      "size_bytes": 10493,
+      "records": 8,
+      "skipped": 0,
+      "metadata": {
+        "chars": 10472,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "functions.py",
+      "source_type": "code",
+      "sha256": "dfcc450172ce15d5391a04bd9768d5f026f42a126c1be28eafc3e79d5efcfbf9",
+      "size_bytes": 24561,
+      "records": 18,
+      "skipped": 0,
+      "metadata": {
+        "chars": 24133,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "prompter.py",
+      "source_type": "code",
+      "sha256": "ae168227e8485dafdd9526717073f4ff09039be7248aea2188b20d0b4531b0e9",
+      "size_bytes": 4899,
+      "records": 4,
+      "skipped": 0,
+      "metadata": {
+        "chars": 4891,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "schema.py",
+      "source_type": "code",
+      "sha256": "a1aa3b2031377ad5cb1903fb51689d2778dec5c7c9593cf5a610b329c14cdb24",
+      "size_bytes": 2748,
+      "records": 2,
+      "skipped": 0,
+      "metadata": {
+        "chars": 2740,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "prepare_solana_data.py",
+      "source_type": "code",
+      "sha256": "4130c3c571670f3b564caa86c7b0cebdec63ece35b0d35c1854ee9f5a59d4be5",
+      "size_bytes": 1527,
+      "records": 1,
+      "skipped": 0,
+      "metadata": {
+        "chars": 1527,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "chat_sft.py",
+      "source_type": "code",
+      "sha256": "2b86b366da809cce032276a42cd68328a10063d77dce7023ddacec43a99964ed",
+      "size_bytes": 25606,
+      "records": 20,
+      "skipped": 0,
+      "metadata": {
+        "chars": 25604,
+        "redacted": true
+      }
+    },
+    {
+      "source_id": "solana_eval.py",
+      "source_type": "code",
+      "sha256": "bfa92d67b872b3d3a94c5bcdbb6ad50e852ec1715ae14184ebf2210d3505f271",
+      "size_bytes": 5214,
+      "records": 4,
+      "skipped": 0,
+      "metadata": {
+        "chars": 5210,
+        "redacted": true
+      }
+    }
+  ],
+  "dataset_sha256": "4de7f47e7463501407f0e02cc5b9796a097f071d30ec10ec3c87d9308dadac5c",
+  "output": {
+    "jsonl": "data/model_kit/clawd_autoresearch_wiki_sft.jsonl",
+    "dataset_dir": "data/model_kit/clawd_autoresearch_wiki_processed",
+    "dataset_card": "data/model_kit/clawd_autoresearch_wiki_dataset_card.md"
+  }
+}

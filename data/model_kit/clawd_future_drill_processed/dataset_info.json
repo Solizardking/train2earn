@@ -1,0 +1,15 @@
+{
+  "num_examples": 648,
+  "splits": {
+    "train": 583,
+    "eval": 32,
+    "test": 33
+  },
+  "schema": {
+    "messages": "list[{role: str, content: str}]"
+  },
+  "source_files": [
+    "data/model_kit/clawd_future_drill_sft.jsonl"
+  ],
+  "duplicates_removed": 0
+}

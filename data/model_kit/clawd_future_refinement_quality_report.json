@@ -1,0 +1,15 @@
+{
+  "num_examples": 480,
+  "splits": {
+    "train": 432,
+    "eval": 24,
+    "test": 24
+  },
+  "schema": {
+    "messages": "list[{role: str, content: str}]"
+  },
+  "source_files": [
+    "data/model_kit/clawd_future_refinement_sft.jsonl"
+  ],
+  "duplicates_removed": 0
+}

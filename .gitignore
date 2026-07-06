@@ -1,0 +1,85 @@
+# OS/editor noise
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea/
+.vscode/
+wandb/
+.env
+.env.local
+.env.*.local
+.cache/
+build/
+dist/
+node_modules
+node_modules/
+.DS_Store
+*.log
+coverage/
+web/frontend/dist/
+web/frontend/.npm-cache/
+openclawd-studio/.next/
+openclawd-studio/node_modules
+openclawd-studio/node_modules/
+openclawd-studio/.npm-cache/
+openclawd-studio/test-results/
+openclawd-studio/coverage/
+openclawd-studio/.env
+openclawd-studio/.env.local
+openclawd-studio/.env.*.local
+zk-primitives/**/node_modules/
+zk-primitives/**/.env
+zk-primitives/**/.env.local
+zk-primitives/**/dist/
+
+# Environment, credentials, and local auth material
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*secret*
+*credentials*
+*keypair*
+wallet.json
+id.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node dependencies and generated frontend output
+node_modules/
+.npm-cache/
+dist/
+coverage/
+
+# Local deployment metadata
+.vercel/
+
+# Training/runtime outputs that should be regenerated or synced externally
+outputs/
+checkpoints/
+runs/
+wandb/
+*.wandb
+
+# Local ingest drop zone; keep the directory placeholder only.
+data/incoming/*
+!data/incoming/.gitkeep
+
+# Logs and local scratch files
+*.log
+*.tmp
+*.bak

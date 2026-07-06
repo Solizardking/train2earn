@@ -1,0 +1,16 @@
+{
+  "num_examples": 64408,
+  "splits": {
+    "train": 57967,
+    "eval": 3220,
+    "test": 3221
+  },
+  "schema": {
+    "messages": "list[{role: str, content: str}]",
+    "metadata": "optional dict[str, str] normalized across splits"
+  },
+  "source_files": [
+    "data/model_kit/solana_clawd_reasoning_tooling_sft.jsonl"
+  ],
+  "duplicates_removed": 0
+}

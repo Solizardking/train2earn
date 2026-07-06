@@ -1,0 +1,250 @@
+{
+  "core_ai_root": "core-ai",
+  "generated_at": "2026-07-04T19:59:11+00:00",
+  "mcp_tools": [],
+  "missing_required_paths": [
+    "core-ai",
+    "core-ai/.agents",
+    "core-ai/.clawd-plugin",
+    "core-ai/.github",
+    "core-ai/clawd-agents",
+    "core-ai/clawd-code",
+    "core-ai/clawd-grok",
+    "core-ai/docs",
+    "core-ai/helius-cli",
+    "core-ai/helius-cursor",
+    "core-ai/helius-mcp",
+    "core-ai/helius-plugin",
+    "core-ai/helius-skills",
+    "core-ai/knowledge",
+    "core-ai/mcp-server",
+    "core-ai/scripts",
+    "core-ai/v3",
+    "core-ai/.gitignore",
+    "core-ai/.npmrc",
+    "core-ai/AGENTS.md",
+    "core-ai/CLAUDE.md",
+    "core-ai/CLAWD.md",
+    "core-ai/CONTRIBUTING.md",
+    "core-ai/glama.json",
+    "core-ai/LICENSE",
+    "core-ai/package.json",
+    "core-ai/README.md",
+    "core-ai/versions.json"
+  ],
+  "name": "Clawd Core AI Inventory",
+  "packages": [],
+  "required_paths": [
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/.agents"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/.clawd-plugin"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/.github"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/clawd-agents"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/clawd-code"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/clawd-grok"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/docs"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/helius-cli"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/helius-cursor"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/helius-mcp"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/helius-plugin"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/helius-skills"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/knowledge"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/mcp-server"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/scripts"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/v3"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/.gitignore"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/.npmrc"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/AGENTS.md"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/CLAUDE.md"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/CLAWD.md"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/CONTRIBUTING.md"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/glama.json"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/LICENSE"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/package.json"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/README.md"
+    },
+    {
+      "exists": false,
+      "kind": "missing",
+      "path": "core-ai/versions.json"
+    }
+  ],
+  "schema_version": "2026-06-21",
+  "skills": [],
+  "source_policy": {
+    "copy_source_files": false,
+    "mode": "reference-mount",
+    "secret_filenames_excluded": [
+      ".env",
+      ".env.local",
+      "application_default_credentials.json",
+      "id.json"
+    ],
+    "skip_dirs": [
+      ".git",
+      ".next",
+      "__pycache__",
+      "build",
+      "dist",
+      "node_modules",
+      "target"
+    ]
+  },
+  "top_level_docs": [
+    {
+      "bytes": null,
+      "exists": false,
+      "path": "core-ai/README.md",
+      "sha256": null
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "path": "core-ai/CLAWD.md",
+      "sha256": null
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "path": "core-ai/AGENTS.md",
+      "sha256": null
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "path": "core-ai/CLAUDE.md",
+      "sha256": null
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "path": "core-ai/CONTRIBUTING.md",
+      "sha256": null
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "path": "core-ai/LICENSE",
+      "sha256": null
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "path": "core-ai/versions.json",
+      "sha256": null
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "path": "core-ai/glama.json",
+      "sha256": null
+    }
+  ]
+}

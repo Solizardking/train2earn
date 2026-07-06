@@ -1,0 +1,293 @@
+{
+  "agent": {
+    "default_model": "NousResearch/Hermes-3-Llama-3.1-8B",
+    "local_adapter_env": "HERMES_ADAPTER",
+    "router_token_env": "HF_TOKEN",
+    "script": "perps/functioncall.py"
+  },
+  "generated_at": "2026-06-22T20:25:21+00:00",
+  "handoff": {
+    "default_market": "SOL",
+    "default_mode": "observer",
+    "output": "data/perps/nvidia_perps_handoff.json",
+    "script": "perps/nvidia_perps.py",
+    "threshold": 0.35
+  },
+  "name": "Solana Clawd Model Kit Perps Tools",
+  "safety": {
+    "constitution_gate": true,
+    "default_modes": [
+      "observer",
+      "paper"
+    ],
+    "live_trading_default": false,
+    "live_trading_env": "LIVE_TRADING",
+    "private_key_policy": "never write or read private keys through model-kit manifests",
+    "side_effect_gate": "--allow-live-env --yes is required if LIVE_TRADING=true is present",
+    "three_laws_hash": "sha256:fa1c36ab5605df2880bedc495ddd4a3096c89ab8a749acf043ea53b2ab31c2bc",
+    "wallet_keypair_env": "AGENT_WALLET_KEYPAIR"
+  },
+  "source_files": {
+    "README.md": "ai-training/perps/README.md",
+    "functioncall.py": "ai-training/perps/functioncall.py",
+    "functions.py": "ai-training/perps/functions.py",
+    "nvidia_perps.py": "ai-training/perps/nvidia_perps.py",
+    "prompter.py": "ai-training/perps/prompter.py",
+    "schema.py": "ai-training/perps/schema.py"
+  },
+  "tool_count": 13,
+  "tools": [
+    {
+      "description": "Get the current SOL price in USD from CoinGecko.",
+      "name": "get_sol_price",
+      "parameters": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get the current price of any Solana token by symbol or mint address. Known symbols: SOL, USDC, BONK, JUP, WIF, JTO, DRIFT, PYTH, mSOL, CLAWD.",
+      "name": "get_token_price",
+      "parameters": {
+        "properties": {
+          "symbol": {
+            "description": "Token symbol (e.g. BONK) or mint address",
+            "type": "string"
+          }
+        },
+        "required": [
+          "symbol"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get Phoenix DEX perpetual markets list with mark prices, 24h volume, open interest, and funding rates.",
+      "name": "get_perp_markets",
+      "parameters": {
+        "properties": {
+          "market": {
+            "description": "Optional market filter, e.g. 'SOL-PERP'. Leave empty for all markets.",
+            "type": "string"
+          }
+        },
+        "required": [],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get the current funding rate for a Phoenix perpetual market. Positive = longs pay shorts; negative = shorts pay longs. Rate is per hour.",
+      "name": "get_funding_rate",
+      "parameters": {
+        "properties": {
+          "market": {
+            "description": "Market symbol, e.g. 'SOL-PERP', 'BTC-PERP', 'ETH-PERP'",
+            "type": "string"
+          }
+        },
+        "required": [
+          "market"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get the Phoenix DEX orderbook for a perpetual market (top N bids and asks).",
+      "name": "get_orderbook",
+      "parameters": {
+        "properties": {
+          "depth": {
+            "default": 5,
+            "description": "Number of price levels to return (default: 5, max: 20)",
+            "type": "integer"
+          },
+          "market": {
+            "description": "Market symbol, e.g. 'SOL-PERP'",
+            "type": "string"
+          }
+        },
+        "required": [
+          "market"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get open perpetual positions for a wallet address on Phoenix DEX.",
+      "name": "check_positions",
+      "parameters": {
+        "properties": {
+          "wallet": {
+            "description": "Solana wallet public key",
+            "type": "string"
+          }
+        },
+        "required": [
+          "wallet"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get SOL balance for a wallet address.",
+      "name": "check_sol_balance",
+      "parameters": {
+        "properties": {
+          "wallet": {
+            "description": "Solana wallet public key",
+            "type": "string"
+          }
+        },
+        "required": [
+          "wallet"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get a Jupiter DEX swap quote. Shows best route, price impact, and expected output for swapping between any two Solana tokens.",
+      "name": "get_jupiter_quote",
+      "parameters": {
+        "properties": {
+          "amount": {
+            "description": "Amount of input token to swap",
+            "type": "number"
+          },
+          "input_mint": {
+            "description": "Input token symbol (SOL, USDC, etc.) or mint address",
+            "type": "string"
+          },
+          "output_mint": {
+            "description": "Output token symbol or mint address",
+            "type": "string"
+          }
+        },
+        "required": [
+          "input_mint",
+          "output_mint",
+          "amount"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Paper trade a Phoenix perpetual position. Simulates entry without real funds. Returns entry price, estimated liquidation, and risk metrics. Set paper=false only when LIVE_TRADING env var is 'true'.",
+      "name": "paper_trade",
+      "parameters": {
+        "properties": {
+          "leverage": {
+            "default": 1,
+            "description": "Leverage (1\u201310, default: 1)",
+            "type": "number"
+          },
+          "market": {
+            "description": "Market symbol, e.g. 'SOL-PERP'",
+            "type": "string"
+          },
+          "side": {
+            "description": "'long' or 'short'",
+            "type": "string"
+          },
+          "size_usd": {
+            "description": "Notional size in USD",
+            "type": "number"
+          }
+        },
+        "required": [
+          "market",
+          "side",
+          "size_usd"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get a comprehensive market overview: SOL price, top gaining tokens, Phoenix perps summary, and network stats. Use for a quick snapshot before making trading decisions.",
+      "name": "get_market_overview",
+      "parameters": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Get recent trade history for a wallet on Phoenix DEX \u2014 entries, exits, realized PnL, and volume.",
+      "name": "get_trader_history",
+      "parameters": {
+        "properties": {
+          "limit": {
+            "default": 10,
+            "description": "Number of trades to fetch (default: 10, max: 50)",
+            "type": "integer"
+          },
+          "wallet": {
+            "description": "Solana wallet public key",
+            "type": "string"
+          }
+        },
+        "required": [
+          "wallet"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Send SOL from the agent wallet to another address. In paper mode (default), simulates the transfer without signing. Set LIVE_TRADING=true to enable real transactions \u2014 requires AGENT_WALLET_KEYPAIR.",
+      "name": "send_sol",
+      "parameters": {
+        "properties": {
+          "amount_sol": {
+            "description": "Amount of SOL to send",
+            "type": "number"
+          },
+          "to": {
+            "description": "Recipient Solana address",
+            "type": "string"
+          }
+        },
+        "required": [
+          "to",
+          "amount_sol"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "description": "Assess the risk of entering a perpetual position: liquidation price, max loss, funding cost projections, and a 1\u201310 risk score.",
+      "name": "assess_position_risk",
+      "parameters": {
+        "properties": {
+          "capital_usd": {
+            "default": 1000,
+            "description": "Total trading capital for risk-% calculation",
+            "type": "number"
+          },
+          "leverage": {
+            "default": 1,
+            "description": "Leverage (1\u201310)",
+            "type": "number"
+          },
+          "market": {
+            "description": "Market symbol, e.g. 'SOL-PERP'",
+            "type": "string"
+          },
+          "side": {
+            "description": "'long' or 'short'",
+            "type": "string"
+          },
+          "size_usd": {
+            "description": "Notional position size in USD",
+            "type": "number"
+          }
+        },
+        "required": [
+          "market",
+          "side",
+          "size_usd"
+        ],
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "agent_profile": {
+    "blocked_default_modes": [
+      "live-trading",
+      "wallet-signing",
+      "secret-inspection"
+    ],
+    "companion_agents": [
+      "clawd-grok",
+      "helius-mcp",
+      "helius-plugin",
+      "clawd-agents",
+      "v3"
+    ],
+    "default_modes": [
+      "observer",
+      "paper",
+      "research",
+      "code"
+    ],
+    "domains": [
+      "solana",
+      "helius",
+      "mcp",
+      "zk-compression",
+      "perps-paper-trading",
+      "agentic-coding"
+    ],
+    "primary_agent": "clawd-code"
+  },
+  "artifacts": {
+    "blueprint": "/Users/8bit/Downloads/traintoearn/training/data/strategies/nemo_clawd_blueprint.json",
+    "inventory": "/Users/8bit/Downloads/traintoearn/training/data/strategies/nemo_clawd_core_inventory.json"
+  },
+  "core_ai_inventory": {
+    "mcp_tools": 0,
+    "missing_required_paths": [
+      "core-ai",
+      "core-ai/.agents",
+      "core-ai/.clawd-plugin",
+      "core-ai/.github",
+      "core-ai/clawd-agents",
+      "core-ai/clawd-code",
+      "core-ai/clawd-grok",
+      "core-ai/docs",
+      "core-ai/helius-cli",
+      "core-ai/helius-cursor",
+      "core-ai/helius-mcp",
+      "core-ai/helius-plugin",
+      "core-ai/helius-skills",
+      "core-ai/knowledge",
+      "core-ai/mcp-server",
+      "core-ai/scripts",
+      "core-ai/v3",
+      "core-ai/.gitignore",
+      "core-ai/.npmrc",
+      "core-ai/AGENTS.md",
+      "core-ai/CLAUDE.md",
+      "core-ai/CLAWD.md",
+      "core-ai/CONTRIBUTING.md",
+      "core-ai/glama.json",
+      "core-ai/LICENSE",
+      "core-ai/package.json",
+      "core-ai/README.md",
+      "core-ai/versions.json"
+    ],
+    "packages": 0,
+    "path": "/Users/8bit/Downloads/traintoearn/training/data/strategies/nemo_clawd_core_inventory.json",
+    "skills": 0
+  },
+  "description": "A Solana-native adaptation of NVIDIA NemoClaw concepts for the local Clawd Core AI tree: sandboxed agent runtime, managed NIM/Clawd inference routing, network policy, lifecycle commands, and training hooks.",
+  "generated_at": "2026-07-04T19:59:11+00:00",
+  "inference_routing": {
+    "bridge": "ai-training/nvidia/integration/clawd_nim_bridge.py",
+    "order": [
+      "NVIDIA_API_KEY -> NVIDIA NIM",
+      "HF_TOKEN -> Hugging Face Inference",
+      "CLAWD_INFERENCE_URL -> self-hosted Clawd endpoint",
+      "CLAWD_ROUTER_KEY -> clawd-box-router.fly.dev",
+      "fallback -> Ollama localhost:11434"
+    ],
+    "system_prompt_id": "nemo_clawd"
+  },
+  "lifecycle": {
+    "aiq": "cd ai-training && python3 nvidia/blueprints/aiq/agent.py --strict",
+    "dataset": "cd ai-training && python3 nvidia/integration/dataset_nvidia_sft.py",
+    "doctor": "python3 ai-training/nvidia/integration/nemo_clawd.py --check",
+    "generate": "python3 ai-training/nvidia/integration/nemo_clawd.py --write",
+    "plan": "python3 ai-training/nvidia/integration/nemo_clawd_agent.py --mode paper",
+    "verify": "cd ai-training && python3 nvidia/scripts/verify_nvidia.py --strict"
+  },
+  "name": "Nemo Clawd",
+  "network_policy": {
+    "allowed_egress": [
+      "https://integrate.api.nvidia.com",
+      "https://api-inference.huggingface.co",
+      "https://huggingface.co",
+      "https://onchain.x402.wtf",
+      "https://api.mainnet-beta.solana.com",
+      "https://*.helius.dev",
+      "http://localhost:11434"
+    ],
+    "default": "deny",
+    "operator_approval_required_for": [
+      "new_external_domains",
+      "wallet_rpc_endpoints",
+      "webhook_registration",
+      "live_order_endpoints"
+    ]
+  },
+  "safety_gates": {
+    "default_trust": "observer",
+    "live_promotion": [
+      "separate execution client",
+      "explicit operator approval",
+      "Vulcan preflight",
+      "wallet isolation",
+      "position and margin review"
+    ],
+    "model_output_rule": "model outputs are plans, never transactions",
+    "paper_mode_only": true
+  },
+  "sandbox_profile": {
+    "capabilities": {
+      "allow": [
+        "read_project_files",
+        "write_strategy_artifacts",
+        "call_configured_inference"
+      ],
+      "drop": [
+        "NET_ADMIN",
+        "SYS_ADMIN",
+        "SYS_PTRACE"
+      ]
+    },
+    "process_limits": {
+      "default_timeout_seconds": 120,
+      "long_running_requires_operator_label": true,
+      "max_child_processes": 32
+    },
+    "secret_policy": {
+      "allow_host_secret_discovery": false,
+      "persist_to_files": false,
+      "redact_env_names": [
+        "*_API_KEY",
+        "*_TOKEN",
+        "*_SECRET",
+        "SOLANA_PRIVATE_KEY"
+      ],
+      "source": "environment_or_secret_manager"
+    },
+    "source_mount": {
+      "mode": "read-only",
+      "path": "core-ai"
+    },
+    "style": "NemoClaw/OpenShell-compatible reference policy",
+    "writable_mounts": [
+      "ai-training/data/strategies",
+      "ai-training/outputs/model_kit"
+    ]
+  },
+  "schema_version": "2026-06-21",
+  "slug": "nemo-clawd",
+  "training_hooks": {
+    "dataset_builder": "ai-training/nvidia/integration/dataset_nvidia_sft.py",
+    "hub_target": "solanaclawd/solana-clawd-nvidia-trading-factory-instruct",
+    "model_kit": "ai-training/model-kit/bin/clawd-model-kit",
+    "sft_sources": [
+      "core-ai/knowledge/*.jsonl",
+      "core-ai/knowledge/*.md",
+      "core-ai/helius-skills/**/SKILL.md",
+      "core-ai/helius-plugin/skills/**/SKILL.md",
+      "core-ai/mcp-server/src/tools/**/*.ts",
+      "ai-training/data/strategies/nemo_clawd_blueprint.json"
+    ]
+  },
+  "upstream": {
+    "adapted_concepts": [
+      "guided onboarding",
+      "hardened blueprint",
+      "routed inference",
+      "network policy",
+      "sandbox lifecycle management",
+      "OpenShell-style agent containment"
+    ],
+    "docs": "https://docs.nvidia.com/nemoclaw/latest/",
+    "license": "Apache-2.0",
+    "repo": "https://github.com/NVIDIA/NemoClaw"
+  }
+}

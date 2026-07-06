@@ -1,0 +1,89 @@
+{
+  "cpt_inputs": [
+    {
+      "exists": true,
+      "path": "data/tx_foundation_cpt.jsonl",
+      "sha256": "11bbf408781a9ae877605b7eedeb2a08376209d2576a507a60ea384246b68e9d",
+      "size_bytes": 21083073
+    }
+  ],
+  "cpt_stats": {
+    "duplicates": 2253,
+    "invalid": 0,
+    "kept": 17262,
+    "raw": 19542,
+    "secret_skipped": 27,
+    "too_short": 0
+  },
+  "dry_run": false,
+  "generated_at": "2026-06-22T20:23:30+00:00",
+  "message_inputs": [
+    {
+      "exists": true,
+      "path": "data/core_ai_clawd_sft.jsonl",
+      "sha256": "244fa41cad3e7eb7bba4f5ac2f8e452b6ded05a29e6b25c6c143718916be1201",
+      "size_bytes": 100383412
+    },
+    {
+      "exists": true,
+      "path": "data/realtime_research_sft.jsonl",
+      "sha256": "2a217a1a11f4a8e1631d9ef2306d5ce58eb6e894c8815264ac2a64af41209c43",
+      "size_bytes": 102578180
+    },
+    {
+      "exists": true,
+      "path": "data/nvidia_trading_factory_sft.jsonl",
+      "sha256": "ee8ca8e2c9b50a4dd58b8480884a8776504b9373f2f64fb1acfc3a4894d1aebf",
+      "size_bytes": 641065
+    },
+    {
+      "exists": true,
+      "path": "data/solana_clawd_merged.jsonl",
+      "sha256": "6abaa01306dfe803ab6c567785850f72a1dfb1d6e7def2800d4599dd8650714f",
+      "size_bytes": 43369534
+    },
+    {
+      "exists": true,
+      "path": "data/solana_clawd_seed.jsonl",
+      "sha256": "dd644c09a95f23e7eb559bba391c6ae45991561d8bceeb7923ab9c53dd15563b",
+      "size_bytes": 167898
+    }
+  ],
+  "message_stats": {
+    "by_source": {
+      "data/core_ai_clawd_sft.jsonl": 35138,
+      "data/nvidia_trading_factory_sft.jsonl": 195,
+      "data/realtime_research_sft.jsonl": 29057,
+      "data/solana_clawd_seed.jsonl": 18
+    },
+    "duplicates": 30406,
+    "invalid": 0,
+    "kept": 64408,
+    "quality_flags": {
+      "reasoning": 64408,
+      "safety": 64408,
+      "structured": 49198,
+      "tooling": 64408
+    },
+    "quality_scores": {
+      "4": 6293,
+      "5": 9686,
+      "6": 48429
+    },
+    "raw": 94876,
+    "secret_skipped": 61,
+    "too_short": 1
+  },
+  "outputs": {
+    "cpt_jsonl": "data/model_kit/tx_foundation_cpt_clean.jsonl",
+    "manifest": "data/model_kit/training_data_optimization_manifest.json",
+    "messages_jsonl": "data/model_kit/solana_clawd_reasoning_tooling_sft.jsonl"
+  },
+  "policy": {
+    "dedupe": true,
+    "reasoning_style": "concise auditable summaries, private chain-of-thought hidden",
+    "secret_scan": true,
+    "source_files_mutated": false,
+    "system_augment": true
+  }
+}

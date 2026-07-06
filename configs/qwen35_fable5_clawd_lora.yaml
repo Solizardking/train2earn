@@ -1,0 +1,110 @@
+# Clawd Fable LoRA fine-tune.
+#
+# This file keeps the legacy qwen35_fable5 filename so existing launch scripts
+# keep working, but the lane now targets our own Clawd Fable release:
+#
+#   Base model:   AliesTaha/fable-traces
+#   Train data:   armand0e/claude-fable-5-claude-code
+#                 + Glint-Research/Fable-5-traces
+#                 + local ai-training / trading_factory context
+#   Adapter repo: solanaclawd/clawd-fable-lora
+#   Full repo:    solanaclawd/clawd-fable
+#
+# Prepare data:
+#   python3 scripts/prepare_clawd_code_dataset.py \
+#     --format chatml --datasets clawd-code glint local --epochs 1 \
+#     --output data/clawd_fable_sft.jsonl
+#
+# Cloud train:
+#   bash scripts/run_qwen35_fable5_clawd.sh cloud
+#
+# Merge adapter to full Transformers model after training:
+#   python3 scripts/merge_lora_to_full_model.py \
+#     --base-model AliesTaha/fable-traces \
+#     --adapter solanaclawd/clawd-fable-lora \
+#     --output-dir outputs/clawd-fable-merged \
+#     --hub-model-id solanaclawd/clawd-fable \
+#     --push
+
+base_model: "AliesTaha/fable-traces"
+model_revision: "main"
+torch_dtype: "bfloat16"
+device_map: "auto"
+
+dataset_repo: null
+dataset_path: "data/clawd_fable_sft.jsonl"
+dataset_revision: "main"
+max_seq_length: 2048
+train_split: "train"
+eval_split: null
+
+output_dir: "outputs/clawd-fable-lora"
+push_to_hub: true
+hub_model_id: "solanaclawd/clawd-fable-lora"
+hub_private: false
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+training:
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8
+  per_device_eval_batch_size: 2
+  num_train_epochs: 3
+  max_steps: -1
+  learning_rate: 1.0e-4
+  lr_scheduler_type: "cosine"
+  warmup_ratio: 0.03
+  weight_decay: 0.01
+  optim: "adamw_torch"
+  bf16: true
+  fp16: false
+  tf32: true
+  gradient_checkpointing: true
+  logging_steps: 10
+  save_steps: 100
+  save_total_limit: 2
+  eval_steps: 100
+  eval_strategy: "no"
+  report_to: ["none"]
+  seed: 42
+  dataloader_num_workers: 4
+  remove_unused_columns: false
+  dataloader_pin_memory: true
+
+quantization:
+  enabled: false
+
+sft:
+  packing: false
+  assistant_only_loss: true
+  chat_template_kwargs: {}
+
+eval:
+  base_model: "AliesTaha/fable-traces"
+  adapter_repo: "solanaclawd/clawd-fable-lora"
+  eval_dataset_repo: "solanaclawd/solana-clawd-eval"
+  eval_split: "test"
+  max_eval_samples: 100
+  max_new_tokens: 512
+  temperature: 0.2
+  top_p: 0.9
+  do_sample: true
+  output_dir: "outputs/eval-clawd-fable"
+  report_to: "json"
+
+release:
+  merged_hub_model_id: "solanaclawd/clawd-fable"
+  merged_output_dir: "outputs/clawd-fable-merged"

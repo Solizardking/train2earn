@@ -1,0 +1,15 @@
+{
+  "num_examples": 0,
+  "splits": {
+    "train": 0,
+    "eval": 0,
+    "test": 0
+  },
+  "schema": {
+    "messages": "list[{role: str, content: str}]",
+    "metadata": "optional dict[str, str] normalized across splits"
+  },
+  "source_files": [
+    "data/tx_foundation_cpt.jsonl"
+  ]
+}
