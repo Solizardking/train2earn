@@ -9,7 +9,7 @@ from __future__ import annotations
 import os
 from typing import Any
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
 from integration.clawd_nim_bridge import _resolve_endpoint, chat
@@ -65,13 +65,31 @@ def generate(request: ChatRequest) -> ChatResponse:
         {"role": "system", "content": request.system_prompt},
         {"role": "user", "content": request.prompt},
     ]
-    output = chat(
-        messages,
-        max_tokens=request.max_tokens,
-        temperature=request.temperature,
-        stream=False,
-        system_prompt_id=request.system_prompt_id,
-    )
+    try:
+        output = chat(
+            messages,
+            max_tokens=request.max_tokens,
+            temperature=request.temperature,
+            stream=False,
+            system_prompt_id=request.system_prompt_id,
+        )
+    except Exception as exc:  # noqa: BLE001 - surface a clean diagnostic, not a stack trace
+        endpoint, _, model = _resolve_endpoint()
+        provider = _provider_name(endpoint)
+        raise HTTPException(
+            status_code=503,
+            detail={
+                "error": "inference_backend_unavailable",
+                "provider": provider,
+                "endpoint": endpoint,
+                "model": model,
+                "message": (
+                    f"No inference backend reachable at {endpoint}. "
+                    "Set NVIDIA_API_KEY, HF_TOKEN, FAL_API_KEY, CLAWD_INFERENCE_URL, "
+                    f"or run Ollama at localhost:11434. Detail: {exc}"
+                ),
+            },
+        ) from exc
     endpoint, _, model = _resolve_endpoint()
     return ChatResponse(
         output=str(output),

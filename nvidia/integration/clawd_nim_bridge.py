@@ -46,9 +46,31 @@ SYSTEM_PROMPTS = {
 
 
 def _load_env() -> None:
+    """
+    Best-effort .env loader for dev convenience.
+
+    Walks upward from this file's directory to the filesystem root looking for a
+    ``.env`` file, then checks ``~/.env`` and ``~/.env.master``. This is layout
+    agnostic so it works in the source tree, inside the NGC container
+    (``/app/nvidia/integration/``), and under arbitrary install paths. Runtime
+    containers should inject secrets as real environment variables; this loader
+    never overwrites variables that are already set.
+    """
     from pathlib import Path
-    for p in [Path(__file__).parents[4] / ".env", Path.home() / ".env", Path.home() / ".env.master"]:
-        if p.exists():
+
+    candidates: list[Path] = []
+    here = Path(__file__).resolve().parent
+    for parent in [here, *here.parents]:
+        candidates.append(parent / ".env")
+    candidates.extend([Path.home() / ".env", Path.home() / ".env.master"])
+
+    for p in candidates:
+        try:
+            if not p.is_file():
+                continue
+        except OSError:
+            continue
+        try:
             with p.open() as f:
                 for line in f:
                     line = line.strip()
@@ -57,6 +79,8 @@ def _load_env() -> None:
                         k = k.strip(); v = v.strip().strip('"').strip("'")
                         if k and k not in os.environ:
                             os.environ[k] = v
+        except OSError:
+            continue
 
 _load_env()
 
