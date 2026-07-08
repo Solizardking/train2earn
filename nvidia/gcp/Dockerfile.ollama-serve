@@ -1,0 +1,169 @@
+"""
+Vertex AI custom serving container for Ollama models.
+
+Bundles selected Ollama models into a single container that exposes:
+  - POST /predict  — Vertex AI prediction protocol (instances[] → predictions[])
+  - POST /generate — raw Ollama generate passthrough
+  - GET  /health   — Vertex health check
+  - GET  /list     — list bundled models
+
+Build args:
+  MODEL_NAMES — comma-separated Ollama model tags to bake in
+"""
+FROM ollama/ollama:latest AS runtime
+
+ENV OLLAMA_HOST=0.0.0.0:8080 \
+    OLLAMA_ORIGINS="*" \
+    MODEL_PATH=/models
+
+# Install Python for the Vertex AI prediction shim
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 python3-pip python3-venv curl jq && \
+    rm -rf /var/lib/apt/lists/* && \
+    python3 -m pip install --no-cache-dir fastapi uvicorn[standard] httpx
+
+WORKDIR /app
+
+# Copy the Vertex AI prediction shim
+COPY ollama_vertex_serve.py /app/ollama_vertex_serve.py
+COPY entrypoint.sh /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
+
+# Models are injected at build time from GCS (downloaded in entrypoint)
+# or baked in via build arg for smaller deployments
+ARG MODEL_NAMES=""
+ENV MODEL_NAMES=${MODEL_NAMES}
+
+EXPOSE 8080
+
+# Health check — Vertex pings /health
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+    CMD curl -f http://localhost:8080/health || exit 1
+
+ENTRYPOINT ["/app/entrypoint.sh"]
+</parameter>
+</write_to_file>
+<task_progress>- [x] Assess GCP environment and credentials
+- [x] Locate Ollama model blobs on disk (51GB)
+- [x] Enable required GCP APIs
+- [ ] Create Vertex-compatible serving container (Dockerfile + shim + entrypoint)
+- [ ] Create GCS bucket for model artifacts
+- [ ] Export key Ollama models to GCS
+- [ ] Build and push container to Artifact Registry
+- [ ] Import models to Vertex AI Model Registry
+- [ ] Deploy models to GPU endpoints
+- [ ] Verify inference endpoints</task_progress>
+</invoke>
+</function_calls>
+
+Now the Vertex AI prediction shim: <write_to_file>
+<path>/Users/8bit/train2earn/nvidia/gcp/ollama_vertex_serve.py</path>
+<content>"""Vertex AI custom prediction container shim for Ollama.
+
+Vertex AI calls POST /predict with:
+  {"instances": [{"prompt": "...", "model": "...", ...}]}
+
+Returns:
+  {"predictions": [{"output": "..."}]}
+"""
+from __future__ import annotations
+
+import os
+import json
+import logging
+from typing import Any
+
+import httpx
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.responses import JSONResponse
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("ollama-vertex-serve")
+
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434")
+DEFAULT_MODEL = os.environ.get("DEFAULT_MODEL", "solana-clawd-core-ai")
+PORT = int(os.environ.get("PORT", "8080"))
+
+app = FastAPI(title="Ollama Vertex AI Serve", version="1.0.0")
+
+
+@app.get("/health")
+async def health() -> dict[str, Any]:
+    """Vertex AI health check."""
+    try:
+        r = httpx.get(f"{OLLAMA_URL}/api/tags", timeout=5.0)
+        models = r.json().get("models", []) if r.status_code == 200 else []
+        return {"status": "healthy", "models": [m.get("name") for m in models]}
+    except Exception:
+        return {"status": "starting", "models": []}
+
+
+@app.get("/list")
+async def list_models() -> dict[str, Any]:
+    """List available Ollama models."""
+    r = httpx.get(f"{OLLAMA_URL}/api/tags", timeout=10.0)
+    return r.json()
+
+
+@app.post("/predict")
+async def predict(request: Request) -> dict[str, Any]:
+    """Vertex AI prediction protocol: instances[] → predictions[]."""
+    body = await request.json()
+    instances = body.get("instances", [])
+
+    predictions: list[dict[str, Any]] = []
+    for inst in instances:
+        prompt = inst.get("prompt") or inst.get("text") or ""
+        model = inst.get("model", DEFAULT_MODEL)
+        system = inst.get("system", "")
+        stream = inst.get("stream", False)
+        options = inst.get("options", {})
+
+        if not prompt:
+            predictions.append({"error": "missing 'prompt' field"})
+            continue
+
+        try:
+            # Use Ollama chat API
+            messages: list[dict[str, str]] = []
+            if system:
+                messages.append({"role": "system", "content": system})
+            messages.append({"role": "user", "content": prompt})
+
+            payload: dict[str, Any] = {
+                "model": model,
+                "messages": messages,
+                "stream": stream,
+            }
+            if options:
+                payload["options"] = options
+
+            r = httpx.post(f"{OLLAMA_URL}/api/chat", json=payload, timeout=120.0)
+            r.raise_for_status()
+            result = r.json()
+
+            predictions.append({
+                "output": result.get("message", {}).get("content", ""),
+                "model": result.get("model", model),
+                "eval_count": result.get("eval_count", 0),
+                "eval_duration_ns": result.get("eval_duration", 0),
+                "prompt_eval_count": result.get("prompt_eval_count", 0),
+            })
+        except Exception as exc:
+            logger.error("Prediction failed: %s", exc)
+            predictions.append({"error": str(exc), "model": model})
+
+    return {"predictions": predictions}
+
+
+@app.post("/generate")
+async def generate(request: Request) -> dict[str, Any]:
+    """Raw Ollama generate passthrough."""
+    body = await request.json()
+    r = httpx.post(f"{OLLAMA_URL}/api/generate", json=body, timeout=120.0)
+    return r.json()
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=PORT)
