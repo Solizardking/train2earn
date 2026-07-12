@@ -2,10 +2,12 @@ services:
   - type: web
     name: x402-model-kit-docker-api
     runtime: docker
-    rootDir: ai-training/model-kit/backend
+    rootDir: model-kit/backend
     plan: starter
     healthCheckPath: /api/health
     envVars:
+      - key: MODEL_KIT_GITHUB_REPO
+        value: https://github.com/Solizardking/train2earn
       - key: ONCHAIN_REGISTRY_HOME
         value: https://onchain.x402.wtf
       - key: ONCHAIN_REGISTRY_URL

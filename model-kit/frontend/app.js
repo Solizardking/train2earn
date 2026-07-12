@@ -4,7 +4,7 @@ const runtimeConfig = {
   modelsHome: "https://models.x402.wtf",
   registerHome: "https://register.x402.wtf",
   onchainHome: "https://onchain.x402.wtf",
-  githubRepo: "https://github.com/solizardking/solana-clawd-ai-training",
+  githubRepo: "https://github.com/Solizardking/train2earn",
   ...(window.MODEL_KIT_CONFIG || {}),
 };
 
@@ -216,7 +216,7 @@ function buildCommand() {
   if (!lane || !output) return;
 
   const parts = [
-    "ai-training/model-kit/bin/clawd-model-kit",
+    "model-kit/bin/clawd-model-kit",
     "one-shot",
     inputArgs(),
     "--lane",
@@ -243,16 +243,16 @@ function buildCommand() {
   const modelRepo = $("#modelRepo").value.trim();
   const manifest = `${$("#outputPrefix").value.trim()}_manifest.json`;
   const lines = [
-    "cd /Users/8bit/Downloads/solana-clawd",
+    "cd /path/to/train2earn",
     parts.join(" \\\n  "),
     "",
     "# Verify local artifacts",
-    "ai-training/model-kit/bin/clawd-model-kit constitution --strict",
-    "ai-training/model-kit/bin/clawd-model-kit doctor --strict",
-    `ai-training/model-kit/bin/clawd-model-kit verify --path ${shellQuote(manifest)}`,
+    "model-kit/bin/clawd-model-kit constitution --strict",
+    "model-kit/bin/clawd-model-kit doctor --strict",
+    `model-kit/bin/clawd-model-kit verify --path ${shellQuote(manifest)}`,
     "",
     "# Dry-run the CAAP payload",
-    `ai-training/model-kit/bin/clawd-model-kit register --hf-model ${shellQuote(modelRepo)} --manifest ${shellQuote(manifest)}`,
+    `model-kit/bin/clawd-model-kit register --hf-model ${shellQuote(modelRepo)} --manifest ${shellQuote(manifest)}`,
     "",
     "# Open the registration page",
     runtimeConfig.registerHome,

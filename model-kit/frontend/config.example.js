@@ -4,5 +4,5 @@ window.MODEL_KIT_CONFIG = {
   modelsHome: "https://models.x402.wtf",
   registerHome: "https://register.x402.wtf",
   onchainHome: "https://onchain.x402.wtf",
-  githubRepo: "https://github.com/solizardking/solana-clawd-ai-training",
+  githubRepo: "https://github.com/Solizardking/train2earn",
 };

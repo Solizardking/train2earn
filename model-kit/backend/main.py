@@ -36,7 +36,7 @@ DEFAULT_REGISTRY_HOME = os.environ.get("ONCHAIN_REGISTRY_HOME", "https://onchain
 DEFAULT_REGISTRY_API = os.environ.get("ONCHAIN_REGISTRY_URL", f"{DEFAULT_REGISTRY_HOME}/api/register")
 DEFAULT_REGISTRY_MANIFEST = f"{DEFAULT_REGISTRY_HOME}/.well-known/clawd-registry.json"
 DEFAULT_ENDPOINT = os.environ.get("MODEL_KIT_DEFAULT_ENDPOINT", "https://clawd-box-router.fly.dev/v1")
-GITHUB_REPO = os.environ.get("MODEL_KIT_GITHUB_REPO", "https://github.com/solizardking/solana-clawd-ai-training")
+GITHUB_REPO = os.environ.get("MODEL_KIT_GITHUB_REPO", "https://github.com/Solizardking/train2earn")
 X402_HOME = os.environ.get("X402_HOME", "https://x402.wtf")
 MODELS_HOME = os.environ.get("MODELS_HOME", "https://models.x402.wtf")
 REGISTER_HOME = os.environ.get("REGISTER_HOME", "https://register.x402.wtf")
@@ -1173,7 +1173,7 @@ def model_kit_status() -> dict[str, Any]:
             "run_log_rehydration": bool(ARENA_LOG_PATH),
         },
         "one_shot": {
-            "cli": "ai-training/model-kit/bin/clawd-model-kit one-shot",
+            "cli": "model-kit/bin/clawd-model-kit one-shot",
             "safe_default": "dry-run registration unless --live-register --yes is supplied",
             "artifacts": ["SFT JSONL", "parquet splits", "dataset card", "manifest", "LoRA adapter", "CAAP/1.0 payload"],
         },

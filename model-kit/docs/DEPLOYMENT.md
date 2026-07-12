@@ -11,29 +11,31 @@ proxied through the Render API only when the page sends an explicit live request
 
 ## Render API
 
-Use the blueprint in this folder:
+Use the blueprint in this folder (repo root = `train2earn`):
 
 ```bash
-cd /Users/8bit/Downloads/solana-clawd
-render blueprint launch ai-training/model-kit/render.yaml
+cd /path/to/train2earn
+render blueprint launch model-kit/render.yaml
 ```
 
-If using the Render dashboard, import the GitHub repo and point the blueprint to:
+If using the Render dashboard, import the GitHub repo
+`https://github.com/Solizardking/train2earn` and point the blueprint to:
 
 ```text
-ai-training/model-kit/render.yaml
+model-kit/render.yaml
 ```
 
 The service root is:
 
 ```text
-ai-training/model-kit/backend
+model-kit/backend
 ```
 
 Required public env:
 
 | Name | Value |
 | --- | --- |
+| `MODEL_KIT_GITHUB_REPO` | `https://github.com/Solizardking/train2earn` |
 | `ONCHAIN_REGISTRY_HOME` | `https://onchain.x402.wtf` |
 | `ONCHAIN_REGISTRY_URL` | `https://onchain.x402.wtf/api/register` |
 | `X402_HOME` | `https://x402.wtf` |
@@ -60,7 +62,7 @@ curl -sS https://x402-model-kit-docker-api.onrender.com/.well-known/clawd-model-
 Set the Vercel project root directory to:
 
 ```text
-ai-training/model-kit
+model-kit
 ```
 
 Build settings:
@@ -80,14 +82,14 @@ window.MODEL_KIT_CONFIG = {
   modelsHome: "https://models.x402.wtf",
   registerHome: "https://register.x402.wtf",
   onchainHome: "https://onchain.x402.wtf",
-  githubRepo: "https://github.com/solizardking/solana-clawd-ai-training",
+  githubRepo: "https://github.com/Solizardking/train2earn",
 };
 ```
 
 Deploy:
 
 ```bash
-cd /Users/8bit/Downloads/solana-clawd/ai-training/model-kit
+cd /path/to/train2earn/model-kit
 npm run build
 vercel deploy --prod
 ```
@@ -98,6 +100,17 @@ Attach both domains to the same Vercel project:
 | --- | --- |
 | `models.x402.wtf` | `/index.html` |
 | `register.x402.wtf` | `/register.html` via host rewrite |
+
+## Cloud Build / Cloud Run
+
+Root `cloudbuild.yaml` builds Docker images with contexts:
+
+| Service | Context | Image name |
+| --- | --- | --- |
+| Model kit API | `model-kit/backend` | `train2earn-model-kit` |
+| Training index site | `site` | `train2earn-site` |
+
+`MODEL_KIT_GITHUB_REPO` is set to `https://github.com/Solizardking/train2earn` on Cloud Run deploy.
 
 ## Registration Flow
 
