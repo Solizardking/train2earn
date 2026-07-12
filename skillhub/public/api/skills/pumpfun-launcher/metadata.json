@@ -1,0 +1,7 @@
+{
+  "slug": "pumpfun-launcher",
+  "name": "pumpfun-launcher",
+  "description": "Quick Pump.fun token-launch shortcut for creating tokens with the Pump SDK, optional initial buys, metadata upload flow, Mayhem mode, and launch safety checks.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pumpfun-launcher/SKILL.md"
+}

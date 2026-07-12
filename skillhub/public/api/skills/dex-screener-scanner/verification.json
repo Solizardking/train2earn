@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dex-screener-scanner",
+  "name": "dex-screener-scanner",
+  "description": "Automate DexScreener Solana token discovery and screening via browser automation. Navigate dexscreener.com/solana, scrape real-time token listings, filter by volume/liquidity/age/holders, and identify the best opportunities. Triggers: scan dexscreener, find new tokens, find trending tokens, screen Solana tokens, best tokens on Solana, dexscreener scanner.",
+  "source": "https://skills.x402.wtf/api/skills/dex-screener-scanner/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/dex-screener-scanner/metadata.json",
+  "bundleHash": "sha256-b9875042cb7e8ee418d31cf342ef2585c2db92c15f8dea4c4046089a253e72cf",
+  "merkleLeaf": "sha256-61b1f2c722734109fca97cca1786d2475f46a785fefbb61396243720d971aa60",
+  "files": [
+    {
+      "path": "references/dexscreener_layout.md",
+      "bytes": 3344,
+      "sha256": "sha256-78eaffec888049982962a2921d9cf83a2ef7b3895e7de180ffb017a8c3cd1aeb"
+    },
+    {
+      "path": "scripts/scan_dexscreener.py",
+      "bytes": 17398,
+      "sha256": "sha256-6d9fbe47b2947d69c32ee75efa3e309156f84e84e5de0da289998c56eb919937"
+    },
+    {
+      "path": "scripts/screen_tokens.py",
+      "bytes": 9751,
+      "sha256": "sha256-2da1dfc81ce23caebcc7227c815fb5ddfbe47127f4d4c06905a68ef67170d6b9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10961,
+      "sha256": "sha256-6e3c82684d7215aa4c929be597430243f66553f53fb6ed78a0a3899addf657fd"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

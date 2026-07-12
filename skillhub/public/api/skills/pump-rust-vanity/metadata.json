@@ -1,0 +1,7 @@
+{
+  "slug": "pump-rust-vanity",
+  "name": "pump-rust-vanity",
+  "description": "Build production Rust vanity-address tooling for Pump.fun/Solana wallets with Rayon parallelism, solana-sdk key generation, Base58 prefix/suffix matching, secure file output, zeroization, and Criterion benchmarks. Use for high-throughput vanity generation.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-rust-vanity/SKILL.md"
+}

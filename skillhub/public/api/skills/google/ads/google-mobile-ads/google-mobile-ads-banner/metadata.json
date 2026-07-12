@@ -1,0 +1,7 @@
+{
+  "slug": "google/ads/google-mobile-ads/google-mobile-ads-banner",
+  "name": "google-mobile-ads-banner",
+  "description": "Provides instructions to implement, integrate, or configure Google Mobile Ads (GMA) banner ads in Android and iOS mobile applications. Use when the task involves setting up banner ads in a mobile application.",
+  "category": "Google / Ads",
+  "skill": "/api/skills/google/ads/google-mobile-ads/google-mobile-ads-banner/SKILL.md"
+}

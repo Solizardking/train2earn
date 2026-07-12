@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tilegym-monkey-patch-kernels-to-transformers",
+  "name": "tilegym-monkey-patch-kernels-to-transformers",
+  "description": "Integrate TileGym kernels into Hugging Face `transformers` models by replacing the library's submodule(s) and certain class(es)' implementations, and patching certain class(es)' init/forward/load weight methods prior to instantiating models. Used when the user requires integrating TileGym kernels into `transformers` models.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-monkey-patch-kernels-to-transformers/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-monkey-patch-kernels-to-transformers/metadata.json",
+  "bundleHash": "sha256-29a832c94ef6f5c8be2d2915bb7b69baa8849116461cfa1dfae2d9c22bef644e",
+  "merkleLeaf": "sha256-cc40beb81684e81c4a06ed1b0c1bab415a6aa62edc9e46837970f61de42ae6fe",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3654,
+      "sha256": "sha256-61ca61c03537ba4a30cb5fcbdc5db8b3a70c1a4fef43526912a61f379a11bdec"
+    },
+    {
+      "path": "references/auto-kernelize.md",
+      "bytes": 7848,
+      "sha256": "sha256-7597b0422c247baa4fb180fb92565cd9b7d397ceba001f067cb35a8488be74d7"
+    },
+    {
+      "path": "references/environment-setup.md",
+      "bytes": 1658,
+      "sha256": "sha256-b39ec8e53e2d85411d3fe16eb738130ee8afac47dd88e90a7654cca08ca8ca47"
+    },
+    {
+      "path": "references/kernel-integration.md",
+      "bytes": 14770,
+      "sha256": "sha256-24f84a44041e33ea1b0adea0cae05a16c5f78f56486c44f1ed7db9b959ae9879"
+    },
+    {
+      "path": "references/kernel-inventory-schema.md",
+      "bytes": 3824,
+      "sha256": "sha256-7f507a5f50bb27490bb3b2f8c2fb4d84460db01d5998a2e3f3dd46a0c472ec9e"
+    },
+    {
+      "path": "references/workflow-diagram.png",
+      "bytes": 1114199,
+      "sha256": "sha256-22eddd3d81b3c37d2b47665d6ff19701865364497991d65062e2f9ca3ef6ef85"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4014,
+      "sha256": "sha256-f1b687560ba2e415355814426ba452b6f657a96fcaf00d38c88c57143b5191a2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2966,
+      "sha256": "sha256-de7a00ee69c859ccbda4ba8ac91a26655491e9e3039b1ae0cadc7966a8aa7a93"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

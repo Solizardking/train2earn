@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "skillhub-onchain-summary/v1",
+  "generatedAt": "2026-07-10T20:28:13.525Z",
+  "hubs": {
+    "primary": "https://skills.x402.wtf",
+    "aliases": [
+      "https://skills.x402.wtf",
+      "https://skills.onchainai.fund",
+      "https://cheshireterminal.ai/skills"
+    ],
+    "publishUi": "https://skills.x402.wtf/publish",
+    "cheshireStore": "https://cheshireterminal.ai/skills-store",
+    "repository": "https://github.com/Solizardking/skills"
+  },
+  "catalogAnchor": {
+    "plan": {
+      "cluster": "devnet",
+      "merkleRoot": "sha256-95a3f2f228015c5af2c20e69b4b59cf2747b18a837f4c9424caaea296081aa34",
+      "catalogHash": "sha256-4b29ca40c6918a8ad174091f166f97d62229793bb2161b17294e26a0e1f47f5c",
+      "totalSkills": 557,
+      "createdAt": "2026-07-10T18:05:23.382Z"
+    },
+    "receipt": {
+      "cluster": "devnet",
+      "merkleRoot": "sha256-95a3f2f228015c5af2c20e69b4b59cf2747b18a837f4c9424caaea296081aa34",
+      "catalogHash": "sha256-4b29ca40c6918a8ad174091f166f97d62229793bb2161b17294e26a0e1f47f5c",
+      "totalSkills": 557,
+      "publishedAt": "2026-07-10T18:05:54.656Z",
+      "solana": {
+        "signature": "3AGQvJ2FBhxBd8gJX6Vx3xUuu7zfoDw1xsY9k7oYsEfbx1nCHHHPF9ApbC87iWF9QyUWhK1ASJFKpKCtuQCQKEds",
+        "explorer": "https://solscan.io/tx/3AGQvJ2FBhxBd8gJX6Vx3xUuu7zfoDw1xsY9k7oYsEfbx1nCHHHPF9ApbC87iWF9QyUWhK1ASJFKpKCtuQCQKEds?cluster=devnet"
+      },
+      "arweave": [
+        {
+          "label": "onchain-skill-registry.json",
+          "id": "217eSiLtiTNQ2DJBxipy9n4ZusT8SEHfyJ2LTJqkzfD7",
+          "url": "https://arweave.net/217eSiLtiTNQ2DJBxipy9n4ZusT8SEHfyJ2LTJqkzfD7"
+        },
+        {
+          "label": "catalog.json",
+          "id": "8qZrjGzZirgs5S48SXqa854q7VraNrN1AHLXCgEhgNWf",
+          "url": "https://arweave.net/8qZrjGzZirgs5S48SXqa854q7VraNrN1AHLXCgEhgNWf"
+        }
+      ]
+    }
+  },
+  "submissionCount": 2,
+  "submissionsUrl": "/api/submissions.json",
+  "registryUrl": "/.well-known/onchain-skill-registry.json"
+}

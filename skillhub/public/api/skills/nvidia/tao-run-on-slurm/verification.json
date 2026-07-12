@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-on-slurm",
+  "name": "tao-run-on-slurm",
+  "description": "Remote SLURM GPU cluster execution over SSH with sbatch/srun, Pyxis/Enroot containers, and Lustre-backed results. Use when running TAO training/eval/inference jobs on an on-prem or DGX SLURM cluster. Trigger phrases include \"run on SLURM\", \"submit sbatch\", \"DGX SLURM cluster\", \"Pyxis/Enroot container\", \"Lustre dataset\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-slurm/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-slurm/metadata.json",
+  "bundleHash": "sha256-aecd88d4cd2f7ad9e0eb14e8c655b8bf5599c5d61796d8692aad2555cc5170d9",
+  "merkleLeaf": "sha256-6bc2ad6a9c8270f8570269b4dc8cccb19fe2c1e0cc7f8c8e4df1368961160962",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3950,
+      "sha256": "sha256-8ee103486cd542c65a184bbe121d9c636ac7768cfdcef3f39b0f0b0d25f4bff5"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "bytes": 591,
+      "sha256": "sha256-a9dee57cfe708a34da8c43ca210d01fcd37af2a4451b26ca72cc5ad3453016b9"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 1282,
+      "sha256": "sha256-336a98420bc769f42a290e29c9d4e8d8f3046ee1f696fd8252c68110ceba6fe2"
+    },
+    {
+      "path": "references/slurm-container-execution.md",
+      "bytes": 10110,
+      "sha256": "sha256-38a61bb342c8e035daaf167dea955e9cacad66dcabb7ab73b1aea4c387c05b76"
+    },
+    {
+      "path": "references/slurm-execution-sdk.md",
+      "bytes": 12926,
+      "sha256": "sha256-1b4b0a7a39eaf04071d5d3611882e4e28952031dd1ea6d7970f7f48ca9f90cfb"
+    },
+    {
+      "path": "references/slurm-preflight-storage.md",
+      "bytes": 11488,
+      "sha256": "sha256-12e9fbfaa0f1645def4aa7f1c3a1fb2b5f2d1ba4914a1f2035a2960175ee8c00"
+    },
+    {
+      "path": "references/slurm-ssh-credentials.md",
+      "bytes": 10389,
+      "sha256": "sha256-0e3632377d29f54d1b09f70a9f383294b4b3be793d79cab170b8e5dec0919300"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3924,
+      "sha256": "sha256-6f481bd28e561370b4308f9679d61cef0afef5e9bdb8e3e1bdeef465788bd5b0"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10021,
+      "sha256": "sha256-e7073d160eeef7142e7c4da92745cf28672a07307a31db0fbd6492e9ba60eb5b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

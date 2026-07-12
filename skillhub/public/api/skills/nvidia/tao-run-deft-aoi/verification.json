@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-deft-aoi",
+  "name": "tao-run-deft-aoi",
+  "description": "Run the full DEFT AOI improvement loop for NVIDIA TAO VisualChangeNet / ChangeNet PCB inspection models: baseline evaluate, RCA, Cosmos AnomalyGen / AMP synthetic defects, k-NN mining, retraining, and deployment gating until FAR / recall KPI targets are met. Use for prompts like \"run the DEFT loop\", \"fine-tune until FAR below 0.1% at recall=100%\", or \"improve my AOI ChangeNet model with RCA and synthetic defects\"; do not use for standalone TAO training, one-off inference, generic anomaly generation, or RCA-only analysis.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-deft-aoi/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-deft-aoi/metadata.json",
+  "bundleHash": "sha256-7219a3e1b4b327b0e04ce04a6653b91670fb205c6ef8c3aeab6baedff4fd632d",
+  "merkleLeaf": "sha256-f526e0bb102275e765c3f2192b7d14316e67136f5a0e99a4107e6f9b590f531a",
+  "files": [
+    {
+      "path": "agents/reporter.md",
+      "bytes": 9854,
+      "sha256": "sha256-fc2246364e4824a474e94090f0c5d61a719b570aa5979814d0c1bd20c8d828d1"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4099,
+      "sha256": "sha256-932ef205264d1f38d76ee7049e70ca36b85eb0051ef11c2045e431125bd0d534"
+    },
+    {
+      "path": "references/baseline_spec.yaml",
+      "bytes": 4951,
+      "sha256": "sha256-69bb857546472891598875b673623562f4158faf5597274e4624ec10cfc73279"
+    },
+    {
+      "path": "references/data-layout.md",
+      "bytes": 8169,
+      "sha256": "sha256-5596b76b2b83a87485578be0c519d3a8bdfbb7430a5fca40ec07afcfa7550478"
+    },
+    {
+      "path": "references/data-onboarding.md",
+      "bytes": 4595,
+      "sha256": "sha256-5e8e63017a953e407a3ef10b5c4cca4fa4615140ffecd6a3f39587460f4a7f27"
+    },
+    {
+      "path": "references/DEFT_Loop_Report.html",
+      "bytes": 42918,
+      "sha256": "sha256-f8c6b0e0a423f9bfc649cb40047794690942f96157bf522cfc76ed541242c32d"
+    },
+    {
+      "path": "references/deft_state.json",
+      "bytes": 2004,
+      "sha256": "sha256-4560ad5455b71735bbb3a3939b92efde7e4c247010c74d5f98404a980e1466a4"
+    },
+    {
+      "path": "references/paidf-anomalygen.md",
+      "bytes": 14212,
+      "sha256": "sha256-10eefae7ae5dd546d3bcba824d0b94fce9cd6c7a2746db926df5528fa57eb877"
+    },
+    {
+      "path": "references/pipeline-and-state.md",
+      "bytes": 14803,
+      "sha256": "sha256-c26695ca88549ebb03fc90c370e01ef06818ec52ba8e3a5befaaf4dabd1f5360"
+    },
+    {
+      "path": "references/preflight.md",
+      "bytes": 16278,
+      "sha256": "sha256-5ca7af02635c0515588969355c702c12d4fa5c1cdefd48d98749e3b31ea19af1"
+    },
+    {
+      "path": "references/prepare-for-inference.md",
+      "bytes": 5968,
+      "sha256": "sha256-894df6cde9822e625a7f945a31880e7fc7388fd623faa78e15054dc72ac9bbf8"
+    },
+    {
+      "path": "references/REPORT_RENDERING.md",
+      "bytes": 11194,
+      "sha256": "sha256-bc4bae9f38aa062c680b1465c29b3f257e1312b5d791b8e47770dcd6c4dc9ce9"
+    },
+    {
+      "path": "references/SCRIPT_USAGE.md",
+      "bytes": 3184,
+      "sha256": "sha256-10c0845150b925219cc7b2cce0011e53e7136fdfc40eb6cc4b5e82be837cdbc6"
+    },
+    {
+      "path": "references/scripts-and-agents.md",
+      "bytes": 7843,
+      "sha256": "sha256-149ac50aefbd1f022028e4781aeb5c681bb304d539b9fe5410c094210a58475a"
+    },
+    {
+      "path": "references/tao-analyze-gaps-visual-changenet.md",
+      "bytes": 3590,
+      "sha256": "sha256-c0d36494d979639229fa293075738969d35f581e8dd144a17d817087d20d4538"
+    },
+    {
+      "path": "references/tao-mine-aoi-images.md",
+      "bytes": 8341,
+      "sha256": "sha256-f56768275afc3215a526c936aeebe281b02f708c50b36c20fbcda44630846583"
+    },
+    {
+      "path": "references/tao-route-visual-changenet-samples.md",
+      "bytes": 2374,
+      "sha256": "sha256-043d8e62f45ca62d463c4ef70ff85e0ba50903f22fe604fa6d293e27803611da"
+    },
+    {
+      "path": "references/visual-changenet.md",
+      "bytes": 9428,
+      "sha256": "sha256-7db005776bb87949a92a7a4b8da438cdb7b1a49bddaca5f78abddbbfecdbfc25"
+    },
+    {
+      "path": "scripts/align_token_usage.py",
+      "bytes": 11956,
+      "sha256": "sha256-000c25e703c7016ddeb6b7398f689d7ace15a59e0472df9c66943cf5d9b3d1c6"
+    },
+    {
+      "path": "scripts/analyze_kpi.py",
+      "bytes": 21780,
+      "sha256": "sha256-6bb39aacf9ac8f31387927f802cefd2fdb3d8fcb2f55539800a199123a6de9a5"
+    },
+    {
+      "path": "scripts/changenet_data_pair_prepare.py",
+      "bytes": 8741,
+      "sha256": "sha256-7c692e1a0e2565a9432f669947dfcdad6f4e7d9d6682e62f1040914b3ca3fd61"
+    },
+    {
+      "path": "scripts/init_deft_state.py",
+      "bytes": 9649,
+      "sha256": "sha256-e71ff127a4c5577fc97b14d4b9bc6f88e052c2ab77f9228c32e0d8fbbd32b683"
+    },
+    {
+      "path": "scripts/log_stage.py",
+      "bytes": 6936,
+      "sha256": "sha256-1fd03584a322646071d48efbe51cf49eacb4a71ca3580de9220d45596109e168"
+    },
+    {
+      "path": "scripts/prepare_inference_spec.py",
+      "bytes": 7126,
+      "sha256": "sha256-8fa53c7963485983f03feb1d18329721dda32e1b1c9b5e52d078a758e215e577"
+    },
+    {
+      "path": "scripts/stage_backbone.py",
+      "bytes": 4763,
+      "sha256": "sha256-dc378b245a5afc7a8ea8ad0e10a012956f842bed9164eac37db2e13925d292f5"
+    },
+    {
+      "path": "scripts/validate_training_csv.py",
+      "bytes": 9702,
+      "sha256": "sha256-ef2d72c02e4619355924fc826ab327b3dd513e66bca60a6d513c0bdb98f1c486"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4275,
+      "sha256": "sha256-07c44aa2c80be2763a066ee14793cd61f0c8193715cd4211ab955bac55e3fb6e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14301,
+      "sha256": "sha256-49417c8e9cb7872493984bd33fed179b2095bb6fccf29f881c1295b3950b2109"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

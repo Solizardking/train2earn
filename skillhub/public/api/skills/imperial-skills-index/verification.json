@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-skills-index",
+  "name": "imperial-skills-index",
+  "description": "Index for the bundled Imperial skill pack exposed through solana-clawd. Use to discover the correct focused Imperial skill.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-skills-index/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-skills-index/metadata.json",
+  "bundleHash": "sha256-cadde19e792093bdbd40ae06040a7150b52a3880b5c0061013936f68ed6c4f0b",
+  "merkleLeaf": "sha256-39ecc9edd8a0967604c39b90f63caeda7e6bcea5ec4ee58a2aa6cc64fb64ac61",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 748,
+      "sha256": "sha256-01f7ebd9dae74f0c999b63fd27778ec247183f064f7021ff787e81af6abd7547"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

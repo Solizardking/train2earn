@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemo-mbridge-recipe-recommender",
+  "name": "nemo-mbridge-recipe-recommender",
+  "description": "Recommend and customize Megatron Bridge recipes for a user's model, GPU count, and training goal. Indexes library recipes (pretrain/SFT/PEFT) and performance recipes.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemo-mbridge-recipe-recommender/SKILL.md"
+}

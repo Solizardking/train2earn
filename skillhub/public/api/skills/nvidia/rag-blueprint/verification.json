@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/rag-blueprint",
+  "name": "rag-blueprint",
+  "description": "NVIDIA RAG Blueprint — deploy, configure, troubleshoot, and manage. Handles any RAG action: deploy, install, start, enable, disable, toggle, change, configure, troubleshoot, debug, fix, shutdown, stop, or tear down any RAG feature or service (Agentic RAG, VLM, guardrails, query rewriting, models, search, ingestion, observability, summarization, reasoning, and more).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/rag-blueprint/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/rag-blueprint/metadata.json",
+  "bundleHash": "sha256-14d5f25cb20de90f11491edbe9fbc628c2bc119a7118c38438654c85bb026fd7",
+  "merkleLeaf": "sha256-8195c1dd4e0fae6b1d59727b3d5e083326e6c2beba7f505b0106d36e228008c9",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4707,
+      "sha256": "sha256-ad9dead0a8f17e4d3edd2430d4165a6c39ec051fa634e2accc3f6f34456a91c9"
+    },
+    {
+      "path": "references/configure/agentic-rag.md",
+      "bytes": 5072,
+      "sha256": "sha256-6931cff1cb011b9deab888194ebe9bb8850b90125aafc3441ae26f83953908ec"
+    },
+    {
+      "path": "references/configure/api-reference.md",
+      "bytes": 1688,
+      "sha256": "sha256-b54c77326d2798d42e4f2a6aafe63426b3b80c09aa56e005fe686ebe2b611dc5"
+    },
+    {
+      "path": "references/configure/data-catalog.md",
+      "bytes": 1751,
+      "sha256": "sha256-995dda145af478d4f143719c6ea91e8f690d7ab735f5a36d2c188e0c8574462f"
+    },
+    {
+      "path": "references/configure/evaluation.md",
+      "bytes": 2903,
+      "sha256": "sha256-5a60598df857fb8dea95f73bf12b474ec6e8cf1616ce274e94bdf8e59616e0d9"
+    },
+    {
+      "path": "references/configure/guardrails.md",
+      "bytes": 1687,
+      "sha256": "sha256-81a9b41d645fe98519a5b30c9dd08c0cc7884d0a08962a1df1826f533c5dc044"
+    },
+    {
+      "path": "references/configure/ingestion.md",
+      "bytes": 3636,
+      "sha256": "sha256-c6638264d20e2ce3a60ff8c71c4570a851d80e2f0b236ff3dce8f10c73b5b79f"
+    },
+    {
+      "path": "references/configure/mcp.md",
+      "bytes": 1330,
+      "sha256": "sha256-d56b81476c5da1fb4a539abd9108e6feeedea7619b99f5f5b021aa6c7ed6e802"
+    },
+    {
+      "path": "references/configure/migration.md",
+      "bytes": 1632,
+      "sha256": "sha256-23ebc0eb94fa5095111dc9fb7d68fe01f7576958f8f5384c9abbfe78bac00e98"
+    },
+    {
+      "path": "references/configure/models-and-infrastructure.md",
+      "bytes": 4740,
+      "sha256": "sha256-bd97b44294969473eeb671d3fb9ce18afd67fe2a212ef90f871f82b69a5a3091"
+    },
+    {
+      "path": "references/configure/multimodal-query.md",
+      "bytes": 2023,
+      "sha256": "sha256-b8aff8ae28d07d1ab94cdc3d3b3ab7fa51e8df90560066e51291fff27d62afc5"
+    },
+    {
+      "path": "references/configure/notebooks.md",
+      "bytes": 2873,
+      "sha256": "sha256-699c61ee8b5535e162553bc3a4a92894953a3071319a4147b368595ad167eacf"
+    },
+    {
+      "path": "references/configure/observability.md",
+      "bytes": 1484,
+      "sha256": "sha256-f1c2d3617770b4e660212ccde6d7ce3c363be2fd2fab28901fd3d767e0b5922a"
+    },
+    {
+      "path": "references/configure/query-and-conversation.md",
+      "bytes": 3764,
+      "sha256": "sha256-5024c059e00b9bf6a92a76085ec3be027ac1e560026c2c1339b0732d7d61264b"
+    },
+    {
+      "path": "references/configure/reasoning-and-generation.md",
+      "bytes": 3933,
+      "sha256": "sha256-f321410ce645d2c2d4042ca1474dfb72abc3da28b07fae58bce63a28b725164c"
+    },
+    {
+      "path": "references/configure/search-and-retrieval.md",
+      "bytes": 4129,
+      "sha256": "sha256-318453642a660c430e004507f85df3ba5e534cc0a284cfb27d2fa4cff3d55ccd"
+    },
+    {
+      "path": "references/configure/summarization.md",
+      "bytes": 2103,
+      "sha256": "sha256-97f43900f70b3eb02dfe71e367ca9045ec2cea457afbca4a9c43c19aa4b3cd56"
+    },
+    {
+      "path": "references/configure/user-interface.md",
+      "bytes": 1739,
+      "sha256": "sha256-165312d168210a6324084c6b02335419499ffb09d4e4d4f594f685c9f1b72ef4"
+    },
+    {
+      "path": "references/configure/vlm.md",
+      "bytes": 3662,
+      "sha256": "sha256-e0af2f8143871c1381245ca4c5e973bf1361e8adeadea8378113e668d3b0881f"
+    },
+    {
+      "path": "references/deploy.md",
+      "bytes": 8075,
+      "sha256": "sha256-e6b6dcc479b2ee051e82d15bc35bad1ce32f7c256bdbbf32f4e25893fee1e8ea"
+    },
+    {
+      "path": "references/deploy/docker-nvidia-hosted.md",
+      "bytes": 2215,
+      "sha256": "sha256-0ff4900057c89f5b13d7997f421692e5d5301f018214b20e221b8456864e9b90"
+    },
+    {
+      "path": "references/deploy/docker-retrieval-only.md",
+      "bytes": 1688,
+      "sha256": "sha256-44d629a51b746e89ed2680669598958661e4c4064eac58c23b2548675399026d"
+    },
+    {
+      "path": "references/deploy/docker-self-hosted.md",
+      "bytes": 2340,
+      "sha256": "sha256-1fd41a62734cc0cfb19d2333938191ec47dbe3a00f54f93aa7bf15ce0b1c18f1"
+    },
+    {
+      "path": "references/deploy/docker.md",
+      "bytes": 4354,
+      "sha256": "sha256-96fe558100135ccfe767212b9b83ffd5c0540e2b36b9b329cbbe6cde4a310d49"
+    },
+    {
+      "path": "references/deploy/helm-mig.md",
+      "bytes": 2076,
+      "sha256": "sha256-d1b0fdff3e5486c160623a68021226adb5ccff71a4ac44c6a8e30516081ff962"
+    },
+    {
+      "path": "references/deploy/helm-openshift.md",
+      "bytes": 3685,
+      "sha256": "sha256-bce3e5b8a788628a372e12e032f81c610a8abcbd29888c16178b5a8dc45324ea"
+    },
+    {
+      "path": "references/deploy/helm-standard.md",
+      "bytes": 2396,
+      "sha256": "sha256-54744f31ee5825c9a44a80ef851ecd9a34beb645e8c6cc2b65b278266ae497d1"
+    },
+    {
+      "path": "references/deploy/helm.md",
+      "bytes": 5724,
+      "sha256": "sha256-edcdaa8aecde194b519e93243b820e5d23763e52aa7984d11b82d94e250933cb"
+    },
+    {
+      "path": "references/deploy/library-full.md",
+      "bytes": 2291,
+      "sha256": "sha256-7bc35d06548d0fbf9e5e4804566fee1a8ad66085aa6c5ab91ff91788778b88b9"
+    },
+    {
+      "path": "references/deploy/library-lite.md",
+      "bytes": 1823,
+      "sha256": "sha256-c7cd255ad8f43e0120b1caeae268874275090acd24acf54091a47771f3de3bb0"
+    },
+    {
+      "path": "references/deploy/library.md",
+      "bytes": 2278,
+      "sha256": "sha256-a98a09d5bd9b519bc3920481c3fcd7b0973760f10de6ce6858748f9a001c5672"
+    },
+    {
+      "path": "references/shutdown.md",
+      "bytes": 4843,
+      "sha256": "sha256-c793fafa494c15736ddb4ee685f28fbcf04584f9ca318f7437a0e2f8b7e0f1e4"
+    },
+    {
+      "path": "references/troubleshoot.md",
+      "bytes": 8996,
+      "sha256": "sha256-cb2811af3036ce6c74998a9d5b9f58c84cd67b49ee8c515373ab24d7020b56bf"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3195,
+      "sha256": "sha256-729c059cee28eb26064d88ff0f37b81c10fc4cab26818028fe453ff596c8f835"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11354,
+      "sha256": "sha256-7167ef6b9d4f30ffe47b698ae7fdf9f0beafe4ea9a75752a056d0e4f03d6e51b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

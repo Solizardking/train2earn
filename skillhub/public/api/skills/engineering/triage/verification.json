@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/triage",
+  "name": "triage",
+  "description": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/triage/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/triage/metadata.json",
+  "bundleHash": "sha256-ae5f04b80eec7d20ab4152d0ffe702e12cc7bf63270253fe20780b044dc14a96",
+  "merkleLeaf": "sha256-60dcf9b2a278c025f7ca2cc1c0447fedcbd65387462935a8c2e83a8bebad93fe",
+  "files": [
+    {
+      "path": "AGENT-BRIEF.md",
+      "bytes": 7972,
+      "sha256": "sha256-5b78d347cc53f6bcf7b875106005ccf5315055fa4cf75eb28d41e96ee426d27b"
+    },
+    {
+      "path": "OUT-OF-SCOPE.md",
+      "bytes": 4712,
+      "sha256": "sha256-2526f998fd7ca5e956d3f6f234bcc2431a5971ee769f1148ddc60b92f04d5914"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6574,
+      "sha256": "sha256-d45827c299c021f77b0f146fefa3ee679b13f99e9a2ffdf48e8de2347adeefe1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

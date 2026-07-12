@@ -1,0 +1,7 @@
+{
+  "slug": "google/cloud/agent-platform-skill-registry",
+  "name": "agent-platform-skill-registry",
+  "description": "Interact with the Gemini Enterprise Agent Platform Skill Registry to create, update, manage, and search for skills. Use this skill to enable agents to register new functionality, discover existing capabilities, manage skill revisions, and monitor long-running operations.",
+  "category": "Google / Cloud",
+  "skill": "/api/skills/google/cloud/agent-platform-skill-registry/SKILL.md"
+}

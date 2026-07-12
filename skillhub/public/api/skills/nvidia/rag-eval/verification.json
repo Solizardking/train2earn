@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/rag-eval",
+  "name": "rag-eval",
+  "description": "Filesystem RAG benchmarks: corpus/, train.json, evaluate_rag.py (RAGAS quality). Not for prod monitoring, latency/throughput benchmarking (use rag-perf), or evals outside this repo layout.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/rag-eval/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/rag-eval/metadata.json",
+  "bundleHash": "sha256-8dbec592a141a7dd3b67dd52b28d91b90e44bcc7266110cb5f3195d7e166b2de",
+  "merkleLeaf": "sha256-25450862df778daebda42b684127ed9d7a8b01b18bf8f2b8c0cbfa32c4ec1050",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2915,
+      "sha256": "sha256-c8f164790dcb622efb81a2fe992d620f7c24ab3e820a8ae88cfe903f7157ca26"
+    },
+    {
+      "path": "references/benchmark-execution.md",
+      "bytes": 8315,
+      "sha256": "sha256-e30fa930410b5e4cb418ca0e0605d14eb324d8d45e34b5eab4d0298cf48ef144"
+    },
+    {
+      "path": "references/dataset-and-conversion.md",
+      "bytes": 8361,
+      "sha256": "sha256-09dbb38b1968c75208652454850586a996f094e9e4f80a54aa3a3ad558ba90d8"
+    },
+    {
+      "path": "references/evaluate-rag-cli.md",
+      "bytes": 4283,
+      "sha256": "sha256-f6887fa97ab9b82d925dd5fd481911696ab31efa7521f259cd0ce104c90305e6"
+    },
+    {
+      "path": "references/result-analysis.md",
+      "bytes": 2868,
+      "sha256": "sha256-618873c4b1ac6cadcd273139c29725c9be8a7a3e207afd480a8bd1f189645c9e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2673,
+      "sha256": "sha256-d70956be04f5098d34cfeb018a5e125ec5457eb7fdfb2d373b79b7cd0ee284f9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9415,
+      "sha256": "sha256-572126a6a3e15989ba62f90fe5856b6d8eda11c9097b86889db2c6eddd612a73"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

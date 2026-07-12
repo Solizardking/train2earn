@@ -1,0 +1,7 @@
+{
+  "slug": "sponge-wallet",
+  "name": "sponge-wallet",
+  "description": "Crypto wallet, token swaps, cross-chain bridges, and access to paid external services (search, image gen, web scraping, AI, and more) via x402 payments.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/sponge-wallet/SKILL.md"
+}

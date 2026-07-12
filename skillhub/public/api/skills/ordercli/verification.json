@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "ordercli",
+  "name": "ordercli",
+  "description": "Foodora-only CLI for checking past orders and active order status (Deliveroo WIP).",
+  "source": "https://skills.x402.wtf/api/skills/ordercli/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/ordercli/metadata.json",
+  "bundleHash": "sha256-c76409fcc44b325f11cdc305dda4d0132438b262bb42350b949d0e6ad5d20547",
+  "merkleLeaf": "sha256-0c000512f23689ed497ebf319ac07601bf270e4c285000c636da4d2bba6b6004",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2087,
+      "sha256": "sha256-562f5716faa528b335be627ba00feaa369d0b1a7b41c9bf4e17594864c8b01ef"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

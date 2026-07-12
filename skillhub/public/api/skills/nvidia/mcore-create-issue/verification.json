@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/mcore-create-issue",
+  "name": "mcore-create-issue",
+  "description": "Investigate a failing GitHub Actions run or job and create a GitHub issue for the failure.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/mcore-create-issue/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/mcore-create-issue/metadata.json",
+  "bundleHash": "sha256-13c67088240cd4173d5c60fe20584727b4b37cce2ba6e13a5ae6da2991851537",
+  "merkleLeaf": "sha256-bb3bc83c7d19923eb5e6f6c8cdd0a4bbf1e99270a2d06084fd20e7ab761f5b4f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2844,
+      "sha256": "sha256-c13ce550722105b242aece051e2367b3423217d2a8f1eb78984ddf474e04dad5"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2448,
+      "sha256": "sha256-edf9a6181ebdcd0d4390111601c9da18a2f5d3ad7d4a7a20dec380138818e7d7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6372,
+      "sha256": "sha256-7c06cfe897a53f7e1230bdd9525bbddeb19144c33373a31283b1a54314dba88d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

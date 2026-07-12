@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/domain-modeling",
+  "name": "domain-modeling",
+  "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/domain-modeling/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/domain-modeling/metadata.json",
+  "bundleHash": "sha256-0e95e035a55077cb40ff3ddeb972f0a649c3ec6394630b4c9d486235ff6f9fa8",
+  "merkleLeaf": "sha256-b8e1c6f2595635dbfd0e240e1cc62dbd1d9d6e482aac8748b7d57f24793a1d7c",
+  "files": [
+    {
+      "path": "ADR-FORMAT.md",
+      "bytes": 2766,
+      "sha256": "sha256-f1f36cd3f8d3b6474ddd5855da4e233bfc4ae1a1c5024909ccf11871819a41b2"
+    },
+    {
+      "path": "CONTEXT-FORMAT.md",
+      "bytes": 2299,
+      "sha256": "sha256-b8cc318f2a4285b530e908b6bc43901c3c5cd11100362636bbc4216639bef597"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3427,
+      "sha256": "sha256-152e2c97239affb12a60c5f4a7e74ab546a49ae169688c81f4e2ccc42dafa579"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-error-recovery",
+  "name": "vulcan-error-recovery",
+  "description": "Error category routing and recovery for Vulcan/Phoenix perps. Use on failed CLI/MCP calls, tx failures, auth/config/API/network/rate-limit errors, and strategy recovery.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-error-recovery/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-error-recovery/metadata.json",
+  "bundleHash": "sha256-9f15a48b6bdfc019a482842b9020cb8bf67469b067aa070b5491152abfd70123",
+  "merkleLeaf": "sha256-0df236cf28734ebb973386748101fda5433426fcd9ed4424abaf58af6af5c087",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 487,
+      "sha256": "sha256-1e0d72f8a5121c8d8ba9cefab50b41ee30485c3c4d98e31cea87465982a18b60"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

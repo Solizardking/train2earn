@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dflow-proof-kyc",
+  "name": "dflow-proof-kyc",
+  "description": "Integrate DFlow Proof — a Solana wallet identity-verification primitive (Stripe Identity under the hood) — for either (a) gating your own app's features behind KYC, or (b) completing the mandatory verification step for Kalshi prediction-market buys on DFlow. Use when the user asks \"how do I KYC a wallet?\", \"check if a wallet is verified\", \"add KYC to my DeFi app\", \"handle unverified_wallet_not_allowed / PROOF_NOT_VERIFIED\", \"redirect to dflow.net/proof\", or \"gate a feature by jurisdiction or identity\". Do NOT use to actually place trades (use `dflow-kalshi-trading`), for geoblocking (separate concern, handled inline in the trading skill), for age gating (Proof doesn't currently verify age), or for spot swaps (no KYC required).",
+  "source": "https://skills.x402.wtf/api/skills/dflow-proof-kyc/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/dflow-proof-kyc/metadata.json",
+  "bundleHash": "sha256-70647587383c8b12ff4a591865e2180fc97229207038feac0beea56f26d16fea",
+  "merkleLeaf": "sha256-7c3003b64b02211d29f0c7da6b0d13fa8786aced49c327f2693442339d572b78",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9048,
+      "sha256": "sha256-7470ed4fccd964f767311d14dc394dfaeff0090fa0c33ab3cd73b8beb203e350"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

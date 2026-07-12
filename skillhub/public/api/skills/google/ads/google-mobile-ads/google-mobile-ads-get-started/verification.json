@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/ads/google-mobile-ads/google-mobile-ads-get-started",
+  "name": "google-mobile-ads-get-started",
+  "description": "Provides instructions for integrating the Google Mobile Ads (GMA) SDK. Use this skill when the user wants to get started with, install, integrate, set up, or configure the SDK for AdMob or Ad Manager, GMA Next-Gen SDK or mobile ads framework in an Android, iOS, or Unity application.",
+  "source": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-get-started/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-get-started/metadata.json",
+  "bundleHash": "sha256-277666d82511d8b9ab3d0c2edbf4c840c37c4dfea6bd2a102f52115157467463",
+  "merkleLeaf": "sha256-a30ea9b3f71abd6e560f3722f34fa9f4ae84b395cb7a20141e5aee5d32b437c9",
+  "files": [
+    {
+      "path": "assets/skadnetwork-identifiers.xml",
+      "bytes": 5045,
+      "sha256": "sha256-c7f188192fc99e928002df7ead52f50244add83f9f851f751e0e3282f5eae0bc"
+    },
+    {
+      "path": "references/android-get-started.md",
+      "bytes": 2823,
+      "sha256": "sha256-73fd55801498ad50b9cf86d5d722af4633f3730bd3e2aefc6ffe53d4f4bbddab"
+    },
+    {
+      "path": "references/ios-get-started.md",
+      "bytes": 3002,
+      "sha256": "sha256-5f18da0c0f07cc210655d2365a94fdceb0a68bffb994c489a79f8ea5f583b60d"
+    },
+    {
+      "path": "references/unity-get-started.md",
+      "bytes": 2841,
+      "sha256": "sha256-be6259c49614a4a4d581d32ac82977f6acda8d9fa2de090a1539bf70331cef74"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1056,
+      "sha256": "sha256-256c0114ed747d657bc73a70a72b50dfe861086145a295488cae79f43c8b2e58"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

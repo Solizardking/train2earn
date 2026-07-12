@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dflow-phantom-connect",
+  "name": "dflow-phantom-connect",
+  "description": "Build Solana wallet-connected apps with Phantom Connect SDKs and DFlow trading. Use when user asks to connect a Phantom wallet, integrate Phantom in React, React Native, or vanilla JS, sign messages or transactions, build token-gated pages, mint NFTs, accept crypto payments, swap tokens with DFlow, trade prediction markets, or integrate Proof KYC verification. Covers @phantom/react-sdk, @phantom/react-native-sdk, @phantom/browser-sdk, DFlow spot trading, DFlow prediction markets, and DFlow Proof identity verification. Do NOT use for Ethereum or EVM wallet integrations, or non-DFlow DEX routing.",
+  "source": "https://skills.x402.wtf/api/skills/dflow-phantom-connect/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/dflow-phantom-connect/metadata.json",
+  "bundleHash": "sha256-819c28757593213dca945121282c737e4299914341ba72649e0e295e9a807b33",
+  "merkleLeaf": "sha256-f1999c721a249a027fa3dc860068f0f1f4ff04b564dec47d4150b407d533dcf9",
+  "files": [
+    {
+      "path": "references/browser-sdk.md",
+      "bytes": 8319,
+      "sha256": "sha256-cdd7c693ac673787287caadc9ed36a11cf13d5205b42277cac3bbd672c330374"
+    },
+    {
+      "path": "references/dflow-crypto-trading.md",
+      "bytes": 5831,
+      "sha256": "sha256-8b4ff6d1599eec96fced47139b96b9cb87bd0c26dccd50dc3e51fabefca21417"
+    },
+    {
+      "path": "references/dflow-prediction-markets.md",
+      "bytes": 10122,
+      "sha256": "sha256-518f9c08d53e32a4d02236b828941fb1e8da25c2c8cdc320138c5dcdd36de46e"
+    },
+    {
+      "path": "references/dflow-proof.md",
+      "bytes": 2513,
+      "sha256": "sha256-f3d429ac7e213794d6b08fbd904fea988812044740c5b91ef0098f68043eb24a"
+    },
+    {
+      "path": "references/dflow-websockets.md",
+      "bytes": 2387,
+      "sha256": "sha256-1b33c29a61b36500e34db226ee3f7f2a96fdb5c4789dccebcb6b23a281cf4222"
+    },
+    {
+      "path": "references/nft-minting.md",
+      "bytes": 4740,
+      "sha256": "sha256-545ec716fd4050c26e521876710fa6af93f649d08154a662a7a5c8ef3a1addcb"
+    },
+    {
+      "path": "references/payments.md",
+      "bytes": 5637,
+      "sha256": "sha256-e1212daff97c51a681e001312c6c08d1eeecfa52a04e9f352497debec8e0ba86"
+    },
+    {
+      "path": "references/react-native-sdk.md",
+      "bytes": 7407,
+      "sha256": "sha256-31befb78318fde1cb224d3e1fabbb185fa58b53722f70abb1c25e06274172057"
+    },
+    {
+      "path": "references/react-sdk.md",
+      "bytes": 7261,
+      "sha256": "sha256-5086693fcadc06b4d91bcffbaa52d57ada8215a9591f1927fd0c148ca219d61b"
+    },
+    {
+      "path": "references/token-gating.md",
+      "bytes": 5004,
+      "sha256": "sha256-8c5c0dd505d33844ea407a073aa02957bf218a255aa49d7f8a1957edaa58a241"
+    },
+    {
+      "path": "references/transactions.md",
+      "bytes": 5225,
+      "sha256": "sha256-ad7920f01fa5ce82d4df6984e194c89b82121fb8a2bba80bd330edfb747f3f72"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7511,
+      "sha256": "sha256-e0c575fa71ae879c0560ce00b4e9442aed3ddeeefd40f31be16c7d11ffe8a5e9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

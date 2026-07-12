@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "deprecated/ubiquitous-language",
+  "name": "ubiquitous-language",
+  "description": "Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions \"domain model\" or \"DDD\".",
+  "source": "https://skills.x402.wtf/api/skills/deprecated/ubiquitous-language/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/deprecated/ubiquitous-language/metadata.json",
+  "bundleHash": "sha256-c0ed039555aee7e007c5104cbcf8d81456932908c9b44b0f80fd62435d8707f6",
+  "merkleLeaf": "sha256-6790bc0d485bd39beb96bdae803000040142f0120b093978464badcc0e23463e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4890,
+      "sha256": "sha256-2449e2345b96b9f1e861c697b5eab50d03ae1254481a4306b6f815684e523b3a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "deprecated/request-refactor-plan",
+  "name": "request-refactor-plan",
+  "description": "Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue. Use when user wants to plan a refactor, create a refactoring RFC, or break a refactor into safe incremental steps.",
+  "source": "https://skills.x402.wtf/api/skills/deprecated/request-refactor-plan/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/deprecated/request-refactor-plan/metadata.json",
+  "bundleHash": "sha256-083c8733269e8c578bb31facd57eff0e46c290fcafd62609a0c53c15e81e4ceb",
+  "merkleLeaf": "sha256-ce6604bae6140d38727ff704ccc7bdac9cd670a722c1d8a10889acd78ab1501f",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2711,
+      "sha256": "sha256-d59de4ba6cc1fe2dd267e8b9b5a1fd88e3e739e2130bc9dd78061d2a072830b8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

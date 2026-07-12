@@ -1,0 +1,7 @@
+{
+  "slug": "pump-ts-vanity",
+  "name": "pump-ts-vanity",
+  "description": "Build educational TypeScript vanity-address tooling for Pump.fun/Solana wallets with @solana/web3.js, async generators, event-loop yielding, prefix/suffix matching, batch search, and best-effort memory zeroization.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-ts-vanity/SKILL.md"
+}

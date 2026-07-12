@@ -1,0 +1,7 @@
+{
+  "slug": "sherpa-onnx-tts",
+  "name": "sherpa-onnx-tts",
+  "description": "Local text-to-speech via sherpa-onnx (offline, no cloud)",
+  "category": "Media / Devices",
+  "skill": "/api/skills/sherpa-onnx-tts/SKILL.md"
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "peekaboo",
+  "name": "peekaboo",
+  "description": "Capture and automate macOS UI with the Peekaboo CLI.",
+  "category": "Utilities",
+  "skill": "/api/skills/peekaboo/SKILL.md"
+}

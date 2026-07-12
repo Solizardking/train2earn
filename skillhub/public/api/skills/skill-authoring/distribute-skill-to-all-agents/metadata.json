@@ -1,0 +1,7 @@
+{
+  "slug": "skill-authoring/distribute-skill-to-all-agents",
+  "name": "distribute-skill-to-all-agents",
+  "description": "Distribute a skill across the 4 agent skill folders (Codex, Claude Code, Pi, Hermes) so all agents see it. Use when the user says \"distribute this skill\", \"sync skills across agents\", or after creating/updating a skill that should be global. Covers the symlink layout and the ~/.pi/agent/skills trap.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/skill-authoring/distribute-skill-to-all-agents/SKILL.md"
+}

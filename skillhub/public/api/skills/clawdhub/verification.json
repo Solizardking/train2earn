@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "clawdhub",
+  "name": "clawdhub",
+  "description": "Use the ClawdHub CLI to search, install, update, and publish agent skills from clawdhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawdhub CLI.",
+  "source": "https://skills.x402.wtf/api/skills/clawdhub/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/clawdhub/metadata.json",
+  "bundleHash": "sha256-88e93f39817fdf2d10ebc807075f789de9823e7aaac913015384f53a0cca4af5",
+  "merkleLeaf": "sha256-9248574f4ccbfe27086a5d1a3184ccbdba204ca937639e904d287f27ae62399e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1452,
+      "sha256": "sha256-8917808f0967184d9118b4af4c6b7d98fe0a46c6a51d1ab24972e576e0de9b96"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,126 @@
+name: Skill Relay
+
+# Realtime-ish catalog sync: whenever skills change (or a new skill lands),
+# rebuild the catalog/site artifacts, commit them back, and optionally
+# re-anchor the Merkle root on Arweave × Solana.
+#
+# Triggers
+#   - push to skills/** on main
+#   - manual workflow_dispatch
+#   - repository_dispatch type: skill-ingest  (external webhook / bot ingest)
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "skills/**"
+      - "scripts/build-catalog.mjs"
+      - "scripts/skill-relay.mjs"
+      - "scripts/publish-onchain.mjs"
+      - "package.json"
+  workflow_dispatch:
+    inputs:
+      publish_onchain:
+        description: "Also run publish:onchain after rebuild"
+        type: boolean
+        default: false
+      onchain_devnet:
+        description: "Use Solana/Irys devnet for on-chain publish"
+        type: boolean
+        default: true
+  repository_dispatch:
+    types: [skill-ingest]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: skill-relay-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  relay:
+    name: Rebuild catalog + site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # permissions.contents: write lets GITHUB_TOKEN push catalog commits.
+          # If branch protection blocks that, use a PAT checkout action override.
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Rebuild + smoke-test catalog
+        run: node scripts/skill-relay.mjs
+
+      - name: Commit generated catalog artifacts
+        id: commit
+        run: |
+          git config user.name "skillhub-relay[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json skills.sh.json HUB.md README.md assets public onchain/relay-state.json || true
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No generated catalog changes."
+          else
+            COUNT=$(node -e "console.log(require('./catalog.json').length)")
+            NVIDIA=$(node -e "console.log(require('./catalog.json').filter(s=>s.slug.startsWith('nvidia/')).length)")
+            git commit -m "chore(relay): rebuild catalog (${COUNT} skills, ${NVIDIA} nvidia)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: On-chain publish (optional)
+        if: |
+          (github.event_name == 'workflow_dispatch' && inputs.publish_onchain == true) ||
+          (github.event_name == 'repository_dispatch' && github.event.client_payload.publish_onchain == true)
+        env:
+          SOLANA_KEYPAIR: ${{ secrets.SOLANA_KEYPAIR }}
+          SOLANA_RPC_URL: ${{ secrets.SOLANA_RPC_URL }}
+        run: |
+          if [ -z "$SOLANA_KEYPAIR" ]; then
+            echo "SOLANA_KEYPAIR secret not set — skipping on-chain publish"
+            exit 0
+          fi
+          # Secret is the raw keypair JSON array contents.
+          printf '%s' "$SOLANA_KEYPAIR" > /tmp/solana-keypair.json
+          chmod 600 /tmp/solana-keypair.json
+          EXTRA=""
+          if [ "${{ inputs.onchain_devnet || github.event.client_payload.onchain_devnet || 'true' }}" = "true" ]; then
+            EXTRA="--devnet"
+          fi
+          node scripts/publish-onchain.mjs --execute --keypair /tmp/solana-keypair.json $EXTRA
+          git add onchain/publish-plan.json onchain/publish-receipt.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(relay): on-chain publish receipt"
+            git push
+          fi
+          rm -f /tmp/solana-keypair.json
+
+      - name: Summary
+        run: |
+          echo "### Skill Relay" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          node -e "
+            const c=require('./catalog.json');
+            const n=c.filter(s=>s.slug.startsWith('nvidia/')).length;
+            console.log('- Total skills:', c.length);
+            console.log('- NVIDIA skills:', n);
+          " >> "$GITHUB_STEP_SUMMARY"
+          if [ -f public/.well-known/onchain-skill-registry.json ]; then
+            node -e "
+              const r=require('./public/.well-known/onchain-skill-registry.json');
+              console.log('- Merkle root:', r.merkleRoot);
+              console.log('- Catalog hash:', r.catalogHash);
+            " >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo "- Site: https://skills.onchainai.fund" >> "$GITHUB_STEP_SUMMARY"

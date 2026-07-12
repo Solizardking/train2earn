@@ -1,0 +1,7 @@
+{
+  "slug": "skill-authoring/push-skill-to-github",
+  "name": "push-skill-to-github",
+  "description": "Commit and push agent-skill changes to the user's private skills GitHub repo (rooted at ~/.agents). Use after creating or updating any skill, when the user says \"push the skill\", \"push skills to github\", \"save the skill to my repo\", or \"update the skills repo\". Handles staging, committing, pushing, and cleaning up the cmux pane used to do it.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/skill-authoring/push-skill-to-github/SKILL.md"
+}

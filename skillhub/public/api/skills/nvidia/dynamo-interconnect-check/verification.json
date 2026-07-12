@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/dynamo-interconnect-check",
+  "name": "dynamo-interconnect-check",
+  "description": "Validate that a Dynamo deployment's NIXL/UCX/NCCL interconnect is ready for disaggregated serving over RDMA/NVLink. Use after recipe-runner brings a deployment up (especially disagg/multi-node) to confirm the KV transport is correct; use troubleshoot for diagnosing already-failed pods.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/dynamo-interconnect-check/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dynamo-interconnect-check/metadata.json",
+  "bundleHash": "sha256-b3ceec2fad9f9e072d73c6a78feb6814bd4bc06a295ca317f5007c289892979d",
+  "merkleLeaf": "sha256-440328a50fc019584374af4404d0b3e373e2f7d5dced0e0b78273eb89382ae2b",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2924,
+      "sha256": "sha256-73a5f669218dcbfe1f6dc464ec2a0fa95857d03f604ae15b8363df01bf416b29"
+    },
+    {
+      "path": "references/interconnect-env-vars.md",
+      "bytes": 3580,
+      "sha256": "sha256-120324321682b82c1b850666690d7feb4a475c6d8a1aa5196af62de757b1fce4"
+    },
+    {
+      "path": "scripts/check_interconnect.py",
+      "bytes": 13099,
+      "sha256": "sha256-1269a9b373c92207268ad3e5855f05eede78040e0cf508dd4961eee2e2b1c81d"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2512,
+      "sha256": "sha256-539d1309c5adbe24c70026c8a407b278b1bc443fab504b7e2ac0f35895464381"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6405,
+      "sha256": "sha256-55090c73dcd785d0661458b646d2d84381330ed163c13d2cd590c9c09d373884"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

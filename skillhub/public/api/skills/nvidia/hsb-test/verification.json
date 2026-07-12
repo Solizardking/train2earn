@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/hsb-test",
+  "name": "hsb-test",
+  "description": "Execute QA test plans on Holoscan Sensor Bridge hardware. Reads a user-provided test document, filters tests by the user's setup, determines which tests can run automatically, executes them with pass/fail evaluation, and produces a structured test results report.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/hsb-test/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/hsb-test/metadata.json",
+  "bundleHash": "sha256-e66f71a551751929d7f8a61e35d49aa334d6d49560f03a1c4c5e13fc1ff041dc",
+  "merkleLeaf": "sha256-d0b31bf3024d473d49d1a61b5187d09ce1da1890456c5267e39d92e52a370d48",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4312,
+      "sha256": "sha256-a9cc165c8872c8aade94645c1760f1761eff776b00b498fbe91b255f5dccecd3"
+    },
+    {
+      "path": "references/phase-details.md",
+      "bytes": 22668,
+      "sha256": "sha256-cb572e8ebf599d4b738cb95f7d8a3fa32c6b8999430f8ece79984a50b048f8b8"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3907,
+      "sha256": "sha256-fc336b51f533a2590795dade6b51852867a60bf2ec0dbb73113afadbc0616b48"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16679,
+      "sha256": "sha256-20281216bbba8139deb34b8a42c0d8bae052001ff259c31fd80dae3d668bffef"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "in-progress/writing-fragments",
+  "name": "writing-fragments",
+  "description": "Writing, explore — mine raw fragments, no structure yet.",
+  "source": "https://skills.x402.wtf/api/skills/in-progress/writing-fragments/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/in-progress/writing-fragments/metadata.json",
+  "bundleHash": "sha256-2a9832b67f9c80ff82eb9b7f8fb75876a212af6860c8cc08c1b7059709bf1f49",
+  "merkleLeaf": "sha256-ee430ed1da1cee92dbcdc266f94adb6540a8ca964d2c41c8322f9c0e867cb05e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3579,
+      "sha256": "sha256-c61b6608f227b0eee1b832273360cf5088ad68c343c15ec9c06673086662e64e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

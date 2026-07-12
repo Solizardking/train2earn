@@ -1,0 +1,7 @@
+{
+  "slug": "engineering/tdd",
+  "name": "tdd",
+  "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+  "category": "Utilities",
+  "skill": "/api/skills/engineering/tdd/SKILL.md"
+}

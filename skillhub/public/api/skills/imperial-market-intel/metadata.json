@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-market-intel",
+  "name": "imperial-market-intel",
+  "description": "Imperial and Phoenix market data: funding, mark prices, route checks, Phoenix depth, and pre-trade venue context.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-market-intel/SKILL.md"
+}

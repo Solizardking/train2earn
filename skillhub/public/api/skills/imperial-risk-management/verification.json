@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-risk-management",
+  "name": "imperial-risk-management",
+  "description": "Risk checks for Imperial-routed perps: profile funding, existing exposure, venue choice, margin headroom, and Telegram pre-trade snapshots.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-risk-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-risk-management/metadata.json",
+  "bundleHash": "sha256-b9d947cb81a22587172000e8bb26babafd31c6c34754e1183a565f5b330479ee",
+  "merkleLeaf": "sha256-6515f4c8e3cf9f332c4e5d090ac130eb7f19526f498e4bba5558f3dfef01431c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 673,
+      "sha256": "sha256-a45c581135dd97ed4c6e18cfc965b42e9ab02b4c949347c7450cade0070db5fb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

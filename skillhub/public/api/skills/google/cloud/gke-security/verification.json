@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-security",
+  "name": "gke-security",
+  "description": "Plans, configures, and hardens Google Kubernetes Engine (GKE) security. Covers Workload Identity Federation, Secret Manager integration, RBAC hardening, Binary Authorization, Network Policies (Dataplane V2), Pod Security Standards, and IAM roles. Use when securing GKE clusters, setting up Workload Identity, hardening RBAC configurations, or configuring GKE secrets. Don't use for general network routing configuration (use gke-networking instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-security/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-security/metadata.json",
+  "bundleHash": "sha256-49fc29a6a8f11e7f177ab3e2cff895807bba17c808d5c5dd9fafc773ad304fa2",
+  "merkleLeaf": "sha256-2ebdeaa14081e370661698f7bd26a37b3f405c41f3ac4a7cd9cc17455ef20079",
+  "files": [
+    {
+      "path": "assets/default-deny-netpol.yaml",
+      "bytes": 177,
+      "sha256": "sha256-f9240717254857db356fb5a5eca4b047eca17bfe2dcccba0e79c9155aaa30ed3"
+    },
+    {
+      "path": "assets/workload-identity-pod.yaml",
+      "bytes": 900,
+      "sha256": "sha256-a57559426e79fa83cdacf0d41f7f55afb67b40894362d554c4a33c47ac32e16b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13638,
+      "sha256": "sha256-521d23c424ef85ce1872e1d372e50c48f14ba90d878a796061752d5db7661360"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

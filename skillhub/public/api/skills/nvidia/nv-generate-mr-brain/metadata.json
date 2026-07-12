@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nv-generate-mr-brain",
+  "name": "nv-generate-mr-brain",
+  "description": "Used for generating synthetic brain MRI volumes with NV-Generate-CTMR rflow-mr-brain. Not for production training data.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nv-generate-mr-brain/SKILL.md"
+}

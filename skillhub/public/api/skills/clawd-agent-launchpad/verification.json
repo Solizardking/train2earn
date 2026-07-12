@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "clawd-agent-launchpad",
+  "name": "clawd-agent-launchpad",
+  "description": "Build, launch, stake, and manage Clawd or Cheshire Terminal agents. Use when working on Agent Launchpad, agent templates, agent builder, agent hub, deployed agent detail pages, runtime matrix, Metaplex agent minting, staking, agent chat, or Clawd/Cheshire agent lifecycle tasks.",
+  "source": "https://skills.x402.wtf/api/skills/clawd-agent-launchpad/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/clawd-agent-launchpad/metadata.json",
+  "bundleHash": "sha256-8f2dcf8ce2e1e8c8a5d98da8f943d8b47ca16bfb4302e86d1f9991bec522d7a0",
+  "merkleLeaf": "sha256-630f8fd84365a37c7a2f9b3eee797ff9fc899c61f36f93ca869bf0be12fc2c1b",
+  "files": [
+    {
+      "path": "references/agent-surfaces.md",
+      "bytes": 1454,
+      "sha256": "sha256-a76dbcb35bdd75744e35fd2af073493b0bf9e54c4d788ddc86d992c138d15b97"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2019,
+      "sha256": "sha256-7ebde1387c199db2b1717a54dc9ec00ba5bc5989c2fcc3a05e439513d8ebf3e8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

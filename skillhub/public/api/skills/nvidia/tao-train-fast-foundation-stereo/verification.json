@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-fast-foundation-stereo",
+  "name": "tao-train-fast-foundation-stereo",
+  "description": "Real-time stereo depth estimation using FastFoundationStereo (FFS), the distilled bp2 commercial variant of FoundationStereo. Predicts disparity maps from stereo image pairs with ~10× lower latency than full FoundationStereo. Use when training, evaluating, exporting, or running inference for a TAO FastFoundationStereo (FFS) model. Trigger phrases include \"train fast stereo\", \"real-time stereo disparity\", \"FastFoundationStereo\", \"distilled stereo depth\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-fast-foundation-stereo/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-fast-foundation-stereo/metadata.json",
+  "bundleHash": "sha256-557c93af014fd20a24970e7c916295e862b32ae58de81e1f24ce8d899af025d1",
+  "merkleLeaf": "sha256-26d48dcfc578a677c5678bdf7ed481dc559c32aadc5de9227e7831bda99a77a7",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4035,
+      "sha256": "sha256-d472c394eecfe36f33c2eb6cc40e7603535120c7c2cd479ceef343a25675290c"
+    },
+    {
+      "path": "references/error-patterns.md",
+      "bytes": 3315,
+      "sha256": "sha256-93252c43b14b66a5682c135389e4ef4f5faa0ee1d7b791b32ff03c7ce15b22dc"
+    },
+    {
+      "path": "references/important-parameters.md",
+      "bytes": 7474,
+      "sha256": "sha256-826bb979585f7c19958f3309d3669253a5245f7c0750983653fb2a850eedd8bb"
+    },
+    {
+      "path": "references/parent-model-inference.md",
+      "bytes": 3052,
+      "sha256": "sha256-873f901029d611a552cb87a7c61266db331c6504927c2412e5d4639ff57c1c2e"
+    },
+    {
+      "path": "references/setup-and-run.md",
+      "bytes": 5602,
+      "sha256": "sha256-72249891cdb35342cb15327869fff4d3accfb42ede20a2901b11bfd2b23b13ff"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4479,
+      "sha256": "sha256-2cd591f141c9d30a96366372b4b46a95ea2d7215580c720c67f382f5300ad0f7"
+    },
+    {
+      "path": "references/spec_template_deploy.yaml",
+      "bytes": 2733,
+      "sha256": "sha256-d0f3f01d1ddda429c41352552224de643deddce4d9aadebfe5424fb4d9a52468"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1890,
+      "sha256": "sha256-ed2882702c98252ca8f673dce03a32cf110ec32f5110832ed9ee855adde499fd"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 1870,
+      "sha256": "sha256-d9d0bb2370fedd83d659d6c270987a028dd056ec2453f40df92729f64906557e"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 1835,
+      "sha256": "sha256-56024ebd227adb9d0015cb31312c6d1abfbb381bcd4dec7abbf6e8e824f3534d"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2707,
+      "sha256": "sha256-00824a290de7c11f860408eeba54226909fe820ad23ff99958f37eace2e4ddff"
+    },
+    {
+      "path": "references/spec-overrides.md",
+      "bytes": 3497,
+      "sha256": "sha256-78f2afab68f1c6ade866c4c44eaaaa9d5e714b13e858ede7a1dfba6d738a927e"
+    },
+    {
+      "path": "references/tao-deploy-fast-foundation-stereo.md",
+      "bytes": 19675,
+      "sha256": "sha256-2c06b5caeb4edbe02d9bcd0930159211a9165fdb63c798aae05063bf2e080557"
+    },
+    {
+      "path": "references/tao-deploy-fast-foundation-stereo.skill_info.yaml",
+      "bytes": 3741,
+      "sha256": "sha256-ecf48900835488a8dc03d01b6b4d12ed5bb326a045effc0ce3737ec15617139c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4105,
+      "sha256": "sha256-8e12522e879e103372cfe265b3ec4c281d53bb25c2aa72ba843a9b05ceb922a9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11680,
+      "sha256": "sha256-e16dd07ae81e6df6453205affd482c3e34ce1e372d276b7f7c9054297bed3b5e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

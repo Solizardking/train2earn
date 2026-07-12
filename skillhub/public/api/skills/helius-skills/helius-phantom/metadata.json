@@ -1,0 +1,7 @@
+{
+  "slug": "helius-skills/helius-phantom",
+  "name": "helius-phantom",
+  "description": "Build frontend Solana applications with Phantom Connect SDK and Helius infrastructure. Covers React, React Native, and browser SDK integration, transaction signing via Helius Sender, API key proxying, token gating, NFT minting, crypto payments, real-time updates, and secure frontend architecture.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/helius-skills/helius-phantom/SKILL.md"
+}

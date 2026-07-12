@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-backup-dr",
+  "name": "gke-backup-dr",
+  "description": "Configures GKE Backup Plans and restore workflows. Use for backup policies, disaster recovery, or GKE cluster restores. Don't use for database backups.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-backup-dr/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-backup-dr/metadata.json",
+  "bundleHash": "sha256-4b7b9acf432e28156a04500585034f1d38bb12c18395e6a2477348356d64eb2b",
+  "merkleLeaf": "sha256-3cc7acd6dcf52cd2880a42aa8fa93b19f20471acc3748ac4843c24f89bb89b0e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2114,
+      "sha256": "sha256-076d6b32b65f93cceb018d37d8436fb7a27b5fcaf89f3be50b0c81c880f565aa"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

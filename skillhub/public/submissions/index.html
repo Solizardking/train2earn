@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>On-chain submissions — Skill Hub</title>
+  <meta name="description" content="Public, redacted ledger of community skill submissions anchored via Solana.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://skills.x402.wtf/submissions">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg:#0b0f0e; --panel:#151b19; --panel-strong:#1b2421; --ink:#edf7f3; --muted:#9baba6;
+      --line:#2b3834; --green:#39d7a6; --blue:#75a8ff; --amber:#e8b44e; --red:#ff8b82; --purple:#b99cff;
+      --soft-green:rgba(57,215,166,.14); --soft-blue:rgba(117,168,255,.14); --soft-amber:rgba(232,180,78,.14);
+      --shadow:0 1px 2px rgba(0,0,0,.28),0 18px 42px rgba(0,0,0,.24);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#121815 0%,var(--bg) 58%,#0f100c 100%);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,sans-serif;line-height:1.5}
+    a{color:inherit}
+    .shell{width:min(1100px,calc(100% - 32px));margin:0 auto;padding:22px 0 56px}
+    header{display:flex;justify-content:space-between;gap:16px;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:24px;flex-wrap:wrap}
+    .brand{display:flex;gap:12px;align-items:center;text-decoration:none}
+    .mark{width:40px;height:40px;border-radius:8px;border:1px solid var(--green);background:var(--panel-strong)}
+    h1{margin:0;font-size:1.25rem}
+    .nav{display:flex;gap:8px;flex-wrap:wrap}
+    .nav a{padding:7px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel-strong);text-decoration:none;font-size:13px;font-weight:700}
+    .nav a.primary{background:var(--green);color:#06110f;border-color:var(--green)}
+    .hero h2{margin:0 0 8px;font-size:clamp(1.5rem,4vw,2.1rem)}
+    .hero p{margin:0;color:var(--muted);max-width:640px}
+    .kicker{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--green);background:var(--soft-green);border:1px solid rgba(57,215,166,.4);padding:5px 10px;border-radius:999px;margin-bottom:12px}
+    .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:22px 0}
+    .stat{background:var(--panel);padding:16px;text-align:center}
+    .stat .n{font-size:1.4rem;font-weight:800;color:var(--green)}
+    .stat .l{font-size:12px;color:var(--muted);margin-top:2px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+    input,select{background:var(--panel-strong);border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:10px 12px;font:inherit}
+    input{flex:1;min-width:200px}
+    .list{display:grid;gap:10px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow)}
+    .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:flex-start}
+    .slug{font-weight:800;font-size:1.02rem}
+    .meta{font-size:12.5px;color:var(--muted);margin-top:4px;word-break:break-all}
+    .chip{display:inline-block;font-size:11px;font-weight:800;padding:3px 8px;border-radius:999px;border:1px solid var(--line);background:var(--panel-strong);margin-right:4px}
+    .chip.ok{color:var(--green);background:var(--soft-green);border-color:rgba(57,215,166,.35)}
+    .chip.warn{color:var(--amber);background:var(--soft-amber)}
+    .chip.bad{color:var(--red);background:rgba(255,139,130,.12)}
+    .chip.info{color:var(--blue);background:var(--soft-blue)}
+    .links a{color:var(--blue);font-size:12.5px;font-weight:700;margin-right:10px}
+    .empty{color:var(--muted);padding:24px;text-align:center;border:1px dashed var(--line);border-radius:12px}
+    footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px}
+    code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="/">
+        <div class="mark"></div>
+        <div>
+          <h1>Skill Hub</h1>
+          <div style="color:var(--muted);font-size:12.5px">Public submission ledger</div>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="/">Catalog</a>
+        <a href="/publish">Publish</a>
+        <a href="/scanner/">Scanner</a>
+        <a class="primary" href="https://cheshireterminal.ai/skills" target="_blank" rel="noopener">Cheshire skills</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="kicker">GitHub-safe · redacted · on-chain</div>
+      <h2>Community submissions</h2>
+      <p>
+        Every paid publish job is mirrored here as public metadata only — hashes, risk level,
+        payment signatures, and explorer links. Private keys and job file bodies never appear.
+      </p>
+    </section>
+
+    <div class="stats">
+      <div class="stat"><div class="n" id="count">—</div><div class="l">Submissions</div></div>
+      <div class="stat"><div class="n" id="published">—</div><div class="l">Published</div></div>
+      <div class="stat"><div class="n" id="cluster">—</div><div class="l">Catalog cluster</div></div>
+      <div class="stat"><div class="n" id="skills">—</div><div class="l">Catalog skills</div></div>
+    </div>
+
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="Filter slug, status, wallet…">
+      <select id="status">
+        <option value="">All statuses</option>
+        <option value="published">published</option>
+        <option value="paid">paid</option>
+        <option value="paid_pending_anchor">paid_pending_anchor</option>
+        <option value="awaiting_payment">awaiting_payment</option>
+        <option value="blocked">blocked</option>
+      </select>
+    </div>
+
+    <div class="list" id="list"><div class="empty">Loading ledger…</div></div>
+
+    <footer>
+      Source: <code>/api/submissions.json</code> ·
+      Repo: <a href="https://github.com/Solizardking/skills" target="_blank" rel="noopener">Solizardking/skills</a> ·
+      Primary hub: <a href="https://skills.x402.wtf">skills.x402.wtf</a>
+    </footer>
+  </div>
+  <script>
+    let ledger = null;
+    const list = document.getElementById("list");
+    const q = document.getElementById("q");
+    const status = document.getElementById("status");
+
+    async function load() {
+      try {
+        const res = await fetch("/api/submissions.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        ledger = await res.json();
+        document.getElementById("count").textContent = ledger.count ?? ledger.submissions?.length ?? 0;
+        const pubs = (ledger.submissions || []).filter((s) => s.status === "published").length;
+        document.getElementById("published").textContent = pubs;
+        document.getElementById("cluster").textContent = ledger.catalogAnchor?.receipt?.cluster || ledger.catalogAnchor?.plan?.cluster || "—";
+        document.getElementById("skills").textContent = ledger.catalogAnchor?.receipt?.totalSkills || ledger.catalogAnchor?.plan?.totalSkills || "—";
+        render();
+      } catch (err) {
+        list.innerHTML = `<div class="empty">Could not load ledger: ${escapeHtml(err.message)}. Run <code>npm run ledger:export</code>.</div>`;
+      }
+    }
+
+    function render() {
+      const term = q.value.trim().toLowerCase();
+      const st = status.value;
+      let rows = ledger.submissions || [];
+      if (st) rows = rows.filter((r) => r.status === st);
+      if (term) {
+        rows = rows.filter((r) =>
+          [r.slug, r.name, r.status, r.submitter?.wallet, r.payment?.signature, r.id]
+            .filter(Boolean).join(" ").toLowerCase().includes(term)
+        );
+      }
+      if (!rows.length) {
+        list.innerHTML = `<div class="empty">No submissions match.</div>`;
+        return;
+      }
+      list.innerHTML = rows.map((r) => {
+        const riskClass = r.risk?.level === "critical" || r.risk?.level === "high" ? "bad"
+          : r.risk?.level === "medium" ? "warn"
+          : r.risk?.level === "clean" || r.risk?.level === "low" ? "ok" : "info";
+        const statusClass = r.status === "published" ? "ok" : r.status === "blocked" ? "bad" : "info";
+        const links = [];
+        if (r.payment?.explorer) links.push(`<a href="${r.payment.explorer}" target="_blank" rel="noopener">Payment ↗</a>`);
+        if (r.publish?.solana?.explorer) links.push(`<a href="${r.publish.solana.explorer}" target="_blank" rel="noopener">Anchor ↗</a>`);
+        if (r.publish?.arweave?.url) links.push(`<a href="${r.publish.arweave.url}" target="_blank" rel="noopener">Arweave ↗</a>`);
+        return `<article class="card">
+          <div class="row">
+            <div>
+              <div class="slug">${escapeHtml(r.slug || r.name || r.id)}</div>
+              <div class="meta">${escapeHtml(r.description || "")}</div>
+              <div class="meta" style="margin-top:8px">
+                <span class="chip ${statusClass}">${escapeHtml(r.status)}</span>
+                <span class="chip ${riskClass}">risk ${escapeHtml(r.risk?.level || "?")}</span>
+                <span class="chip info">${r.verification?.fileCount ?? 0} files</span>
+              </div>
+            </div>
+            <div class="meta" style="text-align:right;max-width:42%">
+              <div>${escapeHtml(r.updatedAt || r.createdAt || "")}</div>
+              <div style="margin-top:4px;font-family:ui-monospace,monospace;font-size:11px">${escapeHtml((r.verification?.bundleHash || "").slice(0, 26))}…</div>
+            </div>
+          </div>
+          <div class="meta" style="margin-top:10px">job <code>${escapeHtml(r.id)}</code>${r.payment?.payer ? ` · payer <code>${escapeHtml(short(r.payment.payer))}</code>` : ""}</div>
+          <div class="links" style="margin-top:8px">${links.join("") || '<span class="meta">No explorer links yet</span>'}</div>
+        </article>`;
+      }).join("");
+    }
+
+    function short(a){ return a && a.length>12 ? a.slice(0,4)+"…"+a.slice(-4) : a; }
+    function escapeHtml(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+    q.addEventListener("input", render);
+    status.addEventListener("change", render);
+    load();
+  </script>
+</body>
+</html>

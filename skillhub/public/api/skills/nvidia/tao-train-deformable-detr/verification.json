@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-deformable-detr",
+  "name": "tao-train-deformable-detr",
+  "description": "Deformable DETR for 2D object detection. Uses deformable attention for efficient multi-scale feature processing, lighter than DINO with competitive accuracy. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Deformable-DETR model. Trigger phrases include \"train deformable-detr\", \"Deformable DETR object detection\", \"lightweight DETR detector\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-deformable-detr/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-deformable-detr/metadata.json",
+  "bundleHash": "sha256-133e1c7d4e544177be743c0b61cf3c6ed2454df84d0c619921bd4b7fc82a27cc",
+  "merkleLeaf": "sha256-f88407753cd17ad57a2630da7ab2e0d1aba8ad10308e62132717651ac7ff39aa",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4108,
+      "sha256": "sha256-dd95a2ea0d35b91feaa237b0ff82384d3618101014b0dc7db451b4df90c31231"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4583,
+      "sha256": "sha256-273cbe8930f25360eecd8ccab6a69ac64b12f133eccd80b5ca06278474dcbf74"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 438,
+      "sha256": "sha256-0206f0a75d333a6c3186995a9897d73c0c3ab9686676f644d1cbdcdeb385e162"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 698,
+      "sha256": "sha256-5ce39c7f8b2533df882f5932f8ece2ec860f4f20346f49182d6c336007f9a819"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 449,
+      "sha256": "sha256-3caebbd61b0fc07e86f7b718402b51bc95c32696fa31c727f1083e8b21ebb9bd"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 2902,
+      "sha256": "sha256-b869b869378ed55713349c44ef4a965fbbbb0392bb9cc29fd12560945de73151"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 2999,
+      "sha256": "sha256-3ff3a1f7d6ce4c53f43b5fdfb9695d4a5d430c9e4587565c0d337a87eb0b3c25"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 3149,
+      "sha256": "sha256-d89466bb387ffbda3ee97381e1bc8a2d0443c759ec1393262cfac14d84fa8511"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 2982,
+      "sha256": "sha256-f2c3110165c36c1752cbd646be1e4517c152da23f57417d5de48caa32dc14286"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 2754,
+      "sha256": "sha256-4479353cd9aac95eade1cb70d7e7d0076a0600aa42fb610daa774b7a0f9eef3f"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2754,
+      "sha256": "sha256-4479353cd9aac95eade1cb70d7e7d0076a0600aa42fb610daa774b7a0f9eef3f"
+    },
+    {
+      "path": "references/tao-deploy-deformable-detr.md",
+      "bytes": 5467,
+      "sha256": "sha256-df105ed45791741cb9a9c8df0c17725fc1feb26fa5cc49f6b10822969b44fcaf"
+    },
+    {
+      "path": "references/tao-deploy-deformable-detr.skill_info.yaml",
+      "bytes": 2422,
+      "sha256": "sha256-000c192ff6bf499996b3868027386e8265995d12ab3b6b297567a8b74cad2d6e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3862,
+      "sha256": "sha256-a8bb0299d44301912a6a07e279f5f3d744274e81bf38935a7c569411a37cda07"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14639,
+      "sha256": "sha256-598c358d2a2a7c58dc44b460d32ef65968f39e19c7bd7a9f6de82faf771f97b1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

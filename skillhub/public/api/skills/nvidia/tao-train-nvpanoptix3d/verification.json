@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-nvpanoptix3d",
+  "name": "tao-train-nvpanoptix3d",
+  "description": "NVPanoptix3D for panoptic 3D scene reconstruction from posed RGB images. Produces 3D panoptic segmentation (semantic, instance, and panoptic masks) with occupancy completion. Built on a VGGT backbone with a Mask2Former-style head and 3D frustum reconstruction. Use when training, evaluating, exporting, or running inference for a TAO NVPanoptix3D model. Trigger phrases include \"train NVPanoptix3D\", \"panoptic 3D reconstruction\", \"3D scene segmentation\", \"occupancy completion\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-nvpanoptix3d/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-nvpanoptix3d/metadata.json",
+  "bundleHash": "sha256-dfc369e4ab63b68f1d677ae71570a85acd68f3deec213ed605ed30d18ee5784f",
+  "merkleLeaf": "sha256-a18a3ce3d2984b1988d46b904910d6bb4d8ef704536a6fe2ed8f29450a60097d",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4087,
+      "sha256": "sha256-5dc435cb7f2571238161c19aca564dcbaab3319fec4f4a4688eb0ecb4bf3c25b"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 6388,
+      "sha256": "sha256-5f2d65f6c8f86d1ec5d73b499ffe0b966b6ab8a5c8a4ed462bed07d27fc17f7a"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 3694,
+      "sha256": "sha256-158f3b199e3fd97ce127c94982191deccc40174d3bd11af70b7e4ec2e3bf49ec"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3844,
+      "sha256": "sha256-ca82b50adbdb3d029c3df5907b0e7d86d0767343a5cabc5664fca339894fd735"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 3729,
+      "sha256": "sha256-24dacd415628cac2decd661da5e87e1114701fd222d0fff67ba45c6ae05f68ed"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 3569,
+      "sha256": "sha256-fc6c675f5dc41811f82b18c9ccce7a878ebbe89ba98fe6c894816f527dcaa270"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4160,
+      "sha256": "sha256-c9645bc91736ffc24b67b723a0909c64238404a6ed186fdc4582cdc79a6af6ab"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15335,
+      "sha256": "sha256-c6fceef697c4b22fd6d05290273349e05d2c5cf6a2f9127a54ccdaefeb4d99e2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

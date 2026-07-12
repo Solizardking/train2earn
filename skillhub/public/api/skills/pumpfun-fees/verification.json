@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pumpfun-fees",
+  "name": "pumpfun-fees",
+  "description": "Quick Pump.fun fee shortcut for creator fee sharing setup, shareholder BPS splits, claim/distribution flows, fee-tier checks, token incentives, and automated fee monitoring.",
+  "source": "https://skills.x402.wtf/api/skills/pumpfun-fees/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pumpfun-fees/metadata.json",
+  "bundleHash": "sha256-14bdf3acb7639ae642bc76265b812fdd210c008e14be9b67063179e2d26c8330",
+  "merkleLeaf": "sha256-c2b88c39ec5c1df36a65a7b2f81c4a29fc9df99847457bb4c78bf074b0e8b763",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2601,
+      "sha256": "sha256-4f335275445fb7516e23ba470e2a35bdb0980edecb36ed1364145cc7364daf44"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

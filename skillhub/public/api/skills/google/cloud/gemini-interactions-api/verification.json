@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gemini-interactions-api",
+  "name": "gemini-interactions-api",
+  "description": "Guides the usage of Gemini Interactions API on Gemini Enterprise Agent Platform. Use when the user wants to use the stateful, server-managed Interactions API for multi-turn conversations, background execution, streaming, structured output, and function calling on the Agent Platform.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gemini-interactions-api/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gemini-interactions-api/metadata.json",
+  "bundleHash": "sha256-6b2cbdce746f5a3663624a03f465a18572a7785f86feea80f231215e07e55aa3",
+  "merkleLeaf": "sha256-ed29d72462f3a7a14f59d40d27e78280b72941b1bec9a6192ea827ecdfdd0f20",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 14743,
+      "sha256": "sha256-97a1679fb771f036f0c565f3278f50e6edab1769ccac9f70c1c7ed45b577c6ba"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

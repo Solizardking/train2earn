@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/launch-nemo-rl",
+  "name": "launch-nemo-rl",
+  "description": "Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the nrl-k8s CLI. Covers ephemeral vs long-lived RayCluster modes, iterating on runs, and debugging hung or failed training jobs.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/launch-nemo-rl/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/launch-nemo-rl/metadata.json",
+  "bundleHash": "sha256-0a78e47df238bcf38d0997cd449299fb3cefcf8a17366deb35b06310ea45d761",
+  "merkleLeaf": "sha256-21cf1931fccd136e0344fa50080a072ca900cf3fc972f286ead55e889061360a",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4103,
+      "sha256": "sha256-a3ae92e946f733c267f76c3b100ac8ef8329fb74ff0aba43c4f9093b926fdffd"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3741,
+      "sha256": "sha256-e8b8911d22d860a3f179c5f589ed9596e9a5ef6e885ec78c084345c1500b0d62"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17864,
+      "sha256": "sha256-2c3b61209faeb629c2eef3c0d65b7e7806d6abfa19075cea455ac48a09e8ea4c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/mcore-linting-and-formatting",
+  "name": "mcore-linting-and-formatting",
+  "description": "Linting and formatting for Megatron-LM. Covers running autoformat.sh, tools (ruff, black, isort, pylint, mypy), and code style rules.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/mcore-linting-and-formatting/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/mcore-linting-and-formatting/metadata.json",
+  "bundleHash": "sha256-2257092210dc5ab74c540736f7540ca85a3936f72732d7619b2fa21f0fb3b558",
+  "merkleLeaf": "sha256-06463e0f28c7aa7140413b4e95d454c7135458d763b2ea0c6b4fbd97187f36ca",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2870,
+      "sha256": "sha256-00baa89dee234f65c7e0664582db98f05c7df39bd2355130ed761d7bab4a9c32"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2581,
+      "sha256": "sha256-67f880fcb3de5a63a4fd2b8bd610b28ae61495bfadae7ea5a4817c6bf5b43986"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1628,
+      "sha256": "sha256-8cf1cb7df99031f69af06079b7f8dcc755bab653849097f14f6d60c14f267338"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

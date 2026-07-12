@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/aiq-deploy",
+  "name": "aiq-deploy",
+  "description": "Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/aiq-deploy/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/aiq-deploy/metadata.json",
+  "bundleHash": "sha256-014066ec0979827e2d37738c95eae0a4c3093d9968158549dc07ba908c136785",
+  "merkleLeaf": "sha256-922c016bf056df930a61a40e69dbf633f6ee891b382ff11093beef16de30ac64",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4173,
+      "sha256": "sha256-d5e7676bed3951b15a4d21b62a4e9653b7bbec909af040547419f7cce4da5c62"
+    },
+    {
+      "path": "references/configs.md",
+      "bytes": 3539,
+      "sha256": "sha256-58e094ad46995479b02d40ce737998701c0b3bf707fa81d4c1aeec65577a61b3"
+    },
+    {
+      "path": "references/docker-compose.md",
+      "bytes": 3550,
+      "sha256": "sha256-105daf8fdad524be0c78376017f2db57e92cbecf6e6c66c2b7fc4d0b248d7a50"
+    },
+    {
+      "path": "references/end-to-end-validation.md",
+      "bytes": 5737,
+      "sha256": "sha256-097b7435a2cbbcc867f1024be82bd068c082c43baafc3ce352b3881f48ff4853"
+    },
+    {
+      "path": "references/env-and-secrets.md",
+      "bytes": 3880,
+      "sha256": "sha256-eb6f27752b4a85d6ba98c6e43b3550e9b715439c072c1de31146568383d331f7"
+    },
+    {
+      "path": "references/frag.md",
+      "bytes": 1679,
+      "sha256": "sha256-1f61a9b36667fe45a052195b2f98194d55a36ab4d580c7cf590d848a39b59ea4"
+    },
+    {
+      "path": "references/kubernetes-helm.md",
+      "bytes": 983,
+      "sha256": "sha256-f2f068e684db78b7bbb4f75221d010e16f90cc7648f4c39055c341f4dea0c564"
+    },
+    {
+      "path": "references/local-web.md",
+      "bytes": 1234,
+      "sha256": "sha256-151827f80e63b156cf9f8e281f2de636c822f4eb073a7fae6a6d8e246dfcec11"
+    },
+    {
+      "path": "references/locate-or-clone.md",
+      "bytes": 1300,
+      "sha256": "sha256-4e70592b92f561d07d930c2fe4c1dd0735e9a11a611476b53c55fba733973fb5"
+    },
+    {
+      "path": "references/shutdown.md",
+      "bytes": 2214,
+      "sha256": "sha256-c5da217d99e5c285605f7f2cda5812a8dc3c47dc107efd7202d80136d53b65bf"
+    },
+    {
+      "path": "references/skill-backend.md",
+      "bytes": 1457,
+      "sha256": "sha256-64c96de63070c4c5094a1caa902fbcd75aea99730e1672a706bf6d23e59e13e2"
+    },
+    {
+      "path": "references/terminal-cli.md",
+      "bytes": 755,
+      "sha256": "sha256-b89e8dd6b62fd223edc27f551b76c3e1924f8c1bf95f45b63be7cb08e6e1212a"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 1247,
+      "sha256": "sha256-773a41997676f7280d893c16da9a246560c3f195c0fb998819c0d9482cda791a"
+    },
+    {
+      "path": "references/validation.md",
+      "bytes": 3229,
+      "sha256": "sha256-4ef9b0ead11c53eff8fd1768d5bde1724533a8910a2792e9b72b25aa06da0d42"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4067,
+      "sha256": "sha256-16ea034b17a32b32c119494b4c787f90d65bc756283ada2b35d258af2f9377ef"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13321,
+      "sha256": "sha256-9bfad6034823422b564c0ff3ff7d462eef237fec129f4f5fb1c027f625bc2b9f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

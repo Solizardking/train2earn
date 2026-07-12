@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "solana-common-errors",
+  "name": "solana-common-errors",
+  "description": "Diagnose and fix common Solana development errors — GLIBC mismatches, Anchor version conflicts, cargo build-sbf / platform-tools failures, LiteSVM issues, edition2024 crate pins, RPC airdrops, and Anchor 0.29→0.32 migrations. Use when builds fail, Anchor CLI won't install, or CI breaks on Debian/Ubuntu.",
+  "source": "https://skills.x402.wtf/api/skills/solana-common-errors/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/solana-common-errors/metadata.json",
+  "bundleHash": "sha256-964aaf39da5cadf92ed0b7560807b98703d415e1afb51f29f92c874c04469aac",
+  "merkleLeaf": "sha256-9599a438781e7449e7330123f110c7dc734c222cb55c7a82f1834b1086bef2d5",
+  "files": [
+    {
+      "path": "references/common-errors.md",
+      "bytes": 33998,
+      "sha256": "sha256-a7597d6ad38f0b06d7deb007236aca1101d3bc491929402fb43e8139ec072354"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2791,
+      "sha256": "sha256-c14f01112778858394f7144997382a9ebce6e5c462e30b4e6affd22d9c37dc9f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

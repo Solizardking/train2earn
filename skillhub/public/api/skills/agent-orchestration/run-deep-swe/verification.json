@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "agent-orchestration/run-deep-swe",
+  "name": "run-deep-swe",
+  "description": "Score any AI model on the DeepSWE coding-agent benchmark via the OpenRouter API. Use when the user wants an independent, reproducible coding-agent eval — \"run DeepSWE\", \"benchmark this model on DeepSWE\", \"score model X on the coding benchmark\", \"test a model via OpenRouter on DeepSWE\", or to verify vendor-reported coding scores. Covers setup, the OpenRouter wiring for mini-swe-agent, single-task / subset / full 113-task runs, and leaderboard submission.",
+  "source": "https://skills.x402.wtf/api/skills/agent-orchestration/run-deep-swe/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/agent-orchestration/run-deep-swe/metadata.json",
+  "bundleHash": "sha256-dbd366f546a8a6aae1a7e0f70001ddcb78d49b0de02ccc69f59b31e56203c757",
+  "merkleLeaf": "sha256-b8a5cce058b9ff0e604365cf03085b9eaa10a2ea612fc13b78e71ab2e354c307",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4505,
+      "sha256": "sha256-0a76a4c26536a11a8c576896f86b6e04ccf48f994c667ad6986bf823385b6616"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

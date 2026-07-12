@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-memory-tuning",
+  "name": "nemo-mbridge-perf-memory-tuning",
+  "description": "Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, PEFT + SP input re-gather, parallelism resizing, activation recompute, CPU offloading constraints, and common OOM fixes.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-memory-tuning/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-memory-tuning/metadata.json",
+  "bundleHash": "sha256-830a3e0e67f02fa5997d228880dd7e091659a953fca5ee0464b847f1ef60177b",
+  "merkleLeaf": "sha256-249379d316169ffe09120dfe673c20ab3840947f2ed457e3c595ce15a2c3f8a3",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3997,
+      "sha256": "sha256-79677ffd73900f8e632f7875386fce56e9f8f997bc58725c602857aa0808f552"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 10029,
+      "sha256": "sha256-93cd2752fb931be8746f924f6953d820c56c3ace7f9ce28039ce2b5116dfc5c1"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4162,
+      "sha256": "sha256-82ae5d4cb026e587cdea81cbaba60c72d62f48782f1c834e4416627e76c27bb4"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14433,
+      "sha256": "sha256-3e40e553688d53b8d73b0759ad0f523a0791bf622015d34ee97f631ab617664c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

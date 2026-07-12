@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "notion",
+  "name": "notion",
+  "description": "Notion API for creating and managing pages, databases, and blocks.",
+  "source": "https://skills.x402.wtf/api/skills/notion/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/notion/metadata.json",
+  "bundleHash": "sha256-2207139abdf14f8dcaab2d9b44e1bb569d5c267d84d0e5f7c1c06a764940e69c",
+  "merkleLeaf": "sha256-037dfb82c450377491fcf2de365789d83a592ed5aedab5e279ff82dca7af50be",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5039,
+      "sha256": "sha256-1002bcb8230ff496b65c2cb030737ed561c8c85fa1f823bed9192550e282a6fa"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "skill-authoring/push-skill-to-github",
+  "name": "push-skill-to-github",
+  "description": "Commit and push agent-skill changes to the user's private skills GitHub repo (rooted at ~/.agents). Use after creating or updating any skill, when the user says \"push the skill\", \"push skills to github\", \"save the skill to my repo\", or \"update the skills repo\". Handles staging, committing, pushing, and cleaning up the cmux pane used to do it.",
+  "source": "https://skills.x402.wtf/api/skills/skill-authoring/push-skill-to-github/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/skill-authoring/push-skill-to-github/metadata.json",
+  "bundleHash": "sha256-761c1ffc2c8d3a94689ffcbaac99d066d27c1ac838e0e7ea17434af20d7c85d5",
+  "merkleLeaf": "sha256-2ba6680ba7825c7efca78c980c045c6c3eea14ca077467b1dff86db83caf8012",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2184,
+      "sha256": "sha256-d765de26cc3901654acfb1dafb4c35f740b294b5bb24f3bdb99e1623723a3240"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

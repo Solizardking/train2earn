@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-skill-registry",
+  "name": "agent-platform-skill-registry",
+  "description": "Interact with the Gemini Enterprise Agent Platform Skill Registry to create, update, manage, and search for skills. Use this skill to enable agents to register new functionality, discover existing capabilities, manage skill revisions, and monitor long-running operations.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-skill-registry/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-skill-registry/metadata.json",
+  "bundleHash": "sha256-8a97d2eafaa9805e69ec99efdae6b48295f53380dc823d5e69afa5525717afb9",
+  "merkleLeaf": "sha256-bcd553069d5510b8d9180fdaa2957aefbe7f6bc300d3bfb2d84f8bd7423e2a59",
+  "files": [
+    {
+      "path": "references/generate-skill.md",
+      "bytes": 2612,
+      "sha256": "sha256-c9cde68c86489425dd67190b4813297fd3198a7a67adfbe83c48907c1a93a82c"
+    },
+    {
+      "path": "references/manage-skills.md",
+      "bytes": 10395,
+      "sha256": "sha256-6bf344d09909f6cef7f50a00ed5764c8284829f7f4143fed325f393b86b6062f"
+    },
+    {
+      "path": "references/monitor-operations.md",
+      "bytes": 1939,
+      "sha256": "sha256-1e74b84502378e94e1d379065e7b5d4e129859788a1a8eb2a02e28a13fcabccf"
+    },
+    {
+      "path": "references/query-skills.md",
+      "bytes": 9087,
+      "sha256": "sha256-5934c1b1668526375f9529106a195ac623650a495c45358ed21fccf72a8d3614"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 83,
+      "sha256": "sha256-3fbdea0caf83c5ebf2b3e400c647ae2688e58949111a759895ecf64946d578a1"
+    },
+    {
+      "path": "scripts/skill_registry_ops.py",
+      "bytes": 11073,
+      "sha256": "sha256-4d75b273faabfe368e08cab49dbbd9bd968ea7a9f09d380c4b1c051c2c8030df"
+    },
+    {
+      "path": "scripts/validate_env.py",
+      "bytes": 454,
+      "sha256": "sha256-1e80c1e76267d8d71360a6ef79c0b7d9d62ba248c8aa29acf7513f9291a1063a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6696,
+      "sha256": "sha256-e5b079bc1ae07356e5be0547e63e4f9d9c63f1e2f087d231fa81b5d882aa9922"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

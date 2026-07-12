@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "helius-skills/helius-phantom",
+  "name": "helius-phantom",
+  "description": "Build frontend Solana applications with Phantom Connect SDK and Helius infrastructure. Covers React, React Native, and browser SDK integration, transaction signing via Helius Sender, API key proxying, token gating, NFT minting, crypto payments, real-time updates, and secure frontend architecture.",
+  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius-phantom/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius-phantom/metadata.json",
+  "bundleHash": "sha256-5a84b110c23f942e669ec32fb17b1c5ef4e3b4ae71c4aeb71f2ef8b338ac5ac4",
+  "merkleLeaf": "sha256-1a4a6c7560e9ae8e264428ebd8558e4fa2959a67f6f64728e303894d9028f0a0",
+  "files": [
+    {
+      "path": "references/browser-sdk.md",
+      "bytes": 8629,
+      "sha256": "sha256-639a8cf22221b9dfbf96f712651071fad5cb6a0b84ba5b7cdca785610c02a000"
+    },
+    {
+      "path": "references/frontend-security.md",
+      "bytes": 11465,
+      "sha256": "sha256-8b89d7c412aa96464157f14f778e69a6784c3d9b6d51fc35773b5c5232293daa"
+    },
+    {
+      "path": "references/helius-das.md",
+      "bytes": 9256,
+      "sha256": "sha256-3d4e64738a92ecb14290021482313f01b6dfc838a6118e7af91b651ed63bbe13"
+    },
+    {
+      "path": "references/helius-enhanced-transactions.md",
+      "bytes": 16914,
+      "sha256": "sha256-2aa1c111ef982137b2ae9dd9250b894825342657d329a97f5b6de1a489c1245f"
+    },
+    {
+      "path": "references/helius-onboarding.md",
+      "bytes": 10764,
+      "sha256": "sha256-ca4e8320606b6b9c8eeccfb464a584133527b2484175f414bc38320f945c8a9e"
+    },
+    {
+      "path": "references/helius-priority-fees.md",
+      "bytes": 7384,
+      "sha256": "sha256-53cfbe65d7f9dbb6fb8b44c44e8551999574067dae7aa0d7aa8b617b689b3045"
+    },
+    {
+      "path": "references/helius-sender.md",
+      "bytes": 15659,
+      "sha256": "sha256-1d41b500ed73726deee2acabd33badc3aca974ef5c8b7f200108a6b2f86b769f"
+    },
+    {
+      "path": "references/helius-wallet-api.md",
+      "bytes": 12081,
+      "sha256": "sha256-d9cd770353e6d5f3e05da93a90a38e98d3000d34f062f7dfc4e1979b39186fa0"
+    },
+    {
+      "path": "references/helius-websockets.md",
+      "bytes": 13700,
+      "sha256": "sha256-d59b58a5eb0d2533b0d2d7edc5a611835bf609d93867041aca9e9744cb248b05"
+    },
+    {
+      "path": "references/integration-patterns.md",
+      "bytes": 16807,
+      "sha256": "sha256-7988c6a390d878de03df6c7b45c3d4d2b06564b11237fd855f5f8884553a141d"
+    },
+    {
+      "path": "references/nft-minting.md",
+      "bytes": 8365,
+      "sha256": "sha256-d3132323246c1f25a529b78f7bf5d2296ff00f971edc07d361ae5300303a4bb8"
+    },
+    {
+      "path": "references/payments.md",
+      "bytes": 12827,
+      "sha256": "sha256-2de44604a1dc5457bcab811d3052ccf7b31b6c7fcdd0c21de7003c081d0cb872"
+    },
+    {
+      "path": "references/react-native-sdk.md",
+      "bytes": 9020,
+      "sha256": "sha256-5d2b7d261f1da43b258b15d577c80d64e6a4e763c31ff1148d1996e662dbc57f"
+    },
+    {
+      "path": "references/react-sdk.md",
+      "bytes": 8797,
+      "sha256": "sha256-ca20152bf6819a097b4e19e16594551ee7c919bf356bbf484333d7b99f182cde"
+    },
+    {
+      "path": "references/token-gating.md",
+      "bytes": 8058,
+      "sha256": "sha256-4bed3247f6176a42c3ab8e5194b02b99d76ec84d819e580e2cb76dad5fa1e8ba"
+    },
+    {
+      "path": "references/transactions.md",
+      "bytes": 14562,
+      "sha256": "sha256-e24372584b6a0e825b3a5ea580063672ba5ce01b30f6aaceaae7b81c9f3fbbe0"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19642,
+      "sha256": "sha256-504f29414aa0c1231c08c1be30cba4d64d4a7ab2dca53156cd4b3ee8c3e68ce7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

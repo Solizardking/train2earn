@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "research-and-web/browser-harness",
+  "name": "browser-harness",
+  "description": "Direct browser control via CDP. Use when the user wants to automate, scrape, test, or interact with web pages. Connects to the user's already-running Chrome.",
+  "source": "https://skills.x402.wtf/api/skills/research-and-web/browser-harness/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/research-and-web/browser-harness/metadata.json",
+  "bundleHash": "sha256-34cdad0e137284affd5e917e03f613f7c00ca5edace7ab86fbe679ec20c8bf78",
+  "merkleLeaf": "sha256-8599211aa9b82893b9c21d04dac38b71d971a79de534fbc958de3a445a49bc49",
+  "files": [
+    {
+      "path": "references/install.md",
+      "bytes": 9683,
+      "sha256": "sha256-fd5e16c95f1e7317fef15d02440df7714a542681e5c3a29fa9b12cd3b128b3d9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11871,
+      "sha256": "sha256-ab0ed9c1d81537312012b81cdbd26b7b8cdf8cc22ce75f671dd827bc5b4e3a20"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

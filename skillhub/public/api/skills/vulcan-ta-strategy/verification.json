@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-ta-strategy",
+  "name": "vulcan-ta-strategy",
+  "description": "Technical-analysis-driven Phoenix strategy runner using declarative rules and Vulcan strategy ledgers.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-ta-strategy/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-ta-strategy/metadata.json",
+  "bundleHash": "sha256-8381822e7817d1aa51edf65821b98bf457385ea9a218fe1bf8124ca273a2e9b5",
+  "merkleLeaf": "sha256-6c02d8db24287547b0d487b34e328120e2e12c91505aea6be80e163d157712c0",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 393,
+      "sha256": "sha256-755fb9d8ed9a8e13e4093f24de20a78fc66c8020c570e049e152f8eea5db6619"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/tao-train-mask-auto-label",
+  "name": "tao-train-mask-auto-label",
+  "description": "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations (point or box annotations) using a ViT-MAE backbone. Use when training, evaluating, or running inference for a TAO MAL model. Trigger phrases include \"train MAL\", \"Mask Auto-Label\", \"weakly-supervised segmentation\", \"box-prompted segmentation\", \"minimal-annotation mask prediction\".",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/tao-train-mask-auto-label/SKILL.md"
+}

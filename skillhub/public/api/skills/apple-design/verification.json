@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "apple-design",
+  "name": "apple-design",
+  "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
+  "source": "https://skills.x402.wtf/api/skills/apple-design/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/apple-design/metadata.json",
+  "bundleHash": "sha256-c795bfec6c2f501b42c3329ec5d53813528fc739d342aca4a428b4771710a6c2",
+  "merkleLeaf": "sha256-49606c4a6f1a35da03c1cfc9aeb882f081a788557130aab6ce1b1084f5c9c786",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 22715,
+      "sha256": "sha256-11840b24a11d7f94f39c6aaab074750ae4e4de4ef54ee4b1dd97e16ebd485e61"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

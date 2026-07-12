@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-inference",
+  "name": "gke-inference",
+  "description": "Deploys and optimizes AI/ML inference workloads on GKE, using GPUs, TPUs, and model servers. Use when deploying GKE inference servers, configuring GKE GPU resources for inference, or deploying LLMs on GKE. Don't use for generic batch jobs or HPC task queues (use gke-batch-hpc instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-inference/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-inference/metadata.json",
+  "bundleHash": "sha256-68aa776596ffb0416eae2d934fd0386a6a2c81acd0460397e5cc90afbfe06700",
+  "merkleLeaf": "sha256-98693a80837e50d916c5ab6581a5a24429bf5ee47cc8a418eda604197714062f",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 7526,
+      "sha256": "sha256-050cda071d12fba3239f6c0402ebddd27bc41f9a4651970e299dc8dea3faa586"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

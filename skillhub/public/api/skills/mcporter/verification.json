@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "mcporter",
+  "name": "mcporter",
+  "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+  "source": "https://skills.x402.wtf/api/skills/mcporter/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/mcporter/metadata.json",
+  "bundleHash": "sha256-b9468d5dccc561f1645ec5c7896ce39b46091eeed35c7fefb9bab9e8ebb434db",
+  "merkleLeaf": "sha256-030dc4e88059c01c3c8db9f13504f25d74e53be52dc96d6e91bc7e7f3b9837dc",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1480,
+      "sha256": "sha256-475253164a0cca240679819497abd35bcd708162ab0f399990468d94d55a6d15"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

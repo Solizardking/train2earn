@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-trade-execution",
+  "name": "imperial-trade-execution",
+  "description": "Safe Imperial live execution: authenticated market orders, Phoenix-first venue preference, profile-aware routing, and post-trade verification.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-trade-execution/SKILL.md"
+}

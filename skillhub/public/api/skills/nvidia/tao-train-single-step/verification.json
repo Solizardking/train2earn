@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-single-step",
+  "name": "tao-train-single-step",
+  "description": "Standard single-step train/eval/export workflow for any TAO model. Use when training a TAO model on a dataset without iterative data augmentation, AutoML, or DEFT loops. Trigger phrases include \"single train run\", \"train then evaluate then export\", \"plain TAO training\", \"normal training\", \"no AutoML\", \"skip the loop\". Routes through the per-model SKILL.md for action specifics and through `tao-launch-workflow` for platform/credentials/dataset intake.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-single-step/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-single-step/metadata.json",
+  "bundleHash": "sha256-ee1b607e03412bf470a2218cadccc2c939ce1f17427f0e631772e762dc26422e",
+  "merkleLeaf": "sha256-faf4d6248fd8cac4c489efb06d1cc479e16a7c33e98392625d3bfb576f3e3639",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3990,
+      "sha256": "sha256-0638de4b538f7049a1a861bcee6f3e06f2e01c5b331ce41bbe86a8c09341242a"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 561,
+      "sha256": "sha256-2233eed78da1b2e7be84b5ca1214a87d3023f3232f68e8735e7715b99f7c279b"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3588,
+      "sha256": "sha256-7a2fe6a4b54c0e6687c06a358e917e6cb6244f7e0bbb4b67e8f46076762f72b5"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3920,
+      "sha256": "sha256-38a9358d96a1de59533002374011d5c4e6abf0d8f36bcfb83f22fc2169293b28"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

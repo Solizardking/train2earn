@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-claims-readonly",
+  "name": "pump-claims-readonly",
+  "description": "Query Pump.fun claim state without sending transactions: unclaimed token incentives, creator vault balances, volume accumulators, distributable fees, current-day token previews, and Pump/PumpAMM aggregate views. Use for read-only claim and fee diagnostics.",
+  "source": "https://skills.x402.wtf/api/skills/pump-claims-readonly/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-claims-readonly/metadata.json",
+  "bundleHash": "sha256-9a5fb618d272f054ab55f738a8a63522cc8b2422e645e2c84306e5f33691b16e",
+  "merkleLeaf": "sha256-154fbfa5a429e3ebf3808a2edc502a50b989e531e858a1608b5b4fda9a09b2e1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8171,
+      "sha256": "sha256-d20b9a06a8e61d869273131f614aac57c80abd31fb72bc97376d49091b210aae"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-customize-pinmux",
+  "name": "jetson-customize-pinmux",
+  "description": "Per-pin SFIO / direction / initial-state configurator for a Jetson Orin or Thor custom carrier from the pinmux XLSM. Do NOT use for kernel-DT overlay or ODMDATA edits.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-pinmux/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-pinmux/metadata.json",
+  "bundleHash": "sha256-7611c786d241d8766425d86a06fb495ec5c6dcf14b00e107e3638655d08680ab",
+  "merkleLeaf": "sha256-a22b615c6b2a3e2ce613543a0bfc04dd8598ecdad62ee162c55474b01a6ec8aa",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3965,
+      "sha256": "sha256-10f9abf368f42cfc5fdcb62eade62fc679e6c24fc4c1adcc10993b01f0a08467"
+    },
+    {
+      "path": "questions.json",
+      "bytes": 2560,
+      "sha256": "sha256-18d50910493b7863dcbaed9aa52d7184a0ab3786cb0b4ea64cc5d1bc2ed721dc"
+    },
+    {
+      "path": "references/procedure.md",
+      "bytes": 17035,
+      "sha256": "sha256-81de67f38c9eba16aba92d4f53c0a5607b63dca366af981a63187df93853dc9e"
+    },
+    {
+      "path": "scripts/_pinmux_common.py",
+      "bytes": 8447,
+      "sha256": "sha256-57a09661b5f45c13fb086a0cae9cbd80feb26392db32ff38184829b26ca832ff"
+    },
+    {
+      "path": "scripts/_pinmux_dt.py",
+      "bytes": 9117,
+      "sha256": "sha256-8e60782e2f05474860ae456ef41798fffb39c61c03d7e9633f92b539b0252f7d"
+    },
+    {
+      "path": "scripts/generate_dtsi.py",
+      "bytes": 33607,
+      "sha256": "sha256-6f62f5eef9be1de4763d6c9dee1832374d28c638c6632b4356ece941393f8296"
+    },
+    {
+      "path": "scripts/modify_pinmux.py",
+      "bytes": 30061,
+      "sha256": "sha256-dcfeea303a55ad2988f83b76fc955d9efce00afa87efd4bd641cc1f4c14e0d39"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3632,
+      "sha256": "sha256-c23cd76d4a398a2a76e66fe125de985fd02c13571f4130d653bfc5223010e9f4"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9723,
+      "sha256": "sha256-0af6f45689b4498a42f237d1901d08f02caac8128c287d3a5157d167acd33c8e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

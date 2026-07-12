@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/prototype",
+  "name": "prototype",
+  "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/prototype/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/prototype/metadata.json",
+  "bundleHash": "sha256-92cbd6135305580e87b499db615570efbccb3f931a8319853e80453a423d621a",
+  "merkleLeaf": "sha256-021a096fa7bb664f4b90882a9ef31c0779cb0cb01321645ed764e1ce5b39488e",
+  "files": [
+    {
+      "path": "LOGIC.md",
+      "bytes": 5637,
+      "sha256": "sha256-cf372862bccd3db7f18ea57abd76d6c32e6adf65b9e7f46c73d433e107567a5c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2799,
+      "sha256": "sha256-03074862d4b6e4eaf472aa75146e1d193dd9e3bba0e4303a9b2425562d1d44cc"
+    },
+    {
+      "path": "UI.md",
+      "bytes": 6959,
+      "sha256": "sha256-e2ca04434be54acdee2f5df582ef8038fadf582bbcc99be0d2e27737ff8ed096"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

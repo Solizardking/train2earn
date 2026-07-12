@@ -1,0 +1,7 @@
+{
+  "slug": "engineering/improve-codebase-architecture",
+  "name": "improve-codebase-architecture",
+  "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+  "category": "Utilities",
+  "skill": "/api/skills/engineering/improve-codebase-architecture/SKILL.md"
+}

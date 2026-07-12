@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/deepstream-profile-pipeline",
+  "name": "deepstream-profile-pipeline",
+  "description": "Profile a DeepStream pipeline with Nsight Systems and derive its configs from the measurement. Use when the user asks for an efficient, performant, or profiled pipeline — or to benchmark, tune, or measure FPS.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-profile-pipeline/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-profile-pipeline/metadata.json",
+  "bundleHash": "sha256-629973ceeeb497bed709f56bd2a2aacb1fd71524f82f52d117837a4ba9ddfcb0",
+  "merkleLeaf": "sha256-d97b22318acb73a5b082268f727aa8b75c9ffaefe8dafd7e2837817aec97a83e",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4274,
+      "sha256": "sha256-46de288ee538fd3adee9183d7c83d607775ee66c436d76c503c9c85e62e99050"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5513,
+      "sha256": "sha256-e125e78c7aec0208e46994f55b65a8186245e348342de610e3c8e1ca52052519"
+    },
+    {
+      "path": "references/boundedness-rules.md",
+      "bytes": 7294,
+      "sha256": "sha256-60322eba75e0e88d81a061a8d9674820634d50fd29a6d0c37063d23180fe0906"
+    },
+    {
+      "path": "references/config-derivation-rules.md",
+      "bytes": 10711,
+      "sha256": "sha256-b76cfcd57c7d9446e15dbb1037f9b53836975fae1cf56c08ea255a33661c7bb0"
+    },
+    {
+      "path": "references/hw-ceiling-formulas.md",
+      "bytes": 6617,
+      "sha256": "sha256-d240773f80594d134cb1c22c355bad76c94e089f47320a41af72aff0ec84ee7b"
+    },
+    {
+      "path": "references/nsys-cli-recipes.md",
+      "bytes": 5618,
+      "sha256": "sha256-9439f438cb04378a013a8839bc4ab41aae0fd42b3a72c5327424bb6dcc70ac36"
+    },
+    {
+      "path": "references/nvtx-coverage.md",
+      "bytes": 7305,
+      "sha256": "sha256-bb7c046e384a595601601f0d8307330a0d465a5461dd44869e8c1f602f77ddc3"
+    },
+    {
+      "path": "scripts/capacity_report.py",
+      "bytes": 24112,
+      "sha256": "sha256-a47cfc37217588a26d7c51f23075046f77956493c48968efc67808956a588af9"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4014,
+      "sha256": "sha256-aff089047b5f9660c16b4618ffdb487139e816a9e669864c115525eea2884e8a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16386,
+      "sha256": "sha256-7d6193940e5508cc0246791634222465b5fde6e06b9402777caac61e770812ca"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

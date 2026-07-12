@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "gog",
+  "name": "gog",
+  "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+  "source": "https://skills.x402.wtf/api/skills/gog/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/gog/metadata.json",
+  "bundleHash": "sha256-0dd3e16e1dcdda55fd335f81bc770dd3c981c70f521f1319c8cff12240811eed",
+  "merkleLeaf": "sha256-8c568413e6ee0497bfac61bb4134219b29a56e67bfa54918da32df00c0344ca0",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4377,
+      "sha256": "sha256-a23bc544d1a964431b61fb451b25ff988e6622046d80111835c8f13210baee43"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-generate-video-calibration",
+  "name": "vss-generate-video-calibration",
+  "description": "Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration or runtime analytics.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-generate-video-calibration/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-generate-video-calibration/metadata.json",
+  "bundleHash": "sha256-f5c1f4d4c12ba6f4f0394854087802f92cbb74306aa0d5601d84331372c9fe2e",
+  "merkleLeaf": "sha256-2daebd8a6e6539b562c266b947105aa2ff9c12ba2d20f494258d6fd5d4d7d1c9",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4424,
+      "sha256": "sha256-67c6f902355e5158c771e5ccadbbcd8e62fbcc15caac52d65b05e1f0f201d882"
+    },
+    {
+      "path": "references/calibration-tail.md",
+      "bytes": 4112,
+      "sha256": "sha256-83311a0b206db8ea54ee0105b770dd77b1e4b9dfc4f691be9d845ac0efc130e3"
+    },
+    {
+      "path": "references/common-steps.md",
+      "bytes": 1401,
+      "sha256": "sha256-bb3e4b063be657d9989d5b66ba4fa41fbd5178afdecb21eead38bce787a5e5de"
+    },
+    {
+      "path": "references/deploy-auto-calibration-service.md",
+      "bytes": 20707,
+      "sha256": "sha256-8dd504d32131c7cf631cbcfc0647619202d597289925a1ef473ec8939f238853"
+    },
+    {
+      "path": "references/rtsp.md",
+      "bytes": 17160,
+      "sha256": "sha256-01d1536a67dbb269a7d6bedadfeb1a7a125a8854e7e6cf9c9e03f2e733c5c32a"
+    },
+    {
+      "path": "references/sample-dataset.md",
+      "bytes": 16674,
+      "sha256": "sha256-c34cf6b917774d7ec36903634171b930d3deb7e66cb4ab5ac03fb4a1401343c7"
+    },
+    {
+      "path": "references/videos.md",
+      "bytes": 13629,
+      "sha256": "sha256-0808bfebcaa29a01af3927abd5845c2119d63d5c7bd7a3b8cc89b074e1f80a0e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3713,
+      "sha256": "sha256-dbd919532016e61a8e2fb20965396b9073abb2a302e32914a7c21396d94408a5"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16819,
+      "sha256": "sha256-8bf30627bfa4148dc43149ca5ea6f70792f34896c75aa82134a910ccb9da2990"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

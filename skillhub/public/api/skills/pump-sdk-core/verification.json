@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-sdk-core",
+  "name": "pump-sdk-core",
+  "description": "Build and extend the Pump.fun SDK core: offline TypeScript instruction builders, online RPC helpers, account decoders, PDAs, token creation, buy/sell, migration, fee collection, PumpAMM, PumpFees, and Mayhem support. Use for SDK API and implementation work.",
+  "source": "https://skills.x402.wtf/api/skills/pump-sdk-core/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-sdk-core/metadata.json",
+  "bundleHash": "sha256-7f4986b990c61c3672c2712a79b719e433077802e8cd4563c47aad389228a17d",
+  "merkleLeaf": "sha256-c0367f07ff6551b865670f83282c9689f4aab5ba75fb5fbe6f713722f02cfdd5",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4008,
+      "sha256": "sha256-d8a06a57adb2c6b4e128a3566602dd188d8ca08eaee79e7615006f53a6588562"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

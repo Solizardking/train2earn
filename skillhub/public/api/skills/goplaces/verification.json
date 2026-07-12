@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "goplaces",
+  "name": "goplaces",
+  "description": "Query Google Places API (New) via the goplaces CLI for text search, place details, resolve, and reviews. Use for human-friendly place lookup or JSON output for scripts.",
+  "source": "https://skills.x402.wtf/api/skills/goplaces/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/goplaces/metadata.json",
+  "bundleHash": "sha256-6168ebb53d9a860157bed30c26531fc39dd5137662835c8cba376c1fe16f5c50",
+  "merkleLeaf": "sha256-5b9bc884ac4d883250cc5e92e54e40fa3b10145d327160294bfcf64f28dfc1b1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1334,
+      "sha256": "sha256-65cc8f6cc76ab9b939e52c724d4cb1f7b2424c55444be599931e718e7f9bfee9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

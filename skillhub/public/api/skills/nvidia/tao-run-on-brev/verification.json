@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-on-brev",
+  "name": "tao-run-on-brev",
+  "description": "Brev managed GPU instances with Docker support. Use when running TAO training, evaluation, or inference on Brev GPU instances, managing Brev deployments, or dispatching TAO jobs through the Brev CLI. Trigger phrases include \"run on Brev\", \"Brev GPU instance\", \"submit job to Brev\", \"Brev CLI deployment\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-brev/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-brev/metadata.json",
+  "bundleHash": "sha256-8fd3d732d0c7eeeb8732482747966ba8cf29ae095c2f32e60c2dc1ca4e7605de",
+  "merkleLeaf": "sha256-b8475c6c0ef2b86e3eb6f4b2f69d68597cfb336691d3ac7cfef70938c72948f9",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3936,
+      "sha256": "sha256-df839c530edc74118c0d59d62f649d11f2c75207a23bab429d49c0536b7b0466"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 439,
+      "sha256": "sha256-7ea5ec8668eb14a756bfac4156a5e66ff2f593f0a802e907e3d329cd32676f13"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3786,
+      "sha256": "sha256-058199b6593f8263e9a435b3165011d9539faec05f2383871a45cccd6ac4ad16"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9921,
+      "sha256": "sha256-ace8731dc2542439b77311d1271bb5d02e57a7b18757b4e605aeec8abbfba1e4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

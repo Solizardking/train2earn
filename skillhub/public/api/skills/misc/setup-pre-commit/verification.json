@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "misc/setup-pre-commit",
+  "name": "setup-pre-commit",
+  "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+  "source": "https://skills.x402.wtf/api/skills/misc/setup-pre-commit/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/misc/setup-pre-commit/metadata.json",
+  "bundleHash": "sha256-558bd1842110877611e4dce29ad9853c7aa716cd000f099deea0ed22a2c86c9b",
+  "merkleLeaf": "sha256-d980617ef4bb94a769262e7b544b2a0d47cdd6b258caa28196c3611a7a0de77f",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2261,
+      "sha256": "sha256-872f4037cb7e6e0e340d4175c086550072959925dffc87b160d1a30dc9f63bbd"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

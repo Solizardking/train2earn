@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/diagnosing-bugs",
+  "name": "diagnosing-bugs",
+  "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/diagnosing-bugs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/diagnosing-bugs/metadata.json",
+  "bundleHash": "sha256-ad47efb93554d53be889645a198e004803b2473ae91b3d9366df29b3a6b67b3d",
+  "merkleLeaf": "sha256-e27ebbad9c571b124e088d0d3cc6777dcb3cace0a38f737096a11a462100ef56",
+  "files": [
+    {
+      "path": "scripts/hitl-loop.template.sh",
+      "bytes": 1164,
+      "sha256": "sha256-b2932630950e5210075bcd6f850e5accf30c101c5367b29eac3a29b4dd8084c8"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8536,
+      "sha256": "sha256-7a0779480f323a66d109404646bcc1a14bf0232b45b3e3ea93b652a035718acb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

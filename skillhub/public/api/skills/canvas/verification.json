@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "canvas",
+  "name": "canvas",
+  "description": "Display HTML content on connected Clawdbot nodes across Mac, iOS, and Android canvas views. Use for presenting generated HTML, dashboards, games, visualizations, and interactive demos through the Clawdbot canvas host and node bridge.",
+  "source": "https://skills.x402.wtf/api/skills/canvas/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/canvas/metadata.json",
+  "bundleHash": "sha256-9c8cf75f148b9f6ae5c71fd9d46860e9641bce0d25e580adacab75f411c21563",
+  "merkleLeaf": "sha256-796d0ad4dab482d3f4940b003c52653f0dd7cda0e09db4ac255c971d1295322c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5563,
+      "sha256": "sha256-0c212465782345d97483387465d7e8c0e4f400ee1bef1f4fde27e1a64ee420a5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

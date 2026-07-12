@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-flash-image",
+  "name": "jetson-flash-image",
+  "description": "Use to flash a promoted BSP image to a Jetson DUT in RCM mode via flash.sh or l4t_initrd_flash.sh. Do NOT use for BSP customization, image promotion, or carrier derivation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-flash-image/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-flash-image/metadata.json",
+  "bundleHash": "sha256-a4aac973a5f5d2a7e87823eb3aa758cb6ba1c864ab4d423a6a1254b81bbabf9e",
+  "merkleLeaf": "sha256-033c47b25a8a04007fa88eca96e1bca9dd3ee8731617b2d9ba02e6b7b5e0efc9",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3689,
+      "sha256": "sha256-28b772015860db37777cff2a0ca5950fa5ea4eb0cbec5a00f19d45fdabb767d6"
+    },
+    {
+      "path": "references/default-user-staging.md",
+      "bytes": 1814,
+      "sha256": "sha256-15b335778ccb1f71246c23223b26f7f4e54ebef809fa3b57f83ae978adb32676"
+    },
+    {
+      "path": "references/eeprom-cross-check.md",
+      "bytes": 3343,
+      "sha256": "sha256-b2398e009991d8de45bdea3a521a1f6a132cd9db9bff230a6383d9e001fcfbfa"
+    },
+    {
+      "path": "references/recovery-mode-boardctl.md",
+      "bytes": 3044,
+      "sha256": "sha256-4f69ef3f2281905c7508611d984331014cb7dd66c63dafa39f0b419aaa5b19e3"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3771,
+      "sha256": "sha256-4143fbd6dec86151bfe1c0d6a73a72b8483f8c61856cbd3db1696618e42bffa3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19769,
+      "sha256": "sha256-2b2d429830ab2454a143111f64a2f7072b76247655a79ee771da7389ce56d633"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

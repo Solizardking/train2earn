@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-model-registry",
+  "name": "agent-platform-model-registry",
+  "description": "Agent Platform Model Registry Management. Use when you need to upload, list, describe, update, or delete machine learning models (and their versions) in the Agent Platform Model Registry. Don't use for model training, model deployment to endpoints, or managing non-Agent Platform models.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-model-registry/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-model-registry/metadata.json",
+  "bundleHash": "sha256-2507ba172a55c4f9e750ac8502865f092f7cf0708cc9a5c738b5e5e190f1eae5",
+  "merkleLeaf": "sha256-1d933b381c9eef7b6a73f52329c2cbf44fa1a8f1aaa2e0d776b505ab045622ff",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4642,
+      "sha256": "sha256-ba64c66880332c60d3bedba70894cb6812f4c72b6d4da9c1626f9c849fa0cbf4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

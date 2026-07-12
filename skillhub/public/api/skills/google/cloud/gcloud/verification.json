@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gcloud",
+  "name": "gcloud",
+  "description": "Interacts with Google Cloud services using the gcloud CLI safely and efficiently. Covers command validation, data reduction, safety guardrails with a denylist, and workflows for discovery and investigation. You MUST read this skill before invoking any gcloud command. Use when managing cloud resources, querying configurations, or troubleshooting issues via gcloud. Don't use when writing or debugging Google Cloud client library code or raw REST/gRPC API interactions.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gcloud/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gcloud/metadata.json",
+  "bundleHash": "sha256-f606f01c714ff67bf9d33e54ec570cefaf7da89103282c7ef7610f22265f3e95",
+  "merkleLeaf": "sha256-7ed93e51977f7e4ce215524e2801127bea378e72e311304c0f8f518b6797e23a",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 11299,
+      "sha256": "sha256-bc61ed1c55a608395d18ac05198ab987a8943e027d77c7ce24e18da365eba40d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

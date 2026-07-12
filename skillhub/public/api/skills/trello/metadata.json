@@ -1,0 +1,7 @@
+{
+  "slug": "trello",
+  "name": "trello",
+  "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
+  "category": "Productivity / Messaging",
+  "skill": "/api/skills/trello/SKILL.md"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-speculative-decoding",
+  "name": "jetson-speculative-decoding",
+  "description": "Add EAGLE-3 or draft-model speculative decoding to a Jetson vLLM server when TPOT is the bottleneck.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-speculative-decoding/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-speculative-decoding/metadata.json",
+  "bundleHash": "sha256-00a1dd5eeba5d669fb01922d3cf9a26e95c3636c65d6b0341e3fc47c2b1ebdf6",
+  "merkleLeaf": "sha256-69008f8b283e05788d8b405382159669b83bac5c75f87e00c0ac058298922072",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3357,
+      "sha256": "sha256-ff0f3816521a6c9d3603feef0ebd3b44106c23683326f7f976c39d641aab7239"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3675,
+      "sha256": "sha256-645b1c1acb41cde01d0616a313b963569de0565456ade89124e0c122141369bf"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4832,
+      "sha256": "sha256-a94e228320c83370322f427d3245abe0c03f3963e10db7226d8beac40f5cc0fe"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-manage-video-io-storage",
+  "name": "vss-manage-video-io-storage",
+  "description": "Use to call the VIOS REST API (sensor list, timelines, clip extraction, snapshots, add/delete sensors and streams). Not for VLM inference or search.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-manage-video-io-storage/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-manage-video-io-storage/metadata.json",
+  "bundleHash": "sha256-a087460a2f74d86510067f20264e2b12291017fdee5e5fa9b00f605fbccb7760",
+  "merkleLeaf": "sha256-ed48399a7d321777bf41aa8b0de4d3c646f31e12c5c1be33a1e2992a2ec75ddd",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4405,
+      "sha256": "sha256-e975efd732f849817672f21bec4abc9944b0a999ba0796361a9905fa433021f2"
+    },
+    {
+      "path": "references/api-reference.md",
+      "bytes": 58098,
+      "sha256": "sha256-50bd8d01aee65731ecb9237755eb141a238c9c2a493df79266f448f0a0082c26"
+    },
+    {
+      "path": "references/deploy-vios-service.md",
+      "bytes": 34862,
+      "sha256": "sha256-42d13fba4d91706b5510dabc9ce685897ae600e0ac3ec4970572b6480ba34dfb"
+    },
+    {
+      "path": "references/integrate-vios-service.md",
+      "bytes": 46985,
+      "sha256": "sha256-0eb71ab41b6415f7937cac158c69a0f030b493f4e3ad8c45c48f088a451eefb5"
+    },
+    {
+      "path": "references/nvstreamer-api-reference.md",
+      "bytes": 22739,
+      "sha256": "sha256-520d6982d854d336309f76ed0558c3695020e84cbd54607d87822cbbb9c6d216"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3969,
+      "sha256": "sha256-552aeb449a23f7655dbf5d08079255aa20e2c57f96f6a647d64981a3ec02521e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 20077,
+      "sha256": "sha256-41451937ad703a9d9104c6ea63028629a6fe04653436d9e12d5c4008f3388552"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

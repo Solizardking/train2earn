@@ -1,0 +1,7 @@
+{
+  "slug": "imperial",
+  "name": "imperial",
+  "description": "Entry-point skill for Imperial perpetual routing on Solana. Use before answering or acting on Imperial router flows, Phoenix-routed perps, profile funding, market/portfolio intel, risk checks, TP/SL, TWAP, grid, or Telegram bot trading workflows.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial/SKILL.md"
+}

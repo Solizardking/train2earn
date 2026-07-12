@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-mcp-server",
+  "name": "pump-mcp-server",
+  "description": "Build and operate a Pump.fun Model Context Protocol server for AI agents, covering stdio transport, wallet/session safety, quoting, transaction builders, fee management, analytics, AMM operations, and prompt/resource design. Use when exposing Pump.fun operations through MCP.",
+  "source": "https://skills.x402.wtf/api/skills/pump-mcp-server/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-mcp-server/metadata.json",
+  "bundleHash": "sha256-7d8b4cb01f76b21a1cfd327aad060a3f17e17a14702f1a1dcf0404e313e38ae7",
+  "merkleLeaf": "sha256-f2cac6713b66048e525063d366b545cbe82a4162f2524b50371204cd2d4ad87e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3133,
+      "sha256": "sha256-907f92038d5e6c8cfb3929c7f7a29c9e606e4b3ea9b27d67212f86c5abe31aa0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "zkrouter",
+  "name": "zkrouter",
+  "description": "Self-hosted OpenAI-compatible LLM router — smart tier-based routing, ZK-stamped routing decisions, mode overrides, free OpenRouter at install via the Birth bot. Save 60-80% on inference costs by routing to the cheapest capable model across 12+ OpenRouter models.",
+  "source": "https://skills.x402.wtf/api/skills/zkrouter/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/zkrouter/metadata.json",
+  "bundleHash": "sha256-672fad7d89c88e70a2f6d5f53b50c64b545848f90578acc454168763983558ca",
+  "merkleLeaf": "sha256-ae9c9e03639045d3f1ab688b47a1c589db24d261c9e41f526c31102d195f9a5c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 12853,
+      "sha256": "sha256-cadeb2234cc89487c144306084684fdbdec1b40a8e88f4f95d2d13d28144ec3d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

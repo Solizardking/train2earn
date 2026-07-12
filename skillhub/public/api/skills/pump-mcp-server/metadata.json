@@ -1,0 +1,7 @@
+{
+  "slug": "pump-mcp-server",
+  "name": "pump-mcp-server",
+  "description": "Build and operate a Pump.fun Model Context Protocol server for AI agents, covering stdio transport, wallet/session safety, quoting, transaction builders, fee management, analytics, AMM operations, and prompt/resource design. Use when exposing Pump.fun operations through MCP.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-mcp-server/SKILL.md"
+}

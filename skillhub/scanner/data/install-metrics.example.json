@@ -1,0 +1,11 @@
+{
+  "source": "replace with registry, npm, skills.sh, or internal telemetry source",
+  "updatedAt": "2026-07-06T00:00:00.000Z",
+  "skills": {
+    "solana-dev": {
+      "installs": 0,
+      "source": "example only",
+      "updatedAt": "2026-07-06T00:00:00.000Z"
+    }
+  }
+}

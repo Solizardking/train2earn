@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-init-source",
+  "name": "jetson-init-source",
+  "description": "Set up the BSP source workspace: Linux_for_Tegra overlay tracker, bsp_sources, Crosstool-NG toolchain. Use after jetson-init-image; not for fetching inputs.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-init-source/SKILL.md"
+}

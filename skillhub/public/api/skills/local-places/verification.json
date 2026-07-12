@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "local-places",
+  "name": "local-places",
+  "description": "Search for places (restaurants, cafes, etc.) via Google Places API proxy on localhost.",
+  "source": "https://skills.x402.wtf/api/skills/local-places/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/local-places/metadata.json",
+  "bundleHash": "sha256-97d3260bacf093401d9d3a2dd99a735ea2b7f637f19e9c6c0d8fef07d5b7da54",
+  "merkleLeaf": "sha256-6fe8be9a2626c66cb9e495494dca6e30da7b4aa2f99d51360366aba3277188df",
+  "files": [
+    {
+      "path": "SERVER_README.md",
+      "bytes": 2047,
+      "sha256": "sha256-21fccf3087b58eb58e6da5368533164b4f40f1cef12bd20c228c769f1d44e681"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2483,
+      "sha256": "sha256-20e1cc6473c9704775076f8aa48b01ba6b0ac8006e8841f64927c962fe17561f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

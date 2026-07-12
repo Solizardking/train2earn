@@ -1,0 +1,7 @@
+{
+  "slug": "nano-banana-pro",
+  "name": "nano-banana-pro",
+  "description": "Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro).",
+  "category": "Media / Devices",
+  "skill": "/api/skills/nano-banana-pro/SKILL.md"
+}

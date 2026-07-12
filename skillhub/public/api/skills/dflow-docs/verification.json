@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dflow-docs",
+  "name": "dflow-docs",
+  "description": "Discover and use DFlow documentation, Agent CLI, Trading API, Metadata API, Proof KYC, prediction markets, and the hosted DFlow docs MCP. Use before implementing DFlow features or when field-level endpoint details are needed.",
+  "source": "https://skills.x402.wtf/api/skills/dflow-docs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/dflow-docs/metadata.json",
+  "bundleHash": "sha256-940628fceb1e8dcb0777f9d69c7ffe293c5e95e62b946e77c516ce8a2b72569c",
+  "merkleLeaf": "sha256-0eb360101eb0283b95aae52dfe3600940bac26c68caaff8efc1c84cc15930fe9",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2499,
+      "sha256": "sha256-cd7c1eb08a339f4f909418b0a8d9d007c8406cf423d2f78d3d65f3d78eb4a944"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

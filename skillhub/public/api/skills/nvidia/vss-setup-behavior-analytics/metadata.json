@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/vss-setup-behavior-analytics",
+  "name": "vss-setup-behavior-analytics",
+  "description": "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/vss-setup-behavior-analytics/SKILL.md"
+}

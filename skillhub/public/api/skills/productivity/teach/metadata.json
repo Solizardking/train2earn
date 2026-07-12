@@ -1,0 +1,7 @@
+{
+  "slug": "productivity/teach",
+  "name": "productivity-teach",
+  "description": "Teach the user a new skill or concept in a multi-session teaching workspace with missions, lessons, and learning records.",
+  "category": "Productivity / Messaging",
+  "skill": "/api/skills/productivity/teach/SKILL.md"
+}

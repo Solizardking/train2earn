@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "workers-best-practices",
+  "name": "workers-best-practices",
+  "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, floating promises, global state, secrets, bindings, observability). Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+  "source": "https://skills.x402.wtf/api/skills/workers-best-practices/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/workers-best-practices/metadata.json",
+  "bundleHash": "sha256-affe500721d3c8c1cfeeb82e4ec93f45703f6e801e1836f413f3066759e55b56",
+  "merkleLeaf": "sha256-cef461120fa26c23033332f2f8d667693d2e25f4f6523c1712f3330a49caa91a",
+  "files": [
+    {
+      "path": "references/review.md",
+      "bytes": 8145,
+      "sha256": "sha256-3e32da345be0906d020e5235d01f2b6398a41216900b5370a267e3f17757ade0"
+    },
+    {
+      "path": "references/rules.md",
+      "bytes": 16483,
+      "sha256": "sha256-b0273b18c7fa40fadf33262e7da7c8f2a52f2f1240ce66d590e4c31663261380"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7092,
+      "sha256": "sha256-099432ff265ff6080327ef0b392c118b835d2a5bda98a7de07e1afd115ed6458"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

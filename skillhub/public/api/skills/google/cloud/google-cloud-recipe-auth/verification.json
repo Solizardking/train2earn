@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-recipe-auth",
+  "name": "google-cloud-recipe-auth",
+  "description": "Provides expert guidance on authenticating and authorizing to Google Cloud services and APIs, covering human users, service identities, Application Default Credentials (ADC), and best practices for secure access.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-recipe-auth/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-recipe-auth/metadata.json",
+  "bundleHash": "sha256-45b38e774987df20683712f45221b6eb953cfec82792b30d05e6701fb34bf5e9",
+  "merkleLeaf": "sha256-d4e340396404305acd1537b87fe3a05ade31cafa179d5e7175f70e6d9daa9c1f",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 12219,
+      "sha256": "sha256-0edd4ee0bca72b4aee98ea3400c232243a58a4f0a6cd59dc2a492e61640b5b2a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

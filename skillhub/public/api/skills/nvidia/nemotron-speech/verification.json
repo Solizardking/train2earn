@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemotron-speech",
+  "name": "nemotron-speech",
+  "description": "Routes NVIDIA Nemotron Speech (Riva) NIM tasks — deploys, runs, and tests ASR, TTS, and NMT NIMs on build.nvidia.com or self-hosted.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemotron-speech/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemotron-speech/metadata.json",
+  "bundleHash": "sha256-7c3014aa9c8a295b2434d234a0abca61066250a0162a99b4bcd945c24d9f172d",
+  "merkleLeaf": "sha256-a264d7483a82b8b9103d140c2bd781a3d096a451ba703df85268c63e82635886",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4066,
+      "sha256": "sha256-236502e6af5a9b9b13e017e30890525737253c32147554e392937bb58a1d1485"
+    },
+    {
+      "path": "references/asr-custom.md",
+      "bytes": 14985,
+      "sha256": "sha256-229448e1d3845655a71069d270914a935f9ef193346b84a78a19b42decb22ed9"
+    },
+    {
+      "path": "references/asr.md",
+      "bytes": 26473,
+      "sha256": "sha256-cb64df3ae7869468d52e52abcdd272f53d7ea8083819a29f5df05682b786d24d"
+    },
+    {
+      "path": "references/deployment-readiness-checks.md",
+      "bytes": 7985,
+      "sha256": "sha256-67521c52fdc9a58e8dae47e581cdb04f4295ca1061f38b94fc1458d3138957b5"
+    },
+    {
+      "path": "references/model-selection.md",
+      "bytes": 19398,
+      "sha256": "sha256-8ccf2d1f47c4c61f38b8930a9ea5e9e741fcc156a843ef011d58037605d90984"
+    },
+    {
+      "path": "references/nmt.md",
+      "bytes": 15351,
+      "sha256": "sha256-d38e6d716c23540f6e67243e731eb6e52e11625385258617e2d7516429ff9d0f"
+    },
+    {
+      "path": "references/pipelines.md",
+      "bytes": 16726,
+      "sha256": "sha256-c059106aee74c0345e3e1661db2bb25ec8abf3bdef6ae53f4968d67a84fe98a6"
+    },
+    {
+      "path": "references/setup.md",
+      "bytes": 7112,
+      "sha256": "sha256-e4b0e2077ea4ee869adf2b8dc13a1fd46a56eebf1f6822dc76560f2b52c7259f"
+    },
+    {
+      "path": "references/tts.md",
+      "bytes": 16893,
+      "sha256": "sha256-e21bfb83359ed7c34d11f7107876b03e1926ebcacc26d6c8d664a958e0b80c06"
+    },
+    {
+      "path": "scripts/main.py",
+      "bytes": 10505,
+      "sha256": "sha256-3b3eafe49531808d0dda60d105c0d7ad271e4a7399749adf6410275ca186a76d"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4008,
+      "sha256": "sha256-d07808ed89f767ced772ead580c3a6d025ab7484fac1f9cb48142930c38a69b1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9451,
+      "sha256": "sha256-43a87d9c64a5de684f06c3cd571aab128d943a352cd4a3a153d60181e7ac8800"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

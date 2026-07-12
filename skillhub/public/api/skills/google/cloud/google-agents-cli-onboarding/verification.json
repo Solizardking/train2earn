@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-agents-cli-onboarding",
+  "name": "google-agents-cli-onboarding",
+  "description": "Onboarding entrypoint for agents-cli in Agent Platform. It should be used when the user wants to \"create a new agent\", \"develop an agent\", \"build an agent using ADK\", \"run the agent locally\", \"debug agent code\", \"test an agent\", \"evaluate an agent\", \"deploy an agent\", \"publish an agent\", \"monitor an agent\", or needs the ADK (Agent Development Kit) development lifecycle.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-agents-cli-onboarding/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-agents-cli-onboarding/metadata.json",
+  "bundleHash": "sha256-be6603fd1dc250128a27faa43e9c3be2b312395260ad2d37d94de00d888f7595",
+  "merkleLeaf": "sha256-221e3b7e52540f31b53a7c2a7b71586d447b95b9f5538cb49459ae0b9c140876",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3957,
+      "sha256": "sha256-1b2ce597960e43cd5b82605490ff159a2e3abb098f1eafb10d47ea4e37fa8e7a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

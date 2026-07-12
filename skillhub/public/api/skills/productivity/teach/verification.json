@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "productivity/teach",
+  "name": "productivity-teach",
+  "description": "Teach the user a new skill or concept in a multi-session teaching workspace with missions, lessons, and learning records.",
+  "source": "https://skills.x402.wtf/api/skills/productivity/teach/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/productivity/teach/metadata.json",
+  "bundleHash": "sha256-761d7d1cbf99875731fa240785fbf12b595c30609c32ee9f2b208c0ad502ce35",
+  "merkleLeaf": "sha256-58f4e45368f38aeacde4d6cb55432c8e42be4a98982c251e088b95cc816046bc",
+  "files": [
+    {
+      "path": "GLOSSARY-FORMAT.md",
+      "bytes": 2131,
+      "sha256": "sha256-d177def491519d97873291f2e860d8f1d60ead78feecb82eee022177958069c6"
+    },
+    {
+      "path": "LEARNING-RECORD-FORMAT.md",
+      "bytes": 2777,
+      "sha256": "sha256-855f81017625256584bbf62bd5edb9b0c86605c4cc1139c56acc36b802595d17"
+    },
+    {
+      "path": "MISSION-FORMAT.md",
+      "bytes": 1553,
+      "sha256": "sha256-8da6d3ac84eb2eb19f17c260b6acf01c560d3ac7a4501c415eea0e985602f4d7"
+    },
+    {
+      "path": "RESOURCES-FORMAT.md",
+      "bytes": 1926,
+      "sha256": "sha256-2bc634a64b0d0daa10904f9222e7aa0d361420dfacabbf092fbe3a72222edc08"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9580,
+      "sha256": "sha256-ca0b8aca2a5bbd67060be1cf5c231e0c7c41c8aa88530550590483127d32df81"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

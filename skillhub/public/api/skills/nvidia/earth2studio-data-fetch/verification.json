@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/earth2studio-data-fetch",
+  "name": "earth2studio-data-fetch",
+  "description": "Fetch weather/climate data via Earth2Studio data sources for specific variables and times. Do NOT use for inference pipelines, model discovery, or installation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-data-fetch/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-data-fetch/metadata.json",
+  "bundleHash": "sha256-22f352c9f7e8da4df9b8d58cba63959bae301ab8b19895c4495729f8edabbd49",
+  "merkleLeaf": "sha256-e4a6095d16cd8aacf63f211e39d3fdb81c28d6a596c90272c36c12fd29079f39",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3702,
+      "sha256": "sha256-ad786110a02033e0a044bf597c660c18502201b0a596821b73e2e424816a0552"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3953,
+      "sha256": "sha256-ae663db043fbac2771839d26e0cbc373c33a7f65441c738959184d9f32e45530"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8697,
+      "sha256": "sha256-035abf88c10de48888423f7ab6a0efeeeaaa9f06b44d73d5ddbb8e4efd47ca7b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "video-frames",
+  "name": "video-frames",
+  "description": "Extract frames or short clips from videos using ffmpeg.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/video-frames/SKILL.md"
+}

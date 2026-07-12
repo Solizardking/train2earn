@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-analyze-gaps-vlm-bcq",
+  "name": "tao-analyze-gaps-vlm-bcq",
+  "description": "Extract false-positive and false-negative gaps from VLM binary-classification-question (BCQ, yes/no) predictions. Use when the user asks to \"analyze VLM BCQ gaps\", \"extract VLM false positives and false negatives\", or identify failure cases from a predictions JSON for DEFT root-cause analysis on a binary-classification VLM workflow.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-analyze-gaps-vlm-bcq/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-analyze-gaps-vlm-bcq/metadata.json",
+  "bundleHash": "sha256-d65afeb35b0ce19a51b4df576fded6f23ca14f16d135508b72acd46a7c04f6cf",
+  "merkleLeaf": "sha256-fda510c767007dcdefdedf6610d3198af658f4e29075b1a35ab876a0b2f5f3ee",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3841,
+      "sha256": "sha256-525fb05dd34e1cae2a89b470e40941aee05ed3643bc27c65cb6ce606d614c1e6"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 569,
+      "sha256": "sha256-943a2db489dfc95d6a79dfca7f93f385b42102508dcab58edd1d165862395b9c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3692,
+      "sha256": "sha256-d272583cf872af905cdb55fbfebd486d3a61f2a2d4c92ae1f89f3d33af445fcc"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3606,
+      "sha256": "sha256-37cb27168b97911952dfba707a49d4f457def4e25c31b51a9f8d005c1fee46f2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

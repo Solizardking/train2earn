@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-resiliency",
+  "name": "nemo-mbridge-resiliency",
+  "description": "Resiliency features in Megatron Bridge including fault tolerance, straggler detection, in-process restart, preemption, and re-run state machine.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-resiliency/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-resiliency/metadata.json",
+  "bundleHash": "sha256-0992ba12f787f21d8bfe594ae9d1029e03d963b62a8b9a7296916423b3b13f5d",
+  "merkleLeaf": "sha256-00fe5265e4c7b556ff2b4649811a4b3c667a48a1f2a3b56d6e8c820ba4559825",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4267,
+      "sha256": "sha256-99a4c5fbeea190f24479c5bb549e55375771c58803948f9ae45fbdf983371ab2"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 4910,
+      "sha256": "sha256-7dea8ee9ee309bca0d41cbd0992948bd938eea416d24ba8dcceeb5934907c173"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3896,
+      "sha256": "sha256-123a1ba56bb9a92a38e024c8a726dd4f2fc3c21ed39f382a7e4642cb87dfe93d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11324,
+      "sha256": "sha256-026c7e4d9b0994f9d5bc8da3d58e2504d3836b957bc90ac5cb4c56e816d8cbef"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "thinking-and-docs/prompt-me",
+  "name": "prompt-me",
+  "description": "Prompt the user with pointed questions to extract what is in his head about a project — remaining work, what is being avoided, what really matters, what does not. Use when the user says \"prompt me\", \"ask me questions\", or wants the agent to figure out priorities by questioning him.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/thinking-and-docs/prompt-me/SKILL.md"
+}

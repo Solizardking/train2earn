@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-skills-index",
+  "name": "vulcan-skills-index",
+  "description": "Index for the bundled Vulcan skill pack exposed through solana-clawd. Use to discover the correct focused Vulcan skill.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-skills-index/SKILL.md"
+}

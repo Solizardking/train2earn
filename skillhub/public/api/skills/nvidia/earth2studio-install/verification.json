@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/earth2studio-install",
+  "name": "earth2studio-install",
+  "description": "Guide installing Earth2Studio via uv or pip, selecting model extras, and configuring the environment. Do NOT use for writing inference code, choosing models, or PhysicsNeMo questions.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-install/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-install/metadata.json",
+  "bundleHash": "sha256-1d7d755531e33c018eecc27c4ff85415e8ffdc584aabf3c0f8bb411acd0a0b92",
+  "merkleLeaf": "sha256-b776e28d3d7284aa38b3ed269ccbfc8a6597be24a5bc99c7d66c51617ccb730b",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3852,
+      "sha256": "sha256-e1d31fde351a006613dad97f37e7e96d36f198421cb9df0dbe60d501f77e9ed6"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4027,
+      "sha256": "sha256-91e94f2ef7f7658ae5455838366ed8b1e92a0cc7bdcd9e624ea5fc49d8bf1bbb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6581,
+      "sha256": "sha256-0028947da325d1ab8706ab94e1d7987f5f1a08ef1d210dab4c9e98d75ee5ea0e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "misc/migrate-to-shoehorn",
+  "name": "migrate-to-shoehorn",
+  "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+  "source": "https://skills.x402.wtf/api/skills/misc/migrate-to-shoehorn/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/misc/migrate-to-shoehorn/metadata.json",
+  "bundleHash": "sha256-460777ad98975671ddcf68632e642c5d895cdc385d2cb39f13ff34c1f8b77ecc",
+  "merkleLeaf": "sha256-9de65941067dafb2a12b40c4078ebfa4faf034853fd037a8e1d1490e855243fc",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2795,
+      "sha256": "sha256-de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

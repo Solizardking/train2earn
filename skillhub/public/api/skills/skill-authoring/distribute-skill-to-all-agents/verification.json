@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "skill-authoring/distribute-skill-to-all-agents",
+  "name": "distribute-skill-to-all-agents",
+  "description": "Distribute a skill across the 4 agent skill folders (Codex, Claude Code, Pi, Hermes) so all agents see it. Use when the user says \"distribute this skill\", \"sync skills across agents\", or after creating/updating a skill that should be global. Covers the symlink layout and the ~/.pi/agent/skills trap.",
+  "source": "https://skills.x402.wtf/api/skills/skill-authoring/distribute-skill-to-all-agents/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/skill-authoring/distribute-skill-to-all-agents/metadata.json",
+  "bundleHash": "sha256-922541224dc8e89c5d588a6777c12d1f85014a69e01673afe092eeae1c81e035",
+  "merkleLeaf": "sha256-eae989c0877f38b04c0394941c0ffc4efa686f53b2a0fc8db98ed085c9c55ec1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4034,
+      "sha256": "sha256-535bcf31e178c2c17854bc67b96521241db17b924b6d87fce2a1734d711d411f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

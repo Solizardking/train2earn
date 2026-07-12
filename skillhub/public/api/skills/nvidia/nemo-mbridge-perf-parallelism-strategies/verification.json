@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-parallelism-strategies",
+  "name": "nemo-mbridge-perf-parallelism-strategies",
+  "description": "Operational guide for choosing and combining parallelism strategies in Megatron Bridge, including sizing rules, hardware topology mapping, and combined parallelism configuration.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-parallelism-strategies/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-parallelism-strategies/metadata.json",
+  "bundleHash": "sha256-8fdb93842ec7c3c9d778d1b3a65a4f51d4bf8a91473f592bb5e5246734e376e6",
+  "merkleLeaf": "sha256-c2ff7740c124effc8cc83d9eae8de4f3188efc23cd86919fe7db1f962ef0af54",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4380,
+      "sha256": "sha256-9883ea0d310803c9f23d84312e8343f48cdb844c48311d7af2a974944aceb17e"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 2948,
+      "sha256": "sha256-4421d86e72db9649e4fbc998f41c5d78879458e802db95e5a12effe1e796b15b"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3749,
+      "sha256": "sha256-65fca61623dd09d1e3840399a98c6d0fe39759c3cc4c6234b7129cb495bce0d8"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9580,
+      "sha256": "sha256-3036c4f17732215b5692841b1cd34b8b3acaedbd3d099bc7eaf8e259e5935bec"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

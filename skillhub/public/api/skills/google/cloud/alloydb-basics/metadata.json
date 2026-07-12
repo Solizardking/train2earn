@@ -1,0 +1,7 @@
+{
+  "slug": "google/cloud/alloydb-basics",
+  "name": "alloydb-basics",
+  "description": "Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model context protocol (MCP) tools for automated database operations.",
+  "category": "Google / Cloud",
+  "skill": "/api/skills/google/cloud/alloydb-basics/SKILL.md"
+}

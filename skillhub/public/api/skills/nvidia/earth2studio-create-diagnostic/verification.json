@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/earth2studio-create-diagnostic",
+  "name": "earth2studio-create-diagnostic",
+  "description": "Create Earth2Studio diagnostic model wrappers for single-step data transformations, including simple derived diagnostics, packaged AutoModel diagnostics, and generative or diffusion diagnostics. Do NOT use for prognostic time-stepping models, data sources, or installation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-create-diagnostic/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-create-diagnostic/metadata.json",
+  "bundleHash": "sha256-ae77de7d7866dcbf93b753b39b08e57d84f3f18993eb4b1769eb1eff21700e13",
+  "merkleLeaf": "sha256-c1603d27f75b880b2227eb85b022c50dd77ae402d6921b1c3e4a6e99e8ab711f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3502,
+      "sha256": "sha256-239d08fa4e2f832de0ad27f01741f29be2dee7bca93bff4fb817441489224720"
+    },
+    {
+      "path": "references/method-templates.py",
+      "bytes": 5964,
+      "sha256": "sha256-35d8246bf98567dcf40dc4e3c9f8567e3d7b92c8c9387c32f28411152661eda9"
+    },
+    {
+      "path": "references/pr-body-template.md",
+      "bytes": 2763,
+      "sha256": "sha256-21623329b0c196517a39037727a97b9d2094dc3aab2e8b91a3fa6da7070bf5fc"
+    },
+    {
+      "path": "references/pr-comment-template.md",
+      "bytes": 2285,
+      "sha256": "sha256-46318ba3a7294d8382d5e05957da1268f545ac6f9c974f5a0c3691d18567e5e7"
+    },
+    {
+      "path": "references/skeleton-template.py",
+      "bytes": 10642,
+      "sha256": "sha256-93e420007c1468c1975cb857f41b229032d3df938989056edf11b936fe0b70df"
+    },
+    {
+      "path": "references/testing-guide.py",
+      "bytes": 8039,
+      "sha256": "sha256-c9a5b3b0c250c566fd056e737a54e27a183159458debf9ce503e91ba2004baf7"
+    },
+    {
+      "path": "references/validation-guide.md",
+      "bytes": 4471,
+      "sha256": "sha256-a6c3cc266b3f2fef01df00c10d491b64669c5d077eb29a574fc92327703bca90"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3942,
+      "sha256": "sha256-ef4ffa877fe7c915d9072e55836af6c0c1254b787831f67496fa9d577d00a274"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14796,
+      "sha256": "sha256-b0f40d4eba51ff492da4d515f67abacf5422572f36425121c3813fe37994a6f2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

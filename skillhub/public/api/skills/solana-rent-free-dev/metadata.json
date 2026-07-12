@@ -1,0 +1,7 @@
+{
+  "slug": "solana-rent-free-dev",
+  "name": "solana-rent-free-dev",
+  "description": "Skill for Solana development using compressed accounts from Light Protocol. Covers compressed token client development (TypeScript) and compressed PDA program development (Rust) across Anchor, native Rust, and Pinocchio. Use cases include token distribution, stablecoin payments, per-user and app state, nullifiers, and ZK applications.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/solana-rent-free-dev/SKILL.md"
+}

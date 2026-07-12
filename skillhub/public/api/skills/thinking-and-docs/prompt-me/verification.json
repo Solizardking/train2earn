@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "thinking-and-docs/prompt-me",
+  "name": "prompt-me",
+  "description": "Prompt the user with pointed questions to extract what is in his head about a project — remaining work, what is being avoided, what really matters, what does not. Use when the user says \"prompt me\", \"ask me questions\", or wants the agent to figure out priorities by questioning him.",
+  "source": "https://skills.x402.wtf/api/skills/thinking-and-docs/prompt-me/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/thinking-and-docs/prompt-me/metadata.json",
+  "bundleHash": "sha256-9048d014f82bf782e08067b9ddfb523b4656174123bfd76fdd96c3b0817ba58b",
+  "merkleLeaf": "sha256-b514a982b7be21f76fd32a7a0fe9d195c32b08d0cf47bdfc6d8f05f9b30ac3c6",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 689,
+      "sha256": "sha256-68b2bd86f6354e8d6db291bf7b62f69cbd6aa6cff9d0950cae89e5e95d6b26f9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

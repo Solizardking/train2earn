@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "ask-mcp",
+  "name": "ask-mcp",
+  "description": "For questions about Light Protocol's SDK, smart contracts and Solana development, Claude Code features, or agent skills. AI-powered answers grounded in repository context via DeepWiki MCP.",
+  "source": "https://skills.x402.wtf/api/skills/ask-mcp/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/ask-mcp/metadata.json",
+  "bundleHash": "sha256-2d84858c36cbe01203a6e3b0b1167b6799ab63cdc2ee823bfbcdcc1029733262",
+  "merkleLeaf": "sha256-26b79a9c838204bb4f599a67a1324d94c193c3030ab4f134b93dbaa9eb2baffa",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 7447,
+      "sha256": "sha256-a2ed6d7f1ef6a530b23f301547f43050e36f6d0ce79c2de55d30e6c858b8c344"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

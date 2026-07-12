@@ -1,0 +1,7 @@
+{
+  "slug": "zkrouter",
+  "name": "zkrouter",
+  "description": "Self-hosted OpenAI-compatible LLM router — smart tier-based routing, ZK-stamped routing decisions, mode overrides, free OpenRouter at install via the Birth bot. Save 60-80% on inference costs by routing to the cheapest capable model across 12+ OpenRouter models.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/zkrouter/SKILL.md"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "research-and-web/deep-research",
+  "name": "deep-research",
+  "description": "Run a deep, source-backed research query via DeepAPI (go to deepapi.co to get an API key) POST /v1/research/deep. Builds a rigorous one-paragraph research prompt (per research-prompt rules), fires it, and saves a cited markdown report. Use when the user asks for \"deep research\", \"deepapi research\", \"perplexity deep research\" (legacy trigger), or any deep source-backed research run. Differentiator vs the deepapi skill: this is the full research workflow (prompt + run + report file), not raw endpoint access.",
+  "source": "https://skills.x402.wtf/api/skills/research-and-web/deep-research/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/research-and-web/deep-research/metadata.json",
+  "bundleHash": "sha256-81153dcab7d89876d7408c4c277464fe551a0812f6c0dc266fa3e689c3a1a4dc",
+  "merkleLeaf": "sha256-9ef3d04d7e55e99c458bdb7e2b7d6626927bc0ac483cbc71dcc3459e7476f3ef",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3758,
+      "sha256": "sha256-1d2984bb50a8ce0405ba588db121d1fdf56034541159d7ee3948e1c3572d8d42"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

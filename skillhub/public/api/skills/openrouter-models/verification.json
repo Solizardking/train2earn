@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openrouter-models",
+  "name": "openrouter-models",
+  "description": "Query OpenRouter for available AI models, pricing, capabilities, throughput, and provider performance. Use when the user asks about available OpenRouter models, model pricing, model context lengths, model capabilities, provider latency or uptime, throughput limits, supported parameters, wants to search/filter/compare models, or find the fastest provider for a model.",
+  "source": "https://skills.x402.wtf/api/skills/openrouter-models/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openrouter-models/metadata.json",
+  "bundleHash": "sha256-976c50754b8e2b733585017fca28740d8a2b78fe3021a9d4d0087417da50651e",
+  "merkleLeaf": "sha256-8c6de0d93c102fbc0b057696a92fc8dfa6ade0261e6fb690d57a1cc256ecf2e0",
+  "files": [
+    {
+      "path": "scripts/compare-models.ts",
+      "bytes": 3722,
+      "sha256": "sha256-23053f81d22d88fed6c45b9b0aa0185c6600ef36312a5025ee2e9fb8e7a1be01"
+    },
+    {
+      "path": "scripts/get-endpoints.ts",
+      "bytes": 3391,
+      "sha256": "sha256-24c58e910601a6e37fc36e12f082c8c150fed75761b17391485c635f8ed1c8ac"
+    },
+    {
+      "path": "scripts/lib.ts",
+      "bytes": 2381,
+      "sha256": "sha256-f424dc678ea39c5ad1bdaf47a599c63ca0442716d2c67ab97c376f17e0584a91"
+    },
+    {
+      "path": "scripts/list-models.ts",
+      "bytes": 1280,
+      "sha256": "sha256-488aa3bd2df6a3ddf7fbaf2f794fddf70244183696155ab55e479d8a88546431"
+    },
+    {
+      "path": "scripts/package-lock.json",
+      "bytes": 16400,
+      "sha256": "sha256-7bce2b48b2e2f50df4428fd3e13216d76677abb87adfd307660ee14ac3d3e7d1"
+    },
+    {
+      "path": "scripts/package.json",
+      "bytes": 129,
+      "sha256": "sha256-b379c8a7aac89e4c243dcdaea713ed26c23cb40a1f996963018cac58541950d0"
+    },
+    {
+      "path": "scripts/resolve-model.ts",
+      "bytes": 5016,
+      "sha256": "sha256-7ca1c1b38297fe22fedc2e00c9e1224281c7f56f00a91cdd43123bb5fad30e24"
+    },
+    {
+      "path": "scripts/search-models.ts",
+      "bytes": 1371,
+      "sha256": "sha256-021c8c2a9edecd6622ea54e2e1412d81b51afe3c1e669130bd79b1bf056b4ef5"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10695,
+      "sha256": "sha256-7e4b8be05d7eca12e54c3e71887a7837ab27ba3690c8edebecda9f830d51b9a1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "google/cloud/gke-observability",
+  "name": "gke-observability",
+  "description": "Configures GKE observability, including Cloud Logging, Cloud Monitoring, and managed Prometheus. Use when configuring GKE monitoring, setting up GKE logging, or configuring Prometheus metrics collection. Don't use to configure local application logging frameworks or external APMs outside GKE.",
+  "category": "Google / Cloud",
+  "skill": "/api/skills/google/cloud/gke-observability/SKILL.md"
+}

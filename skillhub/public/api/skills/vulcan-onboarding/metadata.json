@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-onboarding",
+  "name": "vulcan-onboarding",
+  "description": "First-run Vulcan setup for paper trading, wallet, registration, collateral, MCP skills, and live readiness.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-onboarding/SKILL.md"
+}

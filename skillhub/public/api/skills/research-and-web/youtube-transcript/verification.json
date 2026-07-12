@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "research-and-web/youtube-transcript",
+  "name": "youtube-transcript",
+  "description": "Use whenever the user needs the transcript of a YouTube video — fetching, extracting, downloading, or pulling captions/subtitles/transcript text from a YouTube URL. Triggers on \"get the transcript\", \"transcript of this video\", \"pull the captions\", \"download subtitles\", \"what does this YouTube video say\". Primary path is DeepAPI (go to deepapi.co to get an API key); yt-dlp is the local fallback.",
+  "source": "https://skills.x402.wtf/api/skills/research-and-web/youtube-transcript/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/research-and-web/youtube-transcript/metadata.json",
+  "bundleHash": "sha256-77b9706b77874fb737d2aaa2a81a7358afc2f9a667137d2354e1a3e4c10a24d2",
+  "merkleLeaf": "sha256-384624514e11017b7e304009c976a2a25584b0b1f258ed60cd50651e2ea32e7c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4595,
+      "sha256": "sha256-9b9e2ae13ae6e8f5beac5906d247db886b8ac9bbb820390cda40b18cd00b17cf"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/earth2studio-create-diagnostic",
+  "name": "earth2studio-create-diagnostic",
+  "description": "Create Earth2Studio diagnostic model wrappers for single-step data transformations, including simple derived diagnostics, packaged AutoModel diagnostics, and generative or diffusion diagnostics. Do NOT use for prognostic time-stepping models, data sources, or installation.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/earth2studio-create-diagnostic/SKILL.md"
+}

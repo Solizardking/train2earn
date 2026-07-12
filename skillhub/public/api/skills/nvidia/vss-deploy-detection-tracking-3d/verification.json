@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-deploy-detection-tracking-3d",
+  "name": "vss-deploy-detection-tracking-3d",
+  "description": "Deploy and operate the RTVI-CV-3D microservice as MV3DT (`MODE=mv3dt`): per-camera DeepStream perception plus BEV Fusion over calibrated cameras. Supports the bundled sample dataset, custom video files, and RTSP streams, and chains to `vss-generate-video-calibration` when calibration is missing. Use `vss-deploy-profile` for the full warehouse blueprint and `vss-deploy-detection-tracking-2d` for single-camera 2D detection.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-detection-tracking-3d/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-detection-tracking-3d/metadata.json",
+  "bundleHash": "sha256-4018315083672aac6c533a884d92455e99ad3adc4484f06b65605770edcea9a4",
+  "merkleLeaf": "sha256-d63af0987f66014fd05326f9f5f98988264d8bef898f0c82c8bca0c28af21253",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4379,
+      "sha256": "sha256-bc0973c95c967bfd84d0f96eb8b23b7aa63836dab816527756a58c6d72cae901"
+    },
+    {
+      "path": "references/calibration-workflow.md",
+      "bytes": 24698,
+      "sha256": "sha256-ddd98b43322e803677678fd0eb14ca95f59738ecfcbdde61011bfdda435fff61"
+    },
+    {
+      "path": "references/configure-cameras.md",
+      "bytes": 16854,
+      "sha256": "sha256-98ab168c4e72310f00a5b48ca0e24fe66b77fb5b016d8caee313e14d680ce1d2"
+    },
+    {
+      "path": "references/deploy-rtvi-cv-3d-stack.md",
+      "bytes": 31304,
+      "sha256": "sha256-eda69a05cac2615790dfc0e667d51cf05181b2e14eb17b765c16eaf9590d1931"
+    },
+    {
+      "path": "references/teardown.md",
+      "bytes": 7667,
+      "sha256": "sha256-b8b30fd655fc406b2a69a2d2f2fde4aa0ac26266d815bef9ef6017f54fa5b612"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 29721,
+      "sha256": "sha256-2f5ec9b7b556e3d380ea4517591e6fbac81e771dd8aebea0f76e779b31536254"
+    },
+    {
+      "path": "references/verify-and-view.md",
+      "bytes": 21173,
+      "sha256": "sha256-a3d2b2ee71fd59d31554c125335e83a547aceadec47ebf9a19d2ef0b64973ff2"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4128,
+      "sha256": "sha256-8f375163acf54e22868091c53db9c64619c47f4e52767a58c11f030250160719"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19320,
+      "sha256": "sha256-c924aa06d552171f74f923adc809f7d8e26d672a5cb6743a57a0dd8194f3fa9b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

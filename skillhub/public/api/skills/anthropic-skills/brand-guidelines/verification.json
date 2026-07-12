@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "anthropic-skills/brand-guidelines",
+  "name": "brand-guidelines",
+  "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/brand-guidelines/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/brand-guidelines/metadata.json",
+  "bundleHash": "sha256-7110fc8744b44d8177651ea3698b192ffcda3be99fae92c1e40708978893612d",
+  "merkleLeaf": "sha256-3c1ca08c72026b197f0a46f1384205ddfcb55e55262dba705fe5400fbfbc93b2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2235,
+      "sha256": "sha256-1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

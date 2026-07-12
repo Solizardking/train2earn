@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "clawd-token-ops",
+  "name": "clawd-token-ops",
+  "description": "Work with $CLAWD token operations for Solana CLAWD and Cheshire Terminal. Use when checking or documenting the $CLAWD mint, token-gated balances, Jupiter buy/swap flows, burn tracking, holders, staking, treasury payments, or any task that asks to include the Clawd token address.",
+  "source": "https://skills.x402.wtf/api/skills/clawd-token-ops/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/clawd-token-ops/metadata.json",
+  "bundleHash": "sha256-c57b79f6366ecec9b7f007a017d412bb854c21697616605cac816999fecb2a66",
+  "merkleLeaf": "sha256-63b34535bd3b95e41c28d73364f75ddcd2c5ae7e57576448ae5043a16c148772",
+  "files": [
+    {
+      "path": "references/clawd-token.md",
+      "bytes": 1568,
+      "sha256": "sha256-1d74ac95c63d981bf146e4afd16fe172c2503ef869c7f7661ca426b1d5ce59e0"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1727,
+      "sha256": "sha256-abe17d5abf86a155074868618abbd25e7c4728a9ac3d589ffaf17364a011b6eb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

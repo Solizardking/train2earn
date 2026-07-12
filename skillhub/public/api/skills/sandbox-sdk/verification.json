@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "sandbox-sdk",
+  "name": "sandbox-sdk",
+  "description": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD systems, interactive dev environments, or executing untrusted code. Covers Sandbox SDK lifecycle, commands, files, code interpreter, and preview URLs. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+  "source": "https://skills.x402.wtf/api/skills/sandbox-sdk/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/sandbox-sdk/metadata.json",
+  "bundleHash": "sha256-0eca858e73242c537467be963da56a9d474a923f44fd7e02f6c7a4901d5370cc",
+  "merkleLeaf": "sha256-497f0229863694d80aac9bc56ac2bc8eae322c5e0e85ef283de78c68a3c37f4a",
+  "files": [
+    {
+      "path": "references/api-quick-ref.md",
+      "bytes": 3220,
+      "sha256": "sha256-a4e33b6a4543aff84a4cee75fb6b3b26bf96340c7026266a5fc4df3aa699f08c"
+    },
+    {
+      "path": "references/examples.md",
+      "bytes": 1570,
+      "sha256": "sha256-ec3f87081255bae25aa9da4d1ae4e27a6c0dc2af88e7aec8c97e605645fa0a89"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5771,
+      "sha256": "sha256-0f3501e6510921401be3f54bcb24d2a432a1b5c63af8f719eded3a087ad88ea9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

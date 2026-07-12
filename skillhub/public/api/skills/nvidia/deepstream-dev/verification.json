@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/deepstream-dev",
+  "name": "deepstream-dev",
+  "description": "NVIDIA DeepStream SDK 9.0 development with Python pyservicemaker API. Use when building video analytics pipelines, GStreamer-based video processing, TensorRT inference integration, object detection/tracking, or Kafka/message broker integration.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-dev/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-dev/metadata.json",
+  "bundleHash": "sha256-2b3b6993883b4cdbea1d33001d47af90bb1da59c944a6dacacac70d850d6c336",
+  "merkleLeaf": "sha256-fc7263a0a6ab2037736661781cb2d4b1ee4fcd90997e57ee1c5fb47baf018f3e",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 6828,
+      "sha256": "sha256-4c5ea226d0e1540d3deb603b8162ed0e187bcc5f3b08628da2b7dc5f2cb8f49b"
+    },
+    {
+      "path": "references/best_practices.md",
+      "bytes": 34033,
+      "sha256": "sha256-859f2269901f8a5716302e808dd1ab619c5ed46f688dfe8514a64246cb9547ae"
+    },
+    {
+      "path": "references/buffer_apis.md",
+      "bytes": 54809,
+      "sha256": "sha256-c40e8d38912c0bfefe4fcf0e57338e36c9ce0ad33e180b615a484f62a79ebd4e"
+    },
+    {
+      "path": "references/docker_containers.md",
+      "bytes": 8343,
+      "sha256": "sha256-58505ceb6875c4e2ea68c3aba454d62e386534c63233e042322f731fc9aec913"
+    },
+    {
+      "path": "references/gstreamer_plugins.md",
+      "bytes": 32022,
+      "sha256": "sha256-dcbd13a4b64ac3d216651d3c5818d4b4255e95aee1820e27b0e27d64bc51ed18"
+    },
+    {
+      "path": "references/kafka_messaging.md",
+      "bytes": 58936,
+      "sha256": "sha256-ba03d49e394d647428c1c23d4724c0365cbef37ccb085c2ffe14e93ff9ef653d"
+    },
+    {
+      "path": "references/media_extractor_advanced.md",
+      "bytes": 27694,
+      "sha256": "sha256-b9e1e11fd9aac184424724df901ba7a97584bec0722e74309007bde9d8bfad93"
+    },
+    {
+      "path": "references/metamux_config.md",
+      "bytes": 12145,
+      "sha256": "sha256-d637ee96c572bd4924f09ae9b297f0b61fb48794ff69254eea9dc526451ea977"
+    },
+    {
+      "path": "references/nvinfer_config.md",
+      "bytes": 21142,
+      "sha256": "sha256-5e672a35cf715c463afc561d638f90791f3c956d65e693d4d84c2c653dc06270"
+    },
+    {
+      "path": "references/rest_api_dynamic.md",
+      "bytes": 11762,
+      "sha256": "sha256-c303af46e79ae2d0dc8eda61c6aab2c561d67d6651942d371205a611979625bc"
+    },
+    {
+      "path": "references/service_maker_api.md",
+      "bytes": 62737,
+      "sha256": "sha256-289a62e62c179b16b00414b249045102345ce96c3b37432f4d723fcbfb146ad0"
+    },
+    {
+      "path": "references/tracker_config.md",
+      "bytes": 50683,
+      "sha256": "sha256-8eff90630bfafb21ebe80f6012ef581c043dcfc1358998e155294ec69d1c3944"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 26167,
+      "sha256": "sha256-3c3ff11be2928ed46d0fda07b5aa8a411044e0c57487440dc44f429e55a291a9"
+    },
+    {
+      "path": "references/use_cases_pipelines.md",
+      "bytes": 35105,
+      "sha256": "sha256-820ac804f4c01b09b5710e214f3dd7fa87a1015f447c4a3ac01c7ed21be0b067"
+    },
+    {
+      "path": "references/utilities_config.md",
+      "bytes": 46152,
+      "sha256": "sha256-a83e12981c69732a41e3b5c63328ac2c8269205af448b03097356d9268cdf615"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4574,
+      "sha256": "sha256-7f606d8835dc22ab3833b56d0839dfdc832da2b53e2ced3cff9896ff81c424b0"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11465,
+      "sha256": "sha256-0c663a88e8e57f2a9ceecb48a568eeb02ffbab7d368c26c6a7fed8552e59a807"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

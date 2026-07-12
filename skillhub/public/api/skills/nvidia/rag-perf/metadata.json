@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/rag-perf",
+  "name": "rag-perf",
+  "description": "Performance benchmarking for a deployed NVIDIA RAG Blueprint server: profiling pass + aiperf load test driven by a single YAML config. Not for accuracy / RAGAS scoring (use rag-eval) or for deploying / repairing services (use rag-blueprint).",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/rag-perf/SKILL.md"
+}

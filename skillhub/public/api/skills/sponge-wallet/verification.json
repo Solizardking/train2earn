@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "sponge-wallet",
+  "name": "sponge-wallet",
+  "description": "Crypto wallet, token swaps, cross-chain bridges, and access to paid external services (search, image gen, web scraping, AI, and more) via x402 payments.",
+  "source": "https://skills.x402.wtf/api/skills/sponge-wallet/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/sponge-wallet/metadata.json",
+  "bundleHash": "sha256-0f7fdd74de2428386f45d88d2a5e6d02e45ea83ca319319f82d3ee5f7dd665e1",
+  "merkleLeaf": "sha256-a475aae2d314ba30c5821b2fce80b4ed388dd2faaf6f515371d5894472e793aa",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8774,
+      "sha256": "sha256-69ba7addcfc697dcd8aa0aa6c94866fb3b103784cacd5646b0727e8068e2cf8e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

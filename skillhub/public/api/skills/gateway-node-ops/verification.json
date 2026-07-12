@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "gateway-node-ops",
+  "name": "gateway-node-ops",
+  "description": "How to spawn a SolanaOS Gateway and connect headless nodes",
+  "source": "https://skills.x402.wtf/api/skills/gateway-node-ops/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/gateway-node-ops/metadata.json",
+  "bundleHash": "sha256-6da5476a16a765a2e5fb75ceb9537d624e1073dff183a51a177dfc4c54150b5b",
+  "merkleLeaf": "sha256-efcfb80d23f56b73627d31908e3cf30b0c330c3528815d31396eb6bb2b38309c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2194,
+      "sha256": "sha256-39c439ceb1222550ebbfce1f69724d165e19c35d3ede15c376377ec3395e3201"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

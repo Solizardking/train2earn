@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imsg",
+  "name": "imsg",
+  "description": "iMessage/SMS CLI for listing chats, history, watch, and sending.",
+  "source": "https://skills.x402.wtf/api/skills/imsg/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imsg/metadata.json",
+  "bundleHash": "sha256-d957a0cfc5a9f70f133121ef8f61f53fefbd00b3fa96d8ffbe3273674e47f05b",
+  "merkleLeaf": "sha256-2ccb3c658638121b881db4c33d2584b1da48b90959fff19887f8534d9b17cd34",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 892,
+      "sha256": "sha256-8e9e9b4465f73f5e8bb59b4905ee067e8b2ea9d57202b68852e11383f46a81b4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

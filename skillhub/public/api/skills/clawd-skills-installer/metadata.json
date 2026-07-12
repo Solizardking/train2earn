@@ -1,0 +1,7 @@
+{
+  "slug": "clawd-skills-installer",
+  "name": "clawd-skills-installer",
+  "description": "Install and make Clawd, Cheshire Terminal, Solizardking, Vercel, and eve agent skills available to local coding agents. Use when a user asks to add all skills, install this repo with npx github, install into ~/.agents/skills, ~/.codex/skills, ~/.claude/skills, or an eve project's agent/skills directory.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/clawd-skills-installer/SKILL.md"
+}

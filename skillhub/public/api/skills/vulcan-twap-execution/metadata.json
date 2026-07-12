@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-twap-execution",
+  "name": "vulcan-twap-execution",
+  "description": "TWAP strategy execution on Phoenix perps using Vulcan's first-class runner, tick logs, ledgers, status/monitor/finalize controls.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-twap-execution/SKILL.md"
+}

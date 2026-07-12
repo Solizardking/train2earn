@@ -1,0 +1,67 @@
+services:
+  - type: web
+    name: skillhub
+    env: static
+    buildCommand: npm run build:catalog
+    staticPublishPath: ./public
+    pullRequestPreviewsEnabled: true
+    envVars:
+      - key: SKILLHUB_PAYMENT_NETWORK
+        value: mainnet
+      - key: SKILLHUB_MERCHANT_NAME
+        value: Skill Hub
+      - key: SKILLHUB_MERCHANT_WALLET
+        sync: false
+      - key: SKILLHUB_OFFCHAIN_CHECKOUT_URL
+        sync: false
+      - key: SKILLHUB_PAYMENT_RPC_URL
+        sync: false
+      - key: SKILLHUB_ALLOWED_MINTS
+        sync: false
+    routes:
+      - type: rewrite
+        source: /api/skills
+        destination: /api/skills.json
+      - type: rewrite
+        source: /skills
+        destination: /index.html
+      - type: rewrite
+        source: /scanner
+        destination: /scanner/index.html
+      - type: rewrite
+        source: /publish
+        destination: /publish/index.html
+      - type: rewrite
+        source: /submissions
+        destination: /submissions/index.html
+      - type: rewrite
+        source: /api/submissions
+        destination: /api/submissions.json
+      - type: rewrite
+        source: /api/onchain
+        destination: /api/onchain.json
+
+  - type: web
+    name: skillhub-upload-relay
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm run relay:upload
+    healthCheckPath: /api/health
+    envVars:
+      - key: SKILLHUB_PAYMENT_NETWORK
+        value: devnet
+      - key: SKILLHUB_MERCHANT_NAME
+        value: Skill Hub
+      - key: SKILLHUB_MERCHANT_WALLET
+        sync: false
+      - key: SKILLHUB_PUBLISH_FEE_LAMPORTS
+        value: "10000000"
+      - key: SKILLHUB_PAYMENT_RPC_URL
+        sync: false
+      - key: SOLANA_KEYPAIR
+        sync: false
+      - key: SKILLHUB_AUTO_INGEST
+        value: "0"
+      - key: SKILLHUB_CORS_ORIGIN
+        value: "*"

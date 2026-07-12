@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/mcore-run-on-slurm",
+  "name": "mcore-run-on-slurm",
+  "description": "How to launch distributed Megatron-LM training jobs on a SLURM cluster. Covers a minimal sbatch skeleton, environment-variable setup for torch.distributed.run, CUDA_DEVICE_MAX_CONNECTIONS rules across hardware and parallelism modes, container conventions, monitoring, and per-rank failure diagnosis.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/mcore-run-on-slurm/SKILL.md"
+}

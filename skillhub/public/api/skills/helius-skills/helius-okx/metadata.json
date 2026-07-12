@@ -1,0 +1,7 @@
+{
+  "slug": "helius-skills/helius-okx",
+  "name": "helius-okx",
+  "description": "Build Solana trading and intelligence applications combining OKX DEX aggregation with Helius infrastructure. Integration-only layer — describes when and how to compose OKX tools with Helius tools for swaps, token discovery, smart money signals, meme token analysis, and portfolio intelligence.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/helius-skills/helius-okx/SKILL.md"
+}

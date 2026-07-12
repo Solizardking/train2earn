@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/holoscan-setup",
+  "name": "holoscan-setup",
+  "description": "Guides Holoscan SDK installation: inspects the host, assesses platform compatibility, recommends an install method, and delegates to the matching install skill.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/holoscan-setup/SKILL.md"
+}

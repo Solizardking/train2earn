@@ -1,0 +1,226 @@
+# Solana Ralphy Task File
+# Use with: ./solana-ralphy.sh --yaml solana-tasks.yaml
+
+project: my-solana-dapp
+version: "1.0.0"
+network: devnet
+
+# Environment requirements
+environment:
+  required:
+    - SOLANA_RPC_URL
+    - PRIVATE_KEY
+  optional:
+    - BAGS_API_KEY
+    - HELIUS_API_KEY
+
+# Task definitions with parallel groups
+tasks:
+  # ====================================
+  # Phase 1: Setup (Group 0 - runs first)
+  # ====================================
+  - title: Initialize Anchor workspace
+    type: program
+    framework: anchor
+    parallel_group: 0
+    description: |
+      Create Anchor workspace with:
+      - Cargo.toml workspace config
+      - programs/my_program scaffold
+      - TypeScript client package
+      - Anchor.toml configuration
+    completed: false
+
+  - title: Configure development environment
+    type: setup
+    parallel_group: 0
+    description: |
+      Set up:
+      - .env.example template
+      - TypeScript config
+      - ESLint/Prettier
+      - Git hooks
+    completed: false
+
+  # ====================================
+  # Phase 2: Program Development (Group 1)
+  # ====================================
+  - title: Create User account struct
+    type: program
+    parallel_group: 1
+    config:
+      account_name: User
+      fields:
+        - { name: authority, type: Pubkey }
+        - { name: balance, type: u64 }
+        - { name: created_at, type: i64 }
+        - { name: bump, type: u8 }
+    completed: false
+
+  - title: Create Vault PDA account
+    type: program
+    parallel_group: 1
+    config:
+      account_name: Vault
+      seeds:
+        - { literal: "vault" }
+        - { account: user.key() }
+    completed: false
+
+  - title: Implement initialize instruction
+    type: program
+    parallel_group: 1
+    description: |
+      Initialize user account with:
+      - PDA derivation
+      - Authority assignment
+      - Timestamp recording
+    completed: false
+
+  # ====================================
+  # Phase 3: Token Launch (Group 2)
+  # ====================================
+  - title: Launch governance token via Bags.fm
+    type: token
+    platform: bags
+    parallel_group: 2
+    depends_on:
+      - Initialize Anchor workspace
+    config:
+      name: "MyDAO Governance"
+      symbol: "MYDAO"
+      description: "Governance token for MyDAO community"
+      imageUrl: "https://example.com/mydao-logo.png"
+      initialBuySOL: 0.1
+      feeClaimers:
+        - provider: twitter
+          username: founder
+          bps: 4000
+        - provider: github
+          username: core_dev
+          bps: 3000
+        - provider: twitter
+          username: treasury
+          bps: 2000
+        # Remaining 1000 bps (10%) to creator
+      twitterUrl: "https://x.com/mydao"
+      websiteUrl: "https://mydao.io"
+      usePartnerConfig: true
+    completed: false
+
+  # ====================================
+  # Phase 4: Frontend (Group 3)
+  # ====================================
+  - title: Initialize Next.js with framework-kit
+    type: frontend
+    parallel_group: 3
+    stack: framework-kit
+    config:
+      framework: nextjs
+      styling: tailwind
+      packages:
+        - "@solana/kit"
+        - "@solana/react-hooks"
+        - "@solana/web3-compat"
+    completed: false
+
+  - title: Build wallet connection component
+    type: frontend
+    parallel_group: 3
+    config:
+      component: WalletConnect
+      features:
+        - Phantom support
+        - Solflare support
+        - Auto-reconnect
+        - Balance display
+    completed: false
+
+  - title: Create dashboard page
+    type: frontend
+    parallel_group: 3
+    config:
+      route: /dashboard
+      components:
+        - UserPositions
+        - TokenBalances
+        - RecentTransactions
+    completed: false
+
+  - title: Build deposit/withdraw forms
+    type: frontend
+    parallel_group: 3
+    config:
+      components:
+        - DepositForm
+        - WithdrawForm
+      features:
+        - Amount validation
+        - Transaction signing
+        - Status feedback
+    completed: false
+
+  # ====================================
+  # Phase 5: Testing (Group 4)
+  # ====================================
+  - title: Write LiteSVM unit tests for program
+    type: testing
+    framework: litesvm
+    parallel_group: 4
+    depends_on:
+      - Create User account struct
+      - Create Vault PDA account
+      - Implement initialize instruction
+    config:
+      coverage_target: 80
+      tests:
+        - test_initialize_success
+        - test_initialize_duplicate_fails
+        - test_deposit_success
+        - test_withdraw_unauthorized_fails
+    completed: false
+
+  - title: Integration tests with Surfpool
+    type: testing
+    framework: surfpool
+    parallel_group: 4
+    config:
+      mainnet_accounts:
+        - "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+      tests:
+        - test_full_user_flow
+        - test_concurrent_deposits
+    completed: false
+
+  # ====================================
+  # Phase 6: Deployment (Group 5)
+  # ====================================
+  - title: Deploy program to devnet
+    type: deployment
+    network: devnet
+    parallel_group: 5
+    depends_on:
+      - Write LiteSVM unit tests for program
+    completed: false
+
+  - title: Verify deployment and update IDL
+    type: deployment
+    parallel_group: 5
+    completed: false
+
+  - title: Deploy frontend to Vercel
+    type: deployment
+    parallel_group: 5
+    config:
+      platform: vercel
+      env_vars:
+        - NEXT_PUBLIC_RPC_URL
+        - NEXT_PUBLIC_PROGRAM_ID
+    completed: false
+
+# Metadata
+metadata:
+  created: "2026-01-17"
+  author: "solana-ralphy"
+  estimated_hours: 8
+  priority: high

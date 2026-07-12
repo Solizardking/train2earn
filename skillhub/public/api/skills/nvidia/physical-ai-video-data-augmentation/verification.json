@@ -1,0 +1,384 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/physical-ai-video-data-augmentation",
+  "name": "physical-ai-video-data-augmentation",
+  "description": "Use when running video data augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: video data augmentation, data enrichment, auto labeling, VDA demo, OSMO workflow, pseudo labeling.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-video-data-augmentation/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-video-data-augmentation/metadata.json",
+  "bundleHash": "sha256-04cfe8af953223f749e7bd10408614c2fb42298f7e381700454369e2e1b0b3d1",
+  "merkleLeaf": "sha256-4a6ff570398e4c484b43eb024311d15b29dc3b4203ba3788f8e1a2e2ed36fd3b",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 215,
+      "sha256": "sha256-684b3fee29973a48aedc19f555b621ccb27a819391e1d902ef7a5098de0640ce"
+    },
+    {
+      "path": "assets/configs/osmo/augmentation_and_al.yaml",
+      "bytes": 8306,
+      "sha256": "sha256-7fb6937472d8682e719bf6760c5ad33ade7db9765ff2eec02bb3d9bbca1345f2"
+    },
+    {
+      "path": "assets/configs/osmo/augmentation_and_pl.yaml",
+      "bytes": 8306,
+      "sha256": "sha256-7fb6937472d8682e719bf6760c5ad33ade7db9765ff2eec02bb3d9bbca1345f2"
+    },
+    {
+      "path": "assets/configs/osmo/auto_labeling.yaml",
+      "bytes": 5634,
+      "sha256": "sha256-681aec4db91c3af67a127cca07e8639f129ddbefc4f152f45090393e11c56a37"
+    },
+    {
+      "path": "assets/configs/osmo/e2e_super_resolution.yaml",
+      "bytes": 9819,
+      "sha256": "sha256-ccf9dd603129d94d0d013bf648ba37344ad6029048703a61185c2d112c3fc77a"
+    },
+    {
+      "path": "assets/configs/osmo/e2e.yaml",
+      "bytes": 9786,
+      "sha256": "sha256-0f6b5b6a9ee864b6af653a26a7586015c2e268d96eee31d5d575ee91536d234a"
+    },
+    {
+      "path": "assets/configs/osmo/setup_model_cache.yaml",
+      "bytes": 8886,
+      "sha256": "sha256-48301522289eeb65dfbde584cc34fb1300245d0b78a90438433155d0f6e11819"
+    },
+    {
+      "path": "assets/cookbooks/city_traffic/augmentation/augmentation.yaml",
+      "bytes": 5501,
+      "sha256": "sha256-25139d2d15559271ddd413d47fd74f6e4eadc790d135c18ea4c27c8b41c7e923"
+    },
+    {
+      "path": "assets/cookbooks/city_traffic/augmentation/prompts/prompt_polishing_system_prompt.md",
+      "bytes": 3666,
+      "sha256": "sha256-0da13f63289a013e9928750d11608bcd206300ea898a7ac0160022205f377519"
+    },
+    {
+      "path": "assets/cookbooks/city_traffic/augmentation/prompts/template_generation_system_prompt.md",
+      "bytes": 2938,
+      "sha256": "sha256-8fd364e570ed16c2ae5ef33275c4a63a7208db36565d70dcca7ae9ee06fbb7b3"
+    },
+    {
+      "path": "assets/cookbooks/city_traffic/auto_labeling/auto_labeling_config.yaml",
+      "bytes": 3811,
+      "sha256": "sha256-289e92d4659ab4a7fb76935c5994e2b886be2e0ca944491eb4f1174ede702614"
+    },
+    {
+      "path": "assets/cookbooks/city_traffic/auto_labeling/prompts/event_analysis.md",
+      "bytes": 3103,
+      "sha256": "sha256-3df77cf1e56ffc68f0d65c0d2a049414a92929530f86e1b548004b7c8ac314a5"
+    },
+    {
+      "path": "assets/cookbooks/city_traffic/auto_labeling/question_bank.json",
+      "bytes": 2587,
+      "sha256": "sha256-1833fe6edaf3a7871af67fca38cfde78e904b3d68e08e6e1315b5ec10e768eaf"
+    },
+    {
+      "path": "assets/cookbooks/city_traffic/README.md",
+      "bytes": 5581,
+      "sha256": "sha256-a5c6f75e21c8fc1ba26415681cacd656ce1ae1903aa2ccf58347dfca2c01bd02"
+    },
+    {
+      "path": "assets/cookbooks/city_traffic/workflow_config.yaml",
+      "bytes": 345,
+      "sha256": "sha256-0d1d49393e51583807c84486e2e7a298be87a0a6e2af7fd3f3ca0eee229b97a6"
+    },
+    {
+      "path": "assets/cookbooks/FILE_INVENTORY.md",
+      "bytes": 1313,
+      "sha256": "sha256-b53fb47dcbdb900926d0453c2b1f2cd7f4e910fdfc815e11a4a3b913303114cd"
+    },
+    {
+      "path": "assets/cookbooks/piazza/augmentation/augmentation.yaml",
+      "bytes": 5797,
+      "sha256": "sha256-5ae938b8620fa2929a9bca5750e90997146e8840584bb699a10893ae7c34c805"
+    },
+    {
+      "path": "assets/cookbooks/piazza/augmentation/prompts/prompt_polishing_system_prompt.md",
+      "bytes": 3506,
+      "sha256": "sha256-78da94fa2d445bde28e1128f13caac71f3eadd1e51be4fdce3637cb78a7242f8"
+    },
+    {
+      "path": "assets/cookbooks/piazza/augmentation/prompts/template_generation_system_prompt.md",
+      "bytes": 2844,
+      "sha256": "sha256-09a0e7bb7c9ba2474e5b8d6520c2d7c203336eeb4d0e846454d1ac9c55993eaa"
+    },
+    {
+      "path": "assets/cookbooks/piazza/auto_labeling/auto_labeling_config.yaml",
+      "bytes": 3586,
+      "sha256": "sha256-07739267a7a57d296d52da2717b98ebb51e5d3c5f1885bf0c6c0e938c6d5d656"
+    },
+    {
+      "path": "assets/cookbooks/piazza/auto_labeling/prompts/event_analysis.md",
+      "bytes": 2853,
+      "sha256": "sha256-8074b98a2084bb8b828107cb69a4635649c096a57e0a461e0236f8a3585979a1"
+    },
+    {
+      "path": "assets/cookbooks/piazza/auto_labeling/question_bank.json",
+      "bytes": 2733,
+      "sha256": "sha256-9b3408cd6f1a57e52de7f80f955c17aaf87b12d372a2176ca01c89ed4407aa85"
+    },
+    {
+      "path": "assets/cookbooks/piazza/README.md",
+      "bytes": 5313,
+      "sha256": "sha256-50cfd413c0f03d67077fc0333a7c8e02aacd678643d62a0597e00acc9d0b0acb"
+    },
+    {
+      "path": "assets/cookbooks/piazza/workflow_config.yaml",
+      "bytes": 345,
+      "sha256": "sha256-0d1d49393e51583807c84486e2e7a298be87a0a6e2af7fd3f3ca0eee229b97a6"
+    },
+    {
+      "path": "assets/cookbooks/robot_assembly/augmentation/augmentation.yaml",
+      "bytes": 5619,
+      "sha256": "sha256-56ff14a2fbb96e93329ddd63e5b8752d69344c9a88aa41224703a48df94bb940"
+    },
+    {
+      "path": "assets/cookbooks/robot_assembly/augmentation/prompts/prompt_polishing_system_prompt.md",
+      "bytes": 3314,
+      "sha256": "sha256-f746a7bb5efac3f78732e33b727f93e7db343cef04a834ef263a5728c41807c9"
+    },
+    {
+      "path": "assets/cookbooks/robot_assembly/augmentation/prompts/template_generation_system_prompt.md",
+      "bytes": 2489,
+      "sha256": "sha256-bc802cf1e5321cc1d2bf56d4197495376b9c6f2d056a521abc2f316867de5fbc"
+    },
+    {
+      "path": "assets/cookbooks/robot_assembly/auto_labeling/auto_labeling_config.yaml",
+      "bytes": 3556,
+      "sha256": "sha256-476e620db04bf890e012d580af5d954c4aded7b89eb3e3623a657e17aeaa1afd"
+    },
+    {
+      "path": "assets/cookbooks/robot_assembly/auto_labeling/prompts/event_analysis.md",
+      "bytes": 2859,
+      "sha256": "sha256-145f1e6eeea96fd3b24a27dee756fa6e5d8178525bcec57f18b4bee84acbca21"
+    },
+    {
+      "path": "assets/cookbooks/robot_assembly/auto_labeling/question_bank.json",
+      "bytes": 2390,
+      "sha256": "sha256-235db3fd7e3a7c6040f482cc30667195883c1944214a82fcf7e78009db71452b"
+    },
+    {
+      "path": "assets/cookbooks/robot_assembly/README.md",
+      "bytes": 5372,
+      "sha256": "sha256-eeafe4fd52f032c2c6e38a53626a7db6518e63e13f8eb5dcf6df771acd62ec01"
+    },
+    {
+      "path": "assets/cookbooks/robot_assembly/workflow_config.yaml",
+      "bytes": 270,
+      "sha256": "sha256-1991dd0d9d7479696a5a6fe3752124d1df9fd0cbab6e93de75b88ce41ae00eba"
+    },
+    {
+      "path": "assets/cookbooks/trailer_dashcam/augmentation/augmentation.yaml",
+      "bytes": 5752,
+      "sha256": "sha256-81454be9879161285f3dfce66c1d2bc84098448babcb20d88d47f226803893ec"
+    },
+    {
+      "path": "assets/cookbooks/trailer_dashcam/augmentation/prompts/prompt_polishing_system_prompt.md",
+      "bytes": 3757,
+      "sha256": "sha256-615b196e68b4fd95ab5ac00978cca07fadd6b790dbc30362144d94c93eb777bb"
+    },
+    {
+      "path": "assets/cookbooks/trailer_dashcam/augmentation/prompts/template_generation_system_prompt.md",
+      "bytes": 2768,
+      "sha256": "sha256-a8cb08ad79f516f2c45d67db0b9ea62ac6af6c9c5d21a2c2cefac2833b566a90"
+    },
+    {
+      "path": "assets/cookbooks/trailer_dashcam/auto_labeling/auto_labeling_config.yaml",
+      "bytes": 3962,
+      "sha256": "sha256-978327cb1e72d3cc12dd21c8a684d253f4455b4237af5be25fa5ed1780348450"
+    },
+    {
+      "path": "assets/cookbooks/trailer_dashcam/auto_labeling/prompts/event_analysis.md",
+      "bytes": 2940,
+      "sha256": "sha256-fd233fb627ca7a24d30c2705b1460f2b098c866531697b9b8514eb7a7024140f"
+    },
+    {
+      "path": "assets/cookbooks/trailer_dashcam/auto_labeling/question_bank.json",
+      "bytes": 2523,
+      "sha256": "sha256-7a9cd454994343615e1cd60c36efd1faad486c13aedb33c416d998dd24c8ae1c"
+    },
+    {
+      "path": "assets/cookbooks/trailer_dashcam/README.md",
+      "bytes": 5523,
+      "sha256": "sha256-82e0e1025ee697f32c490f3c015f458be58915b409e1d05cb2ea2dc808be1f7d"
+    },
+    {
+      "path": "assets/cookbooks/trailer_dashcam/workflow_config.yaml",
+      "bytes": 345,
+      "sha256": "sha256-0d1d49393e51583807c84486e2e7a298be87a0a6e2af7fd3f3ca0eee229b97a6"
+    },
+    {
+      "path": "assets/cookbooks/TUNING_GUIDE.md",
+      "bytes": 2079,
+      "sha256": "sha256-708865a3f7fb4a75b9b51a9b49921117dfdf18cf43b16d63e25aac82e11158f9"
+    },
+    {
+      "path": "assets/cookbooks/warehouse/augmentation/augmentation.yaml",
+      "bytes": 5804,
+      "sha256": "sha256-d05e33fe00e1ea2e2d27f239a74352e75e70c6fb6af98783d44f91dbd28bbc91"
+    },
+    {
+      "path": "assets/cookbooks/warehouse/augmentation/prompts/prompt_polishing_system_prompt.md",
+      "bytes": 3732,
+      "sha256": "sha256-9aef8ea47642afbe4cc3b5ba496739f8bab3cf4751616dd9d9f800b8fe707acf"
+    },
+    {
+      "path": "assets/cookbooks/warehouse/augmentation/prompts/template_generation_system_prompt.md",
+      "bytes": 2916,
+      "sha256": "sha256-5ba1bfc61ccf127c9ec7c746e081479f8bcf11241d13e86801aa5ba8a8d67989"
+    },
+    {
+      "path": "assets/cookbooks/warehouse/auto_labeling/auto_labeling_config.yaml",
+      "bytes": 3602,
+      "sha256": "sha256-d682b0cbb54856a0e1ba960f9a48d5088de4d9dd930804458489bb8b73039351"
+    },
+    {
+      "path": "assets/cookbooks/warehouse/auto_labeling/prompts/event_analysis.md",
+      "bytes": 2866,
+      "sha256": "sha256-b7ab1a952ee7c88082b5cf8f73c162ba58eb410c6cdc17fccfa82b8392676d87"
+    },
+    {
+      "path": "assets/cookbooks/warehouse/auto_labeling/question_bank.json",
+      "bytes": 2493,
+      "sha256": "sha256-feb7b17238b3a576225f3bc49ceea714f33ea7c962ca41e6d202a6c19dfc41a9"
+    },
+    {
+      "path": "assets/cookbooks/warehouse/README.md",
+      "bytes": 5563,
+      "sha256": "sha256-92861b4342cea7db76f3239d519028738f76ced430476ab62d8090ff7d035312"
+    },
+    {
+      "path": "assets/cookbooks/warehouse/workflow_config.yaml",
+      "bytes": 325,
+      "sha256": "sha256-aa3adfe5a58d67732e158e8f8b0f3e3c050a85836de711cd46b2c10411386839"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3878,
+      "sha256": "sha256-9c5ac4f624f9fcec68f81fb1f7ef9b3afc28c26a566532f78cc7213c522d05ea"
+    },
+    {
+      "path": "references/container-images.md",
+      "bytes": 2383,
+      "sha256": "sha256-8e18ec1ac376403c95a6f5f4541b48da44dc6bc93974edf35bd6ac1b7d6147da"
+    },
+    {
+      "path": "references/flows/augmentation_and_al.md",
+      "bytes": 2549,
+      "sha256": "sha256-6535264d4e149a2f77525db9136a66d38b54d2c7be1ad2ca3f1013b0f21a634b"
+    },
+    {
+      "path": "references/flows/auto_labeling.md",
+      "bytes": 1875,
+      "sha256": "sha256-6a73982ca3a0bc9d5b7a4c45bf236fcd76af5e3e2fae986b43dbbe25d3f1509c"
+    },
+    {
+      "path": "references/flows/e2e_super_resolution.md",
+      "bytes": 2521,
+      "sha256": "sha256-5481315b0cef7c0b2c9b7c877fd9cdf6ba3dbda32b31f5df7008fe4ff1ccabed"
+    },
+    {
+      "path": "references/flows/e2e.md",
+      "bytes": 2587,
+      "sha256": "sha256-db6ba472267f81c816eed86234d2e09a99a114c8d689a8679fdde90516efa9ef"
+    },
+    {
+      "path": "references/nim/README.md",
+      "bytes": 2404,
+      "sha256": "sha256-33b40a68d70b798f8338fbf6bf0a8371648e0f23c76532ab889fcd9b1e8d1137"
+    },
+    {
+      "path": "references/setup.md",
+      "bytes": 5545,
+      "sha256": "sha256-7d2922aade4b6022478f432fa8f5272dccedac5fb7aaa720eb1026f653c34e6d"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 5967,
+      "sha256": "sha256-b41474fee37699f3f537fc67718725b2b53b28544c28e393a9e1588d18c92655"
+    },
+    {
+      "path": "scripts/cosmos_worker.sh",
+      "bytes": 5784,
+      "sha256": "sha256-bd41146d8f5b397bd96c9e0fb956a52bcef443590db4e7ec791d3293dfecbe08"
+    },
+    {
+      "path": "scripts/endpoint_common.sh",
+      "bytes": 7930,
+      "sha256": "sha256-79e61612e924bf1f4639b1fd77352f0c72d8ad3dfd6e86367b0cac9dfff9d149"
+    },
+    {
+      "path": "scripts/generate_configs.py",
+      "bytes": 6316,
+      "sha256": "sha256-67c8099b052607987f682e0c280b992b31d6cfbc99a00a60b14b48cca1b4b4e2"
+    },
+    {
+      "path": "scripts/llm_server.sh",
+      "bytes": 501,
+      "sha256": "sha256-37523f25bf9e05b0ea83a0c758b3318477ae4ae8256fc716a413fe00908d63e0"
+    },
+    {
+      "path": "scripts/osmo_barrier.py",
+      "bytes": 5373,
+      "sha256": "sha256-1faa9eb12ecb39f6772cc724661424dcc218b663dea7dec1170e86c7b2b5a7f9"
+    },
+    {
+      "path": "scripts/pl_augmented_worker.sh",
+      "bytes": 5327,
+      "sha256": "sha256-4fbf01b0b9b382523ee43a5e9e7803c7c7702c1a92d7df4b1b93033ffcd7159e"
+    },
+    {
+      "path": "scripts/pl_original_worker.sh",
+      "bytes": 5956,
+      "sha256": "sha256-11f3aaa33be85087d40c95c70517ff30d823d8724ef3d70a215a7cdc6a785c0e"
+    },
+    {
+      "path": "scripts/pre_submit_guard.py",
+      "bytes": 9383,
+      "sha256": "sha256-bfe37bf13651eea45531512691d1be826b3b7f9529386f55c9723c84a5648c8a"
+    },
+    {
+      "path": "scripts/preflight_credentials.sh",
+      "bytes": 21446,
+      "sha256": "sha256-7fde6700a5b9bb913987277850091a2204f734d119fe10614d212898698f9f08"
+    },
+    {
+      "path": "scripts/prepare_demo_assets.sh",
+      "bytes": 5628,
+      "sha256": "sha256-402c47060df3ce71dc2b3810faaae3c7d23e1201b293ae1741d2d45d8ab5bc8a"
+    },
+    {
+      "path": "scripts/render_side_by_side.sh",
+      "bytes": 2166,
+      "sha256": "sha256-ce3776208acaee9726623f1f7cdfa9f06478f6abd5e1583707b70e3e20112548"
+    },
+    {
+      "path": "scripts/stage_run_artifacts.sh",
+      "bytes": 2674,
+      "sha256": "sha256-9dce6218ae7b522d1c38f34abfe38fe04cfb3ccb56ff96fcfbb4a60b953dffd1"
+    },
+    {
+      "path": "scripts/vlm_server.sh",
+      "bytes": 960,
+      "sha256": "sha256-2239b3243664dcb3f6767a64837ca04bd09cfaf61ba4b130eca6584c55424b9f"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4418,
+      "sha256": "sha256-ce1978d832cb94b544753b1da041c7708c321d4f18f08b3ce393dfd01a18d2f2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18988,
+      "sha256": "sha256-78f6b652e0eba4ea0a141c57f7a1b322bcf01871bc4abdb4be71b7fbc3f48f47"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

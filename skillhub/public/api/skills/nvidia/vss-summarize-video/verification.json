@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-summarize-video",
+  "name": "vss-summarize-video",
+  "description": "Use to summarize a recorded video via the LVS summarization microservice (HITL-gated) with a VLM fallback. Not for report generation or live RTSP captioning.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-summarize-video/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-summarize-video/metadata.json",
+  "bundleHash": "sha256-2fa2ac4e8e7724707aed889f0602f3d8b355fb4633c455d00bab56d163752835",
+  "merkleLeaf": "sha256-33bd51e48bb840e7dc2bab9593e512589d66a1537ef526284d6138569b9e3e1d",
+  "files": [
+    {
+      "path": "assets/video-summarization.env.example",
+      "bytes": 2925,
+      "sha256": "sha256-29033af3de19471ce85cb98950c03db9144aa7c11172dde68a5120472726c6e7"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3741,
+      "sha256": "sha256-da925374a8071d069ef7bcfc5fc684011212a0cfc1b6dde9358959629d00212b"
+    },
+    {
+      "path": "references/end-to-end-example.md",
+      "bytes": 3394,
+      "sha256": "sha256-517a213ed1b76a82bbaf9f00c6e0de1746cb54560256e46ee674a6efbf3192f6"
+    },
+    {
+      "path": "references/hitl-prompts.md",
+      "bytes": 4202,
+      "sha256": "sha256-9102475fa343e80a143d10e0d707ea23ab8a27f6da7894971ba2eefcb1115eb5"
+    },
+    {
+      "path": "references/video-summarization-api.md",
+      "bytes": 7573,
+      "sha256": "sha256-1757fa9df1ee6a1be8795ca6d5dc33ca1ce4335208b60d28de1a425a3520b3b9"
+    },
+    {
+      "path": "references/video-summarization-debugging.md",
+      "bytes": 3461,
+      "sha256": "sha256-d385ed501f77c3eb4190cad4327e5df8fd3332329f35335af574065864c48a38"
+    },
+    {
+      "path": "references/video-summarization-deployment.md",
+      "bytes": 11565,
+      "sha256": "sha256-b114be0cc96a1f3fbd34b9ede6b2c07f6faed1b61cdaf717810fc0d01d5dfa5b"
+    },
+    {
+      "path": "references/video-summarization-environment-variables.md",
+      "bytes": 9111,
+      "sha256": "sha256-d8a9ba0d02b6c9a9ed124e8db46f0bb190630afe42a5052ad6270ef99c0f3864"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4390,
+      "sha256": "sha256-5026fca002f4ca42895688ea60d6f7c14e7a0e0f5dc8f3ba76164beea684c0e1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18593,
+      "sha256": "sha256-2de2f42deeb237c4b4ce0b581a40fcb215611bb5e7e38a351163adba7f551b62"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

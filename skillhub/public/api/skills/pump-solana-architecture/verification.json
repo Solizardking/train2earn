@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-solana-architecture",
+  "name": "pump-solana-architecture",
+  "description": "Design Pump.fun Solana program architecture, PDAs, account layouts, global singletons, per-token state, per-user accumulators, Mayhem accounts, and cross-program coordination across Pump, PumpAMM, PumpFees, and Mayhem. Use for account-model or PDA work.",
+  "source": "https://skills.x402.wtf/api/skills/pump-solana-architecture/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-solana-architecture/metadata.json",
+  "bundleHash": "sha256-5a7460b9eade87b5c319d717e9c97a447c76beae13ee3ae72309ff83aedcdd9d",
+  "merkleLeaf": "sha256-036ddb345032672091aea5d96ebf8640938de5217833099b9c1bfcb6fdf5881a",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4018,
+      "sha256": "sha256-599bc26ba439382880cf18905705177df5c33e41ed8654f73d0778e2e16e898b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

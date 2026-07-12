@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/hsb-flash",
+  "name": "hsb-flash",
+  "description": "Flash the FPGA on an HSB board connected to an NVIDIA devkit. Supports HSB Lattice boards (FPGA versions 2407, 2412, 2507, 2510) and Leopard Imaging VB1940 \"all-in-one\" cameras (FPGA versions 2507, 2510). Uses release-specific YAML manifests and board-type-specific program commands. Lattice and VB1940 commands must never be mixed.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/hsb-flash/SKILL.md"
+}

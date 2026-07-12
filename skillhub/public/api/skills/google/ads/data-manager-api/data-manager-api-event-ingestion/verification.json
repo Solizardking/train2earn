@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/ads/data-manager-api/data-manager-api-event-ingestion",
+  "name": "data-manager-api-event-ingestion",
+  "description": "Guides developers through implementing event and conversion ingestion to Google products using the Data Manager API /v1/events/ingest endpoint and its associated client libraries. Use this skill when the user wants to upload offline conversions, enhanced conversions for leads, click conversions, Google Analytics web or app events, or any other event ingestion use case supported by the Data Manager API. Don't use for uploading audience members (use the data-manager-api-audience-ingestion skill).",
+  "source": "https://skills.x402.wtf/api/skills/google/ads/data-manager-api/data-manager-api-event-ingestion/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/ads/data-manager-api/data-manager-api-event-ingestion/metadata.json",
+  "bundleHash": "sha256-dabe7e7797c7d401425a86834381a0d787e8923787d5aa275e1ff7021b2cd19e",
+  "merkleLeaf": "sha256-54eeeb2be09ef5615a2fc5cd9ea9701ecfb2ea28fba4c9fe3a0d35d1c0d5bf24",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8755,
+      "sha256": "sha256-98f1ec6b1b914eb60e79160e99f2358ab068de785ee13a74e03b54288ec7e65b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

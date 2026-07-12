@@ -1,0 +1,7 @@
+{
+  "slug": "openclawd-clawd-code-skill-main",
+  "name": "clawd-code-skill",
+  "description": "Control Clawd Code via MCP protocol. Trigger with \"plan\" to write a precise execution plan then feed it to Clawd Code. Also supports direct commands, persistent sessions, agent teams, and advanced tool control.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/openclawd-clawd-code-skill-main/SKILL.md"
+}

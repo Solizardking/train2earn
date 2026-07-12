@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-rust-vanity",
+  "name": "pump-rust-vanity",
+  "description": "Build production Rust vanity-address tooling for Pump.fun/Solana wallets with Rayon parallelism, solana-sdk key generation, Base58 prefix/suffix matching, secure file output, zeroization, and Criterion benchmarks. Use for high-throughput vanity generation.",
+  "source": "https://skills.x402.wtf/api/skills/pump-rust-vanity/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-rust-vanity/metadata.json",
+  "bundleHash": "sha256-878ebc9828bb6af382ffbb95b33382d0767a15f5ac601ad4f3c4023a0501c2a5",
+  "merkleLeaf": "sha256-36729b3153e97cccad418ad8b5e2342e5a7f893634690e74180d16ef2b95f2b0",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3919,
+      "sha256": "sha256-68da51b60065b4bd9c2751d8f91e63a3f40fff690bf03420edd8cc5a7708a216"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

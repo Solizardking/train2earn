@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-token-incentives",
+  "name": "pump-token-incentives",
+  "description": "Implement and operate Pump.fun PUMP token incentive rewards with day-indexed epochs, pro-rata volume distribution, user/global accumulators, sync and claim flows, and Pump/PumpAMM cross-program aggregation.",
+  "source": "https://skills.x402.wtf/api/skills/pump-token-incentives/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-token-incentives/metadata.json",
+  "bundleHash": "sha256-cef7102778eecdeb87ffa8a5c9012fb28c7cccd47354c9d6368ec30be3351c11",
+  "merkleLeaf": "sha256-2c297a1ebd5e861691577ca9d46028c9696eb6ed515dd55ff12e1f928bee19d4",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3084,
+      "sha256": "sha256-30841fb5d01c77a4dcf9766f5acf9c66bde126476bb352839980ba018363e0d2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

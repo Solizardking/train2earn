@@ -1,0 +1,7 @@
+{
+  "slug": "pump-security",
+  "name": "pump-security",
+  "description": "Apply Pump.fun SDK security practices across Rust, TypeScript, and Bash: key handling, memory zeroization, secure file I/O, input validation, privilege boundaries, dependency auditing, and wallet/tool hardening. Use for Pump.fun security reviews and fixes.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-security/SKILL.md"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "oracle",
+  "name": "oracle",
+  "description": "Best practices for using the oracle CLI (prompt + file bundling, engines, sessions, and file attachment patterns).",
+  "source": "https://skills.x402.wtf/api/skills/oracle/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/oracle/metadata.json",
+  "bundleHash": "sha256-ebde76ccd4b4bf52ef4c33e85c7bae439e1250a472b87b434e88a819587323e0",
+  "merkleLeaf": "sha256-3e33d44ee9fbd544ebd644ba485a8f4129d6e73b090e17c4a2b09c95529b98b1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4882,
+      "sha256": "sha256-f54f75d6b55fa66d1248a3916ba3486f17c4b92151497a7b5a334aefc35c3172"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

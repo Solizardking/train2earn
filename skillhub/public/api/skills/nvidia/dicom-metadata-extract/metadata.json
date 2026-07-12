@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/dicom-metadata-extract",
+  "name": "dicom-metadata-extract",
+  "description": "Used for extracting selected metadata from one DICOM file and flagging standard-tag PHI presence. Not for anonymization or clinical use.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/dicom-metadata-extract/SKILL.md"
+}

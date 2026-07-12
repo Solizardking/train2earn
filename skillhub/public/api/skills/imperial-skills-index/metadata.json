@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-skills-index",
+  "name": "imperial-skills-index",
+  "description": "Index for the bundled Imperial skill pack exposed through solana-clawd. Use to discover the correct focused Imperial skill.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-skills-index/SKILL.md"
+}

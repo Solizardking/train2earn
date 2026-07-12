@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-centerpose",
+  "name": "tao-train-centerpose",
+  "description": "CenterPose for keypoint / pose estimation. Detects object centers and regresses keypoint locations for 6-DoF object pose estimation. Use when training, evaluating, exporting, or running inference for a TAO CenterPose model. Trigger phrases include \"train CenterPose\", \"6-DoF object pose\", \"keypoint estimation\", \"object pose regression\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-centerpose/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-centerpose/metadata.json",
+  "bundleHash": "sha256-cc3bba4b688382f47640a01b7a4c30b8e8986898e0dfcdffcceb4bf0ebdc030e",
+  "merkleLeaf": "sha256-9c926399174499b49b8b11be16f2298bf05538ad495d069c7acd53fbffead69b",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4075,
+      "sha256": "sha256-3d77aef56896658287d7c7b22f19882204ab1596f3d90fbf1389ff14f76f3eec"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 3317,
+      "sha256": "sha256-6709764525d0802d5ba635eec708aa811971b3e4454cc0e67b35df55159f3485"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 256,
+      "sha256": "sha256-17c247337987c1a7a2827899c27c7fea73b94ce7b321bfad21c2d1fa0a301051"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 453,
+      "sha256": "sha256-f3d419d4c46b7c97e2fe964689c03bd07293147804f7fdcc381f28b2369afb7a"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 471,
+      "sha256": "sha256-8c070834b2ecdeca105342866d2a713fadb5f86b692c35efab887370c1201f4d"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 2453,
+      "sha256": "sha256-4a12aabf475d1a97f7bf4bb9fefa9cb24114086f15bc252fc5c4d47c106333c8"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 2534,
+      "sha256": "sha256-3d1b28b00c9d7c9e4821d67d372e3255b1913776b03981ee60a490b585feaa6e"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 2692,
+      "sha256": "sha256-237b085cdb249be9c7abdd4af658c9f26aff8887a6d4f1e78377d014caf6749f"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 2664,
+      "sha256": "sha256-0fe199d8d1f3cf5c2371957004f1ce9136c61e383e100faba304c94a70a7fa6e"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2289,
+      "sha256": "sha256-418897e4150180729c5f426e98ecbb3b6a3f31f16bd2e7f07c7ea3125b7c67ae"
+    },
+    {
+      "path": "references/tao-deploy-centerpose.md",
+      "bytes": 5449,
+      "sha256": "sha256-9686a0fc4537712f5393a82ac46d6a71591ab184b97474e6198440edba3ccb5a"
+    },
+    {
+      "path": "references/tao-deploy-centerpose.skill_info.yaml",
+      "bytes": 2055,
+      "sha256": "sha256-38f8e815377c80fb4bcde9a5cb69e05a4b1c44523d5ccb02c706c3c762e07bd8"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4004,
+      "sha256": "sha256-92c70bd22346a42704710c5622be7e66252c6290a3e25535f2a6d13527dad491"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10577,
+      "sha256": "sha256-06deebe970bd301747e4185d227d77cbc3b1c0ba0c19e05ed3371b9ef5020dcb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openclawd-clawd-code-skill-main",
+  "name": "clawd-code-skill",
+  "description": "Control Clawd Code via MCP protocol. Trigger with \"plan\" to write a precise execution plan then feed it to Clawd Code. Also supports direct commands, persistent sessions, agent teams, and advanced tool control.",
+  "source": "https://skills.x402.wtf/api/skills/openclawd-clawd-code-skill-main/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openclawd-clawd-code-skill-main/metadata.json",
+  "bundleHash": "sha256-b83023142ff8f7f09673adb57cdb5d767608f39eea3ea13445f843ad1e25de1c",
+  "merkleLeaf": "sha256-30a5830d8d312998aca8e2cf0ef037d232537f0ad9a2ab6518780265c883d607",
+  "files": [
+    {
+      "path": "mcp_config.example.json",
+      "bytes": 648,
+      "sha256": "sha256-ffacbfab2965102122fcda24abcdca3ca644e85a6ad5e5c2cdf9741daab67829"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 21396,
+      "sha256": "sha256-55741334ccb563330b26ce862ef165cb0e82446a62bb60ba0f4f9cf5b8770c8c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 674,
+      "sha256": "sha256-3024f38bea5bb4e65d82f622e54d1a92c05a2fc3391020545836cd78e2964742"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14138,
+      "sha256": "sha256-b90d41112d8ea58271fe4e0368ad08c363a3b59a2deba6d37d40af101b40d483"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16227,
+      "sha256": "sha256-8589a6a7bec8a0f1eb4418c0958bab423f7a0645c8cc08a9fe1b6f98bcc20876"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 399,
+      "sha256": "sha256-473cf46753e92843a8663913427c0f1702f5244735352c95c8f0f3b0d2c0eb2e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

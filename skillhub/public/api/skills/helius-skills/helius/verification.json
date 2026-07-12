@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "helius-skills/helius",
+  "name": "helius",
+  "description": "Build Solana applications with Helius infrastructure. Covers transaction sending (Sender), asset/NFT queries (DAS API), real-time streaming (WebSockets, Laserstream), event pipelines (webhooks), priority fees, wallet analysis, and agent onboarding.",
+  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius/metadata.json",
+  "bundleHash": "sha256-f09267838b5e402ad8ab2bfabb23fec75c17923d8b7bb3cf1336166ed4401ae7",
+  "merkleLeaf": "sha256-e78de6e90c095ef7686e1e5c7ddbeb669db497911f72752e5df4e086f843464e",
+  "files": [
+    {
+      "path": "references/das.md",
+      "bytes": 9248,
+      "sha256": "sha256-303ced2d6fd9e4c916df5319d77257303f521e212469cecf7dec3d7be2f5aa78"
+    },
+    {
+      "path": "references/enhanced-transactions.md",
+      "bytes": 19433,
+      "sha256": "sha256-a8f25567d3748e604aae874c14529f1a8cd132a15bc971b135a6ac2ae23de68e"
+    },
+    {
+      "path": "references/laserstream.md",
+      "bytes": 10757,
+      "sha256": "sha256-d678c6a313110482d547d50f1378ca7e9a8bd41d28715ccaab38bfa20d70d529"
+    },
+    {
+      "path": "references/onboarding.md",
+      "bytes": 10764,
+      "sha256": "sha256-ca4e8320606b6b9c8eeccfb464a584133527b2484175f414bc38320f945c8a9e"
+    },
+    {
+      "path": "references/priority-fees.md",
+      "bytes": 7901,
+      "sha256": "sha256-50537a96f4661a0037274c8f680f609e97b62df00d322eb34329dcf25cc41575"
+    },
+    {
+      "path": "references/sender.md",
+      "bytes": 18041,
+      "sha256": "sha256-5c49a6ca5e2068e4dbce37a628d46a941134416f7ec322c00bd0ba0c196f19f6"
+    },
+    {
+      "path": "references/wallet-api.md",
+      "bytes": 12081,
+      "sha256": "sha256-d9cd770353e6d5f3e05da93a90a38e98d3000d34f062f7dfc4e1979b39186fa0"
+    },
+    {
+      "path": "references/webhooks.md",
+      "bytes": 12457,
+      "sha256": "sha256-2ad44b3ea23916b95e32cc600df13a4127a11bcbd85702a30eef6a2051191517"
+    },
+    {
+      "path": "references/websockets.md",
+      "bytes": 13674,
+      "sha256": "sha256-11bb2aa151f02af14760c06f1bc9d8d5020a64132ed94aff6feb4501b02f63fc"
+    },
+    {
+      "path": "references/zk-compression.md",
+      "bytes": 9112,
+      "sha256": "sha256-0d62503acd40333c1630b5b5bbedb3e60d96a7b3094fb83c69177e2fa491ffa9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17878,
+      "sha256": "sha256-b32a441f8f0bc6b5374ca6ce647057a0c5fbe2f8155621b085b48f08701709b4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

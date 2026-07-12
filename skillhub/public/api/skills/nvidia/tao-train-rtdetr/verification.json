@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-rtdetr",
+  "name": "tao-train-rtdetr",
+  "description": "RT-DETR (Real-Time DEtection TRansformer) for 2D object detection. Designed for real-time inference with competitive accuracy and supports distillation and quantization for deployment optimization. Use when training, evaluating, distilling, quantizing, exporting, or running inference for a TAO RT-DETR model. Trigger phrases include \"train RT-DETR\", \"real-time DETR\", \"low-latency object detection\", \"RT-DETR distillation / quantization\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-rtdetr/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-rtdetr/metadata.json",
+  "bundleHash": "sha256-1788030108ddaee4bd636b4fd92d7052b06df9d8e1e3f49cbf550c9fd2f20a6a",
+  "merkleLeaf": "sha256-19ae63006ea2d6f0a9697414a91ff370b529607c0f4af33593dfc90098da2b77",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4050,
+      "sha256": "sha256-c2320702c19a9ec47048510801e1debf2950e63d166f5b197ca40df106aa0916"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 7187,
+      "sha256": "sha256-fe50ff5618bd09eea5fc1db9f5383dd1c88acf288ae7e985d010f02298f0b916"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 508,
+      "sha256": "sha256-5461649ce981b89f6a2c9db99cbb87e4312d23adc1b61fe42b01b54f90dae835"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 665,
+      "sha256": "sha256-c688f926d6bd55bb8ca69b080adf51bab0e1eb9e1d2c0fd6191dc26ba59a0ee2"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 562,
+      "sha256": "sha256-7c35f994e2f4cbb7605e388f35026e6ab2bdce16ca8ab4ff22dc186aed43fd8b"
+    },
+    {
+      "path": "references/spec_template_distill.yaml",
+      "bytes": 4212,
+      "sha256": "sha256-0a584da7f735c8a83da92bd1f9b6d783d9ef7022684c907886e921f43562205e"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 3136,
+      "sha256": "sha256-c7f04b4982cb4d90596a1e2097b5f5d74e4a627f19d65f62adc3d2308f3f3b5f"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3233,
+      "sha256": "sha256-e93de3e9919459d20dbee1b307eac10103ff02fbaad1e4d6fdf2cdabc08de6e1"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 3216,
+      "sha256": "sha256-b03cdf6d4894f1304e24f4ac05a83e85e09a8761405c3d4b2056d554a300b35e"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 2966,
+      "sha256": "sha256-8f0809132f41ce96029d3334e5018d6e669e57856d4a10c0d2ab9bda31028f21"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2966,
+      "sha256": "sha256-8f0809132f41ce96029d3334e5018d6e669e57856d4a10c0d2ab9bda31028f21"
+    },
+    {
+      "path": "references/tao-deploy-rtdetr.md",
+      "bytes": 6081,
+      "sha256": "sha256-d0067153190936e87f01c7f855ee0589198298bdcb073cbefe4086bf045e3180"
+    },
+    {
+      "path": "references/tao-deploy-rtdetr.skill_info.yaml",
+      "bytes": 3322,
+      "sha256": "sha256-1cd1771e76934111d4490684f39b323ff797b1669109f27d19a7a601526008fd"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4213,
+      "sha256": "sha256-422778510ee70be2812088a831b34dc4f161964b9e9441f3482134f2f8de69a5"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17354,
+      "sha256": "sha256-ad88a856a153898b0643600a54b3348448b7fa9cccafaadd1ebf532fdae2f39c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

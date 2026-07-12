@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-retriever",
+  "name": "nemo-retriever",
+  "description": "Use when the user wants to search, query, extract, transcribe, describe, quote, filter, or aggregate across documents — PDFs, scanned forms / images (`.jpg` `.png` `.tiff`), Office (`.docx` `.pptx`), text (`.html` `.txt`), audio (`.mp3` `.wav` `.m4a`), or video (`.mp4` `.mov`). Prefer this over native Read / Grep for multi-file or non-PDF corpora. Not for: editing files, web browsing, single-file plain-text lookups, fine-tuning.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-retriever/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-retriever/metadata.json",
+  "bundleHash": "sha256-d644d2811b97b214ee3ce2840751b50f0b2c49f5fce29176999fdecfa28fbda3",
+  "merkleLeaf": "sha256-c2a4385f8d9b1aa504587245836def3e419a277cca73281fb59890ccb8a285dc",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4197,
+      "sha256": "sha256-4be17793fb1769db4a0d1b560fa14f8dbc0f7d81bf10167f602ef52d4fe14876"
+    },
+    {
+      "path": "references/cli/ingest.md",
+      "bytes": 4894,
+      "sha256": "sha256-14b9d25d8152794a201020b0f47e5bdd4ef78c5f01226426dffe698b4f0c84e5"
+    },
+    {
+      "path": "references/cli/query.md",
+      "bytes": 3609,
+      "sha256": "sha256-0c62fffcb0f844f8bfd4f29adc961d5baa00c1e09da5aa9f5168b7665c927496"
+    },
+    {
+      "path": "references/install.md",
+      "bytes": 4156,
+      "sha256": "sha256-0f24dfb710bfefdea54fb0c25c081418b0709e0a60d5d32f801a3af5854e4522"
+    },
+    {
+      "path": "references/query.md",
+      "bytes": 7403,
+      "sha256": "sha256-cd27ab3a6cdddff01426583c7c8d667eaa52dac01cedcfc03cc948056388b51d"
+    },
+    {
+      "path": "references/setup.md",
+      "bytes": 3764,
+      "sha256": "sha256-d04e33ad37a9e3aabc0496b819b0f873ed94b0b7127444efe673bc51092844a5"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 3605,
+      "sha256": "sha256-a1414ff4fbd29560d0357d34a2329211a889a22298c7956cb308f5583a718766"
+    },
+    {
+      "path": "scripts/filename_fast_path.py",
+      "bytes": 5408,
+      "sha256": "sha256-6a24691665da402fac0c9e9403112a1cdbebb9cd4d6539550cdebd246dae0750"
+    },
+    {
+      "path": "scripts/grep_corpus.py",
+      "bytes": 3600,
+      "sha256": "sha256-9c653991be753ee602e459e1557feb006aeeb12440298c0821bdead118ee9638"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4186,
+      "sha256": "sha256-e8c5f79eb09190f6b0068207de3d2e1767799d059aeb964fc250451c93b81992"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3417,
+      "sha256": "sha256-14192c989e1e4bae65cd7d2f099ad291b3ff721b874c5e3d9e11b0d7ed758882"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

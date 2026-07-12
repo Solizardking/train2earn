@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/omniverse-realtime-viewer",
+  "name": "omniverse-realtime-viewer",
+  "description": "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/omniverse-realtime-viewer/SKILL.md"
+}

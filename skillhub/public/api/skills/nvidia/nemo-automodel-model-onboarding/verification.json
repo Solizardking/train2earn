@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-automodel-model-onboarding",
+  "name": "nemo-automodel-model-onboarding",
+  "description": "Guide for onboarding new model architectures into NeMo AutoModel, including architecture discovery, implementation patterns, registration, and validation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-model-onboarding/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-model-onboarding/metadata.json",
+  "bundleHash": "sha256-496716401bd04d3b2f1e5cd4bc8c4f5137bc9d12235e0508cecf4f9b5264aadd",
+  "merkleLeaf": "sha256-64ad6d594bb00b26cde3d25bca98ce40b55a2082b73ba1f1f59fb230acd7c06f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4162,
+      "sha256": "sha256-a2246c1463d2194caf1fe20e92e28a6689fbca9079403850788287d02a3f3819"
+    },
+    {
+      "path": "capabilities-and-precision.md",
+      "bytes": 4984,
+      "sha256": "sha256-695dc5f59d2ac6ac21200bddf6de5921ce4c8355f02f2c1636c6895785d3915b"
+    },
+    {
+      "path": "llm-patterns.md",
+      "bytes": 16015,
+      "sha256": "sha256-8ef9459bc7e704052d0fd97e1f79c0ea7b39cb7f683073a9e56d4de9042bb68f"
+    },
+    {
+      "path": "moe-patterns.md",
+      "bytes": 18423,
+      "sha256": "sha256-1d5e48e8bed7abeb7f5e07ff470dcb9a879e59fcda8e76ba74df9fc81517e837"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4200,
+      "sha256": "sha256-7a3e6dff1e328195ce2a327884d336e2539826529edab260bfe0c2f7f2fe25ab"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18132,
+      "sha256": "sha256-546eceab58deef66bfe7ec0123972aa7c390d09f84674ed498f6e2a2b434ac05"
+    },
+    {
+      "path": "vlm-patterns.md",
+      "bytes": 16920,
+      "sha256": "sha256-9b121f99080d9f1dcc664a41c520a1ccdd199e2b7af1faadce046853e804fafe"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

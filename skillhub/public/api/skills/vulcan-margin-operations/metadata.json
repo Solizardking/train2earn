@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-margin-operations",
+  "name": "vulcan-margin-operations",
+  "description": "Vulcan/Phoenix collateral, deposits, withdrawals, transfers, isolated margin, leverage tiers, and margin health.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-margin-operations/SKILL.md"
+}

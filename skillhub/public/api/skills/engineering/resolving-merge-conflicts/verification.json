@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/resolving-merge-conflicts",
+  "name": "resolving-merge-conflicts",
+  "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/resolving-merge-conflicts/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/resolving-merge-conflicts/metadata.json",
+  "bundleHash": "sha256-a5e69f060956d83b029276b452e84e3c0795bdfc017edc02289542b512caaf84",
+  "merkleLeaf": "sha256-89c403bb754b80d5dff89f146ad9133bc3c2930c51c2f420a9724dc1aa0cf0ef",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 921,
+      "sha256": "sha256-c7c9ba81362a786aac05d2223123bf1bd2f8a99c3243a72882ede9c68bedfb24"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

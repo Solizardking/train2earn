@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cupynumeric-hdf5",
+  "name": "cupynumeric-hdf5",
+  "description": "Read and write large cuPyNumeric arrays to HDF5 with Legate's parallel, distributed HDF5 I/O (legate.io.hdf5: to_file, from_file, from_file_batched). Use when a developer needs to save a cuPyNumeric array to an .h5/.hdf5 file, load an HDF5 dataset into a distributed cuPyNumeric array, read a large HDF5 dataset in chunks, hand arrays to an HPC pipeline as a single file, or accelerate HDF5 disk I/O with GPUDirect Storage (GDS). Do not use it for Parquet/cuDF/raw-binary or other sharded/custom layouts (see the cupynumeric-parallel-data-load skill), Zarr or object-store/S3 output, .npz or pickled archives, plain h5py without cuPyNumeric, or pure array compute such as FFT, matmul, or reductions.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-hdf5/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-hdf5/metadata.json",
+  "bundleHash": "sha256-dd984f49ba5ee5b448b96e49874a50dc0383775434095a3ecf6797e20f76bf22",
+  "merkleLeaf": "sha256-decbf7f556969026fe9000436a511f48f0b40f57447395d433e6f51a19762ad6",
+  "files": [
+    {
+      "path": "assets/hdf5_batched_read.py",
+      "bytes": 2986,
+      "sha256": "sha256-759179afb9e15242d191e2b5dfd82f655746752b8704103071a6d0a667f5f8fb"
+    },
+    {
+      "path": "assets/hdf5_roundtrip.py",
+      "bytes": 2716,
+      "sha256": "sha256-284ea5c3a879d16bb15abb1da012a7d1da9e1eeffe440c3ef211e2fb1d147f8b"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3736,
+      "sha256": "sha256-61e8635265eb811a4a0a2dd2f521d5097a790794f076259c0007f7708fc86cc5"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4053,
+      "sha256": "sha256-47276da33792ae503597efb35cc872d29339126b5658bde83ecf29e57b612ea3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11925,
+      "sha256": "sha256-ae9a178d41c491575788e2d107c6bcd07aae1522f8e754b9e89010109341619c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

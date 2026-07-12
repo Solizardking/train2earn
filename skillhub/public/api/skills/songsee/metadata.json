@@ -1,0 +1,7 @@
+{
+  "slug": "songsee",
+  "name": "songsee",
+  "description": "Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/songsee/SKILL.md"
+}

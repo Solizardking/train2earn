@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-margin-operations",
+  "name": "imperial-margin-operations",
+  "description": "Imperial profile funding, deposit/withdraw transaction building, profile isolation, and margin-state reporting.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-margin-operations/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-margin-operations/metadata.json",
+  "bundleHash": "sha256-1dbd8f5c9fc3c674a7de5425d707f5df8245091ecc92d1518b2a276253b621c4",
+  "merkleLeaf": "sha256-8bc69749d300a202f2929aa0d40e513ea142ca353f4c4499b3760b8e1cfd0255",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 579,
+      "sha256": "sha256-4448aa6a2ce8cfd9be3371aeae5c6ad54e6e5c6a4c00ce5b390bc59593f190fe"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

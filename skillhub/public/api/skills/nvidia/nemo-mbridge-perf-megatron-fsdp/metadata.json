@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemo-mbridge-perf-megatron-fsdp",
+  "name": "nemo-mbridge-perf-megatron-fsdp",
+  "description": "Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemo-mbridge-perf-megatron-fsdp/SKILL.md"
+}

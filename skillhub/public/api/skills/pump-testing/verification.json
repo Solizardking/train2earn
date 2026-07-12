@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-testing",
+  "name": "pump-testing",
+  "description": "Design and run Pump.fun SDK test infrastructure across Rust, TypeScript, Python, and Bash, including unit tests, integration tests, security tests, fuzzing, shell orchestration, Criterion benchmarks, coverage, and CI gates.",
+  "source": "https://skills.x402.wtf/api/skills/pump-testing/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-testing/metadata.json",
+  "bundleHash": "sha256-5933c1db8f70b0ffb2e4282fcf7d6c98ce832e333b3faa9eda155ef9052644ed",
+  "merkleLeaf": "sha256-5e961fcc535e9ea0825716349bf75a02504fb6e73801aab0d710039480af8033",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2765,
+      "sha256": "sha256-96534d91083cd9ae724d0c3e287a4e942afab052100dca30093dfea57b03eb4d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

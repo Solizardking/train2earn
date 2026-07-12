@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-generate-video-reasoning-annotations",
+  "name": "tao-generate-video-reasoning-annotations",
+  "description": "Multi-step video annotation pipeline that turns raw videos into Chain-of-Thought training data — multi-level captions, structured descriptions, and QA pairs (MCQ, binary, open-ended) with reasoning traces, via VLM/LLM distillation. Use when the user wants to \"create video training data\", \"generate video QA datasets\", \"build CoT reasoning traces from videos\", \"auto-label videos\", or run the video_reasoning_annotation pipeline. Triggers include \"video annotation\", \"video CoT\", \"video QA\", \"chain-of-thought\", \"video captioning pipeline\", \"video distillation\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-generate-video-reasoning-annotations/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-generate-video-reasoning-annotations/metadata.json",
+  "bundleHash": "sha256-9b2cc0ce6fba97aa6ca7d1b0dda5ca447db62b96e3f1b5a5ef0ba7baa4fd5ae3",
+  "merkleLeaf": "sha256-4379aa295ef1c41aa9437fc54ce38709ce3cac7f7731abf22a2c70d840e4f435",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4079,
+      "sha256": "sha256-0dd2a855c4c7b6329feb856e88ab4c70ad70afccdf6fdb73c81b0f2c1c88bcb3"
+    },
+    {
+      "path": "references/configuration.md",
+      "bytes": 8678,
+      "sha256": "sha256-164d6bcb95fab19c22b9a7b5d79ef070c57d2a1d9633f456def0140fc39c3fba"
+    },
+    {
+      "path": "references/domain_adaptation.md",
+      "bytes": 8317,
+      "sha256": "sha256-d06cdf605a0013429df638dc5f709b17bb78e7ebb773ce3731dc0b90ff62b8e6"
+    },
+    {
+      "path": "references/prompts_traffic.py",
+      "bytes": 80578,
+      "sha256": "sha256-c83b472640946504b225d5d755f050881495aa8b080d5d5e43136d0c64761fb2"
+    },
+    {
+      "path": "references/prompts_warehouse.py",
+      "bytes": 87002,
+      "sha256": "sha256-a5787cc808c63fdd73ceb0ebd00521709b5f520e4a79fefb5160a34681b4290f"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 1479,
+      "sha256": "sha256-61b71d3af002d39ee00ff02df2e3127f5d9ad1fde6cebda4c4f454f586a0e7cf"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4224,
+      "sha256": "sha256-cf3aeae2d157f6306fd40f4c6bec7bd6de90eeb95b0c94a5ce5702fd28c4667b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11068,
+      "sha256": "sha256-01e48f17d9ec950234f5cb37733cf773840f179e139b3bc3ca9f67c63d207c67"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

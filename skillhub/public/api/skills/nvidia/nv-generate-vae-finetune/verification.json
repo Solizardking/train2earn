@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nv-generate-vae-finetune",
+  "name": "nv-generate-vae-finetune",
+  "description": "Used for finetuning the NV-Generate-CTMR MAISI VAE from CT/MRI NIfTI datalists. Not for clinical or production data approval.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-vae-finetune/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-vae-finetune/metadata.json",
+  "bundleHash": "sha256-079031acd766a5d6ded1e971ba9347a11bdfd27fd4a0dbbed348159f78957d5c",
+  "merkleLeaf": "sha256-a7f4664f498f06fb24d2d1e3784a643055ca9c27dd515a1bfab143afdb135b87",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4047,
+      "sha256": "sha256-f5ec5d556661139e5efefaec373062db53f1fbf99d0493555468c8cbcc2f3996"
+    },
+    {
+      "path": "scripts/run_vae_finetune.py",
+      "bytes": 32915,
+      "sha256": "sha256-1d112e31949ba39211d9440f13bc84b87e315a16e57467648a1670ccbdda26b7"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 6385,
+      "sha256": "sha256-931eb2d7eada9347bdf2d64660cee85de862923cfd12edd5b453624826bb48ac"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4121,
+      "sha256": "sha256-050c015ffcda2ed6acbe40597fd744d22245728a3569076d9f8d2dc7f99a163e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12474,
+      "sha256": "sha256-dc047ffce1109bd657cd6a99725ec0f6dad7966e288bba7ddc8c8396e486b162"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

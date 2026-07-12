@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tilegym-improve-cutile-kernel-perf",
+  "name": "tilegym-improve-cutile-kernel-perf",
+  "description": "Iteratively optimize cuTile kernel performance through systematic profiling, bottleneck analysis, IR comparison, and targeted tuning. Covers tile sizes, occupancy, autotune configs, TMA, latency hints, persistent scheduling, num_ctas, flush_to_zero, and IR-level debugging. Use when asked to \"optimize cutile kernel\", \"improve kernel perf\", \"tune cutile performance\", \"make kernel faster\", or iteratively benchmark and refine a cuTile GPU kernel in the TileGym project.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-improve-cutile-kernel-perf/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-improve-cutile-kernel-perf/metadata.json",
+  "bundleHash": "sha256-22ca0560cef3ab522f9fad9b4780e8e4b17cdd092b1a8fb03ef68506ce7b78b8",
+  "merkleLeaf": "sha256-ba05e5e607515647d92dc08b68370f1f5e5343a978861eb30eda9ebd970f5f71",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 5422,
+      "sha256": "sha256-6918496a45ae79fe478ec49d17f701ba21968c00d6a2d6648f77b0c293ca78e3"
+    },
+    {
+      "path": "references/cutile-api-reference.md",
+      "bytes": 31179,
+      "sha256": "sha256-3ec4044d66211377107e3a242ade3582da16dc4f110757dd8db479d32734f55c"
+    },
+    {
+      "path": "references/cutile-patterns-reference.md",
+      "bytes": 7788,
+      "sha256": "sha256-e84706e7100ace00aedb7cc62e168ed3195172efd56bb12a18b1bdf4eda9f21a"
+    },
+    {
+      "path": "references/ir-dump-guide.md",
+      "bytes": 8042,
+      "sha256": "sha256-2072767bdbc75a19d22ba2c3e034f6db17bb83d3d34ff8ea553c0ead535df8af"
+    },
+    {
+      "path": "references/optimization-playbook.md",
+      "bytes": 15106,
+      "sha256": "sha256-2d7cc924764c752b452fcacea3ffed2daf1dabeaf8c14e14ebbce0af0fadc3fa"
+    },
+    {
+      "path": "references/perf-knobs-catalog.md",
+      "bytes": 6686,
+      "sha256": "sha256-ac187fdeface924a94565d7011502850bcc692da4795849987c93aee9eb1475a"
+    },
+    {
+      "path": "references/performance-model.md",
+      "bytes": 19029,
+      "sha256": "sha256-17d793c940d80a48fff853753364b55dd52f44022a36c38607e9e529c39c40b7"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4043,
+      "sha256": "sha256-7742def60335783130566386d98fbf6e911fa1afd898a7183d080c75985dacf5"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7817,
+      "sha256": "sha256-7703bff09cbc7fee0ad458fe1ad618838a7d57f5b248aaa6a7b4930d4dd5783a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

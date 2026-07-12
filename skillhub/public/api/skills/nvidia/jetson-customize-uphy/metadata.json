@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-customize-uphy",
+  "name": "jetson-customize-uphy",
+  "description": "Configure Jetson UPHY lane allocation (uphy0/uphy1-config) on Orin/Thor custom carriers. Do NOT use for pinmux or PCIe-only edits.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-customize-uphy/SKILL.md"
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/cufolio",
+  "name": "cufolio",
+  "description": "Use when a user asks to build, optimize, backtest, rebalance, or analyze a stock portfolio with Mean-CVaR, efficient frontiers, scenario generation, or NVIDIA cuOpt.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/cufolio/SKILL.md"
+}

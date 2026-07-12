@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "songsee",
+  "name": "songsee",
+  "description": "Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.",
+  "source": "https://skills.x402.wtf/api/skills/songsee/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/songsee/metadata.json",
+  "bundleHash": "sha256-cfb415e070b15741467a41a4efd9a0ad0a4e3ae529b6565c42b48d3cd61923d9",
+  "merkleLeaf": "sha256-e0c9191ec4b67a7f797668b48290f709e10c13cbcb5ee57116c3944350d28082",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1123,
+      "sha256": "sha256-0b9e5821304ea2ee5fbd1087a2ebcc459d86bf4bc00adf976d07cd0c609da7b0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

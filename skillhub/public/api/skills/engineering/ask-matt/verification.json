@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/ask-matt",
+  "name": "ask-matt",
+  "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/ask-matt/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/ask-matt/metadata.json",
+  "bundleHash": "sha256-91e26eaf1a40f32057749c111a0afa4c7f558cd766986ac44390dc042c3f1b7b",
+  "merkleLeaf": "sha256-f5cd9010b7dd1f5a976449c3e6dbea1312f5b8ff4ea928a2f1ed0002d8b4ae9e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 7859,
+      "sha256": "sha256-4465bad6bb9f7426743c1013d88740594da34e0f9934d375d93bbf981d5317b5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

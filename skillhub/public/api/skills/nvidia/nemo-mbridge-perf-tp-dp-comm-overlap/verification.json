@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-tp-dp-comm-overlap",
+  "name": "nemo-mbridge-perf-tp-dp-comm-overlap",
+  "description": "Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-tp-dp-comm-overlap/metadata.json",
+  "bundleHash": "sha256-5d8b08f5e689c0b25ae81780249e08f5ca51f2c41a8d10766ae34fcd1363b5d7",
+  "merkleLeaf": "sha256-6a9dd4ed902c4025ff088e40a5c261090619664c67d6745e29d68baf13462db4",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4371,
+      "sha256": "sha256-68da81dc31b063eb6d52e614a35cf09b99f8a7d3150bc183f2b5ebd2d421e295"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 2103,
+      "sha256": "sha256-b46cb2ee44f5a12368b13077f10b4e6066c0782f44e1c73bb36cc91d3602c1d3"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3817,
+      "sha256": "sha256-a6fd6e999153b717eb1fa52de83c0ebd3e7c65a8dabc9830bb19af705ae66898"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3694,
+      "sha256": "sha256-0cc7266274d77a5d06ad40a5aedc15947a4c6d00922f6dc9a84831a17694078e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

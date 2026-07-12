@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan",
+  "name": "vulcan",
+  "description": "Entry-point skill for Phoenix perpetuals through Vulcan/Rise SDK inside solana-clawd. Use before answering or acting on Vulcan, Phoenix DEX, Solana perps, paper trading, live trading, margin, TP/SL, TWAP, grid, TA strategies, or perps agent setup.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan/metadata.json",
+  "bundleHash": "sha256-c0ebadd78552460120d32956c5abd1e2aea6ca2d9e064af879a2af8222c17524",
+  "merkleLeaf": "sha256-ac47b8d96f2ccdab3cbc191bc02bbf13726b505517d1b1a2b83d2cc8afd96ea3",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1276,
+      "sha256": "sha256-eea115b7bf45dc8c5b1da87053334713fefc945ffe788a4728df10cfddaa3579"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

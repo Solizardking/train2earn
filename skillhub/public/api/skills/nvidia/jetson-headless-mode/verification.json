@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-headless-mode",
+  "name": "jetson-headless-mode",
+  "description": "Plan and apply safe Jetson headless-mode changes to reclaim GUI and daemon memory.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-headless-mode/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-headless-mode/metadata.json",
+  "bundleHash": "sha256-7fd4247e2edcc1d55144d7951c90654c12264aadfe7713204c9baf905b05ab54",
+  "merkleLeaf": "sha256-b01ddb240f72bab40f5841c683179185803438b5ea316b694540afb11acfbbde",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3327,
+      "sha256": "sha256-77c5aa78dcaa36ed8009973d68969ce35303fe49340e3bb8949e60fe5e129f0e"
+    },
+    {
+      "path": "scripts/apply.sh",
+      "bytes": 5873,
+      "sha256": "sha256-b9ec376364997fa2b5ad7a76f540087b1ccc90262a4220fbf06c05611e489347"
+    },
+    {
+      "path": "scripts/plan.sh",
+      "bytes": 5270,
+      "sha256": "sha256-37fc2b91ca796f340b9e5081532f4b0fcf2ba5c2ff68e8ad7b81f983393b7e2e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3732,
+      "sha256": "sha256-d55980357b7aaad07d0b6ecc89b6cb71dcbcbf901d652aa544ecad44a4e9acf2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7717,
+      "sha256": "sha256-91f2f17fb9e54aaceb6e1e876292e8f7182483715a120ff8f68992c96b281cb8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

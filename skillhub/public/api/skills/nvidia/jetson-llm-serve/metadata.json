@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-llm-serve",
+  "name": "jetson-llm-serve",
+  "description": "Stand up vLLM or SGLang serving on Jetson, using upstream vLLM on Thor and Orin JetPack 7.2+, and NVIDIA-AI-IOT vLLM on older Orin.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-llm-serve/SKILL.md"
+}

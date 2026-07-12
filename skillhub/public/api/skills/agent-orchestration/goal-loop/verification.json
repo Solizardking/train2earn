@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "agent-orchestration/goal-loop",
+  "name": "goal-loop",
+  "description": "Explain and write effective instructions for the `/goal` feature — the persistent self-checking agent loop (plan → act → test → review → iterate), available in agents like Codex, Claude Code, and Hermes Agent. Use when the user mentions `/goal`, \"goal loop\", \"Ralph loop\", wants to kick off a long-running autonomous agent run, asks how to write a goal prompt, or wants a one-paragraph goal instruction drafted.",
+  "source": "https://skills.x402.wtf/api/skills/agent-orchestration/goal-loop/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/agent-orchestration/goal-loop/metadata.json",
+  "bundleHash": "sha256-ad8510eb43bd37555bd9a093c70eaa8a967f9acf19c97f74171de54d8db4a32d",
+  "merkleLeaf": "sha256-65f0a8fb011f382245bcac31d589d64ffef63784582bada0033c82415555918a",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 10097,
+      "sha256": "sha256-2f8b007493f81cf82855578114c989755c5ba9950b7607270a334b77accdd392"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

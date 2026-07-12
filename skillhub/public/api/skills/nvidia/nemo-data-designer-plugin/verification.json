@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-data-designer-plugin",
+  "name": "nemo-data-designer-plugin",
+  "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline via the NeMo Data Designer plugin.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-data-designer-plugin/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-data-designer-plugin/metadata.json",
+  "bundleHash": "sha256-1dd427949b312ac45cd1c6406b137537ec690500849ace16efd6bcf6652d8e18",
+  "merkleLeaf": "sha256-a39a2cbc1a16fd7f69e1d97c8ee5e1557252a34ab1b142b5fcb8e29015b6f249",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3916,
+      "sha256": "sha256-66aca0441879c487558026d776e60c00a966f77f66f9e3fae36e79974be76d79"
+    },
+    {
+      "path": "references/nemo-platform-plugin-additions.md",
+      "bytes": 7814,
+      "sha256": "sha256-9f90a1a970caeffa2158a1e1be8aee098adcc34f9eb07090f30779bd5830c5c2"
+    },
+    {
+      "path": "references/person-sampling.md",
+      "bytes": 2356,
+      "sha256": "sha256-7ac49670cb1f0dde9c30b973de0b332716bdfca64045d4d41add1da6c7c6f3a8"
+    },
+    {
+      "path": "references/preview-review.md",
+      "bytes": 1875,
+      "sha256": "sha256-36dfcf5f8e8516ec0b321cf2ff7d9093786bda93ac863b99875720a6f195df0b"
+    },
+    {
+      "path": "references/seed-datasets.md",
+      "bytes": 1175,
+      "sha256": "sha256-834593c18e1ae787aa9c706eacc692d7af8190638e22dee0a93e4888de8586c5"
+    },
+    {
+      "path": "scripts/get_person_object_schema.py",
+      "bytes": 1764,
+      "sha256": "sha256-8b9a051858af8f8cf971ddad53436c1704af99c792c9ba3bc0eda3b1a06b5507"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3858,
+      "sha256": "sha256-c4e4411269de0ff133da01cf701e567c7fb06d00d381866b708fe48354ad018a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6016,
+      "sha256": "sha256-c4b3be180abf0c8790394f45c2b65dc8fc7eeac929d1f0418f86572395a2526f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

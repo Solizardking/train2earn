@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openai-image-gen",
+  "name": "openai-image-gen",
+  "description": "Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html` gallery.",
+  "source": "https://skills.x402.wtf/api/skills/openai-image-gen/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openai-image-gen/metadata.json",
+  "bundleHash": "sha256-2333219c7347c3bd1252d32de91a9aa129188468487ac8b32e09f834854749b9",
+  "merkleLeaf": "sha256-3016b58825517bd54ba6786ef9406c425f5b652404536fe7f537c869205260bf",
+  "files": [
+    {
+      "path": "scripts/gen.py",
+      "bytes": 8022,
+      "sha256": "sha256-c6b88f16eeb1db17bc2927e4d495d1633a4f7b6362a65541138e832e74a85728"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2924,
+      "sha256": "sha256-d6afc221c4a402c42cefad9bfcc907184533a86c6a3af2f6df30c57e7c0f4698"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

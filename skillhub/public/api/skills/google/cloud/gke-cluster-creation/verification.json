@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-cluster-creation",
+  "name": "gke-cluster-creation",
+  "description": "Plans and executes GKE cluster creation, provisioning, and production readiness audits. Use when creating GKE clusters, provisioning GKE environments, or auditing GKE clusters. Don't use for application onboarding or deployment configuration (use gke-app-onboarding instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-cluster-creation/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-cluster-creation/metadata.json",
+  "bundleHash": "sha256-b20997b5889e9f74cbf292c3c71c7636c68bb14dbe3923112e28483ebb739cab",
+  "merkleLeaf": "sha256-4b01520dcdedc6f2df486e565633871390280ec1eb859494fba91aecb49e71c2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5969,
+      "sha256": "sha256-21e1b5c5a09aba24863610d27d9e852c3150370ee51a19f87672577a80c7a487"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

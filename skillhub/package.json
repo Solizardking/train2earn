@@ -1,0 +1,52 @@
+{
+  "name": "@x402solana/skills",
+  "version": "0.1.2",
+  "description": "Catalog and one-shot installer for Solizardking agent skills.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solizardking/skills.git"
+  },
+  "bin": {
+    "skills": "./bin/skills.mjs"
+  },
+  "scripts": {
+    "build": "node scripts/build-catalog.mjs",
+    "build:catalog": "node scripts/build-catalog.mjs",
+    "skills:docs": "node scripts/build-catalog.mjs",
+    "check": "node scripts/build-catalog.mjs --check",
+    "scanner:scan": "node scanner/bin/scan-skills.mjs",
+    "scanner:scan:all": "node scanner/bin/scan-skills.mjs --all-local",
+    "scanner:serve": "python3 -m http.server 8877 --bind 127.0.0.1 --directory scanner/public",
+    "smoke": "node scripts/smoke-test-skills.mjs",
+    "test:premiere": "node scripts/test-premiere-skills.mjs",
+    "publish:onchain": "node scripts/publish-onchain.mjs",
+    "relay": "node scripts/skill-relay.mjs",
+    "relay:watch": "node scripts/skill-relay.mjs --watch",
+    "relay:push": "node scripts/skill-relay.mjs --commit --push",
+    "relay:upload": "node scripts/upload-relay-server.mjs",
+    "relay:upload:dev": "SKILLHUB_PAYMENT_NETWORK=devnet node scripts/upload-relay-server.mjs",
+    "ledger:export": "node scripts/export-public-ledger.mjs",
+    "test": "node scripts/build-catalog.mjs --check && node scripts/smoke-test-skills.mjs && node bin/skills.mjs list --json >/dev/null && node scripts/test-premiere-skills.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@irys/upload": "^0.0.15",
+    "@irys/upload-solana": "^0.1.8",
+    "@solana/web3.js": "^1.98.4"
+  },
+  "files": [
+    "bin/",
+    "catalog.json",
+    "skills/",
+    "public/",
+    "scripts/",
+    "README.md",
+    "HUB.md",
+    "DOMAINS.md",
+    "package.json"
+  ]
+}

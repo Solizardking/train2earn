@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/holoscan-setup",
+  "name": "holoscan-setup",
+  "description": "Guides Holoscan SDK installation: inspects the host, assesses platform compatibility, recommends an install method, and delegates to the matching install skill.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/holoscan-setup/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/holoscan-setup/metadata.json",
+  "bundleHash": "sha256-b078e611ac9c980ef5f56a6703858219d5bb18bfe5bde4a576835306e8f0ac07",
+  "merkleLeaf": "sha256-207bc74ad52fb2d4099dc9df3f50bedb4603212424d1afdeebabc5d3c1936e86",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3590,
+      "sha256": "sha256-6a9cb5307d58cac86a08d1670d4fedfd30a5a606f3cf8349eae0c5589e7a1eda"
+    },
+    {
+      "path": "scripts/check_conda.sh",
+      "bytes": 2937,
+      "sha256": "sha256-10adb878f0360289431d6ce0d6d304cbab891dfb28dec5f70a4ded1f6bc31aef"
+    },
+    {
+      "path": "scripts/check_ngc_image.sh",
+      "bytes": 499,
+      "sha256": "sha256-c8ce58b69079e681fe7af11b017b6361a98b78ed22fd7aeba4ae305c8354b05d"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4084,
+      "sha256": "sha256-e04dedcec19287a661ba805570a983499601cef6fc64aeb195357b7d8a6a3843"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10174,
+      "sha256": "sha256-6cf83332173257fcada877d3f3385ca700cd41384e5a89faf4214b45721a8d71"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

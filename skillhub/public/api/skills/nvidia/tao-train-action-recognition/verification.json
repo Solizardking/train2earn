@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-action-recognition",
+  "name": "tao-train-action-recognition",
+  "description": "Action recognition from video sequences. Supports RGB, optical flow, and joint (multi-stream) input types for classifying temporal actions in video clips. Use when training, evaluating, exporting, or running inference on a TAO action-recognition model. Trigger phrases include \"train action recognition\", \"video action classification\", \"RGB + optical flow action model\", \"TAO ActionRecognition\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-action-recognition/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-action-recognition/metadata.json",
+  "bundleHash": "sha256-63d1b66330c6e9406f1fa2797432a7212e95d713908ecf046946ede31bb7e171",
+  "merkleLeaf": "sha256-11d1a33a29a7555ea91398c5fe99db47f3949bf9d96d04508d0e91c045e364be",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4125,
+      "sha256": "sha256-f3887ee4036433cd9e0f205dc06f751a80e3d08dcad7df6b60cb7042b7705be1"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 2717,
+      "sha256": "sha256-64f848e12463728bc704120fe11b59133a47adf7d38c2333763c96149f7760ad"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1802,
+      "sha256": "sha256-f02d1f81964779a4761847f79e74a298c10f6d595a9003d2662c54e27e9b823d"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 1690,
+      "sha256": "sha256-431328758e8cea43eef611b1df35daf572b72f9abb78234586c286be848974ef"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 1806,
+      "sha256": "sha256-d38d5312a085ce64c5f8314b35155846c4068ad1ea1d98fa927eadcf36a4ec9e"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 1641,
+      "sha256": "sha256-88599ab2d61d0831d66b87d34e6102f8758c80d86e1459ad6c5bd5157e8c6651"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3975,
+      "sha256": "sha256-f703ccf69cf3066106f1417f7d0a42546996924adf698d95b657af10064e9939"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9554,
+      "sha256": "sha256-cbba30ed9b9233e8c6eeb8e98ba803825ecee911aa65140e6cf188397bd42f1e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

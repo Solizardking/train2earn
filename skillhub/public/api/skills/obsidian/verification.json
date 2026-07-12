@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "obsidian",
+  "name": "obsidian",
+  "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+  "source": "https://skills.x402.wtf/api/skills/obsidian/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/obsidian/metadata.json",
+  "bundleHash": "sha256-ab03c46fea3e89ba9bc5d0535ede6d2a1590dcf28d3daaf64a06195c6d21359e",
+  "merkleLeaf": "sha256-a0d17d16bfa3ce404deea8999afa8fc1c7e16555cc9cb3886b7f4eed640468db",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2334,
+      "sha256": "sha256-dc45b522a0f08fa11762b330b5355ccaca789bd645b0c450fe75026f69d728b2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/iam-recommendations-fetcher",
+  "name": "iam-recommendations-fetcher",
+  "description": "Fetches raw IAM recommendations and associated security insights from Google Cloud for a specified target scope (Organization, Folder, or Project). Use when you need to retrieve security recommendations before analyzing or applying them. Don't use for applying/acting on recommendations (use the recommendation applier skill) or for general allow policy querying (use the allow policy viewer skill).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/iam-recommendations-fetcher/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/iam-recommendations-fetcher/metadata.json",
+  "bundleHash": "sha256-ae2230d0116de63e8f90b9bbecfba17fc90330c858865b6db0d667bd1cf7a45f",
+  "merkleLeaf": "sha256-4afd32a6be069c7a891d042f6c34fe7cca264dbc3c8225b6fed22ea1b3061ee5",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 10054,
+      "sha256": "sha256-ea8a8236e35979e3a1b3bbeb6766cd32cd96ccc5e4ca9fbf31b03da541217c7f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

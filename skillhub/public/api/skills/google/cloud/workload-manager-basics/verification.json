@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/workload-manager-basics",
+  "name": "workload-manager-basics",
+  "description": "Use this skill to manage Google Cloud Workload Manager evaluations, rules, scanned resources, and validation results by using public client libraries and the REST API. Use when you need to inspect workload best-practice rules, create and run evaluations for Google Cloud general best practices, SAP, SQL Server, or custom organizational rules, review violations, export results to BigQuery, or automate Workload Manager through client libraries because no service-specific public CLI or MCP server is available. Don't use for general Google Compute Engine instance management, VPC configuration, or standard IAM auditing.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/workload-manager-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/workload-manager-basics/metadata.json",
+  "bundleHash": "sha256-b60e27afe0ae73eb2b626e51cffda50352ce095ad1d82f442130f6f2a0fe7ea0",
+  "merkleLeaf": "sha256-aadf30c2ba9d1edd005d411758beb8bb17a0444060f824d45c9454e82c3e43c8",
+  "files": [
+    {
+      "path": "references/client-library-usage.md",
+      "bytes": 12164,
+      "sha256": "sha256-c713a6e39fbe58699cdc4a2340dab87dde3280c025becdf548294a8d5ee6f740"
+    },
+    {
+      "path": "references/core-concepts.md",
+      "bytes": 3982,
+      "sha256": "sha256-8a37d7be2fe88e987b8db9ee460aedd8efb03324f02211600d21b007269df7b8"
+    },
+    {
+      "path": "references/general-best-practices.md",
+      "bytes": 5152,
+      "sha256": "sha256-50605157e02152d93b541b67e35bcad0c569c6897e00b5a1be5e85215db8a86f"
+    },
+    {
+      "path": "references/iam-security.md",
+      "bytes": 5270,
+      "sha256": "sha256-f79fa3075c73fcd31f3c7cfa910a44246cf16ff92c106dcecd3928e12c63c61f"
+    },
+    {
+      "path": "references/public-cli-status.md",
+      "bytes": 2010,
+      "sha256": "sha256-7a309323058f8dedac1cab8de3835649ed7183b1dd157c2e5372d8b6e5e0423d"
+    },
+    {
+      "path": "references/public-mcp-status.md",
+      "bytes": 935,
+      "sha256": "sha256-304550a8dfc6f258791c998e4453fc8f581405711ddacaabbf862e73d2729679"
+    },
+    {
+      "path": "references/rest-usage.md",
+      "bytes": 7119,
+      "sha256": "sha256-232226e321f6f095336f77fe8058f0de1b014e0b692823825a09e67c456c99c0"
+    },
+    {
+      "path": "references/setup-prerequisites.md",
+      "bytes": 3122,
+      "sha256": "sha256-b704ce522968307da879997e39e007d25a35bccae0ca9a09e6b6c80d67e99dd9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6935,
+      "sha256": "sha256-81312f7c506d2aaf2ae9b01d0f78173f9f845ee04428edb3944d938481583d18"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gemini-api",
+  "name": "gemini-api",
+  "description": "Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like multimodal inputs, tools, media generation, caching, batch prediction, and Live API.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gemini-api/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gemini-api/metadata.json",
+  "bundleHash": "sha256-1759d489c6f3618fcd038162f4fde18af38d32a41c17b621c14b33839246f09e",
+  "merkleLeaf": "sha256-1bcf6b27926a9f2612df037446dc061ade1b1fbc44f71f45beb3e26dc6ce71fb",
+  "files": [
+    {
+      "path": "references/advanced_features.md",
+      "bytes": 4878,
+      "sha256": "sha256-ad0c4c7c9d7bf24cf06160bf1650823ec6d050baad2877402d705335af89581c"
+    },
+    {
+      "path": "references/bounding_box.md",
+      "bytes": 1863,
+      "sha256": "sha256-0317c2cf0d14dbc220828590086a128bfe61527d573bf0d79c78dba4af88702a"
+    },
+    {
+      "path": "references/embeddings.md",
+      "bytes": 3058,
+      "sha256": "sha256-4a3d3f754dbcd935a2f01d1bd33918c1d9bef3730115f4a744537c0506ee99fb"
+    },
+    {
+      "path": "references/live_api.md",
+      "bytes": 1064,
+      "sha256": "sha256-be927fcc21ee3cdea68d5172cad957885ab09281ddea8f85eccc02ef3747560f"
+    },
+    {
+      "path": "references/media_generation.md",
+      "bytes": 2906,
+      "sha256": "sha256-d6a15200eacd0f95635f385e91234639be705ac7fa8d1b139c7d4676c05e1deb"
+    },
+    {
+      "path": "references/model_tuning.md",
+      "bytes": 933,
+      "sha256": "sha256-0311765a49e7d41be92123ee129e5affaa01ec6ceee36858fcf81d123ba52d06"
+    },
+    {
+      "path": "references/safety.md",
+      "bytes": 1873,
+      "sha256": "sha256-12f2d0c60350b1f697020d1102cf6add5feddf0148e15e56534cd0d5b243fadb"
+    },
+    {
+      "path": "references/structured_and_tools.md",
+      "bytes": 3761,
+      "sha256": "sha256-e5ffc58f95637efdf244a9994d73454b9ae56330045d2994f1bae75a79fe9bde"
+    },
+    {
+      "path": "references/text_and_multimodal.md",
+      "bytes": 2475,
+      "sha256": "sha256-122c37d0e321b0e431636aa43da6f4d7e3c80f38bf0d02fa8fce3153ecb79495"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10067,
+      "sha256": "sha256-a5b6929703f4fd9234761d001246f2b481ff7f17fac75eb97866555a314cd8f7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

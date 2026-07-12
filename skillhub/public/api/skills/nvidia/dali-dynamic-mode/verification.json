@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/dali-dynamic-mode",
+  "name": "dali-dynamic-mode",
+  "description": "DALI imperative dynamic mode (`nvidia.dali.experimental.dynamic`, ndd): use when working on ndd code or migrating pipelines; skip pipeline-only tasks.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/dali-dynamic-mode/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dali-dynamic-mode/metadata.json",
+  "bundleHash": "sha256-a3313e2f36b30190f92298e9ceba5a2907097d2f88aa2a78576e000b4db5338f",
+  "merkleLeaf": "sha256-47b59463b66868c8f10ad2bfa9af416ba7cec5d75e7aaad098f822eb73eb590b",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3112,
+      "sha256": "sha256-e51ace225c41ff65648e0140257c65c4d135dfc81e151b617137f12e38a7c965"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 26,
+      "sha256": "sha256-ffb2b2f0106a012f6f4105b825583c66fc2d011bec1bba4184198a2c47f840fa"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3873,
+      "sha256": "sha256-91d35bdb25f849d7304953f6298be3d3de510badd37fcbc6b49f5cfe3ebe235f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14921,
+      "sha256": "sha256-48ec583090216b4cbbccad79eb60e890410d891cad5fcb5cda76682fc81d4bca"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

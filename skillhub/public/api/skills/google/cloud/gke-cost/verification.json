@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-cost",
+  "name": "gke-cost",
+  "description": "Optimizes GKE costs, rightsizes workloads, and configures Spot VMs and CUDs. Use when optimizing GKE costs, rightsizing GKE workloads, or configuring GKE Spot VMs. Don't use for general compute class provisioning or GPU Selection (use gke-compute-classes instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-cost/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-cost/metadata.json",
+  "bundleHash": "sha256-1819818bb5c0d123b1aa4bbb0fa9b26598d4edc41f02a8ab8eacf6d94a43d93c",
+  "merkleLeaf": "sha256-bcb6b95c26f1b8a5f15c0c4a2d64fb76ccf29e726be680fbb8e60ab6f7eaa702",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8050,
+      "sha256": "sha256-1831e6505828c8a9397c98be42db018a5519cb9250b8567c145119229fb5e1bf"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

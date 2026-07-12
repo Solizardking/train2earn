@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-golden-path",
+  "name": "gke-golden-path",
+  "description": "Provides GKE golden path configuration defaults, production readiness checklists, and cluster default patterns. Use when designing GKE clusters, verifying GKE production readiness, or checking configurations against GKE defaults. Don't use for setting up node autoscaling specifically (use gke-scaling instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-golden-path/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-golden-path/metadata.json",
+  "bundleHash": "sha256-a3d561c9ceaa20fbf8aab37d36d6157cb5d810ecc10b3e52f3db60ed523e8296",
+  "merkleLeaf": "sha256-dfd14a9584705a7541b242c07ec4fb07c9dc1d4f1723179fb402c6a22efc0b77",
+  "files": [
+    {
+      "path": "assets/golden-path-autopilot.yaml",
+      "bytes": 3733,
+      "sha256": "sha256-fb4729c0fa8b1bf790de34fc24621e641e76dc451009926a7b5af9eda67e49ab"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5766,
+      "sha256": "sha256-9426bfae5626f3464a6afc15bdf4a927fcf30c7640ecf7334501c739674ad9b6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

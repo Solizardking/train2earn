@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "skill-creator",
+  "name": "skill-creator",
+  "description": "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.",
+  "source": "https://skills.x402.wtf/api/skills/skill-creator/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/skill-creator/metadata.json",
+  "bundleHash": "sha256-ef071700eb3df32fbb59dab4666f6c377178af1af07d09e9be53004484507f49",
+  "merkleLeaf": "sha256-31d74e242266d2ced656fe11840715e9e9982f8fa063e9fad5eb4eb945677b3d",
+  "files": [
+    {
+      "path": "scripts/init_skill.py",
+      "bytes": 13803,
+      "sha256": "sha256-418456e26d4b9fbf8d3985fb13c27679ae6f8e5daed604e36d75fbd44ccdec52"
+    },
+    {
+      "path": "scripts/package_skill.py",
+      "bytes": 3864,
+      "sha256": "sha256-0d8e893d7c3fca6697f436c8a264e84a74f35813968e02521050d752ad476fbf"
+    },
+    {
+      "path": "scripts/quick_validate.py",
+      "bytes": 5603,
+      "sha256": "sha256-30d376ddce361a196e75fc128e832e08b6a27d9236c24f7e273752f8d1b67488"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18356,
+      "sha256": "sha256-4afbad1d930d98a0610f09bbf810f8a49de7b3187a7050d7974c3b600ae83c90"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

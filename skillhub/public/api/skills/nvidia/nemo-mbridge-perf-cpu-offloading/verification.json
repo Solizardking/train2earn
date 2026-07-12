@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-cpu-offloading",
+  "name": "nemo-mbridge-perf-cpu-offloading",
+  "description": "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptimizer.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-cpu-offloading/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-cpu-offloading/metadata.json",
+  "bundleHash": "sha256-2d2e0b539a15a9597dfb05bd78b39421e4fd63beed6ae6e6da6aab2b92b6c898",
+  "merkleLeaf": "sha256-9dfd936387865acb1e08ef4d1ba2d6ecf149c9bae201c2b0db5a4afb6bf29896",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4307,
+      "sha256": "sha256-74b81bc9f2fba2d79d4b9b2cbac790095c9fc648394f81fac4c1ead8b2fd6028"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 8241,
+      "sha256": "sha256-560c44bc9e5cdf4b7db9e93762e3d207651600c9241aaac354c36b6aa8fe0803"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3916,
+      "sha256": "sha256-b1aff22a1d3e192a02c187ef9e875d551863b93d5227db61c315af0aecf30883"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9328,
+      "sha256": "sha256-8654c5cbc5e161e3475c21b40ed3e57c181a15643b27ab5d27ca6d6ef28afab0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

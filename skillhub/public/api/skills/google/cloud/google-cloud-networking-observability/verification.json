@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-networking-observability",
+  "name": "google-cloud-networking-observability",
+  "description": "Investigates Google Cloud networking issues by analyzing logs, metrics, and diagnostics. Use when investigating VPC Flow Logs (including cost estimation), NAT, firewall, or threat logs, querying latency and throughput metrics, or running Connectivity Tests for path diagnostics. Don't use for generic VM management or non-observability tasks.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-networking-observability/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-networking-observability/metadata.json",
+  "bundleHash": "sha256-532f27db7c7636a4b958fd1cc297f16bc5a8a8d67b74f2a813b4bc519229d08d",
+  "merkleLeaf": "sha256-7f7f478e89755b55f051b1f16bef094c9c1719a186f0f859a9a259c5948361e2",
+  "files": [
+    {
+      "path": "references/cloud-nat-analysis.md",
+      "bytes": 2767,
+      "sha256": "sha256-c937cef769e3e62768c5802b37f66a89aaef3d066af8d42d165e53b272fbf1a1"
+    },
+    {
+      "path": "references/connectivity-tests.md",
+      "bytes": 1411,
+      "sha256": "sha256-41a2628a455561cfa64b03e29029f51856c6d67bdde43b2a0dfe726080657c2d"
+    },
+    {
+      "path": "references/firewall-analysis.md",
+      "bytes": 3080,
+      "sha256": "sha256-72cebb257442a8bfa3c55271ffbd4d77ce3ee36bd82f305a05f7ab7b34392bb3"
+    },
+    {
+      "path": "references/mcp-usage.md",
+      "bytes": 2617,
+      "sha256": "sha256-ec867c3621ef4095c18ac859ee9f449ccaf0390d6a3a2df7a594e01fe1404a21"
+    },
+    {
+      "path": "references/metrics-analysis.md",
+      "bytes": 3078,
+      "sha256": "sha256-d1a79a85724e2079b3073899945d1ea18f190e540ac3b7edd5202c767080f7aa"
+    },
+    {
+      "path": "references/threat-analysis.md",
+      "bytes": 5787,
+      "sha256": "sha256-730b6bdde408daeda4ec7a5d764d6a5895e0884b83ed9e105bdb004ba83fa549"
+    },
+    {
+      "path": "references/vpc-flow-analysis.md",
+      "bytes": 4904,
+      "sha256": "sha256-93d566f7dfd41370413decbf05dd2a29aa4e89d1aed1e3ba07f9534e4284cc14"
+    },
+    {
+      "path": "references/vpc-flow-logs-cost-estimation.md",
+      "bytes": 12124,
+      "sha256": "sha256-9cdd5ad24d747f22fc2f2f109a64e4401f332ee3725293421c0a95f130f7d1a6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7632,
+      "sha256": "sha256-422ae42e67923deae55aaaf74dab82f169eba9397d265af2dc88faccc77781b4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

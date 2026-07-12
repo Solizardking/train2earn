@@ -1,0 +1,7 @@
+{
+  "slug": "compressed-pda",
+  "name": "compressed-pda",
+  "description": "For client and program development on Solana ~160x cheaper and without rent-exemption for per-user state, DePIN registrations, or custom compressed accounts. Create, update, close, burn, and reinitialize compressed accounts.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/compressed-pda/SKILL.md"
+}

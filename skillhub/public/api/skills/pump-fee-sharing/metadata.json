@@ -1,0 +1,7 @@
+{
+  "slug": "pump-fee-sharing",
+  "name": "pump-fee-sharing",
+  "description": "Configure and distribute Pump.fun creator fees through the PumpFees program with BPS shareholder splits, admin management, validation, and Pump/PumpAMM fee consolidation for graduated tokens. Use when setting up or paying creator fee shares.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-fee-sharing/SKILL.md"
+}

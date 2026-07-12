@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-search-archive",
+  "name": "vss-search-archive",
+  "description": "Use this skill to run top-level VSS fusion search on archived video, or to ingest video files / RTSP streams for search. Do NOT use for ad-hoc visual Q&A (use vss-ask-video), live captioning (use vss-deploy-dense-captioning), or video summarization and reports (use vss-summarize-video).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-search-archive/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-search-archive/metadata.json",
+  "bundleHash": "sha256-2abc88c2fe0b2cd24ba7756e5533ab2f9318c1c524ac070263766adf41cc987c",
+  "merkleLeaf": "sha256-bdd82402238321d562470e383bb90165fbc8bb21ffdf203e459051777a2a5116",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3567,
+      "sha256": "sha256-46f60731bf1130e9e7d7c473eb3fe11275af90aeb32db257cc96aae968c76bd9"
+    },
+    {
+      "path": "references/discovery_modes.md",
+      "bytes": 3108,
+      "sha256": "sha256-d6ba550992bc150b5dbff6d68da0bd5569fae1f2f6dda9b8d3778a0a0709d334"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 5395,
+      "sha256": "sha256-81a7fef5bddb4f58ca8755bf7e509f90885311c41c72adf24bddfcab99b122d5"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3795,
+      "sha256": "sha256-ff62287151385f1f71ba9eedd13cb2aec12f099a3fc2f5cd0df6f5e21d059a30"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16926,
+      "sha256": "sha256-337ae027bfa4de55716a0ee0c7ba4f22d2c965aa863191d0337ec1eb957f331b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

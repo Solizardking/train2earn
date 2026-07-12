@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-mask2former",
+  "name": "tao-train-mask2former",
+  "description": "Mask2Former for universal image segmentation (panoptic, instance, and semantic). Transformer-based with masked attention for high-quality segmentation results. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Mask2Former model. Trigger phrases include \"train Mask2Former\", \"universal segmentation\", \"panoptic / instance / semantic segmentation\", \"masked-attention transformer segmenter\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask2former/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask2former/metadata.json",
+  "bundleHash": "sha256-e9d49e9d666bfd319ba5ce76ac2e99a2a48b5888f7be0bef631673f7cdd4ff7e",
+  "merkleLeaf": "sha256-24ed58a502856692cbe58dbdd675a65caa8ec21ea1d4295f22beee9a8f8bc017",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4085,
+      "sha256": "sha256-ab1ae8be0b0371d454a258e711933cedb01c26284177e7d8364a44f344090499"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 9771,
+      "sha256": "sha256-e378597a19f732003b20896fdc3bc02814d506cd68f8df3d968f3ab0d3ffdc83"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 709,
+      "sha256": "sha256-a8fbd9da918eb69abf3d795f50fa8209c0170ba62546688aace247d5b5a969b6"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 247,
+      "sha256": "sha256-0a5270168e3fc494f195ebaa55dedec4125ab5776b0a57d7630fb241236a4527"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 709,
+      "sha256": "sha256-a8fbd9da918eb69abf3d795f50fa8209c0170ba62546688aace247d5b5a969b6"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 3756,
+      "sha256": "sha256-979749f6d0128f520b8ae8353c320db727aba7e97466dcf7c28db4590bee1694"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3831,
+      "sha256": "sha256-98ce2b0484449ad693bd0e6810fc57ec2eacdd4c1635e849f8c2d1d5e24cb3b8"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 3912,
+      "sha256": "sha256-0d6a1b923c4a96918112a77a6250a2cbf1d71ab7bd8aac9679c0f1f272e99753"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 3757,
+      "sha256": "sha256-455835d9cd18ad739b6094b58151247543e601900031064241f20c67845a4ca9"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 3630,
+      "sha256": "sha256-3233e86c0b0780ca94cc8b4ded423a38a1f514266b26ab32cb6e398c574c2c02"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 3630,
+      "sha256": "sha256-3233e86c0b0780ca94cc8b4ded423a38a1f514266b26ab32cb6e398c574c2c02"
+    },
+    {
+      "path": "references/tao-deploy-mask2former.md",
+      "bytes": 5887,
+      "sha256": "sha256-5a940d217b3c1a51605e5b9e7eccbb81407c860daeeba98bc97ebd8086b92458"
+    },
+    {
+      "path": "references/tao-deploy-mask2former.skill_info.yaml",
+      "bytes": 3729,
+      "sha256": "sha256-98083f893ee8f2cb9c83fd98cb21d183d7094d468af9fb00956e1b0c43a046eb"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3898,
+      "sha256": "sha256-644c3148ec1e6154503e99a0ec859311e769209977263e7d4497b3bf484b240a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19678,
+      "sha256": "sha256-c6b0519f5c0a1bb6c38ab4095bdbadf55c3cae689b0ef9b8b343aca242543504"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

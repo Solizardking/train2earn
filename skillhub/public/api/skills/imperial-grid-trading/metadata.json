@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-grid-trading",
+  "name": "imperial-grid-trading",
+  "description": "Grid strategy design for Imperial/Phoenix perps: ladder layout, venue pinning, replacement logic, and durable-runner boundaries.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-grid-trading/SKILL.md"
+}

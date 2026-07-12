@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openrouter-agent-migration",
+  "name": "openrouter-agent-migration",
+  "description": "Migration guide from @openrouter/sdk to @openrouter/agent for callModel, tool(), stop conditions, and agent features. This skill should be used when code imports callModel, tool(), or stop conditions from @openrouter/sdk and needs to migrate to @openrouter/agent.",
+  "source": "https://skills.x402.wtf/api/skills/openrouter-agent-migration/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openrouter-agent-migration/metadata.json",
+  "bundleHash": "sha256-95c9a20b454f0ee16cd7c7109081a037ad408650c9039f43e9bf58288bfe1541",
+  "merkleLeaf": "sha256-003af16157514d129fff3556d7c2f66c9e35e5da41ee12db4dd90e5bad9be20c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 11785,
+      "sha256": "sha256-4430be6f4fa0fbcba2dcb90d26474fbd68fc70cb10056614bb5a563f4119da7c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

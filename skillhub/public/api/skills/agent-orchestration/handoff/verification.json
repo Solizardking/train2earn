@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "agent-orchestration/handoff",
+  "name": "agent-orchestration-handoff",
+  "description": "Compact the current conversation into a single, detailed handoff message — everything that happened, why it happened, and what's left — output in a code block so it can be copy-pasted into a fresh agent session. Use when hitting context limits, switching focus, ending a work session, or partitioning a task across fresh contexts.",
+  "source": "https://skills.x402.wtf/api/skills/agent-orchestration/handoff/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/agent-orchestration/handoff/metadata.json",
+  "bundleHash": "sha256-fb8c7c282f4e5b5bf323c6ba66f2b407a3e502a088c04f5dff23fad2052ee6b1",
+  "merkleLeaf": "sha256-4502904b559caf9bdc03bac9de057d8199e62894b873953088bae40f5498787e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5740,
+      "sha256": "sha256-13a65a991ac3ee9195b3a1cdfc84d44a043da4f170aaa8afcd65fd4e1588967e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

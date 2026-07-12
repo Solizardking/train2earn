@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-customize-pcie",
+  "name": "jetson-customize-pcie",
+  "description": "Per-controller PCIe enable / disable / lanes / link-speed for a Jetson Thor or Orin custom carrier via ODMDATA + kernel-DT overlay. Do NOT use for UPHY lane allocation or endpoint-mode bring-up.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-customize-pcie/SKILL.md"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nv-generate-mr-brain",
+  "name": "nv-generate-mr-brain",
+  "description": "Used for generating synthetic brain MRI volumes with NV-Generate-CTMR rflow-mr-brain. Not for production training data.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-mr-brain/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-mr-brain/metadata.json",
+  "bundleHash": "sha256-3a897c2f83905d382517f48cb741c31fc33e790e311fc6915887551070810d69",
+  "merkleLeaf": "sha256-2fc66cdf609a686832442a6447f502f9310c9cb8e119863d2de726ca154d2d99",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4029,
+      "sha256": "sha256-ef5eb69f50872d9ec000bf7ecea2ecfffbac7efe7b3206651836e665a7ecb36a"
+    },
+    {
+      "path": "references/fov-and-downloads.md",
+      "bytes": 890,
+      "sha256": "sha256-78a6a1dc5848e53f485a7f5f0c1afa8b31587d0ac52ebb16f67d549b4ffecb2d"
+    },
+    {
+      "path": "scripts/run_mr_brain.py",
+      "bytes": 26471,
+      "sha256": "sha256-37b23f5a017024623d9431ae0cf3f81201faf03da2a1e169cbde766fb15d1311"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 7464,
+      "sha256": "sha256-119cb24d0b093eb4275c907221dda9600034eea9c276692ed409b023693348c8"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4207,
+      "sha256": "sha256-4cf40041ff8fa725379fe0fcdc1fb7ec065981334ce0bf3606eac24ca8ef6c69"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7992,
+      "sha256": "sha256-9ed1a5b99fd9fffdac8078610aefdfbe6f20815ed00b661fb5518ead07bf0813"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "emil-design-eng",
+  "name": "emil-design-eng",
+  "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+  "source": "https://skills.x402.wtf/api/skills/emil-design-eng/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/emil-design-eng/metadata.json",
+  "bundleHash": "sha256-0bc9ec9a0502dc5ef8e43849f962747ba37f1e8e085722a768a9119aebe9d299",
+  "merkleLeaf": "sha256-1e5c8c62b5f500578034b9e8003a20cad322de72c09e9cf6034fbf00416c2979",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 27335,
+      "sha256": "sha256-433b5a239cda18e0576e4e558532e7e53512e21fafe5b85db4894c28ec399b72"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

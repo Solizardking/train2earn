@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/physical-ai-people-attribute-search",
+  "name": "physical-ai-people-attribute-search",
+  "description": "Use when running people attribute search (PAS) image augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: people attribute search, PAS, person augmentation, attribute search, person re-identification, clothing augmentation, person crop augmentation.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/physical-ai-people-attribute-search/SKILL.md"
+}

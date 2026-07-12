@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "solana-clawd",
+  "name": "solana-clawd",
+  "description": "One-shot setup and operation guide for the solana-clawd agentic engine. Use when: cloning the repo, setting up MCP tools, starting the Telegram bot, deploying to Fly.io/Netlify, hatching blockchain buddies, running OODA loops, configuring voice mode (ElevenLabs + Grok), minting Metaplex agents, managing the vault, running the worker swarm, or contributing to the project. Covers all 31 MCP tools, 18 buddy species, 9 spinners, 60+ Telegram commands, 95 skills, and the full repo structure.",
+  "source": "https://skills.x402.wtf/api/skills/solana-clawd/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/solana-clawd/metadata.json",
+  "bundleHash": "sha256-b4f9dd9edae621d805fafae56a5216f2e4062852b7affb913410d310a9b26e87",
+  "merkleLeaf": "sha256-53e84baa5ba7465fece98432aad5c7578e9a5170f0a4f67058fd981134e927e3",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 12009,
+      "sha256": "sha256-ed7ba8836028118c4a130025fbc27684c095c3f678b010b714bd07c2bb2374d1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

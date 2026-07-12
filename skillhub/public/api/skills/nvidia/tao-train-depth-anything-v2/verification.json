@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-depth-anything-v2",
+  "name": "tao-train-depth-anything-v2",
+  "description": "Monocular depth estimation using Metric Depth Anything v2 or Relative Depth Anything architectures. Predicts per-pixel depth from single RGB images. Use when training, evaluating, exporting, or running inference for a TAO monocular depth model. Trigger phrases include \"train monocular depth\", \"DepthAnything v2\", \"metric depth from single image\", \"monocular depth estimation\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-depth-anything-v2/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-depth-anything-v2/metadata.json",
+  "bundleHash": "sha256-534c2a4d30d6a6bea38a53b3b0c9014d9bb12b9a33dabbff0008f80abec059a9",
+  "merkleLeaf": "sha256-07e6928889b1cfc410ac590b77351b55654c8f45b0e6758869f9f54fd833ab1a",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4124,
+      "sha256": "sha256-1418ba71db743f156513f76b3fc087fe39be29a1cc7e7d91cd47e0db74aed017"
+    },
+    {
+      "path": "references/finetuning-recipes.md",
+      "bytes": 7260,
+      "sha256": "sha256-3e4e1dbec443ec955e6b7aa32bcbf834fb0623d881a47cd4eb07f58514a88c98"
+    },
+    {
+      "path": "references/parameters.md",
+      "bytes": 5490,
+      "sha256": "sha256-1c0fae7c631372f41853471dc06de6033485c31b9449184d87ea6f6d4805d855"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4349,
+      "sha256": "sha256-ddc425be296de57f060d0c928e40222e511f12df9369c2d719c8cf429e82ea3b"
+    },
+    {
+      "path": "references/spec_template_deploy.yaml",
+      "bytes": 2126,
+      "sha256": "sha256-7c4878bb9cfba802e35cf1b8116a05d6b6fafa74074751ce9530248440784489"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 5715,
+      "sha256": "sha256-189ca98e86c7b562240920c8db5335eba414fb7e5aeced9e970041f6c3867c56"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 5784,
+      "sha256": "sha256-75b927a7bad60bc117209a24e9f382e14ee88669e3a5a4679ce5c595568a6cce"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 5764,
+      "sha256": "sha256-8ce80f863129f15bd51b42417a72bc9aebfa0573fc5f40fd3361d3d3337c75bb"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 5721,
+      "sha256": "sha256-581d3c5d85ae44df56814a08f08d6930c54bf1ca69fa3fba70a2c61fbd3be283"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 5550,
+      "sha256": "sha256-08ec87325cd62e873b9e668c68ce9cc221fcd1735f9e29420918608c6836f9d5"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 5550,
+      "sha256": "sha256-08ec87325cd62e873b9e668c68ce9cc221fcd1735f9e29420918608c6836f9d5"
+    },
+    {
+      "path": "references/spec-overrides.md",
+      "bytes": 4708,
+      "sha256": "sha256-e33d24c4cc1a98d853a61122af484de9388dc4f22bc6cc22e777942ed8b61b1d"
+    },
+    {
+      "path": "references/spec-param-inference.md",
+      "bytes": 3523,
+      "sha256": "sha256-c51ef11079381079fb8ef2bc8d6e4c5688069db7718d58fa83422cc5a8c5a2b0"
+    },
+    {
+      "path": "references/tao-deploy-depth-anything-v2.md",
+      "bytes": 7337,
+      "sha256": "sha256-eb536348d08f8c36d8ed7a8a6bd2c26bbf9caf3b7258f8c0c0701f45e8e99a71"
+    },
+    {
+      "path": "references/tao-deploy-depth-anything-v2.skill_info.yaml",
+      "bytes": 2507,
+      "sha256": "sha256-4a41c82f2b83f3b56701b94c39ea3d53602f9bd772a9ef9da19b93e10db14fe1"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 2147,
+      "sha256": "sha256-66618adc6adb82a75cd6d49accc98b01aad9c1f6fc69d64db5cff0d09e3909c6"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3953,
+      "sha256": "sha256-85f1f11d982a7a178b674ddf91b6edc7a3b21f074f88e01ae735e2542d38e35c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14736,
+      "sha256": "sha256-6e4fba97bb87d5707eff43682f2ba4d4eee9399257f8bc707d8ff891913f0006"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

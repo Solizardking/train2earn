@@ -1,0 +1,7 @@
+{
+  "slug": "clawdex",
+  "name": "clawdex",
+  "description": "Clawdex — dual-engine coding agent. Claude Code (reasoning + planning) + OpenAI Codex (fast execution) + Browser Use boxes (web research) + Upstash compute boxes (isolated sandboxes).",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/clawdex/SKILL.md"
+}

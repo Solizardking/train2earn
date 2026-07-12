@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-execution-modes",
+  "name": "imperial-execution-modes",
+  "description": "Execution-mode taxonomy for Imperial router workflows in this repo: observe, route-check, paper/spec, live single-shot, and external durable runner.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-execution-modes/SKILL.md"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/amc-run-sample-calibration",
+  "name": "amc-run-sample-calibration",
+  "description": "Run end-to-end calibration on the shipped sample dataset (sdg_08_2_sample_data_010926.zip) against a running AMC microservice. Use when user says 'test sample dataset', 'run sample calibration', 'verify AMC install', or 'launch and test'.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/amc-run-sample-calibration/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/amc-run-sample-calibration/metadata.json",
+  "bundleHash": "sha256-cf19a1faa8f2958d3e01911d6943ba26bcc4c0c2132ed8969a374366de385867",
+  "merkleLeaf": "sha256-729c873734e62c3a55762530d5399d5d3982aea153b01d6c198016e030fc91b8",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4511,
+      "sha256": "sha256-84a112386668e39b950037ccd2cd5b10a2f676ab2c02e77642a996ee93887e81"
+    },
+    {
+      "path": "scripts/run_sample_calibration.py",
+      "bytes": 9817,
+      "sha256": "sha256-f4ab8bf3619253d4e8dd1558da4a51bbfd12e93c97c06047926a531339770a88"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3675,
+      "sha256": "sha256-0e980ef83580e9128ee8187c822f991c8c7b2c038491a254f7ed37f40e9a4618"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10955,
+      "sha256": "sha256-2b546d918a6536c2dc86709d45c672be18b04450ed0e57fb5522c10f2a45b389"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

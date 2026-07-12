@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-customize-mgbe",
+  "name": "jetson-customize-mgbe",
+  "description": "Enable Jetson Thor 25G/10G/1G MGBE QSFP via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-customize-mgbe/SKILL.md"
+}

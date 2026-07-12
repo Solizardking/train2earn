@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/improve-codebase-architecture",
+  "name": "improve-codebase-architecture",
+  "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/improve-codebase-architecture/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/improve-codebase-architecture/metadata.json",
+  "bundleHash": "sha256-8503648748fa18bd535322e9a4a4f8dd3616e3610b34d697c1654ebb7853aaaa",
+  "merkleLeaf": "sha256-82b900f5dbbae0820ab2376087f7e457a93b738bc747877fa9b507f981e90d14",
+  "files": [
+    {
+      "path": "HTML-REPORT.md",
+      "bytes": 6685,
+      "sha256": "sha256-0b0936104158abeef7246ff6cbabefa4dc055f17589f2833f2d93001421910a1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5421,
+      "sha256": "sha256-0026900866ed2a542af0559cef11dd7ae707633b75cc6f668c2e7c0a33e35032"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

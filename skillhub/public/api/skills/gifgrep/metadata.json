@@ -1,0 +1,7 @@
+{
+  "slug": "gifgrep",
+  "name": "gifgrep",
+  "description": "Search GIF providers with CLI/TUI, download results, and extract stills/sheets.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/gifgrep/SKILL.md"
+}

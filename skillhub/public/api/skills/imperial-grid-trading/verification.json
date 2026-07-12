@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-grid-trading",
+  "name": "imperial-grid-trading",
+  "description": "Grid strategy design for Imperial/Phoenix perps: ladder layout, venue pinning, replacement logic, and durable-runner boundaries.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-grid-trading/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-grid-trading/metadata.json",
+  "bundleHash": "sha256-95aa63178d8e09a6329df79b90e77e33910d5e946311f13857c4db603000a218",
+  "merkleLeaf": "sha256-fa559776cc9f322ea41abbff99415df272aa077ddf00569034ab1950cee15880",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 700,
+      "sha256": "sha256-14d40df2a56c93cfac81e6f2f9be26b2ef1343acb8975eedb5e35e8d1e2729f2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

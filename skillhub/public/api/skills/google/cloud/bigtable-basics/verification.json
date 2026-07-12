@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/bigtable-basics",
+  "name": "bigtable-basics",
+  "description": "Assists in provisioning instances/tables, designing performant schemas, and querying data in Bigtable. Use when designing Bigtable row keys, configuring column families, writing SQL queries or client library code (Java, Go, Python) for Bigtable, or diagnosing performance/hotspotting issues. Also use when provisioning Bigtable clusters using gcloud or cbt CLIs. Don't use for generic Cloud SQL administration.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/bigtable-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/bigtable-basics/metadata.json",
+  "bundleHash": "sha256-6ef2ec6bc4180500e1c1529824fbceca0d22da76915f4b889d2edd8c434a7ea3",
+  "merkleLeaf": "sha256-4679967fdf210efd4afc53986f3990e1df2479d6aa19ad3216ef13bd43d7b8b5",
+  "files": [
+    {
+      "path": "assets/row_key_schema.yaml",
+      "bytes": 205,
+      "sha256": "sha256-d624971c1803f1204aa88a1892db9ccca5c8a658e82975e0bac766e77053e41e"
+    },
+    {
+      "path": "references/cli_data_access.md",
+      "bytes": 1639,
+      "sha256": "sha256-99824f9a6850957007f20d7d9962ae982e662549e1ae14c6c4227e0c4b05a24a"
+    },
+    {
+      "path": "references/client_libraries.md",
+      "bytes": 2364,
+      "sha256": "sha256-20e1815463881915c638c50873c108f981fe291f57351914e12196eba5086c58"
+    },
+    {
+      "path": "references/dataplex.md",
+      "bytes": 911,
+      "sha256": "sha256-a7fe80e70dacbef047c7542ca26a644ffa0976d27be7b63c1f533ba35976d6f6"
+    },
+    {
+      "path": "references/infrastructure_management.md",
+      "bytes": 3444,
+      "sha256": "sha256-5ad1439fbaeae399906629e374567132e487ce7629344518f6e562c9b05fb536"
+    },
+    {
+      "path": "references/schema_design.md",
+      "bytes": 8136,
+      "sha256": "sha256-8f77d0b06de5563c7e6a72970d256bbadc5d8515997ee9279580ac98388a2f73"
+    },
+    {
+      "path": "references/sql_guide.md",
+      "bytes": 7614,
+      "sha256": "sha256-ca970ecbba95b4d495706380821a015dd78e885ae8dabcb38de70c01515561dd"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5130,
+      "sha256": "sha256-979515bd16dc88cdd8f8c69c712edcdfc08c5a1560ab8b3031dee1fb29a46faa"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

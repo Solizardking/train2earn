@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-deploy-dense-captioning",
+  "name": "vss-deploy-dense-captioning",
+  "description": "Use this skill when deploying standalone RT-VLM dense captioning or calling its REST API (uploads, captions, streams, chat-completions, Kafka). Not for VSS profile deploy or video-search ingestion.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-dense-captioning/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-dense-captioning/metadata.json",
+  "bundleHash": "sha256-6c6ee8d1108608dd13a0d27af5669bfea4b882b216947fff017fc9222317ca0a",
+  "merkleLeaf": "sha256-a8df06176075b11a52c178a9172eb6f8fd851ecd1df70de2bc200e2cb2a0fa89",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3898,
+      "sha256": "sha256-f95ccf4ec0c502720dd4ad74466fd217d4f16f3503234b231ea709ee48e84805"
+    },
+    {
+      "path": "references/api-surface-26.05.md",
+      "bytes": 5626,
+      "sha256": "sha256-b4abce4704fd5f54337f100d95c7daed01e23256d6c69041121262e5cab243c9"
+    },
+    {
+      "path": "references/deploy-rt-vlm-service.md",
+      "bytes": 36327,
+      "sha256": "sha256-ec54caa225e16659bfcba205b83fd35c9b5b7dfb30bfd10eab5a7d863aa94d72"
+    },
+    {
+      "path": "references/kafka-workflows.md",
+      "bytes": 15004,
+      "sha256": "sha256-32acca5c041fc28d63257674789645e9b92594ad6ca226ebc9eb49d48d8e6c48"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4070,
+      "sha256": "sha256-e27c963427c390b95d432555bac54dc651485b9ac5142ca97f04b567fbbe0c11"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13211,
+      "sha256": "sha256-de5a0b20d420cc036c08791fb830d0f851e403a55a09910ce0ba7fe436fd3cf1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/holoscan-install-container",
+  "name": "holoscan-install-container",
+  "description": "Install Holoscan SDK via the NGC Docker container. Use for container-based installs; not for native apt/pip/Conda installs.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-container/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-container/metadata.json",
+  "bundleHash": "sha256-3bab9c8f5b80b37261b05f33198fae6fb051b26ca3bf1b7b0c300d1082eb9f4d",
+  "merkleLeaf": "sha256-f4bc07e4500953e3e00ad58b325da2c35402703575baa19a0424418427c1487c",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3792,
+      "sha256": "sha256-3ca00f07819d268ebaeb987d7cc38e5158f3ed99b7189faef0443e5e6c448fcb"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3893,
+      "sha256": "sha256-da9018ece4cd935a20f307c5304871b8bc73194420f8eb361567d000eecd57b9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7481,
+      "sha256": "sha256-827f102e0f639221ccdaf794cc4ba2ba28acb9f94519fb92e50482df20ce436f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

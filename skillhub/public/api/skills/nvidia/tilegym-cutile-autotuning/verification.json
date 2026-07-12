@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tilegym-cutile-autotuning",
+  "name": "tilegym-cutile-autotuning",
+  "description": "Use when adding, modifying, optimizing, or debugging CuTile autotuning code. Trigger signals: `exhaustive_search` / `replace_hints` / `hints_fn` / `cuda.tile.tune` in code, `autotune` in filenames, or correctness/performance issues in autotuned CuTile kernels. Covers: tune-once/cache/launch pattern, per-architecture configs (sm80–sm120), parameter space design (tile sizes, occupancy, num_ctas), and 7 common pitfalls with solutions.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-cutile-autotuning/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-cutile-autotuning/metadata.json",
+  "bundleHash": "sha256-b9eee16f6bf3ac3e5d078c5e7a24ed57ae383d713fc7040d137ab391584c9c9d",
+  "merkleLeaf": "sha256-5083942945d533e5eb801639b19960e1ffbf64eab0cd98e74cf6182ce056f616",
+  "files": [
+    {
+      "path": "assets/examples/01_rmsnorm_occupancy_only/autotuned_launch.py",
+      "bytes": 8084,
+      "sha256": "sha256-49fc8ab77d7797bb2cfacb46d215b1ba2acf5b3ff8b76ac4bc8f963c27a4a1e8"
+    },
+    {
+      "path": "assets/examples/01_rmsnorm_occupancy_only/fixed_launch.py",
+      "bytes": 5736,
+      "sha256": "sha256-e057854b7bdd32f1e626915398e40cf0cad0002a778dd790ef4432dc2836c9ca"
+    },
+    {
+      "path": "assets/examples/02_matmul_full_search/autotuned_launch.py",
+      "bytes": 9659,
+      "sha256": "sha256-1109270e0ab42b20829fcfa71b41db979c9c020ff0dc7f275ef3fb4f855d16b4"
+    },
+    {
+      "path": "assets/examples/02_matmul_full_search/fixed_launch.py",
+      "bytes": 5559,
+      "sha256": "sha256-0b1573e764ab3b2ff52ec12f3898d0db6a8129b645fbbee948e651ce3643e663"
+    },
+    {
+      "path": "assets/examples/03_rope_inplace_splitbuffer/autotuned_launch.py",
+      "bytes": 11536,
+      "sha256": "sha256-b9f43806c2135800b6079cf7dd9c4fd4dca088f44dc6191098f095260c9f3d9a"
+    },
+    {
+      "path": "assets/examples/03_rope_inplace_splitbuffer/fixed_launch.py",
+      "bytes": 7724,
+      "sha256": "sha256-ceaf66920132a534516b55cb0c9bf902325e0fbc3c0a097e7583525d1541e4ac"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 5399,
+      "sha256": "sha256-9bdd8067dbca9e9d06309777bfb034f2517d164a851dfe2a1ad06302835fb57f"
+    },
+    {
+      "path": "references/api-reference.md",
+      "bytes": 8005,
+      "sha256": "sha256-f9c847583635e85aeed331bd374a1db29f604d6ca24e4160a8550afb3d0e49a1"
+    },
+    {
+      "path": "references/hardware-constraints.md",
+      "bytes": 11402,
+      "sha256": "sha256-4e03081eac40539c1d6a45137f8da4f988006eda39a77ed27d8d2d83a291f7a7"
+    },
+    {
+      "path": "references/kernel-type-templates.md",
+      "bytes": 51640,
+      "sha256": "sha256-ed0fc7dbad5ab0f4e0aa80e7e8b581d6370d135039379109f2e5490e687583f2"
+    },
+    {
+      "path": "references/parameter-space-design.md",
+      "bytes": 11164,
+      "sha256": "sha256-a3a284d14ae2175c9dfc9195e2cb32fb4dbcf4da4a77e2a81a03fe5b23b412cd"
+    },
+    {
+      "path": "references/pitfalls.md",
+      "bytes": 5584,
+      "sha256": "sha256-f7d95cdbee9cd0943780d8269f259322a58e94cf0cba33eef1c4661d5a99d7b0"
+    },
+    {
+      "path": "references/search-strategies.md",
+      "bytes": 9024,
+      "sha256": "sha256-fe47e39de3c77a42c12f9323fdc528324160deb557e7740a0679a2f1c12885ae"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 17136,
+      "sha256": "sha256-d380f5442e5253726a1c029b427367ce971b4d31811e29f86248cb7cda82deff"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4020,
+      "sha256": "sha256-bc9520a1a5f8f308c4e094cf0d27dc9216a1d5676bca223f4cf06dbade567947"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18703,
+      "sha256": "sha256-f6ec77fb83a032497735ef41c90a370d7c9261d6ee413c590f289caf805de8af"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

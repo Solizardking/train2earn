@@ -1,0 +1,7 @@
+{
+  "slug": "pump-token-lifecycle",
+  "name": "pump-token-lifecycle",
+  "description": "Manage the full Pump.fun token lifecycle from creation through bonding-curve trading, graduation detection, AMM migration, AMM trading, creator fee collection, and volume tracking with PumpSdk and OnlinePumpSdk.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-token-lifecycle/SKILL.md"
+}

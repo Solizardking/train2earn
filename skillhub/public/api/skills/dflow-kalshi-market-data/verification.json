@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dflow-kalshi-market-data",
+  "name": "dflow-kalshi-market-data",
+  "description": "Read market data for a known Kalshi prediction market on DFlow — orderbook, trades, top-of-book prices, candlesticks, forecast-percentile history, and Kalshi in-game live data — via one-shot REST snapshots, historical ranges, or live WebSocket streams. Use when the user asks \"show me the orderbook for X\", \"get last hour of trades\", \"build a live price ticker\", \"stream orderbook depth\", \"pull 1-minute candles for the last day\", \"watch in-game scores for this sports market\", or \"alert me when the orderbook moves\". Do NOT use to discover markets matching a criterion (use `dflow-kalshi-market-scanner`), to place orders (use `dflow-kalshi-trading`), or to read a user's own positions/P&L (use `dflow-kalshi-portfolio`).",
+  "source": "https://skills.x402.wtf/api/skills/dflow-kalshi-market-data/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/dflow-kalshi-market-data/metadata.json",
+  "bundleHash": "sha256-e44453ab4fb6981a0ca5810e9780b8e7a550e9b3c90fcf5af8372fc7af418441",
+  "merkleLeaf": "sha256-0da3b7f5ca388d53b07ccb022f37d8120517a64c50e981dd1c7afc9dcd769b89",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 10868,
+      "sha256": "sha256-7f868de5da47791638307a278cc7ffe22c3f20610622d7b3bf7020fa7c45c916"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

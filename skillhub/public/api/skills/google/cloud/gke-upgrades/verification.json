@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-upgrades",
+  "name": "gke-upgrades",
+  "description": "Plans, executes, and validates Google Kubernetes Engine (GKE) cluster upgrades and maintenance operations for both Standard and Autopilot clusters. Produces upgrade plans, pre/post-upgrade checklists, maintenance runbooks with gcloud commands, release channel strategy, and troubleshooting guides. Handles node pool upgrade strategies (surge, blue-green), version compatibility, PDB management, and workload-specific concerns (stateful, GPU, operators). Use this skill whenever the user mentions GKE upgrades, Kubernetes version bumps, node pool maintenance, GKE patching, cluster version management, release channel selection, maintenance windows, surge upgrades, stuck upgrades, or any GKE lifecycle management task — even casual mentions like \"we need to upgrade our clusters\" or \"plan our next GKE maintenance\" or \"our upgrade is stuck.\" Don't use for GKE cluster creation, application onboarding, general networking/routing setup, or security policy configurations (use gke-basics or relevant GKE skills instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-upgrades/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-upgrades/metadata.json",
+  "bundleHash": "sha256-50944d037655c33267ead2666317d521f4ed21d8471710f974ca30c82cdc82e0",
+  "merkleLeaf": "sha256-f4e75d629c31fb14ca4223991cd91d9959c67c2c2611b4d0d453d6fba3ed0c74",
+  "files": [
+    {
+      "path": "references/checklists.md",
+      "bytes": 3412,
+      "sha256": "sha256-cd9c2a730134b8213fd478eb027526134ef5daca7f897eee43a465a2da5ea865"
+    },
+    {
+      "path": "references/runbook-template.md",
+      "bytes": 4641,
+      "sha256": "sha256-4e6ee6c5d73265609f5173a24c5d47df9614d4441d2ce5ebb5ba2b9a990a7e80"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 8090,
+      "sha256": "sha256-630f83c8c5d3f2a104b0bdbe05703c2b06d713ef32ae21f105e63903ccdd63eb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17780,
+      "sha256": "sha256-bce60631ed9d1bced03522e209ccef8f07d62ef01ec91cc984c93d67244d5943"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

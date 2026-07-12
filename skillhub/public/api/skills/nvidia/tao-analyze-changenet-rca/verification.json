@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-analyze-changenet-rca",
+  "name": "tao-analyze-changenet-rca",
+  "description": "Performs deep Root Cause Analysis (RCA) on NVIDIA TAO Visual ChangeNet classification experiments with image-evidence-driven investigation. Use when analyzing ChangeNet model failures, investigating poor recall / FAR / PASS-NO_PASS metrics, auditing visual inspection pipeline quality, or running an RCA report for an AOI defect-detection model. Trigger phrases include \"RCA on my ChangeNet model\", \"why is my AOI model failing\", \"audit ChangeNet predictions\", \"investigate FAR regressions\", \"root cause analysis on visual-changenet\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-analyze-changenet-rca/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-analyze-changenet-rca/metadata.json",
+  "bundleHash": "sha256-666c30d8fa423ad94e973832e8515ab71541abf7b1ea628db929487532c79288",
+  "merkleLeaf": "sha256-6c79422306fedb778b0e0548087aa43946ab2671fc57032867246df6e2c15a23",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4140,
+      "sha256": "sha256-97daa4c73e16d36d7aeee67573c2a6178f7c767c36897977af03b64d8b150871"
+    },
+    {
+      "path": "references/investigation-phases.md",
+      "bytes": 17039,
+      "sha256": "sha256-f97b023405444ffc4dec688e5a22968c605dfb63aa867fa87e3e97227516c337"
+    },
+    {
+      "path": "references/output-structure.md",
+      "bytes": 6092,
+      "sha256": "sha256-d1d2c3ae112443fbdb94064b97491229882b36c7bf862eefa3f4c1064ee7b6b8"
+    },
+    {
+      "path": "references/parallelization.md",
+      "bytes": 8795,
+      "sha256": "sha256-0986473054bb265380337a94bcbb0c055160a192a5ccc3245a577c3a18947a9c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3901,
+      "sha256": "sha256-beb3a86c29818a4b4d9cd8771f05c4a571e3416c4a4fed8fe31e85fd058f6227"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6348,
+      "sha256": "sha256-8ab15468bda62a7b5a135d5badecec2ee453921dc019c784f635599607318be6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

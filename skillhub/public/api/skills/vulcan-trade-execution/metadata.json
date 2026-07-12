@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-trade-execution",
+  "name": "vulcan-trade-execution",
+  "description": "Safe Phoenix order execution via Vulcan: pre-trade checks, market/limit orders, paper/dry-run/live gates, and post-trade verification.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-trade-execution/SKILL.md"
+}

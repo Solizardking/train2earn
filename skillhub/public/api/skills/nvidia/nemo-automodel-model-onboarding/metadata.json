@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemo-automodel-model-onboarding",
+  "name": "nemo-automodel-model-onboarding",
+  "description": "Guide for onboarding new model architectures into NeMo AutoModel, including architecture discovery, implementation patterns, registration, and validation.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemo-automodel-model-onboarding/SKILL.md"
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/skill-card-generator",
+  "name": "skill-card-generator",
+  "description": "Use only to generate or update a governance skill card for a specified existing agent skill directory. Do not use for explaining, listing, comparing, or discussing skill capabilities.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/skill-card-generator/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/skill-card-generator/metadata.json",
+  "bundleHash": "sha256-65ef74590e5a415ff481f853d0941a66b9b2535d50748126872fe0f152c57644",
+  "merkleLeaf": "sha256-819d493bb4dd00ac864419c4adbd5110e82a6690f3248507e52cb05befaf91fb",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3744,
+      "sha256": "sha256-7b7dd2cabd51fe2aba442fb4e952113a87db1492558985b4c20aca9df61ed7e1"
+    },
+    {
+      "path": "references/catalog/limitations.json",
+      "bytes": 544,
+      "sha256": "sha256-03372bd0082f6f5df6764f86837e1774242eefe3c6e86b8583f053119fd7d9a5"
+    },
+    {
+      "path": "references/catalog/risks.json",
+      "bytes": 405,
+      "sha256": "sha256-d3888f66d89213e73b9448b13ba865e785c62e8b6a83245cc32df4559438653d"
+    },
+    {
+      "path": "references/skill-card.md.j2",
+      "bytes": 5853,
+      "sha256": "sha256-088de0b108dfece188a5bf202dbf0958f235c41421f1dca05ace5d083830be7c"
+    },
+    {
+      "path": "references/style-guide.md",
+      "bytes": 23168,
+      "sha256": "sha256-feeb7cd9cc0fd109ffd3c2821b817c31fa2e0fff17b890adca572dbd6f86d7c5"
+    },
+    {
+      "path": "scripts/discover_assets.py",
+      "bytes": 32600,
+      "sha256": "sha256-02aeaa716866ff4063c15fb14af9d6aad38bc0da85b32a33d9bd99f531b486a0"
+    },
+    {
+      "path": "scripts/render_card.py",
+      "bytes": 15248,
+      "sha256": "sha256-76c752f049ebe2542731ee0bbe46204889211228ff22eadb62219fb22cb6485e"
+    },
+    {
+      "path": "scripts/validate_submission.py",
+      "bytes": 4457,
+      "sha256": "sha256-27df79512570edc4965830a74c4082a5604d89f7fac0ec48c7230fb5fa7cdfb9"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3946,
+      "sha256": "sha256-ddf9ee7c61039cf067b87cc6c187dfb22b2d287029e17cd12d5f777330d27425"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6429,
+      "sha256": "sha256-42012d124c5d974674015f1eca88a4d13a211fe16fc7d0a0c37f5d869d057cfa"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

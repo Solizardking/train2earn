@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "anthropic-skills/doc-coauthoring",
+  "name": "doc-coauthoring",
+  "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/doc-coauthoring/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/doc-coauthoring/metadata.json",
+  "bundleHash": "sha256-782e911998cb1f683ffd34f3803392864e8e49b18ead1d46ede1c9a0fae165d5",
+  "merkleLeaf": "sha256-7cc3577e2cdbf746b9569927d3f259110a1135c01c8d233992757257b59924cb",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 15815,
+      "sha256": "sha256-2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

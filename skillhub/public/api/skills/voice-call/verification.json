@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "voice-call",
+  "name": "voice-call",
+  "description": "Start voice calls via the Clawdbot voice-call plugin.",
+  "source": "https://skills.x402.wtf/api/skills/voice-call/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/voice-call/metadata.json",
+  "bundleHash": "sha256-4c96e1136223ff16f6e1647949ec5bcd701c17de2a15388c61be0c8a8cefbd95",
+  "merkleLeaf": "sha256-97d8baca2b7e1fc8fe0b576112ae37dcac96255009832c5c91707e595568a86b",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1098,
+      "sha256": "sha256-3a2484447386997e60c6137715ff493d8d5b499eb937748f8c4364924de035b6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

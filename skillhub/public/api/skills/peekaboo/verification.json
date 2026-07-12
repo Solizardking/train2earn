@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "peekaboo",
+  "name": "peekaboo",
+  "description": "Capture and automate macOS UI with the Peekaboo CLI.",
+  "source": "https://skills.x402.wtf/api/skills/peekaboo/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/peekaboo/metadata.json",
+  "bundleHash": "sha256-f5848a8f5612fd92d8a95fa5c68ba3ff4b8b544fdd822d890a69e434dfc2fc47",
+  "merkleLeaf": "sha256-b11545fd858d9b72ce33f8e8f5dc10cfb1dc230c43cf62563693bfad42b96781",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5753,
+      "sha256": "sha256-7a87a01399f99780e872b16f3df999d0e684a3b8dbc189cd20b9cc4230762ed5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

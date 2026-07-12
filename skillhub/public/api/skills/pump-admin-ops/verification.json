@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-admin-ops",
+  "name": "pump-admin-ops",
+  "description": "Build and execute Pump.fun admin workflows for authority management, creator reassignment, IDL authority changes, cashback claims, Mayhem mode, and cross-program Pump/PumpAMM admin instructions. Use when operating Pump protocol authority or administrative tasks.",
+  "source": "https://skills.x402.wtf/api/skills/pump-admin-ops/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-admin-ops/metadata.json",
+  "bundleHash": "sha256-271ff724509883925d63d0684a43d9d6aa8aece3cc03d91f73098c75e33e3753",
+  "merkleLeaf": "sha256-97f84a698aacc2f1d1fd04df1cb6a6c8ce062fd4842cc81af30476faacc93965",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2677,
+      "sha256": "sha256-2997268aaf3f918fdb6eb0dff16b4028b6a9faa283643232ef2d0034bf0e1704"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

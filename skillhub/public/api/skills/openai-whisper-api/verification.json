@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openai-whisper-api",
+  "name": "openai-whisper-api",
+  "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+  "source": "https://skills.x402.wtf/api/skills/openai-whisper-api/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openai-whisper-api/metadata.json",
+  "bundleHash": "sha256-586293b431254ff7d5fbc8df0b26926c241e31a5f4d81e25d71d7411ee0851c0",
+  "merkleLeaf": "sha256-bdf53ad4abfc4b8bcad656fe042a898523619663b5efca52097f68a043fc5991",
+  "files": [
+    {
+      "path": "scripts/transcribe.sh",
+      "bytes": 1479,
+      "sha256": "sha256-06d255cdd1a44ea3098ca1d9400529c641da76b4e9389007904f190e681d5688"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1093,
+      "sha256": "sha256-4cd90ed4d059a385948ffbf2896764a7db66dfbd06010d699b269e89e3f586be"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

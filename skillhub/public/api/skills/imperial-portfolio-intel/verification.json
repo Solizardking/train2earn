@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-portfolio-intel",
+  "name": "imperial-portfolio-intel",
+  "description": "Imperial profile balances, open positions, open orders, exposure summary, and wallet-level Telegram/admin portfolio recaps.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-portfolio-intel/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-portfolio-intel/metadata.json",
+  "bundleHash": "sha256-81c9c60425fcf22b234d62240469bd2d1d1aa85b1104fcb69c15aa4667dec782",
+  "merkleLeaf": "sha256-c2cf6455f7e5820e2b227ea8e00dc4d854aa3297135c36b3402068b15ab688b1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 569,
+      "sha256": "sha256-86eae15b4f1ef9d82831b36f0572241bdf9c99772fdf91f2cc42e96797930b39"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

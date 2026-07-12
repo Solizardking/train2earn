@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "agent-orchestration/agent-self-scheduling",
+  "name": "agent-self-scheduling",
+  "description": "Make an AI agent run on a schedule, loop, or interval — cron, heartbeats, recurring autonomous checks. Use for \"run every N minutes\", \"schedule a task\", \"run on a loop\", \"heartbeat\". Covers external clocks (Claude Code, Codex, Pi) vs Hermes' built-in scheduler.",
+  "source": "https://skills.x402.wtf/api/skills/agent-orchestration/agent-self-scheduling/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/agent-orchestration/agent-self-scheduling/metadata.json",
+  "bundleHash": "sha256-1e64e5216714786bbd904c1dc862d7b871266cfdf94fda7611e25e10608f730a",
+  "merkleLeaf": "sha256-7a3a6bc797d445b3114faed8742a31ca1ad82529a2a8365ab473bc0e99f08e21",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4137,
+      "sha256": "sha256-07f094bb99bced1ed68bc9acc02eff010107a034335c39a19aab58203dde448c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

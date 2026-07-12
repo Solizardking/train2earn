@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-automl",
+  "name": "tao-run-automl",
+  "description": "Run AutoML / hyperparameter optimization (HPO) for NVIDIA TAO networks using AutoMLRunner. Handles algorithm selection (bayesian, hyperband, asha, bohb, llm, hybrid, autoresearch), WandB experiment tracking, job execution on any TAO SDK platform, result interpretation, and per-rec custom evaluation hooks. Use when the user mentions TAO AutoML, hyperparameter optimization, HPO, automl, automl_settings, AutoMLRunner, tao_automl, bayesian search, hyperband, ASHA, LLM-guided search, autoresearch, or wants to tune training hyperparameters for any TAO network. Platform-agnostic — runs on any SDK (Brev, SLURM, Kubernetes, Docker).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-automl/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-automl/metadata.json",
+  "bundleHash": "sha256-fc2aefb99f97094f63b4cbd536a2826db0966f59d5564adb1576364d4b2bca5c",
+  "merkleLeaf": "sha256-c08cb294a2db873edf92cf6eac5b0d1f9097cefc0dda8614857f16f02a11bc7b",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3954,
+      "sha256": "sha256-c9122571caff75f3969b8bdcbee90dc9cd00645aebfd78ee02c6f65cd5e46e6d"
+    },
+    {
+      "path": "references/automl-advanced-monitoring.md",
+      "bytes": 18305,
+      "sha256": "sha256-f15e1ea082184b302d634625bfe779b75aa0942520f4d5a47f393d2fd2a1a6ac"
+    },
+    {
+      "path": "references/automl-examples.md",
+      "bytes": 5951,
+      "sha256": "sha256-6e2d9ac9627739528700ef8b9a448a9099a5baf9db916c5d7f946bad00f61777"
+    },
+    {
+      "path": "references/automl-intent-algorithms.md",
+      "bytes": 24532,
+      "sha256": "sha256-041c1fde767bceee4940352b2ad75d4bbb1b43259fac5a7cb12dc265f21a96ac"
+    },
+    {
+      "path": "references/automl-preflight-concepts.md",
+      "bytes": 11327,
+      "sha256": "sha256-47b8258621b5dc5a3f3adc1fd6762f53ae573af6363cbbad666573c2fb6da765"
+    },
+    {
+      "path": "references/automl-runner-configuration.md",
+      "bytes": 13024,
+      "sha256": "sha256-a9b0ba777a94d089d2fb43d1e9ef39b33bb79c5ce68db29f59cc43437fb8564c"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "bytes": 852,
+      "sha256": "sha256-882395adecc42220c8b439cb898a926eeb448d1dbb9e89ea8883b7375fdf93bb"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 1771,
+      "sha256": "sha256-27845f893c690ed7af48301542910f2c8907ae0c03f3013737383cd2ca27f0bb"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4255,
+      "sha256": "sha256-6470e9869f8539a650badfe356e4b21b0e4b1411d449915192186a8d45f117b2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16744,
+      "sha256": "sha256-609fae521fef793b0abbe9541ed871277bb91a07638fab9d0da0aee1b5981092"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-position-management",
+  "name": "imperial-position-management",
+  "description": "Inspect, reduce, and close Imperial-routed positions across Phoenix, Flash, Jupiter, and GMTrade, with Phoenix preferred by default.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-position-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-position-management/metadata.json",
+  "bundleHash": "sha256-4cf95e165abe08c8c0cd5ed3477425f1ea53c0febb2e6f8629333e80db82db79",
+  "merkleLeaf": "sha256-39962671c2e68b51d521c1f8cfc6ac9e30c1867824604f0c0b3c3a4b5106de3a",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 639,
+      "sha256": "sha256-e154f4cd0635357a5c55875aeeffd12f31f292cc46cec0bed59965a390bcc960"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

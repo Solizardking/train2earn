@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cupynumeric-install",
+  "name": "cupynumeric-install",
+  "description": "Install and verify cuPyNumeric for Python — requirements, commands, verification. Source builds are out of scope.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-install/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-install/metadata.json",
+  "bundleHash": "sha256-6464376616546f5ea1289a416fb18bea71769f396518f474641838254d47f36f",
+  "merkleLeaf": "sha256-0d8d92e049164bb386e5253ae18a7836b68da6c4d3740fd820c24e085ce04e53",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3993,
+      "sha256": "sha256-7ccc575679b0dd1402b0bd12e26347c63ee034ee98d55f760078174e20ac26c5"
+    },
+    {
+      "path": "references/verification_examples.md",
+      "bytes": 4924,
+      "sha256": "sha256-8b57f6ec782582628a4db514e29300a2df8009da9750572ebfc478ae45f08e58"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3714,
+      "sha256": "sha256-a1e0290fed030df36db588e0cea9acdfa3da23424b8a421c72c57ae629256a3a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7951,
+      "sha256": "sha256-4fc76f9cf27e79f63984b2b65f082f2e90bc05930f3886a584d27510ebb891a7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "local-places",
+  "name": "local-places",
+  "description": "Search for places (restaurants, cafes, etc.) via Google Places API proxy on localhost.",
+  "category": "Local / Web Services",
+  "skill": "/api/skills/local-places/SKILL.md"
+}

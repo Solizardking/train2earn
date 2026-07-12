@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-alert-configuration",
+  "name": "agent-platform-alert-configuration",
+  "description": "Configures best-practice alerting policies for Google Cloud Vertex AI / Agent Platform agents on Agent Runtime. Use when analyzing, writing, or deploying alerting policies to monitor agent latency, error rates, and quality metrics (response quality, tool use, hallucination). Also use when provisioning online monitors for quality evaluation, or analyzing live metrics traffic footprints. NOTE: This skill currently only works for the Agent Runtime. Don't use for configuring general GCP alert policies or non-agent GCP alerting policies.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-alert-configuration/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-alert-configuration/metadata.json",
+  "bundleHash": "sha256-86bd08d7de5dd94e3ba5f888ef0e6999b956d5347c555cde588679a5207164fa",
+  "merkleLeaf": "sha256-1cde2f8627736a599fc9f3c7975325049f82bea672fd6ce024c0203b628a263d",
+  "files": [
+    {
+      "path": "assets/alerts_initial_duplicate.tf",
+      "bytes": 655,
+      "sha256": "sha256-fb3aa542dce085a5799d990897519f4ec261890d41ac5aebc379f4768ec98930"
+    },
+    {
+      "path": "assets/draft_invalid_query.tf",
+      "bytes": 411,
+      "sha256": "sha256-22e32e3010a41e3848d06a4a5ccba2ff3a54e8d72eff4f653d09f3655c5c5b2c"
+    },
+    {
+      "path": "assets/mock_bursty.json",
+      "bytes": 32486,
+      "sha256": "sha256-7f87840ab047611026c01e58419893ad0ff81a3aebb03f82ec7a4094e910040d"
+    },
+    {
+      "path": "assets/mock_seasonal.json",
+      "bytes": 34332,
+      "sha256": "sha256-6d87eee1973f3e28994372bb16b42e1c8ac27997934a25ac07428c9a8aba3e76"
+    },
+    {
+      "path": "assets/mock_steady.json",
+      "bytes": 35829,
+      "sha256": "sha256-92d577e162d2855f8bd1d42eb1dc624516fa4720f5c451a2a9c0a961957453f4"
+    },
+    {
+      "path": "references/has_historical_traffic_data.md",
+      "bytes": 3824,
+      "sha256": "sha256-de2f46fce0ca3e74457fba7bf85a571ae3fa91a453deac096d38bc6f65acb649"
+    },
+    {
+      "path": "references/no_historical_traffic_data.md",
+      "bytes": 3875,
+      "sha256": "sha256-111f3211b63827a90d98a88686016127cc2f49cadc9dde7232ac8f916681f789"
+    },
+    {
+      "path": "references/promql_queries.md",
+      "bytes": 5041,
+      "sha256": "sha256-84b618204819aa72a000845bcc0a4ecb6955323f54d37fd30e50a483f0e379ab"
+    },
+    {
+      "path": "references/telemetry_enablement.md",
+      "bytes": 2513,
+      "sha256": "sha256-da848e6a3b466a358867ab38cdd08b3ae6ff3f6b2b103aae4f00440de45a9e11"
+    },
+    {
+      "path": "scripts/analyze_traffic_test.py",
+      "bytes": 6459,
+      "sha256": "sha256-90c5f16b52bbac4d1b011d81a96b952b35924efa6c97e9db8050bdf5883d8e8f"
+    },
+    {
+      "path": "scripts/analyze_traffic.py",
+      "bytes": 10753,
+      "sha256": "sha256-f4255d2dfc9a4896e93987f672154ab8b204707d3063d1b6f67e25bd13dcd22d"
+    },
+    {
+      "path": "scripts/check_telemetry_test.py",
+      "bytes": 3917,
+      "sha256": "sha256-7f7a1884e3fea30740ccf402e36a51831c89b7363e1e9d9fcfee7c43a34a3dd4"
+    },
+    {
+      "path": "scripts/check_telemetry.py",
+      "bytes": 3265,
+      "sha256": "sha256-47fea48addb6a87d0aa4f60bb93f7438b72f01120a33119ec7fc206730bb2965"
+    },
+    {
+      "path": "scripts/create_online_monitor_test.py",
+      "bytes": 6116,
+      "sha256": "sha256-1ce8b2c4d1a707c6425682f2fa7ddef2c502816522577bbbecadf08de87ed420"
+    },
+    {
+      "path": "scripts/create_online_monitor.py",
+      "bytes": 5234,
+      "sha256": "sha256-0312e70c70e7ef69259956981a8ebfd1a1b6e44db0aab2656e38494029da6469"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 60,
+      "sha256": "sha256-19a8916f53aff3dd420a01561f9952540a42c23c384434082c848223d2d25749"
+    },
+    {
+      "path": "scripts/validate_config_test.py",
+      "bytes": 11430,
+      "sha256": "sha256-87bb16d01d35c391eee12c32d1b5f37ed97cc489e459f730a2f729a3dbc23da8"
+    },
+    {
+      "path": "scripts/validate_config.py",
+      "bytes": 10860,
+      "sha256": "sha256-9bd83ff5ea4f022edf29c16dc75a5111a875e59cc7c907182e0c5a963573e8c6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 22417,
+      "sha256": "sha256-8773aeb4b9d71138cf2f40ad8eea6ab05f9057c8c6a1b63c1a04f0c15591ccf8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

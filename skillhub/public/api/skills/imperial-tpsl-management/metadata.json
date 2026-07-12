@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-tpsl-management",
+  "name": "imperial-tpsl-management",
+  "description": "Take-profit and stop-loss management for Imperial-routed positions, including close-leg design, verification, and Telegram operator caveats.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-tpsl-management/SKILL.md"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dflow-spot-trading",
+  "name": "dflow-spot-trading",
+  "description": "Swap any pair of Solana tokens via DFlow. Use when the user wants to trade, swap, or convert tokens on Solana, get a price quote, build a swap UI, tune priority fees so a swap lands under congestion, or build a gasless / sponsored swap where the app pays fees. Covers both the `dflow` CLI and the DFlow Trading API. Do NOT use for Kalshi prediction-market YES/NO trades or builder-side platform fees.",
+  "source": "https://skills.x402.wtf/api/skills/dflow-spot-trading/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/dflow-spot-trading/metadata.json",
+  "bundleHash": "sha256-b7b11250feb26309971a2d656f0ebe835b444ed7a770d2378350fd50bd735abf",
+  "merkleLeaf": "sha256-9429b61eec3172e3a80c38da8c9971317b1a128c4003560c3fcc64606811994f",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 14502,
+      "sha256": "sha256-c22be920f908d404916d6405e05d7c6880f3065abeff156de493f50c1ad14db6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

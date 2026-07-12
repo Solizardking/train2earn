@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/mcore-run-on-slurm",
+  "name": "mcore-run-on-slurm",
+  "description": "How to launch distributed Megatron-LM training jobs on a SLURM cluster. Covers a minimal sbatch skeleton, environment-variable setup for torch.distributed.run, CUDA_DEVICE_MAX_CONNECTIONS rules across hardware and parallelism modes, container conventions, monitoring, and per-rank failure diagnosis.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/mcore-run-on-slurm/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/mcore-run-on-slurm/metadata.json",
+  "bundleHash": "sha256-2380543bc40beb642565da747c9d497960c0abecd01ce3b12feae8f6e274d4ee",
+  "merkleLeaf": "sha256-32a0c90f9c70aee98f665591570f64b972f197d80f9fbc635a3569696e5af94f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2802,
+      "sha256": "sha256-c283cc621b3606fb1bcfccd6d6f3e6f49cf6601a5b30906f8dd4f17ab7163701"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2918,
+      "sha256": "sha256-52f139efc71d8c6d181d2a4d750201320162d10d83d0b1eb5b4b3ef06ddb9868"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7235,
+      "sha256": "sha256-09d08fecad809510c20ab45b11ce01e8677d78a6f115dbbefc4340927ab8832c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-grid-trading",
+  "name": "vulcan-grid-trading",
+  "description": "Grid trading with layered limit orders on Phoenix perpetuals. Use for grid setup, monitoring, pausing/stopping, and live/paper grid strategy safety.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-grid-trading/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-grid-trading/metadata.json",
+  "bundleHash": "sha256-90528f02d3538370b0555b4e762ff6c891932e48ab0efa2b36967b71b8480ab8",
+  "merkleLeaf": "sha256-5652cc62a1b9c7c09183b2b2659f5e1c86a239327a95a3591a1a3c885ac1d02d",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 466,
+      "sha256": "sha256-fc231daacf7b8b87aef6a687f5c19b00c604a63444431e7ef39d8f88ff91ab4c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

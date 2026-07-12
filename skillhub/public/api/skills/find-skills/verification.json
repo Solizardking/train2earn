@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "find-skills",
+  "name": "find-skills",
+  "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+  "source": "https://skills.x402.wtf/api/skills/find-skills/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/find-skills/metadata.json",
+  "bundleHash": "sha256-8e8d445bf042f0386653b585dd229d9fea6fd76de6b379288e0c3fe3b214a076",
+  "merkleLeaf": "sha256-1dc62da5985894947e513d8760a17c52cb93b0ca2f09686f8ef5ec605767ae25",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5446,
+      "sha256": "sha256-1e85f6f9686e145aca4a124e3b704b9bbea9aa87e08515c1e352eee70f6e6e7a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

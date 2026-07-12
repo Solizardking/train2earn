@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-endpoint-management",
+  "name": "agent-platform-endpoint-management",
+  "description": "Manages Agent Platform serving endpoints. Use when you need to create, list, describe, update, or delete serving endpoints for model deployment on Agent Platform. Also use when troubleshooting endpoint permission, quota, or resource busy errors. Don't use for deploying models to endpoints or for running model evaluations.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-endpoint-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-endpoint-management/metadata.json",
+  "bundleHash": "sha256-d7bc4773a97fc2aeb542ab6b85a8d360dda3ab76de476fa8b5dc3bc626ebe5f1",
+  "merkleLeaf": "sha256-b710131a0b33a699d7a77ea9ef72d5c0ca2c7e1f47c2d7f4f587f4142d51b8d2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5936,
+      "sha256": "sha256-24c23aef6340b67bd5103b0afeaa8a8d26aeadb68efd63d821972acef532f5cc"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

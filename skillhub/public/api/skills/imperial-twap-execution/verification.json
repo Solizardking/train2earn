@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-twap-execution",
+  "name": "imperial-twap-execution",
+  "description": "TWAP execution guidance for Imperial: slice planning, venue pinning, profile budgeting, and durable-runner requirements.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-twap-execution/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-twap-execution/metadata.json",
+  "bundleHash": "sha256-2dab02e9a5685b72edf976dab41589ede83c65afc93d2380b93c16957f856617",
+  "merkleLeaf": "sha256-1f2321612e27ede81adbd14086970a4962aa0e3699115347a3411f959a8034f2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 698,
+      "sha256": "sha256-1f6741dfa91a317532171585be2a0ae73164d35686df850228e644a11c4aac99"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

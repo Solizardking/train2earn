@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-foundation-stereo",
+  "name": "tao-train-foundation-stereo",
+  "description": "Stereo depth estimation using FoundationStereo. Predicts disparity maps from stereo image pairs for 3D reconstruction. Use when training, evaluating, exporting, or running inference for a TAO FoundationStereo model. Trigger phrases include \"train stereo depth\", \"FoundationStereo\", \"stereo disparity estimation\", \"3D reconstruction from stereo\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-foundation-stereo/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-foundation-stereo/metadata.json",
+  "bundleHash": "sha256-2893be91be9876dccb15e36de51154dc83c12f47a8c240afdaad39b59ae34e80",
+  "merkleLeaf": "sha256-26321dc88610d78d295c0039a72574840d370614cc9bfd8f3e94b2cf6957d5a5",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4129,
+      "sha256": "sha256-419b175109f7c112419fac0e45b089d6ffeb02b5f6e104e8236ff7e4d6b1b424"
+    },
+    {
+      "path": "references/checkpoint-inference-mappings-foundation-stereo.md",
+      "bytes": 3974,
+      "sha256": "sha256-7c05e51e36e9eb397f65f80ec109d16dd4a3edbc0fdeaec33bdc1b35b25a00eb"
+    },
+    {
+      "path": "references/parameters-foundation-stereo.md",
+      "bytes": 5755,
+      "sha256": "sha256-28afdd5e617b939653f0836fbc58fb4723fbb5a6dd682f52fe00b4aecb76f253"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 5594,
+      "sha256": "sha256-f2497971ef4afb201c4163c4c694673c9cd682a954122c0d3c443c73edd36af1"
+    },
+    {
+      "path": "references/spec_template_deploy.yaml",
+      "bytes": 2029,
+      "sha256": "sha256-b237bd336cf78d44135f3b00a0bdd0d4ed127ed75158745e64268fcc477fee36"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 5676,
+      "sha256": "sha256-2681c163db9e933c96fd1d22ce00030cf0f62aff8131fb446583aa90f7781058"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 5745,
+      "sha256": "sha256-1a250800b562f4398d4b7a6bbf1036b424d45a5b05521f4ccdc3607f65847c53"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 5764,
+      "sha256": "sha256-8ce80f863129f15bd51b42417a72bc9aebfa0573fc5f40fd3361d3d3337c75bb"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 5698,
+      "sha256": "sha256-a768092032930e5035de415038a061b9b086e700c37eff38a910b2a53500ad40"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 5511,
+      "sha256": "sha256-6a7973cbd8adfd22de08465048507d5617e59e806e7828e9c85828273e80503a"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 5511,
+      "sha256": "sha256-6a7973cbd8adfd22de08465048507d5617e59e806e7828e9c85828273e80503a"
+    },
+    {
+      "path": "references/spec-overrides-foundation-stereo.md",
+      "bytes": 4173,
+      "sha256": "sha256-0dafc3ae4eed674744581a0a6872664d5dad9e31eddabd672bdd47b170877b5d"
+    },
+    {
+      "path": "references/tao-deploy-foundation-stereo.md",
+      "bytes": 11857,
+      "sha256": "sha256-3b047eb3eaf1babe31812811a646ad052619691c42f0cc18524779a987887316"
+    },
+    {
+      "path": "references/tao-deploy-foundation-stereo.skill_info.yaml",
+      "bytes": 3265,
+      "sha256": "sha256-3cc1d6cfafa49341c871026ce1b306bbd7491410d1f2378fff73e3fe9074bf44"
+    },
+    {
+      "path": "references/troubleshooting-foundation-stereo.md",
+      "bytes": 2463,
+      "sha256": "sha256-98d1998e71f011ef94bb0868419e4b085efbeeeeb1efac38c3b795e04fe32858"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4055,
+      "sha256": "sha256-45b0bd66bf3ff4a780e98ad84a73e949730eee5d487646eeac557035de59a84e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11977,
+      "sha256": "sha256-5d94639a2328e3277e0178a7e37b41246263aa97eba5280034a54d4649d39a5f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-quickstart",
+  "name": "vulcan-quickstart",
+  "description": "Five-minute Vulcan quickstart for install, health check, first market read, and first paper trade.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-quickstart/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-quickstart/metadata.json",
+  "bundleHash": "sha256-0943af8195b62df467433dfff30721e39ab913d112486086827b43e4fbee4fa6",
+  "merkleLeaf": "sha256-f5876f3099c4d8d6989b3eac471bf914767e6a737249d17ae7498232c004cde5",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 396,
+      "sha256": "sha256-5ceebafa6637927c51e66ce321dcf5f7f9c2a1037891b5b246a132b7531c2b12"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

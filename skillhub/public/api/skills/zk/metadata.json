@@ -1,0 +1,7 @@
+{
+  "slug": "zk",
+  "name": "zk",
+  "description": "For custom ZK Solana programs and privacy-preserving applications to prevent double spending. Guide to integrate rent-free nullifier PDAs for double-spend prevention.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/zk/SKILL.md"
+}

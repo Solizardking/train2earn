@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "research-and-web/deepapi",
+  "name": "deepapi",
+  "description": "Use DeepAPI for scraping and safe email with DEEPAPI_API_BASE_URL and DEEPAPI_API_KEY.",
+  "source": "https://skills.x402.wtf/api/skills/research-and-web/deepapi/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/research-and-web/deepapi/metadata.json",
+  "bundleHash": "sha256-b791e403ead001cb1f369e1d0ac6715323bfcf1fb9ddc0c0c0a365dcca3942e3",
+  "merkleLeaf": "sha256-1ff50aa66935423e55b9f03b81c43a45ca2f0f62bcec4fc1a65c5e361cc21343",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 25968,
+      "sha256": "sha256-deee2147cd85f1808e796879635ed21e1072cce1a1e834fce74b17ab1ba617b6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

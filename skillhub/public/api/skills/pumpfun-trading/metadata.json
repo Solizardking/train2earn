@@ -1,0 +1,7 @@
+{
+  "slug": "pumpfun-trading",
+  "name": "pumpfun-trading",
+  "description": "Quick Pump.fun trading shortcut for buy/sell flow selection, bonding curve versus AMM state checks, slippage handling, risk controls, and SDK trade instruction building.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pumpfun-trading/SKILL.md"
+}

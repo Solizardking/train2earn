@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "create-agent-tui",
+  "name": "create-agent-tui",
+  "description": "Scaffolds a complete agent TUI in TypeScript using @openrouter/agent — like create-react-app for terminal agents. Generates a customizable terminal interface with three input styles, four tool display modes, ASCII banners, streaming output, session persistence, and configurable tools. Use when building an agent, creating a TUI, scaffolding an agent project, or building a coding assistant.",
+  "source": "https://skills.x402.wtf/api/skills/create-agent-tui/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/create-agent-tui/metadata.json",
+  "bundleHash": "sha256-cf289e88b97ad38de1dcc125ce341f3331ceb26356655af3c405b9771c06af04",
+  "merkleLeaf": "sha256-92a900161c3b749f38400486a838b487709012cdcd8927f3241b2c61d5d06d55",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9041,
+      "sha256": "sha256-7e96f0c9ffd53fc8595ea6d1af9dc121addc6cfd28fcd7e084eb774776afbb61"
+    },
+    {
+      "path": "references/input-styles.md",
+      "bytes": 7898,
+      "sha256": "sha256-4a219b6da79f5c0f59c67dbe9385ed9e464fe79c1babb69becae38fd9cce9ef2"
+    },
+    {
+      "path": "references/loader.md",
+      "bytes": 3807,
+      "sha256": "sha256-75d7592e278249640ab9cdac0cebbd3eea258f972083a19687aeb39ae09ea9ae"
+    },
+    {
+      "path": "references/modules.md",
+      "bytes": 13151,
+      "sha256": "sha256-ff39446793ba73a5fdec808431355bf500f610543e282466dfaa432aad9dca06"
+    },
+    {
+      "path": "references/server-entry-points.md",
+      "bytes": 6244,
+      "sha256": "sha256-70e4997d7b53b5f620151bba45822b8ae9affc0a3adbf7f70a160a99e20e818e"
+    },
+    {
+      "path": "references/slash-commands.md",
+      "bytes": 6527,
+      "sha256": "sha256-c139f68fd015cc153574d064f41c2949604dea616e864662c65b0d3ec5ae4e80"
+    },
+    {
+      "path": "references/system-prompt.md",
+      "bytes": 3308,
+      "sha256": "sha256-9c7d9d44bfdb76c75b98047264e23e53492f41a5bdf36cb689e83dfc0a6bdcb0"
+    },
+    {
+      "path": "references/tool-display.md",
+      "bytes": 9981,
+      "sha256": "sha256-5f767ec2152148e8f7f165ddc845e8995bfc21e6f6ddc4b6275a4b52eab52c90"
+    },
+    {
+      "path": "references/tools.md",
+      "bytes": 7086,
+      "sha256": "sha256-2fb52322118240fd5320788b32c5ee6985cae5e08b31b50baa1d1c5b593b13d7"
+    },
+    {
+      "path": "references/tui.md",
+      "bytes": 3838,
+      "sha256": "sha256-a14701759b3c283d32d215551711884e3afe58c706e7a73ea8961101283d2bea"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 24339,
+      "sha256": "sha256-acfe9e7d402a3f3b3b77f0b508f14424d74ae7d689ae9618235b8a380b1b6019"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cuopt-routing-api-python",
+  "name": "cuopt-routing-api-python",
+  "description": "Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only. Use when the user is building or solving routing in Python.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-routing-api-python/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-routing-api-python/metadata.json",
+  "bundleHash": "sha256-5444508bc0b8d81e96f63b1cf3352c73163e19b2a47e4d3d9dc1132a0e866945",
+  "merkleLeaf": "sha256-8dc4d9cb37c1706db7e056a42e74cafbff29af606638cd593b6228db500ecd14",
+  "files": [
+    {
+      "path": "assets/pdp_basic/model.py",
+      "bytes": 1568,
+      "sha256": "sha256-144da1df5de28d785a9b467b3d14417e716f532ac9b989046eaf7e4f5299a5fd"
+    },
+    {
+      "path": "assets/pdp_basic/README.md",
+      "bytes": 257,
+      "sha256": "sha256-e0d1a1fd7d0ad4e454d08f55de91bbede78ff1222d6a542d55aaacf71c5a7e62"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 553,
+      "sha256": "sha256-c7002a3121983f3294efbe8c9541943bf24c89a07bea6a32007c774a2c808021"
+    },
+    {
+      "path": "assets/vrp_basic/model.py",
+      "bytes": 838,
+      "sha256": "sha256-5245b77465a26b68aefbaa3249b51ef0da4505f4e1974cf6d0f44b1c78fc8070"
+    },
+    {
+      "path": "assets/vrp_basic/README.md",
+      "bytes": 272,
+      "sha256": "sha256-0a85aef1c1be59989de40aa6ce9fe54e720e7095f086bc6f684f2b3c9da33894"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3720,
+      "sha256": "sha256-a5390436bce3fdf32112f51fb1f5439627c436755f8724bc9aa5a78d29abff87"
+    },
+    {
+      "path": "references/examples.md",
+      "bytes": 7019,
+      "sha256": "sha256-5eb35735559d935c21e20a49591d54c9b6fa9247217aa4776a5f8983cbd27f81"
+    },
+    {
+      "path": "references/server_examples.md",
+      "bytes": 5794,
+      "sha256": "sha256-508bf4ae8cb5bc7e249b377260f1421b70d9d345bb5a6d16c6fa0b56e256825b"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4034,
+      "sha256": "sha256-fb31b0fed8d3c8d9d4b1e499111dfbe73a037fe5ba39f9b4467512970ae6fcbe"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3697,
+      "sha256": "sha256-3d885c036008464266ab3775fd573d0ab04f7d55749042989ab1ded81331560c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

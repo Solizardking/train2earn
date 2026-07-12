@@ -1,0 +1,7 @@
+{
+  "slug": "food-order",
+  "name": "food-order",
+  "description": "Reorder Foodora orders + track ETA/status with ordercli. Never confirm without explicit user approval. Triggers: order food, reorder, track ETA.",
+  "category": "Local / Web Services",
+  "skill": "/api/skills/food-order/SKILL.md"
+}

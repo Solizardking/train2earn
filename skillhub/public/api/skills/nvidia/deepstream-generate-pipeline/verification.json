@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/deepstream-generate-pipeline",
+  "name": "deepstream-generate-pipeline",
+  "description": "Build DeepStream GStreamer pipelines interactively. Use when the user asks about pipelines for video/image inference, detection, tracking, or streaming — including natural phrases like 'pipeline to infer on image', 'run inference on video', 'detect objects in stream', 'save inference output', 'deepstream pipeline', 'gst-launch pipeline', 'process video with detection', 'build a pipeline', or any request involving GStreamer/DeepStream elements (nvinfer, nvstreammux, nvtracker, etc.).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-generate-pipeline/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-generate-pipeline/metadata.json",
+  "bundleHash": "sha256-de6f96178e5baf95d0dbb7691832819a432273eee086c206ac908ac76ce70456",
+  "merkleLeaf": "sha256-0e0b9f6a7b27c99a80aac95cc58627464b3230a693b9d303c4f66fa754aab9dd",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2456,
+      "sha256": "sha256-888e70983e2f093a05d54bde726f5db557335292f3fa3268c4a4a8d8b7cc5223"
+    },
+    {
+      "path": "references/assembly-rules.md",
+      "bytes": 4691,
+      "sha256": "sha256-de9b645ae6e5fd623f9dc182195bd6a4e5f8bde35af7d7550cc0de0c186d331b"
+    },
+    {
+      "path": "references/output-format.md",
+      "bytes": 4183,
+      "sha256": "sha256-d0a3ffb31c1b18d3d3c45522a6425ec0dd5dcb2102439911897cd162f0e37d95"
+    },
+    {
+      "path": "references/requirement-extraction.md",
+      "bytes": 12366,
+      "sha256": "sha256-8cdf21136f4dfae0013c5cb0fe74853a7ea6cf8012f746eff971ebcd465ce52b"
+    },
+    {
+      "path": "references/security-and-limitations.md",
+      "bytes": 2925,
+      "sha256": "sha256-47a5cc1f422519cb491a072622f489a53b35a916e0ed01e8776d2d1c1dbe4bd1"
+    },
+    {
+      "path": "scripts/generate_pipeline.py",
+      "bytes": 22607,
+      "sha256": "sha256-0b1a1b6d50ff2e68f9e38453013cdfd864227401486b051d1a9bd1f77092e995"
+    },
+    {
+      "path": "scripts/lint_data.py",
+      "bytes": 7057,
+      "sha256": "sha256-91a73ab5f8704a4c9c0a753667592e6162ae76b31d406e726c50a194268883eb"
+    },
+    {
+      "path": "scripts/validate_pipeline.py",
+      "bytes": 30313,
+      "sha256": "sha256-632ce394c09dc530e5c91a80a3c6711689dbb594504cb239d2f2bf0e5c04cfa3"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3231,
+      "sha256": "sha256-d9cc368ffee96ccdba58d56f01e7cd7bd11762853a339834b09591e8367848f3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16797,
+      "sha256": "sha256-ad1c26f75e186253c49b02655dfd013034c90d9d3b8ce3e019cc253dd348594a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

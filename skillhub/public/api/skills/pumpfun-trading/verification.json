@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pumpfun-trading",
+  "name": "pumpfun-trading",
+  "description": "Quick Pump.fun trading shortcut for buy/sell flow selection, bonding curve versus AMM state checks, slippage handling, risk controls, and SDK trade instruction building.",
+  "source": "https://skills.x402.wtf/api/skills/pumpfun-trading/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pumpfun-trading/metadata.json",
+  "bundleHash": "sha256-b18e680442aa31ea3569c6a578fd94e911d6035eab413672d914fd30c2dca6ba",
+  "merkleLeaf": "sha256-57a4c9d55a7fa5ce885e7bac07eac5d7c7ae0b0d444e3d96a8a07a716aeb9dc1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2791,
+      "sha256": "sha256-cfcff44005980c9cc670b81a9f5d89c1cd03efe99d00e4162b9b1a44116f0514"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

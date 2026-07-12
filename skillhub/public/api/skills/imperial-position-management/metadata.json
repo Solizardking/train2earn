@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-position-management",
+  "name": "imperial-position-management",
+  "description": "Inspect, reduce, and close Imperial-routed positions across Phoenix, Flash, Jupiter, and GMTrade, with Phoenix preferred by default.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-position-management/SKILL.md"
+}

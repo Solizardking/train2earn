@@ -1,0 +1,7 @@
+{
+  "slug": "solana-common-errors",
+  "name": "solana-common-errors",
+  "description": "Diagnose and fix common Solana development errors — GLIBC mismatches, Anchor version conflicts, cargo build-sbf / platform-tools failures, LiteSVM issues, edition2024 crate pins, RPC airdrops, and Anchor 0.29→0.32 migrations. Use when builds fail, Anchor CLI won't install, or CI breaks on Debian/Ubuntu.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/solana-common-errors/SKILL.md"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/holoscan-install-conda",
+  "name": "holoscan-install-conda",
+  "description": "Install Holoscan SDK v4.3+ via Conda in a CUDA 13 environment. Use for Conda installs; redirect CUDA 12 hosts to container/wheel.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-conda/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-conda/metadata.json",
+  "bundleHash": "sha256-6c84e921b5fdb90300fcf32837fc92d240e6b72bf9bf533504ad253845a27814",
+  "merkleLeaf": "sha256-610cd4dbcfb66291774c7e5a813f6f9129fc945504fdf29687be5ae9b2f43e3c",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3931,
+      "sha256": "sha256-d7e1458ea885020d3b7d8a04dcbc25db48230f8151e62d1d331d5247c5676a51"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3709,
+      "sha256": "sha256-7be9675abf3dad9a17118499c7507710e4681764c638867f5441e5bc2004698d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7876,
+      "sha256": "sha256-117f4bf5986956f2cb66a259e5118f67219e2fbefce221d44da897808356ee45"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

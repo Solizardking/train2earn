@@ -1,0 +1,7 @@
+{
+  "slug": "voice-call",
+  "name": "voice-call",
+  "description": "Start voice calls via the Clawdbot voice-call plugin.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/voice-call/SKILL.md"
+}

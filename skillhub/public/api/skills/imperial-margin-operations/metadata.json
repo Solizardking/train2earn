@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-margin-operations",
+  "name": "imperial-margin-operations",
+  "description": "Imperial profile funding, deposit/withdraw transaction building, profile isolation, and margin-state reporting.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-margin-operations/SKILL.md"
+}

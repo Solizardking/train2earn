@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/research",
+  "name": "research",
+  "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/research/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/research/metadata.json",
+  "bundleHash": "sha256-a52544f9ec2b5bd1368c8d3a71752851bcbf433771c53491d8e1bd86fe058ec3",
+  "merkleLeaf": "sha256-e92f1f17bf0a2b813ea2bf50bc58a20efcab1cbb5c11a5b8442d9940f6b2efd1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 799,
+      "sha256": "sha256-af378829f015775a3bcd65ff466826722e99359017ae6bae227ca4c9bd14049c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

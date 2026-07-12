@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "helius-skills/helius-jupiter",
+  "name": "helius-jupiter",
+  "description": "Build Solana DeFi applications combining Jupiter APIs with Helius infrastructure. Covers token swaps (Swap API V2), lending/borrowing (Lend protocol), limit orders (Trigger), DCA (Recurring), token/price data, transaction submission via Sender, fee optimization, real-time streaming, and wallet intelligence.",
+  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius-jupiter/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius-jupiter/metadata.json",
+  "bundleHash": "sha256-944eaf5a1ff49d8c95bc6678f0c07e4834aa9306cf0867b0e7ff301a7bccbccf",
+  "merkleLeaf": "sha256-421cdaaea885d4610ae560923e9c990431cd25aaf9d14f7a6b1e467bb31f2410",
+  "files": [
+    {
+      "path": "references/helius-das.md",
+      "bytes": 9256,
+      "sha256": "sha256-3d4e64738a92ecb14290021482313f01b6dfc838a6118e7af91b651ed63bbe13"
+    },
+    {
+      "path": "references/helius-laserstream.md",
+      "bytes": 10665,
+      "sha256": "sha256-0cdfbf103749611d1b016cc42b3ddfc781c7adb6a9b6fc61cd02bb38d9ce2a85"
+    },
+    {
+      "path": "references/helius-onboarding.md",
+      "bytes": 10764,
+      "sha256": "sha256-ca4e8320606b6b9c8eeccfb464a584133527b2484175f414bc38320f945c8a9e"
+    },
+    {
+      "path": "references/helius-priority-fees.md",
+      "bytes": 7901,
+      "sha256": "sha256-50537a96f4661a0037274c8f680f609e97b62df00d322eb34329dcf25cc41575"
+    },
+    {
+      "path": "references/helius-sender.md",
+      "bytes": 14348,
+      "sha256": "sha256-c79feceeb8499db9ba0e0039fcaccd5bbce954677788ce42ff85e0bc051464cd"
+    },
+    {
+      "path": "references/helius-wallet-api.md",
+      "bytes": 12038,
+      "sha256": "sha256-7580341548c59705f761669db65d4a162bdbe7e0520a6559d81fcf0002f89de9"
+    },
+    {
+      "path": "references/helius-websockets.md",
+      "bytes": 13617,
+      "sha256": "sha256-1ecd2244e1270c64453697c4704baa9f082bde1d370cb0f72803bd44d8a398f1"
+    },
+    {
+      "path": "references/integration-patterns.md",
+      "bytes": 20900,
+      "sha256": "sha256-d81ef276bd9f510ad5799fca950fcffd5c429d5f60d9e8652d8392a301ad8a24"
+    },
+    {
+      "path": "references/jupiter-lend.md",
+      "bytes": 12936,
+      "sha256": "sha256-c9f2c870afe0961175ab96c30fb8ebf01eaaac9792f30356de1b9cabadddae29"
+    },
+    {
+      "path": "references/jupiter-perps-predictions.md",
+      "bytes": 5607,
+      "sha256": "sha256-e08e290a0a9d8eeef8e637b6fc50fd31077c62fe31531329c57542600f56d31a"
+    },
+    {
+      "path": "references/jupiter-plugin.md",
+      "bytes": 5736,
+      "sha256": "sha256-d97b74481412fa6f2c1f9a66df7350fe1d4aa40d1a335cd1fd3a1f48c97dfc2b"
+    },
+    {
+      "path": "references/jupiter-portal.md",
+      "bytes": 3505,
+      "sha256": "sha256-7942f00984dc4c3f34ba04daf03fc5f4c1005007ca3c62192914786ef79579a4"
+    },
+    {
+      "path": "references/jupiter-recurring.md",
+      "bytes": 6037,
+      "sha256": "sha256-f21f8f47dba59d9dd4809711ea1a3a3ed33476c9c7919195b59e6ccb403078b7"
+    },
+    {
+      "path": "references/jupiter-swap.md",
+      "bytes": 12738,
+      "sha256": "sha256-cd6b7cb4260d4fd82ca896d8ce53261e137b13f7fe0e32355cbbb604ef7e9dd2"
+    },
+    {
+      "path": "references/jupiter-tokens-price.md",
+      "bytes": 5754,
+      "sha256": "sha256-58903c84cbb07a03cb279ad6cede95c379df6c9f8f574f288660f333d05c4263"
+    },
+    {
+      "path": "references/jupiter-trigger.md",
+      "bytes": 14513,
+      "sha256": "sha256-f8cc81a7437d2546555abc5d96a853fcc83a0902ed0cf3935fc1948f75ba0ca6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18653,
+      "sha256": "sha256-b4305223458451f428a5a2918d7d4e47ca243d508669ab8937728bfdd1a4be4d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

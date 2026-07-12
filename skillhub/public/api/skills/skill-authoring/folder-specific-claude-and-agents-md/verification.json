@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "skill-authoring/folder-specific-claude-and-agents-md",
+  "name": "folder-specific-claude-and-agents-md",
+  "description": "Create a specialized CLAUDE.md (+ AGENTS.md symlink) inside a specific folder to give future agents folder-scoped context. Use when the user asks to create a CLAUDE.md for a folder, write folder instructions, or add agent context to a directory.",
+  "source": "https://skills.x402.wtf/api/skills/skill-authoring/folder-specific-claude-and-agents-md/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/skill-authoring/folder-specific-claude-and-agents-md/metadata.json",
+  "bundleHash": "sha256-892bfd412c436c51d5a06c26ea3735936b6e767f3a1e5a47854ed1c4f90f31d2",
+  "merkleLeaf": "sha256-7071170bb02f4b6e41fc93419443689625f603349eb21ebb1c5963dac1ed600e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5282,
+      "sha256": "sha256-d156b76ccd94b2e5b9fd1bba6b2a6a839ab2172fdc45567189592b2695aedd86"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/deepstream-profile-pipeline",
+  "name": "deepstream-profile-pipeline",
+  "description": "Profile a DeepStream pipeline with Nsight Systems and derive its configs from the measurement. Use when the user asks for an efficient, performant, or profiled pipeline — or to benchmark, tune, or measure FPS.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/deepstream-profile-pipeline/SKILL.md"
+}

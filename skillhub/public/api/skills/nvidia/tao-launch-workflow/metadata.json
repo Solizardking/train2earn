@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/tao-launch-workflow",
+  "name": "tao-launch-workflow",
+  "description": "Shared launch intake for any TAO workflow or action. Use when the user wants to run TAO AutoML, train, evaluate, infer, export, generate TensorRT engines, or launch DEFT/workflow jobs on an execution platform.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/tao-launch-workflow/SKILL.md"
+}

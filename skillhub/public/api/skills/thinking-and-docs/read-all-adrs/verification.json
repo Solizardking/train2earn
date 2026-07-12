@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "thinking-and-docs/read-all-adrs",
+  "name": "read-all-adrs",
+  "description": "Read every ADR markdown file in the project's docs/adr/ folder so you have full context on past decisions. Use only when the user explicitly calls it.",
+  "source": "https://skills.x402.wtf/api/skills/thinking-and-docs/read-all-adrs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/thinking-and-docs/read-all-adrs/metadata.json",
+  "bundleHash": "sha256-b3780da11cfd261b5881ddf717a68de3b9b3d0ae7c4b20de2e0ec834dd044f5f",
+  "merkleLeaf": "sha256-fed149f83fdbc309f9b3e2e3c1249cf5aa2b9b7f80f288acca9662f632a421cb",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 463,
+      "sha256": "sha256-113d361e619c10aeb9aa15ecaa13c8430afba8ca4a9ada03702d6f767ff4fd39"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/cudaq-guide",
+  "name": "cudaq-guide",
+  "description": "CUDA-Q onboarding guide for installation, test programs, GPU simulation, QPU hardware, and quantum applications.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/cudaq-guide/SKILL.md"
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" role="img" aria-label="Skill verification graph">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101614"/>
+      <stop offset="100%" stop-color="#1a2018"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39d7a6"/>
+      <stop offset="50%" stop-color="#75a8ff"/>
+      <stop offset="100%" stop-color="#e8b44e"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.2 0;0.2 0;-0.2 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="260" rx="8" fill="url(#bg)"/>
+  <g stroke="#2b3834" stroke-width="1">
+    <path d="M42 206H518"/>
+    <path d="M42 158H518"/>
+    <path d="M42 110H518"/>
+    <path d="M42 62H518"/>
+  </g>
+  <path d="M78 188C126 142 154 84 208 92C260 100 274 176 326 166C384 154 396 70 482 56" fill="none" stroke="#39d7a6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 202C128 198 152 168 200 170C254 174 280 126 326 122C384 116 404 148 482 128" fill="none" stroke="#75a8ff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 172C116 156 154 150 206 136C252 124 286 74 326 78C392 84 414 102 482 86" fill="none" stroke="#e8b44e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 202C128 198 152 168 200 170C254 174 280 126 326 122C384 116 404 148 482 128" fill="none" stroke="url(#flow)" stroke-width="2" stroke-linecap="round" stroke-dasharray="20 14">
+    <animate attributeName="stroke-dashoffset" values="0;-68" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#151b19" stroke-width="4">
+    <circle cx="78" cy="188" r="9" stroke="#39d7a6"/>
+    <circle cx="208" cy="92" r="9" stroke="#39d7a6"/>
+    <circle cx="326" cy="166" r="9" stroke="#39d7a6"/>
+    <circle cx="482" cy="56" r="9" stroke="#39d7a6"/>
+    <circle cx="200" cy="170" r="9" stroke="#75a8ff"/>
+    <circle cx="326" cy="122" r="9" stroke="#75a8ff"/>
+    <circle cx="482" cy="128" r="9" stroke="#75a8ff"/>
+    <circle cx="206" cy="136" r="9" stroke="#e8b44e"/>
+    <circle cx="326" cy="78" r="9" stroke="#e8b44e"/>
+  </g>
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#9baba6">
+    <text x="42" y="236">bundle hash</text>
+    <text x="182" y="236">scanner rules</text>
+    <text x="334" y="236">registry leaf</text>
+    <text x="454" y="236">hub state</text>
+  </g>
+  <rect x="8" y="8" width="544" height="244" rx="8" fill="none" stroke="#2b3834"/>
+</svg>

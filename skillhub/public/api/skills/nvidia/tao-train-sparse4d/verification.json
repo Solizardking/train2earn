@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-sparse4d",
+  "name": "tao-train-sparse4d",
+  "description": "Sparse4D for multi-camera temporal 3D object detection and tracking. Uses sparse queries with deformable attention across camera views and time for end-to-end 3D perception, with an instance bank for temporal tracking. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Sparse4D model. Trigger phrases include \"train Sparse4D\", \"multi-camera 3D detection\", \"temporal 3D tracker\", \"sparse query 3D perception\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-sparse4d/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-sparse4d/metadata.json",
+  "bundleHash": "sha256-a5058a6e05dd31b2be5cb1a30e886bd65fc80e5479637f2202e87775f092ad4d",
+  "merkleLeaf": "sha256-8e8584cbb81079e8fc1c0117800bd1db9926f019ccaacc1a723c4c2bf5bb9e3d",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4062,
+      "sha256": "sha256-e3d6e2d3a4c10a95c7a52925b26bfab4cfabc0d87ee24ca85c2f9ced0a403db9"
+    },
+    {
+      "path": "references/local_docker_conversion.md",
+      "bytes": 3739,
+      "sha256": "sha256-5b998001cb40813bc96b236cfec1c448422ff6b6e7ee8ba5d44d4f3b3eca0b97"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 7625,
+      "sha256": "sha256-498c90949a7c4f49aac850da28859f39db64a16c4635cdc8a7f5aa8ef8c76648"
+    },
+    {
+      "path": "references/spec_param_inference.md",
+      "bytes": 2256,
+      "sha256": "sha256-2cb2a22d7067594a9540cd2024b479a9bfecaf69c21b951436b756cbeec425e8"
+    },
+    {
+      "path": "references/spec_template_dataset_convert.yaml",
+      "bytes": 1302,
+      "sha256": "sha256-e92d3cd9bea37cdcd4278772170d8b4f0ceccf1147397a13170ab8977b1aa09e"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 7130,
+      "sha256": "sha256-7c43d8da8d69f4a9907f27ffb7e56c6cc097b3d626df037a72df4769dfbe9b85"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 7146,
+      "sha256": "sha256-fcedf1dc469d6e6c5f2a8e99e1c6b8fe1c7ab9179359743233c2375a4d43c12e"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 7163,
+      "sha256": "sha256-d1fe143f3b7a832aa59c6c12a910a56a06bd76aa01a6a33bec72a6cd101f80e1"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 6930,
+      "sha256": "sha256-8420b56bd148c1799492bde82ecb034e878593fcf02334eb663a8bd170dd8e54"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 6930,
+      "sha256": "sha256-8420b56bd148c1799492bde82ecb034e878593fcf02334eb663a8bd170dd8e54"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3923,
+      "sha256": "sha256-cc6f980803d7888c17e9c0d9dd079eaf7858e05707096c6f3a813938c8cd968f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14834,
+      "sha256": "sha256-1c3c8f9db419e0b196e8d4483d05d18a50ae90de6fb8926b8b0f98c83ebed7d3"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

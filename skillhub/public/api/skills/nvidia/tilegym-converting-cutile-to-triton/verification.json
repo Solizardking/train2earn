@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tilegym-converting-cutile-to-triton",
+  "name": "tilegym-converting-cutile-to-triton",
+  "description": "Converts cuTile GPU kernels (@ct.kernel) to Triton (@triton.jit). Handles standard in-repo conversion, debugging (cudaErrorIllegalAddress, shape mismatch, numerical mismatch), and mapping cuTile idioms (ct.load/ct.store, ct.Constant, ct.launch) to Triton equivalents. Covers dual-kernel layout flags (e.g. transpose=True/False + autotune grid via META) per translations/advanced-patterns.md. Use when converting, porting, or translating cuTile kernels to Triton, or debugging existing Triton translations.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-converting-cutile-to-triton/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-converting-cutile-to-triton/metadata.json",
+  "bundleHash": "sha256-3afde7ecf4624db99fd2b68a09231acced128da2f3e6be1d098dd0c0fa36ad95",
+  "merkleLeaf": "sha256-782e563700aff6b7a55301a0318394b7244b53f94a7d0a7f1286a809811db167",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 5526,
+      "sha256": "sha256-1eeb48dd63ab78e4162f98d0f885da16dabb5e433db472eb3d3f12a061b91980"
+    },
+    {
+      "path": "references/api-mapping.md",
+      "bytes": 17281,
+      "sha256": "sha256-d5a0390d4fa9d93305aee4fc0ac630c97ef7e2c287f13dbbdd03f81c1115e0b5"
+    },
+    {
+      "path": "references/debugging.md",
+      "bytes": 11686,
+      "sha256": "sha256-4a535331bea6dad1b141c4de9cb8dd7cad9d1ba24f091ec78a33cbd8d0961a4c"
+    },
+    {
+      "path": "references/gotchas.md",
+      "bytes": 4180,
+      "sha256": "sha256-7db2e03524a6490fabe72d11eaed241cdb9b4fa619cb342908c2888421d46e38"
+    },
+    {
+      "path": "references/harness-integration.md",
+      "bytes": 6476,
+      "sha256": "sha256-9faba4468e4988ac683035535aac170bdc503b06c465b592425bcf3665a69313"
+    },
+    {
+      "path": "references/optimization-strategy.md",
+      "bytes": 7999,
+      "sha256": "sha256-dd3c9f00c68b84c04005340e31223468296678ba796999ca0ef55c05339744b2"
+    },
+    {
+      "path": "references/optimizing-reference.md",
+      "bytes": 24007,
+      "sha256": "sha256-cee20688b3f7651b18813aa87debdf6fa5e0022ce1cd07e6394a21a70e8d226a"
+    },
+    {
+      "path": "references/performance-gotchas.md",
+      "bytes": 2375,
+      "sha256": "sha256-41f63ea6c3ca542ca8abe7deb17fc4e37ba73818f9576013e47ee5307d5ee842"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4273,
+      "sha256": "sha256-7c69fe4b5158c75d5b8a9cf7033d64cb1714afd52344d0d11640a70a9659487f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17062,
+      "sha256": "sha256-1eeb791c6eb9fa50a4acd7b8807084da3d27663fa9e3bff806a45802c9f9375e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

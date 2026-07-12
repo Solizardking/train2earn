@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "thinking-and-docs/short",
+  "name": "short",
+  "description": "Manually-invoked skill that forces the agent to compress its current answer — strip filler, simplify wording, and cut length while keeping the substance. Use when the user says \"short\", \"shorter\", \"simpler\", \"too long\", \"tl;dr\", or wants a more concise version of the previous response.",
+  "source": "https://skills.x402.wtf/api/skills/thinking-and-docs/short/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/thinking-and-docs/short/metadata.json",
+  "bundleHash": "sha256-dbec673cb164cb1847a099126caca887a87df1fbd98aa37d8753de84f23546fa",
+  "merkleLeaf": "sha256-28cd9627acd45e379201ef00d8cc3a9b296eac3c210dc93a59ce99bcdff1ae9d",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 431,
+      "sha256": "sha256-ba9e62f3fbc07710d7032caff5688025866718fa57f7028e5c0bb841d73a4897"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

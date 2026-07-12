@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "discord",
+  "name": "discord",
+  "description": "Use when you need to control Discord from Clawdbot via the discord tool: send messages, react, post or upload stickers, upload emojis, run polls, manage threads/pins/search, create/edit/delete channels and categories, fetch permissions or member/role/channel info, or handle moderation actions in Discord DMs or channels.",
+  "source": "https://skills.x402.wtf/api/skills/discord/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/discord/metadata.json",
+  "bundleHash": "sha256-c7f80ee35ccbd70616c09b968998a96c798b1910e01913846829127a348d816e",
+  "merkleLeaf": "sha256-71015aa978d2971430643a167af2adcc5fa359aeab121e8125b830baaa8e93e8",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9153,
+      "sha256": "sha256-0e54ac0c8e9d526d313b8e1e5a4930aa0b9e9169f5a7f56b3dc8b823cd9a910e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

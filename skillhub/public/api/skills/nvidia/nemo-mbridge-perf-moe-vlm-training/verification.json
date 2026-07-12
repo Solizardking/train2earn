@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-moe-vlm-training",
+  "name": "nemo-mbridge-perf-moe-vlm-training",
+  "description": "Practical guidance for training MoE VLMs in Megatron Bridge. Compares FSDP and 3D-parallel approaches, using rounded lessons from Qwen3-VL, Qwen3-Next, and other multimodal experiments.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-vlm-training/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-vlm-training/metadata.json",
+  "bundleHash": "sha256-3692da4a6187b98276677dc8a5477f46f41b3d53f4ecd1bab3bb7ec09405d78a",
+  "merkleLeaf": "sha256-492620ab886ef6d5980b2ff05b09f4ab1b1c23dfa84741555a11e3fb8c848658",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4355,
+      "sha256": "sha256-93ab6c7358448bc71896c526c3f7e7e4267e717b7db4c76aef2386b94f6360d5"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 2993,
+      "sha256": "sha256-8ed6c61a69500a3cf8b867b216ed1f8dddc52ec780cef11e4d1f45d361fcb194"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3931,
+      "sha256": "sha256-9f3534d8ee0edac9c01f21e70a18941a608f55c99e3e2654307e6b5e15c7c140"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5141,
+      "sha256": "sha256-05233919a18709017bdb4a553a39b503fb2baa08eb83261dba029c3ec309777d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

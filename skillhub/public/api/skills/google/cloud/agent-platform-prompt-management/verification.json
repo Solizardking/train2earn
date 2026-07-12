@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-prompt-management",
+  "name": "agent-platform-prompt-management",
+  "description": "Manages and orchestrates prompts in Agent Platform. Use when you need to create, list, retrieve, version, or delete managed prompts in Agent Platform. Don't use for model training, model deployment to endpoints, or managing non-Agent Platform prompts.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-prompt-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-prompt-management/metadata.json",
+  "bundleHash": "sha256-0045abbce4ad6bf28dc6a9a90fd3c8b6628031d0acb267d3e729ace72323f9b3",
+  "merkleLeaf": "sha256-33bf90de386e9b0d95058491b9ef2e46983ab861abc863c46e583d76b7748350",
+  "files": [
+    {
+      "path": "references/create.md",
+      "bytes": 1946,
+      "sha256": "sha256-0037a03e21a9fdde25edbb05ed620efc50e95abc0c7bfe0a40ec4b363399dc99"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7127,
+      "sha256": "sha256-7f91ac3ebbb8e5a53915c0c50e5a533b36cec618dee573f5574bc9ed2097d6f6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

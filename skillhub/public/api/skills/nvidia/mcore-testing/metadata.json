@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/mcore-testing",
+  "name": "mcore-testing",
+  "description": "Test system for Megatron-LM. Covers test layout, recipe YAML structure, adding and running unit and functional tests, golden values, marker filters, and CI parity.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/mcore-testing/SKILL.md"
+}

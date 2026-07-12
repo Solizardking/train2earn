@@ -1,0 +1,7 @@
+{
+  "slug": "google/ads/interactive-media-ads/ima-sdk-basics",
+  "name": "ima-sdk-basics",
+  "description": "Use this skill for Interactive Media Ads (IMA) SDK client-side ad insertion when you are requesting video ads client-side into websites, apps, TVs or other platforms with VAST or VMAP. Do not use for Dynamic Ad Insertion (DAI), SSAI, or SGAI (use the `ima-sdk-dai-basics` skill instead).",
+  "category": "Google / Ads",
+  "skill": "/api/skills/google/ads/interactive-media-ads/ima-sdk-basics/SKILL.md"
+}

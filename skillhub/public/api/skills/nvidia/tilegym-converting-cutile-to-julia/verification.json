@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tilegym-converting-cutile-to-julia",
+  "name": "tilegym-converting-cutile-to-julia",
+  "description": "Converts cuTile Python GPU kernels (@ct.kernel) to cuTile.jl Julia equivalents. Handles kernel syntax translation, 0-indexed to 1-indexed conversion, broadcasting differences, memory layout (row-major to column-major), type system mapping, and launch API differences. Use when converting, porting, or translating cuTile Python kernels to Julia cuTile.jl, or debugging/optimizing existing Julia cuTile translations.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-converting-cutile-to-julia/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-converting-cutile-to-julia/metadata.json",
+  "bundleHash": "sha256-c86664342367f071294f61046970b1216276b7763f4ece99dd34e6000bfcec1e",
+  "merkleLeaf": "sha256-b5b66b5061aa79a766ebf4443aca9d4b33c4bad6c38df483e5015257cedf3ce1",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 6093,
+      "sha256": "sha256-094b403dda4db5fe970ef760ac44df7ac526cfa54acefbbe4500caac1190dcbe"
+    },
+    {
+      "path": "references/api-mapping.md",
+      "bytes": 16795,
+      "sha256": "sha256-9da8c873cf8529ead4b3093ffb1847925ccaf8ed10bd865527837141d767ffc3"
+    },
+    {
+      "path": "references/critical-rules.md",
+      "bytes": 5796,
+      "sha256": "sha256-93fd039a88d43c9f3acbacb4d611258b2219d576305859632582ce9b3fe5100c"
+    },
+    {
+      "path": "references/debugging.md",
+      "bytes": 2903,
+      "sha256": "sha256-17546891ebe3cf68726515dcbca31a1ee026ce7dde28f498e9f43d2115f30194"
+    },
+    {
+      "path": "references/testing.md",
+      "bytes": 4312,
+      "sha256": "sha256-7dbe8732ccf33980a0303c1528972f1c2bb5fca4e6cdf65357198097d6cce37b"
+    },
+    {
+      "path": "scripts/validate_cutile_jl.py",
+      "bytes": 8702,
+      "sha256": "sha256-c2d120b09eaefb5c91187e70ce4616fac709a3fcf82b492bb14042da1c71b955"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3986,
+      "sha256": "sha256-f75e141dea9370a8d2d61c748bba3a92e45228576a121d67ae4767c75ba37f9c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6932,
+      "sha256": "sha256-2ab5d1dd79b2466adc437b00a4c913734b5254dfd670eb061c187df1837dc022"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

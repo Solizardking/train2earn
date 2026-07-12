@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/earth2studio-create-datasource",
+  "name": "earth2studio-create-datasource",
+  "description": "Create and validate Earth2Studio data source wrappers (DataSource, ForecastSource, DataFrameSource, ForecastFrameSource) from remote stores. Do NOT use for fetching data with existing sources, model inference, or installation tasks.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/earth2studio-create-datasource/SKILL.md"
+}

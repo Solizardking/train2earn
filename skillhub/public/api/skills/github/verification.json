@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "github",
+  "name": "github",
+  "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+  "source": "https://skills.x402.wtf/api/skills/github/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/github/metadata.json",
+  "bundleHash": "sha256-6275cde38d9faca464738c36fc99b9c854007c9a3d942cd33d8ed026e534f714",
+  "merkleLeaf": "sha256-2442794bcdab15c6378c6ee57ebe183e96c3362b19ae60217777eb3509e23926",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1113,
+      "sha256": "sha256-51b28818a6f0359287d5c8244a6fdc59a4ac5504596deb193b28b81832221c86"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

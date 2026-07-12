@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "ops-and-setup/create-readonly-db-role",
+  "name": "create-readonly-db-role",
+  "description": "Provision a hardened SELECT-only Postgres role so AI agents can safely read a production database. Works on Supabase and any Postgres. Use when the user wants agents to query prod data, says \"read-only role\", \"safe prod DB access for agents\", or is tired of running SQL by hand for agents. Differentiator: this skill CREATES the role and wiring; day-to-day querying belongs in a project-local skill.",
+  "source": "https://skills.x402.wtf/api/skills/ops-and-setup/create-readonly-db-role/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/ops-and-setup/create-readonly-db-role/metadata.json",
+  "bundleHash": "sha256-c862b6b33fc091b06b6e3d56d5c6c04b3717610458ac75037fd5e40fe11a83d9",
+  "merkleLeaf": "sha256-d0e406a44929406a1980b2f624fa7ece82c500dc73b9ceb81df81813d1d81b81",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5414,
+      "sha256": "sha256-054ad4c7d9a1c46cdbb47d84eb5e386672442ebba87a5812e3b7e4e42c9dc4d4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/earth2studio-create-prognostic",
+  "name": "earth2studio-create-prognostic",
+  "description": "Create Earth2Studio prognostic (time-stepping forecast) model wrappers. Do NOT use for diagnostic models, data sources, or installation.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/earth2studio-create-prognostic/SKILL.md"
+}

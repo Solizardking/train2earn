@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-megatron-fsdp",
+  "name": "nemo-mbridge-perf-megatron-fsdp",
+  "description": "Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-megatron-fsdp/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-megatron-fsdp/metadata.json",
+  "bundleHash": "sha256-04e1ab28637f31f88362d69c1e989a9270e6772fc5dcdfb41afbc63cc9a9db32",
+  "merkleLeaf": "sha256-07feb36dec1eb97f326f25502905af327597505a271a227f1d4bb3b76e4802b0",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4331,
+      "sha256": "sha256-75220ddb0e7a0bb53dd780404ec09f0ac42ea24c4bdd56c751106664fb267977"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 2108,
+      "sha256": "sha256-c75ca39e811b5a756ba16c0017363e90166dc0648d5550f06dca30aea12e9e3f"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3760,
+      "sha256": "sha256-a1801b8c9ea7a78be2053bee81c8af845fec2701d67ec2b3d8240d4370332942"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3892,
+      "sha256": "sha256-1fdbfd0eaac5bb3b1aa8eeaac5b969195426d82378a4f74383e297be2f60b409"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

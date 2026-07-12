@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-customize-mgbe",
+  "name": "jetson-customize-mgbe",
+  "description": "Enable Jetson Thor 25G/10G/1G MGBE QSFP via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-mgbe/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-mgbe/metadata.json",
+  "bundleHash": "sha256-f531280146d863042e25619625ba2a7d0aefa0c00f80d1b8fa2d59b128c620a8",
+  "merkleLeaf": "sha256-ccc0eb048516de93b9720031d2be2e21c608b9480e5d2c81b126db30c28b3851",
+  "files": [
+    {
+      "path": "assets/questions.json",
+      "bytes": 5813,
+      "sha256": "sha256-a1fb78c59bc477305c147ff12674d6f30046d04697972a921ce2ddb01e686a8b"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3832,
+      "sha256": "sha256-3f5556362820cf7d976b34d032db70a544d92837c35a2b49ad245eacde343861"
+    },
+    {
+      "path": "references/procedure.md",
+      "bytes": 13928,
+      "sha256": "sha256-4d748866609fa0c534999976d9190ebac0dd4f62e70bee1e1c5449bf6132cf6c"
+    },
+    {
+      "path": "references/questions.json",
+      "bytes": 5813,
+      "sha256": "sha256-a1fb78c59bc477305c147ff12674d6f30046d04697972a921ce2ddb01e686a8b"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3673,
+      "sha256": "sha256-2ec214b511b5730a4f0eff4d75d90ab3c56fad78c20e9bea03079945cda2546d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8276,
+      "sha256": "sha256-745ab5cab97e54fab80e20ef46f1987b00c472645065209628b5992979ebc71e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

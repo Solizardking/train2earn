@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-diagnostic",
+  "name": "jetson-diagnostic",
+  "description": "Read-only Jetson health snapshot for identity, memory, GPU, thermal, power, storage, services, and top processes.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-diagnostic/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-diagnostic/metadata.json",
+  "bundleHash": "sha256-8991d82315d42da6f35944a7a6164c4741948cd70b750f1ddc9908c78606ebec",
+  "merkleLeaf": "sha256-a1d5f5404639e9fa1642dad4c74062a451565234710faa4bdeb572c17ebe1b85",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3314,
+      "sha256": "sha256-c8b7cc5d2f9d294638ae7d4e912a1797aee474fae7f71aa81644e02970f97d9c"
+    },
+    {
+      "path": "references/nvmap-clients.md",
+      "bytes": 3643,
+      "sha256": "sha256-3c83191ae1d4853ed7c0c196a56c0161e71d33c734eadbd85dc6acd74cf4e2ff"
+    },
+    {
+      "path": "references/tegrastats-fields.md",
+      "bytes": 10041,
+      "sha256": "sha256-f3e7afe2683414823344eadfd99c803a1373435cfa53407eec855b222a619111"
+    },
+    {
+      "path": "scripts/common.sh",
+      "bytes": 426,
+      "sha256": "sha256-7812b16b95387ef041f8482920b98f0dc63e3d0e52d7e36af342bc8dc1ba92a2"
+    },
+    {
+      "path": "scripts/detect_jetson.sh",
+      "bytes": 9711,
+      "sha256": "sha256-b09f98d71699bb79b1c6b4af0a073b31bd6af2d860079c6059a76a6ce96ab7c9"
+    },
+    {
+      "path": "scripts/mem_summary.sh",
+      "bytes": 6638,
+      "sha256": "sha256-92607a12f2849385cbb2199cee1bdb85d44530ee7e85fac795af28a3cbb20162"
+    },
+    {
+      "path": "scripts/runtime_probes.sh",
+      "bytes": 1742,
+      "sha256": "sha256-e07dfb204d464a648fa2a141de7b26aae5aa47a5d29858fb279e45e26f112d93"
+    },
+    {
+      "path": "scripts/snapshot.sh",
+      "bytes": 14378,
+      "sha256": "sha256-2c91cadb607798499a6ca425fb004d50a26b76cc5cb145b9b4285b8f1a005ccf"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3733,
+      "sha256": "sha256-649ba533dcfb1e363781ac9e6f90d6224ee5383ce7a9d9ff595a2647bc8f8b05"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10834,
+      "sha256": "sha256-5c2d3242b0d493090c3534c21cb9b087f85214956a216e7fae9525f3fc4cde5c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

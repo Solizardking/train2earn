@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-optical-inspection",
+  "name": "tao-train-optical-inspection",
+  "description": "Optical Inspection for defect detection using Siamese networks. Compares image pairs to detect manufacturing defects, anomalies, or quality issues. Use when training, evaluating, exporting, or running inference for a TAO Optical Inspection model on AOI / quality-control data. Trigger phrases include \"train optical inspection\", \"AOI defect detection\", \"Siamese defect classifier\", \"PCB / manufacturing inspection\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-optical-inspection/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-optical-inspection/metadata.json",
+  "bundleHash": "sha256-ab3b45b6d67fc028e46ffebee4614f52312f3d6d74da11d204bf68710246e7bc",
+  "merkleLeaf": "sha256-985da068ae4e3e68be29d141fb1c68b03e4ac7e7fe68c3d2d6d8fca2a6d77849",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4131,
+      "sha256": "sha256-15f44c1c8aff28502cc4b6d154bff4a2bec01cb8214a55c3bd6c0619736983e3"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4920,
+      "sha256": "sha256-9b80bb7cc1882a80b27b511f3f7a0ffe027c9a487c14b450eb12368becb4f361"
+    },
+    {
+      "path": "references/spec_template_deploy_experiment.yaml",
+      "bytes": 1561,
+      "sha256": "sha256-ef0bdd6f3c02298d41be31933559cf5efb9dd335cbacb3934de2c715f1145a9c"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 2061,
+      "sha256": "sha256-fdbb0587f4ed2ea7c1589d77a2a862e1cc9ea6554e6f4c38af7be05217fabfe5"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 2149,
+      "sha256": "sha256-eb53a2b339e3d00e74bd438df1a142ddc553e7a936bb94050a2002d1429c65bd"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 2336,
+      "sha256": "sha256-93b0a2a7bd787c79ab25d6d1e9aca06764585be6417e5dc666c1c47897576cc5"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 2062,
+      "sha256": "sha256-ea0711712cf76fdddc2fca5cee242da54aaefe95049686e8e1107a55daed2740"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 1936,
+      "sha256": "sha256-e4dbe178e6f035ce389d8b90600a97e82a23fccb7b940588bc3a6e28189410b1"
+    },
+    {
+      "path": "references/tao-deploy-optical-inspection.md",
+      "bytes": 5640,
+      "sha256": "sha256-92ab83b41711ae2f3d5ba1c64023e8215d6263d9cbbb879482cc1405959286ed"
+    },
+    {
+      "path": "references/tao-deploy-optical-inspection.skill_info.yaml",
+      "bytes": 3563,
+      "sha256": "sha256-8c69ca2128df5c876de6383b2da52e5b132cc513027be80ba9e1e5979373b451"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3788,
+      "sha256": "sha256-674cd3153f4ba2909dcb101a09fefce833f093c2978d4c1a25c46ec7c488d90f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12378,
+      "sha256": "sha256-a0a571d1b9f7b583971ee951a0d8e569ece31c61b37a1e1f2a6261bb8d51e1a1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

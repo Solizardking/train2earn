@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-storage",
+  "name": "gke-storage",
+  "description": "Manages GKE storage, including PVCs, PersistentVolumes, Filestore, and GCS FUSE. Use when configuring GKE storage, creating PVCs, or setting up GCS FUSE on GKE. Don't use for database administration or replication strategies outside volume provisioning context.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-storage/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-storage/metadata.json",
+  "bundleHash": "sha256-addf55c550db1af722ca2e69195bad2672fac78f207af68362f49c8d1d7ca3da",
+  "merkleLeaf": "sha256-05989cd9abb9e14ed99d45ee30acfc7c99e9d8cd6ed6a132d3d2702b84b72381",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4901,
+      "sha256": "sha256-aa0b9e7f6dfa831e7753de4cf0ad02829f8cc73959250e4438480282ddf35816"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

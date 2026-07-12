@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-app-onboarding",
+  "name": "gke-app-onboarding",
+  "description": "Manages GKE application onboarding, covering containerization, deployment manifests, and migration. Use when onboarding or deploying an application to GKE for the first time, or containerizing an app for GKE. Don't use for general GKE cluster administration or upgrades (use gke-basics or gke-upgrades instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-app-onboarding/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-app-onboarding/metadata.json",
+  "bundleHash": "sha256-31e712391c0b4ca5d66f3aa7b7d42d0ec847a9c145bf2c4f9012afa2caa164eb",
+  "merkleLeaf": "sha256-675fbf89ba6018a625ecef4b596fcc5b1cc70063ea5b481b38c3bcd33edd2af7",
+  "files": [
+    {
+      "path": "assets/deployment.yaml",
+      "bytes": 1539,
+      "sha256": "sha256-97509f7ea671e9ab372498335f271dc83c0c596ed1a4fb0f2f8db1cd74e3c1e0"
+    },
+    {
+      "path": "assets/Dockerfile",
+      "bytes": 439,
+      "sha256": "sha256-953ddc31a5b07fb433737fb49141619eea8ae53b23d655ef529234dd44e1541c"
+    },
+    {
+      "path": "assets/index.js",
+      "bytes": 454,
+      "sha256": "sha256-d557a4944b892569e163b75c4e2f270bbfc22a575ffbaeb9e0f5d448562856b1"
+    },
+    {
+      "path": "assets/package.json",
+      "bytes": 125,
+      "sha256": "sha256-368d4b93f0a5b1cee633254b263ac3fb9f3a9ad7bd73971cf876b5d02886f7eb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4761,
+      "sha256": "sha256-a007875c6e70f49cee8cd3fdabd12a8f3201e6b3c98fea0c679fab6bb47a666d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

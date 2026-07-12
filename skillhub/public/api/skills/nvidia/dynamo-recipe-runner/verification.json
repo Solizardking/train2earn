@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/dynamo-recipe-runner",
+  "name": "dynamo-recipe-runner",
+  "description": "Select, validate, patch, and deploy existing NVIDIA Dynamo Kubernetes recipes. Use for model/backend/GPU/deployment-mode recipe bring-up; use router-starter for router-only mode work and troubleshoot for broken deployments.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/dynamo-recipe-runner/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dynamo-recipe-runner/metadata.json",
+  "bundleHash": "sha256-5107560cbea62290a6924b5d05ce94fa4eba414c36e8b131fda5cfd84c16028e",
+  "merkleLeaf": "sha256-b8b107a2ed09ed93e73eea25de643e6a1136218decd38972957f54be8709c3ca",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2713,
+      "sha256": "sha256-63a86fffff0354a4c678dff6f8ac0afe39459d7e3810bbef87f64132062118b8"
+    },
+    {
+      "path": "references/k8s-recipe-workflow.md",
+      "bytes": 2904,
+      "sha256": "sha256-84371601ba130725a855507b1a278f49dcb5ed624501409e34eae5b1055d0731"
+    },
+    {
+      "path": "scripts/recipe_tool.py",
+      "bytes": 11319,
+      "sha256": "sha256-9fb2ce89aa539eeb6f40474e617b4dad75ddb2a1f81e91276215cde604716e81"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2650,
+      "sha256": "sha256-703c0e4eef3f9e87cef947600950973061a35954948bafecc3383b2b1a6cc4bd"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7336,
+      "sha256": "sha256-03c3c629e70891ecb7a41d152081b122e99ea803082ae55c06a236638433d091"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

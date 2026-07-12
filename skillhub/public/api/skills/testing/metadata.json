@@ -1,0 +1,7 @@
+{
+  "slug": "testing",
+  "name": "testing",
+  "description": "For testing with Light Protocol programs and clients on localnet, devnet, and mainnet validation.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/testing/SKILL.md"
+}

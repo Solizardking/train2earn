@@ -1,0 +1,7 @@
+{
+  "slug": "solana-ralphy-skill",
+  "name": "solana-ralphy-skill",
+  "description": "Autonomous AI coding loop for Solana development that combines Ralphy-style task execution with Solana program, token launch, dApp, testing, and multi-engine coding workflows. Use when running PRD-driven or parallel Solana implementation tasks.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/solana-ralphy-skill/SKILL.md"
+}

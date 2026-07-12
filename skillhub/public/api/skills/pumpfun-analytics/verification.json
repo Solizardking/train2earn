@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pumpfun-analytics",
+  "name": "pumpfun-analytics",
+  "description": "Quick Pump.fun analytics shortcut for bonding curve state, graduation progress, price impact, token pricing, fee tiers, and buy/sell quote checks. Use for lightweight read-only token analysis.",
+  "source": "https://skills.x402.wtf/api/skills/pumpfun-analytics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pumpfun-analytics/metadata.json",
+  "bundleHash": "sha256-2afb2f427eeb5cf9cce5e24661fc4f35e0e7948ae2d3973a267d648461e50020",
+  "merkleLeaf": "sha256-d33803979c98ecbd6c35a3a1ac8348a2e556e5caeb6cc536e800f834797d9efc",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3373,
+      "sha256": "sha256-7253f959ab6e746998df0689ced218ba2241ee731c1c543b6ebe4ab54966a14c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

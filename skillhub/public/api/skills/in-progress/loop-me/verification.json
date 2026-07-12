@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "in-progress/loop-me",
+  "name": "loop-me",
+  "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+  "source": "https://skills.x402.wtf/api/skills/in-progress/loop-me/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/in-progress/loop-me/metadata.json",
+  "bundleHash": "sha256-f69d079e975aa7f1836f4a42d525caba0dd56c8660405c99024c0672b55faec1",
+  "merkleLeaf": "sha256-1ddec4235e8b9347a14acdccc61c1cb3e6cc882e6483ac528a84cea734086bdb",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2552,
+      "sha256": "sha256-2b2c725f8b6e8b8f3f6e6bc2c18f0cf3ab029a270b5ac23132fbebdeb6b443aa"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

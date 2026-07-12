@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "misc/scaffold-exercises",
+  "name": "scaffold-exercises",
+  "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+  "source": "https://skills.x402.wtf/api/skills/misc/scaffold-exercises/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/misc/scaffold-exercises/metadata.json",
+  "bundleHash": "sha256-c407dbef914a6c8e20f6f65681e9959c9be4cb89850a3315cbc7e1ac9c18f45b",
+  "merkleLeaf": "sha256-1b6cc4fec6413f5e88539bd3ff13819334020c86f4ce1fd09e66df023aadb241",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3589,
+      "sha256": "sha256-75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/physical-ai-people-attribute-search",
+  "name": "physical-ai-people-attribute-search",
+  "description": "Use when running people attribute search (PAS) image augmentation and auto-labeling workflows on OSMO: flow selection, preflight, submit-time interpolation, monitoring, and output retrieval. Trigger keywords: people attribute search, PAS, person augmentation, attribute search, person re-identification, clothing augmentation, person crop augmentation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-people-attribute-search/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-people-attribute-search/metadata.json",
+  "bundleHash": "sha256-076ea55b9cea276826bbab2307e23fbabf38d41f47d2af6d7e28ca0998229c82",
+  "merkleLeaf": "sha256-9e6316cfc9db2606e17ab45f35a56e1d9dd58f4d573df82492ba922d93802d32",
+  "files": [
+    {
+      "path": "assets/configs/osmo/augmentation.yaml",
+      "bytes": 3710,
+      "sha256": "sha256-7345d3cd06c136386e6120115ce0527948d11b0f148e6a306fd67610ba7f98c4"
+    },
+    {
+      "path": "assets/configs/osmo/auto_labeling.yaml",
+      "bytes": 2997,
+      "sha256": "sha256-b142745d9fd31ec90f359819f781801f02d573a689da0c93b3a4aa5846d375d8"
+    },
+    {
+      "path": "assets/configs/osmo/e2e.yaml",
+      "bytes": 4449,
+      "sha256": "sha256-1a94ebba0b8cf6911180dee8e53cc30d111b846c86a17285e9f4d384ed8d0203"
+    },
+    {
+      "path": "assets/cookbooks/default/augmentation_config.yaml",
+      "bytes": 1861,
+      "sha256": "sha256-593b8bdb0f52f1c8b9838cff5d47d28ed4f91cae46802b5fb30d3dd289ba73b9"
+    },
+    {
+      "path": "assets/cookbooks/default/distribution_config.yaml",
+      "bytes": 1989,
+      "sha256": "sha256-b9aa8542e053ceeb5fa4e80c9be0c0f3142e1e014d23cce842bb00392ccedf57"
+    },
+    {
+      "path": "assets/cookbooks/default/README.md",
+      "bytes": 1432,
+      "sha256": "sha256-1a71f68e5022f5b47d91dea925a4996ae43123e4f14f63b9e2260f4ce90cbee3"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3751,
+      "sha256": "sha256-8594cd9b8982ae37ce1669570a9f68ee65f9d6c60acdee40d45febff2e6cef26"
+    },
+    {
+      "path": "references/container-images.md",
+      "bytes": 1574,
+      "sha256": "sha256-4b964eb7e5a2227be5d7c314cb74a1a25502e7db49ee8a8e2493b8c41bbc701a"
+    },
+    {
+      "path": "references/flows/augmentation.md",
+      "bytes": 1393,
+      "sha256": "sha256-323c9a26095786341b95ec081d383d35ae169bcf86b12be79e67cd8ec408c6ce"
+    },
+    {
+      "path": "references/flows/auto_labeling.md",
+      "bytes": 1799,
+      "sha256": "sha256-7b79d2a5bac4d69da47657a25957aefae2d83246a7aecfbbf6feb4462e92325f"
+    },
+    {
+      "path": "references/flows/e2e.md",
+      "bytes": 2705,
+      "sha256": "sha256-1f3c0452510ee858c81145fa9673ea5015ee2de94c5ffb41bb0874fd103e4731"
+    },
+    {
+      "path": "references/nim/qwen-image-edit-2511.yaml",
+      "bytes": 2886,
+      "sha256": "sha256-b29e7e98f9df0525070125f075801fd90a52da409833293c5e26e6c22b5afa80"
+    },
+    {
+      "path": "references/nim/README.md",
+      "bytes": 3911,
+      "sha256": "sha256-a81959c9e5501241a1ef84af87da62a132e004eba3c53bcd176fefe3c5d4907c"
+    },
+    {
+      "path": "references/setup.md",
+      "bytes": 3447,
+      "sha256": "sha256-ec6a4f17c26643eae0d3f3cad3b7758acde85946778db8a93131d28ad0af2042"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 4500,
+      "sha256": "sha256-eff3f1ee3f29025c2d297102da72e7387c21de170edd9ca099f6ba3e4f657c25"
+    },
+    {
+      "path": "scripts/augmentation_worker.sh",
+      "bytes": 9941,
+      "sha256": "sha256-2672b18413f0e4500a350bdcd73dadf01855626fe421e52acd962c56a75e45f4"
+    },
+    {
+      "path": "scripts/auto_labeling_worker.sh",
+      "bytes": 5971,
+      "sha256": "sha256-ed1030b9962fb4071061be16412a1723f2dcd9f57f3e3a30da98e20ac5de2ccb"
+    },
+    {
+      "path": "scripts/endpoint_common.sh",
+      "bytes": 7123,
+      "sha256": "sha256-b4135e76df8b2145835a594cd95a88a336de45cea3e22b4cfe95fa1203a17dd6"
+    },
+    {
+      "path": "scripts/preflight_credentials.sh",
+      "bytes": 10098,
+      "sha256": "sha256-ce1c61b5f447b3addfec0295cb03fdabd23e4a5a0eca2112f8eee8d6fd160055"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4417,
+      "sha256": "sha256-c5e1abe9cca6d261016837b723c3f49c89b8604cbb56e7a3615ba83a3151eee1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10873,
+      "sha256": "sha256-715af62336a1a799b5560c39065e9fce9ec36f8ad5c45c67d38d0672fd51a945"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

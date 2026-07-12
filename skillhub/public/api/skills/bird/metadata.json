@@ -1,0 +1,7 @@
+{
+  "slug": "bird",
+  "name": "bird",
+  "description": "X/Twitter CLI for reading, searching, posting, and engagement via cookies.",
+  "category": "Utilities",
+  "skill": "/api/skills/bird/SKILL.md"
+}

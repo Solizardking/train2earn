@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "1password",
+  "name": "1password",
+  "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
+  "source": "https://skills.x402.wtf/api/skills/1password/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/1password/metadata.json",
+  "bundleHash": "sha256-cea0f07581c32cb7f0bfed03b6671bb2488f35166235caa07d1c16a6fe54c5ff",
+  "merkleLeaf": "sha256-48789d28fb5ec41f2337d8f77cc34c3635ae689872d7c2018d09a93f2ef3f297",
+  "files": [
+    {
+      "path": "references/cli-examples.md",
+      "bytes": 720,
+      "sha256": "sha256-7df8fb39623b7cd222766e33255d47c271f772ca53198f256f1270fd9054d20e"
+    },
+    {
+      "path": "references/get-started.md",
+      "bytes": 994,
+      "sha256": "sha256-e5fc5c4fbfd61fa590a2ba903eb7c22bd8d8c622bd47287ff66c20d00d7156b4"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2408,
+      "sha256": "sha256-5cc0b694c2c26264eff5edc954491bd66cc6b0729f9cdfcdd3d0f9d70d5c93cc"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

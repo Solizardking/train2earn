@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-deploy-video-embedding",
+  "name": "vss-deploy-video-embedding",
+  "description": "Use this skill when deploying, operating, or integrating the VSS 3.2 GA RT-Embed Video Embedding microservice. Covers Docker Compose bring-up, GPU and storage prerequisites, the `/v1` REST API (file uploads, text and video embeddings, live RTSP streams, health and metrics), Redis/Kafka/OTel integration, common failure modes, and teardown.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-video-embedding/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-video-embedding/metadata.json",
+  "bundleHash": "sha256-1ddd30cc65786266f368cff7eaf2f22817e68979ce6e72587bbc88f372091ee7",
+  "merkleLeaf": "sha256-b2e5ca39f55ef681bbf2bcea016be64fd8067ce0075543526cc250a9cfc22543",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4282,
+      "sha256": "sha256-d7b1347b10943127a4445cb0e664d925097999e33076d9dc7fc0e07e2b6ff436"
+    },
+    {
+      "path": "references/deploy-vss-deploy-video-embedding.md",
+      "bytes": 11360,
+      "sha256": "sha256-2efa578e34c3896886471052c6a37e4a4edc16f1cb6552442dc3b92737632692"
+    },
+    {
+      "path": "references/environment.md",
+      "bytes": 6398,
+      "sha256": "sha256-21428c5aa6e5a6e31ed165cca6e12c621373a7a4686a2a9790a0e3c4e67afe06"
+    },
+    {
+      "path": "references/integrate-vss-deploy-video-embedding.md",
+      "bytes": 16785,
+      "sha256": "sha256-1e501c9f60ccb61d4aba8fd97cab40ff91a2dfccf31bacd23a2cd706aaeb5adb"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 1535,
+      "sha256": "sha256-ab6f44448a8e998d695700a45ff1e9ced1c545422870aaae82b01dc971c5a2dc"
+    },
+    {
+      "path": "references/rest-api.md",
+      "bytes": 12895,
+      "sha256": "sha256-5333396ef2a0a0b2662dc7e8d788fadd47e57d264ef91cfd558a3ec5055cea4a"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 8792,
+      "sha256": "sha256-2aa094831354e8b79f3c2682b071fd4322c208fe99b327446335e99e2ef3e7c4"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4105,
+      "sha256": "sha256-5f8ddc1d56b9f00d85ae0860a432e93bfecf4f1155756da608759fb459bf063a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14670,
+      "sha256": "sha256-ddd0c5fa7aa514d0ff617f3bc804e0ee8bb3f36930e0b089c79e680366a28b79"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

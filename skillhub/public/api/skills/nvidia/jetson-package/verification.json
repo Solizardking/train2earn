@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-package",
+  "name": "jetson-package",
+  "description": "Pick Jetson-compatible containers, vLLM runtime images, and Jetson AI Lab PyPI indexes; maps Orin SM 8.7 vs Thor SM 11.0 and JetPack-specific package choices.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-package/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-package/metadata.json",
+  "bundleHash": "sha256-7b47ddc45baba4473d18e06cd0405f44474c420d3db0e145f911db902ebcc8e2",
+  "merkleLeaf": "sha256-ea0bcc4cfcafa63020684bee853a5f04b7df8c39d8f8f3817574671753f5ed5d",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3302,
+      "sha256": "sha256-c2c8f090a4d27602aeae17595b72809a8da83fa67d87f277ad18f5569cefd164"
+    },
+    {
+      "path": "references/ghcr-images.md",
+      "bytes": 1027,
+      "sha256": "sha256-3958443942d48aff66bfbefb30715ef724a2ce830e7e9651153a363717c98dd7"
+    },
+    {
+      "path": "references/pypi-jetson-ai-lab.md",
+      "bytes": 943,
+      "sha256": "sha256-c2f02b28ba51716850e93ad65d25246d0109d89e61b812d15cf1209307d5510b"
+    },
+    {
+      "path": "scripts/artifact_hints.sh",
+      "bytes": 3392,
+      "sha256": "sha256-09cdffcc3d25932e431da755df11fa92b64627f7f6db138128fab295d9df8204"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3973,
+      "sha256": "sha256-4641df3c35f982f5a95527e6c2284c1f210a43a66c8e94b7bea9022a54e5f96b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7336,
+      "sha256": "sha256-e7f8ab40a2ba875045fa3fb15f524394cee1d85b4bbf7f80831fc79acec4dbd0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

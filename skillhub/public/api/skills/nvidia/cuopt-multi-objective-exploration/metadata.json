@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/cuopt-multi-objective-exploration",
+  "name": "cuopt-multi-objective-exploration",
+  "description": "Trace and interpret the Pareto frontier across competing objectives using repeated single-objective cuOpt solves (weighted-sum and ε-constraint).",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/cuopt-multi-objective-exploration/SKILL.md"
+}

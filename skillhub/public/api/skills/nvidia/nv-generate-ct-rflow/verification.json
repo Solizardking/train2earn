@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nv-generate-ct-rflow",
+  "name": "nv-generate-ct-rflow",
+  "description": "Used for generating synthetic CT volumes and masks with NV-Generate-CTMR rflow-ct. Not for production training data without review.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-ct-rflow/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-ct-rflow/metadata.json",
+  "bundleHash": "sha256-a4cd9ff0ad6a37206cb27951bc109a8d5bad1c3d34cb59553a20e575b4937f0d",
+  "merkleLeaf": "sha256-fee815a9bafe167023c096d9d3fc0ca44ccc7f4a3a143794dba4532ccfe01594",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4029,
+      "sha256": "sha256-131cf82b2ed9eb470ce77b910f1e31e87196178393a0f8fa4d1b3f8b2125e5a6"
+    },
+    {
+      "path": "references/ct-from-mask-format.md",
+      "bytes": 672,
+      "sha256": "sha256-2d98b553505f5621956b71dd87344b0a8d7b4cab15de776ac1232c8e5c42b52e"
+    },
+    {
+      "path": "references/ct-mask-label-space.md",
+      "bytes": 761,
+      "sha256": "sha256-e07c4a052b07a541e4e776c8e14a840358eb348a2349b75fb397057b0c1a19d8"
+    },
+    {
+      "path": "references/fov-and-downloads.md",
+      "bytes": 2077,
+      "sha256": "sha256-e3552e86711b88d12c6209db9dc2fb718783964a5a7523ba0e16b498c5901887"
+    },
+    {
+      "path": "scripts/_anatomy.py",
+      "bytes": 12083,
+      "sha256": "sha256-d3556577e596623970d2093f7fd2161e4ef9bcfca514ead1df10f74be3696474"
+    },
+    {
+      "path": "scripts/_summary_card.py",
+      "bytes": 11115,
+      "sha256": "sha256-b6b0f9c46652764da1911f4edb5af0c984faa9e6940614233896facee3a51667"
+    },
+    {
+      "path": "scripts/list_anatomies.py",
+      "bytes": 4590,
+      "sha256": "sha256-4ece2ac43cd9ffec806a68f4b362ff0a6b72b01a7fbbbd307581950bda9b096f"
+    },
+    {
+      "path": "scripts/run_ct_from_mask.py",
+      "bytes": 17916,
+      "sha256": "sha256-be40924043e65df652804f1884afcbd93c54ddfae8f2880cd519dc5c1edcce5c"
+    },
+    {
+      "path": "scripts/run_ct_image.py",
+      "bytes": 20906,
+      "sha256": "sha256-79e48110b068dc2081167fe3a65a73c7d529cdcefa4017cf40eaaa6b06d9fa90"
+    },
+    {
+      "path": "scripts/run_ct_mask.py",
+      "bytes": 20445,
+      "sha256": "sha256-979559297e51e6d5548988c4fdbc0a1f17b6603d352cb24cad98b9cf94d8adb6"
+    },
+    {
+      "path": "scripts/run_rflow_ct.py",
+      "bytes": 39542,
+      "sha256": "sha256-51902b3c6fa3e87106fef8daf3acd655db6e2ea9f1a03985bc1258a325133a7d"
+    },
+    {
+      "path": "scripts/wrapper_utils.py",
+      "bytes": 2114,
+      "sha256": "sha256-f75c1724ec7474d70247b6d3c78bc704800458bff8c928f7786d4fc1bd659883"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 8088,
+      "sha256": "sha256-0dee0a693ec7ab7bb20461b7e61d1981f63b24f7360ec9651982b3db49315ab3"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4273,
+      "sha256": "sha256-6e928b993fd0b80b1db0f3dbafa5fc0b2b86ca701d1d1dce683ab30a09dcc5a7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12285,
+      "sha256": "sha256-f74c0f8063554f05b5d0306ccb262b7629a9bf13f6ad675cee1db353de9447d4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

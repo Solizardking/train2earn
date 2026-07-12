@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-metric-learning-recognition",
+  "name": "tao-train-metric-learning-recognition",
+  "description": "Metric-learning recognition (ml-recog) for fine-grained visual recognition. Learns embeddings for retrieval-based matching (e.g., retail product recognition) using triplet / contrastive losses. Use when training, evaluating, exporting, or running inference for a TAO metric-learning recognition model. Trigger phrases include \"train metric learning\", \"ml-recog\", \"retrieval embeddings\", \"triplet loss recognition\", \"fine-grained matching\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-metric-learning-recognition/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-metric-learning-recognition/metadata.json",
+  "bundleHash": "sha256-3cdff539389e1135a2d46d1bc0a2772cf858496e9af586283922c893523d1f46",
+  "merkleLeaf": "sha256-704c56352b577d2c2d498026e707fcdd46000b551be74c82b801cbb44af1aba4",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4192,
+      "sha256": "sha256-5bdc82967186d793c2b6c18bff4094965737c80df1490d49a3e9f61aa504ee80"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4828,
+      "sha256": "sha256-5b92b09b07f309d3b69b317d4150e10be489285351e8eb6ace7757e17082b879"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 169,
+      "sha256": "sha256-d48e7d8fb71856d3344f7c606bc724226b9d220460f7630ae3ce481b99ea95c1"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 582,
+      "sha256": "sha256-5a5156489c2c04e0fb9a0fb2808cfd90e8fa56c72dd2c7ff5698469ff0ae7f9a"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 308,
+      "sha256": "sha256-a91f49dc2ed7b5f7d15ef317f6be54bb8fddba899faa4bf74cc3d661dee92c83"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1856,
+      "sha256": "sha256-6069c1ee461f61dcc4fdebb637a141da9d3937ef31e195859b31a0e104b34a1d"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 1776,
+      "sha256": "sha256-f1b74b6126ccadce27f037ab4fdc88d5422292f7a06f4e607c35e04cfdc3bab0"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 2082,
+      "sha256": "sha256-6acaded85fa550d710e47971c212d265792cb6f267954a6731a7a1909b6a661d"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 1887,
+      "sha256": "sha256-cf2ed3ad1c3085575b8737ce0f2de1db3373881d5f173a7af6a3b6708204e652"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 1687,
+      "sha256": "sha256-41fde60c901424d5170bbd2a5af5f009f585fda9413209c0b23a70f7346749a1"
+    },
+    {
+      "path": "references/tao-deploy-metric-learning-recognition.md",
+      "bytes": 5877,
+      "sha256": "sha256-b7ac168287625a3f6b6b6ee42f076d19bf247738653790b5567b6b89a29ac0e0"
+    },
+    {
+      "path": "references/tao-deploy-metric-learning-recognition.skill_info.yaml",
+      "bytes": 4086,
+      "sha256": "sha256-9f68724557ed2a6f5f000c7625b88271fa8f70893666191e0b012e02cb1ed201"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3889,
+      "sha256": "sha256-61134ac71fe87c975232050890ed4d7a6be7f61c8595c2337545fca43fa45fb1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10922,
+      "sha256": "sha256-f73fa36177b22f11edbaa393bc156ee71e45dfd3b2876764de91423ca702c763"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

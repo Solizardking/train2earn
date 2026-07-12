@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-waf-cost-optimization",
+  "name": "google-cloud-waf-cost-optimization",
+  "description": "Generates cost optimization guidance for Google Cloud workloads based on the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify cost requirements and constraints, and provide actionable recommendations for build, deploy, and manage the workload cost-efficiently in Google Cloud.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-cost-optimization/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-cost-optimization/metadata.json",
+  "bundleHash": "sha256-01ce7b267dea41c71bfe4b81431446a6ffbf098cb68c3b15e97554413a3f51e7",
+  "merkleLeaf": "sha256-5174cb397d4a7a5821ba033942ae1d42a41e05d007e8e10af199ff0c10f442a2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 6703,
+      "sha256": "sha256-698bba250c0baad6a36902e7aa57395e2c2080c6c4a4ba2995919ccbf71b8cdb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

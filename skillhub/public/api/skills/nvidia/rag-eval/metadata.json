@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/rag-eval",
+  "name": "rag-eval",
+  "description": "Filesystem RAG benchmarks: corpus/, train.json, evaluate_rag.py (RAGAS quality). Not for prod monitoring, latency/throughput benchmarking (use rag-perf), or evals outside this repo layout.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/rag-eval/SKILL.md"
+}

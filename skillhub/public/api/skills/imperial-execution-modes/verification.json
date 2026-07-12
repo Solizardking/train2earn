@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-execution-modes",
+  "name": "imperial-execution-modes",
+  "description": "Execution-mode taxonomy for Imperial router workflows in this repo: observe, route-check, paper/spec, live single-shot, and external durable runner.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-execution-modes/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-execution-modes/metadata.json",
+  "bundleHash": "sha256-a685224084b20e801e01ac73fbc0f237f030e28db254ccb05e18656031192af5",
+  "merkleLeaf": "sha256-27e31ec4e336fa356d1cfd79940b245aeed9d2d363ef914d3ff650aec416eb9d",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 910,
+      "sha256": "sha256-76931fd78f5e4305ca108c6b9a37c6f3886a2049d8d8431e6b11cdb67c2ebd10"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/data-designer",
+  "name": "data-designer",
+  "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline with the standalone Data Designer skill.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/data-designer/SKILL.md"
+}

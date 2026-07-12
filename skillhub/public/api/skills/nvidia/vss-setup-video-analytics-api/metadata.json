@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/vss-setup-video-analytics-api",
+  "name": "vss-setup-video-analytics-api",
+  "description": "Use to deploy the vss-video-analytics-api REST service standalone (config-source, data-log bind, Elasticsearch, optional Kafka). Not for full warehouse deploy.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/vss-setup-video-analytics-api/SKILL.md"
+}

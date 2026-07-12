@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/mcore-split-pr",
+  "name": "mcore-split-pr",
+  "description": "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/mcore-split-pr/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/mcore-split-pr/metadata.json",
+  "bundleHash": "sha256-a720023056b27c4a0edd9568389179252536e0a93e3be96ca613898017e22176",
+  "merkleLeaf": "sha256-82cbf27298322a758439e56a7a25ce3466760262ff098647712e00be4952840c",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2762,
+      "sha256": "sha256-519dfd254d745832eae934a4cc98eda17ccc9c4d42803e632bba692d217f2087"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2463,
+      "sha256": "sha256-bccc1e94abfd7447227cfe90847e5119abb104ce38a4701bb3b5d3be9dcb5edb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4484,
+      "sha256": "sha256-0f3d40922d3c57eb6eba1ed74b8b6cdb3e87a469c1e6afd41541d2fed72e21a0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

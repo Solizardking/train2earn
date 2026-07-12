@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemotron-customize",
+  "name": "nemotron-customize",
+  "description": "Plan, configure, and chain repo-native Nemotron customization steps into single-step or multi-step pipelines: curation, translation, SFT/PEFT (AutoModel or Megatron-Bridge), pretraining/CPT, RL alignment (DPO/RLVR/GRPO/RLHF), BYOB/MCQ benchmarks, checkpoint conversion, ModelOpt optimization, env profiles, and evaluation of trained checkpoints or existing/hosted endpoints. Use when a request names a Nemotron step or workflow, or asks to clean, translate, train, fine-tune, align, convert, optimize, evaluate, or compose these into a pipeline. Do NOT use for frontend/dashboard/visualization work, generic ML advice, billing/access, or non-Nemotron coding tasks.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemotron-customize/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemotron-customize/metadata.json",
+  "bundleHash": "sha256-f889ff70b50b6f6c18d358c43b992c1e9433c63a5244310cce3fab4f5cbb3d91",
+  "merkleLeaf": "sha256-04aea2fe27fdfc80c121e09d052a7385b2a40be1dec5e04fcf4899cdbec1e6ff",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3742,
+      "sha256": "sha256-bec0a34cb839a9dd768f7ac4a3f52917ea87a797443a388d28942aee682f4472"
+    },
+    {
+      "path": "references/act/PROJECT.md",
+      "bytes": 7340,
+      "sha256": "sha256-432634e7ab162a1f7275f9299f12e1da5d57670cab7fa1b29712ec51880658e0"
+    },
+    {
+      "path": "references/act/STAGE.md",
+      "bytes": 9078,
+      "sha256": "sha256-2d4e44f69de58aa598af8dac0950d165839a667205d17ff8e7f6e5ec0a8e5e54"
+    },
+    {
+      "path": "references/ARTIFACTS.md",
+      "bytes": 4959,
+      "sha256": "sha256-6de0f5b1f54e0aeab0c79b9d7e2fa5bdaf7120e1d2e74537b008513e271e2252"
+    },
+    {
+      "path": "references/CATALOG.md",
+      "bytes": 13337,
+      "sha256": "sha256-67a4f043038df223a683c779e54eaa68347721d99d58d2322f0d84582d216801"
+    },
+    {
+      "path": "references/COMMANDS.md",
+      "bytes": 9540,
+      "sha256": "sha256-391fbdd2b9b765b48b7d9d96aeafc2db10ccc2f0f878f08b4e5dfe64d796ded0"
+    },
+    {
+      "path": "references/context/automodel-launcher-executor-modes.txt",
+      "bytes": 2445,
+      "sha256": "sha256-9a2650bd038cb90ff3f5a06c20f112bcae3ecfca403f490d4c8525bc56ed7d1e"
+    },
+    {
+      "path": "references/context/automodel-pretrain.txt",
+      "bytes": 6146,
+      "sha256": "sha256-8a4c5cca922eba15e21ece7fd7dcb89ebbce296d111743d1e0a47387ba89d3c6"
+    },
+    {
+      "path": "references/context/automodel-sft-peft-core.txt",
+      "bytes": 2200,
+      "sha256": "sha256-09e8dc588a995f54bd11432f01a6dffb0ebae1ed2e293f403cfbad79f56e942d"
+    },
+    {
+      "path": "references/context/byob-benchmark-curator-translation.txt",
+      "bytes": 5026,
+      "sha256": "sha256-7e7af98e315f0d5eb34a33fcf9c835655f10c419c01d67c2f16840f43b9584dc"
+    },
+    {
+      "path": "references/context/checkpoint-conversion.txt",
+      "bytes": 1822,
+      "sha256": "sha256-91ec24b54ba4bac62799717f6ec9cfcc26eeee931f34c93ba51f1e5d8aa246c5"
+    },
+    {
+      "path": "references/context/curator-data-acquisition.txt",
+      "bytes": 2356,
+      "sha256": "sha256-993bab0289891d21bfd90a5aaa7be2f46bc87b2e2d3fce0757cfd31a393befa8"
+    },
+    {
+      "path": "references/context/curator-processing-language-quality.txt",
+      "bytes": 1775,
+      "sha256": "sha256-e06221b71b29704b07844ebb963314097cc2bc323daa9302df59c4a5771042f5"
+    },
+    {
+      "path": "references/context/curator-translation-faith.txt",
+      "bytes": 4879,
+      "sha256": "sha256-679d618ce40d8d7402cf407095c4e2bb02e2cb056043f3e81dcfc770e42d3372"
+    },
+    {
+      "path": "references/context/data-designer-sdg.txt",
+      "bytes": 4711,
+      "sha256": "sha256-59fb2afd1f6a485dd96a475cb49d2b6ec1b3286b6e86afaeccac58bc6100bfea"
+    },
+    {
+      "path": "references/context/eval-deploy-formats.txt",
+      "bytes": 1787,
+      "sha256": "sha256-a99be4ee0658bb7eb0103eebe5bae1d4a06b149924891c2ae73fd63feb4b3d20"
+    },
+    {
+      "path": "references/context/eval-sovereign-benchmarks.txt",
+      "bytes": 2090,
+      "sha256": "sha256-82164686c9fc7a75b8278a1e9e482ba2f09e2e8bd85ad8c58ab837f3a404d265"
+    },
+    {
+      "path": "references/context/eval-standard-nlu.txt",
+      "bytes": 1766,
+      "sha256": "sha256-a1d50a8165fd8d1f71a190f8164f79febd34356f1684cd73243b517e00d46004"
+    },
+    {
+      "path": "references/context/index.toml",
+      "bytes": 7566,
+      "sha256": "sha256-3c534201d600baf172e4e2184c0dae6a65bdc296507aba54e8808a7066a028a9"
+    },
+    {
+      "path": "references/context/mbridge-parallelism-performance.txt",
+      "bytes": 2038,
+      "sha256": "sha256-831e86fb8e7c8d8d8f86838403a10a2fa1956c802ea347714db4bc385d9cf82d"
+    },
+    {
+      "path": "references/context/mbridge-pretrain.txt",
+      "bytes": 1831,
+      "sha256": "sha256-a42a482f17a34106d35e53364d436db42cdfd308869c095037d57377d040fa24"
+    },
+    {
+      "path": "references/context/mbridge-sft.txt",
+      "bytes": 1883,
+      "sha256": "sha256-e1f8d4d74898c5c0eea9f6cef09c506b02211340bd043d38ef61837c8502abbf"
+    },
+    {
+      "path": "references/context/modelopt-optimization.txt",
+      "bytes": 8498,
+      "sha256": "sha256-9fcdd8a2078e02c5718798fcc124fe9a107b6ed987dfb0b57f5ae21323bb1084"
+    },
+    {
+      "path": "references/context/nemo-rl-alignment.txt",
+      "bytes": 5853,
+      "sha256": "sha256-8fec2f17ba00b086cb20e2e24d961819a90902a18557cc27c11b6489844897be"
+    },
+    {
+      "path": "references/context/nemotron-data-prep.txt",
+      "bytes": 6203,
+      "sha256": "sha256-5dd8dd76119ae178882911d2d32dcf43b8c45629a44bedcfcf6b23ee30d69a6a"
+    },
+    {
+      "path": "references/context/README.md",
+      "bytes": 1658,
+      "sha256": "sha256-df554b4b5888e9f57c894a755f91ce3dd2a0892283ab7d5c3470f4ebfcfc5e0a"
+    },
+    {
+      "path": "references/examples/CALIBRATION.md",
+      "bytes": 2588,
+      "sha256": "sha256-a1a333bc0d4e193417085dc3628ba7b8a834389a4fee4b50dec130a604febb79"
+    },
+    {
+      "path": "references/HARDWARE.md",
+      "bytes": 3189,
+      "sha256": "sha256-6c52667db8ee9b0b8edef388b7c939bead203d68b12d10be0f3f132c0dd8f05d"
+    },
+    {
+      "path": "references/PATTERNS.md",
+      "bytes": 4080,
+      "sha256": "sha256-f7da3f0a0ed52e87f7a72157c9138c0ce9dd117ec70c844cb5ef37bf0f22b466"
+    },
+    {
+      "path": "references/WORKFLOW.md",
+      "bytes": 5307,
+      "sha256": "sha256-b5363f57f6dafed09f8a68c9583e9f14c0e1f791330007733a72c8396af5d86f"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4187,
+      "sha256": "sha256-7bab0444e95cb7c262595c23e3fbaf9bb64c18a54074b18b3737609471bb0a68"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16527,
+      "sha256": "sha256-985a97bb839e8f031a7a7c1bba67c54372fdef80ded896ba45a0b43ce83c5672"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

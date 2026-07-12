@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/tao-train-segformer",
+  "name": "tao-train-segformer",
+  "description": "SegFormer for semantic segmentation. Lightweight transformer-based architecture with hierarchical feature extraction, efficient for real-time segmentation tasks. Use when training, evaluating, exporting, quantizing, or running inference for a TAO SegFormer model. Trigger phrases include \"train SegFormer\", \"semantic segmentation\", \"lightweight transformer segmenter\", \"real-time semantic segmentation\".",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/tao-train-segformer/SKILL.md"
+}

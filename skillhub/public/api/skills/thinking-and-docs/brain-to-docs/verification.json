@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "thinking-and-docs/brain-to-docs",
+  "name": "brain-to-docs",
+  "description": "Use when the user wants to extract project vision, decisions, and preferences from his head into clear documentation (README + ADRs) through a back-and-forth Q&A loop. Triggers on \"brain-to-docs\", \"build out the docs\", \"extract the vision\", \"let's document this project\".",
+  "source": "https://skills.x402.wtf/api/skills/thinking-and-docs/brain-to-docs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/thinking-and-docs/brain-to-docs/metadata.json",
+  "bundleHash": "sha256-dba558dd0304039e617631179bddf9c6ab45594049f707fe8977c9052824d06b",
+  "merkleLeaf": "sha256-e51cb1ab1d29bbb7cb431e13e19f60f491aa3d063d979ccf3e89cadd4a629dca",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1764,
+      "sha256": "sha256-8087429fdeda9699f884c0b864e04a2218d24fc50809c2e3f11b3ea6613e24d8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

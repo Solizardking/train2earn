@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "wacli",
+  "name": "wacli",
+  "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+  "source": "https://skills.x402.wtf/api/skills/wacli/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/wacli/metadata.json",
+  "bundleHash": "sha256-88dbd751273da0556b93ac0d1c0594597b30ae74928ed2c3afd0f544eb668d37",
+  "merkleLeaf": "sha256-f481acd687ca7b43ac3f11c884504f90ca9751232d3b61745a7589a3d9f7551e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2084,
+      "sha256": "sha256-d8ff72763ed7841766840a6f80d013db5e20bc47cb6819e2c0ba8f5af3f88a58"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

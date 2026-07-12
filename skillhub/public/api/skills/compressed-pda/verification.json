@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "compressed-pda",
+  "name": "compressed-pda",
+  "description": "For client and program development on Solana ~160x cheaper and without rent-exemption for per-user state, DePIN registrations, or custom compressed accounts. Create, update, close, burn, and reinitialize compressed accounts.",
+  "source": "https://skills.x402.wtf/api/skills/compressed-pda/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/compressed-pda/metadata.json",
+  "bundleHash": "sha256-633e4665c4723b2a6688d3fe63e61118da3a712030ca3c49610bb5dbbe0174d0",
+  "merkleLeaf": "sha256-1f91320fcd1d18c3abd8e153470412f17d8aea356569d8a7ed6d37b12959e0bd",
+  "files": [
+    {
+      "path": "references/client.md",
+      "bytes": 18106,
+      "sha256": "sha256-9eff619f76bbc4f7064692cfb3e44f8d1b186793786cc0f463f790716213d213"
+    },
+    {
+      "path": "references/compressed-pdas.md",
+      "bytes": 23291,
+      "sha256": "sha256-6ff1ebfe30e05a289870ad93cb11ca64875754a804865cf97492271e629ddc3d"
+    },
+    {
+      "path": "references/error-codes.md",
+      "bytes": 36250,
+      "sha256": "sha256-f1c0eb481f6dfbf303d4539982b170aca54d6a2ce5c14c96e0aa5031573278f8"
+    },
+    {
+      "path": "references/nullifier-pdas.md",
+      "bytes": 4415,
+      "sha256": "sha256-d0c33f40186d90512dfe081f0106895a17cfa733cd61f4d4516618f98f36e53e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9058,
+      "sha256": "sha256-fa6c22d1402b6808dc59415604129ee8fe5e9447172604144d91c0f2158c3440"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

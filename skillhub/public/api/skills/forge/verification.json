@@ -1,0 +1,494 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "forge",
+  "name": "agent-skill-creator",
+  "description": "Create cross-platform agent skills from workflow descriptions. Activates when users ask to create an agent, automate a repetitive workflow, create a custom skill, or need advanced agent creation. Triggers on phrases like create agent for, automate workflow, create skill for, every day I have to, daily I need to, turn process into agent, need to automate, create a cross-platform skill, validate this skill, export this skill, migrate this skill. Supports single skills, multi-agent suites, transcript processing, template-based creation, interactive configuration, cross-platform export, and spec validation.",
+  "source": "https://skills.x402.wtf/api/skills/forge/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/forge/metadata.json",
+  "bundleHash": "sha256-de56c1616c4fc57815f964879d9633fc3d3688be21e86aa9f448e6bb4864bdeb",
+  "merkleLeaf": "sha256-57ad0306389441840888365944ba02a6b401865a4076d94e70eb67c6ead518b0",
+  "files": [
+    {
+      "path": "assets/demo.cast",
+      "bytes": 1834,
+      "sha256": "sha256-fc1ea755df3822ba338dd22dae59bba59d5fee785360ff9ff0647650d1f68b09"
+    },
+    {
+      "path": "assets/demo.gif",
+      "bytes": 110804,
+      "sha256": "sha256-eddba18eefe77bd20a1e49f6d06529c715b9453ac073c7d7b478a280abbb4298"
+    },
+    {
+      "path": "assets/DEMO.md",
+      "bytes": 3127,
+      "sha256": "sha256-d2cf80eb738ee4b39bc6de5ee9d03f8590072fde0e86673e912bd6060f92468b"
+    },
+    {
+      "path": "assets/hero.svg",
+      "bytes": 3512,
+      "sha256": "sha256-49c6ae7a13b0c3620ef95353e61a515c9701d8285b35bd1f4a08accae19d7b8d"
+    },
+    {
+      "path": "assets/storyboard.json",
+      "bytes": 986,
+      "sha256": "sha256-0bef330ced5b704aee8439e5378e8756f1d83c7fec2a0e1ebd6f97093fe48da8"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2446,
+      "sha256": "sha256-699d596f364514dc6077c9afa88b60adf30d5440d6cdb4a44b3230de7db34989"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 5477,
+      "sha256": "sha256-ba284cf83eac64d855e427728701bb09513a5bc5a1ee15f76faf269f322626a2"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 3289,
+      "sha256": "sha256-0c0872463082ef9b3305410513d4a658615547ac6b6834beda8bd04b0be1c59d"
+    },
+    {
+      "path": "LAUNCH.md",
+      "bytes": 4467,
+      "sha256": "sha256-24405f827088858efbf3a5ea31d74224112d91693a0aeccaeee73b2d5772e3cb"
+    },
+    {
+      "path": "LEARNINGS.md",
+      "bytes": 1391,
+      "sha256": "sha256-ba7fd6068fcacfa017eb247af12c237e38af6e393576693fc9e84a808d15932b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 32985,
+      "sha256": "sha256-6f72c8bd984951b1d4719abe596726a4b8bfde169c51f6cdd988cb40e31c263d"
+    },
+    {
+      "path": "references/agentdb-integration.md",
+      "bytes": 10403,
+      "sha256": "sha256-9b60dbc122fae08b202e655cc9478500a48e248ec53c00541dc841cabffc1e58"
+    },
+    {
+      "path": "references/architecture-guide.md",
+      "bytes": 35056,
+      "sha256": "sha256-fa72a02d8b86dcb66090e5b56fe449073e87dc787598e4996e07a86825fe0b0b"
+    },
+    {
+      "path": "references/artifact-templates/bar-chart.jsx",
+      "bytes": 856,
+      "sha256": "sha256-43b2ce4360880fd9995aa18144d8efa77a66465113eb19074ef44048486c17a3"
+    },
+    {
+      "path": "references/artifact-templates/data-table.jsx",
+      "bytes": 1136,
+      "sha256": "sha256-9abef6cda393f4c65466482bc6db395eaa58493e9ceb23e194301b4cc76b09d4"
+    },
+    {
+      "path": "references/artifact-templates/kpi-cards.jsx",
+      "bytes": 950,
+      "sha256": "sha256-ff889047183112ea7686950030b0ed077fc9e77c69fac70177f63b5ebe07eeeb"
+    },
+    {
+      "path": "references/artifact-templates/line-chart.jsx",
+      "bytes": 1004,
+      "sha256": "sha256-ec3a85ba045bdc88fc35776361ac1ff605eb8775b9dbe9426623579b30e57501"
+    },
+    {
+      "path": "references/claude-artifact-format.md",
+      "bytes": 1796,
+      "sha256": "sha256-4b8686a1da7d74a46428f349e09a7d5b36b50b41e253b986147bf3b2176f9a5e"
+    },
+    {
+      "path": "references/cross-platform-guide.md",
+      "bytes": 13325,
+      "sha256": "sha256-dcf1ff19032db7a901c2a33e9edace8ae9cdcba2cb05adc775b3ccea7d763eeb"
+    },
+    {
+      "path": "references/examples/pr-blocker-summarizer/evals/golden/case-1/input.json",
+      "bytes": 339,
+      "sha256": "sha256-d82559bc241ca4d126796957ba1aa4ae98c7e41cb34f8d2f4ef32bc80846d196"
+    },
+    {
+      "path": "references/examples/pr-blocker-summarizer/evals/golden/case-2/input.json",
+      "bytes": 209,
+      "sha256": "sha256-5a8a0fae97f966e84785ff0dc42067b356283178f863753f103c2bfdc95bdd6a"
+    },
+    {
+      "path": "references/examples/pr-blocker-summarizer/evals/golden/case-3/input.json",
+      "bytes": 106,
+      "sha256": "sha256-c59685969f32e3d17fa1ac726cd99e36f0a4e9eb73a454c08b6ed81f6971d599"
+    },
+    {
+      "path": "references/examples/pr-blocker-summarizer/evals/pr-blocker-summarizer.eval.md",
+      "bytes": 1791,
+      "sha256": "sha256-7c86d683cb7167f41491274490cca636765927816d3eb84212dbf6f0d7fe1986"
+    },
+    {
+      "path": "references/examples/pr-blocker-summarizer/README.md",
+      "bytes": 1645,
+      "sha256": "sha256-4116de1d790fb8b7b3a6ea1418437a896a31a23065f2fe725702fe7a6c8f53e9"
+    },
+    {
+      "path": "references/examples/pr-blocker-summarizer/scripts/run_evals.py",
+      "bytes": 17018,
+      "sha256": "sha256-b4763e2a6b987f03eddd442310963e2428378772c03c497c351651ac276c31c8"
+    },
+    {
+      "path": "references/examples/pr-blocker-summarizer/scripts/run_pipeline.py",
+      "bytes": 2718,
+      "sha256": "sha256-ef20f844044f4d23e4ad0782fc2fdce8caffbb0ba4b0ed2d720393fe3d3d0a29"
+    },
+    {
+      "path": "references/examples/pr-blocker-summarizer/SKILL.md",
+      "bytes": 1586,
+      "sha256": "sha256-2c01499e696cc739ab20d833d1bd53577ab5e0ad361812549b9fbdcda0da0a20"
+    },
+    {
+      "path": "references/examples/stock-analyzer/evals/golden/case-1/input.json",
+      "bytes": 50,
+      "sha256": "sha256-2e856223f70b8d3de22587c9df2e35b97130fd55aac17e3bd1463b6d59ca50e0"
+    },
+    {
+      "path": "references/examples/stock-analyzer/evals/golden/case-2/input.json",
+      "bytes": 63,
+      "sha256": "sha256-9af23d25371c15c69ad52996edde95186f2a1b560a3120fc668b6b3b53242590"
+    },
+    {
+      "path": "references/examples/stock-analyzer/evals/golden/case-3/input.json",
+      "bytes": 43,
+      "sha256": "sha256-8f771f0b4d456d93ec04407cf9bc6093b4e9a94ceb79bbbe0b3d7df209c16250"
+    },
+    {
+      "path": "references/examples/stock-analyzer/evals/stock-analyzer.eval.md",
+      "bytes": 2502,
+      "sha256": "sha256-b16377c3a532f023bf1241d9c411f442a7a7433d1db0b7e8a81f70338873a103"
+    },
+    {
+      "path": "references/examples/stock-analyzer/README.md",
+      "bytes": 11257,
+      "sha256": "sha256-3372b83ba554786528cb8797a5155d472067cca8875602f45e888f5a4b3e6937"
+    },
+    {
+      "path": "references/examples/stock-analyzer/requirements.txt",
+      "bytes": 541,
+      "sha256": "sha256-9264d4f2160659c98d52b6f6bcc98c16cd3341c5d180ad4b4d2dc6fd15216def"
+    },
+    {
+      "path": "references/examples/stock-analyzer/scripts/main.py",
+      "bytes": 12623,
+      "sha256": "sha256-de9b7c356f88ddf438ed8442b176aa974d5ebbcab05dd54af1f6ce8ef1f9e405"
+    },
+    {
+      "path": "references/examples/stock-analyzer/scripts/run_evals.py",
+      "bytes": 17018,
+      "sha256": "sha256-b4763e2a6b987f03eddd442310963e2428378772c03c497c351651ac276c31c8"
+    },
+    {
+      "path": "references/examples/stock-analyzer/scripts/run_pipeline.py",
+      "bytes": 2142,
+      "sha256": "sha256-65de75461767b6b662225a475ca744861e5c4f1d2f6a484fae04bf07c1c69448"
+    },
+    {
+      "path": "references/examples/stock-analyzer/SKILL.md",
+      "bytes": 12160,
+      "sha256": "sha256-ccd2df2b0f2d1b6811812ef53db65688b30be0b488acdfb4425268c6ea8453f2"
+    },
+    {
+      "path": "references/examples/weekly-crm-report/evals/golden/case-1/input.csv",
+      "bytes": 62,
+      "sha256": "sha256-09707216ea7d350b8a2312f9c4687043568d910c5bcdd8651653a127a6b0d998"
+    },
+    {
+      "path": "references/examples/weekly-crm-report/evals/golden/case-2/input.csv",
+      "bytes": 46,
+      "sha256": "sha256-3b2466c72a460c43e69d65534001711a8038aa979e4a5b359da270f5373703fc"
+    },
+    {
+      "path": "references/examples/weekly-crm-report/evals/golden/case-3/input.csv",
+      "bytes": 39,
+      "sha256": "sha256-ff58149399f4ab5943709d345042707fc770c873383f84a653ea5948cfc32b65"
+    },
+    {
+      "path": "references/examples/weekly-crm-report/evals/weekly-crm-report.eval.md",
+      "bytes": 1879,
+      "sha256": "sha256-83b648db3208ba1999041fb885aea01f662c1f6faba0e91d48bf32071e05c3f2"
+    },
+    {
+      "path": "references/examples/weekly-crm-report/README.md",
+      "bytes": 1520,
+      "sha256": "sha256-94fba6ed276d1d5d2132c1c1c495378ca3589009ddb08e5eb024447175113d40"
+    },
+    {
+      "path": "references/examples/weekly-crm-report/scripts/run_evals.py",
+      "bytes": 17018,
+      "sha256": "sha256-b4763e2a6b987f03eddd442310963e2428378772c03c497c351651ac276c31c8"
+    },
+    {
+      "path": "references/examples/weekly-crm-report/scripts/run_pipeline.py",
+      "bytes": 2310,
+      "sha256": "sha256-592ddd41e1f124ffcce4103680240d0404591298eba9f1a6cdf6a01f9483a286"
+    },
+    {
+      "path": "references/examples/weekly-crm-report/SKILL.md",
+      "bytes": 1544,
+      "sha256": "sha256-bb5b22caf32a624792f8a94a12999c09cf9fc507ab84923f8cec28e49f7c5109"
+    },
+    {
+      "path": "references/export-guide.md",
+      "bytes": 13021,
+      "sha256": "sha256-598a0c98ea258032df25c23911d9762212588c5173f84e72ebb812b679253ef0"
+    },
+    {
+      "path": "references/interactive-mode.md",
+      "bytes": 8631,
+      "sha256": "sha256-3d22ee77c38761e0edb07b754c9296a1854a9e71f39116179bd71e612c51ce37"
+    },
+    {
+      "path": "references/multi-agent-guide.md",
+      "bytes": 15812,
+      "sha256": "sha256-db50cf8052968bbbadbfdb0616249d0167ae0bcc3c921cf8834d24ab63cbc047"
+    },
+    {
+      "path": "references/phase2-artifact-assessment.md",
+      "bytes": 4001,
+      "sha256": "sha256-99cdc61ddf60a27e2da2ec805d033d88bfa711b47b149e45ba0b53b74057ddf2"
+    },
+    {
+      "path": "references/phase2-eval-assessment.md",
+      "bytes": 9069,
+      "sha256": "sha256-bb02a0db0f10dd8cdc2a7f1c32cf235b7148f3887d4a844b11aaed01e8232b3a"
+    },
+    {
+      "path": "references/phase4-detection.md",
+      "bytes": 27505,
+      "sha256": "sha256-7dee7d817aa8eab9c016c8866020dc9caa4067ddfc1bbc3204ae27ae26903fcd"
+    },
+    {
+      "path": "references/phase5-orchestration.md",
+      "bytes": 5465,
+      "sha256": "sha256-61933ff8e447f1f22e6d31509e0bbd463bab0178d77dc5cddc26e15d419363ad"
+    },
+    {
+      "path": "references/pipeline-phases.md",
+      "bytes": 50875,
+      "sha256": "sha256-7e0cf382700a6d1848454cf0917c2a227401c6b173ee12e8fd25f12767861419"
+    },
+    {
+      "path": "references/quality-standards.md",
+      "bytes": 29373,
+      "sha256": "sha256-bf8c1ab809258528d4045b1bcf832231813bec85b92828a95c52881e8a0a65d9"
+    },
+    {
+      "path": "references/templates-guide.md",
+      "bytes": 9694,
+      "sha256": "sha256-7ed48968fed6c9847667c6aa1285d7ac47e68b1d0ac1b0653cbf2266d026814c"
+    },
+    {
+      "path": "references/templates/README-activation-template.md",
+      "bytes": 6090,
+      "sha256": "sha256-e81874c16403e998d41e07e8abeec5acdfb1a9a2aec65737139b0dafcc765ad9"
+    },
+    {
+      "path": "scripts/artifact_detector.py",
+      "bytes": 3519,
+      "sha256": "sha256-0bcf013d5270b71da7421fa1f2128c0d5fc9cbc61a49a96d1b8c7cf5493a40ed"
+    },
+    {
+      "path": "scripts/bootstrap.bat",
+      "bytes": 1109,
+      "sha256": "sha256-3c0f9f6e18c61334ff8114ae84a3608b5b835c1f377f11bf2bd7624f4df84efa"
+    },
+    {
+      "path": "scripts/bootstrap.ps1",
+      "bytes": 9543,
+      "sha256": "sha256-100ed8bc198ea9e1b1cd77175275fa470491ccf60f1e227ba95dc8fcf0180595"
+    },
+    {
+      "path": "scripts/bootstrap.sh",
+      "bytes": 7361,
+      "sha256": "sha256-0af96b3584bf873be3b5bd86011ecb646bda4fc37f53bf204a283d1651caf0e6"
+    },
+    {
+      "path": "scripts/check_pipeline.py",
+      "bytes": 6635,
+      "sha256": "sha256-2b4d4d4b26035777e0324f5aabc2f4528383cd09eb224ec1fbffaccee82e7b53"
+    },
+    {
+      "path": "scripts/dependency_health.py",
+      "bytes": 3178,
+      "sha256": "sha256-f8f4d9f9ff825b100722a6ba21fa3263fc25b6c63c726798df6223feb39dec4f"
+    },
+    {
+      "path": "scripts/export_utils.py",
+      "bytes": 23604,
+      "sha256": "sha256-1ae19f2b955bab50ce0e799355b71e6a669451acd40411750c33dec573118909"
+    },
+    {
+      "path": "scripts/install-skill.ps1",
+      "bytes": 20482,
+      "sha256": "sha256-c71214d65f03bf5703dbeb47b846bb81fa67effddb96f30669965393d8f017a4"
+    },
+    {
+      "path": "scripts/install-skill.sh",
+      "bytes": 19605,
+      "sha256": "sha256-28c0babee5ac5dedf2f9f369fcc1a92e623f59e77ebf23787524db7f3a1bd8ee"
+    },
+    {
+      "path": "scripts/install-template.ps1",
+      "bytes": 24763,
+      "sha256": "sha256-60d1df7b74b833b4dd939564d00f3216a2b1d6c90a795c1f03c062b4290955ca"
+    },
+    {
+      "path": "scripts/install-template.sh",
+      "bytes": 32124,
+      "sha256": "sha256-fe804a3fb8fa4fecc0740c433294a1c88e6eadf81f7f7b4dfe84fecf728e59b2"
+    },
+    {
+      "path": "scripts/platforms.py",
+      "bytes": 3405,
+      "sha256": "sha256-10575a32beb1b3d264ae2d6b593cefe50d58398a94bc232a6ccd26dda4f3aa64"
+    },
+    {
+      "path": "scripts/review_staleness.py",
+      "bytes": 5771,
+      "sha256": "sha256-b69dbe2116a4ea5a5bfab87f73a1989b6a1dbd82e6b40f384495a871daf2a8b1"
+    },
+    {
+      "path": "scripts/run_evals_template.py",
+      "bytes": 17344,
+      "sha256": "sha256-f271ffa9035d8365080c50da9d210c538c350700587934b997831c5c848591d6"
+    },
+    {
+      "path": "scripts/schema_drift.py",
+      "bytes": 6997,
+      "sha256": "sha256-59acf0a94fad8edc248636c050f463f201a4e1dcb0deab4dea28cbf8035731df"
+    },
+    {
+      "path": "scripts/security_scan.py",
+      "bytes": 15040,
+      "sha256": "sha256-62b417bcb5da48126d5d6eb91f4b86bf9b7e8efe6a3e642ab34cc775705588f5"
+    },
+    {
+      "path": "scripts/skill_document.py",
+      "bytes": 8617,
+      "sha256": "sha256-ad796429d2588f2842177e6256f135100c05768b9f75c7a4ffcfff24c8563c35"
+    },
+    {
+      "path": "scripts/skill_registry.py",
+      "bytes": 29932,
+      "sha256": "sha256-081c19a23fd5a96f99038eb53f7974bf3fa480b1abb6c822a1d03015f3882f7a"
+    },
+    {
+      "path": "scripts/staleness_check.py",
+      "bytes": 6326,
+      "sha256": "sha256-1e35a263a2a147da01583daf48a09183d3743c7afe9c0dac633e21416ff2fab7"
+    },
+    {
+      "path": "scripts/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/tests/fixtures/labeled_examples.json",
+      "bytes": 3934,
+      "sha256": "sha256-e000954e99d442b3003af5ee440259fffb996f7558778d56d32a062cc4f4b094"
+    },
+    {
+      "path": "scripts/tests/fixtures/v4_skills_regression.json",
+      "bytes": 2729,
+      "sha256": "sha256-3b2bb8afb66fe1c5034e233a92a290cfbf8c0d7f472e0dc5cad807b641539de7"
+    },
+    {
+      "path": "scripts/tests/test_artifact_detector.py",
+      "bytes": 5089,
+      "sha256": "sha256-ce5d0abfe401b1bfa7d3340cd01b26fac0461704bbcd71d68f061044f9d0ba8c"
+    },
+    {
+      "path": "scripts/tests/test_check_pipeline.py",
+      "bytes": 4280,
+      "sha256": "sha256-005d05b9ab4a467a9bf70e6ea88308fb2ba2fa028095348b851529471ebc7588"
+    },
+    {
+      "path": "scripts/tests/test_dependency_health.py",
+      "bytes": 2761,
+      "sha256": "sha256-dc439d9806c15293083c0262cbd8a0f13038dbb7c1bc73fc732d07e4f874fed2"
+    },
+    {
+      "path": "scripts/tests/test_export_utils.py",
+      "bytes": 9318,
+      "sha256": "sha256-f3a6def5c573f2ffb54ae1cb7fd4ba141727e9e84c02ceb7f99b695a7b486ac9"
+    },
+    {
+      "path": "scripts/tests/test_install_parity.py",
+      "bytes": 8598,
+      "sha256": "sha256-e3bc6db84a1a11885bb85baf4fc42901381a2c7183173a07c1b713c33f271497"
+    },
+    {
+      "path": "scripts/tests/test_phase2_integration.py",
+      "bytes": 2553,
+      "sha256": "sha256-c867be9d9636bb855b5df4231a7e1f309b0ae90450f0807ae0025d5eeb59dd5a"
+    },
+    {
+      "path": "scripts/tests/test_platforms.py",
+      "bytes": 3829,
+      "sha256": "sha256-44d83bff4b2e94cbd8355ab1215f5b0eb2cbdf20d0ce4ac72d7a7193bf6e2f71"
+    },
+    {
+      "path": "scripts/tests/test_review_staleness.py",
+      "bytes": 4460,
+      "sha256": "sha256-68f66e3f7ab8d0e585e06491af0afdd918eddffde6af7f5c8bc9283d5ce22c66"
+    },
+    {
+      "path": "scripts/tests/test_run_evals.py",
+      "bytes": 15457,
+      "sha256": "sha256-71cae9e4308eaa77c75fc524623b2c7a7e5da743ab2cce66e5e2de1593efc121"
+    },
+    {
+      "path": "scripts/tests/test_schema_drift.py",
+      "bytes": 4872,
+      "sha256": "sha256-5c34c684d96c07857e1498e0ccbf87190a08de3ca0f06c42aec316b67a8cd56b"
+    },
+    {
+      "path": "scripts/tests/test_security_scan.py",
+      "bytes": 4718,
+      "sha256": "sha256-1823398a0ebd0a9137d03a3201c41e0a965a0de869daeced572b1eacf5026ddc"
+    },
+    {
+      "path": "scripts/tests/test_skill_document.py",
+      "bytes": 5452,
+      "sha256": "sha256-80466d6d9cb6dbdfd3f71b4f551712419a076e7ccfa73f4e37782529a08259f1"
+    },
+    {
+      "path": "scripts/tests/test_skill_registry.py",
+      "bytes": 12658,
+      "sha256": "sha256-9485e2740e59356269bffa4cf5c67cb42459daa7d068c6dc5badf54618211b53"
+    },
+    {
+      "path": "scripts/tests/test_template_structure.py",
+      "bytes": 2864,
+      "sha256": "sha256-2d93ac80a672c58c62523dd213ff656cc4126b9ef01943ee91cbcd7dcfba49cd"
+    },
+    {
+      "path": "scripts/tests/test_v4_regression.py",
+      "bytes": 3913,
+      "sha256": "sha256-96ad1de19ec86d41780d3b0fecbfa0bbc31370ece4e4d7a015b74b5f95f62f8e"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 12024,
+      "sha256": "sha256-733d90338f4616832b1c783c626887d70220e58debfa1e3d97f0952587538349"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 39953,
+      "sha256": "sha256-98bffeb35be956067da2c20d66a922f27d4870ff51e69060d0f2b3a69b56e3c1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

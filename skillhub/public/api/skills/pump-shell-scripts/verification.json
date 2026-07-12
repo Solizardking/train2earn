@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-shell-scripts",
+  "name": "pump-shell-scripts",
+  "description": "Write and maintain secure Bash tooling for Pump.fun/Solana workflows, including vanity generation wrappers, keypair verification, batch jobs, dependency audits, test orchestration, file permissions, input validation, and cleanup traps.",
+  "source": "https://skills.x402.wtf/api/skills/pump-shell-scripts/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-shell-scripts/metadata.json",
+  "bundleHash": "sha256-c99c3f7b9c9137e540433d2323c7f70d70b628277f666fdc24d9d9140ec91584",
+  "merkleLeaf": "sha256-cef478be6285c7888fab7c28bd7283fbfc9fa1439abc5b53fa2ac33fab8bd41b",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2705,
+      "sha256": "sha256-4fb78b15d1f803ebf06dae325b958e615785f0e77648d04b7733abc8deff0f69"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

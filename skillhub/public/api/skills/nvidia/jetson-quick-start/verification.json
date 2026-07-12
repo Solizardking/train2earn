@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-quick-start",
+  "name": "jetson-quick-start",
+  "description": "Entry skill for Jetson / IGX BSP customization. Asks one core click-to-select setup questionnaire and passes prefilled answers to downstream setup skills.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-quick-start/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-quick-start/metadata.json",
+  "bundleHash": "sha256-ec4a355cc4f83da1f85c10df7c37105475c5e381a0d8774419711c4e24422f6e",
+  "merkleLeaf": "sha256-d621eb5c4bf64ba6813d63566b89ac4b7211dfb08062129f7e6d28de2fa516b2",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3817,
+      "sha256": "sha256-7baa1e169b75c017f6f3a6a63cddfdbb5ffe4d0c9d21e5142f2df059a442793c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3674,
+      "sha256": "sha256-a50617f7856063ca5ee4a5cd572da51f627447158512bebb8de65e902ca1d121"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18879,
+      "sha256": "sha256-92523aca2210b1dcf977e3efdd126e9ecbb5b6527d866e837bed844d6248ad5c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

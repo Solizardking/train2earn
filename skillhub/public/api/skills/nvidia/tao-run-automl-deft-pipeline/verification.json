@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-automl-deft-pipeline",
+  "name": "tao-run-automl-deft-pipeline",
+  "description": "Run the canonical NVIDIA AOI three-phase training pipeline — Phase 1 AutoML baseline (HPO), Phase 2 DEFT loop (RCA → SDG → mining → plain-train retrain), Phase 3 AutoML refinement on the DEFT-augmented dataset. Use when the user asks to \"run the AOI workflow\", \"fine-tune my PCB AOI model end-to-end\", \"improve my AOI ChangeNet model\", or \"AOI workflow with AutoML\" request — route here instead of tao-run-deft-aoi directly unless the user explicitly asks for the DEFT loop ONLY (e.g. \"run JUST the DEFT loop\", \"skip AutoML, only DEFT\"). Also handles the same three-phase pattern for non-AOI DEFT applications — AutoML baseline then DEFT loop warm-started from AutoML's winning HPs then post-DEFT AutoML refinement on the iteration-augmented dataset. Trigger phrases include \"run the AOI workflow\", \"AOI end-to-end\", \"AutoML + DEFT\", \"AutoML then DEFT\", \"tune hyperparameters then DEFT\", \"DEFT with AutoML at both ends\", \"warm-start DEFT\", \"improve my AOI model\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-automl-deft-pipeline/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-automl-deft-pipeline/metadata.json",
+  "bundleHash": "sha256-3f98aad0fa0eeed77fe4719d8a4090a7708195ad1cfbcf9ac39066dba170880f",
+  "merkleLeaf": "sha256-b9c9484c9083a041ba596eb70082bcb41e9421baa0c0bad92ed4c944682dc3bf",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4038,
+      "sha256": "sha256-192ef84169b56ecb72c3a1d4c03f0f9efb31e3a1d04a21d2c5958ba12bf0c42c"
+    },
+    {
+      "path": "references/consolidated-preflight.md",
+      "bytes": 6708,
+      "sha256": "sha256-aa6284eae52d187c3f4f6ad1b408eab20a7a7665fda069c7c035fdb6fc0e7bc9"
+    },
+    {
+      "path": "references/phase-handoffs.md",
+      "bytes": 8080,
+      "sha256": "sha256-78861d45e1eaf349b37296a11e6df923883ae46b3da953120eb8120d34bed6bd"
+    },
+    {
+      "path": "references/pitfalls-and-quality-checks.md",
+      "bytes": 2586,
+      "sha256": "sha256-bbd911103fbb67f51e21d25493e55578e180dedf7f35880b18deb4c6ec6101ad"
+    },
+    {
+      "path": "references/quick-start-example.md",
+      "bytes": 2910,
+      "sha256": "sha256-545a6429deaa64286735b2b187d7f8215d829add132d952f6641a4b62b8756bb"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4049,
+      "sha256": "sha256-825e24533a1cb199976af34487da3183930200e8c2187d022c51d5dcef7a34c3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17586,
+      "sha256": "sha256-99f276982b5ad342a45c7a763301c87a52153e002edb288c9796e709827006ff"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

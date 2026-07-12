@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-setup-behavior-analytics",
+  "name": "vss-setup-behavior-analytics",
+  "description": "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-setup-behavior-analytics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-setup-behavior-analytics/metadata.json",
+  "bundleHash": "sha256-cc53af877b49c6fa7af771f14a67b797716f91f89b87cc0158cd64671bbb78b3",
+  "merkleLeaf": "sha256-602f4a1401021f81ef891d461038e47ae1a908313cfe9b19c080a9dd7b72ae7b",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3909,
+      "sha256": "sha256-46b5719cb8e171be1e4c7427abe19c6008fccbe4964e8bc4a45a043368fbd45c"
+    },
+    {
+      "path": "references/configuration.md",
+      "bytes": 3796,
+      "sha256": "sha256-d43455fd6b0230ad10c5d1413ae4967c2cb6d4784a6b67b79ea0ff3cc463b3af"
+    },
+    {
+      "path": "references/deploy-behavior-analytics-service.md",
+      "bytes": 14180,
+      "sha256": "sha256-fa3430712ebe057a9e2deb079ad93f0a64c9427fb91b1b05b164b8da7baa777d"
+    },
+    {
+      "path": "references/dynamic-calibration.md",
+      "bytes": 14196,
+      "sha256": "sha256-09e3bdd9f209e33dd7f433aed108f4a756fb0aac013492432f5d0f883ef04e1d"
+    },
+    {
+      "path": "references/dynamic-config.md",
+      "bytes": 20198,
+      "sha256": "sha256-84625bd956c2a02b7cc63ab0ff6b5b6add50f105eab4810094ef3a9fd0b4ae05"
+    },
+    {
+      "path": "references/ngc-api-key-registry-login.md",
+      "bytes": 2059,
+      "sha256": "sha256-d5a558cb1da1e3b3a70d0543df902f3bfb3dfa4d4917f34b61faf3c049076388"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4109,
+      "sha256": "sha256-ef08fc50f3070f09cbe973b0f61ac6a625cebf0ab7ee93d40f66d9b9b828beb5"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7864,
+      "sha256": "sha256-08d757a9a558cda1ecf4c4bb5abfb81e8dbce11dcab255552aca7239f9d77f4e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

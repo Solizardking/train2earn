@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-memory-audit",
+  "name": "jetson-memory-audit",
+  "description": "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-memory-audit/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-memory-audit/metadata.json",
+  "bundleHash": "sha256-4e5b9ecf76e9912c534d7a8fa9204a60b57d117adf74972863902cb4c63cc314",
+  "merkleLeaf": "sha256-499e17c688ac67d22f5baa17661fb4a913dd93551b7bdcf3f10c3468c6bc38b2",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3323,
+      "sha256": "sha256-df3a6648f7e5a7ef4e340fd47704b6a04d7b85aad7ce12035c1dbab3b4a11049"
+    },
+    {
+      "path": "references/DESIGN.md",
+      "bytes": 2628,
+      "sha256": "sha256-55129b398c29c8cd943f09675b977dfc43dc43d5ae363b1dd50ec404e5a2df24"
+    },
+    {
+      "path": "scripts/audit.sh",
+      "bytes": 2784,
+      "sha256": "sha256-a575308d31f3e917e52a3c75926ad36dcb9797b405f37de4e52e37cab70899ea"
+    },
+    {
+      "path": "scripts/drop_caches.sh",
+      "bytes": 3516,
+      "sha256": "sha256-597a40c3b500f66c90a69892106fbce7821d7e7a6180f5aa485da7c60ad9ef3e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3547,
+      "sha256": "sha256-14466e43e9f378dbbea9d6d30c3b4d9a880fe0b72e92b08ecaf8820e577d9d4d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9114,
+      "sha256": "sha256-c751cb62c4a6b4ac4286528dff868d3266184ee7bd91ec6de818d456bb538cdd"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

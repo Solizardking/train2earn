@@ -1,0 +1,7 @@
+{
+  "slug": "pump-sdk-core",
+  "name": "pump-sdk-core",
+  "description": "Build and extend the Pump.fun SDK core: offline TypeScript instruction builders, online RPC helpers, account decoders, PDAs, token creation, buy/sell, migration, fee collection, PumpAMM, PumpFees, and Mayhem support. Use for SDK API and implementation work.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-sdk-core/SKILL.md"
+}

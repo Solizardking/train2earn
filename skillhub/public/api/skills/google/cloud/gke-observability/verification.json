@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-observability",
+  "name": "gke-observability",
+  "description": "Configures GKE observability, including Cloud Logging, Cloud Monitoring, and managed Prometheus. Use when configuring GKE monitoring, setting up GKE logging, or configuring Prometheus metrics collection. Don't use to configure local application logging frameworks or external APMs outside GKE.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-observability/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-observability/metadata.json",
+  "bundleHash": "sha256-2534ccc9427a25c25ddfb9cdd8761d17d47dcc26876cd6f23f8b3a2d8a8484b1",
+  "merkleLeaf": "sha256-4db55a11ee4acc608192dcfdafbe30116f31eae42ecd368ee6bcbe80c6bafea5",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9423,
+      "sha256": "sha256-9a13d0744e262f0651ce6f6b446c3ca0a100497d55574b0a3ad8d7de24afa522"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

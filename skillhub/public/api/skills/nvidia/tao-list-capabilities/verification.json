@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-list-capabilities",
+  "name": "tao-list-capabilities",
+  "description": "Answer what the TAO Skill Bank plugin can do by generating the response from packaged application, data, model, AutoML, and platform manifests. Use when the user asks \"what can TAO Skill Bank do\", \"list TAO models\", \"which TAO workflows are available\", or \"what supports AutoML\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-list-capabilities/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-list-capabilities/metadata.json",
+  "bundleHash": "sha256-2c05cdebe5d610799bfdc572cbdf714f437d2b2d1ea8c3eee06d3b8db1ef4d67",
+  "merkleLeaf": "sha256-c99bd290a30935d86fafb91127e610c5a823d4099333b7e1ab5187d774498b74",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3964,
+      "sha256": "sha256-76b589499cccb0ced771111cdf22af886ec8ec84b9ebb6ca73973599a9f151fa"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3614,
+      "sha256": "sha256-9d88150f512dddb8b45839fbe44cb4c699aec7b6eb20b4c9e83c8068ac703652"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3014,
+      "sha256": "sha256-92f936daeb442febf4354994857a5ae00d44b78b2772887b8de014faf8f95eff"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

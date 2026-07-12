@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-customize-uphy",
+  "name": "jetson-customize-uphy",
+  "description": "Configure Jetson UPHY lane allocation (uphy0/uphy1-config) on Orin/Thor custom carriers. Do NOT use for pinmux or PCIe-only edits.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-uphy/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-uphy/metadata.json",
+  "bundleHash": "sha256-c9921d60e50aa8371e3d660c81a33c07f75845eb0668ebad964b26c1ccc86210",
+  "merkleLeaf": "sha256-bd9e8167879edfc2ddb78f99f6f9d524c49dcc96c6c8c35dc21e6d394d5dae73",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3835,
+      "sha256": "sha256-f4ccb5088911e9d273792daaa5c6c8f7c609c4364addf61007c1ef1234a622a1"
+    },
+    {
+      "path": "references/gotchas.md",
+      "bytes": 1727,
+      "sha256": "sha256-032df0202de910366cbcccbb9ba4543d441fe7b4b56471c7c4f2e341bc55830a"
+    },
+    {
+      "path": "references/procedure.md",
+      "bytes": 17800,
+      "sha256": "sha256-0520744ed5e72e901504a5384891982a858ddc22a5d464dadd1f0825ac434874"
+    },
+    {
+      "path": "references/run-state-sidecar.md",
+      "bytes": 1779,
+      "sha256": "sha256-6cd47a770029eb9f1b496cfddef27b6d4eb4184c4c585ee0f6d62a0e3aaf29c9"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3828,
+      "sha256": "sha256-1d2ae6095727b44886c8a507a249b83da4736e082dc6ebfb4515cb279fccc78e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9488,
+      "sha256": "sha256-c45e3101ce2df737a1fd618f12929bc1393711c6b3ffcf5d243d80a787390648"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

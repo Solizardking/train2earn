@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/cuopt-developer",
+  "name": "cuopt-developer",
+  "description": "Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/cuopt-developer/SKILL.md"
+}

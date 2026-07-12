@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "agent-browser",
+  "name": "agent-browser",
+  "description": "Use the host-side `agent-browser` CLI for local browser smoke tests, screenshots, snapshots, and simple UI validation against forwarded localhost URLs.",
+  "source": "https://skills.x402.wtf/api/skills/agent-browser/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/agent-browser/metadata.json",
+  "bundleHash": "sha256-8f9f9a6eb20d0ec3510f4b3a98bf856c6cccaf097ea8de91c4867b4d8f1c6a1c",
+  "merkleLeaf": "sha256-e79cf77a40e2375a38b6dcddbf6598a3275526f04e5414ca9110d33850c934ad",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2530,
+      "sha256": "sha256-34866c7bca14d4ac25d0d379a32576a723792daeb853dd1453d58c27c9202026"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

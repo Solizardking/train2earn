@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-moe-optimization-workflow",
+  "name": "nemo-mbridge-perf-moe-optimization-workflow",
+  "description": "Systematic workflow for MoE training optimization in Megatron Bridge, based on the Megatron-Core MoE paper. Covers the Three Walls framework, parallel folding, recompute strategy, dispatcher choice, and CUDA-graph bring-up.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-optimization-workflow/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-optimization-workflow/metadata.json",
+  "bundleHash": "sha256-1c7491e872ad13066bf279657055494cdcc2c14ea1f9e49f6bd64f0cdf414898",
+  "merkleLeaf": "sha256-d66367c465872f515f4ba52b567d4bf37e46f1baed78fb993ab738319177d7ab",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4429,
+      "sha256": "sha256-cbc28c027929de85db48e0cbe6323b16ac138ea3a58b8ec3636fd017131415ae"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 5140,
+      "sha256": "sha256-76ce3dafac9486b559d56cd5db030ae1dc0d4925cd1f8aea5b6ed55584f305f5"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3900,
+      "sha256": "sha256-d402d7d561ff942e93ca38bcafeedb6caaaceb4416632097db2da78f337f28b3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7259,
+      "sha256": "sha256-7a1aa370bdb3ac50b2c8d1c2e2e11c7d73d55c56cada05d0a60d18b03f5142a8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

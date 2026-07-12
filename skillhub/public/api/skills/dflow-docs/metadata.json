@@ -1,0 +1,7 @@
+{
+  "slug": "dflow-docs",
+  "name": "dflow-docs",
+  "description": "Discover and use DFlow documentation, Agent CLI, Trading API, Metadata API, Proof KYC, prediction markets, and the hosted DFlow docs MCP. Use before implementing DFlow features or when field-level endpoint details are needed.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/dflow-docs/SKILL.md"
+}

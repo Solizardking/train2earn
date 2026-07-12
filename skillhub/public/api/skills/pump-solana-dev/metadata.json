@@ -1,0 +1,7 @@
+{
+  "slug": "pump-solana-dev",
+  "name": "pump-solana-dev",
+  "description": "Apply Solana development patterns used by Pump.fun: Anchor IDL interaction, SPL Token and Token-2022 handling, transaction instruction composition, RPC batching, account decoding, simulation, BN arithmetic, and cross-program coordination.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-solana-dev/SKILL.md"
+}

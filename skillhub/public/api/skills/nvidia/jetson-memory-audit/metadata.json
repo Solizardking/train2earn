@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-memory-audit",
+  "name": "jetson-memory-audit",
+  "description": "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-memory-audit/SKILL.md"
+}

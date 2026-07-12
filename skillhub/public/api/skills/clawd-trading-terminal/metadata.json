@@ -1,0 +1,7 @@
+{
+  "slug": "clawd-trading-terminal",
+  "name": "clawd-trading-terminal",
+  "description": "Use or implement Cheshire Terminal trading surfaces for $CLAWD and Solana markets. Use when working on live spot trading, Jupiter swaps, DFlow markets, OODA trading flows, Phoenix perps, DEX/contract explorer, wallet scanner, Pump page, token tickers, or Clawd trading terminal workflows.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/clawd-trading-terminal/SKILL.md"
+}

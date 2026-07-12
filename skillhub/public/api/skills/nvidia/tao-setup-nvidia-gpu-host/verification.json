@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-setup-nvidia-gpu-host",
+  "name": "tao-setup-nvidia-gpu-host",
+  "description": "Host setup for TAO GPU backends. Checks and, after user approval, installs NVIDIA driver branch 580, CUDA Toolkit 13.0, and NVIDIA Container Toolkit 1.19.0 for Docker/local-Docker and Kubernetes GPU worker hosts. The `--check-only` path works on any Linux distribution; `--install` automates debian-family (Ubuntu/Debian/Pop!_OS/Mint/Zorin/Raspbian), rhel-family (Fedora/RHEL/Rocky/AlmaLinux), and suse-family (openSUSE/SLES) hosts, and prints actionable manual-install steps for everything else. Use when the user asks to \"set up an NVIDIA GPU host\", \"check TAO Docker GPU runtime\", or prepare a Kubernetes GPU worker for TAO.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-setup-nvidia-gpu-host/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-setup-nvidia-gpu-host/metadata.json",
+  "bundleHash": "sha256-599f2dea7be950084e342c0ae94a338b71b37b45b3f9e7686d9dca9d804acce4",
+  "merkleLeaf": "sha256-5d68c32a6ba2fe39b503e8aeb514142cc0ace0d41a28651f7abf7a2016c51575",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4002,
+      "sha256": "sha256-c3916ba917b9c309b8e3b675149fa25318250f09f95ac87f82bcc0af8ae4b48a"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 2669,
+      "sha256": "sha256-299e7aaf584db59e67fb87ec886bb5502788954a76a8fb112dd0132eeb583fd2"
+    },
+    {
+      "path": "scripts/setup-nvidia-gpu-host.sh",
+      "bytes": 26306,
+      "sha256": "sha256-d21cd509dfc504a3190602dccb62617e26a6280f69853030b3e1f64bc554c417"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4003,
+      "sha256": "sha256-0763f4b7be62331115849ddf0294b79a672d0022f7d54595912a4b080d1f8fac"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11790,
+      "sha256": "sha256-ff975f3503ec4e54436f6fe2423681dedb516b4c4bf38d07c0f14f5d3ab5c58e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

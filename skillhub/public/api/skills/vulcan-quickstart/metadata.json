@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-quickstart",
+  "name": "vulcan-quickstart",
+  "description": "Five-minute Vulcan quickstart for install, health check, first market read, and first paper trade.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-quickstart/SKILL.md"
+}

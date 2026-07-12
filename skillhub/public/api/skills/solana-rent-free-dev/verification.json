@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "solana-rent-free-dev",
+  "name": "solana-rent-free-dev",
+  "description": "Skill for Solana development using compressed accounts from Light Protocol. Covers compressed token client development (TypeScript) and compressed PDA program development (Rust) across Anchor, native Rust, and Pinocchio. Use cases include token distribution, stablecoin payments, per-user and app state, nullifiers, and ZK applications.",
+  "source": "https://skills.x402.wtf/api/skills/solana-rent-free-dev/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/solana-rent-free-dev/metadata.json",
+  "bundleHash": "sha256-1a963cf366c5cee4a5551d7cd248a6d76b5093f1baf2461cf7580783e4d35cb6",
+  "merkleLeaf": "sha256-e890470e2d0d36dbe5cd0127b57d1907387b4e0a9639e7634dc22b9bbefd9148",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 13126,
+      "sha256": "sha256-92741227eebc7bb162d4d1a933a3e78bd09629474126cd775b93fe8f4c71c78a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

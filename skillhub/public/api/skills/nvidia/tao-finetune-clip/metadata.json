@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/tao-finetune-clip",
+  "name": "tao-finetune-clip",
+  "description": "CLIP vision-language model for image-text retrieval, zero-shot classification, embedding extraction, ONNX export, and TensorRT deployment. Use when fine-tuning or training CLIP, running zero-shot classification, computing image embeddings, or deploying CLIP to ONNX/TensorRT.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/tao-finetune-clip/SKILL.md"
+}

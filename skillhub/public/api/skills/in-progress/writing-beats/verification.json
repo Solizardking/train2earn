@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "in-progress/writing-beats",
+  "name": "writing-beats",
+  "description": "Writing, exploit — assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+  "source": "https://skills.x402.wtf/api/skills/in-progress/writing-beats/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/in-progress/writing-beats/metadata.json",
+  "bundleHash": "sha256-596129c604f3b901af0ae310cc80e92d408b8b45e5be2561e3712bfe100c9aad",
+  "merkleLeaf": "sha256-d9b8682f3d17ba6b378bc49aac9187f50e2cbb3a2089ca81e0e1e6c65c76dbee",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4905,
+      "sha256": "sha256-668185cfb6eb6a324b8d864404c398e21f3cddbb637b760e39b7784c8c5e4fee"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-fee-sharing",
+  "name": "pump-fee-sharing",
+  "description": "Configure and distribute Pump.fun creator fees through the PumpFees program with BPS shareholder splits, admin management, validation, and Pump/PumpAMM fee consolidation for graduated tokens. Use when setting up or paying creator fee shares.",
+  "source": "https://skills.x402.wtf/api/skills/pump-fee-sharing/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-fee-sharing/metadata.json",
+  "bundleHash": "sha256-0f8a83c28d959f3fa9fd9e96426c36e8b79359a2dad648b8085c5d47cbee3d38",
+  "merkleLeaf": "sha256-d34e00f3b24f35164fc1398279169ee22610e0f057ffc31d934db4bf332ae9bc",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3474,
+      "sha256": "sha256-fbac9cff5b28805b127d353951ee08de5eb9cc51d41f4b1411de7056b3d1e30d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

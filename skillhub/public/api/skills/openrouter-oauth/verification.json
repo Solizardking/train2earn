@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openrouter-oauth",
+  "name": "openrouter-oauth",
+  "description": "Implement \"Sign In with OpenRouter\" using OAuth PKCE — framework-agnostic, no SDK or client registration required. Use when the user wants to add OpenRouter login, authentication, sign-in buttons, OAuth, or AI model inference API keys for browser-based apps. No client registration, no backend, no secrets required.",
+  "source": "https://skills.x402.wtf/api/skills/openrouter-oauth/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openrouter-oauth/metadata.json",
+  "bundleHash": "sha256-8583c814dedfdd31e8492a6a317ffcacf324c51ab0edb2d5d196b38701a28116",
+  "merkleLeaf": "sha256-527561cd5413c8ee6f27addb60f218e5e56b771331cebf7c1e5e5406a9e8d725",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9089,
+      "sha256": "sha256-5a4d45074b858264575c1b7748a5d0328b49a3c2453c903afd6a206506699285"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

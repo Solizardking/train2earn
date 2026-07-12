@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/hsb-app",
+  "name": "hsb-app",
+  "description": "Discover and run Holoscan Sensor Bridge example applications on a connected devkit. Filters available apps by the user's platform, HSB software version, board type, and sensors. Supports timed execution, failure analysis, code-edit suggestions, and iterative re-runs.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/hsb-app/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/hsb-app/metadata.json",
+  "bundleHash": "sha256-c38266c01bf13623fe53f021d7f997a68e53a880722369a80b0681f99626be2b",
+  "merkleLeaf": "sha256-ea206c51d690ddeee36e27c2fd67f1ecb20a5c685565404afb6882d8f7d99573",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4306,
+      "sha256": "sha256-2020d90d9c51edfa37677dd76cc50d89a8fee0327206cfb1190ad339265447a0"
+    },
+    {
+      "path": "references/phase-details.md",
+      "bytes": 22348,
+      "sha256": "sha256-f46bcecbe99ef031e2605d697e971e46fd7cd2368d44db65517041f97d0f4840"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3884,
+      "sha256": "sha256-8ebd63e3599391af1c487a3a4b91819e39f804c02584a14ff7cc0cd08019a682"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16560,
+      "sha256": "sha256-4fc440a720536fef741eff824755b190f053496772c2ae25412fb3a3a1261b3d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

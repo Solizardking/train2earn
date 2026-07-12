@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "in-progress/writing-shape",
+  "name": "writing-shape",
+  "description": "Writing, exploit — shape raw material into an article, paragraph by paragraph.",
+  "source": "https://skills.x402.wtf/api/skills/in-progress/writing-shape/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/in-progress/writing-shape/metadata.json",
+  "bundleHash": "sha256-c19862874d9c507744bb2c97502fc2e7acf56779e7611ea6f1f6829a5005f21c",
+  "merkleLeaf": "sha256-1ceeb616fddae05a06e6aeafde482dcc3c9ac476c2b30c9e327985fbc4c45645",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5970,
+      "sha256": "sha256-67d34422bbe43cfd523dea9fe7b3ec5260791aed8ea52309b5b85f9d76f32745"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

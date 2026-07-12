@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cuopt-developer",
+  "name": "cuopt-developer",
+  "description": "Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-developer/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-developer/metadata.json",
+  "bundleHash": "sha256-5ff45babd0dfae4aa1ce4d39062b55d6c2f6a28b946c141632a4eb79e0f409c9",
+  "merkleLeaf": "sha256-c0236926a8afe1bb2c7de35883108a6fce3b526ba728a9cd10e5c2d099db3ce2",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4010,
+      "sha256": "sha256-dd2ebe4e3f68f791aacf5e6487d49ec75406945d82c686fe7da23aaa963f0c84"
+    },
+    {
+      "path": "references/build_and_test.md",
+      "bytes": 1674,
+      "sha256": "sha256-06b51e2be78237d32174fba708fddef7320b5c5375018553f4c9933ea553938a"
+    },
+    {
+      "path": "references/contributing.md",
+      "bytes": 5483,
+      "sha256": "sha256-5915285f12bd30c1ebbc19f28052b9bbfd4e838d52ee060360e9ad60164b488d"
+    },
+    {
+      "path": "references/conventions.md",
+      "bytes": 1869,
+      "sha256": "sha256-9919506d2ef728109bc85995820a03711da3dd65f2b61b559641a6236f9a8d3a"
+    },
+    {
+      "path": "references/first_time_setup.md",
+      "bytes": 2619,
+      "sha256": "sha256-e5e505175fe2f63e114be7fe19927b8420dc587f3f6a126816af5a608fd76313"
+    },
+    {
+      "path": "references/python_bindings.md",
+      "bytes": 7959,
+      "sha256": "sha256-6a43638017d3592e25b7c64a0b6abd02446ccdd242b8a4fdd72bd02b4dbf2294"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 2411,
+      "sha256": "sha256-92ad6bd1a2c668c28bc6f50ccc649a6a95a8b7086158be0d6892be95717e3a57"
+    },
+    {
+      "path": "references/vrp_skills.md",
+      "bytes": 9004,
+      "sha256": "sha256-99a0fdff6b4648bfb0be26d6e379d539f2bd18f7f3c0dac98b182603ba9ba8ad"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4591,
+      "sha256": "sha256-4499608dc63a7c9cb1da6c884ba2dd81d64e49eae25790dcc4fd4e9702da2e07"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13008,
+      "sha256": "sha256-92a3aef4cf607656d665087b69829663dcca2a518c19adeb5f52018fbf2929a4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

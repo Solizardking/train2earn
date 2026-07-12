@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "anthropic-skills/algorithmic-art",
+  "name": "algorithmic-art",
+  "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/algorithmic-art/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/algorithmic-art/metadata.json",
+  "bundleHash": "sha256-69cb5719ee0afef4dd3fc6b4326056cca6c677cc5ad40e118cb27d6588e920eb",
+  "merkleLeaf": "sha256-6f82c7c81839fb8eb35767309f00f48df98ffb2ed012ccb5d14286132c7c14ef",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 19769,
+      "sha256": "sha256-3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

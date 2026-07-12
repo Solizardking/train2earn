@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "sherpa-onnx-tts",
+  "name": "sherpa-onnx-tts",
+  "description": "Local text-to-speech via sherpa-onnx (offline, no cloud)",
+  "source": "https://skills.x402.wtf/api/skills/sherpa-onnx-tts/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/sherpa-onnx-tts/metadata.json",
+  "bundleHash": "sha256-cd24c92be2fb5d01739b25306863bd8ba1723ff29242780f905cf0df546d9248",
+  "merkleLeaf": "sha256-8eeab01299bdf5b8b2a87ef4c00e3a46e2fe33210c5c81ce41b2d333f37dfd74",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2788,
+      "sha256": "sha256-d2253363f7ee9aaac58ff555e473be33c8808e0fe1ee449a08fd74e517f309d3"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

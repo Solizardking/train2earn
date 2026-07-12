@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-twap-execution",
+  "name": "vulcan-twap-execution",
+  "description": "TWAP strategy execution on Phoenix perps using Vulcan's first-class runner, tick logs, ledgers, status/monitor/finalize controls.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-twap-execution/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-twap-execution/metadata.json",
+  "bundleHash": "sha256-822d09bb012912324675ad5a4a4d75de570e919c8607630444b546dfb87132a2",
+  "merkleLeaf": "sha256-484cb00b569f7b8aa6e30d5dbc5911a6002ffce9c31e3a81994da907912a3b48",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 457,
+      "sha256": "sha256-586350f29dce8f74983766e43178b785ed04450b3a150c7b7f5e0a62efaf7d86"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-mlm-bridge-training",
+  "name": "nemo-mbridge-mlm-bridge-training",
+  "description": "Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data. Covers correlation testing, available recipes, and multi-GPU examples.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-mlm-bridge-training/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-mlm-bridge-training/metadata.json",
+  "bundleHash": "sha256-c4a7434e00c55271f81cddbf4b3ca233c4946b2dfd79e1f01db70bcf3ef49520",
+  "merkleLeaf": "sha256-ddef6a6cf436c3287d40e40054da227272468c70abca0b65b8547713ffe21bc8",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4341,
+      "sha256": "sha256-e01f65ff950c5e0a134c35c84fb4844b9190e48f132eca15dafbd5b791509d45"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 2031,
+      "sha256": "sha256-b90dfaa42d20e152ca26b0e03d8b1f69b56c36b84bbfb0506e2d8cf812f9f177"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3824,
+      "sha256": "sha256-1f4abb0e166b89a386d0a0674553c79cfad22517078289ce4cdd3603006f96d9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6291,
+      "sha256": "sha256-2caee395409aca56b5c3dbde90d141ac378bae1a8e444e23d73e61a11da879dd"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/physical-ai-defect-image-generation",
+  "name": "physical-ai-defect-image-generation",
+  "description": "Use when the user wants to orchestrate defect image generation with NVIDIA Cosmos AnomalyGen (Cosmos-Predict2-derived) on OSMO for PCBA, metal surface, and glass inspection. The Day 0 path handles cold-start with USD-to-ROI, image-edit augmentation, and AnomalyGen to create initial PCBA datasets. The Day 1 path performs inference and labeling on real images. This skill helps with first-time asset setup, creation of finetuning checkpoints, and configuring deployment.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/physical-ai-defect-image-generation/SKILL.md"
+}

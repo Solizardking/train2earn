@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-market-intel",
+  "name": "vulcan-market-intel",
+  "description": "Phoenix market data, tickers, orderbooks, candles, funding, spreads, liquidity, and pre-trade market context.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-market-intel/SKILL.md"
+}

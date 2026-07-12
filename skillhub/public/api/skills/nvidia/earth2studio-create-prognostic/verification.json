@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/earth2studio-create-prognostic",
+  "name": "earth2studio-create-prognostic",
+  "description": "Create Earth2Studio prognostic (time-stepping forecast) model wrappers. Do NOT use for diagnostic models, data sources, or installation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-create-prognostic/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/earth2studio-create-prognostic/metadata.json",
+  "bundleHash": "sha256-c0c0e9ea799542dd5f1d25d97e36fe24b4fe504dfe78be78c6b74ee1106c9f53",
+  "merkleLeaf": "sha256-c40bfa2b42434754cacb9449c1384fadecff22dc2690f9a9531cb77f38576277",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4385,
+      "sha256": "sha256-7fff173b2406d6e1cd03fb0f8e29eb12e3e45f046014324fbdee0d75ec328a7e"
+    },
+    {
+      "path": "references/method-templates.py",
+      "bytes": 12915,
+      "sha256": "sha256-1e63157792c0efa7b417ec7e2ec70ce22fce07d4f05712a26c96a37de1cb7e8c"
+    },
+    {
+      "path": "references/pr-body-template.md",
+      "bytes": 2496,
+      "sha256": "sha256-744950aa046c9dc8f589f47fb26413ef3dbdc533c8828affa073873e5a638e7e"
+    },
+    {
+      "path": "references/pr-comment-template.md",
+      "bytes": 2217,
+      "sha256": "sha256-16bb8a8a467267e6e3dda360f836bce23ec63e389d6c2dee0719f508d6935a51"
+    },
+    {
+      "path": "references/skeleton-template.py",
+      "bytes": 15570,
+      "sha256": "sha256-1b472f992a0d69860805a1ab5bcfcecc6e46010cff7e5247727ee1eccc0c4bf4"
+    },
+    {
+      "path": "references/testing-guide.py",
+      "bytes": 14061,
+      "sha256": "sha256-bcb49d8a1598fca4a59b8b10ec112d6a28f9d2c480741b6e1a61afc92c68d12a"
+    },
+    {
+      "path": "references/validation-guide.md",
+      "bytes": 4935,
+      "sha256": "sha256-7ef64abf9377831a3dd34b0053ed1c159dfa2ea4334766e5a6d20d2c2d7c82d5"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2493,
+      "sha256": "sha256-d181143f25f715c917dcba2d1d9772b5ee7c09f703b98a5c7576e2382bbd6fae"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10253,
+      "sha256": "sha256-811fafca9495b5fcf5ffe8f1bd052cfb67e741e006feef47269ee3c93d389bed"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

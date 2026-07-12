@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nv-generate-mr-brain-finetune",
+  "name": "nv-generate-mr-brain-finetune",
+  "description": "Used for finetuning NV-Generate-CTMR MR-brain diffusion UNet from a NIfTI datalist. Not for clinical or production data approval.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nv-generate-mr-brain-finetune/SKILL.md"
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "canvas",
+  "name": "canvas",
+  "description": "Display HTML content on connected Clawdbot nodes across Mac, iOS, and Android canvas views. Use for presenting generated HTML, dashboards, games, visualizations, and interactive demos through the Clawdbot canvas host and node bridge.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/canvas/SKILL.md"
+}

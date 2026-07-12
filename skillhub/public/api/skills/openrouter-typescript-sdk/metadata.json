@@ -1,0 +1,7 @@
+{
+  "slug": "openrouter-typescript-sdk",
+  "name": "openrouter-typescript-sdk",
+  "description": "Complete reference for integrating with 300+ AI models through the OpenRouter TypeScript SDK and Agent packages using the callModel pattern",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/openrouter-typescript-sdk/SKILL.md"
+}

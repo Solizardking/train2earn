@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openhue",
+  "name": "openhue",
+  "description": "Control Philips Hue lights/scenes via the OpenHue CLI.",
+  "source": "https://skills.x402.wtf/api/skills/openhue/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openhue/metadata.json",
+  "bundleHash": "sha256-900d2afcdbcafcf16051fa88b2766fc4c6314098e1c2c0fe1c3f9a1aff640e42",
+  "merkleLeaf": "sha256-4e8f1a1a74b3cd3217b3490e0f838fac7b86dcd55a32c7eac9fdfdcbcc6ad8d9",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 968,
+      "sha256": "sha256-1ef85a78007c604eaff827692b83f6c5d2a40ccac8929b5c387db2ffbc6997ac"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

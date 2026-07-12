@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-print-bsp-info",
+  "name": "jetson-print-bsp-info",
+  "description": "Use when you need to print Jetson BSP info (L4T version, board configs, rootfs state) from a Linux_for_Tegra root on the host PC. This is an example skill.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-print-bsp-info/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-print-bsp-info/metadata.json",
+  "bundleHash": "sha256-08586c985815388dcbf63892360702b99ff66fbdbe84dfac54367eb5330ec656",
+  "merkleLeaf": "sha256-88358f805d7ee733257458028a5ffca34c9894d2a51d3f4bbf53836c9459756b",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3574,
+      "sha256": "sha256-b6985a3e0486b3a3b56a8851a3c7f0c59a567f526c6ac8ecd4b457c30dd7c47a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3621,
+      "sha256": "sha256-9e9b3a461f03f50cfdfa3668880dc6f59dab9ae4a9ba5f4bfd02ebb40bc5d57d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5108,
+      "sha256": "sha256-6b7890c7a2c0757f598c54032aa19e239e1f543db03d325782f4e9dd14e6bdaa"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

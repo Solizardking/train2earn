@@ -1,0 +1,7 @@
+{
+  "slug": "helius-skills/helius",
+  "name": "helius",
+  "description": "Build Solana applications with Helius infrastructure. Covers transaction sending (Sender), asset/NFT queries (DAS API), real-time streaming (WebSockets, Laserstream), event pipelines (webhooks), priority fees, wallet analysis, and agent onboarding.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/helius-skills/helius/SKILL.md"
+}

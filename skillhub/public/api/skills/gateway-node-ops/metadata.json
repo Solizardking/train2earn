@@ -1,0 +1,7 @@
+{
+  "slug": "gateway-node-ops",
+  "name": "gateway-node-ops",
+  "description": "How to spawn a SolanaOS Gateway and connect headless nodes",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/gateway-node-ops/SKILL.md"
+}

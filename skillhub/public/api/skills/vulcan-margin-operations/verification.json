@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-margin-operations",
+  "name": "vulcan-margin-operations",
+  "description": "Vulcan/Phoenix collateral, deposits, withdrawals, transfers, isolated margin, leverage tiers, and margin health.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-margin-operations/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-margin-operations/metadata.json",
+  "bundleHash": "sha256-de42dfe7379881a869043bf8fd36c0350438b400b4cee4d53e79f1b3bb9c7c35",
+  "merkleLeaf": "sha256-fd45218d7b90077cf9d1a96fd2560d2f9cbd396bc0d32cf099593cd1a978a5e9",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 449,
+      "sha256": "sha256-45ba5c0111111d7c22418723b6709c307f847d281509fdff50726935da095806"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

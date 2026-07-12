@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "research-and-web/research-prompt",
+  "name": "research-prompt",
+  "description": "Write a single-paragraph Deep Research prompt to hand to a human researcher (or a deep-research AI). Use when the user wants a research brief, a \"deep research prompt\", a one-paragraph task for a researcher, or asks \"what should our researcher look for\". Produces ONE tight paragraph with full context, numbered sub-questions, and per-finding output format.",
+  "source": "https://skills.x402.wtf/api/skills/research-and-web/research-prompt/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/research-and-web/research-prompt/metadata.json",
+  "bundleHash": "sha256-e3539edba49219b1349571ae2a05b85d8367039bf656fa1eb5f7b52c59b1c3f9",
+  "merkleLeaf": "sha256-f30f390d71a5c5325733388902fde25efeaebee670608454b5485499d900ca8e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4621,
+      "sha256": "sha256-d54545abdfbef4a0df1897efba6560723a7adfbdb321765710a22d9ab5bd4132"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

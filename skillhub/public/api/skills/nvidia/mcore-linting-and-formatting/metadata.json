@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/mcore-linting-and-formatting",
+  "name": "mcore-linting-and-formatting",
+  "description": "Linting and formatting for Megatron-LM. Covers running autoformat.sh, tools (ruff, black, isort, pylint, mypy), and code style rules.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/mcore-linting-and-formatting/SKILL.md"
+}

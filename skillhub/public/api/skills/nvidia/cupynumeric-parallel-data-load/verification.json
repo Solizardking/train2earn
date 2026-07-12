@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cupynumeric-parallel-data-load",
+  "name": "cupynumeric-parallel-data-load",
+  "description": "Load a sharded, on-disk dataset (sharded .npy, Parquet/Arrow, raw binary, sharded HDF5, custom layouts) into a distributed cuPyNumeric ndarray via a manual partition + leaf @task launch with CPU/OMP/GPU variants. Use when no single-call loader fits, including when per-shard row counts differ across files. Prefer cupynumeric.load or legate.io.hdf5.from_file when they apply.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-parallel-data-load/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-parallel-data-load/metadata.json",
+  "bundleHash": "sha256-61d147bb426ab1722284f1277a5c1482713c3a51d184330fa0e8f64dad702577",
+  "merkleLeaf": "sha256-f18cbd3dd2fe953a932497854bf924c1d421f79d70dcbc5f7c07f5d748c0883d",
+  "files": [
+    {
+      "path": "assets/examples/parallel_npy_load.py",
+      "bytes": 31848,
+      "sha256": "sha256-a6bfaa53dcb67dd3a3d76e522096267e8f63e9b13e5ae1ce5b1672bd29dacba5"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4303,
+      "sha256": "sha256-c360d9ee8c5e05c93d7292545317eef1168195e202e9536c48bf227aac61b2cd"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3915,
+      "sha256": "sha256-e4a02d604f309b49b48dec3b41d32f580c8264da2c7ffb48244b5748eefb7445"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18194,
+      "sha256": "sha256-4f9c8bd3f82b185d0bb4c11bdd3e62135cd3f98c193fe2e55b18e5cbcdaa7e3c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

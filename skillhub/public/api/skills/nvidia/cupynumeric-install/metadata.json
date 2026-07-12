@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/cupynumeric-install",
+  "name": "cupynumeric-install",
+  "description": "Install and verify cuPyNumeric for Python — requirements, commands, verification. Source builds are out of scope.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/cupynumeric-install/SKILL.md"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nv-segment-ct",
+  "name": "nv-segment-ct",
+  "description": "Used for running NV-Segment-CT VISTA3D on CT NIfTI volumes and recording label-map evidence.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-segment-ct/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-segment-ct/metadata.json",
+  "bundleHash": "sha256-36df2d89084af35ad52716ede4ed4f57a0d7934f046f019e528be5158964eba3",
+  "merkleLeaf": "sha256-cf2a04288a048172192809a8520dfffb4b317ffdff5479da201fe1a2dac4d1d0",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3982,
+      "sha256": "sha256-868f475ac4402bff62c3ca5f1ccfd989e1843ba636847926ca86d9e6b56539c3"
+    },
+    {
+      "path": "scripts/run_vista3d.py",
+      "bytes": 11070,
+      "sha256": "sha256-79bbda116b8cfa70a4349d5582a53c37cee5eaaf329ae18ded5f39c1a4b9494a"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 8493,
+      "sha256": "sha256-1fc5cd5ebebab9fa13066700ae4fda18e1047a4035b10a129ece4341f61e49b0"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4211,
+      "sha256": "sha256-a64985962d4d7ebc0cc8eaecc7ad091954c6ccf7f61fa4770501f71d4753bee1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8360,
+      "sha256": "sha256-72e4a90c3a83c489eb270e9c49aef0e242cae8772a0304e27d4da82c3b244242"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

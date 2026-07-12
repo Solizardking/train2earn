@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-twap-execution",
+  "name": "imperial-twap-execution",
+  "description": "TWAP execution guidance for Imperial: slice planning, venue pinning, profile budgeting, and durable-runner requirements.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-twap-execution/SKILL.md"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-build-source",
+  "name": "jetson-build-source",
+  "description": "Use when you need to rebuild the BSP overlay — DT, OOT modules, or kernel — from changes under bsp_sources/. Triggers: build bsp, rebuild dtb, rebuild kernel.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-build-source/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-build-source/metadata.json",
+  "bundleHash": "sha256-60656e249e2df179c9b16c3132471262ef83df280436b63dcc786c419d384a7c",
+  "merkleLeaf": "sha256-9695ac4b0884e0e847ad55c79e96cf52fb09ddbc4208ed2892a459cd15cda5a6",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3729,
+      "sha256": "sha256-a24bcf7be4eb9df897682a9cbbac71b8b57d6d3e8a6f3d084c6712113a5b0d09"
+    },
+    {
+      "path": "references/build-modes.md",
+      "bytes": 4947,
+      "sha256": "sha256-cbc93476264b4252f0b616983a96422aca3969c3a3c06c0cca5b297dd9aa5fb1"
+    },
+    {
+      "path": "references/composite-registration.md",
+      "bytes": 8915,
+      "sha256": "sha256-43d92082e5f955ccaac15d01ac66177f08ac769f40c3cc1dbc0da7a5e9fdf7ca"
+    },
+    {
+      "path": "references/long-tail-gotchas.md",
+      "bytes": 5337,
+      "sha256": "sha256-31d1e54007f038c9ef58b2b3ceac1d94efb82cefd680baaac9973c6bd0697eb1"
+    },
+    {
+      "path": "references/manifest-schema.md",
+      "bytes": 3418,
+      "sha256": "sha256-a1fcad84eb057297646f74bce72868277e9fbb6769dea7feadf14c61910ded49"
+    },
+    {
+      "path": "references/upstream-recipe.md",
+      "bytes": 3423,
+      "sha256": "sha256-a73e3e71f8f3bfa0e272bde93f7ee9babb9d96e2f14d58437cc9f83e27d8d3e9"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3846,
+      "sha256": "sha256-544b9bd1d554a49839b3fa2a5c638198327a7dda3e1e93ed3b24a58129d1db82"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 20078,
+      "sha256": "sha256-3322a4e010028ac6b11140dde9851c858d758869a69fe13a95d3461d50ca15ce"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

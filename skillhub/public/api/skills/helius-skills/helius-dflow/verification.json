@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "helius-skills/helius-dflow",
+  "name": "helius-dflow",
+  "description": "Build Solana trading applications combining DFlow trading APIs with Helius infrastructure. Covers spot swaps (imperative and declarative), prediction markets, real-time market streaming, Proof KYC, the DFlow Agent CLI for autonomous trading, transaction submission via Sender, fee optimization, shred-level streaming via LaserStream, and wallet intelligence.",
+  "source": "https://skills.x402.wtf/api/skills/helius-skills/helius-dflow/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/helius-dflow/metadata.json",
+  "bundleHash": "sha256-36f1e899315ca744bfab07209147161851e1834dc71e68465c231d5a5adaef4e",
+  "merkleLeaf": "sha256-bb0506e808407188cb4b0e3dc4f8668bcbb36baa8e06e14b96b895e6ab2d2835",
+  "files": [
+    {
+      "path": "references/dflow-agent-cli.md",
+      "bytes": 9248,
+      "sha256": "sha256-1414d7510f1a11077763fc3596d93f6c84ff07fe4ccb84f511e7f9684debafbf"
+    },
+    {
+      "path": "references/dflow-prediction-markets.md",
+      "bytes": 12946,
+      "sha256": "sha256-5ace5662a88a29dccdebba9e466e4fac7ae56a340380aa8682104ff55f25ce3c"
+    },
+    {
+      "path": "references/dflow-proof-kyc.md",
+      "bytes": 5079,
+      "sha256": "sha256-bfb8077018bed90e313f238a383995e40e2409cad49dc87e418474286ffcfae7"
+    },
+    {
+      "path": "references/dflow-spot-trading.md",
+      "bytes": 9186,
+      "sha256": "sha256-d1e8bf72e7cccb9abe8407f226374acc5682a2d7356f641732593cbaa9b84a05"
+    },
+    {
+      "path": "references/dflow-websockets.md",
+      "bytes": 4662,
+      "sha256": "sha256-4b3915ecfb94936931653a5f44ebd86eb9eab4b754286a25212fa49d5a407de7"
+    },
+    {
+      "path": "references/helius-das.md",
+      "bytes": 9256,
+      "sha256": "sha256-3d4e64738a92ecb14290021482313f01b6dfc838a6118e7af91b651ed63bbe13"
+    },
+    {
+      "path": "references/helius-laserstream.md",
+      "bytes": 10757,
+      "sha256": "sha256-d678c6a313110482d547d50f1378ca7e9a8bd41d28715ccaab38bfa20d70d529"
+    },
+    {
+      "path": "references/helius-onboarding.md",
+      "bytes": 10764,
+      "sha256": "sha256-ca4e8320606b6b9c8eeccfb464a584133527b2484175f414bc38320f945c8a9e"
+    },
+    {
+      "path": "references/helius-priority-fees.md",
+      "bytes": 7901,
+      "sha256": "sha256-50537a96f4661a0037274c8f680f609e97b62df00d322eb34329dcf25cc41575"
+    },
+    {
+      "path": "references/helius-sender.md",
+      "bytes": 18067,
+      "sha256": "sha256-08c07ff635d60af468d6134a2e56056d0241e047ec4c5fd1560cd7f468c1f1ea"
+    },
+    {
+      "path": "references/helius-wallet-api.md",
+      "bytes": 12081,
+      "sha256": "sha256-d9cd770353e6d5f3e05da93a90a38e98d3000d34f062f7dfc4e1979b39186fa0"
+    },
+    {
+      "path": "references/helius-websockets.md",
+      "bytes": 13704,
+      "sha256": "sha256-e99c65629f87225aba0a112eff6c8b92ee140df6bce6f816a90b553171d23b66"
+    },
+    {
+      "path": "references/integration-patterns.md",
+      "bytes": 18489,
+      "sha256": "sha256-232e20f8614c8304dda47214a7ab206c4967cceaba85dd94aea6560985a51ed2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18679,
+      "sha256": "sha256-34248ce8976560321c07bc99cd6b26b687a933eb50178e16c8901cacd81ee458"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

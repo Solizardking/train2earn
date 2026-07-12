@@ -1,0 +1,724 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/omniverse-usd-performance-tuning",
+  "name": "omniverse-usd-performance-tuning",
+  "description": "Top-level workflow skill for USD performance diagnosis and optimization. Use for slow loading, high memory, low FPS, or 'optimize my scene' requests; delegates auth/runtime setup to Phase 0 owners.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/omniverse-usd-performance-tuning/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/omniverse-usd-performance-tuning/metadata.json",
+  "bundleHash": "sha256-4b8ec990e96d27afb74a796ae6c2c3ccff417095543d5200eb9bef66b782f782",
+  "merkleLeaf": "sha256-d7942a0c825229446f5814a39bc4eb2c57ba17dc4ca1a7624414ecf9780a608e",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 402,
+      "sha256": "sha256-031213cbb95fc0d1a1ee377396271367f234c83aff63a5ed5e0562f173fa857b"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 22630,
+      "sha256": "sha256-d77d3129aebd6559896e85161297aad649f1bbfc4e2b8774e0e6dc805ad1152c"
+    },
+    {
+      "path": "references/cad-conversion/README.md",
+      "bytes": 2577,
+      "sha256": "sha256-355a2be7120e147295c7ba2eb5d9e3c273bafb4237976a6721c6c3bd229a14b4"
+    },
+    {
+      "path": "references/cad-conversion/scripts/conversion-report.schema.json",
+      "bytes": 1321,
+      "sha256": "sha256-85bff6162e697e979251f1bb5be2f87b4715790e9e44e26a2d929ebbd2ab3fae"
+    },
+    {
+      "path": "references/compare-profiles.md",
+      "bytes": 2662,
+      "sha256": "sha256-a1d5895841671f5f083f7640ca33a4295ce3d3ee05e374bd3fb40e95c0980071"
+    },
+    {
+      "path": "references/compare-profiles/README.md",
+      "bytes": 9948,
+      "sha256": "sha256-425992e8080dea09e1c4fa42aee4bbd72dd419eec2f75a01686423821eeb9b19"
+    },
+    {
+      "path": "references/omniverse-authentication/README.md",
+      "bytes": 3883,
+      "sha256": "sha256-ee4dcb30534dc94e709cc251296740933fbd1673749083a1d84a8bbeece7f271"
+    },
+    {
+      "path": "references/operations/_curation.json",
+      "bytes": 16029,
+      "sha256": "sha256-6be6deb942376654100d21edd3f1ed5cc309b049c97a28a5366dc50905f09f0f"
+    },
+    {
+      "path": "references/operations/_template.md",
+      "bytes": 1545,
+      "sha256": "sha256-208d126dc579abd3b740af5a6487945297c8e8431f60009947590b965524b5ca"
+    },
+    {
+      "path": "references/operations/boxClip.md",
+      "bytes": 1059,
+      "sha256": "sha256-8082a58b93237ab8c33f99b50b8df636979444aafbeae6d8cc77d7393d6b9634"
+    },
+    {
+      "path": "references/operations/CLASSIFICATION.md",
+      "bytes": 4580,
+      "sha256": "sha256-2f625a11131801b1c03365a93bbcf7d4a95f97b3654a545f37fc0250b7fd4be0"
+    },
+    {
+      "path": "references/operations/computeExtents.md",
+      "bytes": 1152,
+      "sha256": "sha256-53135f4ee73fe85c9e01cdf89d4ef5ad388cead9be3ea6b87a317d87ceafbd83"
+    },
+    {
+      "path": "references/operations/countVertices.md",
+      "bytes": 1083,
+      "sha256": "sha256-864221d3ee5c225a7941dfed6925407057a70bd0c8aac656d8c5491ef8556c66"
+    },
+    {
+      "path": "references/operations/decimateMeshes.md",
+      "bytes": 2621,
+      "sha256": "sha256-b13a6daaa7b42af0a92b83e63e6e3908f860d2065a82d0ae1b2384983808b3dd"
+    },
+    {
+      "path": "references/operations/deduplicateGeometry.md",
+      "bytes": 1161,
+      "sha256": "sha256-4bd5c75a97b91aa16e2edd8a094528dab5ae99b5390de2bb25226f2fd9531e1c"
+    },
+    {
+      "path": "references/operations/deduplicateHierarchies.md",
+      "bytes": 1581,
+      "sha256": "sha256-7337cf7a08fcb93d7bd9d562b48316000b25840e1b76bc4cc2d3b6992b9a1f15"
+    },
+    {
+      "path": "references/operations/deleteHiddenPrims.md",
+      "bytes": 1099,
+      "sha256": "sha256-53ae8b72f6b10b7fa9d8b9070f08805fda69199b2524d24f673eb666fe4113a7"
+    },
+    {
+      "path": "references/operations/deletePrims.md",
+      "bytes": 1067,
+      "sha256": "sha256-e55ccc6a78801ce67e99810e7ac1b7a7b81c3ee8f516ac760a952ba1db582fb7"
+    },
+    {
+      "path": "references/operations/diceMeshes.md",
+      "bytes": 1077,
+      "sha256": "sha256-c3b358f0b1f09f492e1acc245ca20c44d4f003caa7323f1075cf291d145c43d8"
+    },
+    {
+      "path": "references/operations/editStageMetrics.md",
+      "bytes": 1111,
+      "sha256": "sha256-a83d8e016f104d41164c00b6e1d12bfcbdc12a009c83e9716152b039dc39d39d"
+    },
+    {
+      "path": "references/operations/EXECUTION.md",
+      "bytes": 5617,
+      "sha256": "sha256-02e26a797150a5eed96c1a7752315e49c881b93e58862828f85aedc015d1f4f5"
+    },
+    {
+      "path": "references/operations/findCoincidingGeometry.md",
+      "bytes": 1133,
+      "sha256": "sha256-b651d0c5b87d465e5f4ed0b709e6d9abda92f723c7285d92d2ec572c924f0e49"
+    },
+    {
+      "path": "references/operations/findFlatHierarchies.md",
+      "bytes": 1124,
+      "sha256": "sha256-3da43921d4c9b6125c8bb1b0a045e45c9c5c2fe54856d50eaa90517e5edaefdf"
+    },
+    {
+      "path": "references/operations/findOccludedMeshes.md",
+      "bytes": 4903,
+      "sha256": "sha256-c5f215138983a9304c5db3224f31777b92a84d47665caeacb941222872322aaa"
+    },
+    {
+      "path": "references/operations/findOverlappingMeshes.md",
+      "bytes": 1136,
+      "sha256": "sha256-ab4324972e8a4a4e13b114e90a21f1934337422726a6dd0eca43e61028624659"
+    },
+    {
+      "path": "references/operations/fitPrimitives.md",
+      "bytes": 1098,
+      "sha256": "sha256-2093ff3dfcf05e6f6033965b27c64bff41c97b3daf783d78aeb3b8228e97e13a"
+    },
+    {
+      "path": "references/operations/flattenHierarchy.md",
+      "bytes": 1096,
+      "sha256": "sha256-7364ac60661e8047728feb7f6d1748cb9d643525258114ebe473a7f3c686c9e4"
+    },
+    {
+      "path": "references/operations/generateAtlasUVs.md",
+      "bytes": 1082,
+      "sha256": "sha256-e7c48e0ddd8473779f1053bc448a2bbad3dfaa5e5c9d173e6367c36fed2953da"
+    },
+    {
+      "path": "references/operations/generateNormals.md",
+      "bytes": 1113,
+      "sha256": "sha256-ec9c1e04592319ce30f793c1f64951dc42cd13a9c6f463d3dcd36f5caaa66c12"
+    },
+    {
+      "path": "references/operations/generateProjectionUVs.md",
+      "bytes": 1113,
+      "sha256": "sha256-d488e05dd283a9d40b9249724f4813adb7945862cf0995d7d95128b559d7444f"
+    },
+    {
+      "path": "references/operations/generateScene.md",
+      "bytes": 1085,
+      "sha256": "sha256-b8f81bd83ca3abeda3d00fbadc75c3ca2ea4cd4a0e4a0128b05a2f297c6458be"
+    },
+    {
+      "path": "references/operations/manifest.json",
+      "bytes": 39568,
+      "sha256": "sha256-4d9464ddd35f33a9e6713d81b11dcc4a9b381f2d795a4ffee14f96da179d3790"
+    },
+    {
+      "path": "references/operations/manifoldMeshes.md",
+      "bytes": 1094,
+      "sha256": "sha256-40932e9e48942eea186c3ff96bfa68c1d22591b0db5a467ebd07ec4ff402858f"
+    },
+    {
+      "path": "references/operations/merge.md",
+      "bytes": 1086,
+      "sha256": "sha256-ff9db53993ac1c38d2fe175e4c0b371cfdc39336eb744c1b3a00c2d48dfc245e"
+    },
+    {
+      "path": "references/operations/mergeVertices.md",
+      "bytes": 1078,
+      "sha256": "sha256-a7aca33cc866e15731ad6260d4c6cf040e1202d40e876d7111971f3863e739e4"
+    },
+    {
+      "path": "references/operations/meshCleanup.md",
+      "bytes": 1127,
+      "sha256": "sha256-7db5bc0f1bc99241e192454eb2c839b5bde994c4d6bf5a2d38300b0ee33b0906"
+    },
+    {
+      "path": "references/operations/optimizeMaterials.md",
+      "bytes": 1156,
+      "sha256": "sha256-76391205882d6509e0ae48963f2ff20d6ff019e3716b63205a4fdec15a1861a4"
+    },
+    {
+      "path": "references/operations/optimizePrimvars.md",
+      "bytes": 1104,
+      "sha256": "sha256-52fefbdfbd30e31b250901b5c9316193ccf54f876052c03139c8d2c040e1ab4b"
+    },
+    {
+      "path": "references/operations/optimizeSkelRoots.md",
+      "bytes": 1116,
+      "sha256": "sha256-3d0d4d5174b606979521943a695e7fa89ed54ab263713c166fd3c2223a4ee204"
+    },
+    {
+      "path": "references/operations/optimizeTimeSamples.md",
+      "bytes": 1155,
+      "sha256": "sha256-caf608a16d3eddab3253c2d46d7ceb1c034ab7f24db817637cbd6c78838e0729"
+    },
+    {
+      "path": "references/operations/organizePrototypes.md",
+      "bytes": 1119,
+      "sha256": "sha256-7faf74b38bc1b96bc5c9df583efb47a54d286e38a7647f1e7c17e31e79ac95c5"
+    },
+    {
+      "path": "references/operations/pivot.md",
+      "bytes": 1052,
+      "sha256": "sha256-a356770e7b38318014293911721efca7cbbcf649cdf63697b7122792a2cbac4a"
+    },
+    {
+      "path": "references/operations/primitivesToMeshes.md",
+      "bytes": 1108,
+      "sha256": "sha256-d65cc34cbba3454b1958b11210378bd4e69c262fa196817c75e592a83fbc7594"
+    },
+    {
+      "path": "references/operations/printStats.md",
+      "bytes": 1067,
+      "sha256": "sha256-5d611c4484bb4681b8670a0a2369b626168bc588883785aa6c4e4125f8fd03ab"
+    },
+    {
+      "path": "references/operations/probe-snapshots/so-110.0.4.json",
+      "bytes": 1794,
+      "sha256": "sha256-92e3f647b00897f4e5573185775a72176212af24cc2990419ae43f00dc745edc"
+    },
+    {
+      "path": "references/operations/pruneLeaves.md",
+      "bytes": 1118,
+      "sha256": "sha256-cb7c204a7a12fe520aad62cad3d8ae4bd9f7c6ffa087c1d6feb73790383d335a"
+    },
+    {
+      "path": "references/operations/pythonScript.md",
+      "bytes": 1073,
+      "sha256": "sha256-47510ea1e5fcf38df100c8b4154090a5168faa7efeb69cfe719e6b9b076bba4c"
+    },
+    {
+      "path": "references/operations/README.md",
+      "bytes": 8212,
+      "sha256": "sha256-a19d56e5b4b9d51ee671e0ed5bd047ac741fa7eaed9871c0c04a9aaafd5cd2d8"
+    },
+    {
+      "path": "references/operations/remeshMeshes.md",
+      "bytes": 1078,
+      "sha256": "sha256-2a06d9005460b0c70e21e74aa8879079ba7d1caa2f3316c927cae803e6f68b27"
+    },
+    {
+      "path": "references/operations/removeAttributes.md",
+      "bytes": 1104,
+      "sha256": "sha256-df71fb74d1fae5b17ce76e3626f908d2c3f0e508e99439bda69a42564c883ecf"
+    },
+    {
+      "path": "references/operations/removePrims.md",
+      "bytes": 1076,
+      "sha256": "sha256-6ea78cc96ea8ef778f1e03e09a51ecb0ac2f10e5468264528384afee33789e73"
+    },
+    {
+      "path": "references/operations/removeSmallGeometry.md",
+      "bytes": 1145,
+      "sha256": "sha256-695ae88f2f03249d94a18846afd430b3ddad4f06b9a01b70acc24723daae2d71"
+    },
+    {
+      "path": "references/operations/removeUntypedPrims.md",
+      "bytes": 1098,
+      "sha256": "sha256-cc0aa3a1ec78cbc212cbe30997fb7d347705d89d1bbf93cb3fbb654f68cd3f95"
+    },
+    {
+      "path": "references/operations/removeUnusedUVs.md",
+      "bytes": 1079,
+      "sha256": "sha256-87188bc66640247f5756a2f1236b90d6278c8ede3aec26c406d36035464c6a27"
+    },
+    {
+      "path": "references/operations/rtxMeshCount.md",
+      "bytes": 1082,
+      "sha256": "sha256-96d534fead155c94c773d536c22b0cfda5a2f5364ec6374b62d6a6764bca8154"
+    },
+    {
+      "path": "references/operations/scripts/operation-curation.schema.json",
+      "bytes": 1234,
+      "sha256": "sha256-52687cd85b0b00e78cb30447702b20df88eec105fd7a7b877bec971990c0d8c7"
+    },
+    {
+      "path": "references/operations/scripts/operation-manifest.schema.json",
+      "bytes": 1889,
+      "sha256": "sha256-2c97b4ce0920635952fba3ba4f2c3ea9fbce2a6de5916cf8bc215b3d558fb145"
+    },
+    {
+      "path": "references/operations/shrinkwrap.md",
+      "bytes": 1061,
+      "sha256": "sha256-2406becd9f1c9329ca9d4bded39d06628477b3d1d6da936007c3d2a9d2973c1f"
+    },
+    {
+      "path": "references/operations/sparseMeshes.md",
+      "bytes": 1081,
+      "sha256": "sha256-6b8c515773610894a40bab47b750297aba9781f4d43ff8616a5a6b191ac17b2c"
+    },
+    {
+      "path": "references/operations/splitMeshes.md",
+      "bytes": 1070,
+      "sha256": "sha256-525c70d5004f0501a9e5079ef870e9c35d427edc5688aa66765b2046156aa392"
+    },
+    {
+      "path": "references/operations/subdivideMeshes.md",
+      "bytes": 1089,
+      "sha256": "sha256-27ba2f5751a04a3bbcb5e2a00ebcf718f19e2e009ac7a1c28c6364fa5d9c2a50"
+    },
+    {
+      "path": "references/operations/triangulateMeshes.md",
+      "bytes": 1097,
+      "sha256": "sha256-52c84a826d6ee2720859675495fc8e230a637fdb7cd80ef940dff225747a2d93"
+    },
+    {
+      "path": "references/operations/utilityFunction.md",
+      "bytes": 1081,
+      "sha256": "sha256-ed45b5e08da3eb96b0b287bc282a88f5af88b0662f6d65e4a86157a739b8209a"
+    },
+    {
+      "path": "references/optimization-report/README.md",
+      "bytes": 19708,
+      "sha256": "sha256-721420690707945042034eac6758d2fd27bed3f8bf27fc3ecc21def6413f788a"
+    },
+    {
+      "path": "references/optimization-report/references/optimization-report-template.md",
+      "bytes": 11598,
+      "sha256": "sha256-2a4a1bd9b9b889dbfb6384fb92ffcddc0dce89bf1beee7d70bce837faa880852"
+    },
+    {
+      "path": "references/optimization-report/scripts/optimization-report.schema.json",
+      "bytes": 15106,
+      "sha256": "sha256-2bd9e443030230848640a3fb385c3c0da266fac3df1b06f794bbeb4e07124a90"
+    },
+    {
+      "path": "references/optimization-report/scripts/validate_report.py",
+      "bytes": 15320,
+      "sha256": "sha256-ec9d7eb0eb44f3173bef50aee7acb8a0625aaf17708e022fba9e20dee5169d1e"
+    },
+    {
+      "path": "references/output-workspace.md",
+      "bytes": 3279,
+      "sha256": "sha256-1fcbb29f90ed0e32399b197fe983e5f99967e705d755eeec7d76303af8a8ecfc"
+    },
+    {
+      "path": "references/profile-stage/README.md",
+      "bytes": 14109,
+      "sha256": "sha256-730aa88608228a819dfb161b5dd394310a0ffca6d73ce75ebe6d3f3ba7795960"
+    },
+    {
+      "path": "references/report-templates/optimization-report.design-fixture.json",
+      "bytes": 7454,
+      "sha256": "sha256-3a72725e5b01bcf8c3a9690b75b2c7af7226afb3a89bc4ee021686ba6ccd56eb"
+    },
+    {
+      "path": "references/report-templates/optimization-report.design-fixture.manifest.json",
+      "bytes": 595,
+      "sha256": "sha256-4312f8ac99ecd9a8678d952911d2b875852e0306423252f47e7e6edd0a520708"
+    },
+    {
+      "path": "references/report-templates/optimization-report.html.template",
+      "bytes": 8823,
+      "sha256": "sha256-2e4eadbc1513e452f1d45e5fcdf2c02fcd5dcd55132ad49279a5a899a25e7b95"
+    },
+    {
+      "path": "references/report-templates/optimization-report.md.template",
+      "bytes": 2323,
+      "sha256": "sha256-7fa23252539406eb58ff4831ad75823769e67c6add4b2c3d2be5421113e79ba7"
+    },
+    {
+      "path": "references/report-templates/optimization-report.structural-only-fixture.json",
+      "bytes": 2995,
+      "sha256": "sha256-e9cc05f5a1fc66e21456a4710559e056ab283cd6e181e4ed9690c639083e1772"
+    },
+    {
+      "path": "references/report-templates/README.md",
+      "bytes": 1453,
+      "sha256": "sha256-47a26472d12a447c73d1b104c069ee54e4b3421e1f47070eba0e48e4f6445f23"
+    },
+    {
+      "path": "references/report-templates/render_preview.py",
+      "bytes": 8420,
+      "sha256": "sha256-b13efc4b120e09ef58f21a576b49e043039390ee79be3a81a7dd84511460c094"
+    },
+    {
+      "path": "references/runtime-artifact-token-budget.md",
+      "bytes": 3915,
+      "sha256": "sha256-42ca593461ccbdd9cdbe7684af4deea53058ac5c189be893a03833860320cb88"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/README.md",
+      "bytes": 13822,
+      "sha256": "sha256-90db915febfec14f3c1fe6c7ce9cd278c54f7eae77b7001f04fa631cc3cd17bd"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/references/install-asset-validator-standalone/README.md",
+      "bytes": 3973,
+      "sha256": "sha256-9d701f5c85e18079a7772b57c8e5d9b4c965ceafd043c58f28044a080eca2ab3"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/references/install-kit/README.md",
+      "bytes": 2622,
+      "sha256": "sha256-3574482b2a50376c14e64be35934c32caee93ef42acb310fb825af01ffee98d7"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/references/install-so-standalone/README.md",
+      "bytes": 11507,
+      "sha256": "sha256-56cdc4684e3de6088d6a6248fab420dc11dd567fc69bf4fffe687cd7be9e4e08"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/references/install-so-via-kit/README.md",
+      "bytes": 3738,
+      "sha256": "sha256-42c709ad33e07d8e6707d73b6f424a8f6b0e33bbf0144366ba0184170435e11c"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/references/kit-discovery.md",
+      "bytes": 3403,
+      "sha256": "sha256-f0c820b483d5f0ba5433f643abb99f8424e380c10b577e247faa605cd2fe1f21"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/references/runtime-context-header.md",
+      "bytes": 14397,
+      "sha256": "sha256-21209945a2aa41cdadf7dded4dc9fe97cdabf2de9c8eb32426023a82486e259c"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/references/runtime-probe.md",
+      "bytes": 4583,
+      "sha256": "sha256-6763515df6d9017bdaae69f392ea8e33b4c801d9cb90777b234110e2ea0bcd10"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/references/standalone-runtime.md",
+      "bytes": 2779,
+      "sha256": "sha256-12bd46dd3b62a2a1450c70d51348ef294451aaac359b0a5afd0996ccd2ddf669"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/scripts/probe-snapshot.schema.json",
+      "bytes": 1767,
+      "sha256": "sha256-e89025afd79e07064df84f3c17e80871067769434355094140a39260dd64ca48"
+    },
+    {
+      "path": "references/setup-usd-performance-tuning/scripts/setup-preflight.schema.json",
+      "bytes": 5156,
+      "sha256": "sha256-25b05f60c50b8e38c4733ab81ce960fb1cff2c48c2d6463102d7f455dc5b751f"
+    },
+    {
+      "path": "references/skill-map.md",
+      "bytes": 6443,
+      "sha256": "sha256-041493859e88a4eac6dcea887b2ee93bb1e3051095bee4b5f2b3d3820902327a"
+    },
+    {
+      "path": "references/so-run-operations/README.md",
+      "bytes": 3674,
+      "sha256": "sha256-174b9e5f6120d0d9b60744382a1b511449a3892fbd58590ac01acc1a34833b39"
+    },
+    {
+      "path": "references/so-run-operations/references/batch-mode.md",
+      "bytes": 4942,
+      "sha256": "sha256-4febfbb53ba70563cef867c6843cc318c96baed43ff6b4b5a782ecbe7ed05558"
+    },
+    {
+      "path": "references/so-run-operations/references/config-from-evidence.md",
+      "bytes": 4541,
+      "sha256": "sha256-a2b50fcb3d1a16186708b444c03ef891b3567f28ed31ef2cd64bea1e4b4c8ae2"
+    },
+    {
+      "path": "references/so-run-operations/references/invocation.md",
+      "bytes": 6386,
+      "sha256": "sha256-1f5d54a89ac49b04767f453ee31363d371bc30a5e6214670a7ebb0ac3afe87c3"
+    },
+    {
+      "path": "references/so-run-operations/references/operation-safety.md",
+      "bytes": 8909,
+      "sha256": "sha256-e3d5d00c4a3ebc169752722b06e7316529f954760a6c1ed70ce379dfe9b23705"
+    },
+    {
+      "path": "references/so-run-operations/references/pipelines.md",
+      "bytes": 2409,
+      "sha256": "sha256-f70442666e1f64c11ec164cd626be92d865ad86e187ad9462802711fc877f7ad"
+    },
+    {
+      "path": "references/so-run-operations/references/so-create-proxy/README.md",
+      "bytes": 1774,
+      "sha256": "sha256-db4b2d3ba6277980c26f5eb0128a5a6da84d0c107d0d549cf92e3c546cea8a0b"
+    },
+    {
+      "path": "references/so-run-operations/references/so-create-proxy/references/bounding-box-proxy-modes.md",
+      "bytes": 1558,
+      "sha256": "sha256-eb2d304edff2bee7131b22cd0ac77737e357d1569fd3a1d99f2d2f64a9dcd0de"
+    },
+    {
+      "path": "references/so-run-operations/references/so-create-proxy/references/decimate-step-recipes.md",
+      "bytes": 1530,
+      "sha256": "sha256-57ee8de94532a78992eb5179067e2341963a36b9b35c6f1e4f1b9cb03ce4f6ff"
+    },
+    {
+      "path": "references/so-run-operations/references/so-create-proxy/references/decimation-tuning.md",
+      "bytes": 1541,
+      "sha256": "sha256-3797768255f92b55509c02a03178aabea48faf7d5f79b3f0a3d991f48304f822"
+    },
+    {
+      "path": "references/so-run-operations/references/so-create-proxy/references/proxy-config-recipes.md",
+      "bytes": 1289,
+      "sha256": "sha256-9d38cbcf2c15fe8f3d29e232026133b4f904ec9a7cc42918b25a9e3dfe8a6977"
+    },
+    {
+      "path": "references/so-run-operations/references/units-and-tolerances.md",
+      "bytes": 3914,
+      "sha256": "sha256-960c4b085e1d87371c0689e5cf4772a283813fafde4dea8c6632f91f5ec50378"
+    },
+    {
+      "path": "references/upstreams/README.md",
+      "bytes": 1095,
+      "sha256": "sha256-789aa8e0ad396763575ae96170a8adf9b86c0e9a5e19b8eb8f48a1fe2e156e20"
+    },
+    {
+      "path": "references/upstreams/usd-optimize.md",
+      "bytes": 3178,
+      "sha256": "sha256-91addaab85930896741490c30f79c2d4ad0e6950e43dcf30d7d0f002cd04666d"
+    },
+    {
+      "path": "references/usd-structure-assessment/README.md",
+      "bytes": 25269,
+      "sha256": "sha256-6fad670df271b17e129f7e635f948d451615487d54afa9241d34ed5c5a1f44b3"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/apply-restructure/README.md",
+      "bytes": 15543,
+      "sha256": "sha256-3dac1138eeb997cde9550ee5f9237ef4e1f88c0b0ed17f0166c8ed8f4bcd5f53"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/apply-restructure/references/hierarchy-dedupe-rewrite-tool-spec.md",
+      "bytes": 8716,
+      "sha256": "sha256-7530190c9074c402908a6c8a30274e884a5437d6c82bb27508bfc4a8d0e07252"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/apply-restructure/references/ref-remap-mode.md",
+      "bytes": 2497,
+      "sha256": "sha256-d42f50e05024092b7c3c333d36cab98c1d050a77015bc3749a8d142507c9b0a1"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/apply-restructure/references/restructure-mode.md",
+      "bytes": 8531,
+      "sha256": "sha256-300a8a875fd6fcd9d1b79c40264b77bdd7a33b93eb11beeb5397daf935df0627"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/apply-restructure/scripts/apply-restructure-manifest.schema.json",
+      "bytes": 3726,
+      "sha256": "sha256-b965c041e8755b5eb0cb201806e980ae2b2317ea52115e5bc20b91778a0477c6"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/asset-structure-principles.md",
+      "bytes": 61518,
+      "sha256": "sha256-12061a816db217e06ab8d0ee5b25ada99bf141bccaae116bd3d2c654f1d7fe46"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/composition-audit.md",
+      "bytes": 4929,
+      "sha256": "sha256-c7b6a9e07a7c522d584afe33ec97a6d7dc6eee3532c268a8aefa056c0bd3393f"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/factory-level-structuring.md",
+      "bytes": 24625,
+      "sha256": "sha256-2621a69a3ebcea4eeaf9db7c32ef04cc3c625e0d005704a2547a524cd6b954a5"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/instancing-readiness/README.md",
+      "bytes": 8745,
+      "sha256": "sha256-5b393ef0213deabf3a57dfc627cd9013e5a28f6bb11328d110fa77368cb19f62"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/instancing-readiness/references/instancing-guide.md",
+      "bytes": 46076,
+      "sha256": "sha256-5c2c5c35d7eb9b6234126ce430d0920fcf8270914c79491695a77e3dd3360bcd"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/instancing-readiness/references/instancing-tradeoffs.md",
+      "bytes": 5712,
+      "sha256": "sha256-7553859ee15c57d9499dd6ceca316702e540903ec0b33a3a55167ab7deb36009"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/layer-health.md",
+      "bytes": 3224,
+      "sha256": "sha256-83ac4ecccf1b5cd77d8dd9c05d1db262517415eae44933043ccc3c2f67ea71d0"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/optimization-tradeoffs.md",
+      "bytes": 8831,
+      "sha256": "sha256-3bc9a4486c1dc574ff5f36c2a4bb42e9592b4e26ce597da478527625830ba29d"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/restructure-decision/README.md",
+      "bytes": 16918,
+      "sha256": "sha256-612a6bab13a0b28d9b3fd5879c7311067f5321c799166f8051cb6cd65f32ac3e"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/usd-edit-target-planner/README.md",
+      "bytes": 6478,
+      "sha256": "sha256-64df2a96008acc2b84a980ce5cfdcd79f602c521a0faeadf1bc35fd1aaf8b44d"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/usd-edit-target-planner/references/output-saving.md",
+      "bytes": 2163,
+      "sha256": "sha256-5c01e3eaa536cf11b307340916a99d2b5533635940bb124657cf68fe6e82fa6d"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/usd-edit-target-planner/references/variants-payloads.md",
+      "bytes": 4253,
+      "sha256": "sha256-eb2211b323418af37be8ea20763d9ba4b7de61562f8395ac683f98de3186059c"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/README.md",
+      "bytes": 5830,
+      "sha256": "sha256-3184cb370eb7043e61e4637ff4f70bd89d2a228a635e36ad8f3d729fd84f86d5"
+    },
+    {
+      "path": "references/usd-structure-assessment/references/usd-hierarchy-dedupe-candidates/references/instance-candidate-finder-spec.md",
+      "bytes": 35044,
+      "sha256": "sha256-f17f54a5085337d7155eaf28e075c79b481ff2a4cf44a390b8cdc44c939c16f4"
+    },
+    {
+      "path": "references/usd-structure-assessment/scripts/audit-report.schema.json",
+      "bytes": 2395,
+      "sha256": "sha256-2651ff46d8fbfceea8aa2a790897963680dda92939d3f64e104ac835dcd06d1b"
+    },
+    {
+      "path": "references/usd-structure-assessment/scripts/optimization-plan.schema.json",
+      "bytes": 1503,
+      "sha256": "sha256-1c8f89c501f27144b18c4f6af3ba31cf5c779a16ca22b95492e552624c3adfc5"
+    },
+    {
+      "path": "references/usd-structure-assessment/scripts/usd-structure-assessment-report.schema.json",
+      "bytes": 9769,
+      "sha256": "sha256-d3ebef411152dcaaec1b7ee6419c2d428aacae6b5e939153c5a28fd0c2e13e76"
+    },
+    {
+      "path": "references/usd-validation-runner/README.md",
+      "bytes": 28391,
+      "sha256": "sha256-682a3f8eb49e25128054563f05b5755f1a059abb03b5b5dbce2da9bfff3ffe92"
+    },
+    {
+      "path": "references/usd-validation-runner/references/so-interpret-validators/README.md",
+      "bytes": 3692,
+      "sha256": "sha256-bd70b94d065545d0481cdc0dc3beae9a106a9bbc1c2d543ee225610b361dab27"
+    },
+    {
+      "path": "references/usd-validation-runner/references/so-interpret-validators/references/follow-up-queries.md",
+      "bytes": 5109,
+      "sha256": "sha256-e94c79122b6796b1a183f0d64551341c2d00bfdd011d76bde3a0797db420b5a0"
+    },
+    {
+      "path": "references/usd-validation-runner/references/so-interpret-validators/references/rule-reference.md",
+      "bytes": 8973,
+      "sha256": "sha256-b3034c42c5ee64cbff7b7bb8f4b399e4584745d412a77dae1f48b208528e57f0"
+    },
+    {
+      "path": "references/usd-validation-runner/references/so-run-validators/README.md",
+      "bytes": 3006,
+      "sha256": "sha256-3b33f0a68a17d826994d7b73d7978180934ea756d2accf7770be1b6ce9e82ec6"
+    },
+    {
+      "path": "references/usd-validation-runner/references/so-run-validators/references/infrastructure.md",
+      "bytes": 1683,
+      "sha256": "sha256-f614422156b7b044675bc8c50e0f43b1674176dc306389a6f0ff876c14269bb6"
+    },
+    {
+      "path": "references/usd-validation-runner/references/validate-usd-asset-validator.md",
+      "bytes": 5470,
+      "sha256": "sha256-e53e6857655600dc4ac1852193a62efbf339103f6dc5da56f6f9ea79eb44fbec"
+    },
+    {
+      "path": "references/usd-validation-runner/references/validator-concepts.json",
+      "bytes": 31384,
+      "sha256": "sha256-f88a4d3eda299d867030800f74b1d806ff2b8d2d03553b72ba231605d3ceb05b"
+    },
+    {
+      "path": "references/usd-validation-runner/scripts/usd_validation_executor.py",
+      "bytes": 23684,
+      "sha256": "sha256-2fdaa43f2873de6136540db9e506c7eb26b4ef05fd0696f9b0d21f72d7663310"
+    },
+    {
+      "path": "references/usd-validation-runner/scripts/validation-report.schema.json",
+      "bytes": 3622,
+      "sha256": "sha256-9c99af279e2d30f870ff295dd77fdc0b6054af3012a2d27edd8fde62f043a408"
+    },
+    {
+      "path": "references/usd-validation-runner/scripts/validation-scope-note.schema.json",
+      "bytes": 2355,
+      "sha256": "sha256-f5cb4ae7d9d795f3b80aab2bd1cbb6c37773bc2f15de636af173bd18b44aca01"
+    },
+    {
+      "path": "references/usd-validation-runner/scripts/validator-concepts.schema.json",
+      "bytes": 3268,
+      "sha256": "sha256-cf525ed630ffc3a02c8090bd4755d4d340fa127be0325b2bf79900a6a781dca7"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 30522,
+      "sha256": "sha256-e729613bac4cfddff2cf76764013f6df08d28f6f2aaec33995554d58519e575e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3456,
+      "sha256": "sha256-775ef9322d330b2def03e3c74c8dc33cfda411cd9494ba3bf84518d81d75e484"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18006,
+      "sha256": "sha256-8a71b023ee7d99c1d5b057319e3b69f90e03841c3e9b56d525b336f9bb2e2618"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

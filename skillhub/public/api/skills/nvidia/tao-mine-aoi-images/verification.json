@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-mine-aoi-images",
+  "name": "tao-mine-aoi-images",
+  "description": "Runs the DEFT embed-then-mine workflow for VCN AOI iterations — embeds the gap-analysis target parquet, embeds a source pool, and mines nearest-neighbour source images for downstream augmentation. Use as the immediate next step after `tao-route-visual-changenet-samples` when expanding a real-image augmentation queue from the mining subset.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-mine-aoi-images/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-mine-aoi-images/metadata.json",
+  "bundleHash": "sha256-1aba205a0de6402efe40b99775531eca9adf8b12d12d9eeead59ab0ecaf65c49",
+  "merkleLeaf": "sha256-e0b895efe550ba6e3063e23ab7a842fb28732f389765c2d848ea218203913002",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4053,
+      "sha256": "sha256-dc62c97081a989849862457117e69139e2372ed3e865f1bc2f3c0f2e4b3418fd"
+    },
+    {
+      "path": "references/outputs-and-reporting.md",
+      "bytes": 4419,
+      "sha256": "sha256-42b627155e983f38a5573f41948a97efbb0013813b245bf1d1faef49a193df11"
+    },
+    {
+      "path": "references/reference-invocation.md",
+      "bytes": 2766,
+      "sha256": "sha256-35c8d7d10c60fcdf78da59f9d2767de97e75640ba37400fb706e862eb5da06d2"
+    },
+    {
+      "path": "references/setup.md",
+      "bytes": 3600,
+      "sha256": "sha256-8913e7d9e6ca4b339a860e247e4f7a5872de1232615a09b05c26243233dc4abc"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 3224,
+      "sha256": "sha256-0583791db634a3b4805eaf049c8e79d755d357e8608ae2fe863bcb97aa29b31d"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3850,
+      "sha256": "sha256-753881806bb12d333616a1a64707e59de86cd6a266603b0557e1c8ee9aba67b7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12554,
+      "sha256": "sha256-7ee64b6e3835ded491cca5755d5a3c3b5df4fb679a346cb6a85453a54984ef3a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

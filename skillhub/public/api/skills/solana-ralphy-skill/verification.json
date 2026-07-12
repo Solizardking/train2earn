@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "solana-ralphy-skill",
+  "name": "solana-ralphy-skill",
+  "description": "Autonomous AI coding loop for Solana development that combines Ralphy-style task execution with Solana program, token launch, dApp, testing, and multi-engine coding workflows. Use when running PRD-driven or parallel Solana implementation tasks.",
+  "source": "https://skills.x402.wtf/api/skills/solana-ralphy-skill/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/solana-ralphy-skill/metadata.json",
+  "bundleHash": "sha256-7e6acb834d937d52bac1cc7e2996ea35f044afb5f8d4a14d0f4f191cb9ea9b67",
+  "merkleLeaf": "sha256-714a1dd3d44c27ff547b80db224664f023ab352101d308bafdef096f69a7a4f8",
+  "files": [
+    {
+      "path": "assets/package.json",
+      "bytes": 874,
+      "sha256": "sha256-4c3ab6af13402c94b72bc5b21d7b1b63fe0e58b784e7dd6727e418038d4a44c5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6972,
+      "sha256": "sha256-8d51631206071d968d9f0a0c0846383f68530b64c779605eee0f0e41d2059d0e"
+    },
+    {
+      "path": "references/anchor-guide.md",
+      "bytes": 9787,
+      "sha256": "sha256-c46e4b2622b777a605946a3f715356c230437ccb77a5df3d23e7d1a41dc5fb37"
+    },
+    {
+      "path": "references/bags-api.md",
+      "bytes": 6993,
+      "sha256": "sha256-43f25f0317654773dbec1b3e00d9393f7e27f1760d76202b7dcf1a0475efd452"
+    },
+    {
+      "path": "references/security.md",
+      "bytes": 9090,
+      "sha256": "sha256-97c49cf697e0620742db1aaf4a2623b28d7ab91345886ef3b3f2e13ca75fa6fa"
+    },
+    {
+      "path": "references/solana-sdk.md",
+      "bytes": 9012,
+      "sha256": "sha256-48faea8d75507c675cc7701f31ca7d688044dba0f00d4366fed688412a4cc304"
+    },
+    {
+      "path": "references/testing.md",
+      "bytes": 10651,
+      "sha256": "sha256-75ce6db3ef5661e7aa778d8ed0c9ddc4d4de561debdb566b4da632a62ad4add7"
+    },
+    {
+      "path": "scripts/bags-operations.ts",
+      "bytes": 12921,
+      "sha256": "sha256-f310ef0a40acc1275541f69f7a7b194a8124330bcaf26858e02904a737717bc7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6594,
+      "sha256": "sha256-34ed3e0ed3c9ee9fa1d33c61b6336b058f6b947563c9d9317907732c6daed56a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

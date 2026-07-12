@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-waf-sustainability",
+  "name": "google-cloud-waf-sustainability",
+  "description": "Generates sustainability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify environmental impact requirements, and provide actionable recommendations to build, deploy, and manage the workload sustainably in Google Cloud.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-sustainability/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-sustainability/metadata.json",
+  "bundleHash": "sha256-12b60c74395041c99fc371bf4a15586966589ca0e8456eb774fe40ee1781933b",
+  "merkleLeaf": "sha256-74ea1b850197623a7972a4147f6e2b955b8e6e8bd73be754fa4c208394b2e2da",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 13293,
+      "sha256": "sha256-f270005fb37adb04b3579d1f2c262506a77831e9e8977a050f2eeb755e08d1e9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

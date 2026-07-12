@@ -1,0 +1,7 @@
+{
+  "slug": "imsg",
+  "name": "imsg",
+  "description": "iMessage/SMS CLI for listing chats, history, watch, and sending.",
+  "category": "Productivity / Messaging",
+  "skill": "/api/skills/imsg/SKILL.md"
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-build-source",
+  "name": "jetson-build-source",
+  "description": "Use when you need to rebuild the BSP overlay — DT, OOT modules, or kernel — from changes under bsp_sources/. Triggers: build bsp, rebuild dtb, rebuild kernel.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-build-source/SKILL.md"
+}

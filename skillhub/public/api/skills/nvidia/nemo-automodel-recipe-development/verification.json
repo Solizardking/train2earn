@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-automodel-recipe-development",
+  "name": "nemo-automodel-recipe-development",
+  "description": "Create and modify NeMo AutoModel training and evaluation recipes, including YAML structure, builders, and execution flow.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-recipe-development/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-recipe-development/metadata.json",
+  "bundleHash": "sha256-4edb4902daab9d1b394aa75d7676898b12f798df4bec0de41eaf0c15bd42644a",
+  "merkleLeaf": "sha256-c0cad4f661c13fff3fe799b3e6b4e84bfef030688a17fd97e1c71a73d1502253",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3610,
+      "sha256": "sha256-43134c2f7c7bfab470017971e6d62bc2d34652d4c1f32ca9cc8f036dbf0f2de0"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4024,
+      "sha256": "sha256-c4583c337722cecb8e59cd6440d5134afcd477108ae3943119c8ced864c4a0f8"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11396,
+      "sha256": "sha256-9c588c650e181e266600e03dc62af1cc49932f69fa93b61ffcba5e55f832b52f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

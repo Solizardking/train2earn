@@ -1,0 +1,7 @@
+{
+  "slug": "coding-agent",
+  "name": "coding-agent",
+  "description": "Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process for programmatic control.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/coding-agent/SKILL.md"
+}

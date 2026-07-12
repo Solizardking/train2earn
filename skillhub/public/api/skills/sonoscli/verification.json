@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "sonoscli",
+  "name": "sonoscli",
+  "description": "Control Sonos speakers (discover/status/play/volume/group).",
+  "source": "https://skills.x402.wtf/api/skills/sonoscli/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/sonoscli/metadata.json",
+  "bundleHash": "sha256-6f187f394d1a55636b2c7aaa930e501fef8311996d684c41260b592a8a85adb8",
+  "merkleLeaf": "sha256-18339902c756c6dcbb26640e8aac86816ba456408cebaaa8e144eac3cb5ec4f0",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 940,
+      "sha256": "sha256-0b9cf84b375cd2269aa7c295a776129c3c630b916ea66f9fd0b49feb76ba7499"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

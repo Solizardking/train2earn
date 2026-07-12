@@ -1,0 +1,7 @@
+{
+  "slug": "agent-orchestration/goal-loop",
+  "name": "goal-loop",
+  "description": "Explain and write effective instructions for the `/goal` feature — the persistent self-checking agent loop (plan → act → test → review → iterate), available in agents like Codex, Claude Code, and Hermes Agent. Use when the user mentions `/goal`, \"goal loop\", \"Ralph loop\", wants to kick off a long-running autonomous agent run, asks how to write a goal prompt, or wants a one-paragraph goal instruction drafted.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/agent-orchestration/goal-loop/SKILL.md"
+}

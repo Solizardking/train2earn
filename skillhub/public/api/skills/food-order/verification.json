@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "food-order",
+  "name": "food-order",
+  "description": "Reorder Foodora orders + track ETA/status with ordercli. Never confirm without explicit user approval. Triggers: order food, reorder, track ETA.",
+  "source": "https://skills.x402.wtf/api/skills/food-order/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/food-order/metadata.json",
+  "bundleHash": "sha256-91ba43d29bd73bc2bd50c74a81aa7f68aa98af252d7d30da0ccb64e1bb2022a8",
+  "merkleLeaf": "sha256-d4b4b89c665fc17ae32664b98dc51384969a23ec7acd0b97bd0d1b62cd5ccde6",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2055,
+      "sha256": "sha256-dea1c9acafb64448eee8f80f0971306363c53fcfbd22ccc605f23a7e3c69670d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

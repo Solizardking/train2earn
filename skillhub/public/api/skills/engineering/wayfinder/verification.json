@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/wayfinder",
+  "name": "wayfinder",
+  "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/wayfinder/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/wayfinder/metadata.json",
+  "bundleHash": "sha256-ca4643a6a1c6f23ae3d4b139ff5ce7ef3908e31034575133cbba798746059e23",
+  "merkleLeaf": "sha256-cd8ee581face7e8459c62a5597344ef1e9113b04ef9f16d6653f5646637786dd",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 11503,
+      "sha256": "sha256-bef437de697fb6984a8a90b7fd82f128609148d6e02f635ce419d03555b351e1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

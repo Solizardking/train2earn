@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/firebase-basics",
+  "name": "firebase-basics",
+  "description": "Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/firebase-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/firebase-basics/metadata.json",
+  "bundleHash": "sha256-734581db66aa61cb16a7bdff682ba1fe52b63177cb2c2b882cc913ecbd9d8df7",
+  "merkleLeaf": "sha256-f9a13c46baf0363814a235d771df626f1f7973b5d22f9066d83591f13160e946",
+  "files": [
+    {
+      "path": "references/additional-skills.md",
+      "bytes": 8392,
+      "sha256": "sha256-477a17c62824f0fb6fbcfb3a2bca23f3e127db84c8636c65223cf442ab4e2882"
+    },
+    {
+      "path": "references/cli-usage.md",
+      "bytes": 903,
+      "sha256": "sha256-22be07b1343123c31552108ee3eb8fd047749e156d0360e8b1e8c6e6d866f368"
+    },
+    {
+      "path": "references/client-library-usage.md",
+      "bytes": 1735,
+      "sha256": "sha256-ff8c4bbd23b7bb54f4add753440cfd779bc859301386002fdd64bf774aacbcc5"
+    },
+    {
+      "path": "references/core-concepts.md",
+      "bytes": 2802,
+      "sha256": "sha256-fe2a1964e16a97c6b3fafd0ca2b538bc8761f4a0413689972ec12a8988ceda0a"
+    },
+    {
+      "path": "references/iac-usage.md",
+      "bytes": 1327,
+      "sha256": "sha256-a991b912488b16d23b01a4f6734e8efe98dd7ada8fd06d736d2513da9e70ae97"
+    },
+    {
+      "path": "references/iam-security.md",
+      "bytes": 3158,
+      "sha256": "sha256-ab4ec92b880f012033841fa6040954c367ebd64dfd6428ccb07245665708fc5a"
+    },
+    {
+      "path": "references/mcp-usage.md",
+      "bytes": 1741,
+      "sha256": "sha256-d3a96dee1a7259d310c0ce74dd274f1423c957836c338cd5e94d84946868835a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3321,
+      "sha256": "sha256-326cf6d8ba4e1654a388cd6326c4cd0f9d0be4b5c4fa72ff9d520e874cb780db"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

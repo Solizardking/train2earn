@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-technical-analysis",
+  "name": "vulcan-technical-analysis",
+  "description": "Technical indicators and trigger evaluation for Phoenix markets: RSI, MACD, BBands, ATR, ADX, VWAP, Stoch, SMA, EMA.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-technical-analysis/SKILL.md"
+}

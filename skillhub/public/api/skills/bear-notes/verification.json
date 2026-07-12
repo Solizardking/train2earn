@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "bear-notes",
+  "name": "bear-notes",
+  "description": "Create, search, and manage Bear notes via grizzly CLI.",
+  "source": "https://skills.x402.wtf/api/skills/bear-notes/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/bear-notes/metadata.json",
+  "bundleHash": "sha256-6bb7296523517f4da188923684883dba3e8ffe300c06cd152a5fbf6b481d091f",
+  "merkleLeaf": "sha256-bc97bd5e8eb19e89d9c6d9b7b4ef9b211118c6e563e2cbdea9c2733f8e2e76de",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2454,
+      "sha256": "sha256-d1d8b653e4d71a6450d9c3f2a9c2bf637ad8ae59a73e2a42830cff6f76977937"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

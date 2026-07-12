@@ -1,0 +1,7 @@
+{
+  "slug": "solana-clawd-agents",
+  "name": "solana-clawd-agents",
+  "description": "Use the imported Solana Clawd Agents hub catalog to browse, validate, build, deploy, mint, stake, and integrate production-ready Solana agent definitions, including x402 paid-agent APIs, MCP catalog endpoints, Cloudflare Worker API, Metaplex Core minting, and agent JSON schema workflows.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/solana-clawd-agents/SKILL.md"
+}

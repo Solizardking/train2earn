@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-diagnostic",
+  "name": "jetson-diagnostic",
+  "description": "Read-only Jetson health snapshot for identity, memory, GPU, thermal, power, storage, services, and top processes.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-diagnostic/SKILL.md"
+}

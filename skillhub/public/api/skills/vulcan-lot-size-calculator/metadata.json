@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-lot-size-calculator",
+  "name": "vulcan-lot-size-calculator",
+  "description": "Convert desired token/notional amounts to Phoenix base lots. Use whenever a Vulcan command requires size/base lots.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-lot-size-calculator/SKILL.md"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-ts-vanity",
+  "name": "pump-ts-vanity",
+  "description": "Build educational TypeScript vanity-address tooling for Pump.fun/Solana wallets with @solana/web3.js, async generators, event-loop yielding, prefix/suffix matching, batch search, and best-effort memory zeroization.",
+  "source": "https://skills.x402.wtf/api/skills/pump-ts-vanity/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-ts-vanity/metadata.json",
+  "bundleHash": "sha256-0dcb4778d67a08d3a246b1f8552c2a4d715829b774cfc27f87a3dde089373e98",
+  "merkleLeaf": "sha256-166aea17e9683baf7d421f732af709b47a99024b0f9ef892b2ad0b92f3879aa0",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2903,
+      "sha256": "sha256-e0ee3ae7d5f27f00f43a3d686c7da18597128bec1102b3a606af61e2aa8eaf47"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

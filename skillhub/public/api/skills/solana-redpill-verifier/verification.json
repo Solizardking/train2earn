@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "solana-redpill-verifier",
+  "name": "solana-redpill-verifier",
+  "description": "Solana RedPill TEE verifier development and operations for the `web/solana-redpill-verifier` stack. Use for Pinocchio SVM proof storage, TeeProofV2 PDA layout, StoreProofV2 transactions, RedPill/TDX and NVIDIA NRAS attestation anchoring, CLAWD TEE Gateway setup, OpenAI-compatible attested inference proxying, Solana Attestation Service Token-2022 credentials, TypeScript client integration, OP-TEE signer integration, deployment, and debugging proof anchoring on Solana.",
+  "source": "https://skills.x402.wtf/api/skills/solana-redpill-verifier/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/solana-redpill-verifier/metadata.json",
+  "bundleHash": "sha256-b0d33c460af02029f402c69dd366c760c5991196bf2f40632cfa4e90cd4e27e3",
+  "merkleLeaf": "sha256-f22215982ce1f6b2ddea922d6f8fca66dc9630e1e8ac62648ce2a277e5944750",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 225,
+      "sha256": "sha256-f1e08cf58405b98dee11a8b86f49484dcc6b9bd43eb147cd440e22454e02d1e6"
+    },
+    {
+      "path": "architecture.md",
+      "bytes": 4416,
+      "sha256": "sha256-dbcedfbe140cfece5a7371d8324a405fb0b0e4c46a0ba252e5a6d94d66686cbc"
+    },
+    {
+      "path": "debugging.md",
+      "bytes": 5267,
+      "sha256": "sha256-14e9132181d02ba0ec3cbb436c6de2863711285ab0b4d62bb6baf15905a37192"
+    },
+    {
+      "path": "deployment.md",
+      "bytes": 3408,
+      "sha256": "sha256-5927f62db6b90d0be96beecef22468cd9cbfe31078bd74c01ac6944390efe13e"
+    },
+    {
+      "path": "gateway.md",
+      "bytes": 4768,
+      "sha256": "sha256-8f610ccf05d7bae3542e222cbfd56f87b8690477002c97561ef1e63ef9252c69"
+    },
+    {
+      "path": "onchain-program.md",
+      "bytes": 4565,
+      "sha256": "sha256-b2ce35aea96fdc9b7fff085e3438751ba9f6f85981e8adf84d73ac904ce4b8fb"
+    },
+    {
+      "path": "optee.md",
+      "bytes": 3196,
+      "sha256": "sha256-3a973a911003cdc94e4bb344dd0089cf521100287c695fc26392b9ed7cbc4765"
+    },
+    {
+      "path": "resources.md",
+      "bytes": 2519,
+      "sha256": "sha256-8f706cd3a74b7c8234c5adc7f09a6084a71dfbc3ee83b15da53b6147f570cca5"
+    },
+    {
+      "path": "sas-credentials.md",
+      "bytes": 3071,
+      "sha256": "sha256-a51022b3415df9307a7251bc98a8046446ff75b0dfd47d90aebc3d3a246e1f9d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5899,
+      "sha256": "sha256-adf5d481eceffe74dfdfe2c8575d2e0c84087ccd4344767612a4a666d6d4cfbc"
+    },
+    {
+      "path": "typescript-client.md",
+      "bytes": 3704,
+      "sha256": "sha256-6cc6c3da4bfb01c774700c43da7e0d58c6525309306cf8f424ee72b416a410cc"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

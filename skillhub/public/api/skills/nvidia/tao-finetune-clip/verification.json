@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-finetune-clip",
+  "name": "tao-finetune-clip",
+  "description": "CLIP vision-language model for image-text retrieval, zero-shot classification, embedding extraction, ONNX export, and TensorRT deployment. Use when fine-tuning or training CLIP, running zero-shot classification, computing image embeddings, or deploying CLIP to ONNX/TensorRT.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-clip/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-clip/metadata.json",
+  "bundleHash": "sha256-0bcd5d288331c4f5c8f3409fe113c279eb493afd20a7a53cf46a2c9d450a4783",
+  "merkleLeaf": "sha256-c7ddc7323796425f4132e919311b439aa353dab43d15b9d5c7810d8cc0986205",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3924,
+      "sha256": "sha256-c68af832a8772bb1541c7121025a461179412bb3f202178fd909ed231fe6e1f6"
+    },
+    {
+      "path": "references/error-patterns.md",
+      "bytes": 4015,
+      "sha256": "sha256-ff65d4295840a4ad6327a89e095d91a5e1379949dec45e31f2742e3bc5bded59"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4796,
+      "sha256": "sha256-69aee19594115302cd4e7d3bfc972dcab150d281431f5dbd189711c6468c12ad"
+    },
+    {
+      "path": "references/spec_template_deploy.yaml",
+      "bytes": 616,
+      "sha256": "sha256-e1ee53dc99c612be5d900db41267c8c2d1eb66d52fb572edbb0ea61dcadb26df"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1411,
+      "sha256": "sha256-cdbb69b3db44296129016f6ba12e7177b6ae5342fc344ac9b903137e94a47490"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 1494,
+      "sha256": "sha256-9349d71f26dbd356f74cb03a6e96a9ee81022a272cc15a959ffa3135993d39ff"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 1321,
+      "sha256": "sha256-e3e75ab3c05ac94f8db896922cca3f501e2fcb3f1a44010eb0189ad178a17a71"
+    },
+    {
+      "path": "references/spec_template.yaml",
+      "bytes": 2078,
+      "sha256": "sha256-31330d1fc616db5ae7246b9fd2c20eddb52de1496c844f768325bb0ff9e55898"
+    },
+    {
+      "path": "references/spec-param-inference.md",
+      "bytes": 2523,
+      "sha256": "sha256-cf045f125f0bf281cc6de0febcb471df102d614583d84625f95b01bc99483aa0"
+    },
+    {
+      "path": "references/tao-deploy-clip.md",
+      "bytes": 5818,
+      "sha256": "sha256-78b910f8cd62f9c1ea67e84261cfe3ce048cfe28bdd5d510978384e39f53f195"
+    },
+    {
+      "path": "references/tao-deploy-clip.skill_info.yaml",
+      "bytes": 2195,
+      "sha256": "sha256-de4cf7d734e1fb2699d2513c8a5f4bf32a44fcdbd31d2936d44e97e8254a12e1"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3882,
+      "sha256": "sha256-450e26cac7199e3d40e11c5bfdf540a5a2afdfc7939291027d487b4e20b6add9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15157,
+      "sha256": "sha256-999c59c01a2d5b9208a0d2889d9a080a6e23c9226ea09359c5c764ad3b967298"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

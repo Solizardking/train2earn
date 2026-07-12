@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemo-mbridge-perf-hierarchical-context-parallel",
+  "name": "nemo-mbridge-perf-hierarchical-context-parallel",
+  "description": "Operational guide for enabling hierarchical context parallelism in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md"
+}

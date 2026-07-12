@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "clawd-skills-installer",
+  "name": "clawd-skills-installer",
+  "description": "Install and make Clawd, Cheshire Terminal, Solizardking, Vercel, and eve agent skills available to local coding agents. Use when a user asks to add all skills, install this repo with npx github, install into ~/.agents/skills, ~/.codex/skills, ~/.claude/skills, or an eve project's agent/skills directory.",
+  "source": "https://skills.x402.wtf/api/skills/clawd-skills-installer/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/clawd-skills-installer/metadata.json",
+  "bundleHash": "sha256-8d91108398a90d27fc736332e4a58bf7ebc059687eb08075deae4e4d7db2ac6e",
+  "merkleLeaf": "sha256-6d7520e85a3486c44c9d4dff93d52d105e927d3bf0ebbec20268f215b6cd866b",
+  "files": [
+    {
+      "path": "references/install-targets.md",
+      "bytes": 1810,
+      "sha256": "sha256-8a05e34ff935516b91ca5860d0f5dd46e35a823d7ac62dd7cb77a68a35021655"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1662,
+      "sha256": "sha256-a8b0c205dd6d598a7d1f19b606deec589c6d2ca458a87112cb289781fb0a5a6c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

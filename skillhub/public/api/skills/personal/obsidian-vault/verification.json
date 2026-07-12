@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "personal/obsidian-vault",
+  "name": "obsidian-vault",
+  "description": "Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian.",
+  "source": "https://skills.x402.wtf/api/skills/personal/obsidian-vault/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/personal/obsidian-vault/metadata.json",
+  "bundleHash": "sha256-7e1619b7a3e755aa5bb5b270c74a31818b01125a51cd64104b220f6f502e7197",
+  "merkleLeaf": "sha256-9b8de4dc7cd8700fbc2193bb7fd7263a494760b0012ad97f256ff74a98a4dade",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1511,
+      "sha256": "sha256-7bed1d552aa5e9345e493cd62cb13e65c5d829d153c349afdb2cb91c809fa6c4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

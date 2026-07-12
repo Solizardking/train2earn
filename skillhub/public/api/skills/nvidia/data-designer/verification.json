@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/data-designer",
+  "name": "data-designer",
+  "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline with the standalone Data Designer skill.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/data-designer/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/data-designer/metadata.json",
+  "bundleHash": "sha256-8707f8387248077768c99821fc9787dd21d28af1db7a3e074721a9e17fd13e55",
+  "merkleLeaf": "sha256-d5d3d60af6bda7c1cbab203f95600b083cb361fda2c8d0ede6386581df2b764f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3821,
+      "sha256": "sha256-3f8e44cb49e2d418e46982a45270338189e94e86150a8ef372043ec9a6219bf7"
+    },
+    {
+      "path": "references/person-sampling.md",
+      "bytes": 2356,
+      "sha256": "sha256-7ac49670cb1f0dde9c30b973de0b332716bdfca64045d4d41add1da6c7c6f3a8"
+    },
+    {
+      "path": "references/preview-review.md",
+      "bytes": 1875,
+      "sha256": "sha256-36dfcf5f8e8516ec0b321cf2ff7d9093786bda93ac863b99875720a6f195df0b"
+    },
+    {
+      "path": "references/seed-datasets.md",
+      "bytes": 1170,
+      "sha256": "sha256-a09a7fdc9010be959620d758da24335b8e4f051b4d002286c394f8332b192616"
+    },
+    {
+      "path": "scripts/get_person_object_schema.py",
+      "bytes": 1765,
+      "sha256": "sha256-be1739329de63e2a56d52611053543a9ec38a227d610405ef987bdfb4809899b"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3737,
+      "sha256": "sha256-b325ba5d5e5b1aa838bebf95486e769797de19013b5b26dd2d6eced40e5490d3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4756,
+      "sha256": "sha256-d28f732c82573c3f3913cecfd4658583d431505ea94ca16e95be13bdda818fca"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

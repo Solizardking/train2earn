@@ -1,0 +1,7 @@
+{
+  "slug": "ask-mcp",
+  "name": "ask-mcp",
+  "description": "For questions about Light Protocol's SDK, smart contracts and Solana development, Claude Code features, or agent skills. AI-powered answers grounded in repository context via DeepWiki MCP.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/ask-mcp/SKILL.md"
+}

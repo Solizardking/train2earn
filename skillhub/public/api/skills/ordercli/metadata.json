@@ -1,0 +1,7 @@
+{
+  "slug": "ordercli",
+  "name": "ordercli",
+  "description": "Foodora-only CLI for checking past orders and active order status (Deliveroo WIP).",
+  "category": "Local / Web Services",
+  "skill": "/api/skills/ordercli/SKILL.md"
+}

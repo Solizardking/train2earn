@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/bigquery-ai-ml",
+  "name": "bigquery-ai-ml",
+  "description": "Leverages BigQuery's built-in machine learning and GenAI capabilities for advanced data analytics. Use when you need to write SQL queries that perform time-series forecasting, detect outliers, find key drivers, or leverage generative AI capabilities in BigQuery.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/bigquery-ai-ml/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/bigquery-ai-ml/metadata.json",
+  "bundleHash": "sha256-7e653462fdf62d10c68ba63d477dc7a01649c5f3d76e7d992b768fdb8612fc73",
+  "merkleLeaf": "sha256-3cee589e3b315f79c6ac4a0dcacf001a7aae863d3c4e00c1374b12f2a25449a1",
+  "files": [
+    {
+      "path": "references/ai_detect_anomalies.md",
+      "bytes": 3818,
+      "sha256": "sha256-320e45a4100673b55a58249494964cb1f966025002b00c93fa97e3d76a382c39"
+    },
+    {
+      "path": "references/ai_forecast.md",
+      "bytes": 4506,
+      "sha256": "sha256-ecead6486872f9131f77a6e822e2f5226fc4d06659b592a1c648477faef3c384"
+    },
+    {
+      "path": "references/ai_generate.md",
+      "bytes": 2896,
+      "sha256": "sha256-b24b112918875180cd4e935d0ffa7ba9d86bd5276a21bf542b87816054625551"
+    },
+    {
+      "path": "references/ai_key_drivers.md",
+      "bytes": 4591,
+      "sha256": "sha256-8ed33e3a879347ca739984720235a8ed73c7be83a7aee55d12720852e95db6f3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1335,
+      "sha256": "sha256-1231ec826c3b13d41159c148b189b5c209aed63034a67b4c726d7ae3afccc2bc"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/dynamo-troubleshoot",
+  "name": "dynamo-troubleshoot",
+  "description": "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use recipe-runner/router-starter before this for normal bring-up.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/dynamo-troubleshoot/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dynamo-troubleshoot/metadata.json",
+  "bundleHash": "sha256-fecdab5c87e187c862c10d72c856b7a968c0a820ccdd0b34592ba8d926ee0c82",
+  "merkleLeaf": "sha256-4118f98c85a17898188d691946443bd0eb179297daea49f2636026142375b4b7",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3022,
+      "sha256": "sha256-a613e205d872ee3802feb1b063156a489c5300d1ba996c7c5c6141b313d377fd"
+    },
+    {
+      "path": "references/failure-decision-tree.md",
+      "bytes": 3834,
+      "sha256": "sha256-264aa0a38f6ebce55af5eb5156eb4fef0ae37f0a49be77d049ba6bfc0143737b"
+    },
+    {
+      "path": "scripts/collect_dynamo_debug_bundle.py",
+      "bytes": 8539,
+      "sha256": "sha256-1200ebc7f11e107aeb443601827696456b0596581ce7075785d35d4e4cd09a6e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2844,
+      "sha256": "sha256-10ba93d93d2c025794f7c3f3f84688d4bbb71f984bae9eb60ceff43dfa0a7ac9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5130,
+      "sha256": "sha256-3f11c76e09e40865ac9c983161388506763b9699f7dd37db56e07c619664e4bd"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

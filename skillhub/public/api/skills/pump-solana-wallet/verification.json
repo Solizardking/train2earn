@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-solana-wallet",
+  "name": "pump-solana-wallet",
+  "description": "Generate and validate secure Solana wallets for Pump.fun workflows using official Solana libraries, Ed25519 keypairs, offline operation, memory zeroization, secure file permissions, and Rust/TypeScript/Bash implementations.",
+  "source": "https://skills.x402.wtf/api/skills/pump-solana-wallet/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-solana-wallet/metadata.json",
+  "bundleHash": "sha256-39928187e1ca8db9ccba43e4aea4666571619961de8417b9bd04bb591a32de2e",
+  "merkleLeaf": "sha256-5253f85279c59691cb86be9ea2f3444ebdb0ecfd282fca80a24fd32c1bcd80d9",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2918,
+      "sha256": "sha256-140e492d886f1d9ed4ae0da39191b41bd87e1accd4977045886b3a48a2188fbb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

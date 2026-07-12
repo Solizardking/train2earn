@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-generate-video-report",
+  "name": "vss-generate-video-report",
+  "description": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts or ad-hoc Q&A.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-generate-video-report/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-generate-video-report/metadata.json",
+  "bundleHash": "sha256-05e45aae83e6e389f4261e6e1d4440405fe11f998f3de1d6a8a628eddde59170",
+  "merkleLeaf": "sha256-358acd80e7811908d30d23ec17a37f035c02d39e4c7beaebffd343f23ee4a0c7",
+  "files": [
+    {
+      "path": "assets/incident-range-report.md",
+      "bytes": 686,
+      "sha256": "sha256-4050796665b74d000a81e8e27ff98df85e6a91fb58bf011b1f58e5c6d55c048a"
+    },
+    {
+      "path": "assets/video-analysis-report.md",
+      "bytes": 502,
+      "sha256": "sha256-5b291531bd40b0aaba19b29f97399de39ba6a077b83cd9352243c879c5283e2b"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3581,
+      "sha256": "sha256-ed08b7a5464324a328d68541abc6dd43f4135ebe06db1461d807d503e937d6f2"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3960,
+      "sha256": "sha256-9990ccc5e71e847109f4fe48149a677d70767e2c5f7cefe6ab54dd8e273a2216"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18627,
+      "sha256": "sha256-a1797fea072a349564c99439fa27bc6363c5e7bd36362d92be9d69cf5a73fa46"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "research-and-web/online-shopping",
+  "name": "online-shopping",
+  "description": "Research any online purchase with DeepAPI — fair-price checks, best deals, where to buy, shop trust. Load whenever the user is shopping or buying anything online: mentions buying a product, comparing prices, \"is this a good price\", \"where can I get X\", or attaches a product photo or listing screenshot. Research only — never places orders.",
+  "source": "https://skills.x402.wtf/api/skills/research-and-web/online-shopping/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/research-and-web/online-shopping/metadata.json",
+  "bundleHash": "sha256-d25efae4f7e375320a122dcd68aa3ba685c81eaef61efd2950af29f37e58caf9",
+  "merkleLeaf": "sha256-e3d81bce4bba8065edeaec0b5c3b884e89f5a08cee01c32540936f9ff6c74178",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5904,
+      "sha256": "sha256-5e9b9d7f84ed295e9e4439cd7096a123d5ef770ad62b8dcbae98a253120a6a42"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "solana-clawd-agentic-commerce",
+  "name": "solana-clawd-agentic-commerce",
+  "description": "Build and operate Solana CLAWD agents that spend through Pay CLI, expose paid stores, mint Metaplex-readable identities, and launch Genesis agent tokens.",
+  "source": "https://skills.x402.wtf/api/skills/solana-clawd-agentic-commerce/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/solana-clawd-agentic-commerce/metadata.json",
+  "bundleHash": "sha256-c88573b125462349d284041eb5c8dc87a4b26a15ba85c4bc5afc638af0e67bfc",
+  "merkleLeaf": "sha256-cafea215434a07c66a440f872ab420e9f21d8d18023344e1096a2d5d49bbd0c1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1948,
+      "sha256": "sha256-4df1939dbf22abd33a7b51e38a12b6287ec9616e870b1eef12fa8b0a138d47ef"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

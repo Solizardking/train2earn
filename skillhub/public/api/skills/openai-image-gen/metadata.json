@@ -1,0 +1,7 @@
+{
+  "slug": "openai-image-gen",
+  "name": "openai-image-gen",
+  "description": "Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html` gallery.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/openai-image-gen/SKILL.md"
+}

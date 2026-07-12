@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-build-release",
+  "name": "pump-build-release",
+  "description": "Run and maintain Pump.fun SDK build, release, and publishing workflows across TypeScript, Rust, npm, Vercel, Makefile targets, linting, semantic release, and MCP server distribution. Use when preparing or debugging Pump.fun package releases.",
+  "source": "https://skills.x402.wtf/api/skills/pump-build-release/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-build-release/metadata.json",
+  "bundleHash": "sha256-23b5b4bad9b4971fa76fbd12cba1b914ed0999806ad102e5f711c69329415bd1",
+  "merkleLeaf": "sha256-28b9b394273bea5f827a18199bc348a9a938fd38ccda3f8cd05fe4a8ac827050",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2445,
+      "sha256": "sha256-18b2d5466aab99a9bc25850d90144fa525894a220f314d15a30a388242ee877e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

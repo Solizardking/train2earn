@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/cloud-run-basics",
+  "name": "cloud-run-basics",
+  "description": "Manages Cloud Run services, jobs, and worker pools. Use when you need to deploy applications responding to HTTP requests (services), run event-triggered or scheduled tasks (jobs), or handle always-on pull-based background processing (worker pools).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/cloud-run-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/cloud-run-basics/metadata.json",
+  "bundleHash": "sha256-2c571a6a9a091fd353fdaa920b2572a03eb7628a8d0ca91dceab903979a9af68",
+  "merkleLeaf": "sha256-091a85308056cfaf846d63e931fc5216a2c5413a4338a66445bbf7a7d0c405c6",
+  "files": [
+    {
+      "path": "references/cli-usage.md",
+      "bytes": 2482,
+      "sha256": "sha256-87a58f1c49b848f66fa6bf1e30882fe247232aa1bf76e90987abf5e8b031580e"
+    },
+    {
+      "path": "references/client-library-usage.md",
+      "bytes": 3470,
+      "sha256": "sha256-2f2c95b3fe6b8c36cfea903644279abe129816a84785739d4ba49e6bb571e772"
+    },
+    {
+      "path": "references/core-concepts.md",
+      "bytes": 6709,
+      "sha256": "sha256-459830cc25d643dfd255b127df4df01bf9987b9eafd5c8aa8baca054517ccffe"
+    },
+    {
+      "path": "references/iac-usage.md",
+      "bytes": 2020,
+      "sha256": "sha256-941839db410466ca94fc52ec264f9b5b1c603cb8daae1ade7d467beae8bbc6ff"
+    },
+    {
+      "path": "references/iam-security.md",
+      "bytes": 3978,
+      "sha256": "sha256-4bf26e48111c633ab57950a5fa7b27ae5934d835331f245bf037a6288f6cc055"
+    },
+    {
+      "path": "references/mcp-usage.md",
+      "bytes": 1907,
+      "sha256": "sha256-ad9aecf215e01dc4384918b39457a118d15d16f3f6c7e10aa80a50a686eca780"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15623,
+      "sha256": "sha256-c408324ce9fd9401b30c18ffbacf4979bc0a300eef4a610fa87b174b1d3426a6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

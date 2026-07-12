@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "bird",
+  "name": "bird",
+  "description": "X/Twitter CLI for reading, searching, posting, and engagement via cookies.",
+  "source": "https://skills.x402.wtf/api/skills/bird/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/bird/metadata.json",
+  "bundleHash": "sha256-dd57a6547757aa09f998e75a121f6449a2a262543d9be0c92b7661ad32ac2bf3",
+  "merkleLeaf": "sha256-9208027345e7bd3f391daf10e940e7266e3fc142ddffa340a54e9343f007c2a8",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5312,
+      "sha256": "sha256-acb3987c1a7185fd769c963e21964456d5f5aac418edcdafc9bafd3e8757e816"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

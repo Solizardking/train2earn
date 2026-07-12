@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-ocdnet",
+  "name": "tao-train-ocdnet",
+  "description": "OCDNet for scene text detection. Detects arbitrary-oriented text regions in natural images using a differentiable binarization approach. Use when training, evaluating, exporting, pruning, quantizing, retraining, or running inference for a TAO OCDNet model. Trigger phrases include \"train OCDNet\", \"scene text detection\", \"arbitrary-oriented text boxes\", \"differentiable binarization detector\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-ocdnet/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-ocdnet/metadata.json",
+  "bundleHash": "sha256-7b32ca93ef4f7f6c9472f1ea94fbc45b6c385ac07fea88944ac9c4c4d0970dfd",
+  "merkleLeaf": "sha256-b8f70c94bc02a2f4f18739e4c632ed6c9cc089bb72c524874c90e6a60c7c4f74",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4048,
+      "sha256": "sha256-33b9e8129d7d7232fa107982b979ced5b769030dde46421c000df000762ef122"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 6137,
+      "sha256": "sha256-55adbb070818ae8e2e3d7b19b52c3cbfb70d80b38a9b0c1f8a26bb076eb0b5c8"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 814,
+      "sha256": "sha256-1e8ebce68ae3e723a24876db08e98d8c493e4b672656f88d80504ee45352d14a"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 445,
+      "sha256": "sha256-5ddf04e12415e9b6cc6b7f519a9df13b2757f71227d7196ddeb018ffda3be32d"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 413,
+      "sha256": "sha256-f75c999a8e85533b36742d15737a369a9780529f9fe3283e38daf6cc201f6019"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 3357,
+      "sha256": "sha256-0716c0be555d758e5e2cbe9bc37ab327893cb448fe4f203edaf4eee8dcdd6bb1"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3143,
+      "sha256": "sha256-dbd99d4d0617a42094a8c2a94e5b57ab2c78fe14d815863d94ad695f9367e5e9"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 3445,
+      "sha256": "sha256-5327fe6c8052bff7e2ace59f6f364db8226a0cc1a918f5f6e66d0eb7c1aaff74"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 3382,
+      "sha256": "sha256-cc1650e183a71da6e2f14901d6c86e59d98646d4e8446e59ab78c058342d1a7b"
+    },
+    {
+      "path": "references/spec_template_prune.yaml",
+      "bytes": 3119,
+      "sha256": "sha256-952e267df04946f07873874455da12fb064ffe49bc09ee451b97f6222e3f9182"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 3006,
+      "sha256": "sha256-386d2d58f31f83c3b3dd8d8158852a464be993466ab8bda211a429b15bde86a5"
+    },
+    {
+      "path": "references/spec_template_retrain.yaml",
+      "bytes": 3006,
+      "sha256": "sha256-386d2d58f31f83c3b3dd8d8158852a464be993466ab8bda211a429b15bde86a5"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 3006,
+      "sha256": "sha256-386d2d58f31f83c3b3dd8d8158852a464be993466ab8bda211a429b15bde86a5"
+    },
+    {
+      "path": "references/tao-deploy-ocdnet.md",
+      "bytes": 6233,
+      "sha256": "sha256-3a351ef6bf396c7c08375eb68b72da62e08d1a3c870161205938cb32dd403f48"
+    },
+    {
+      "path": "references/tao-deploy-ocdnet.skill_info.yaml",
+      "bytes": 3378,
+      "sha256": "sha256-f20eee980bfda013efe18394f759334591dac70a59b776da9de81dfc4f75870f"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3720,
+      "sha256": "sha256-664ac64e8dd64ac685f8142ade5dafc2f0ff541b6158038c45d808fe32bfc77e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13990,
+      "sha256": "sha256-e8c0c2b6d097d4a2eb3a8efead353912f3e842795daa6cacf3d8d15649afaa24"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

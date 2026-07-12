@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-waf-performance-optimization",
+  "name": "google-cloud-waf-performance-optimization",
+  "description": "Generates performance-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Performance Optimization pillar of the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify performance requirements, and provide actionable recommendations for resource allocation, modular design, and elasticity.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-performance-optimization/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-performance-optimization/metadata.json",
+  "bundleHash": "sha256-1054f1692532f47744379c78cd7c4d2832565b6c7deb663120df1b721ae1c49e",
+  "merkleLeaf": "sha256-d710b9efb833a10ea510b7d327fa20b158a3c40ca054428465b6461200549231",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 7318,
+      "sha256": "sha256-03e6b3e523712cad48dc62e09804250c241fc34e88c18aa81a7d5b2aada7759a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "notion",
+  "name": "notion",
+  "description": "Notion API for creating and managing pages, databases, and blocks.",
+  "category": "Productivity / Messaging",
+  "skill": "/api/skills/notion/SKILL.md"
+}

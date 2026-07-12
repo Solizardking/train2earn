@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "thinking-and-docs/level-up",
+  "name": "level-up",
+  "description": "Gauge the user's technical + product knowledge through 7 adaptive questions, log verbatim answers with honest ratings, and grow a learning plan from the gaps found. Use when the user says \"level up\", \"level-up session\", \"quiz me\", \"gauge my knowledge\", or wants a new assessment round. Differentiator: this finds and maps gaps; the `teach` skill delivers lessons on them.",
+  "source": "https://skills.x402.wtf/api/skills/thinking-and-docs/level-up/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/thinking-and-docs/level-up/metadata.json",
+  "bundleHash": "sha256-530b4ddcb22b40f6d88eee26184c19cfa21dc421154e6062f4c6a2c953d9780b",
+  "merkleLeaf": "sha256-e556320f61d87aad2a2bc27d2d3849c08b3ef6c17645f85c873ebf1cc7e8c588",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2793,
+      "sha256": "sha256-e6bac866843b0ce88d02d559552b74b3e5b15b0027b97974a82d415f70218307"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

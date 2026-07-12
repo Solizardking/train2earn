@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/datalineage-bigquery-asset-impact-analysis",
+  "name": "datalineage-bigquery-asset-impact-analysis",
+  "description": "Analyzes the downstream impact (blast radius) when a BigQuery table or view is broken, stale, or modified. Identifies all downstream tables, dashboards, and processes that will be affected. Use when: - Performing a blast radius or impact analysis for a BigQuery table or view. - Assessing the consequences of modifying, deleting, or pausing updates to a BigQuery asset. - Identifying downstream dependencies (tables, dashboards, processes) of a BigQuery asset. Don't use for: - General BigQuery querying or data analysis (use BigQuery-related tools instead). - Non-BigQuery assets (e.g., Cloud Storage files) unless they are part of the BigQuery lineage. - Creating or modifying lineage links directly.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/datalineage-bigquery-asset-impact-analysis/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/datalineage-bigquery-asset-impact-analysis/metadata.json",
+  "bundleHash": "sha256-056008c2011a1a57c95630a79f81f909a5c94beaa2211b95cae89cdca8b27a1a",
+  "merkleLeaf": "sha256-dec54aeabdcdc336b96ca0f82347fbf19daaab26c37253ce86bf4972617b822a",
+  "files": [
+    {
+      "path": "references/mcp-usage.md",
+      "bytes": 1243,
+      "sha256": "sha256-1d00e46803523e6c5bfd6d428c72345eead9f47218c7662d66f73e6b874c71f6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6597,
+      "sha256": "sha256-9a7baee99e28474a8dcae2df338b9efd8024e20e06967e84d502677cec9bab77"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

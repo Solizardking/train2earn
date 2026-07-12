@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-mask-auto-encoder",
+  "name": "tao-train-mask-auto-encoder",
+  "description": "Masked Auto-Encoder (MAE) for self-supervised pretraining and fine-tuning. Masks random patches and reconstructs them to learn visual representations; supports pretrain and finetune stages. Use when training, evaluating, exporting, or running inference for a TAO MAE backbone. Trigger phrases include \"pretrain MAE\", \"self-supervised vision pretraining\", \"Masked Autoencoder\", \"Mask Auto-Encoder\", \"MAE fine-tune\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask-auto-encoder/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask-auto-encoder/metadata.json",
+  "bundleHash": "sha256-b7ae26978d5c57fa266f98e9843586ca5a6c62af10ef268752a0c988bcab41fe",
+  "merkleLeaf": "sha256-6408d512e48b2411c55f6382064ec4e034711ed643dd185972de44d5e80e5670",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4128,
+      "sha256": "sha256-5500a47ad178686a210fc896083b74e5875a6363154cab528e0b0fbd7740be35"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 3302,
+      "sha256": "sha256-ea620428be3572e0d16d5224b3cf38eb5fb0a76b6b065953bd37790c056c9794"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 750,
+      "sha256": "sha256-98045270723afdc158a9fa0c0558b937be6b33852f28389261cf03d597c4fe69"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1752,
+      "sha256": "sha256-ccf3beed1481113e29ae304d9ea71c9740f94eb7bd042b24f40dd69d38a8624b"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 1842,
+      "sha256": "sha256-fade4b6624358714a4ef7b3fdf4f7279199b2a6f634687745b9c3ea81a7581ce"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 1913,
+      "sha256": "sha256-2abc79ed51e948e569f7e126c0913907e1387c5688715d21a3f3cdb773c1e046"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 1777,
+      "sha256": "sha256-ace056d22901932bd11a9671bbe54644dcbfa182b329772e2c2f276e8e5ac8da"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 1626,
+      "sha256": "sha256-5d3ae03a7364cb054140f6e9e36e9c9071c5171f23934afcf6ed0fa0ce83ae1c"
+    },
+    {
+      "path": "references/tao-deploy-mask-auto-encoder.md",
+      "bytes": 3271,
+      "sha256": "sha256-063363948739f112cff1c6f47ca01235a1fabb956fea4968fb575cc7753ccf6c"
+    },
+    {
+      "path": "references/tao-deploy-mask-auto-encoder.skill_info.yaml",
+      "bytes": 1165,
+      "sha256": "sha256-af8959155f40869d6d5d4429e5325a34cee08479b4069e097870fe8ee22f3805"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3917,
+      "sha256": "sha256-7fb8154d52282f90b5bf763cd73c1678c0d62c60e3139f43ee0c81f3ef3a226f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10968,
+      "sha256": "sha256-e9c86135813a93fd1f42da2f402184dae21017b78df05054bbe4602fd519656c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/digital-health-clinical-asr-eval",
+  "name": "digital-health-clinical-asr-eval",
+  "description": "Stage 3 of Clinical ASR Flywheel. Score a NeMo manifest, produce the five-section KER leaderboard (by-ipa_source diagnostic). Not for ASR auth (/riva-asr).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-eval/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-eval/metadata.json",
+  "bundleHash": "sha256-e975146b1f93f8f409087d50c08a5afc035c9bbf3fe3ed84352f2c59f57a0775",
+  "merkleLeaf": "sha256-f3b2538631a9d22d00c9d71bf62681c26804d0972b8d4dd9c09d8a1e630ccaec",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4166,
+      "sha256": "sha256-b9e17703a4bd0e87c020a1147519a5ad0d3a643a38452dd0225ee8b1ddac5817"
+    },
+    {
+      "path": "references/offline-asr-recipe.md",
+      "bytes": 7224,
+      "sha256": "sha256-cbc820c1b8fed2ea866576cf12b660d3394006c1cae7e2573e6acd2900b2304a"
+    },
+    {
+      "path": "references/scoring-recipes.md",
+      "bytes": 2595,
+      "sha256": "sha256-3588400a75e629f563dd4ff5a7e89802eaa00c210df4a38729164c882ee967c9"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3636,
+      "sha256": "sha256-78ddbcfa48dd86cc5100f70fef364984de40fd9b66f70c321a005bd65f5ad31e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18686,
+      "sha256": "sha256-7c333c676b23b18430f0bb661baac39e89932cb6a347bb35f16fb2ee057aca65"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

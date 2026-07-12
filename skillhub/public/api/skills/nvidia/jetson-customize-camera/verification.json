@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-customize-camera",
+  "name": "jetson-customize-camera",
+  "description": "Enable MIPI/GMSL camera sensors on a Jetson Thor or Orin custom carrier by rendering a kernel-DT overlay from the in-tree sensor DTSI. Do NOT use for UPHY lane allocation or ODMDATA edits.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-camera/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-camera/metadata.json",
+  "bundleHash": "sha256-8c09fca0b64fc22a1791be194c15ae94cacfaaf0c1f7754e750d3c91bc338b4a",
+  "merkleLeaf": "sha256-7f69439adc10665995419cc26e7568f8df8fc4b72eae1f8d8de681e23b8f2125",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3842,
+      "sha256": "sha256-77a2d1e4f7a068e76698fd1440a92a76b221ae013e4764930c0a33fd59461c39"
+    },
+    {
+      "path": "references/camera-overlay-templates/dphy-direct.dts.tmpl",
+      "bytes": 8355,
+      "sha256": "sha256-38f30586a4193afef36a47f46a261d37a2504a42d610fe6788f6338259eb33f4"
+    },
+    {
+      "path": "references/camera-overlay-templates/gmsl-serdes.dts.tmpl",
+      "bytes": 8425,
+      "sha256": "sha256-03593dc6edad002a67a472f42560384d1ff8bc5ea2b94c70833afaed983b174f"
+    },
+    {
+      "path": "references/camera-overlay-templates/README.md",
+      "bytes": 2641,
+      "sha256": "sha256-d15ee903a0cc698969ac85cff7de4a068c42be47794141f986821d7dc40239d8"
+    },
+    {
+      "path": "references/csi-dt-bindings.md",
+      "bytes": 3685,
+      "sha256": "sha256-b55e9807dc0a3d975c81f0ca5fc357060554fffbace2e4e2a59831aeed8d34b8"
+    },
+    {
+      "path": "references/overlay-template.md",
+      "bytes": 7726,
+      "sha256": "sha256-f0fc13df99b6ca00a26eff432c6e749f7d2c9b24b124dbebabc84ade0c20430d"
+    },
+    {
+      "path": "references/procedure.md",
+      "bytes": 17361,
+      "sha256": "sha256-fdb56fe901ae29bf73e3ba98959171f993a71d915975e3bd46ae4c37777fe306"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3857,
+      "sha256": "sha256-21dda35b68fa5c77fa8840fdbc973a6c43b4a58d780c711785deb2a9c2b5ea1a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9840,
+      "sha256": "sha256-6568b29b31be2c7d83a10eccb9f00e9fb3719014e4d354fca16a738d9ce43a6f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

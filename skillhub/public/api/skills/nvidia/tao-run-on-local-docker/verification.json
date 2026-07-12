@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-on-local-docker",
+  "name": "tao-run-on-local-docker",
+  "description": "Local or remote Docker execution for TAO SDK job containers using a Docker daemon with NVIDIA GPU runtime. Use when running TAO jobs on the current machine, a directly attached Docker host, or a remote GPU box exposed through DOCKER_HOST. Trigger phrases include \"run locally\", \"local Docker\", \"remote Docker\", \"use my GPU\", \"run on my machine\", \"host Docker daemon\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-local-docker/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-local-docker/metadata.json",
+  "bundleHash": "sha256-44c3dfeca116ec00d07ca0724648a1228c0d0bc773ac9f49d5235c565bc0c786",
+  "merkleLeaf": "sha256-3a23f00a828001c0c9483202a13cfceb48c27795235f966768b8f7e01af55850",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3989,
+      "sha256": "sha256-c53af7d956da9c000016525c777c7062186849e8ef999883cd1f4b9c511dd483"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 833,
+      "sha256": "sha256-047893903f255b99d5db46708deea0f01f5068a99b55cebe42ec17e8f8615c96"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3663,
+      "sha256": "sha256-1e3d3e50bd53895a475bf15e4eab684f87bb53aa0c3922889563141dd594ff86"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12315,
+      "sha256": "sha256-de114da77a6aa3b2376590d7ba753edb643dd63677069179faed9b4eaf9fa947"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-image-classification",
+  "name": "tao-train-image-classification",
+  "description": "PyTorch-based TAO image classification. Supports a wide range of backbones (FAN, EfficientNet, ResNet, etc.) with distillation and quantization for deployment. Use when training, evaluating, distilling, quantizing, exporting, or running inference for a TAO image-classification (PyT) model. Trigger phrases include \"train image classifier\", \"TAO classification\", \"ResNet/EfficientNet/FAN backbone classifier\", \"classification-pyt\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-image-classification/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-image-classification/metadata.json",
+  "bundleHash": "sha256-11d860cd045e07f99aa5ab5633462a7a1e475387c72504f86568d8a69f76419b",
+  "merkleLeaf": "sha256-9017d26398bfcb4a7084b77b5471784255e6642c52a878cda67613a619f2cc33",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4149,
+      "sha256": "sha256-820020f36cdb4333fd945302f178a0e24ca489bb880e44aaa5958e77d9ad5f55"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 7049,
+      "sha256": "sha256-0b8fc8dede14cb014d8ff1fc5f6933ebcd6220eed653a24e76f16aeb2501514b"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 200,
+      "sha256": "sha256-3f862b827e2dbaebbab521642e11b986fb4c900b85df6b4adcb04b0a779c173d"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 217,
+      "sha256": "sha256-3d12f4c5f069a410a1fc924594eaae37e8f6af6e06eb96eb70950108ba2879f1"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 168,
+      "sha256": "sha256-3fd1a9f9552e567babbd1f52a2381fc19faf01a9461654b707c924bb24fa801e"
+    },
+    {
+      "path": "references/spec_template_distill.yaml",
+      "bytes": 3010,
+      "sha256": "sha256-78867bdd9d040a14f1820d18aa6d0586b6e1da0eacbd9494279d1295e5d028e7"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 3185,
+      "sha256": "sha256-e216238bf5f1dcd5a08a0518679f2ca0a53d9782bf5de544fc4c5007b1fc6f6f"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3279,
+      "sha256": "sha256-7c4a8661c9d9147349532684fcb8bf66a026886f3eb6281251bb0f1230e7aa39"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 3405,
+      "sha256": "sha256-2c823e551d243e6afef77b7ed4a38bc55311fa831420bf54da71e175a7020277"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 3186,
+      "sha256": "sha256-615aa92f22c323cc947ee36756f0835f53329f07d2c75be65df0ae6c16b4f357"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 3012,
+      "sha256": "sha256-2df62f4597b0a9421958e31b6303e3abf2d6ae08bc105a60f2a6148be5607201"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 3012,
+      "sha256": "sha256-2df62f4597b0a9421958e31b6303e3abf2d6ae08bc105a60f2a6148be5607201"
+    },
+    {
+      "path": "references/tao-deploy-image-classification.md",
+      "bytes": 5785,
+      "sha256": "sha256-348feb9bfc5a83594f5be486802f85ccbebe28f7d84333624144ab7d08b0333e"
+    },
+    {
+      "path": "references/tao-deploy-image-classification.skill_info.yaml",
+      "bytes": 2423,
+      "sha256": "sha256-36ae9c25bb28d82f475a3c8dd0265d80effa40a3a2aad10f818c377316af41e0"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3736,
+      "sha256": "sha256-5797782268f42d66bee147eefb72703a47c277a96e90233e25c9be4f8270cb74"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12897,
+      "sha256": "sha256-9c5f9e447b5da0a7a99bd6789fc535f67eb1c38f203a87dcebb0582de3370236"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

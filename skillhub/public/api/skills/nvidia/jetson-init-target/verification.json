@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-init-target",
+  "name": "jetson-init-target",
+  "description": "Author a new Jetson target-platform profile (reference_devkit + optional custom_carrier) and update the active pointer. Use to create a target; not for switching existing profiles.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-target/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-target/metadata.json",
+  "bundleHash": "sha256-ae6c45be5941f13c6099b23f84424c837005405768fe636b25256f7993befb88",
+  "merkleLeaf": "sha256-750ffb3e6057dc1712a04d693550a3a0736f2b4318137bd6792a565031fdd729",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3812,
+      "sha256": "sha256-5ff401ae9c4e0a0eb256ec1febb02db60c897ac806609d61acb4bf62cf32b40f"
+    },
+    {
+      "path": "references/gotchas.md",
+      "bytes": 3493,
+      "sha256": "sha256-e87ae6d972520df6bb685d07d207466e60cbcd5c07176b27ecdacca61f68fbae"
+    },
+    {
+      "path": "references/ui-samples.md",
+      "bytes": 1330,
+      "sha256": "sha256-4482664f5e639e6e44a6cdb2d4c973dfe92a6715cbb23cc11ea89caccb19963f"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3922,
+      "sha256": "sha256-c1abf7b59cfa72549fb29efe46b1e135bea3c68cda986f5f8c7290cde35ab5ff"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19136,
+      "sha256": "sha256-6e619a90d06ce26e90fdb6a37b5a53aa48be81b3ff38cc95d34187bc8980c2f9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

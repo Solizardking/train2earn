@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-finetune-cosmos-reason",
+  "name": "tao-finetune-cosmos-reason",
+  "description": "Cosmos3-Nano video QA supervised fine-tuning with FSDP parallelism. Use when training or evaluating video question-answering models, fine-tuning Cosmos3-Nano or compatible Cosmos Reason models with SFT/LoRA, or working with Cosmos-RL. Trigger phrases include \"fine-tune Cosmos\", \"Cosmos3 Nano Reasoner\", \"Cosmos-RL SFT\", \"video QA fine-tune\", \"Cosmos3-Nano training\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-cosmos-reason/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-cosmos-reason/metadata.json",
+  "bundleHash": "sha256-d1f336175e0ad93a91afb02e799e14b5ded290cc2875bd4bd6a2d6a2b20bf924",
+  "merkleLeaf": "sha256-a7f41848a906a7dd79e53d4e807630c9a182cb56c33ce2c6822e51240ffdfab6",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4118,
+      "sha256": "sha256-e6eeb40a2f476d026433df0849f13eee75efbc5cf97a7f9b658e649524dafc1f"
+    },
+    {
+      "path": "references/cosmos-actions-parameters.md",
+      "bytes": 17610,
+      "sha256": "sha256-ad93eeb3b4d635ae214b71d56c449cb2fb7528d610ca4a23228dc4440740803d"
+    },
+    {
+      "path": "references/cosmos-automl-deft.md",
+      "bytes": 5542,
+      "sha256": "sha256-dee3214d68eaddd4272f154b5ce8a31e3b051c588dd1285d2c842f46efd7271a"
+    },
+    {
+      "path": "references/cosmos-data-specs.md",
+      "bytes": 15540,
+      "sha256": "sha256-6f19a74f90aed460d6ec27cc8132f8a6569f61a7ecd2330f0af69c9c76ac463e"
+    },
+    {
+      "path": "references/cosmos-reason-automl.md",
+      "bytes": 5237,
+      "sha256": "sha256-092a822e11d7e71bc71c4e73f300f10922fdbb9567fd41b56834a8b9339e4ddf"
+    },
+    {
+      "path": "references/cosmos-reason-evaluate.md",
+      "bytes": 3736,
+      "sha256": "sha256-4f357262296da5d509b9934b4f1dbe690659413eebbf67c1120755c0a88ad4cf"
+    },
+    {
+      "path": "references/cosmos-reason-launch.md",
+      "bytes": 9417,
+      "sha256": "sha256-3fd84fdd8de760dc2cf293e9524eaea059c688abea2d4bdd31652f16715b9feb"
+    },
+    {
+      "path": "references/cosmos-reason-parameters.md",
+      "bytes": 14266,
+      "sha256": "sha256-4ff22a344fe7092747a27407cbaa91407d21fbfeb50d09cbbceef2ec6ff8e53e"
+    },
+    {
+      "path": "references/demo_datasets.yaml",
+      "bytes": 503,
+      "sha256": "sha256-5379c545d4f6006f66bc18019b31efdd26873805af60e824f805f39157ea38c6"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "bytes": 645,
+      "sha256": "sha256-d957f85fc48399f5759ec256476af2795972353f6534bd05a2abf1e2015a4edd"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 7727,
+      "sha256": "sha256-e5470abbe26db00a220e0051b418810ff9c46dd89078ef86179722d49e03fe09"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1143,
+      "sha256": "sha256-b018955f8f292b37995d05c7959e4501ab52cec71621ca67b407a53ef62aa2d6"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 279,
+      "sha256": "sha256-b7ef5075febd6db681e5e36001e066912980878a50e41411e28d8c8f7aa8b5bc"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 401,
+      "sha256": "sha256-cdbcee3530d999fb5fa232b1999725f99ee627e89b74cf7c6a599766e89db56f"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2203,
+      "sha256": "sha256-68c2be014d180ded4e64cb1a72fca89d39e8f607db89fc7a78261f29004b6a2b"
+    },
+    {
+      "path": "scripts/prepare_cosmos3_vlm_checkpoint.py",
+      "bytes": 11278,
+      "sha256": "sha256-576e2c52f64a8645d18e8923bee60e956d42ae4f52ee98636c13fbec5898d849"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4157,
+      "sha256": "sha256-c264e1943f398dea3e58a87620d88c6cf238ab94a2ed5ffa68ae6216f757151d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12417,
+      "sha256": "sha256-d5a2934b587b27134e0bcb46c4dcd37ad2e2a9f1f95bc8998fde6fdce578bd1d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

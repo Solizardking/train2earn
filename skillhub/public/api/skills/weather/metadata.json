@@ -1,0 +1,7 @@
+{
+  "slug": "weather",
+  "name": "weather",
+  "description": "Get current weather and forecasts (no API key required).",
+  "category": "Local / Web Services",
+  "skill": "/api/skills/weather/SKILL.md"
+}

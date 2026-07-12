@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-mask-auto-label",
+  "name": "tao-train-mask-auto-label",
+  "description": "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations (point or box annotations) using a ViT-MAE backbone. Use when training, evaluating, or running inference for a TAO MAL model. Trigger phrases include \"train MAL\", \"Mask Auto-Label\", \"weakly-supervised segmentation\", \"box-prompted segmentation\", \"minimal-annotation mask prediction\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask-auto-label/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask-auto-label/metadata.json",
+  "bundleHash": "sha256-743a320f4c4973c43f12699f8809a01c01c686ac1ad3aaeca808ff17a0fafb86",
+  "merkleLeaf": "sha256-2d7dd95c691065c3494b0db32b21d9a6dde79c6d9507d45d2e4bafa8ef3530b8",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4108,
+      "sha256": "sha256-6fe2d8189704ec39bc46891fad26f2e5961441f83148a84c457742d41d1b3fd1"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 3451,
+      "sha256": "sha256-5cabf0876abd9a7907cefeb1468300fb3ecb50d6c38ba32ab0dac00e1caaafbd"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1807,
+      "sha256": "sha256-dfcd1022ba2b87dc8d6c5b054b0e3da0682f4680d59250421bdfd6c2db1a1f94"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 1798,
+      "sha256": "sha256-0f84115c3bddc2acbda6e3b8edbe0c39f7ad1c225ca862e71f2436b96d7dcf04"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 1578,
+      "sha256": "sha256-c5e0bb5d56f00f8abf7ad5e17b3ef7d940c1554cc5c5ec6a3d14b134e2031d3c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3933,
+      "sha256": "sha256-272e8f90a24942854a250c9340bafc6b48f1442926c602e3ec8a7cea718b6b6c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9253,
+      "sha256": "sha256-8fa1cf1726d37374c93b171074f02cfc110d83e57dface27dcce2d91c34ad4de"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

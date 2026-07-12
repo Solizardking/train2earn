@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-customize-clocks",
+  "name": "jetson-customize-clocks",
+  "description": "Use to lock/cap Jetson CPU/GPU/EMC clocks, toggle EMC/CPU DVFS, or change cpufreq governors by editing BPMP DTB and nvpower.sh pre-flash. Do NOT use for live tuning or nvpmodel edits.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-clocks/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-clocks/metadata.json",
+  "bundleHash": "sha256-6a78afd90ff90744f07f820c82e9a05632c0a148d98efde61c44d943b50acb1d",
+  "merkleLeaf": "sha256-1044c515a98dfe1419ded48df60c633f37eb33d5f377201048c3f30e9b4955a4",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3713,
+      "sha256": "sha256-ff365fbbbd16458e3b6ea519613689be9c2fe3fcfd597ec16f54d6b4cbb70dbb"
+    },
+    {
+      "path": "references/bpmp-dtb-clock-edits.md",
+      "bytes": 4305,
+      "sha256": "sha256-490e3ec19d5d82bc25b38a97603d3d8ff1e7ffdafebb63dc50b5eb4ef6607ab6"
+    },
+    {
+      "path": "references/clock-control-model.md",
+      "bytes": 1290,
+      "sha256": "sha256-4482a9b188366aa65ad55d997cc7d5681975a538a9b8221898088dfba93f3496"
+    },
+    {
+      "path": "references/emc-dvfs-disable.md",
+      "bytes": 3281,
+      "sha256": "sha256-d8e76b2da5113e30e09d17fbbb4b23acedf401a47561b626c94e08aa264d3038"
+    },
+    {
+      "path": "references/nvpower-sh-edits.md",
+      "bytes": 1908,
+      "sha256": "sha256-22def65736438a4fc6bda80f3bbed6536153d6b88da3e55acac858e2f3a7a3ca"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3800,
+      "sha256": "sha256-133c31998b8ea29e9f7887f43eef1459c467379e49ef7ec1d997d46bc0c988bb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19128,
+      "sha256": "sha256-9e1bc4ae8e9b50909b14f250eb9d9439c882ee33811bf2e52a6cf696886917b5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

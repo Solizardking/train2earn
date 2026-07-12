@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-token-lifecycle",
+  "name": "pump-token-lifecycle",
+  "description": "Manage the full Pump.fun token lifecycle from creation through bonding-curve trading, graduation detection, AMM migration, AMM trading, creator fee collection, and volume tracking with PumpSdk and OnlinePumpSdk.",
+  "source": "https://skills.x402.wtf/api/skills/pump-token-lifecycle/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-token-lifecycle/metadata.json",
+  "bundleHash": "sha256-834fa6347bdea623a501ad4c2c3123f72aa26cd0c0b8fb2bdae1f4ecdae8309b",
+  "merkleLeaf": "sha256-55ebdf952dc9b5f1eb08d0a1acf606dbd4fc43e26ab309b39db83391e6e2f6f6",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4658,
+      "sha256": "sha256-8d5b9885a389e3881d6f43f8d70e6a0faa76d957907f33083c2766f1c1539d32"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

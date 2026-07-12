@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "apple-notes",
+  "name": "apple-notes",
+  "description": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks Clawdbot to add a note, list notes, search notes, or manage note folders.",
+  "source": "https://skills.x402.wtf/api/skills/apple-notes/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/apple-notes/metadata.json",
+  "bundleHash": "sha256-04ce08d7bbc17b0f39f5f64a0fd5ec5c5ad68cfac19ae07133947860651ff224",
+  "merkleLeaf": "sha256-7802b52cb47c7a64ef763df2b3126002cdbe68eb342c591c4e7187315ff7c3a5",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1883,
+      "sha256": "sha256-493fde9a5e8df83739552821dc7902e086b1d6cca68b5f90ddf4b4a3488f37b6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

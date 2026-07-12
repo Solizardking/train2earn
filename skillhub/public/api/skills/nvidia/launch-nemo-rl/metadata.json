@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/launch-nemo-rl",
+  "name": "launch-nemo-rl",
+  "description": "Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the nrl-k8s CLI. Covers ephemeral vs long-lived RayCluster modes, iterating on runs, and debugging hung or failed training jobs.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/launch-nemo-rl/SKILL.md"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/ads/data-manager-api/data-manager-api-setup",
+  "name": "data-manager-api-setup",
+  "description": "Guides developers through client library installation and authentication setup steps for the Data Manager API. Use this skill when a user is getting started with the Data Manager API and needs to setup their local environment, install the client library, or setup access to the API. Don't use for implementing audience or event ingestion logic (use the data-manager-api-audience-ingestion or data-manager-api-event-ingestion skills instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/ads/data-manager-api/data-manager-api-setup/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/ads/data-manager-api/data-manager-api-setup/metadata.json",
+  "bundleHash": "sha256-0832bfdb183330f59357f866f0409871537da50106ff49cded27ca4b2f6cf190",
+  "merkleLeaf": "sha256-16e8c033a7075bdce5c70a93b9fdbd172f30e6a62de33976e0b65464efac2673",
+  "files": [
+    {
+      "path": "references/dotnet.md",
+      "bytes": 867,
+      "sha256": "sha256-3539af82ecd02196686eadf7e85f17ab4d3614a41bf20986ad59d53a079b6535"
+    },
+    {
+      "path": "references/java.md",
+      "bytes": 1872,
+      "sha256": "sha256-c813e1ab5faacda79f6f457cbf4be5deaa978cd6165487df49933b3ca3948c25"
+    },
+    {
+      "path": "references/node.md",
+      "bytes": 1007,
+      "sha256": "sha256-5f69afaefc7c693ecf0c109626ab9f4f0f3a8040aaacb223a5a432e71fe5d743"
+    },
+    {
+      "path": "references/php.md",
+      "bytes": 1008,
+      "sha256": "sha256-079923552fd9537708b0c33492dd24e20d8d27363fbfe3cc15061cf1b18fc9d3"
+    },
+    {
+      "path": "references/python.md",
+      "bytes": 897,
+      "sha256": "sha256-95d9cd3c0736141ee554cd3291fa8ad9851bbe0197dece771e00516935082a55"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2798,
+      "sha256": "sha256-185ad939b83c21754e5311d06d7a5a66f929b3a1ff698c35764de5ac548c2cbe"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

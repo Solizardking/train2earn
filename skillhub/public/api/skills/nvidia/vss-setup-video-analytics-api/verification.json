@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-setup-video-analytics-api",
+  "name": "vss-setup-video-analytics-api",
+  "description": "Use to deploy the vss-video-analytics-api REST service standalone (config-source, data-log bind, Elasticsearch, optional Kafka). Not for full warehouse deploy.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-setup-video-analytics-api/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-setup-video-analytics-api/metadata.json",
+  "bundleHash": "sha256-9fd3c9db03d70b39217fb18d12fd127a3d04f83661220e3753f9ce27013738a8",
+  "merkleLeaf": "sha256-71ae242960f48628b2edcd4a00eea3cb309aab14a1d1fd515eac457d93fe60ef",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3933,
+      "sha256": "sha256-30bfe57724879082482e71e70a0c91d1ed6c67a1aae679a132aefaa754b1b18e"
+    },
+    {
+      "path": "references/configuration.md",
+      "bytes": 4078,
+      "sha256": "sha256-eb7c45c5ac9a54bb126dbe2dff5841a6a5f17eb51579e1ac28516092bdf6d75c"
+    },
+    {
+      "path": "references/deploy-video-analytics-api-service.md",
+      "bytes": 15349,
+      "sha256": "sha256-4dd4f31a25360c09307e1360a504f7a26bc3329cace7ddfed6f0cb16c970c07c"
+    },
+    {
+      "path": "references/ngc-api-key-registry-login.md",
+      "bytes": 2018,
+      "sha256": "sha256-06680c29c937d4d978ccfbcec6f009c44c1d21b55a1e148de6a3421b1073f7d4"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3964,
+      "sha256": "sha256-0be4baf095ec00d5f6bc081c0a676c22db292c93e61c4e910439ef4c09c0a4cd"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9293,
+      "sha256": "sha256-4d96ab4482f490181641c97c56623f2e615e93825d2c1d8ea4452f2708595c6d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

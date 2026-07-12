@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-rag-engine-management",
+  "name": "agent-platform-rag-engine-management",
+  "description": "Manage and query Agent Platform RAG Engine Corpora and retrieve grounded contexts using the Google GenAI SDK. Use when listing RAG corpora or files, inspecting a corpus, retrieving contexts, or generating content grounded in a RAG corpus. Do not use for standard database queries (use SQL/Spanner skills), Google Workspace RAG, or other RAG products like gRAG.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-rag-engine-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-rag-engine-management/metadata.json",
+  "bundleHash": "sha256-4feb1511feb2c60624d1b176e0efc471d204772fd93fb2097be394adfecaca3a",
+  "merkleLeaf": "sha256-dd55d07be629df500fd473c2b30edca8b88400830d10a8d731b031dbafe1c601",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8693,
+      "sha256": "sha256-9c5eef7e2c29962d4e18a14f5535c3b0b0515e7100d62a459500fc3a9ce80eb9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

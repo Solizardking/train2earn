@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/hsb-setup",
+  "name": "hsb-setup",
+  "description": "Clone the latest NVIDIA Holoscan Sensor Bridge repo, ask which supported devkit is being used, configure the host per platform, build the correct demo container, run it, and verify HSB connectivity by pinging 192.168.0.2. Use for Holoscan Sensor Bridge setup, build, container launch, and first-connectivity bring-up.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/hsb-setup/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/hsb-setup/metadata.json",
+  "bundleHash": "sha256-4904471ee402b97b09b610f28e47b2049f13cbb0139cb596681ecff4983baa6c",
+  "merkleLeaf": "sha256-0c4209497a0ac41b6a5c526d1f72f871e28933c46511cf86a51487b1b3d6445f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3965,
+      "sha256": "sha256-a9211be3cbf977cb03c730fa14f941121921566dcef90b72029673efe8db7606"
+    },
+    {
+      "path": "references/phase-details.md",
+      "bytes": 56938,
+      "sha256": "sha256-a628c2c688bad5e68418ce9deb5da7614482df905acbd3c76d56715a9517268c"
+    },
+    {
+      "path": "scripts/hsb_phase_runner.sh",
+      "bytes": 847,
+      "sha256": "sha256-2760ec25543d9aef4fb88244d33582c46048719dfe81cdda4c3a77fb3c012177"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4215,
+      "sha256": "sha256-80827d3206fc64640b012f2f8531f37d9be41d25e4de9beff486e13e393407d2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19653,
+      "sha256": "sha256-479332edc6cbdcd4b571782d208cab4ce08460193b743c39d895b5e2dec5384b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

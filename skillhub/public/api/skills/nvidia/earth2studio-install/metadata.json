@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/earth2studio-install",
+  "name": "earth2studio-install",
+  "description": "Guide installing Earth2Studio via uv or pip, selecting model extras, and configuring the environment. Do NOT use for writing inference code, choosing models, or PhysicsNeMo questions.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/earth2studio-install/SKILL.md"
+}

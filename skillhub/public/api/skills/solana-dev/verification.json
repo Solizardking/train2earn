@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "solana-dev",
+  "name": "solana-dev",
+  "description": "Use when user asks to \"build a Solana dapp\", \"write an Anchor program\", \"create a token\", \"debug Solana errors\", \"set up wallet connection\", \"test my Solana program\", \"deploy to devnet\", or \"explain Solana concepts\" (rent, accounts, PDAs, CPIs, etc.). Also use for quick on-chain lookups via public RPC + curl — \"what's the balance of <wallet>\", \"look up transaction <sig>\", \"token balance for <account>\", \"check this address on mainnet/devnet\". End-to-end Solana development playbook covering wallet connection, Anchor/Pinocchio programs, Codama client generation, LiteSVM/Mollusk/Surfpool testing, security checklists, and JSON-RPC curl lookups against public clusters. Integrates with the Solana MCP server for live documentation search. Prefers framework-kit (@solana/client + @solana/react-hooks) for UI, wallet-standard-first connection (incl. ConnectorKit), @solana/kit for client/RPC code, and @solana/web3-compat for legacy boundaries.",
+  "source": "https://skills.x402.wtf/api/skills/solana-dev/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/solana-dev/metadata.json",
+  "bundleHash": "sha256-cc6d05277bf9940d99caa6866cc5799d1774d9457265ea29930141e5edd8fc3c",
+  "merkleLeaf": "sha256-80bc1612fe2877d21f15c1b6698434931becc8760c50b5f208987f2db70de8a7",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4964,
+      "sha256": "sha256-325e07f9cca62f32b6e70a23e44edbae350724c257ea20782d01001e8bcc61bb"
+    },
+    {
+      "path": "references/anchor/migrating-v0.32-to-v1.md",
+      "bytes": 32004,
+      "sha256": "sha256-a82dbadf0f397d6f7f8c68a8534b8431114b0bbe41f663b6467a196bb73c4eb7"
+    },
+    {
+      "path": "references/common-errors.md",
+      "bytes": 20996,
+      "sha256": "sha256-41a071707d9cc64e8763796cff8fcd10d7dcebf29504aed9e465eb3921bbe488"
+    },
+    {
+      "path": "references/compatibility-matrix.md",
+      "bytes": 13192,
+      "sha256": "sha256-39e812df094e879acda9875410e7488d47acf38964156a3b975dadef45ca183b"
+    },
+    {
+      "path": "references/confidential-transfers.md",
+      "bytes": 26096,
+      "sha256": "sha256-3f834b7ae8bca3652981a0325ac208f77132fb8dfedaf0f06be7bd7632ca2209"
+    },
+    {
+      "path": "references/frontend-framework-kit.md",
+      "bytes": 3337,
+      "sha256": "sha256-0d515aca9e2f77b733072d5a59843d45a8c75c255b28110ceef60dc7a7dcaa31"
+    },
+    {
+      "path": "references/idl-codegen.md",
+      "bytes": 1630,
+      "sha256": "sha256-8ec45eb6922ea42fe848a3d1f1b648b2c9ab8da78c2958eae57b3a5f091e0cd9"
+    },
+    {
+      "path": "references/kit-web3-interop.md",
+      "bytes": 2246,
+      "sha256": "sha256-6654a192affcb9724949a143a55ec1253705a201243ea0b79f99f423c85426b5"
+    },
+    {
+      "path": "references/kit/accounts.md",
+      "bytes": 3941,
+      "sha256": "sha256-9d891a3a18ec45a6c23af279171085a16bca5b305faaf4963dcfb6b24eff7c78"
+    },
+    {
+      "path": "references/kit/advanced.md",
+      "bytes": 15347,
+      "sha256": "sha256-9a85db6f6644394dad9a1dbfb2e442c7afae65817d85120bd79dfd9e288b2f10"
+    },
+    {
+      "path": "references/kit/codama.md",
+      "bytes": 2525,
+      "sha256": "sha256-ac18ec9c89ecde7934d43ee16a4f0e47b0fe03367007fcb142522b4754adecdd"
+    },
+    {
+      "path": "references/kit/codecs.md",
+      "bytes": 4065,
+      "sha256": "sha256-8c81a9d44098c63f4daf9d53ec5b4416c18365c4886cce1358a17ec4e5be26bf"
+    },
+    {
+      "path": "references/kit/gotchas.md",
+      "bytes": 6837,
+      "sha256": "sha256-0e0d5e033aebc66dfa0fe0e103e36a25e7b8656c09e1a60c2bd0e0f465cfd114"
+    },
+    {
+      "path": "references/kit/overview.md",
+      "bytes": 12085,
+      "sha256": "sha256-71598c6b237690b09f70b264ec153a13f9376b274574a1f61588e1522635692c"
+    },
+    {
+      "path": "references/kit/plugins.md",
+      "bytes": 11424,
+      "sha256": "sha256-1e56adb385f23d555ff5c554137a3baf78aef28166541c0e006b1e096d869505"
+    },
+    {
+      "path": "references/kit/programs/compute-budget.md",
+      "bytes": 6263,
+      "sha256": "sha256-adb4f75f714d92dec9e557dda95b0024650f599c563eae66be2bc4fc14472812"
+    },
+    {
+      "path": "references/kit/programs/system.md",
+      "bytes": 4041,
+      "sha256": "sha256-a6d61084bd3d5192f9e37b3f3b0c16b95e2ea02b98cb87725688162a50b50d3d"
+    },
+    {
+      "path": "references/kit/programs/token-2022.md",
+      "bytes": 2510,
+      "sha256": "sha256-26a841a3c7edfaff8898de2f32e18130f56d1584274ca3432458e1cfa47d1f8d"
+    },
+    {
+      "path": "references/kit/programs/token.md",
+      "bytes": 6709,
+      "sha256": "sha256-c903094a3c66d69e5c3ee2739dd0021254020283ecff16c16f8f74370982b2f6"
+    },
+    {
+      "path": "references/kit/react.md",
+      "bytes": 4301,
+      "sha256": "sha256-c545e0518c3d89665eb8b440dac38f5a80dc7a4989d2a0b5ca96cd06b95cb170"
+    },
+    {
+      "path": "references/payments.md",
+      "bytes": 1890,
+      "sha256": "sha256-fde4f0a52c45b47aac12b1a3765f9bb85e30f801af2668ee4fc876f3d26e7109"
+    },
+    {
+      "path": "references/programs/anchor.md",
+      "bytes": 8664,
+      "sha256": "sha256-21b6b28df5fee4df63e2745620dfd443d220576e1d81780b876fffd4868b521a"
+    },
+    {
+      "path": "references/programs/pinocchio.md",
+      "bytes": 22364,
+      "sha256": "sha256-8c8c1a20aaccbf629f4d977b61e6109064bd491a623b1fea535bb6b4776684a5"
+    },
+    {
+      "path": "references/resources.md",
+      "bytes": 3352,
+      "sha256": "sha256-08f1c3edc89c55ab5a781e531cbb835b845e5b9eabf4b58567d097931702445f"
+    },
+    {
+      "path": "references/rpc-quick-lookups.md",
+      "bytes": 4796,
+      "sha256": "sha256-ab4a5cc946d102a3085e0fa150ba9a5514ac3534a59586548cbe47ac3c0ba2c4"
+    },
+    {
+      "path": "references/security.md",
+      "bytes": 21241,
+      "sha256": "sha256-f22d442478c2e1cbd32fd404d908149dfe82ba26ddc7737f554300d49b26f54a"
+    },
+    {
+      "path": "references/surfpool/cheatcodes.md",
+      "bytes": 3510,
+      "sha256": "sha256-3d7c5c704efa2715e8524e29f052b5ea6fcfb5db570b357ded360694240b4dd1"
+    },
+    {
+      "path": "references/surfpool/overview.md",
+      "bytes": 21607,
+      "sha256": "sha256-43a8e23ec78835f66d0c0edfb251ca11f802fbddcd91d8c2bfe41e8f88d8e63f"
+    },
+    {
+      "path": "references/testing.md",
+      "bytes": 8702,
+      "sha256": "sha256-b1c0181f91d6af51d2b8e1b5a1b17097fc10422d1ea1d76198be91c890292285"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10055,
+      "sha256": "sha256-6d1ca70841b5c774811b51e805e9beaaf5dfa2edae3919563195de085c4cc775"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

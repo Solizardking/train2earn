@@ -1,0 +1,7 @@
+{
+  "slug": "apple-reminders",
+  "name": "apple-reminders",
+  "description": "Manage Apple Reminders via the `remindctl` CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+  "category": "Productivity / Messaging",
+  "skill": "/api/skills/apple-reminders/SKILL.md"
+}

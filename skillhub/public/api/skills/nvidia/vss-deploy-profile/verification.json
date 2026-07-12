@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-deploy-profile",
+  "name": "vss-deploy-profile",
+  "description": "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-profile/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-profile/metadata.json",
+  "bundleHash": "sha256-c65a7b0711fbc8766fa8d6bdd51871fcb628938efb0d7a38725400b3c769e5c9",
+  "merkleLeaf": "sha256-942a2bd4a1969ad449428d79004487cb3777742114cc8964c8c6bf21d807c3ab",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3680,
+      "sha256": "sha256-2852477162d5c53398f067cf4b5c269367e51dc3c181475b6dc9281aca90abb9"
+    },
+    {
+      "path": "references/alerts.md",
+      "bytes": 23019,
+      "sha256": "sha256-7d1a55d5993f38676c3e568d80cc0d63a0d070179aea711f2f5bc2c039e647d2"
+    },
+    {
+      "path": "references/base.md",
+      "bytes": 29641,
+      "sha256": "sha256-fa993959c129785994faa5dedaade52b194e3e3a28724354bee34398fe84d592"
+    },
+    {
+      "path": "references/brev.md",
+      "bytes": 5467,
+      "sha256": "sha256-b2c47c0afa913370f8ab781ed6b71bd5f56c6ec45a0b0797dbc4eb3d101b0f87"
+    },
+    {
+      "path": "references/credentials.md",
+      "bytes": 4229,
+      "sha256": "sha256-7ab8c08b7d66d8ac00ec22836017c4e5caa517550df9399b6b45766048c4f1da"
+    },
+    {
+      "path": "references/data-directory.md",
+      "bytes": 1937,
+      "sha256": "sha256-418659e308dbe2aa44f76f8d10376ce02c5273097c93ddb0d6e832867d60cdd0"
+    },
+    {
+      "path": "references/edge.md",
+      "bytes": 15005,
+      "sha256": "sha256-5c5981e7843faf4c46a919053b0a1a0971d43a48cda837b0b3b07ce1f1176926"
+    },
+    {
+      "path": "references/env-overrides.md",
+      "bytes": 6482,
+      "sha256": "sha256-224423d9b7f83b1cca60ffebfa222cfbf0a3222f0da59cbd737de609fd4a13a6"
+    },
+    {
+      "path": "references/lvs-profile.md",
+      "bytes": 18081,
+      "sha256": "sha256-11616775aa89b8888b07085381ec63c1707e4f810585950b1bc7d2d41247bf5a"
+    },
+    {
+      "path": "references/ngc.md",
+      "bytes": 3430,
+      "sha256": "sha256-85e024015a0025c46053b2e3d4e52574f3449431e652503035c3c82a316ec0bf"
+    },
+    {
+      "path": "references/prerequisites.md",
+      "bytes": 16461,
+      "sha256": "sha256-03043c4b2aeff61e9bd97abb4b4b18e5c7675781def8e37749a3bba14be54d4d"
+    },
+    {
+      "path": "references/readiness.md",
+      "bytes": 3276,
+      "sha256": "sha256-fd9ebd1656cd93af22dfa574c546932c2a0a31ec136dca82278997b03f81af8a"
+    },
+    {
+      "path": "references/search.md",
+      "bytes": 24894,
+      "sha256": "sha256-0c8074e28754c0d85c10774eca85545208863b9fc1dd50f76d6f0839c094a0e0"
+    },
+    {
+      "path": "references/teardown.md",
+      "bytes": 6757,
+      "sha256": "sha256-0e14291201acf4eceae7f50a0581ba40c8037263c3a918fa67f4df0c23aeaeee"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 13455,
+      "sha256": "sha256-d384d51a270754b325477c82b06cf7ce24f863df7ea461cb52a5070cf3599f50"
+    },
+    {
+      "path": "references/warehouse-debug.md",
+      "bytes": 32346,
+      "sha256": "sha256-124901dbf2c5af5a5a699ab1992fa12968dcdd4a5f1db6fffdd7807e2d49c5b8"
+    },
+    {
+      "path": "references/warehouse.md",
+      "bytes": 58362,
+      "sha256": "sha256-004885a09b78e9a1922b2e2c78c6fdf44a84e497d01f56e5f3c89adee8a59eea"
+    },
+    {
+      "path": "scripts/check_credentials.sh",
+      "bytes": 2527,
+      "sha256": "sha256-f17a6499be24fd0a8edfd05fc912dae08f422d24995d63adb28e12e7cfe604ed"
+    },
+    {
+      "path": "scripts/normalize_resolved_yml.py",
+      "bytes": 6279,
+      "sha256": "sha256-b2cf2030e6932676e3235d8c81b2b905dbafd6ec62451a1f90c5ae5c7d68e6f8"
+    },
+    {
+      "path": "scripts/probe_remote_models.sh",
+      "bytes": 2682,
+      "sha256": "sha256-133e6875a349a1fc1a1dc9ca9be7cfd2f4c9a43f41ca4c02c92a745591c0411a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4113,
+      "sha256": "sha256-e86e7d7ca001fe797faf264e84437f478998511ccaa712aa9eb5de64e0db95b4"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 20069,
+      "sha256": "sha256-9995b423af67d97b9699b6ef5c4dbd547b6598e49d5a7cbeddc917e9fe73a03d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

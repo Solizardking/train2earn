@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "skillhub-publish-receipt/v1",
+  "publishedAt": "2026-07-10T18:05:54.656Z",
+  "cluster": "devnet",
+  "merkleRoot": "sha256-95a3f2f228015c5af2c20e69b4b59cf2747b18a837f4c9424caaea296081aa34",
+  "catalogHash": "sha256-4b29ca40c6918a8ad174091f166f97d62229793bb2161b17294e26a0e1f47f5c",
+  "totalSkills": 557,
+  "arweave": [
+    {
+      "label": "onchain-skill-registry.json",
+      "id": "217eSiLtiTNQ2DJBxipy9n4ZusT8SEHfyJ2LTJqkzfD7",
+      "url": "https://gateway.irys.xyz/217eSiLtiTNQ2DJBxipy9n4ZusT8SEHfyJ2LTJqkzfD7",
+      "arweaveUrl": "https://arweave.net/217eSiLtiTNQ2DJBxipy9n4ZusT8SEHfyJ2LTJqkzfD7"
+    },
+    {
+      "label": "catalog.json",
+      "id": "8qZrjGzZirgs5S48SXqa854q7VraNrN1AHLXCgEhgNWf",
+      "url": "https://gateway.irys.xyz/8qZrjGzZirgs5S48SXqa854q7VraNrN1AHLXCgEhgNWf",
+      "arweaveUrl": "https://arweave.net/8qZrjGzZirgs5S48SXqa854q7VraNrN1AHLXCgEhgNWf"
+    }
+  ],
+  "solana": {
+    "memoProgram": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+    "signature": "3AGQvJ2FBhxBd8gJX6Vx3xUuu7zfoDw1xsY9k7oYsEfbx1nCHHHPF9ApbC87iWF9QyUWhK1ASJFKpKCtuQCQKEds",
+    "explorer": "https://solscan.io/tx/3AGQvJ2FBhxBd8gJX6Vx3xUuu7zfoDw1xsY9k7oYsEfbx1nCHHHPF9ApbC87iWF9QyUWhK1ASJFKpKCtuQCQKEds?cluster=devnet",
+    "memo": "skillhub:v1|skills:557|merkle:sha256-95a3f2f228015c5af2c20e69b4b59cf2747b18a837f4c9424caaea296081aa34|catalog:sha256-4b29ca40c6918a8ad174091f166f97d62229793bb2161b17294e26a0e1f47f5c|ar:217eSiLtiTNQ2DJBxipy9n4ZusT8SEHfyJ2LTJqkzfD7,8qZrjGzZirgs5S48SXqa854q7VraNrN1AHLXCgEhgNWf"
+  }
+}

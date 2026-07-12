@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-deploy",
+  "name": "agent-platform-deploy",
+  "description": "Deploy open models or custom weights from Model Garden to Agent Platform endpoints, check deployment status, verify serving endpoints, or clean up resources by undeploying models and deleting endpoints. Use when asked to deploy models on Agent Platform, list available Model Garden models, check if a model is deployable, query deployment cost, troubleshoot deployment errors (like quota limits), or undeploy/clean up endpoints. Also use when copying and deploying a 1P Tuned Model. Don't use for public Vertex AI deployments (use the `vertex-deploy` skill) or for running model evaluations (use the `agent-platform-eval` skill).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-deploy/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-deploy/metadata.json",
+  "bundleHash": "sha256-fb8287057ab64bdc06a1f8eb94f0c696ada0c79baa636e0a60c0db3c20061269",
+  "merkleLeaf": "sha256-694a31aab1a31958f7ce9f7ded308b4eb8e6ac1d928a78956b9c0c4766f4484b",
+  "files": [
+    {
+      "path": "references/copy_deploy_guide.md",
+      "bytes": 9535,
+      "sha256": "sha256-6545b3565749c86711359d2c3a2e772eaff5e0b05338fcfcec472b3d1738e1f3"
+    },
+    {
+      "path": "references/usage.md",
+      "bytes": 379,
+      "sha256": "sha256-f68033697cb310807237dc5fec51bda2df5441e2730b359362b884a12b5f8fa0"
+    },
+    {
+      "path": "scripts/config_gcloud_cli.sh",
+      "bytes": 1219,
+      "sha256": "sha256-a2f9c6af56cb85dbdc95db46cb992868011eea095e894c6fe55a6ff9ca7905fb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12392,
+      "sha256": "sha256-2d99b9615a8712460b8e4b3cc3eaf2183e538f959b421d8c8b005999b79e404a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

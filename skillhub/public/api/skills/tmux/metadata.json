@@ -1,0 +1,7 @@
+{
+  "slug": "tmux",
+  "name": "tmux",
+  "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/tmux/SKILL.md"
+}

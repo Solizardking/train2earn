@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/ads/interactive-media-ads/ima-sdk-basics",
+  "name": "ima-sdk-basics",
+  "description": "Use this skill for Interactive Media Ads (IMA) SDK client-side ad insertion when you are requesting video ads client-side into websites, apps, TVs or other platforms with VAST or VMAP. Do not use for Dynamic Ad Insertion (DAI), SSAI, or SGAI (use the `ima-sdk-dai-basics` skill instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/ads/interactive-media-ads/ima-sdk-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/ads/interactive-media-ads/ima-sdk-basics/metadata.json",
+  "bundleHash": "sha256-05e19b007efa3dfbd353ec912e5b5d54ac31c55cb6af11a0f892b463ce22971e",
+  "merkleLeaf": "sha256-bd6c7521449db85054b9e12143c39f6ffedd8da7e00484def39f55f01e2a7576",
+  "files": [
+    {
+      "path": "references/ima-sdk-android-guide.md",
+      "bytes": 5621,
+      "sha256": "sha256-cb2e62a8bb146668f6466ffa7a6a7d3b3c6bbc702a259151c4c50b190bf7ed6e"
+    },
+    {
+      "path": "references/ima-sdk-ios-guide.md",
+      "bytes": 8813,
+      "sha256": "sha256-337e58697cea2f6d75a6f2963f8c7f76bb73e78e9678cedcf7b47f630bbe44cf"
+    },
+    {
+      "path": "references/ima-sdk-tvos-guide.md",
+      "bytes": 6038,
+      "sha256": "sha256-cda6e33c347f97323d456ee7ab804078d9c1b2681630c86c1944f055a5da71a5"
+    },
+    {
+      "path": "references/ima-sdk-web-guide.md",
+      "bytes": 8479,
+      "sha256": "sha256-513099a74393fc780eb5cebf960b3eb664384117f4f48c3059cd8d228bab4085"
+    },
+    {
+      "path": "references/ima-sdk-web-iframe-mode.md",
+      "bytes": 2884,
+      "sha256": "sha256-72aa2faed6188e0c6dfb72af02d821fed802c0a930558bde240ba9a016e1216f"
+    },
+    {
+      "path": "references/ima-sdk-web-mobile-safari.md",
+      "bytes": 514,
+      "sha256": "sha256-902cf8416c00afbc1fa57eaa7ece8b6922e4b474301b079050cce696ea0e407e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2228,
+      "sha256": "sha256-d6043f8a84725fc1238a5853ee1e92b6602ed2b9c83811409e01eba4bd021161"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

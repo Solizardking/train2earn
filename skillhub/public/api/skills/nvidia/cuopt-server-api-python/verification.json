@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cuopt-server-api-python",
+  "name": "cuopt-server-api-python",
+  "description": "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-server-api-python/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-server-api-python/metadata.json",
+  "bundleHash": "sha256-8903a7f9235cc46907b54eee23256bd8f8c4e69628ac3288e569bad510a4fcc7",
+  "merkleLeaf": "sha256-4da9599376fb8c971e94bee4fd99052762c092414f4ba2e7e7c29b01e59d4283",
+  "files": [
+    {
+      "path": "assets/lp_basic/client.py",
+      "bytes": 2337,
+      "sha256": "sha256-6a6ff52fec5c8fc2d5c52f28b90d63b855b4595e8471fe5d28a5071900076eeb"
+    },
+    {
+      "path": "assets/lp_basic/README.md",
+      "bytes": 369,
+      "sha256": "sha256-1c6e89eeee88de7d2968c684cf8b45ba9be0c2e4241e094f30f72c67034f1f7b"
+    },
+    {
+      "path": "assets/milp_basic/client.py",
+      "bytes": 2323,
+      "sha256": "sha256-e6dced1ec5dc672d33b283e092b3904a4870ae105fb17e390430d583f72409a7"
+    },
+    {
+      "path": "assets/milp_basic/README.md",
+      "bytes": 361,
+      "sha256": "sha256-faa4ee10a6585839aeb4492e077136038eeeb0bcdebb92a18b24eaa5ded2e659"
+    },
+    {
+      "path": "assets/pdp_basic/client.py",
+      "bytes": 2747,
+      "sha256": "sha256-981bca0951ac9d850074bcc305ba6f21a70945f080c8290947ce784028be19fe"
+    },
+    {
+      "path": "assets/pdp_basic/README.md",
+      "bytes": 288,
+      "sha256": "sha256-5c0b7e3c35eb111f9246d49a8022108b4d4e4ee284bef283f5aa2120fbc3ed0d"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 609,
+      "sha256": "sha256-a83cceb101feb28953be9fa0689f73174674914e6ecaa2cea93df102e00114ff"
+    },
+    {
+      "path": "assets/vrp_basic/client.py",
+      "bytes": 3003,
+      "sha256": "sha256-63d1eb6df0c84177093804a66189fb6aae50a7ea4d7cdb7425e7a619ccc0b136"
+    },
+    {
+      "path": "assets/vrp_basic/README.md",
+      "bytes": 377,
+      "sha256": "sha256-6928074413dfe1ea415bf1dee79cebc186546feca8dc40fee1e42a29651e5164"
+    },
+    {
+      "path": "assets/vrp_simple/client.py",
+      "bytes": 2680,
+      "sha256": "sha256-f7e1ae49607c94e3c818b169006a3834c762c158ffc2f436295d180c8259ee59"
+    },
+    {
+      "path": "assets/vrp_simple/README.md",
+      "bytes": 255,
+      "sha256": "sha256-6ec45bb5a5e0f1a122f241179187c4e608cbca88d8081da4229164d281316b5c"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3847,
+      "sha256": "sha256-bb74474d02a1301106a06ea5e0a527014846b050d18439984450dedc72dfe4d4"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4116,
+      "sha256": "sha256-d06e76fa8d9e016533d0b40044ee7124e3664b838ad4e102083dd789154edc0d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3437,
+      "sha256": "sha256-9f7f191708079b7ea80f80c4e16cb0a03d1782c2bfa63808750e4ca50d38f119"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

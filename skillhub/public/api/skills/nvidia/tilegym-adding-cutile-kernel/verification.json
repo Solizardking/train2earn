@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tilegym-adding-cutile-kernel",
+  "name": "tilegym-adding-cutile-kernel",
+  "description": "Add a new cuTile GPU kernel operator to TileGym. Covers dispatch registration in ops.py, cuTile backend implementation, __init__.py exports, test creation, and benchmark in tests/benchmark. Use when adding, creating, or implementing a new cuTile operator/kernel in TileGym, or when asking how to register a new cuTile op.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tilegym-adding-cutile-kernel/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tilegym-adding-cutile-kernel/metadata.json",
+  "bundleHash": "sha256-45ed02446f557e2399c1453f568360ef347e94ce8e542485cfa70a5b45cb0359",
+  "merkleLeaf": "sha256-3f78eed44fcce0015428b2947f4025adbff51a6136023129dbcf06cbdf45865d",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4255,
+      "sha256": "sha256-5d635931c4782e1cb0a169a8e88ed57b5857bb5b1ac3387622d53460c2a4dbbd"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3728,
+      "sha256": "sha256-83fc695b2fa88283dc939df0de5330eb71cba96ed27e0c166b2259835919e30e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8230,
+      "sha256": "sha256-27068b4e36a8dd2ea782c3c9661452b157cafc36a5e245bda6729e2fe18b6d84"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

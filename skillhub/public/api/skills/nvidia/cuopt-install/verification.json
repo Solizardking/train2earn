@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cuopt-install",
+  "name": "cuopt-install",
+  "description": "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-install/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-install/metadata.json",
+  "bundleHash": "sha256-289a979b072c8d48a6269870f71a1f931e460dcf37ee879c8c4f23f00b0c80cc",
+  "merkleLeaf": "sha256-2e71f2155a71fe5ad1b461018b51a401764e8eff254efcf2b3eaf21418df6413",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3898,
+      "sha256": "sha256-792424aa4d2ff3ee17dd21a4f664bbf16591a884375b35b1f4655b2ac6205b11"
+    },
+    {
+      "path": "references/verification_examples.md",
+      "bytes": 4256,
+      "sha256": "sha256-fcdd39391171eeeec5dfd15d38d327db95cda1784c9a47b6fae0c34ef63a6db0"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3921,
+      "sha256": "sha256-e5f93714a72a3dd45fb51cf57517f7736d2cd04ca9448297c1c79dc79193e08c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4229,
+      "sha256": "sha256-3d0a5ef4c30ab8691dd36ffa5ebdc599a40655f2ee69af14a2a6c40b83c3c581"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-recipe-onboarding",
+  "name": "google-cloud-recipe-onboarding",
+  "description": "Guides a developer's first steps on Google Cloud, covering account creation, billing setup, project management, and deploying a first resource. Use when a new developer wants to initialize their first Google Cloud project, configure billing, and verify deployment. Don't use for enterprise organization setup (use Google Cloud Setup guided flow for that instead). Don't use for complex multi-project architectures.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-recipe-onboarding/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-recipe-onboarding/metadata.json",
+  "bundleHash": "sha256-d2c481d2d16aeda213b91a0e4b540ef1836d9411fb01c4bb8403899c0f919924",
+  "merkleLeaf": "sha256-a21102005a3481c47bda08a674cb6e8121c7db13748408e6c3be01ec4295d42b",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 12644,
+      "sha256": "sha256-ed91252f2d46566f8ba366e74f6e3b83205836009c54a48955c4c2b9e4854e02"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

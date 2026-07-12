@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-tuning-management",
+  "name": "agent-platform-tuning-management",
+  "description": "Manages GenAI tuning jobs in Agent Platform. Use this to list, get, or cancel ongoing model tuning jobs. Don't use for fine-tuning models (use `agent-platform-tuning`), deploying models to endpoints (use `agent-platform-deploy`), or managing serving endpoints (use `agent-platform-endpoint-management`).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-tuning-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-tuning-management/metadata.json",
+  "bundleHash": "sha256-9ac926f0ae4da0162270bd0fff7edfbbec77fea1f1999e1e1bf2e77457fa8768",
+  "merkleLeaf": "sha256-799b2da9ac3c3201caf7b103106ffe02b3c5fc4ee833338b11f2b5865d5eb052",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 6201,
+      "sha256": "sha256-7dbfb54277b1e4fd453a18c725018091c1fac8c9f8744e0ca1f7f8945b071cc8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openrouter-images",
+  "name": "openrouter-images",
+  "description": "Generate images from text prompts and edit existing images using OpenRouter's image generation models. Use when the user asks to create, generate, or make an image, picture, or illustration from a description, or wants to edit, modify, transform, or alter an existing image with a text prompt.",
+  "source": "https://skills.x402.wtf/api/skills/openrouter-images/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openrouter-images/metadata.json",
+  "bundleHash": "sha256-7332b5ecbf6c6118f7dce73db68d0b9ba976d5461fb7b3cf66076523ba4e73fa",
+  "merkleLeaf": "sha256-fa3bb8dcf43c686421f43d87d6ab383e99e5262ecef7e4e645f0647a539153f7",
+  "files": [
+    {
+      "path": "scripts/edit.ts",
+      "bytes": 2443,
+      "sha256": "sha256-d3124d647a8d9d2c9a26d0a4e95010ef7a8a3e600bfa63ad0b54201568ac6d2e"
+    },
+    {
+      "path": "scripts/generate.ts",
+      "bytes": 2117,
+      "sha256": "sha256-7dcc82935916fb2de827760211bb8c2a9f88697c163294118320a26a3d638e42"
+    },
+    {
+      "path": "scripts/lib.ts",
+      "bytes": 3154,
+      "sha256": "sha256-f4b34fcdbe376a41d0830d60a2c88eeed63bb2411b0921f029008ebea158e183"
+    },
+    {
+      "path": "scripts/package-lock.json",
+      "bytes": 16400,
+      "sha256": "sha256-daf30b5d8b892b47565300c2f70ec18bf120d0c2e55591556f3959125fd50066"
+    },
+    {
+      "path": "scripts/package.json",
+      "bytes": 129,
+      "sha256": "sha256-8b3eeff0dfc9b96667136a09e22f78b3588726f3c6909eb66e20c7f7d313b077"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5180,
+      "sha256": "sha256-8a10dac3864f797315f778e9ba7f5ea337365aea1533e2bc560466f4a316ab0c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

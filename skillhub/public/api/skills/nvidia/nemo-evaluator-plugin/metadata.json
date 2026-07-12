@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemo-evaluator-plugin",
+  "name": "nemo-evaluator-plugin",
+  "description": "Use when working on the Evaluator plugin CLI, jobs, SDK-backed specs, metric types, or plugin-owned Evaluator skills.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemo-evaluator-plugin/SKILL.md"
+}

@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/deepstream-import-vision-model",
+  "name": "deepstream-import-vision-model",
+  "description": "Use this skill to bring any vision model from HuggingFace or NVIDIA NGC into an NVIDIA DeepStream pipeline with end-to-end automation: ONNX download, SafeTensors export, TRT engine build, custom nvinfer bbox parser, multi-stream benchmark, and PDF report. Object detection models only.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-import-vision-model/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-import-vision-model/metadata.json",
+  "bundleHash": "sha256-ea3d3af489915745603f13493f13bb1de539dc1bf0632b24ef4501f01ac8c06e",
+  "merkleLeaf": "sha256-537e49410011441799ebdb8e6d57c9064574ced8f5e916c9a5cfdbb7164cc47f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 7046,
+      "sha256": "sha256-cced752e63d794375dce6f74b8ba263bb79c69b236b32f629e844534ba3e6ab9"
+    },
+    {
+      "path": "references/engine-build.md",
+      "bytes": 15983,
+      "sha256": "sha256-131e51814be34cfec4041557f56b33d8441d6f21b9ed74f466fd6d7be877a730"
+    },
+    {
+      "path": "references/model-acquire.md",
+      "bytes": 22571,
+      "sha256": "sha256-4e5bfd40f536e8246866d59ea1a8b005f0528636557a51b4b73347154b1bfb37"
+    },
+    {
+      "path": "references/pipeline-run.md",
+      "bytes": 26112,
+      "sha256": "sha256-9bfe018e2da412c93cad7afe87c830a4c34d84b229f27a2cf57d1ecdfb9787bb"
+    },
+    {
+      "path": "references/report-generation.md",
+      "bytes": 26854,
+      "sha256": "sha256-cab3c636cc1f4c1f2a31f5d81358f036cca14a3335485dca0f3cc251c0a679a2"
+    },
+    {
+      "path": "scripts/deepstream/benchmark-ds.sh",
+      "bytes": 3597,
+      "sha256": "sha256-f3df176d84a67d954424dbb6169c07486b870d141a23847effea2f82bca05b61"
+    },
+    {
+      "path": "scripts/deepstream/ds-kitti-dump.sh",
+      "bytes": 4602,
+      "sha256": "sha256-cd1765a6ab609e2ff7d9ec8111a33dba3eff107382695b22754094d64363f153"
+    },
+    {
+      "path": "scripts/deepstream/ds-perf-run.sh",
+      "bytes": 4889,
+      "sha256": "sha256-d15f1ddfb833be7f99e81e08f93dafcc3301a1de86827f651db500ccde88f1ce"
+    },
+    {
+      "path": "scripts/deepstream/ds-single-stream.sh",
+      "bytes": 5015,
+      "sha256": "sha256-6b0e0e760dd07e4d2725422ef50f1eb271747b49f13c7842e3f11db46469ac5c"
+    },
+    {
+      "path": "scripts/deepstream/ds-sweep.sh",
+      "bytes": 11297,
+      "sha256": "sha256-ebd29d25904520e1438e19b7ec8ce41f95a1ea2458a49d08d15079620ae6b1e9"
+    },
+    {
+      "path": "scripts/deepstream/extract-frame.sh",
+      "bytes": 1981,
+      "sha256": "sha256-fe8d806f46ceae8108653f607e08db509115a37862a53ef9546e437d9bd451f4"
+    },
+    {
+      "path": "scripts/engine/benchmark-trtexec.sh",
+      "bytes": 2783,
+      "sha256": "sha256-7452a467f56bedb0838d8e36ff970ac64600737c9beccae5f4ccacc309dc5ac9"
+    },
+    {
+      "path": "scripts/model/cleanup.sh",
+      "bytes": 2774,
+      "sha256": "sha256-4109f951adf7a03887cc1317e7c0c86d1c2d3083dc9ab97eb0f4f770a39ec0f4"
+    },
+    {
+      "path": "scripts/model/hf-download-config.sh",
+      "bytes": 2277,
+      "sha256": "sha256-b0d6000e29f75e995d97e82ee294f887f6cae48c527f6c652f286003a03f3811"
+    },
+    {
+      "path": "scripts/model/hf-list-files.sh",
+      "bytes": 4449,
+      "sha256": "sha256-fe73a78050f375d02f60cb87fa76d157560b153e5ccf9d4b6d8d8d1303854fed"
+    },
+    {
+      "path": "scripts/model/inspect-onnx.py",
+      "bytes": 3742,
+      "sha256": "sha256-5956305b04c811dd41f310f688bfc73584ab1fd2fc5f2c86d53ee965db9f0ea7"
+    },
+    {
+      "path": "scripts/model/make-static-batch-onnx.py",
+      "bytes": 2781,
+      "sha256": "sha256-1e3b622aa005d7318aec72eb6c0e965917e17cd4ea30b92bb071394fa1bd67dc"
+    },
+    {
+      "path": "scripts/model/ngc-download.sh",
+      "bytes": 3907,
+      "sha256": "sha256-44b2ccaa8cddb70d521d770621a3aa1d5ee542cf6f5130f858027a2997163d3b"
+    },
+    {
+      "path": "scripts/model/ngc-list-files.sh",
+      "bytes": 2676,
+      "sha256": "sha256-e3e5e09e68c2ffdf413f7331254c5ee8dd1c7b8e3c5072ea5a10baa1e1a95f40"
+    },
+    {
+      "path": "scripts/model/safetensors-to-onnx.sh",
+      "bytes": 3259,
+      "sha256": "sha256-ccc9aba687e8601c2d254cfee0b750d6c042280b7362ba4e7c396aa0482f952b"
+    },
+    {
+      "path": "scripts/report/generate-benchmark-charts.py",
+      "bytes": 11108,
+      "sha256": "sha256-325a7a3a4a3740e6a3c86591f324e9cb512c65bdce010f7d954602182681e9e3"
+    },
+    {
+      "path": "scripts/report/latex-pdf-wrap.tex",
+      "bytes": 1689,
+      "sha256": "sha256-2b28a4e48349d140762aa20f12cea962a692cb7fee753715cb401ff9a33dd39d"
+    },
+    {
+      "path": "scripts/report/md-to-html-pdf.py",
+      "bytes": 5501,
+      "sha256": "sha256-a9817742347c1c203ccf3f91ac75360f91dfba605c2d5ae0dae5e79348650c48"
+    },
+    {
+      "path": "scripts/report/md-to-pdf.sh",
+      "bytes": 2272,
+      "sha256": "sha256-ddeac58686835b41f2d0ccf047f075d152fb296c1c68b1d3fc3bd3da8f14c16b"
+    },
+    {
+      "path": "scripts/report/mermaid-puppeteer-root.json",
+      "bytes": 86,
+      "sha256": "sha256-896e2d8f3bd9e8622ed9c709fa9c597fbe3b98976f808b8eb22ddb0a715bdd53"
+    },
+    {
+      "path": "scripts/report/mermaid-puppeteer.json",
+      "bytes": 42,
+      "sha256": "sha256-03ae81fddec97b7f37a4086f1accdf50bc4a8018d680d2de9b8f4dfd0fb60c0f"
+    },
+    {
+      "path": "scripts/report/pandoc-wrap-tables.lua",
+      "bytes": 2286,
+      "sha256": "sha256-b677ce07908bbd4a0c33df365e9b1c3d93c52c6f0daf82080cd41adc811425a7"
+    },
+    {
+      "path": "scripts/report/render-mermaid-for-pdf.py",
+      "bytes": 7548,
+      "sha256": "sha256-8c0f5f3584b9c13d1466747e2d843434b6244bc386a2547f778aa0da05eee1e3"
+    },
+    {
+      "path": "scripts/report/report-style.css",
+      "bytes": 1837,
+      "sha256": "sha256-eae9b479291527d2afbdbf0b45b64377c7b15f8392b2e7d28c3f488d725fa003"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4213,
+      "sha256": "sha256-d4c1ee9d306c541e30b8938e3d1bd0be9764968a3ab2f9aee18d711af883a904"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10317,
+      "sha256": "sha256-9194e8f3f256d56bd16e6b14943933ee5b0b08d2ab788813476f2392493c3e56"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

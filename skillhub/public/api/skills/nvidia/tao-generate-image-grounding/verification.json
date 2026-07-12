@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-generate-image-grounding",
+  "name": "tao-generate-image-grounding",
+  "description": "\"Two-step image grounding pipeline: extracts referring expressions from (image, caption) pairs and grounds them to pixel-space bounding boxes via a VLM. Use when the user wants to ground captions to bboxes, generate phrase-grounded annotations, auto-label images for grounding, or run the image_grounding pipeline. Triggers include 'image grounding', 'phrase grounding', 'ground captions', 'auto-label image grounding', 'image_grounding'.\"",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-generate-image-grounding/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-generate-image-grounding/metadata.json",
+  "bundleHash": "sha256-8c2d3d934425796d33f212ca165aa0053446ff55df5d713ba5189d69de366bc3",
+  "merkleLeaf": "sha256-99f7b64ef2be711250a8f35de3d722cd5741e41861a96a152eb3d6fdda724a44",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3863,
+      "sha256": "sha256-6d09ac72ba14e754062f8cc163aca04ddd6e28fcce4e68e7c90c495bad9203ef"
+    },
+    {
+      "path": "references/configuration.md",
+      "bytes": 9554,
+      "sha256": "sha256-7d96e97508fc0a0b7b72a6490af63769a869c7712ece98628f75a646eb6da6a7"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 1015,
+      "sha256": "sha256-8346e599ab66ad1a5b604f64e7f1b40229b0839eb7600b81ec29bc6734d70af4"
+    },
+    {
+      "path": "references/vllm_server.md",
+      "bytes": 6869,
+      "sha256": "sha256-da96d9f56ba2a038c3eab3b160e933fd7756b55baf8dbb9431b6d50055eef300"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3914,
+      "sha256": "sha256-0971a23337d742ad608b5e0d583266faae44e1d98b64ef9a89a9d3c068e07b43"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7829,
+      "sha256": "sha256-e18fecf894263e38450e40339bdf6dfb409f5136162ee06c7369338218c6fb05"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "anthropic-skills/webapp-testing",
+  "name": "webapp-testing",
+  "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/webapp-testing/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/webapp-testing/metadata.json",
+  "bundleHash": "sha256-440600aaafd292d2a6e26d1626540e9a71ab542a1f89c4826fae14491e9dc917",
+  "merkleLeaf": "sha256-529598acd496c04718fbdd5e877de5a697e1a9e7c618be7a893dea1cde1d2e9a",
+  "files": [
+    {
+      "path": "scripts/with_server.py",
+      "bytes": 3693,
+      "sha256": "sha256-b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3913,
+      "sha256": "sha256-51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

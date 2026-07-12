@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cheshire-terminal",
+  "name": "cheshire-terminal",
+  "description": "Operate and extend Cheshire Terminal, the cheshireterminal.ai voice-controlled Solana terminal powered by $CLAWD. Use when working on voice terminal flows, token launch commands, LiveKit voice integration, Jupiter swap surfaces, burn/staking flows, or any task that mentions Cheshire Terminal, cheshireterminal.ai, $CLAWD terminal, or Clawd voice commands.",
+  "source": "https://skills.x402.wtf/api/skills/cheshire-terminal/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/cheshire-terminal/metadata.json",
+  "bundleHash": "sha256-798f6cc6d1846f2925a30f7ad470d9485614cecbb28f2bf69c2dd6fcfc44b4db",
+  "merkleLeaf": "sha256-1deb187d2b0aa7579483a9b965c7d934d6c78b059cc742a86a6ccf3e9f3162df",
+  "files": [
+    {
+      "path": "references/current-site.md",
+      "bytes": 2860,
+      "sha256": "sha256-b9f3aa88523aa133835229954c5ea5a6094bbd2e9c8ae443d4c67368847ea589"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2477,
+      "sha256": "sha256-37dc6064b692ad405a1815aca494f0d5d7c0ee3bbd7bd4b287727441cb92e194"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

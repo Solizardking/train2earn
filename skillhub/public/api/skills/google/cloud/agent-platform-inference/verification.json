@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-inference",
+  "name": "agent-platform-inference",
+  "description": "Connects to and performs inference with Google Cloud Agent Platform GenAI models, including First-Party Gemini models and Third-Party OpenMaaS models (Llama, DeepSeek, Qwen, etc.). Use when you need to generate code for calling Gemini or OpenMaaS models, authenticate with GenAI SDK, OpenAI SDK, or legacy Agent Platform SDK, configure base URLs and global/regional endpoints, or troubleshoot 429 Resource Exhausted (DSQ), 400 User Validation, or 404 Not Found errors. Don't use for deploying models to endpoints or for running model evaluations.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-inference/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-inference/metadata.json",
+  "bundleHash": "sha256-c475c4810f0c550a7093c32243997227ef65c8886c14ca26bb5431cd50bddb97",
+  "merkleLeaf": "sha256-33a355f50c6b382d64e93a5b434c8be96cd50baeca26a3f23ef49093ec027885",
+  "files": [
+    {
+      "path": "scripts/gemini_genai_sdk.py",
+      "bytes": 505,
+      "sha256": "sha256-be56bef9a6b2826abc3273bbd88e4757c1c649dbc218c691d3c82a50e550ec2e"
+    },
+    {
+      "path": "scripts/gemini_openai_sdk.py",
+      "bytes": 875,
+      "sha256": "sha256-ae84e619e285437e15170bb8d250bb6cb5080a12dd8f6e8b7a28197ef53d8ee9"
+    },
+    {
+      "path": "scripts/gemini_vertexai_sdk.py",
+      "bytes": 462,
+      "sha256": "sha256-060c965571fde0320deb1308a402aa8608c267159fe39d7253f19963d6229c93"
+    },
+    {
+      "path": "scripts/openmaas_genai_sdk.py",
+      "bytes": 607,
+      "sha256": "sha256-e5c58b8a1a5d18df1c0d6b9b5ed6ef81a17719fb0257deb7cdcf6b6a7253074d"
+    },
+    {
+      "path": "scripts/openmaas_openai_sdk.py",
+      "bytes": 917,
+      "sha256": "sha256-02bd3e87ed8c40576227da377d2639a23b9a125d8b7e38ec700f4ddb5083f003"
+    },
+    {
+      "path": "scripts/openmaas_vertexai_sdk.py",
+      "bytes": 564,
+      "sha256": "sha256-b8b9d24e73b7327521ac3bf487215e4aef72b1bb38c00f78d6286892fd51cfd0"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 56,
+      "sha256": "sha256-8ca96045d8ba2d369a447e3492b3e1d9692d9f042599ab9f86b4d1dc8a85a5ca"
+    },
+    {
+      "path": "scripts/verify_all.sh",
+      "bytes": 919,
+      "sha256": "sha256-3ca0d55ef072e079f035d295d3b19a3e59ac26f7667cf70157dd079fa52ebdc3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15835,
+      "sha256": "sha256-d42d697cd9619b1437938ff8d3f0119f06acb3c3551247fd418997fcf01a060f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

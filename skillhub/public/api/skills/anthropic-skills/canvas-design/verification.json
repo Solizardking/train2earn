@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "anthropic-skills/canvas-design",
+  "name": "canvas-design",
+  "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/canvas-design/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/canvas-design/metadata.json",
+  "bundleHash": "sha256-8b2734a179026b1229b85da5a687b10b212a8ab1b9c1cf8b5d0d2d68ae288359",
+  "merkleLeaf": "sha256-560df0b81f210f538f80a5e5010f89c65fc925cdd5a38ecf2ab2b3165309d0f2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 11939,
+      "sha256": "sha256-a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

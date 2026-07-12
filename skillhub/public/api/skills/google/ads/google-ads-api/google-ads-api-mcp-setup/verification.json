@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/ads/google-ads-api/google-ads-api-mcp-setup",
+  "name": "google-ads-api-mcp-setup",
+  "description": "Guides developers through downloading, configuring, and installing the official open-source Google Ads MCP Server. Use this skill when a user wants to connect their AI assistant (such as Gemini, Claude Code, or Cursor) to their Google Ads account to query campaigns or retrieve reporting metrics using natural language.",
+  "source": "https://skills.x402.wtf/api/skills/google/ads/google-ads-api/google-ads-api-mcp-setup/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/ads/google-ads-api/google-ads-api-mcp-setup/metadata.json",
+  "bundleHash": "sha256-1e733459c7966c72a5c03cb800e5167260da98b70cdfb0b6b807b80fcd5d31fb",
+  "merkleLeaf": "sha256-850becae8119dd1228689f2f43ab6dc34460dd8a91ca825d62f056e8f98e2595",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 24364,
+      "sha256": "sha256-1a8c0b80b6afd917580ef8c17defa5e478522daabb1db4fe0616b3e8c9f9b5cd"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "pump-token-incentives",
+  "name": "pump-token-incentives",
+  "description": "Implement and operate Pump.fun PUMP token incentive rewards with day-indexed epochs, pro-rata volume distribution, user/global accumulators, sync and claim flows, and Pump/PumpAMM cross-program aggregation.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-token-incentives/SKILL.md"
+}

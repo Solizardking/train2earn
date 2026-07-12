@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solana Redpill Verifier"
+  short_description: "Build and operate the Solana TEE verifier"
+  default_prompt: "Use $solana-redpill-verifier to implement or debug Solana RedPill TEE proof anchoring."

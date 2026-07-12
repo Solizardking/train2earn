@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-on-kubernetes",
+  "name": "tao-run-on-kubernetes",
+  "description": "Kubernetes execution platform — submits TAO container jobs as single-pod k8s Jobs with NVIDIA GPU scheduling. Use when running on EKS / GKE / AKS / on-prem clusters with the NVIDIA GPU Operator installed, or when integrating TAO into an existing k8s-native ML platform.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-kubernetes/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-on-kubernetes/metadata.json",
+  "bundleHash": "sha256-a2211a7524333ee6282c91239f024996133bb90f9cf934ae51bac93c839b8a86",
+  "merkleLeaf": "sha256-ed41e94621b31504b96616ba373fd2b96619ed8fe41650bbca13c4bceb853409",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4100,
+      "sha256": "sha256-626d1576e408b7273e2070afc50b3e68aa09a81f133243e10a50bf66ef965fc2"
+    },
+    {
+      "path": "config.json",
+      "bytes": 1238,
+      "sha256": "sha256-0a4633719d029de036465375ff7a2c03ee1200337542fafddb06845708aeccc1"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 1238,
+      "sha256": "sha256-1ecb452c31fc6dcd61672fce75b47f57520d3d76f9faddab81b909bad59a48d4"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4124,
+      "sha256": "sha256-edf92b5c98ef1fe21eb2c9a45593493ed79f0ab7e0e60bdb7ab2ef976d902072"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15276,
+      "sha256": "sha256-2e9af900eca00ed56a36c411428395019c11436f24c8e3a798e05b2990762975"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

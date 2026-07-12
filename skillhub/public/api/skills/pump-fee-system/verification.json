@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-fee-system",
+  "name": "pump-fee-system",
+  "description": "Implement and audit the Pump.fun fee system, including market-cap fee tiers, creator fee vaults across Pump and PumpAMM, basis-point arithmetic, ceiling division, fee simulation, and dust-safe calculations. Use for protocol fee logic and creator-fee accounting.",
+  "source": "https://skills.x402.wtf/api/skills/pump-fee-system/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-fee-system/metadata.json",
+  "bundleHash": "sha256-80d2f111c8b590057f7877b071b2c0c14d65f3bdcd125c5827c729489bc30cdb",
+  "merkleLeaf": "sha256-b99cacc2406fb466b240b4066dfae90426b9a074d658727ebff022bf0aa49719",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3238,
+      "sha256": "sha256-003f13077884609e876ade4653210b865610e257b4576ca5802635cee940874c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

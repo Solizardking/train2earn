@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-moe-dispatcher-selection",
+  "name": "nemo-mbridge-perf-moe-dispatcher-selection",
+  "description": "Choose the right MoE token dispatcher (`alltoall`, DeepEP, or HybridEP) for the hardware, EP degree, and optimization stage. Summarizes patterns from DSV3, Qwen3, Qwen3-Next, and VLM bring-up work.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-dispatcher-selection/metadata.json",
+  "bundleHash": "sha256-425bfd140add8e2ae667cab1138ce60eda428cf501adeb32f7b4c635de30de9f",
+  "merkleLeaf": "sha256-f2279ff702747a498d26632913a27acd98e8f22f79bc3a8e50e9c7c776c8eb48",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4419,
+      "sha256": "sha256-b22a5f9cccdfc8d30b1b9d9e85b45df7def50aa9392f8667fe8154944243207d"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 4045,
+      "sha256": "sha256-2cd098a0f36026f487fdc83c2a0e3e89cd193d76d329f16412413b6d8a724635"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4020,
+      "sha256": "sha256-ca35daf27a332cb57b98497797805d14dbbe7f2fd034424da8754e380d38071e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7950,
+      "sha256": "sha256-45ef7dbdfb45aaea37d7b18fad2494d47260a7c4a3c94ce5578a76721b4b264f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

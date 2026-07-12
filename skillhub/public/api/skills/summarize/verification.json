@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "summarize",
+  "name": "summarize",
+  "description": "Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTube/video”).",
+  "source": "https://skills.x402.wtf/api/skills/summarize/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/summarize/metadata.json",
+  "bundleHash": "sha256-ae46102417533ae56e3f422608f48cda6b712cb1757d074b818090a760e6b001",
+  "merkleLeaf": "sha256-ce95e2c194b6b67da922e8935f85fef337876509491422ba05192f6b2ac3db06",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2041,
+      "sha256": "sha256-48ea3d6b8a0076c891673835a446667c09ef92b654e603a09f82e6641391ac78"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

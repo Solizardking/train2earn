@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-print-bsp-info",
+  "name": "jetson-print-bsp-info",
+  "description": "Use when you need to print Jetson BSP info (L4T version, board configs, rootfs state) from a Linux_for_Tegra root on the host PC. This is an example skill.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-print-bsp-info/SKILL.md"
+}

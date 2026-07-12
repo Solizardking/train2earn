@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-deploy-detection-tracking-2d",
+  "name": "vss-deploy-detection-tracking-2d",
+  "description": "Use this skill when the user wants to deploy, run, debug, tear down, or call the REST API of the RTVI-CV 2D detection / tracking microservice. Trigger when the user says things like 'deploy rtvi-cv', 'start warehouse 2d', 'add a stream', 'check rtvi-cv health', or 'stop the perception container'. Not for VLM, embedding, or analytics — use the matching vss-* skill.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-detection-tracking-2d/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-deploy-detection-tracking-2d/metadata.json",
+  "bundleHash": "sha256-ab199da363c29113d1599e6f5940e788c6bd141bf58192e1544a47d5516e77a8",
+  "merkleLeaf": "sha256-525c1a6ac41af499593758b10b4e9febd9267903975b57e59bf142b9bfdc1d7d",
+  "files": [
+    {
+      "path": "assets/deploy-defaults.yml",
+      "bytes": 11051,
+      "sha256": "sha256-ea08e2357db15b20f6f941217d14027fdcb85ff7cb99c12e6e12da193391432f"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 5245,
+      "sha256": "sha256-10c408a1231c9db8f4b10159b2287872b496313ba19c5466519eafd892908797"
+    },
+    {
+      "path": "references/api-reference.md",
+      "bytes": 8559,
+      "sha256": "sha256-8a1ae964e574b2cf5bba4cf4190beb7abbe6d80f055bdf33c436eec5f043d382"
+    },
+    {
+      "path": "references/apply-config.md",
+      "bytes": 61491,
+      "sha256": "sha256-d74519ad9eb8f8f0065fe6c4b5fe875db3914f87e95c916399f57e4bc1c7c74e"
+    },
+    {
+      "path": "references/container-reuse.md",
+      "bytes": 11255,
+      "sha256": "sha256-cce70932f13d490553f2f5541dc8e8e53a2c972772ad22773c111a7c366c431a"
+    },
+    {
+      "path": "references/deploy-vss-detection-tracking-2d.md",
+      "bytes": 63168,
+      "sha256": "sha256-bc98fa243cd7a072097ed90b13dc1129c718c05f9844ed00435523fe9a993a9e"
+    },
+    {
+      "path": "references/environment.md",
+      "bytes": 6557,
+      "sha256": "sha256-ced1d24eb342bd0a489b8d38550cbe35ebbf4c8b06a8674e8b831d4cdbb381de"
+    },
+    {
+      "path": "references/next-steps.md",
+      "bytes": 31742,
+      "sha256": "sha256-4771317fffdc7305628951ea83381a8757ebe8a951e44fccee024465611847a1"
+    },
+    {
+      "path": "references/ngc-setup.md",
+      "bytes": 7065,
+      "sha256": "sha256-e58ea87b26c137b78fa4fcf1a3e2ed59b4db019e0acaf49523551158bb1e3818"
+    },
+    {
+      "path": "references/pipeline-config.md",
+      "bytes": 13000,
+      "sha256": "sha256-233e6c19fff0ed3da19171cc6f4bc44b4c9e0df7a1a7aff93d7b57abea970b44"
+    },
+    {
+      "path": "references/platforms.md",
+      "bytes": 7274,
+      "sha256": "sha256-4488326f243bde190388dc896327445459cda4071745497d0c6d89e287ab4752"
+    },
+    {
+      "path": "references/resource-plan.md",
+      "bytes": 19467,
+      "sha256": "sha256-85dab61a9efa1d853deb798e55ae7108b9d5a26010343d65d35f728a6b3f1a22"
+    },
+    {
+      "path": "references/start-app.md",
+      "bytes": 27793,
+      "sha256": "sha256-403b1ae69527ee2cc9f37d88eed879c76c8a6fcc98ba24146e5197fd7ca4c568"
+    },
+    {
+      "path": "references/task-list.md",
+      "bytes": 13201,
+      "sha256": "sha256-b0e09c49fff608649225c558609cfcd8f1af5c73924f154e50ad0c700e70bba6"
+    },
+    {
+      "path": "references/teardown-flow.md",
+      "bytes": 6049,
+      "sha256": "sha256-3f1b9e4d3d13a9da4c38d6ec88d333fc8034a307683651e6da44ab35f57e15a7"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 8185,
+      "sha256": "sha256-44b5b4a23ace2ca0b57992d041b327a4a7970b3f25ee23120dab0d8ca5912be1"
+    },
+    {
+      "path": "references/upgrade-rollback.md",
+      "bytes": 2397,
+      "sha256": "sha256-4e74ec40a883547b0d1d0a3ffb79c2ca67bda656fc7282a8ae9f85de03e8f566"
+    },
+    {
+      "path": "references/usage-vss-detection-tracking-2d.md",
+      "bytes": 15258,
+      "sha256": "sha256-a9107fe7d7cb7544a923187b1cf2084a02705293137a88fdb4d854914454a3d7"
+    },
+    {
+      "path": "references/usecases.md",
+      "bytes": 14121,
+      "sha256": "sha256-fbfaf3cfdd0e4bed36246d124b3d97d83763da1503aeddf30103065f030c8eaf"
+    },
+    {
+      "path": "references/ux-conventions.md",
+      "bytes": 14935,
+      "sha256": "sha256-e7eb6aae420bd1bb5eb65a1e1e6177db641d89a7cca6fa623603ea09ff95f147"
+    },
+    {
+      "path": "references/workflow-reference.md",
+      "bytes": 10418,
+      "sha256": "sha256-59305e0195b65018a17f843c8811df3d73a6674e4d42ef3d88f199caebe7ef2f"
+    },
+    {
+      "path": "scripts/add_streams.sh",
+      "bytes": 9343,
+      "sha256": "sha256-5cee01f950edbbe18d5e0acb9180b81af4ad5591ad011cbfff9347d05d8fdf66"
+    },
+    {
+      "path": "scripts/apply_config.sh",
+      "bytes": 23259,
+      "sha256": "sha256-01d52f326723e21be8fe4ec1677058b983de3b5f280c49b88039974946f9e66d"
+    },
+    {
+      "path": "scripts/apply_in_container.sh",
+      "bytes": 2989,
+      "sha256": "sha256-968d5eb0f8c978be3e13bc54e37231ba01306af24bd50caa53c1d60c05f50f6f"
+    },
+    {
+      "path": "scripts/cache_nvinfer_engine.sh",
+      "bytes": 4375,
+      "sha256": "sha256-b7b11afda1057fc256a60d4c78deacd116f97077cd1825f9d02c5fa7b9f59376"
+    },
+    {
+      "path": "scripts/calibration_manager.py",
+      "bytes": 10052,
+      "sha256": "sha256-08ada32061c68cdeb72a942388c29e902c94ec7c9145164c9caea5b6249a234f"
+    },
+    {
+      "path": "scripts/check_container_gpu.sh",
+      "bytes": 3193,
+      "sha256": "sha256-49610ef75d223e07f8056390c9255229208e5158ebbb27c94a4c6e45dfe09649"
+    },
+    {
+      "path": "scripts/clean_engine_cache.sh",
+      "bytes": 2987,
+      "sha256": "sha256-3d31b2add914b89c728688c0abeca4aeb374abc50e18060e59c56a0a5612e59f"
+    },
+    {
+      "path": "scripts/collect_metrics.sh",
+      "bytes": 14651,
+      "sha256": "sha256-7f286e2c403b422b5baf236646769046caeb6d335082d9a88f19e7ef78339784"
+    },
+    {
+      "path": "scripts/common.sh",
+      "bytes": 15000,
+      "sha256": "sha256-c878579b8f4378c25f5847618845778c8c3ed957cc93dc97d7a404def18f211e"
+    },
+    {
+      "path": "scripts/discover_streams.sh",
+      "bytes": 8427,
+      "sha256": "sha256-bfda8dec838c715cc97e1aa0f67fa879536d97deb09c13b5e4866d25361ea914"
+    },
+    {
+      "path": "scripts/fetch_resources.sh",
+      "bytes": 10426,
+      "sha256": "sha256-e184c15d4cd7af2ee159569877e1261ba58fb9c64c18a72b0931b18cde1c32cd"
+    },
+    {
+      "path": "scripts/load_defaults.sh",
+      "bytes": 5227,
+      "sha256": "sha256-dcb078221e0516a5fc3cafd6ba05112f38b27562deb7b98b0a0b418d8a86903c"
+    },
+    {
+      "path": "scripts/prelaunch_nvinfer_engine.sh",
+      "bytes": 8943,
+      "sha256": "sha256-2da04c0af7e834b6b4137d68b8cd8d0b5ad79e0347f9eb0b2adcf968ca2d0026"
+    },
+    {
+      "path": "scripts/render_box.sh",
+      "bytes": 2484,
+      "sha256": "sha256-47c03c657808b86f80115a77ddc50eb6a54c99846f0e416052737ef81c4b35c3"
+    },
+    {
+      "path": "scripts/run_app_and_wait.sh",
+      "bytes": 14884,
+      "sha256": "sha256-7b2d0100c8be7c31b53e85e875870fd369b68a2ba91f5c859fc009349122f8c9"
+    },
+    {
+      "path": "scripts/setup_gdino.sh",
+      "bytes": 6759,
+      "sha256": "sha256-14af2dc53477168471afe847cb8373356f17c9729b54d259450cf8ead9f852a4"
+    },
+    {
+      "path": "scripts/setup_sparse4d.sh",
+      "bytes": 9444,
+      "sha256": "sha256-508226894c33e6119f54de9e0b4732af50f9decc748e5e3c297a63553ddbbdb4"
+    },
+    {
+      "path": "scripts/setup_tracker_reid.sh",
+      "bytes": 11661,
+      "sha256": "sha256-ba6c7e41e210d86421e5cb110e5fca0f68d255cee43f5abbbb45c037090f0ba3"
+    },
+    {
+      "path": "scripts/start_app_in_container.sh",
+      "bytes": 6111,
+      "sha256": "sha256-86f44d686040c60bd3bead6699aef25740f260f2a282386101ee67dd3ae5880c"
+    },
+    {
+      "path": "scripts/synthesize_docker_run.sh",
+      "bytes": 7423,
+      "sha256": "sha256-f77d9b9f90eeed9341f8d011e848d0129142e673ff960a0ea02ba77ea2a000aa"
+    },
+    {
+      "path": "scripts/update_batch_size.sh",
+      "bytes": 6652,
+      "sha256": "sha256-e9a0adf4b9ed765bf3f47ee8c649b44eb54c67b2a6c1e2baee7ab5bd1d738e6c"
+    },
+    {
+      "path": "scripts/update_output_sink.sh",
+      "bytes": 17439,
+      "sha256": "sha256-8a87813628b73e32a53776420604e4bbb38da9196302d3f0ce3853b03b90cbcb"
+    },
+    {
+      "path": "scripts/update_stream_sources.sh",
+      "bytes": 6964,
+      "sha256": "sha256-d6060520215c4836cb586c03a45da8b91544159931b5b7af7c0679203ba181f3"
+    },
+    {
+      "path": "scripts/write_deployment_log.sh",
+      "bytes": 11436,
+      "sha256": "sha256-c62d8335d30708e7a6d5f23b8bc66f8e693bb1d71bb16ba2fa6239b92f87e765"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4154,
+      "sha256": "sha256-b291c8933cd26f7317e3da054b86763a104b4992ba0788a96a6536a079524a7e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19465,
+      "sha256": "sha256-30d596802847a95716cee2b75800b1177f88649cfdaa9290a1494ee42df69559"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

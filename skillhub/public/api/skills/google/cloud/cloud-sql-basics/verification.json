@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/cloud-sql-basics",
+  "name": "cloud-sql-basics",
+  "description": "This file generates or explains Cloud SQL resources. Use this file when the user asks to create a Cloud SQL instance or database for MySQL, PostgreSQL, or SQL Server.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/cloud-sql-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/cloud-sql-basics/metadata.json",
+  "bundleHash": "sha256-99c8c7bcfeef45001b5ceb9c85058fa5087c2f1d8cc545154dc95a78c13c14df",
+  "merkleLeaf": "sha256-e0e320fc5a012a73a8282c58abff7ec5acdce3b8dcd36b4f27d1fdd2113a330f",
+  "files": [
+    {
+      "path": "references/cli-usage.md",
+      "bytes": 1497,
+      "sha256": "sha256-7db6c24424697fd302b64f73e98c663c0d4e3003d0cef4f23c17956a5325fe60"
+    },
+    {
+      "path": "references/client-library-usage.md",
+      "bytes": 2938,
+      "sha256": "sha256-4f0cbb8375dc70030399344570deef700bd73b09733f3faac3c7acd43684141e"
+    },
+    {
+      "path": "references/core-concepts.md",
+      "bytes": 2102,
+      "sha256": "sha256-b49146d9d0b91ca22d1701c2196b8f779464569b12e5e0d78490873451a32522"
+    },
+    {
+      "path": "references/iac-usage.md",
+      "bytes": 1260,
+      "sha256": "sha256-5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f"
+    },
+    {
+      "path": "references/iam-security.md",
+      "bytes": 3027,
+      "sha256": "sha256-3b12a90cf9d022b049ce28fc02fb7dfd417d835cd1d0df5add39776f1459560b"
+    },
+    {
+      "path": "references/mcp-usage.md",
+      "bytes": 2528,
+      "sha256": "sha256-e6b322641d35ab1438f0f9cba8f79d3f1a33b047b337563a9121187a896bc2f7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3628,
+      "sha256": "sha256-22f300f82fcb99d9215ff503d1614d56a898b455fa9e8bd1262dac9de883fea2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-customize-usb",
+  "name": "jetson-customize-usb",
+  "description": "Enable/disable Jetson USB2/USB3 SS ports via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-customize-usb/SKILL.md"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-derive-carrier",
+  "name": "jetson-derive-carrier",
+  "description": "Bootstrap a custom carrier board by forking carrier files and scaffolding a DT overlay from the reference devkit. Use after jetson-init-source; not for module-level or kernel-DTB changes.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-derive-carrier/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-derive-carrier/metadata.json",
+  "bundleHash": "sha256-d82b1245fa50efeed91f984e44382db4521da915298e36a5bca5a2c1115181c9",
+  "merkleLeaf": "sha256-d422c0937842c3c38edacdc436dcf49489eeb727e8e6dfe66b1dbf99b2d3606f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3574,
+      "sha256": "sha256-d43bd58879b730943d1c0520fa6334a50835213bbcf8aeb6e871f5376dd9d5e0"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3762,
+      "sha256": "sha256-d61b8d683315dc57426f99d91e7030a316e80a40d49c55093d31c0a06658fa20"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16969,
+      "sha256": "sha256-770df96468b5475fdfbdba5685de51a2e230641b54e9af6e8800cca5815e5733"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

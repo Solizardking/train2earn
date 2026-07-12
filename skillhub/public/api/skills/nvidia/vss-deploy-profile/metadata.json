@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/vss-deploy-profile",
+  "name": "vss-deploy-profile",
+  "description": "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/vss-deploy-profile/SKILL.md"
+}

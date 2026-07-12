@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/holoscan-install-source",
+  "name": "holoscan-install-source",
+  "description": "Build Holoscan SDK from source via the in-tree ./run script. Use only when published packages don't meet the user's needs.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-source/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/holoscan-install-source/metadata.json",
+  "bundleHash": "sha256-419e74333ff9916c35da55fcb228d3847153ae6a9661c822af6dcf3036406409",
+  "merkleLeaf": "sha256-b27a0495f285747cd110f161bbc413bbe558d131d343b5471f444758c5089a6e",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3943,
+      "sha256": "sha256-dc3030644cba92de1c47bbef31f732b3994672354cf3e777aa2830129e38e438"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3798,
+      "sha256": "sha256-082078e1b978fc32dbb787af8e56ac492c9446129a0102de6c6736f04fe4b7e7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6135,
+      "sha256": "sha256-fb7a4450a5901c20058e43d96cf47deac1e4fd0e6d65d3efb0a58334b21d7220"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

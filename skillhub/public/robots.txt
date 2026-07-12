@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skills.x402.wtf/sitemap.xml

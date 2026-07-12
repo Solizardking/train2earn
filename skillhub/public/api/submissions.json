@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "skillhub-public-ledger/v1",
+  "generatedAt": "2026-07-10T20:28:11.722Z",
+  "security": {
+    "redacted": true,
+    "policy": [
+      "No private keys, keypairs, mnemonics, or API secrets",
+      "No SOLANA_KEYPAIR material",
+      "Blocked submissions never expose file bodies",
+      "Published entries expose hashes + explorer links only (optional public package URLs)"
+    ]
+  },
+  "hubs": {
+    "primary": "https://skills.x402.wtf",
+    "aliases": [
+      "https://skills.x402.wtf",
+      "https://skills.onchainai.fund",
+      "https://cheshireterminal.ai/skills"
+    ],
+    "publishUi": "https://skills.x402.wtf/publish",
+    "cheshireStore": "https://cheshireterminal.ai/skills-store",
+    "repository": "https://github.com/Solizardking/skills"
+  },
+  "catalogAnchor": {
+    "plan": {
+      "cluster": "devnet",
+      "merkleRoot": "sha256-95a3f2f228015c5af2c20e69b4b59cf2747b18a837f4c9424caaea296081aa34",
+      "catalogHash": "sha256-4b29ca40c6918a8ad174091f166f97d62229793bb2161b17294e26a0e1f47f5c",
+      "totalSkills": 557,
+      "createdAt": "2026-07-10T18:05:23.382Z"
+    },
+    "receipt": {
+      "cluster": "devnet",
+      "merkleRoot": "sha256-95a3f2f228015c5af2c20e69b4b59cf2747b18a837f4c9424caaea296081aa34",
+      "catalogHash": "sha256-4b29ca40c6918a8ad174091f166f97d62229793bb2161b17294e26a0e1f47f5c",
+      "totalSkills": 557,
+      "publishedAt": "2026-07-10T18:05:54.656Z",
+      "solana": {
+        "signature": "3AGQvJ2FBhxBd8gJX6Vx3xUuu7zfoDw1xsY9k7oYsEfbx1nCHHHPF9ApbC87iWF9QyUWhK1ASJFKpKCtuQCQKEds",
+        "explorer": "https://solscan.io/tx/3AGQvJ2FBhxBd8gJX6Vx3xUuu7zfoDw1xsY9k7oYsEfbx1nCHHHPF9ApbC87iWF9QyUWhK1ASJFKpKCtuQCQKEds?cluster=devnet"
+      },
+      "arweave": [
+        {
+          "label": "onchain-skill-registry.json",
+          "id": "217eSiLtiTNQ2DJBxipy9n4ZusT8SEHfyJ2LTJqkzfD7",
+          "url": "https://arweave.net/217eSiLtiTNQ2DJBxipy9n4ZusT8SEHfyJ2LTJqkzfD7"
+        },
+        {
+          "label": "catalog.json",
+          "id": "8qZrjGzZirgs5S48SXqa854q7VraNrN1AHLXCgEhgNWf",
+          "url": "https://arweave.net/8qZrjGzZirgs5S48SXqa854q7VraNrN1AHLXCgEhgNWf"
+        }
+      ]
+    }
+  },
+  "count": 2,
+  "submissions": [
+    {
+      "id": "c47399fb-008f-4f9b-bf36-2293fbe383ce",
+      "createdAt": "2026-07-10T19:34:45.188Z",
+      "updatedAt": "2026-07-10T19:34:45.188Z",
+      "status": "blocked",
+      "slug": "evil-skill",
+      "name": "evil-skill",
+      "description": "Bad skill.",
+      "risk": {
+        "level": "critical",
+        "score": 38,
+        "totalFindings": 2,
+        "bySeverity": {
+          "INFO": 0,
+          "LOW": 0,
+          "MEDIUM": 1,
+          "HIGH": 0,
+          "CRITICAL": 1
+        }
+      },
+      "verification": {
+        "bundleHash": "sha256-800a2aeb5912444269a0c8996b8a0eadb9f80adef798523a126538e19c916846",
+        "merkleLeaf": "sha256-23552fd170f0954dcccab95b15f7509809700287224d26b7b8cc7d841a199cff",
+        "fileCount": 1,
+        "totalBytes": 112
+      },
+      "submitter": {
+        "wallet": null,
+        "label": null
+      },
+      "payment": null,
+      "publish": null,
+      "public": true,
+      "findingsSummary": [
+        {
+          "ruleId": "VETTER_AGENT_MEMORY_ACCESS",
+          "severity": "CRITICAL",
+          "category": "data_exfiltration",
+          "message": "Reads or references agent memory or identity files."
+        },
+        {
+          "ruleId": "VETTER_SECRET_PATH_ACCESS",
+          "severity": "MEDIUM",
+          "category": "data_exfiltration",
+          "message": "References local secret or credential paths."
+        }
+      ],
+      "integrity": {
+        "entryHash": "sha256-8c9815541ec10a1fca705e7e37b7b54970a87732c0d3c56c3208419a0702c1b5"
+      }
+    },
+    {
+      "id": "41c2cbc8-d5e0-4c92-91de-ddd7a8f3fb94",
+      "createdAt": "2026-07-10T19:34:45.148Z",
+      "updatedAt": "2026-07-10T19:34:45.148Z",
+      "status": "awaiting_payment",
+      "slug": "hello-skillhub",
+      "name": "hello-skillhub",
+      "description": "Example skill for the Skill Hub publish pipeline.",
+      "risk": {
+        "level": "clean",
+        "score": 0,
+        "totalFindings": 0,
+        "bySeverity": {
+          "INFO": 0,
+          "LOW": 0,
+          "MEDIUM": 0,
+          "HIGH": 0,
+          "CRITICAL": 0
+        }
+      },
+      "verification": {
+        "bundleHash": "sha256-6eef4c5e37946e0422294ef29df7b9b888e5fe7290c2638518635dc6d009d9df",
+        "merkleLeaf": "sha256-97e549b1c173b3149e19cd21de6b907c7b505b00a1551ab30f73866c2459dcf8",
+        "fileCount": 1,
+        "totalBytes": 118
+      },
+      "submitter": {
+        "wallet": null,
+        "label": null
+      },
+      "payment": null,
+      "publish": null,
+      "public": true,
+      "integrity": {
+        "entryHash": "sha256-64149effeecf58c75e4b8e89b48a3101041db7f780092dcbb8a2f7dd9ad8426b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "google/ads/google-ads-api/google-ads-api-quickstart",
+  "name": "google-ads-api-quickstart",
+  "description": "Guides developers through Google Ads API quickstart: credential setup, choosing from 6 client libraries/REST, configuring environments, and running a \"retrieve campaigns\" script. Troubleshoots common setup errors: USER_PERMISSION_DENIED, login_customer_id issues, and DEVELOPER_TOKEN_NOT_APPROVED.",
+  "category": "Google / Ads",
+  "skill": "/api/skills/google/ads/google-ads-api/google-ads-api-quickstart/SKILL.md"
+}

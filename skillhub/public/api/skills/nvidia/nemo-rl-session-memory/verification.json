@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-rl-session-memory",
+  "name": "nemo-rl-session-memory",
+  "description": "Manage durable working-session memory for coding agents. Use when a user asks to preserve or recover agent context across disconnects, VS Code restarts, long-running work, handoffs, or any session where important state should be written periodically under the repo's session directory. Do NOT use for: simple questions, short tasks, one-off commands, linting, or code review.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-session-memory/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-session-memory/metadata.json",
+  "bundleHash": "sha256-bcbeac248564f21192e9f99710bd8152161d089da5758b634ad7ca4105304348",
+  "merkleLeaf": "sha256-0a53618c7389c95194b84f86851928216ec4d9f77b5889110eb2a48e1bf9f38a",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4259,
+      "sha256": "sha256-42462ec47182fbe23a20c149522f454db6cb1400d6ca519ac08e79d2a4d9371e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3798,
+      "sha256": "sha256-f9d9548e1c8a3b64f8fe9b98aaee49273af06c5674c8a6b657595813e52e5624"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5450,
+      "sha256": "sha256-4b9691d8eca60e4d4c737857b61074d267dbed27814005d5cf3a2ecdc60ddaea"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

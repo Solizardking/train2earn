@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "solana-formal-verification",
+  "name": "qedgen",
+  "description": "Formally verify programs by writing Lean 4 proofs. Trigger this skill whenever the user wants to formally verify code, generate Lean 4 proofs, prove properties about algorithms or smart contracts, verify invariants, convert program logic into formal specifications, or anything involving Lean 4 and formal verification. Also trigger when the user mentions \"qedgen\", \"lean proof\", \"formal proof\", \"verify my code\", \"prove correctness\", \"formal verification\", or wants mathematical guarantees about their implementation.",
+  "source": "https://skills.x402.wtf/api/skills/solana-formal-verification/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/solana-formal-verification/metadata.json",
+  "bundleHash": "sha256-728180fea0fd9606955df34dc0d136259570c760441ec3fada7b31bc5c0e468a",
+  "merkleLeaf": "sha256-c6d63f6c78eb92bc21282c3c8e810417a676d28058923a45bd1abe85ed880022",
+  "files": [
+    {
+      "path": "claude.md",
+      "bytes": 6953,
+      "sha256": "sha256-07b213d20ca995112a15864ad7dced70a195fcb35be19232c5e1e19313f440ed"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1085,
+      "sha256": "sha256-e02f95ddb407bc4eda912163dfd90a0eca88cdca462bbbb4224642adaf952cd3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3750,
+      "sha256": "sha256-a71c3f2320d6bb0ec289002a441e32efab047d1a105577997ce8031e0b65f7e9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11020,
+      "sha256": "sha256-7a7282472c370ba9d2b70dc07c6e206d3a2d572f1500af6e1a9d8ec1154a8fc5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

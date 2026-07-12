@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "deprecated/design-an-interface",
+  "name": "design-an-interface",
+  "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions \"design it twice\".",
+  "source": "https://skills.x402.wtf/api/skills/deprecated/design-an-interface/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/deprecated/design-an-interface/metadata.json",
+  "bundleHash": "sha256-33b8b048b0f8f52f90328d55101d1112ace3593e7933319f8b245369b1252be2",
+  "merkleLeaf": "sha256-1cee6d4d5892a776fa1ae1eab25f09c5dfb73d0ada4385be5e6932cb04a03fba",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3366,
+      "sha256": "sha256-a2596e9fa2d50e23ba014f64a5b8f9df4eb56b846a52cad152899ef5eb97b085"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

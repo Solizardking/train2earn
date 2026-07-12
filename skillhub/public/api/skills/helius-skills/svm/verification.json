@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "helius-skills/svm",
+  "name": "svm",
+  "description": "Explore Solana's architecture and protocol internals. Covers the SVM execution engine, account model, consensus, transactions, validator economics, data layer, development tooling, and token extensions using the Helius blog, SIMDs, and Agave/Firedancer source code.",
+  "source": "https://skills.x402.wtf/api/skills/helius-skills/svm/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/helius-skills/svm/metadata.json",
+  "bundleHash": "sha256-ffa96ffa56b352ae01ad00eca88c60d24112247476d5e7118ab566314dbe7307",
+  "merkleLeaf": "sha256-f7525206c38709aa9709ca7747babd8a95f4a7b1cc560e84ead2042974fbaa86",
+  "files": [
+    {
+      "path": "references/accounts.md",
+      "bytes": 3852,
+      "sha256": "sha256-f1e854741dd16fe350dbaed583301feb5ac2a8237ef18d36b4083ea270d3e085"
+    },
+    {
+      "path": "references/compilation.md",
+      "bytes": 2522,
+      "sha256": "sha256-81cc35d13fd1cb48e6790d96ce09f553c144ef4d50e2af3bcdd30327e1ee129b"
+    },
+    {
+      "path": "references/consensus.md",
+      "bytes": 5096,
+      "sha256": "sha256-4d55e119c31d2ea1e94fdde09da58489e5498b135bde8b62c6804041011455bb"
+    },
+    {
+      "path": "references/data.md",
+      "bytes": 4157,
+      "sha256": "sha256-a5261bb14feaaa6d7b1f78863f51a7174c560f60a04a0203c087e9e907044ccb"
+    },
+    {
+      "path": "references/development.md",
+      "bytes": 4157,
+      "sha256": "sha256-4922fae6744a26c7c7fb70113e51cd52c541f617cdedc1502059706eb8592a60"
+    },
+    {
+      "path": "references/execution.md",
+      "bytes": 3409,
+      "sha256": "sha256-88e9503fc7f77e454b6984daa17cda0393bce12fd5b432a344a9b83e6306fc17"
+    },
+    {
+      "path": "references/programs.md",
+      "bytes": 2584,
+      "sha256": "sha256-cacaf19aa68ad3bd208da60e2702da12a3458b689338533acdce7b3e046a3bdf"
+    },
+    {
+      "path": "references/tokens.md",
+      "bytes": 3822,
+      "sha256": "sha256-b21eecefd372087c57c410f2e76f842c13610b4f158a329e603248c96df1e471"
+    },
+    {
+      "path": "references/transactions.md",
+      "bytes": 4782,
+      "sha256": "sha256-bcdf80e4ad804bbedf99917249aad5240fd7806e3c1d7ba9c565ea691f52ba0e"
+    },
+    {
+      "path": "references/validators.md",
+      "bytes": 3915,
+      "sha256": "sha256-7500b6779a0141db62bcf8117e94d79e463eb1d32796765615a1dc63ead62d10"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7875,
+      "sha256": "sha256-90a19b7a7f74822f2ff63a15ca414752d5fcdd65f2b0b5e9e8bb8bf965f85fef"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

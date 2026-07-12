@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "bluebubbles",
+  "name": "bluebubbles",
+  "description": "Build or update the BlueBubbles external channel plugin for Clawdbot (extension package, REST send/probe, webhook inbound).",
+  "source": "https://skills.x402.wtf/api/skills/bluebubbles/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/bluebubbles/metadata.json",
+  "bundleHash": "sha256-3921159362a771ecfa91f87f726216146f49c38d91ffcece0d83f32453a1c466",
+  "merkleLeaf": "sha256-7cc1360b851eaabfbe4adb92593f80739d7f61ae6211aa31472150da669fe86f",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2298,
+      "sha256": "sha256-705ee84bf350451c5b6b63f757020ee76ff91eb449a13324c6a6a6cd2c378546"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/analytics/google-analytics-data-api-basics",
+  "name": "google-analytics-data-api-basics",
+  "description": "Manages Google Analytics reporting data, enables the Analytics Data API via the Cloud CLI, and creates reports using the Google Analytics Data API (v1beta). Use when you need to interact with Google Analytics properties, run customized analytics reports, query metrics (like activeUsers, screenPageViews) and dimensions (like city, date), check metrics and dimensions compatibility, or verify API enablement.",
+  "source": "https://skills.x402.wtf/api/skills/google/analytics/google-analytics-data-api-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/analytics/google-analytics-data-api-basics/metadata.json",
+  "bundleHash": "sha256-55c3c90aaf3ac786af2af188ab057e7b7d03de378dacb051713c18232b4e4046",
+  "merkleLeaf": "sha256-0173a2c1e1ddc367c5f3c294ad78a87b2cd9626a70fdb083f7141fbf93421a7b",
+  "files": [
+    {
+      "path": "references/dotnet.md",
+      "bytes": 2032,
+      "sha256": "sha256-4ce84ceb376f6895b5fb29253c1ac5b886f2695161b1a78c376dda5881f8e58e"
+    },
+    {
+      "path": "references/go.md",
+      "bytes": 1816,
+      "sha256": "sha256-512e41ba5601bf0b01904f79f7913270f50f767f490cc6b1228953e160ab610e"
+    },
+    {
+      "path": "references/java.md",
+      "bytes": 2669,
+      "sha256": "sha256-4ad0de1a36b1d942e412a9e921a69e7501e437cd5f12041cc99d444672633e02"
+    },
+    {
+      "path": "references/nodejs.md",
+      "bytes": 1603,
+      "sha256": "sha256-aed0e167a48047662d9b2055dd06a7c587fe4a42abbef509efae9f45c7191674"
+    },
+    {
+      "path": "references/php.md",
+      "bytes": 1753,
+      "sha256": "sha256-c6e8cb95d2edd7cbdace3cd26d592e1c88e7042c0c3abed5e3ae3d70b73c3b24"
+    },
+    {
+      "path": "references/python.md",
+      "bytes": 1953,
+      "sha256": "sha256-b7f5a138a2500ce12bbd765bbd0a58fabc87e3855e9f91b4808be1c26e7546a5"
+    },
+    {
+      "path": "references/ruby.md",
+      "bytes": 1687,
+      "sha256": "sha256-5e986eee4184d998145251c2f55b20fdd46a8bfa26f7f8e4636f822bbba99bca"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9435,
+      "sha256": "sha256-fb48073a5e257cfe8446db7b631ff3345c88888012ef716be2ceb2900774c8d8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

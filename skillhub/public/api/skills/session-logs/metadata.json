@@ -1,0 +1,7 @@
+{
+  "slug": "session-logs",
+  "name": "session-logs",
+  "description": "Search and analyze your own session logs (older/parent conversations) using jq.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/session-logs/SKILL.md"
+}

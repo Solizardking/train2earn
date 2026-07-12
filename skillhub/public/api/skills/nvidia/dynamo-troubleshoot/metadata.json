@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/dynamo-troubleshoot",
+  "name": "dynamo-troubleshoot",
+  "description": "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use recipe-runner/router-starter before this for normal bring-up.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/dynamo-troubleshoot/SKILL.md"
+}

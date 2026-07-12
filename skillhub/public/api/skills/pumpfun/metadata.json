@@ -1,0 +1,7 @@
+{
+  "slug": "pumpfun",
+  "name": "pumpfun",
+  "description": "Entry-point router for the local Pump.fun skill suite. Use when the user asks about launching Pump.fun tokens, bonding-curve or AMM trading, quotes, fees, claims, incentives, SDK work, agent/MCP integration, security, testing, or release workflows.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pumpfun/SKILL.md"
+}

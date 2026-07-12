@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-nvdinov2",
+  "name": "tao-train-nvdinov2",
+  "description": "NVDINOv2 for self-supervised visual representation learning. Trains vision transformers via self-distillation (teacher-student) without labels and produces general-purpose visual features. Use when training, exporting, or running inference for a TAO NVDINOv2 backbone. Trigger phrases include \"train NVDINOv2\", \"self-supervised ViT pretraining\", \"DINOv2 backbone\", \"visual representation learning\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-nvdinov2/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-nvdinov2/metadata.json",
+  "bundleHash": "sha256-9de52f69f21115cee8e13051b81a9f4989a53af057b4fe6fdcba56ea51111300",
+  "merkleLeaf": "sha256-7a31e079765ce1deb82f59a57bb98b41fc996f4d4b539f62bd0e72d730db2827",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4064,
+      "sha256": "sha256-b3f8653bc8b1864b75a9e50b153d6c015eea6f8568cd06d48caf5b01d7e0853b"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 2734,
+      "sha256": "sha256-a1e49a632234178c620a4ef70403534b6c6482ee823999a9d1cfdd6b501ce67e"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 514,
+      "sha256": "sha256-b440014d1c021732f8a9bef6848734aa693b3809040e9e163d3dc8606ec53bea"
+    },
+    {
+      "path": "references/spec_template_distill.yaml",
+      "bytes": 2113,
+      "sha256": "sha256-bcb0b1eaa8e0dbc55ceb05549816015bdc51292a9bbb1883f6166208384af9ba"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 2314,
+      "sha256": "sha256-f971d0e1f097e7c5fae00f5a86f5a93bfee676b5c5b0cbc86ccf186b9952f2cc"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 2264,
+      "sha256": "sha256-f19db10f60488b02015c067453a25eb8628a7261e0cfaf305a14f754fd75f423"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2113,
+      "sha256": "sha256-bcb0b1eaa8e0dbc55ceb05549816015bdc51292a9bbb1883f6166208384af9ba"
+    },
+    {
+      "path": "references/tao-deploy-nvdinov2.md",
+      "bytes": 3852,
+      "sha256": "sha256-a77b8162a1a79e779ac343d429b102b3934489a6bc4bd4d399166676285a40e5"
+    },
+    {
+      "path": "references/tao-deploy-nvdinov2.skill_info.yaml",
+      "bytes": 1605,
+      "sha256": "sha256-9b610da73260ab8b58bd50db5a9867f87ac1eeca207fea3f9a3cc9061837ffc9"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3819,
+      "sha256": "sha256-4367e5f8cef96b4ec91efd858a3b027e34910ea38fc111bf6bafceea47f2dae5"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10746,
+      "sha256": "sha256-7f47ccc7a6fccd3cac861689528fa106d7107bd8e2f9dc6b0e0dc978f90c2cf3"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

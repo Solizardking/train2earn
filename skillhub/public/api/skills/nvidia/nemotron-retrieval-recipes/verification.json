@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemotron-retrieval-recipes",
+  "name": "nemotron-retrieval-recipes",
+  "description": "Use when planning, debugging, tuning, evaluating, exporting, or deploying public Nemotron `embed`/`rerank` retrieval recipes.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemotron-retrieval-recipes/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemotron-retrieval-recipes/metadata.json",
+  "bundleHash": "sha256-a56afa4eb1843d2f1f309f9175c5a5cd29f6643df90c0af34f8e548904eea3ec",
+  "merkleLeaf": "sha256-3823a65f6ac5a44644993b50e83459d56eb9d9b4d17d15e4e0d74a4043480620",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3948,
+      "sha256": "sha256-4c2ba9764dbbd3e31f8cec881457af1523b5416508661260b24c7b0c14457cfc"
+    },
+    {
+      "path": "references/embed.md",
+      "bytes": 9329,
+      "sha256": "sha256-ebf4dac0c432be93c4af36c7f5cf369c3824f71a0824108c7db36e28a151d612"
+    },
+    {
+      "path": "references/evaluation.md",
+      "bytes": 3498,
+      "sha256": "sha256-05424d70f2ba68ffc24f1da68b3a523f8fef92b4bcb38d086d713d4267fec38d"
+    },
+    {
+      "path": "references/remote.md",
+      "bytes": 1848,
+      "sha256": "sha256-6dcf95e8ecec319fa67496d4a574425036794ceacf939d94096f3a8da2bd660b"
+    },
+    {
+      "path": "references/rerank.md",
+      "bytes": 9518,
+      "sha256": "sha256-4e899b6394c36d0a9a2b885020c211bda57593eb243e07d8e21407455cb83d90"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3908,
+      "sha256": "sha256-75e1d90fc43459ef556a3100739bc8442124e3d5dd7585cd1f343b66141a3ec6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9251,
+      "sha256": "sha256-90ff67fc705d531606d3f22e962e8b76d5fa8480a6cae7db4c58f81eb04ef45e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

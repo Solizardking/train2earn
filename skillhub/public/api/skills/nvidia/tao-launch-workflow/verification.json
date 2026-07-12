@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-launch-workflow",
+  "name": "tao-launch-workflow",
+  "description": "Shared launch intake for any TAO workflow or action. Use when the user wants to run TAO AutoML, train, evaluate, infer, export, generate TensorRT engines, or launch DEFT/workflow jobs on an execution platform.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-launch-workflow/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-launch-workflow/metadata.json",
+  "bundleHash": "sha256-3cac6def6862bf49c3b3fc816f0c1b0e6a22caf90625dd6a83d1dce452d4b77b",
+  "merkleLeaf": "sha256-76dfdd8002cf1788a4bfca0f2bf089815c8474a321c53afbcb682f0cfe20c27b",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3952,
+      "sha256": "sha256-e3e0b6470b1608c54db6b26a1660162bfaaa3255d7f0a0f0f700e0280c95b843"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3807,
+      "sha256": "sha256-6bdfcdb7a7c8ad8286abe62ee54b7cdc81c80b622747345604043222e685f85e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18636,
+      "sha256": "sha256-ce74fbfb3152bdc54800cff86734f3332bfda115c08a5c39dd203cfe2b81fd29"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

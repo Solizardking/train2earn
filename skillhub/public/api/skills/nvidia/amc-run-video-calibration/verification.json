@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/amc-run-video-calibration",
+  "name": "amc-run-video-calibration",
+  "description": "Calibrate a new dataset from pre-recorded video files via the AutoMagicCalib REST API. Use when user has local MP4s and says 'calibrate my videos', 'run AMC on these videos', or similar.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/amc-run-video-calibration/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/amc-run-video-calibration/metadata.json",
+  "bundleHash": "sha256-022d2408e091d21a4096348d30f8d3ad4868ba71140d396dbb06f01fe6efa3a6",
+  "merkleLeaf": "sha256-1c8894ea99d267d052f678416d6c43c3797d2020f89fca7ba3c5fd68ea7e59ea",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4493,
+      "sha256": "sha256-d928f1dc6c5da5da5b217405d4285fb6bb3df2110b606931a67fbba344f937ee"
+    },
+    {
+      "path": "scripts/run_video_calibration.py",
+      "bytes": 11758,
+      "sha256": "sha256-ed00250c65c3d487170eb21a359bf68645c1b55f93f26ed44899ccc3e3976d0c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3625,
+      "sha256": "sha256-8500d4d357a2588749bbc0e4f19bd03886f7beb80ce7b2d897e3320c3ad9793b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13310,
+      "sha256": "sha256-bea398218851e558a85c36a6af385c5a895df70265c132b3200aa604229b783b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

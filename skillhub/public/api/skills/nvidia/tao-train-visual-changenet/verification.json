@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-visual-changenet",
+  "name": "tao-train-visual-changenet",
+  "description": "Visual ChangeNet for binary image classification and segmentation in AOI defect detection. Use when training, evaluating, exporting, or running inference for PCB defect detection or visual inspection, comparing image pairs for PASS/NO_PASS classification, or producing change-segmentation masks. Trigger phrases include \"train Visual ChangeNet\", \"ChangeNet classify\", \"ChangeNet segment\", \"AOI defect detection\", \"PCB inspection model\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-visual-changenet/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-visual-changenet/metadata.json",
+  "bundleHash": "sha256-80792b44f786acaa28ca96dcc03ee494f834fec9a4ec169f7c5de7ebf7b6d354",
+  "merkleLeaf": "sha256-1d5f3c150a0bf640ade0bc1d72f71d68619c8f75ce0e3af3295ad5d1b2cd22b7",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4117,
+      "sha256": "sha256-614f9ffb1dd265b44ab4840c8b49f5963e4affea19ad531eb96ca227a024af48"
+    },
+    {
+      "path": "references/data-formats.md",
+      "bytes": 4046,
+      "sha256": "sha256-4a98f417b6f19fdf13820179bb4908531bcb9e3e99f51edd727dea8da6280d47"
+    },
+    {
+      "path": "references/local-docker.md",
+      "bytes": 1886,
+      "sha256": "sha256-49fc9ca31a092c40463fc347fd9d32437306b1c7b62574e287b5b0c8074004ea"
+    },
+    {
+      "path": "references/parent-model-inference.md",
+      "bytes": 2571,
+      "sha256": "sha256-c82f2adc13844afcce3cefe0013bd2cc02482ed51764ac69622cecc5aae6b897"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 9944,
+      "sha256": "sha256-d5f1e3d1f5d9080ad3ead523760918daba33d41539f2fe7be87cb13b0ef59139"
+    },
+    {
+      "path": "references/spec_template_deploy_classify_evaluate.yaml",
+      "bytes": 1034,
+      "sha256": "sha256-5208f676a08362c1cf2a4b63321647cbf602847c35e206c357c36bcfc1d8cc0d"
+    },
+    {
+      "path": "references/spec_template_deploy_classify_gen_trt_engine.yaml",
+      "bytes": 430,
+      "sha256": "sha256-771f319a0af577190a9653dd72c8215c40efc8e510fa5b38a2f7b358e8d08657"
+    },
+    {
+      "path": "references/spec_template_deploy_classify_inference.yaml",
+      "bytes": 1035,
+      "sha256": "sha256-f2946022518e9c1d263b07873c589b2bc81c7a3c9210844b7c60ec71ae921e80"
+    },
+    {
+      "path": "references/spec_template_deploy_segment_evaluate.yaml",
+      "bytes": 533,
+      "sha256": "sha256-e02bc991d0f8578bb81746fd724df1cf164b791b12adbd7bee4587e46a51e6ee"
+    },
+    {
+      "path": "references/spec_template_deploy_segment_gen_trt_engine.yaml",
+      "bytes": 419,
+      "sha256": "sha256-12309d2904a0a2e9de14562e2a3a0d7e1187d29485c4dff0ca4b4102066272f8"
+    },
+    {
+      "path": "references/spec_template_deploy_segment_inference.yaml",
+      "bytes": 537,
+      "sha256": "sha256-7660d134a158ea8fc1b1df4e81a83982fa96f9687521eb12aa8cded3f72df3e4"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 4214,
+      "sha256": "sha256-1809cd2ca8d83d3680da7979b782cef1395426389cb4656f6b200d86e8b71399"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3171,
+      "sha256": "sha256-7011514c162e4f641ff947c8f821c312654edf7f5c6addc9ab4fab70610cea7b"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 4215,
+      "sha256": "sha256-a50a76787c36c14b215cf23a7d9ff1af8082f703a85fd8bc7d461c40524d31b2"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 2850,
+      "sha256": "sha256-b2415ff59a7464bfe775c6e4b29f5bf0fa200f4c7341f85f96784405271b0db6"
+    },
+    {
+      "path": "references/spec_template_segment_evaluate.yaml",
+      "bytes": 4471,
+      "sha256": "sha256-07aef676623d57707961969f7546ab671e6f4ff90474d39e8aa270152eb0c378"
+    },
+    {
+      "path": "references/spec_template_segment_inference.yaml",
+      "bytes": 4472,
+      "sha256": "sha256-04353f4001d4612c400c91ce717c7910a9f7d132934fe664041b04ad7116bf65"
+    },
+    {
+      "path": "references/spec_template_segment_train.yaml",
+      "bytes": 4321,
+      "sha256": "sha256-750feb55293b1176dcdd78f56e2e782d07c29de61ae9b8dd71f36051173a3185"
+    },
+    {
+      "path": "references/spec_template_segment.yaml",
+      "bytes": 2163,
+      "sha256": "sha256-4348290d9c93291ca4f23f986b77f2660a8b95069e5f30e49cfcb86f07adfce1"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2881,
+      "sha256": "sha256-c9a74f73ab7a1910971d664035e34df890443f25fb46e290676d65cde8ef090d"
+    },
+    {
+      "path": "references/tao-deploy-visual-changenet.md",
+      "bytes": 6921,
+      "sha256": "sha256-9491cad10f64c6fe08776c6f564e05745944938c9fa25fa85d5b1c523ba00775"
+    },
+    {
+      "path": "references/tao-deploy-visual-changenet.skill_info.yaml",
+      "bytes": 4384,
+      "sha256": "sha256-0e57c2d99b9ea71795b5dc40e00d0a49e78ec1a388769b826138f42a8376bc83"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 4617,
+      "sha256": "sha256-0caba1be896ab5881c3fd7b450a0940c70b950c9763d7faff5b3ea216e72bf9f"
+    },
+    {
+      "path": "references/tuning-parameters.md",
+      "bytes": 2495,
+      "sha256": "sha256-c80c8b61685c2de72f322acd91c56b16c424960b6be0fbf7cf32c4a13873f8f5"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3866,
+      "sha256": "sha256-623a430f5de90e684e3264aa6f1e096e0efcbb6f8c46ac7b859e34fea6efbe79"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16974,
+      "sha256": "sha256-22b3dff29d884081d3a3473f3fb7d952a199add3d9940b5e687e1644242c8391"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

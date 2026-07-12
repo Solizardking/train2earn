@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-compute-classes",
+  "name": "gke-compute-classes",
+  "description": "Configures, optimizes, and troubleshoots GKE ComputeClasses. Use when configuring Spot VMs with on-demand fallback, targeting specific accelerators (GPUs/TPUs) or machine families, restricting ComputeClass access, or debugging pending pods related to node pool auto-creation. Do not use for cluster-level Node Auto Provisioning configuration or general GKE cluster creation.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-compute-classes/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-compute-classes/metadata.json",
+  "bundleHash": "sha256-0ce568d266487bbe0389a55a15df57ebb87fb647f60bd482b1cc01e3a797795a",
+  "merkleLeaf": "sha256-ae7d6b02d28af669e67ab6f500f62323d60a88515244b04e6ecc4a9605c007fa",
+  "files": [
+    {
+      "path": "assets/balanced-reserved-zonal-compute-class.yaml",
+      "bytes": 3305,
+      "sha256": "sha256-2219cd3d466d12cae643fac2450321bf14f9531712bbebf71335013c285d9664"
+    },
+    {
+      "path": "assets/computeclass-rbac-editor.yaml",
+      "bytes": 1419,
+      "sha256": "sha256-9ee5d5e743ee1118c11391e4c8665a778e003e367fab72226cacb4d9ef2f23ae"
+    },
+    {
+      "path": "assets/dynamic-rwo-storageclass.yaml",
+      "bytes": 1408,
+      "sha256": "sha256-db913e005fd94654d3c7a85f228f0c6e73715483863814a45cf7817eb419d207"
+    },
+    {
+      "path": "assets/equal-priority-tiebreak-compute-class.yaml",
+      "bytes": 2083,
+      "sha256": "sha256-d563f379173d4e064c9abc0e1e098c85d012bcf1fec2deab1a476f418910da54"
+    },
+    {
+      "path": "assets/genai-inference-g4-compute-class.yaml",
+      "bytes": 1929,
+      "sha256": "sha256-c8bcea674020a3954d617b96285ec5dd032305b04d809febd805e2e7bb52adf9"
+    },
+    {
+      "path": "assets/kafka-broker-compute-class.yaml",
+      "bytes": 2068,
+      "sha256": "sha256-00e1d23324c2448383ac3b9974e4e30434f5e7b3fc1fa910dbc83512d1d1ac1d"
+    },
+    {
+      "path": "assets/log-autoscaler-events.sh",
+      "bytes": 11571,
+      "sha256": "sha256-c337893cf2d80908368fa26b9b53de98edc74396e7f712a19c2d62b6b2f7a169"
+    },
+    {
+      "path": "assets/manual-pool-tiebreak-compute-class.yaml",
+      "bytes": 1502,
+      "sha256": "sha256-33d5297363d872d286a28430a91e53404c4ade35a779120ff14affc49e74187f"
+    },
+    {
+      "path": "assets/postgres-primary-compute-class.yaml",
+      "bytes": 2476,
+      "sha256": "sha256-9c7c6207f49bffa4033da218501e984d9e694a9e3ae20b3b640990af97f0858b"
+    },
+    {
+      "path": "assets/redis-compute-class.yaml",
+      "bytes": 1746,
+      "sha256": "sha256-e328858f548e7ef112a52bdd58063cd6c658a59c4c9cd7a9628f3c8b92d4994b"
+    },
+    {
+      "path": "assets/restrict-computeclass-usage-vap.yaml",
+      "bytes": 4138,
+      "sha256": "sha256-d29d462fd9fdb35e81ab3069a99e965d1f066c74a3a23529da9ddbe35087ab6c"
+    },
+    {
+      "path": "assets/shared-l4-inference-compute-class.yaml",
+      "bytes": 1249,
+      "sha256": "sha256-eeada64427a76b84cf2f54711cc7e0d0fdb0168c5cc25999be8779ede2693392"
+    },
+    {
+      "path": "assets/spark-proximal-compute-class.yaml",
+      "bytes": 2448,
+      "sha256": "sha256-f1bfe985727d7eae42ace29ab47d4070e11ef6b147d3362d3763aaaa692834c9"
+    },
+    {
+      "path": "assets/spot-cost-tiebreak-compute-class.yaml",
+      "bytes": 2490,
+      "sha256": "sha256-7fd731ca05417b9b4d158b28f243af1ca5ef78d4c64de2ff1ae4e52a37455baf"
+    },
+    {
+      "path": "assets/system-pool-compute-class.yaml",
+      "bytes": 2049,
+      "sha256": "sha256-b0f143c50631a3b2e35bb6d153d789176fbf498d28d2f9cfacfc49344876301d"
+    },
+    {
+      "path": "assets/tpu-v5e-training-compute-class.yaml",
+      "bytes": 1563,
+      "sha256": "sha256-73b1779871bbb5cee2a4f28edaa34a3988e59069f287edd3e480826b4a0daa76"
+    },
+    {
+      "path": "references/compute-class-autopilot-mode.md",
+      "bytes": 3840,
+      "sha256": "sha256-d5125e51a831123d6cfd6c1659bd035e92bbb4cd7c75de84afd48f8214d267d2"
+    },
+    {
+      "path": "references/compute-class-cost-optimization.md",
+      "bytes": 4598,
+      "sha256": "sha256-71637733f0ee4535d26f1f8abeddb56236349d1c65c18e16ec13676e3f069f13"
+    },
+    {
+      "path": "references/compute-class-crd-fields.md",
+      "bytes": 5809,
+      "sha256": "sha256-90a9eb545c532a0638ec9b62c286a421e0fdd3053d53276fc0b0e8a3bcc523e1"
+    },
+    {
+      "path": "references/compute-class-debug.md",
+      "bytes": 6981,
+      "sha256": "sha256-d452d1e90411ace7e2eb28f0279da5912ff7dec7adbb177d3e6ffa7112ab40ae"
+    },
+    {
+      "path": "references/compute-class-gotchas-and-cuds.md",
+      "bytes": 4157,
+      "sha256": "sha256-96548406c3c9c31e9ed5792e216ee198d7bfac592974ad9f8ec6c666563f59d6"
+    },
+    {
+      "path": "references/compute-class-governance.md",
+      "bytes": 3563,
+      "sha256": "sha256-1be18669d0b825621e8c07ce047217268fbd85aef108454d3666494afa3086a3"
+    },
+    {
+      "path": "references/compute-class-karpenter-migration.md",
+      "bytes": 3662,
+      "sha256": "sha256-58b7c1f8cead54c8988493b93081c0f9792f805c988ff6465ebf545451078d08"
+    },
+    {
+      "path": "references/compute-class-lifecycle.md",
+      "bytes": 2314,
+      "sha256": "sha256-93773b23fa587d8aca468a1a64b189b8b6fc658cc41903c4fd24d8183d152179"
+    },
+    {
+      "path": "references/compute-class-prioritization.md",
+      "bytes": 3977,
+      "sha256": "sha256-4d4b5f1f54939b8a9d120a72fc3f1dc53bf831f63a39e8cfe229955a39c45c86"
+    },
+    {
+      "path": "references/compute-class-provisioning-methods.md",
+      "bytes": 4694,
+      "sha256": "sha256-304055b5be5a8133d2e029d999f5f042af4e266d9f3f0cc32d0fc17e2d808c6e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 20992,
+      "sha256": "sha256-229307c017b3b58d72ffc7b4a3cf71a70ff86356a0e56332847e952684078070"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

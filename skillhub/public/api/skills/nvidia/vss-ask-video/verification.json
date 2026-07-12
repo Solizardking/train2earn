@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-ask-video",
+  "name": "vss-ask-video",
+  "description": "Use this skill to ask the VSS agent's video_understanding tool a fresh visual question about a recorded clip. Not for prior tool output, search hits, or metadata-answerable questions.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-ask-video/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-ask-video/metadata.json",
+  "bundleHash": "sha256-80f6da50523d744460528f4b09b1fc1db836b308fff5588e7271f642b6f76ef7",
+  "merkleLeaf": "sha256-34adcd5aa441098db8a509c14414af3629eb32c75ef8ddf286477f39566b68ce",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4182,
+      "sha256": "sha256-45c5a840803560ebbf10bc6789523aca30b116dec3c6a84ef159fa22f6f84ebf"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3863,
+      "sha256": "sha256-a275dac51f4764947f737b48bacd8e184c1eb2bc99d83485945c1d9aeded8426"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5648,
+      "sha256": "sha256-a5239391fa1c4f5ec36397984fe5d714ab7f591f640148eb5c98582fbe88b43f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

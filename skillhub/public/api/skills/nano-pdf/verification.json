@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nano-pdf",
+  "name": "nano-pdf",
+  "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+  "source": "https://skills.x402.wtf/api/skills/nano-pdf/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nano-pdf/metadata.json",
+  "bundleHash": "sha256-5525f94155c417340aea439dd7d2bbc224ba4e395fb55281990fc6bd2fbc7501",
+  "merkleLeaf": "sha256-2aa963e3b8c2de3bb30c9ffdd0ca964e6c724cf06f45c0e7da1e2eda1e81ddf6",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 765,
+      "sha256": "sha256-4a19c3916062a0b2a303f929be2e11bc89ed8531b47fa565d7936a363f34d4ac"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

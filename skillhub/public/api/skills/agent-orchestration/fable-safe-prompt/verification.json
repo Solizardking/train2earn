@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "agent-orchestration/fable-safe-prompt",
+  "name": "fable-safe-prompt",
+  "description": "Rewrite a user's prompt to reduce the chance it trips Claude Fable 5's server-side safety classifiers (cyber/bio guardrails that force-route to Opus 4.8 or return stop_reason \"refusal\"). Use when the user hands you a prompt that touches cybersecurity, auth, exploits, malware, pentesting, or other dual-use topics and asks to make it \"Fable-safe\", \"guardrail-safe\", \"won't get flagged/refused/downgraded\", or to rewrite it so Fable 5 won't block it.",
+  "source": "https://skills.x402.wtf/api/skills/agent-orchestration/fable-safe-prompt/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/agent-orchestration/fable-safe-prompt/metadata.json",
+  "bundleHash": "sha256-b7cf85b4ffc255de03bc3004587500044342fb04e139300e41b247f06e945c61",
+  "merkleLeaf": "sha256-acf1ed7314209ba36262c64a10aca81f1f8eb925fed5edea78718edbc5c7f8e2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4407,
+      "sha256": "sha256-6bc9b25ab01a38a7d00907973ce4c002aa36d1dbf1b0d98936feecfe4bbf2363"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

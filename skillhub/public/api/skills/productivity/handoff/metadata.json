@@ -1,0 +1,7 @@
+{
+  "slug": "productivity/handoff",
+  "name": "productivity-handoff",
+  "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/productivity/handoff/SKILL.md"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-tpsl-management",
+  "name": "imperial-tpsl-management",
+  "description": "Take-profit and stop-loss management for Imperial-routed positions, including close-leg design, verification, and Telegram operator caveats.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-tpsl-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-tpsl-management/metadata.json",
+  "bundleHash": "sha256-70e659cbbeea2bdd33755c72e9642dd8d3c217bc5d7549c257cb278b24819c1b",
+  "merkleLeaf": "sha256-cc7cb1ea472ac277a9bc8b0ff647a751dc3e204e2a62d511ccfdaaa836b822e9",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 727,
+      "sha256": "sha256-a9e33fd9235d986481885627b315582e6f424cc986cb1db62cf417bedceed107"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-automodel-distributed-training",
+  "name": "nemo-automodel-distributed-training",
+  "description": "Guide for selecting and configuring distributed training strategies in NeMo AutoModel, including FSDP2, Megatron FSDP, DDP, and parallelism settings.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-distributed-training/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-automodel-distributed-training/metadata.json",
+  "bundleHash": "sha256-794a24bd8bd0e173184a930abd439e7cb86a9b0663c683e4a29226c6d39c7947",
+  "merkleLeaf": "sha256-943048b232e0405870a2f0700d9c2b33f2b43b1e5af0f7b89a7a9a32a06618cc",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3738,
+      "sha256": "sha256-070d950289d3d4c410ebd3a91531c34a6f44f2c900b9848568def93068435c58"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4111,
+      "sha256": "sha256-be4c0be8780594870ff9da8780d2cf082be93da4e3ab32a46cc907b7dd107a23"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19233,
+      "sha256": "sha256-408947daa076572a417178c510b84d7e353562bee4a6888f42c5072d57fb5529"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-segformer",
+  "name": "tao-train-segformer",
+  "description": "SegFormer for semantic segmentation. Lightweight transformer-based architecture with hierarchical feature extraction, efficient for real-time segmentation tasks. Use when training, evaluating, exporting, quantizing, or running inference for a TAO SegFormer model. Trigger phrases include \"train SegFormer\", \"semantic segmentation\", \"lightweight transformer segmenter\", \"real-time semantic segmentation\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-segformer/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-segformer/metadata.json",
+  "bundleHash": "sha256-849d6be923bae397548c1fe732899285eb138a7ec676cb43a268d9951cc0550b",
+  "merkleLeaf": "sha256-98b0a75fec5668832c9048e156b88b45114deffff54c703fdb6d6d05d397387c",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4067,
+      "sha256": "sha256-a6a760a2894562e5dc0bca6914315910df73f0b37936d02ba404dc2409fcf0aa"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4433,
+      "sha256": "sha256-5cb805a933f234b1e3e1a3d3d890cf960844621c51e0d5af4a6ddb3f708a4151"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 748,
+      "sha256": "sha256-f0c101dba70a3bbd1638a218219c03bf6c228342c6cdd720f2faf43e07f7cc12"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 1388,
+      "sha256": "sha256-9d044e455c1cebb286c2365c3f39383f48d4fbaa98407eb46016c21f46c66f13"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 749,
+      "sha256": "sha256-c26f0a2a5b8e0e82adac2278efd25cea06a84fd1794261dd8acdfb6ee7ab642a"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 2832,
+      "sha256": "sha256-cf3013d2430129ab4fd67984939f4e032f5a5ca44ad1345b15d9902587709579"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 2927,
+      "sha256": "sha256-dd7c1a16456dcef49e57a99e9f1ab3484abd8379aaed6a135107cddc85ead8e2"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 2833,
+      "sha256": "sha256-b7941eb08a9d101b19013689627fc3b87b13fc23b642bc52c88e96d376d6134f"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 2682,
+      "sha256": "sha256-594b7436b4ecbd8cc72e3083b13726f457bbca650c8d6900a254aeb6df49b0c1"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2682,
+      "sha256": "sha256-594b7436b4ecbd8cc72e3083b13726f457bbca650c8d6900a254aeb6df49b0c1"
+    },
+    {
+      "path": "references/tao-deploy-segformer.md",
+      "bytes": 5938,
+      "sha256": "sha256-93adb2bc6209c49029e9e7e1514edc94367a6c6a4e8ecd3a73f7f2f7e34ca8a1"
+    },
+    {
+      "path": "references/tao-deploy-segformer.skill_info.yaml",
+      "bytes": 2852,
+      "sha256": "sha256-a5cbac16b13260aadf0c3623df3f6bd780c443e8e226e2dc8b9f7a1b221dd7b6"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3840,
+      "sha256": "sha256-3163e45b9ab0b15fefe0e2c0fe37fa1295948f56fd852f0d31538933fdf888d9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14423,
+      "sha256": "sha256-4f2157459328f4ca306dc575a58d20ac5046a04179774449f00554d497e48966"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

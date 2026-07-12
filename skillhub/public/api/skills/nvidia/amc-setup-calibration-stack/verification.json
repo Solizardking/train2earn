@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/amc-setup-calibration-stack",
+  "name": "amc-setup-calibration-stack",
+  "description": "Launch AutoMagicCalib microservice and web UI from NGC release images via Docker Compose. Use when user says 'deploy auto calibration', 'launch auto calibration', 'launch AMC', 'start MS+UI', or 'set up auto-magic-calib'. Requires NGC API key.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/amc-setup-calibration-stack/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/amc-setup-calibration-stack/metadata.json",
+  "bundleHash": "sha256-169b067ed3dbfec628ad911f48ec12892721340fc3253e5e8c1ae84fbc32bf04",
+  "merkleLeaf": "sha256-f3af672774ceeb6b6867fcd0dad70443ecd3737b346e6057e6ae818215a0f69a",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4489,
+      "sha256": "sha256-288b6ea61861cc1ad56e3c2cda02c6cd2fb4650b658cf8115cdd1ac48506618c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3737,
+      "sha256": "sha256-7c64007d2630aaf7fd827f315474c00ee989dacc03a170416cbf00ff0aac0771"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18771,
+      "sha256": "sha256-16076fa12c71a349fa47022c861fce4708389addafb5a69b0fec1cb37ff55271"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

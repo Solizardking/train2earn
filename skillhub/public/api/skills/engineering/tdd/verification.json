@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/tdd",
+  "name": "tdd",
+  "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/tdd/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/tdd/metadata.json",
+  "bundleHash": "sha256-44d06f3607aed4f070d6da89dd53f0f3ba1f6540679646ad67440c19e849a4c3",
+  "merkleLeaf": "sha256-027b05860a3070574f5d34d1550c81a1ec12204d3dd90d316f169f391ba1d873",
+  "files": [
+    {
+      "path": "mocking.md",
+      "bytes": 1481,
+      "sha256": "sha256-3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3213,
+      "sha256": "sha256-5363bb2775679fe9311fbb67947f95359169c6e7f1fac77c0f25e190bca6cf2f"
+    },
+    {
+      "path": "tests.md",
+      "bytes": 2214,
+      "sha256": "sha256-859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

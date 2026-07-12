@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-execution-modes",
+  "name": "vulcan-execution-modes",
+  "description": "Canonical Vulcan execution mode taxonomy: Observe, Paper, Dry-Run, Confirm-Each, Auto-Execute. Use before launching strategies or live-capable perps flows.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-execution-modes/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-execution-modes/metadata.json",
+  "bundleHash": "sha256-852c7a684fcf6f883f6224cb2260cc7b2708c41e73bc9b9730a975372c281ce7",
+  "merkleLeaf": "sha256-33f36e18b12bde1b1dfbbdde44850a1fb781d1ab1711e7d70be3ae1562c20fbd",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 497,
+      "sha256": "sha256-f773e18aa4f5bfc110ee39e424ba691e5bdb8fb121e8ae655077812d3fc8fd32"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

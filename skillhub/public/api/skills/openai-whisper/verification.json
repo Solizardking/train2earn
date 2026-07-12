@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openai-whisper",
+  "name": "openai-whisper",
+  "description": "Local speech-to-text with the Whisper CLI (no API key).",
+  "source": "https://skills.x402.wtf/api/skills/openai-whisper/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openai-whisper/metadata.json",
+  "bundleHash": "sha256-372f30a3ed414049e540233291474225a0dac661bc5d357d635090f4ab07a63f",
+  "merkleLeaf": "sha256-b48480b0f2e445285dc2a2ab1ffa1dd155f93c1c0af189f1d707835132c0c609",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 725,
+      "sha256": "sha256-f9fadf134b6de49d55ffae904b2c75f5b7035f37ffa96394b19de648bdef9e0f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

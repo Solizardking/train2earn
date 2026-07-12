@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-generate-kb",
+  "name": "jetson-generate-kb",
+  "description": "Build a per-target knowledge-base markdown next to the active profile by walking the BSP root and source tree. Use after init-image / init-source; not for editing profile fields.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-generate-kb/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-generate-kb/metadata.json",
+  "bundleHash": "sha256-2bcc3ea5334e448d06e3d697969e193635ce35d063b2a3eabe55c1a171ad72ff",
+  "merkleLeaf": "sha256-f4079663fde38e11b733b1fa1ced430d2a8b619e71360d86d91341d4c522379e",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3817,
+      "sha256": "sha256-761af3f85f6f8487667b2ea7a90984b62387eeae6cae3bea90c00371e0a1addd"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3646,
+      "sha256": "sha256-9443d114679e8e0dbd54989e495f6bcf6ac38e8476c287406c124ec41e9dc43e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15236,
+      "sha256": "sha256-8168eb132a4b016779f776d39fc0dfac0280712834327c3c676f28264a995fd6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

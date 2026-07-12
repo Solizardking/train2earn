@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-rl-auto-research",
+  "name": "nemo-rl-auto-research",
+  "description": "Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery. Guides agents through the full experiment lifecycle: understanding recipes and environments, wiring RL or NeMo-gym runs, launching reproducible baselines and iterations, analyzing results, preserving human oversight, and using git plus TSV logs as the research ledger. Do NOT use for: bug fixes, code review, documentation, refactoring, dependency updates, or single-file changes.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-auto-research/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-rl-auto-research/metadata.json",
+  "bundleHash": "sha256-050502a75d1889e1348c4d04ba6821e05e335add4e8bde82241630bade544922",
+  "merkleLeaf": "sha256-3f741c3f3925f0dd47706d0e31dabd87f6dc299af1aacd294a2e1afc5d25a813",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4252,
+      "sha256": "sha256-bf05f58f773bf7a367047dcad6d742d533365bc2ef485d317ec75ae49c1d6a00"
+    },
+    {
+      "path": "references/experiment-log-template.md",
+      "bytes": 2582,
+      "sha256": "sha256-c1966e78917ff99111d6a7d61a6c6bd558c460e5811bfc71868579176b04bb25"
+    },
+    {
+      "path": "references/exploration-ideas.md",
+      "bytes": 5627,
+      "sha256": "sha256-57964942fb803031e3ae2d108ddc90f0cc6caa09342445c89000feae8245bd38"
+    },
+    {
+      "path": "references/git-workflow.md",
+      "bytes": 3856,
+      "sha256": "sha256-8d687af6fc23bd6c786469a79ea7fd0e7eda2795cd65b56dc273d72fea49c005"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4054,
+      "sha256": "sha256-86ca679fa222c86d42bb54816d8c712f408bc5678e752429e235d833d30f9331"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9168,
+      "sha256": "sha256-5d79495dfc7dda03ba5b8567b7213acf659d07374608f711d60e959d28bb5ffc"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

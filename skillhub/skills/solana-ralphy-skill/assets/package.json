@@ -1,0 +1,33 @@
+{
+  "name": "solana-ralphy-skill",
+  "version": "1.0.0",
+  "description": "Autonomous AI coding loop for Solana development",
+  "main": "scripts/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "launch": "ts-node scripts/bags-operations.ts launch",
+    "trade": "ts-node scripts/bags-operations.ts trade",
+    "claim": "ts-node scripts/bags-operations.ts claim",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@bagsfm/bags-sdk": "^1.0.0",
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/kit": "^5.0.0",
+    "@solana/client": "^5.0.0",
+    "@solana/react-hooks": "^5.0.0",
+    "@solana/web3-compat": "^1.0.0",
+    "@solana/web3.js": "^2.0.0",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/setup-matt-pocock-skills",
+  "name": "setup-matt-pocock-skills",
+  "description": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/setup-matt-pocock-skills/metadata.json",
+  "bundleHash": "sha256-01316c227ff66f4434ce65bf9465dc33b48f018a8284127a816ce6f464d3ef12",
+  "merkleLeaf": "sha256-9615f05ff53b479f54d9f512ea8f730b0b14a11e0793b340dc1a45bb1b918e1d",
+  "files": [
+    {
+      "path": "domain.md",
+      "bytes": 2045,
+      "sha256": "sha256-25be404b58798b3cb2d51c93dba2ab052fc3a425632185726ac3f5fcff193b99"
+    },
+    {
+      "path": "issue-tracker-github.md",
+      "bytes": 3745,
+      "sha256": "sha256-52e9f9f1ec0f6d47c6785ac500708ac0521f34abb4cc5475b5dc747165dab17e"
+    },
+    {
+      "path": "issue-tracker-gitlab.md",
+      "bytes": 3826,
+      "sha256": "sha256-4470f2f64d015fba01af877233296b401bb0d44b5acb9572ffc3ff6b30e8de88"
+    },
+    {
+      "path": "issue-tracker-local.md",
+      "bytes": 1846,
+      "sha256": "sha256-ed6add9fe3cdcd2d1ebb2a463cf0eb6a1a86df500f4922b31a1ab50f15b3a705"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6928,
+      "sha256": "sha256-def265a8b15ffb8afc3f335d69e175ba9a7fe3991218984b0e49e8345cde3b20"
+    },
+    {
+      "path": "triage-labels.md",
+      "bytes": 1045,
+      "sha256": "sha256-4f53c9b40ce2651e3611aa090eaedbd6dbc9b71ef8c5f7e65eac0d8263190d0d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

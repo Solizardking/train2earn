@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pumpfun",
+  "name": "pumpfun",
+  "description": "Entry-point router for the local Pump.fun skill suite. Use when the user asks about launching Pump.fun tokens, bonding-curve or AMM trading, quotes, fees, claims, incentives, SDK work, agent/MCP integration, security, testing, or release workflows.",
+  "source": "https://skills.x402.wtf/api/skills/pumpfun/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pumpfun/metadata.json",
+  "bundleHash": "sha256-c2e40a99961eba89594e9e81273988afc4d9d0a5117942bc0ec94f59763b4c21",
+  "merkleLeaf": "sha256-31ccd1e01f2d3a34d41f534feb10e0f27f856f43e7c1afe6839c5fe443b9514e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2868,
+      "sha256": "sha256-3493ade1c033787c0da4577408cb3ad1872f16080ccc41164bc7b30f7d9923fd"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

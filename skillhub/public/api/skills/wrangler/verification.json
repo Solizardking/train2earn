@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "wrangler",
+  "name": "wrangler",
+  "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands to ensure correct syntax and best practices. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+  "source": "https://skills.x402.wtf/api/skills/wrangler/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/wrangler/metadata.json",
+  "bundleHash": "sha256-7900e02e7e8f2c271a081639117807721efdcb1f7b3b04eb2a788a0af3118586",
+  "merkleLeaf": "sha256-4bf17a4c9f3b780a7ccf57a52ed4875c81d5b0dc48fc1737819fa861c49bf280",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 18359,
+      "sha256": "sha256-42abe11ba6c0cb0c135deed1d591d844838fe0b61fc8c6d675a832435508a61b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

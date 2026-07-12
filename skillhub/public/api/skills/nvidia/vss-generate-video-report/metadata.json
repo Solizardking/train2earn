@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/vss-generate-video-report",
+  "name": "vss-generate-video-report",
+  "description": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts or ad-hoc Q&A.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/vss-generate-video-report/SKILL.md"
+}

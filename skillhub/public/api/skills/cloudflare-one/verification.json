@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cloudflare-one",
+  "name": "cloudflare-one",
+  "description": "Guides Cloudflare One Zero Trust and SASE work across Access, Gateway, WARP, Tunnel, Cloudflare WAN, DLP, CASB, device posture, and identity. Use when designing, configuring, troubleshooting, or reviewing Cloudflare One deployments. Retrieval-first: use current Cloudflare docs/API schemas instead of embedded product docs.",
+  "source": "https://skills.x402.wtf/api/skills/cloudflare-one/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/cloudflare-one/metadata.json",
+  "bundleHash": "sha256-240ad2da3e6998811879ff4c09ed17612594d13b32b07eedf5899f1d5c301cff",
+  "merkleLeaf": "sha256-bf745584f66bfdf6dd09f2b8ba5e0bbd7f371df84dfa836d9ffd880aba66272a",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 22293,
+      "sha256": "sha256-605336f84979367b6235a57da8ea43e4f3b856a97efd2c95d9e7f90e41bf17ec"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

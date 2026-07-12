@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/implement",
+  "name": "implement",
+  "description": "Implement a piece of work based on a spec or set of tickets.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/implement/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/implement/metadata.json",
+  "bundleHash": "sha256-eafda65422cd536bf4c5b0a9ec3d17b6bcbcb381ac2919050f02bba7cdef6460",
+  "merkleLeaf": "sha256-26187120b57371424579f8c281964d76acbd4383ca0ecfe1b5fcc157b3516e45",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 433,
+      "sha256": "sha256-6d3fd9e83b8f36e5213854779db49b256a457a7ebb4a503e53fa7dcff696adc3"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

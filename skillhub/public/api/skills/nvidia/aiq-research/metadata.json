@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/aiq-research",
+  "name": "aiq-research",
+  "description": "Use when asked to run deep research or AI-Q research through a reachable NVIDIA AI-Q Blueprint backend.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/aiq-research/SKILL.md"
+}

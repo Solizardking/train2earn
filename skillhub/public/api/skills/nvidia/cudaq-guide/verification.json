@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cudaq-guide",
+  "name": "cudaq-guide",
+  "description": "CUDA-Q onboarding guide for installation, test programs, GPU simulation, QPU hardware, and quantum applications.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cudaq-guide/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cudaq-guide/metadata.json",
+  "bundleHash": "sha256-736d43172493831c9658a61b07ef7cb9203aa59bf1ae89f279f812813e180a95",
+  "merkleLeaf": "sha256-27473b33982787658e9806da0cb6b33ceab628c6956812f5ddf6ba4a5bd70db8",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3901,
+      "sha256": "sha256-e8eab4fd97b5ca9b7737f93cd81bc3c595ef1838a6133b6ccdeab8ab298f0228"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3800,
+      "sha256": "sha256-fbc1394d3bdc37c6e0b0bc3da9981b15ebaa457eb5f1c9b2133700837d702db6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12550,
+      "sha256": "sha256-fd9462b962fa83d41235d85188b0026fdd3eabe566e3c09927d68466986a1a58"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

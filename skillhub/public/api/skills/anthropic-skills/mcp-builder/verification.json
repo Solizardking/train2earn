@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "anthropic-skills/mcp-builder",
+  "name": "mcp-builder",
+  "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/mcp-builder/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/mcp-builder/metadata.json",
+  "bundleHash": "sha256-048172f0ab6be95937ec73790d74b838c08cbac1e1fb47a90f7a0507a7c68d2a",
+  "merkleLeaf": "sha256-f36fa56fdf1d43d9b4363161baacb43cf4315eb124995bbf8ae2df45231ec40e",
+  "files": [
+    {
+      "path": "scripts/connections.py",
+      "bytes": 4875,
+      "sha256": "sha256-9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e"
+    },
+    {
+      "path": "scripts/evaluation.py",
+      "bytes": 12579,
+      "sha256": "sha256-49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7"
+    },
+    {
+      "path": "scripts/example_evaluation.xml",
+      "bytes": 1194,
+      "sha256": "sha256-9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 29,
+      "sha256": "sha256-d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9092,
+      "sha256": "sha256-0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

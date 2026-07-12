@@ -1,0 +1,7 @@
+{
+  "slug": "clawd-agent-launchpad",
+  "name": "clawd-agent-launchpad",
+  "description": "Build, launch, stake, and manage Clawd or Cheshire Terminal agents. Use when working on Agent Launchpad, agent templates, agent builder, agent hub, deployed agent detail pages, runtime matrix, Metaplex agent minting, staking, agent chat, or Clawd/Cheshire agent lifecycle tasks.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/clawd-agent-launchpad/SKILL.md"
+}

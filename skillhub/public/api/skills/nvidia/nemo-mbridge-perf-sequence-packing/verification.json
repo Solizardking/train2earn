@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-sequence-packing",
+  "name": "nemo-mbridge-perf-sequence-packing",
+  "description": "Validate and use packed sequences and long-context training in Megatron-Bridge, distinguishing offline packed SFT for LLMs from in-batch packing for VLMs, and applying the right CP constraints.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-sequence-packing/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-sequence-packing/metadata.json",
+  "bundleHash": "sha256-1c567538afea45db4588e2fd203384b8843187afbf21ac1eb811ebfe1fc4ea7f",
+  "merkleLeaf": "sha256-b3ecb1093502d8094196e26fab49c59ecc7003a862ef11d395bfcd1cb5b8ad28",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4013,
+      "sha256": "sha256-c02c0104d798a1eee1b26d8315499c3759e056f4dca5d3653ce3154449bf0abe"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 4729,
+      "sha256": "sha256-942f14dd55ec87650254b0fa328d1a6de614eab40607d0bcebdfcfeb0bc39329"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4227,
+      "sha256": "sha256-2af5d6ff3e7252d6c004a15d0fe74db4fdeeaadff059c05469388050de47f4a2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7447,
+      "sha256": "sha256-befc23b0417f9c541eeb5613316bc66104e91b90194588e8457c01152f4000e1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

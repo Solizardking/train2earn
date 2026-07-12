@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-cuda-graphs",
+  "name": "nemo-mbridge-perf-cuda-graphs",
+  "description": "Validate and use CUDA graph capture in Megatron Bridge, including local full-iteration graphs and Transformer Engine scoped graphs for attention, MLP, and MoE modules.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-cuda-graphs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-cuda-graphs/metadata.json",
+  "bundleHash": "sha256-2a3333d6a588021750611edbbb55cc539dc45eccceaed1c7069fa4d0f8a25d7e",
+  "merkleLeaf": "sha256-45884c4134539242e1584d52fdf1231ebc2c501bcd2a6e1fbcc96af4b6c543d2",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3982,
+      "sha256": "sha256-9709f2e862bab8bd286780ebd1118f1018aaa85345b48dc79b37908b7c8445aa"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 13862,
+      "sha256": "sha256-729e6cfe6e3580ca1b681b12d7f14d25641f552354ec523b186698139ba71fa6"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4165,
+      "sha256": "sha256-5121ebcada8e87c55dd12735f3a0d7486296f59c2f3c68a39e35226596d6183c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14089,
+      "sha256": "sha256-24c276f4810cba126cf6f3977b462b9aa4d3bbb1b7760269afa1baab9303316b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

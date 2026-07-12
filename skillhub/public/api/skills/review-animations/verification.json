@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "review-animations",
+  "name": "review-animations",
+  "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+  "source": "https://skills.x402.wtf/api/skills/review-animations/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/review-animations/metadata.json",
+  "bundleHash": "sha256-7a5754e3a2dd5e6cd78d3a7933ec056fdff2941ca6fc470a5e06ef436a5c0c17",
+  "merkleLeaf": "sha256-a216e6ac78638a7ecceda7c6aa34763e65a4008038db62889cca490d7d3bc03a",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8127,
+      "sha256": "sha256-da7ffae44f21bc8c5104567256f6c66e5dac69fd7118db639ee3d30e0f9d6ba9"
+    },
+    {
+      "path": "STANDARDS.md",
+      "bytes": 9959,
+      "sha256": "sha256-72b1235ea4d7cf64123719d569c0726129b3772713d480369c28f6a5f9f7278c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

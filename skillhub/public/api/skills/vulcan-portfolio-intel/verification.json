@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-portfolio-intel",
+  "name": "vulcan-portfolio-intel",
+  "description": "Phoenix portfolio snapshots: margin, positions, resting orders, funding exposure, PnL, and account reporting.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-portfolio-intel/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-portfolio-intel/metadata.json",
+  "bundleHash": "sha256-00506cad026a51b2fd8cde56d0ffce5e90d0ec5dfd25d1f7656582624f9ef9ba",
+  "merkleLeaf": "sha256-80b044c190d1cd08c8f4fd584d1999fb5f1c3a8adb8a7a7e4d612bd20330d9d3",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 393,
+      "sha256": "sha256-3503cde3e538745cb343bd6abb8bb2d9dc36b5aae20a74d1a13258f2870a80c8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

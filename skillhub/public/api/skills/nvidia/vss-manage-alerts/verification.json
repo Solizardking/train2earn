@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-manage-alerts",
+  "name": "vss-manage-alerts",
+  "description": "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert analytics.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-manage-alerts/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-manage-alerts/metadata.json",
+  "bundleHash": "sha256-76b23118d5f082bbd6b85cf80913d84079b5a60ed00f4a2de55e6865cdcfca31",
+  "merkleLeaf": "sha256-326e5c53832d5187163073505d64b79bd4a350f371570ad68cb53dff7d253e08",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3479,
+      "sha256": "sha256-22f08cd95d3a6dcae7211979145a324abb66584f8fc43aaaf259ad92f81808bf"
+    },
+    {
+      "path": "references/alert-notify.md",
+      "bytes": 16768,
+      "sha256": "sha256-b369a19c829c7f01b366046f7e508c06d729d85798e87a4ce10d307330e6e0df"
+    },
+    {
+      "path": "references/alert-subscriptions.md",
+      "bytes": 21713,
+      "sha256": "sha256-02a866fd2dc45d85cd29e3d067b3a1b902737e5aa07b854aabc65da70b83050d"
+    },
+    {
+      "path": "references/cv-verifier-prompts.md",
+      "bytes": 1690,
+      "sha256": "sha256-25908ac63510feeff1c72aa0a41830ea74e85b2f813c0f2dcc0080e83632df11"
+    },
+    {
+      "path": "scripts/alert-notify/incident_utils.py",
+      "bytes": 2374,
+      "sha256": "sha256-6a59b048e7befb9799e5f4a92143b9f592b0eba7722ed18542c27b5c9a2ae3e9"
+    },
+    {
+      "path": "scripts/alert-notify/notifier_base.py",
+      "bytes": 2413,
+      "sha256": "sha256-81d19f448a232d7fc0909a427848436dfe3e5a272c3302b20a37a7de7f77bf46"
+    },
+    {
+      "path": "scripts/alert-notify/open_claw_dashboard_notifier.py",
+      "bytes": 11507,
+      "sha256": "sha256-b25d813c520960511611f8646b0b15fccdec14ca1dad3caa29823a084999047b"
+    },
+    {
+      "path": "scripts/alert-notify/requirements.txt",
+      "bytes": 103,
+      "sha256": "sha256-a6dba0f99113cac1fe96c14deaa29c896f8f57c0c7bcab54d8ea590c100c14e7"
+    },
+    {
+      "path": "scripts/alert-notify/server.py",
+      "bytes": 15838,
+      "sha256": "sha256-b3b1ad9a6c68e877ccc7324d287a11fb2e522fa280293226ee8035746cc802d3"
+    },
+    {
+      "path": "scripts/alert-notify/slack_notifier.py",
+      "bytes": 8348,
+      "sha256": "sha256-ffe7c304e9f3c3fca9604bc2690352c2af25823092c7331b7faf37bb82ce2a09"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4091,
+      "sha256": "sha256-6c0a8e8acdef49128dbb1dccc413012804b07a53dcbbf6f9f6474ff4963c13af"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18056,
+      "sha256": "sha256-6c7254848e512b5a0ad006919d99488ba80755f2fa22fa8dea7089e427348a28"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

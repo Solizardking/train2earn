@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-grid-trading",
+  "name": "vulcan-grid-trading",
+  "description": "Grid trading with layered limit orders on Phoenix perpetuals. Use for grid setup, monitoring, pausing/stopping, and live/paper grid strategy safety.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-grid-trading/SKILL.md"
+}

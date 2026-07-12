@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-dino",
+  "name": "tao-train-dino",
+  "description": "DINO (DETR with Improved DeNoising Anchor Boxes) for 2D object detection. Transformer-based detector with denoising training, multi-scale features, and optional distillation support. Use when training, evaluating, exporting, distilling, quantizing, or running inference for a TAO DINO detector. Trigger phrases include \"train DINO\", \"DETR object detection\", \"TAO 2D detection\", \"DINO with distillation\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-dino/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-dino/metadata.json",
+  "bundleHash": "sha256-6db676d89670f23de8489d60a53b918b173904ab5915d01a326878097fa97e53",
+  "merkleLeaf": "sha256-06a0a59df0881bc3f0ce0755a98446c7604eea1188241915798100ec6a67bcd2",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4036,
+      "sha256": "sha256-26f6a379e180f1910daa49e26efb2f97ed2cfcc2f08b1e242d0dad63c2f8c096"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "bytes": 619,
+      "sha256": "sha256-8f206ccbbb61296b0593443276387a1cfd4b29dcc649038910593503b7a90557"
+    },
+    {
+      "path": "references/dino-actions-errors.md",
+      "bytes": 6054,
+      "sha256": "sha256-71f2240cba44ccb8437766c1daff50ebe2498358544589a02f9b724a4497c2ef"
+    },
+    {
+      "path": "references/dino-automl-sdk.md",
+      "bytes": 8088,
+      "sha256": "sha256-74db31090662525aff9d765b08b5617809f27c1af176775f1eefbe1b05fddadd"
+    },
+    {
+      "path": "references/dino-data-specs.md",
+      "bytes": 16547,
+      "sha256": "sha256-3bc5ef2a6b42412671f114c9a2f30768223a9e5a252a7222dcb1e7f37b8a6c20"
+    },
+    {
+      "path": "references/dino-tuning-multigpu.md",
+      "bytes": 3070,
+      "sha256": "sha256-77722184d3d37be24dcc1c9a4b73242a0a61543535a96eb662c07ddf0eed7410"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4193,
+      "sha256": "sha256-e91f6983bd80d57307a9d5ce4916719032ffac545de2269386f328cf5fe9c449"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 598,
+      "sha256": "sha256-3aafd17a466d3e8439853f9c0b6a0fbdfec49c175a810e3fd47dd16c6fe20dcc"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 735,
+      "sha256": "sha256-3c383bbaa848e9ca9cb6cee0cd3facb5ac43ca77a8393b1587fe14e499457f5c"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 600,
+      "sha256": "sha256-d12de9c4bef2b100010ae859719aa2ed014975717457105a32a66ad274f6244e"
+    },
+    {
+      "path": "references/spec_template_distill.yaml",
+      "bytes": 4384,
+      "sha256": "sha256-dcfa05f972ac3de947be742c9e3ba6fa8ea76be56772f5b93e96b410f725e82f"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 3210,
+      "sha256": "sha256-561227c8fc7380db2fe4ae4922e44a83f7ade16281df589b9d63993488f1130a"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3307,
+      "sha256": "sha256-d1c658f8f35531fdd7305a1df10e3ef40fa13098f0e22d8080b3121bdcf8a72f"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 3457,
+      "sha256": "sha256-922f9b7d3cbfbee81ae5adcd90660de3e09aff9cd1a6071463fb2e0d8dbca7b4"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 3290,
+      "sha256": "sha256-fcab9ab67f02427e7621e1fa3dfbde42b68cc03f5b677ec4c69eea992f31f215"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 3062,
+      "sha256": "sha256-6dad54a29776758687284c3c3e5894bce08e06a1be82e7437d941c6a4933f372"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 3062,
+      "sha256": "sha256-6dad54a29776758687284c3c3e5894bce08e06a1be82e7437d941c6a4933f372"
+    },
+    {
+      "path": "references/tao-deploy-dino.md",
+      "bytes": 9091,
+      "sha256": "sha256-bbf59fbf18d009d7c688136625ce830c974b8067408c9e3795230237c9db7b93"
+    },
+    {
+      "path": "references/tao-deploy-dino.skill_info.yaml",
+      "bytes": 2795,
+      "sha256": "sha256-cf0c32ca9ff7b0b5897172d43f6355dae0181b10546d7f1d77c0427abe14ef1c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3972,
+      "sha256": "sha256-3dce673fafa9615f131e3882b41cc208f1ebe5778eee363f71d1cb3270a60273"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11215,
+      "sha256": "sha256-173a6f2a59a0907dc0f8a53a21f0bdf6dc09859f152268c749348073c7fa375e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "coding-agent",
+  "name": "coding-agent",
+  "description": "Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process for programmatic control.",
+  "source": "https://skills.x402.wtf/api/skills/coding-agent/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/coding-agent/metadata.json",
+  "bundleHash": "sha256-e0aef5c83204904d1f34b4488ffe1a63f6a19f5c43a21d60f166ba0a6dd5a4c3",
+  "merkleLeaf": "sha256-79477821fead8364e13c40848ec5f7585e67f44e07a84bbdc6afd42efd02557c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9379,
+      "sha256": "sha256-7c4c005b4523eb43cf005a2fcc7b03fbd968be9544fb6624a5e80fd49418ee2b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

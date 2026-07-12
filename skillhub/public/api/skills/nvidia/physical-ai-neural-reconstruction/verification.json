@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/physical-ai-neural-reconstruction",
+  "name": "physical-ai-neural-reconstruction",
+  "description": "Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, PhysicalAI HF datasets. Do NOT use for SimReady or infra setup.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-neural-reconstruction/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-neural-reconstruction/metadata.json",
+  "bundleHash": "sha256-41609cc186c1de57c46cb52454ed3bc2bc9078a7d110869a6cdaf163b4a65001",
+  "merkleLeaf": "sha256-b126715e473c34cc9cef18c8eb4c7536f9bebfb2ae67da01ff0edf3fa4a538a7",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3090,
+      "sha256": "sha256-632503a391f8cea51fea8be69412f8687b302ffd473f40a02fb266ed5bbce9cb"
+    },
+    {
+      "path": "references/maintenance.md",
+      "bytes": 1240,
+      "sha256": "sha256-b54455ea213104bb554f0e5a986ad6d6fa8de6d5063f760e666ccb9e614ec3b4"
+    },
+    {
+      "path": "references/mix-ups.md",
+      "bytes": 2197,
+      "sha256": "sha256-3c1c7ae61cedb4ce86ea25b3ba9bacf48491ff6364a929c3c8d2c8066dafef3b"
+    },
+    {
+      "path": "references/secrets-handling.md",
+      "bytes": 1065,
+      "sha256": "sha256-771e6d28139a65fdae73cd22c3f7bf8c12019380f6e04120a0f64109e0edb702"
+    },
+    {
+      "path": "references/teardown.md",
+      "bytes": 1614,
+      "sha256": "sha256-618c781dd87463db253062f88fa1cd961427c0e3061b1e4fa34a46f0e16a7b5f"
+    },
+    {
+      "path": "references/upstream-fetch.md",
+      "bytes": 2318,
+      "sha256": "sha256-70ec99e7c763e2409de137e8eb1f4a9c3dbbed179372c75f81e82ff99895e175"
+    },
+    {
+      "path": "references/workflows.md",
+      "bytes": 4268,
+      "sha256": "sha256-35dce0577ca09739f08676dabcde4236b8063a75b037dc181df6f5cc828cccfa"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2998,
+      "sha256": "sha256-cf7addb77d9155d9e0df55119f5b1b75dc7b95b17678b1a03dfa549266a462c4"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16729,
+      "sha256": "sha256-dc96c51e191a5e528bd41fd24aa2c711d488d88641480ea66b105ebeb5358c72"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

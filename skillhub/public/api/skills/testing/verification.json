@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "testing",
+  "name": "testing",
+  "description": "For testing with Light Protocol programs and clients on localnet, devnet, and mainnet validation.",
+  "source": "https://skills.x402.wtf/api/skills/testing/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/testing/metadata.json",
+  "bundleHash": "sha256-674a5e249ff0b4fffc849ff27c1dd67d5d068a9d6a1a60e60a3459b8c49f402a",
+  "merkleLeaf": "sha256-03015c45602eaa7119bad62c6a44a23060d0247dc0d5f926adb7b52a8f83fd02",
+  "files": [
+    {
+      "path": "references/accounts.md",
+      "bytes": 1542,
+      "sha256": "sha256-3ef7b8808bb216dbdff9e536904674176e7e7183f082c21e3b7717238f4bacf6"
+    },
+    {
+      "path": "references/addresses.md",
+      "bytes": 1408,
+      "sha256": "sha256-657573ac3a92e8eb8c9415531a405ad34c0c400853d869f7a7bca247fadcf9e9"
+    },
+    {
+      "path": "references/devnet.md",
+      "bytes": 1723,
+      "sha256": "sha256-8c5797efcc08e45a8c2d9c5d0a396ac1e31ec1071c4cdebad443642cf00655c0"
+    },
+    {
+      "path": "references/local.md",
+      "bytes": 2563,
+      "sha256": "sha256-b30fd14369f0472a359b6675cae7f01ef8e1e6c0858b3de45eaeea013d1e7b69"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3403,
+      "sha256": "sha256-b98ef94417d90478a7177fbeb671f5156977bebf6f36011fa39d173c36eda499"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-inference-service",
+  "name": "tao-run-inference-service",
+  "description": "Start, query, and stop a network-specific TAO inference microservice ({network_arch}-inference-microservice) by delegating container execution to the appropriate platform skill. Handles container image resolution, job-payload JSON construction, and the service registry. Use when the user wants to run inference on a TAO model checkpoint using a microservice container, deploy a TAO inference endpoint, or stop a running inference container.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-inference-service/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-inference-service/metadata.json",
+  "bundleHash": "sha256-050ac739efeb5e43eb9f5aebd221bc0c3e2072d30f4e0ef41d017ed2fa3059a9",
+  "merkleLeaf": "sha256-a81cf43dcd224668242613c5dd89893c5be954b2fd7ee67dcbc6163f2b3e5282",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3872,
+      "sha256": "sha256-539e0e960d9bb2d2df9f7c49cd64402ee9cbbf6d927e294f0a4bbb73e0f51b17"
+    },
+    {
+      "path": "references/code-templates.yaml",
+      "bytes": 16248,
+      "sha256": "sha256-3cc3250b1da5b492dce305605ed502ee9df34fb01c6e69d21ba11eb87a5f6ed1"
+    },
+    {
+      "path": "references/cosmos-predict2.5.config.json",
+      "bytes": 183,
+      "sha256": "sha256-97d2f4e62e43055913a0413bbe3d92474893aae0796b55a9175c87f8eaab07d1"
+    },
+    {
+      "path": "references/request.yaml",
+      "bytes": 11629,
+      "sha256": "sha256-23c0b912679d0b4748678c77b96cc80112c0057826e811c0af8a898e9dfb298c"
+    },
+    {
+      "path": "references/service.yaml",
+      "bytes": 11107,
+      "sha256": "sha256-dde4189bb812c14e6b5f3eeb15606eba2f7cb9831a97fe66547b0e08882e06f6"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 1566,
+      "sha256": "sha256-2f8769ffe9ceca0f8664d898e2ac514a257f28c33b69fd7598cd1ccd5c2d37da"
+    },
+    {
+      "path": "references/tao-dataservices.config.json",
+      "bytes": 192,
+      "sha256": "sha256-91555de257f4921570ff9908bfe08bba4958873f6a7e30b34214a3205bc29942"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3844,
+      "sha256": "sha256-7a5f333be5324a02eefb7ebeb750743a045029d541c18acb7699529ca04d0cbb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18261,
+      "sha256": "sha256-5e01da036218ee83340b662cf5a5b51f9512be0554430ed308611ad3777e4212"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

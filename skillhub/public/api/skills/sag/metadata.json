@@ -1,0 +1,7 @@
+{
+  "slug": "sag",
+  "name": "sag",
+  "description": "ElevenLabs text-to-speech with mac-style say UX.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/sag/SKILL.md"
+}

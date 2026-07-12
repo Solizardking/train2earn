@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/holoscan-install-conda",
+  "name": "holoscan-install-conda",
+  "description": "Install Holoscan SDK v4.3+ via Conda in a CUDA 13 environment. Use for Conda installs; redirect CUDA 12 hosts to container/wheel.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/holoscan-install-conda/SKILL.md"
+}

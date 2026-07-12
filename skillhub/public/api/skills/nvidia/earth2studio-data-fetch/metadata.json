@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/earth2studio-data-fetch",
+  "name": "earth2studio-data-fetch",
+  "description": "Fetch weather/climate data via Earth2Studio data sources for specific variables and times. Do NOT use for inference pipelines, model discovery, or installation.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/earth2studio-data-fetch/SKILL.md"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dflow-kalshi-portfolio",
+  "name": "dflow-kalshi-portfolio",
+  "description": "View what a wallet holds on DFlow's Kalshi prediction markets — current positions, unrealized mark-to-market, realized P&L, activity history, and redeemable winners. Use when the user asks \"what are my positions?\", \"what do I own?\", \"am I up or down?\", \"what's my fill history?\", \"what can I redeem?\", \"mark my portfolio to market\", or \"show me this wallet's DFlow activity\". Read-only. Do NOT use to place sells or redemptions (use `dflow-kalshi-trading`), for market-wide data unrelated to a wallet (use `dflow-kalshi-market-data`), or to discover new markets (use `dflow-kalshi-market-scanner`).",
+  "source": "https://skills.x402.wtf/api/skills/dflow-kalshi-portfolio/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/dflow-kalshi-portfolio/metadata.json",
+  "bundleHash": "sha256-ad8cd3293c51de27f79d54673b72ff0d804ddb8d8dbbe02a2b5e15221a6d5b82",
+  "merkleLeaf": "sha256-289327ae91ff52a2d32bed2ab441b628f3135a4de7239a2eecf5c6c3f74f8dd5",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 11423,
+      "sha256": "sha256-12451c1bef99474ed5bc90c7618c8b96c982a1b3543a522220c6cc2db6faade7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

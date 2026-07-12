@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-tuning",
+  "name": "agent-platform-tuning",
+  "description": "Agent Platform Model Tuning. Use when you need to fine-tune open models or Gemini models using Agent Platform infrastructure. Don't use for model training outside Agent Platform, model deployment to endpoints (use `agent-platform-deploy`), or managing serving endpoints (use `agent-platform-endpoint-management`).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-tuning/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-tuning/metadata.json",
+  "bundleHash": "sha256-d06b8a9ac4b0b3dd0239d8a7a138ea4b0b20a5aafe14b9c1431d72e248f4b7d8",
+  "merkleLeaf": "sha256-20e6a5c57ea76856ff4255bd8c8d5e1978f80175f18c7c3fc46385c2a920102b",
+  "files": [
+    {
+      "path": "references/data_prep.md",
+      "bytes": 1676,
+      "sha256": "sha256-42392053f3324971aacbd51d044de1408ba4963f3accc6877bc3ad91bb5bef9c"
+    },
+    {
+      "path": "references/hf_datasets.md",
+      "bytes": 5021,
+      "sha256": "sha256-936c9b7af1713bbf11084b52fafc2af28c15f8fc00780b42294cce35a648b926"
+    },
+    {
+      "path": "references/models.md",
+      "bytes": 2811,
+      "sha256": "sha256-60a2a5d032af638664b5b18adc40d844b2966009ef7083bf26e256b727420823"
+    },
+    {
+      "path": "references/requirements.txt",
+      "bytes": 137,
+      "sha256": "sha256-8851f962ffe1fd36a79b87c7cc1cfd58e87f470dc27379bddfc2219d1bfd3c64"
+    },
+    {
+      "path": "references/tuning_guide.md",
+      "bytes": 2206,
+      "sha256": "sha256-d939bde8f810b2bac34cbc3945b2b70e839d5e91ba526297cc29f819fcb5ce28"
+    },
+    {
+      "path": "scripts/calculate_cost.py",
+      "bytes": 4887,
+      "sha256": "sha256-96b25a83635ceaa72f48653f874623d4f591a514179689f5f7732eb9add307c6"
+    },
+    {
+      "path": "scripts/cancel_tuning_job.py",
+      "bytes": 999,
+      "sha256": "sha256-6b1eecc34c58e362502652791483e36ae95c93b08d810ead46631086408018d2"
+    },
+    {
+      "path": "scripts/monitor_tuning_job.py",
+      "bytes": 2183,
+      "sha256": "sha256-9a45c93d17676b1dfb44e746e58e535abd6efac2080498c4371bcceb3aebf50e"
+    },
+    {
+      "path": "scripts/prepare_dataset.py",
+      "bytes": 8242,
+      "sha256": "sha256-a2dfafd22dafa601f26056c49db184b47f0d36918389ec9ace1c73ddf1c80acb"
+    },
+    {
+      "path": "scripts/tune_open_model.py",
+      "bytes": 3099,
+      "sha256": "sha256-3514ffc24bfc81d717d6adca002f2efff3a64b8f220789fba2458c32829a8063"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17280,
+      "sha256": "sha256-7363015fcdfef9f085ff52ad34f0627eeb3ada43988fcc527419305d8919c0e5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-derive-carrier",
+  "name": "jetson-derive-carrier",
+  "description": "Bootstrap a custom carrier board by forking carrier files and scaffolding a DT overlay from the reference devkit. Use after jetson-init-source; not for module-level or kernel-DTB changes.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-derive-carrier/SKILL.md"
+}

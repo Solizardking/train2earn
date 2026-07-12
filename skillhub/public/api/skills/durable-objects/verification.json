@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "durable-objects",
+  "name": "durable-objects",
+  "description": "Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, booking systems), implementing RPC methods, SQLite storage, alarms, WebSockets, or reviewing DO code for best practices. Covers Workers integration, wrangler config, and testing with Vitest. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+  "source": "https://skills.x402.wtf/api/skills/durable-objects/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/durable-objects/metadata.json",
+  "bundleHash": "sha256-39f754f7e0c22adf5a40f143d0b75ea51aec40a0eb731709cac47f1b2ac878e1",
+  "merkleLeaf": "sha256-4ec8ba6525e08f459c883fe3ebd77c0eb2987b548dee41f449de3a977f3a3b3f",
+  "files": [
+    {
+      "path": "references/rules.md",
+      "bytes": 8483,
+      "sha256": "sha256-92f12b305df75710fed778c22880ca7de73797f8f4fbbc4cffcf3e6c8ac919e5"
+    },
+    {
+      "path": "references/testing.md",
+      "bytes": 6541,
+      "sha256": "sha256-08c4064e090ff1a8692543c38fc694c42622f59a27390af26c5825b3970f7f02"
+    },
+    {
+      "path": "references/workers.md",
+      "bytes": 7543,
+      "sha256": "sha256-3149c3ee371b5dbf3a84dac7d5bb42c4c6553762480741f6d2808e4ca20fd932"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5867,
+      "sha256": "sha256-cd6797cb18f3ae8f721dfd2e5cb27b73a0aa8636683f1a38163dab2fd51a8dfb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

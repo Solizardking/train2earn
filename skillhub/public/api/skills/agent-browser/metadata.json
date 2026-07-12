@@ -1,0 +1,7 @@
+{
+  "slug": "agent-browser",
+  "name": "agent-browser",
+  "description": "Use the host-side `agent-browser` CLI for local browser smoke tests, screenshots, snapshots, and simple UI validation against forwarded localhost URLs.",
+  "category": "Local / Web Services",
+  "skill": "/api/skills/agent-browser/SKILL.md"
+}

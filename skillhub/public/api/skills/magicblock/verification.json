@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "magicblock",
+  "name": "magicblock",
+  "description": "MagicBlock Ephemeral Rollups development patterns for Solana. Covers delegation/undelegation flows, dual-connection architecture (base layer + ER), cranks for scheduled tasks, VRF for verifiable randomness, magic actions for atomic ER-commit + base-layer follow-ups, private payments API (deposits, transfers, withdrawals, swaps, and challenge/login auth flow), commit sponsorship and fee vault wiring, lamports top-up for delegated accounts, and TypeScript/Anchor integration. Use for high-performance gaming, real-time apps, private transfers and swaps, and fast transaction throughput on Solana.",
+  "source": "https://skills.x402.wtf/api/skills/magicblock/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/magicblock/metadata.json",
+  "bundleHash": "sha256-4ae5e6ee97ea8f97e3e43f3459be6236207663572469fced6a19d035401e920d",
+  "merkleLeaf": "sha256-5d1a982dd997a18c91a61b72d662c95567c9b5fc4f4e4678498eb563c2c8ee25",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 302,
+      "sha256": "sha256-48e175290b9c66560f09ab5fc50daa9c282a7f69a1d54a6d6bd50cee2e18f960"
+    },
+    {
+      "path": "cranks.md",
+      "bytes": 2887,
+      "sha256": "sha256-0437cba7e1babb79e0c7b83a40900d5ae31254af9d568dd04b4853b53e07ffb8"
+    },
+    {
+      "path": "delegation.md",
+      "bytes": 15708,
+      "sha256": "sha256-47c31bfe0da92f5df0b69ebaaeb61d7899868fdd374240efc3ee7ae7b05464da"
+    },
+    {
+      "path": "lamports-topup.md",
+      "bytes": 5166,
+      "sha256": "sha256-25f8e30b4f1ac99c25d61a43a6de5342f5190129267edb8ab0e6407dc04516c4"
+    },
+    {
+      "path": "magic-actions.md",
+      "bytes": 8978,
+      "sha256": "sha256-7d202db9f29d0d93a8b9e6e41fedfeca624b2fdd94c9ce26f87ef0518e9c8e6f"
+    },
+    {
+      "path": "private-payments.md",
+      "bytes": 17921,
+      "sha256": "sha256-544755399b46acfc510f59bd082b3357f3369106b7967c471c01e474b4bb3356"
+    },
+    {
+      "path": "resources.md",
+      "bytes": 3229,
+      "sha256": "sha256-0d2d41a4b6c09604d46ee9900db1cbb151369b9a044122186ba2fbca9ad2fd4e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7605,
+      "sha256": "sha256-793e4f178db70d6c05a983cbc097483c3b02cd73ebab1d0d95c65c718c19789e"
+    },
+    {
+      "path": "typescript-setup.md",
+      "bytes": 3967,
+      "sha256": "sha256-26c9678fe340c977ceee96ce0041c4e10930bfbe246caf7412de309e23163495"
+    },
+    {
+      "path": "vrf.md",
+      "bytes": 2950,
+      "sha256": "sha256-0995e6d1ea0b03b079ead9fcb1bde9d87f6ff7955e124569e5be988298bbd0d6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

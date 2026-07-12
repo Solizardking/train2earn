@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-grounding-dino",
+  "name": "tao-train-grounding-dino",
+  "description": "Grounding DINO for open-set object detection. Combines DINO-style detection with a BERT text encoder for language-guided detection — detects objects described by text prompts without a fixed class vocabulary. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Grounding DINO model. Trigger phrases include \"train Grounding DINO\", \"open-vocabulary detection\", \"text-prompted detector\", \"language-guided object detection\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-grounding-dino/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-grounding-dino/metadata.json",
+  "bundleHash": "sha256-89878fd20061cd036aead0279fdc4fb704068cdffb5c094bda57f079e977733b",
+  "merkleLeaf": "sha256-945d854abf898031464c6fd6df944255299cf3294927149ee525a33f792baed2",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4103,
+      "sha256": "sha256-427e4d3636ff101b3ea74d58b7db6e8f948847e60ed7b6c75f4032262a71bc2d"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 6038,
+      "sha256": "sha256-33be723afe08c074a3d766b3145ef7e82f99cd8b830c609c622c8f8e151712d7"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 375,
+      "sha256": "sha256-42786c10fe956c0986cbfcd919c5fa99c1aec14a4cf85a1caeecc45feb997983"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 343,
+      "sha256": "sha256-a17beb33df54c79093c34eda16f99fd9112c39abfa6e06969eaabc6ed01615ef"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 417,
+      "sha256": "sha256-48a8d3afd22959d4a7eac8ef62bcbb1e1ef108bdda72684161c608fa7ecb0790"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 3321,
+      "sha256": "sha256-593e330e009e34830667ac8d23cc3d897114a764cee2f3a606b8fad2af5c56f6"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3418,
+      "sha256": "sha256-350198ceb625a011282419a1b0b86591d2e19365192b0851c0c1d1b11bfe258e"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 3455,
+      "sha256": "sha256-d287c3cadc28da211296077245a9fc0955ca6a47ae1a73c9263245f7e1f64dbf"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 3401,
+      "sha256": "sha256-32d7b727fa571d825a7c732306d41b9854610d0bb48b2e8e2914b3bec3ca4c6c"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 3173,
+      "sha256": "sha256-91cf27b41b7a597a6c9edc5a86989244302808276901c3989cd9344cf2c1409b"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 3173,
+      "sha256": "sha256-91cf27b41b7a597a6c9edc5a86989244302808276901c3989cd9344cf2c1409b"
+    },
+    {
+      "path": "references/tao-deploy-grounding-dino.md",
+      "bytes": 5389,
+      "sha256": "sha256-53d163d1bf06c33bbdf5f5091cedb004112a04c13527d8b6a9fabef5971a758d"
+    },
+    {
+      "path": "references/tao-deploy-grounding-dino.skill_info.yaml",
+      "bytes": 2930,
+      "sha256": "sha256-4d885e1646a7eafee68667202a0d69e5e50afc3aa0a369c11e36e810b7abc14a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3940,
+      "sha256": "sha256-4077a41cad41dd1c62ee8355e8821ace87e26c1d51e650641961152749db9eb9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15031,
+      "sha256": "sha256-4fc99d44184a9d15036e296cde59f124edd3428875d38a91e5f9a2a0a0f6f35d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/vss-query-analytics",
+  "name": "vss-query-analytics",
+  "description": "Use this skill when reading video-analytics metrics, incidents, alerts, and sensor data via the VA-MCP server (port 9901). Not for live VLM or incident-range narrative reports.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/vss-query-analytics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/vss-query-analytics/metadata.json",
+  "bundleHash": "sha256-46311c25cbac224c9b9837858a7477bb2709236cf3e116e9e8baed6a9f213234",
+  "merkleLeaf": "sha256-a248893f4749891eb4810c2027170dada0da8b304f5c4fd583501d96fc27642f",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3732,
+      "sha256": "sha256-ec1bc216f19b7cc1916d99e30cc72152edcbcb83282fd5d84ddb7924036ba932"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3771,
+      "sha256": "sha256-59d382e3ec65a132d4ef915010da0e0f695a2ec49d826b1602c55377b8a55f33"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9415,
+      "sha256": "sha256-38925c4bc4e29eb51f0bb85de87dfd70adaa81c3a488ff7e8d72728403205ac5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

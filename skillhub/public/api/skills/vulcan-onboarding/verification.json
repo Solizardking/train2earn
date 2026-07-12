@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-onboarding",
+  "name": "vulcan-onboarding",
+  "description": "First-run Vulcan setup for paper trading, wallet, registration, collateral, MCP skills, and live readiness.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-onboarding/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-onboarding/metadata.json",
+  "bundleHash": "sha256-dd2f61e18ff2764cb87d3a4bf2f67f49adfc440ca5dfed75cadb67a22e5ae54e",
+  "merkleLeaf": "sha256-995f557f913aead0a91f0e697e4e4fead6152e06e840fa947d2153f18652fcf2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 360,
+      "sha256": "sha256-c48aefa10d8074892d77415ee47b4f3be0be45647a72cb27819790e403bb5473"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

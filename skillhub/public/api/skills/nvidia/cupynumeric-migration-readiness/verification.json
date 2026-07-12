@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cupynumeric-migration-readiness",
+  "name": "cupynumeric-migration-readiness",
+  "description": "Pre-migration readiness assessor for porting NumPy to cuPyNumeric. Use BEFORE substantial porting work begins when the user asks whether code will scale on GPU, whether they should migrate to cuPyNumeric, which NumPy patterns transfer cleanly, what must be refactored before porting, or mentions pre-port assessment, scaling analysis, or refactor planning. Inspect the user's source code, look up NumPy usage, cross-reference the cuPyNumeric API support manifest, and distinguish distributed-scaling-friendly patterns from blockers such as unsupported APIs, scalar synchronization, host round-trips, Python/object-heavy control flow, shape/data-dependent branching, and in-place mutation hazards. Produce a verdict of READY, LIGHT REFACTOR, SIGNIFICANT REFACTOR, or NOT RECOMMENDED, with concrete refactor pointers.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-migration-readiness/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cupynumeric-migration-readiness/metadata.json",
+  "bundleHash": "sha256-c99d7771cfa94f7cfe6582773e736ae4cd7e78d9d9a91e72ea978f6542c273b7",
+  "merkleLeaf": "sha256-9f25921d98b0a8bf83df6be3855c04f24816036f1a28a5315b79af2bac246e41",
+  "files": [
+    {
+      "path": "assets/api-support.md",
+      "bytes": 12683,
+      "sha256": "sha256-2318d7d4d14234370327e7903d8a52503673879b66947f106b77ab291f334a70"
+    },
+    {
+      "path": "assets/examples/blocks_scaling.py",
+      "bytes": 2940,
+      "sha256": "sha256-7282ee1a6cb55c0f1ef771e9041ae834056ae616bc1fa96e2b8180230d805c88"
+    },
+    {
+      "path": "assets/examples/needs_refactor.py",
+      "bytes": 2154,
+      "sha256": "sha256-a7a4860f9a490ff768ef81644378c1d935784eda8ab3ee84809d58e4b8315387"
+    },
+    {
+      "path": "assets/examples/scales_well.py",
+      "bytes": 2132,
+      "sha256": "sha256-f7065383103905716369438cd821c921df68f6ceb3db8652abb07d22cb50b17b"
+    },
+    {
+      "path": "assets/sample_report.md",
+      "bytes": 12619,
+      "sha256": "sha256-572d12b5e0c89feccac0bd79370c07f895eb8fad1cf8bc926786731a32ab33b8"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4949,
+      "sha256": "sha256-bf7c8189ca5d25d4b6d06bd77e10198672c5a6a4d845bdface514e400d775b83"
+    },
+    {
+      "path": "references/case-studies.md",
+      "bytes": 13681,
+      "sha256": "sha256-b0e4b00cf36e4ff40298af3f434e1036091138755167578871d2dfe3e263d4a8"
+    },
+    {
+      "path": "references/decision-framework.md",
+      "bytes": 9533,
+      "sha256": "sha256-d10de145119c36ace0f75a10d853b55c6b93791ef6103c45a86a36f5f0d5cd1c"
+    },
+    {
+      "path": "references/execution-model.md",
+      "bytes": 9568,
+      "sha256": "sha256-a98f0aa02a5b9fc95f386c00168f35754ac9a48f00fe318f44c79cba19f340d3"
+    },
+    {
+      "path": "references/getting-started.md",
+      "bytes": 7354,
+      "sha256": "sha256-5d086fb60816bfd7455333bfa73f27486d22841ffbca6fea6754aa51665e98d9"
+    },
+    {
+      "path": "references/gpu-stack.md",
+      "bytes": 14847,
+      "sha256": "sha256-20370053b7641d33a25d7e85dd64afd9cc6d571715bce48d7b952c69e90140ed"
+    },
+    {
+      "path": "references/idioms-that-block.md",
+      "bytes": 22944,
+      "sha256": "sha256-3b5811658837182f3e79e21c222301ee68af27d614cb9ecfedcd590319c05377"
+    },
+    {
+      "path": "references/idioms-that-scale.md",
+      "bytes": 13841,
+      "sha256": "sha256-0454de1b070eac1366fec29005ff6c723b70f8e49e073fe64d3cdc6076087e82"
+    },
+    {
+      "path": "references/partitioning-and-balance.md",
+      "bytes": 11819,
+      "sha256": "sha256-bb2797a15e398e4ecfcb02cca0ec7a93d1ff802d87bdba6b3f939329a71625a3"
+    },
+    {
+      "path": "references/refactor-recipes.md",
+      "bytes": 13350,
+      "sha256": "sha256-f62ffda55a7a11022c4aeae1d53d80c1f1df2a2b4b024f70a6430a8f4fb7b355"
+    },
+    {
+      "path": "scripts/fetch_api_support.py",
+      "bytes": 20608,
+      "sha256": "sha256-7bbb70aefb67c4a578a1da5d689e4788157a0238c5c4efa27e7f127f2b592b78"
+    },
+    {
+      "path": "scripts/tests/test_fetch_api_support.py",
+      "bytes": 9769,
+      "sha256": "sha256-f46a5807a79e4e5ed09df17c3247335f36b982919b9899ccbaa89d9edea6ed0b"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4516,
+      "sha256": "sha256-8b40af5cfcb82eddea7a9d8d0e5cdf95b59b2845bbef764c90c0fa62429f03e8"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18446,
+      "sha256": "sha256-6195a5426b6dde4a53bf6b4dc5b23bbc35144673dba5e8b358da421805eb8f05"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

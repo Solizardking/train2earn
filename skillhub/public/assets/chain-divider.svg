@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40">
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="#4c1d95" stroke-width="2" stroke-dasharray="8 8">
+    <animate attributeName="stroke-dashoffset" values="0;-64" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="25" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.00s" repeatCount="indefinite"/></circle>
+  <circle cx="75" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.12s" repeatCount="indefinite"/></circle>
+  <circle cx="125" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.24s" repeatCount="indefinite"/></circle>
+  <circle cx="175" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.36s" repeatCount="indefinite"/></circle>
+  <circle cx="225" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.48s" repeatCount="indefinite"/></circle>
+  <circle cx="275" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.60s" repeatCount="indefinite"/></circle>
+  <circle cx="325" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.72s" repeatCount="indefinite"/></circle>
+  <circle cx="375" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.84s" repeatCount="indefinite"/></circle>
+  <circle cx="425" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="0.96s" repeatCount="indefinite"/></circle>
+  <circle cx="475" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="1.08s" repeatCount="indefinite"/></circle>
+  <circle cx="525" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="1.20s" repeatCount="indefinite"/></circle>
+  <circle cx="575" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="1.32s" repeatCount="indefinite"/></circle>
+  <circle cx="625" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="1.44s" repeatCount="indefinite"/></circle>
+  <circle cx="675" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="1.56s" repeatCount="indefinite"/></circle>
+  <circle cx="725" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="1.68s" repeatCount="indefinite"/></circle>
+  <circle cx="775" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="1.80s" repeatCount="indefinite"/></circle>
+  <circle cx="825" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="1.92s" repeatCount="indefinite"/></circle>
+  <circle cx="875" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="2.04s" repeatCount="indefinite"/></circle>
+  <circle cx="925" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="2.16s" repeatCount="indefinite"/></circle>
+  <circle cx="975" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="2.28s" repeatCount="indefinite"/></circle>
+  <circle cx="1025" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="2.40s" repeatCount="indefinite"/></circle>
+  <circle cx="1075" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="2.52s" repeatCount="indefinite"/></circle>
+  <circle cx="1125" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="2.64s" repeatCount="indefinite"/></circle>
+  <circle cx="1175" cy="20" r="6" fill="none" stroke="#14F195" stroke-width="2"><animate attributeName="stroke" values="#14F195;#9945FF;#00C2FF;#14F195" dur="3s" begin="2.76s" repeatCount="indefinite"/></circle>
+</svg>

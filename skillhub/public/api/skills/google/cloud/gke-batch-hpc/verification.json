@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-batch-hpc",
+  "name": "gke-batch-hpc",
+  "description": "Runs batch and HPC workloads on GKE, utilizing job queues and parallel processing. Use when running GKE batch jobs, configuring GKE HPC, or setting up GKE job queues. Don't use for standard web application deployments (use gke-app-onboarding instead).",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-batch-hpc/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-batch-hpc/metadata.json",
+  "bundleHash": "sha256-aefc18b41c85b0a4025d8f29337e5954ca09685e8c826243be884da679280fb6",
+  "merkleLeaf": "sha256-31b77119a9ec9dbe02d4a9f041c9f524b1a9319ba00ae194253428a43ba34a6c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5678,
+      "sha256": "sha256-87fdaa157499136591a1f4870e8e02d8443111e938d7decc70d7b71ffca2f965"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-run-platform",
+  "name": "tao-run-platform",
+  "description": "TAO Execution SDK for submitting and monitoring GPU training jobs on supported platforms (Brev, SLURM, local Docker, Kubernetes). Use when the user wants to run TAO jobs through the SDK, get job tracking, S3 I/O wrapping, multi-node distributed training, or platform-specific features that docker-run can't provide. Trigger phrases include \"use the TAO SDK\", \"call tao_sdk\", \"AutoMLRunner\", \"ActionWorkflow\", \"Job handles\", \"S3 I/O wrapping\", \"TAO platform run\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-run-platform/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-run-platform/metadata.json",
+  "bundleHash": "sha256-efb99c89143ae7842885059b157cc5e70cf3dcee9bfdd9e25613e5ed0d7fcab6",
+  "merkleLeaf": "sha256-5b910c65c091c903dcb64f5017b9110241341e44159259cc340884ac8a8f062e",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3950,
+      "sha256": "sha256-882e99b32fdfdbdcb04371cd0be32c762a8ddb7b7364d4faf1ea336339619c93"
+    },
+    {
+      "path": "references/error-patterns.md",
+      "bytes": 1337,
+      "sha256": "sha256-1ca1618b587294b769c88c3f77fad42dcea5c1c5beebfc964859dab75ed1d25a"
+    },
+    {
+      "path": "references/orchestration-patterns.md",
+      "bytes": 2655,
+      "sha256": "sha256-ffbf58ef9d16a0f1120042f7c19baff0dc4a966c6e6bd49d06ab56834761e713"
+    },
+    {
+      "path": "references/platform-notes.md",
+      "bytes": 2468,
+      "sha256": "sha256-1c61e4d7166b029eeacdb8451fe493c2dee1f3d40a9bf7a71c841991f55372b9"
+    },
+    {
+      "path": "references/scope.md",
+      "bytes": 1287,
+      "sha256": "sha256-52002ea0785e77c1e4946846fbb161324cf0badbae7beffc8bd52cc0b0180165"
+    },
+    {
+      "path": "references/spec-construction.md",
+      "bytes": 7017,
+      "sha256": "sha256-a137f116f1ad78edc68818a4cf5fa7866d930929dffd7c3a3a81e84fa4d42075"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3959,
+      "sha256": "sha256-669282159264f4840f883b72f8b3084e680297a44a3d62273178e80d2337887b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15044,
+      "sha256": "sha256-db8066b3c8f36ce4dfca7f0949f568fb65485715c95f0b05c52b9b42e3a2806a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

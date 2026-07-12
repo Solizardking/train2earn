@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-convert-dataset-format",
+  "name": "tao-convert-dataset-format",
+  "description": "Run `tao-daft convert` to convert NVIDIA TAO DAFT datasets between supported formats. Do not use for non-DAFT data. Use when the user asks to convert a DAFT dataset, change DAFT format, change a TAO dataset format, or run `tao-daft convert`.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-convert-dataset-format/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-convert-dataset-format/metadata.json",
+  "bundleHash": "sha256-a4b8e367e44c232fd9c743f0bf8dea78b6a6615fa857aa0e7e38c75f36b19e04",
+  "merkleLeaf": "sha256-36dfab8e7f3dab4966bb1bdb35804f583b759b9b18354476645f7460e93edbd0",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3848,
+      "sha256": "sha256-8f44a23f300abc017e19038831918586bf46c00a155293fc191cbfa6bf5f6759"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3487,
+      "sha256": "sha256-e20063aa9bf0c55853a05fe8e565e35018549f9fa071d4ca619d9ef86f2314f9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5064,
+      "sha256": "sha256-e8f28f4dee8c0305cd9e05ae9f84d52d9489ac2311b8e4d688707d77ee76bd2e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

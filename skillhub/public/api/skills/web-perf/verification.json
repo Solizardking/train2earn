@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "web-perf",
+  "name": "web-perf",
+  "description": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (LCP, INP, CLS) and supplementary metrics (FCP, TBT, Speed Index), identifies render-blocking resources, network dependency chains, layout shifts, caching issues, and accessibility gaps. Use when asked to audit, profile, debug, or optimize page load performance, Lighthouse scores, or site speed. Biases towards retrieval from current documentation over pre-trained knowledge.",
+  "source": "https://skills.x402.wtf/api/skills/web-perf/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/web-perf/metadata.json",
+  "bundleHash": "sha256-bf86ab07b64dfd491759a49a012a14ad8723cd33d6a820b09fd44daf28f8c0a6",
+  "merkleLeaf": "sha256-ba18456c175fc2132e0d5b6cd8990803463d537e13e918d1a9f7053fb1666ca7",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8198,
+      "sha256": "sha256-94c5cb37766676a8321a82861d2ac1072d3dd0ef612f0c946792014ad48fb0c2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

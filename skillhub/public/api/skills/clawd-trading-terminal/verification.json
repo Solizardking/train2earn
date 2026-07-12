@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "clawd-trading-terminal",
+  "name": "clawd-trading-terminal",
+  "description": "Use or implement Cheshire Terminal trading surfaces for $CLAWD and Solana markets. Use when working on live spot trading, Jupiter swaps, DFlow markets, OODA trading flows, Phoenix perps, DEX/contract explorer, wallet scanner, Pump page, token tickers, or Clawd trading terminal workflows.",
+  "source": "https://skills.x402.wtf/api/skills/clawd-trading-terminal/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/clawd-trading-terminal/metadata.json",
+  "bundleHash": "sha256-5e4ed9c6f666b96c33bf0e0060e734b212cf6e11edbef86b8cf1b6553adc11ef",
+  "merkleLeaf": "sha256-9a270cc85eedb6b75ae78bfa2b1e1b1d688fc55aed19c3e7453522f407e667f6",
+  "files": [
+    {
+      "path": "references/trading-surfaces.md",
+      "bytes": 1505,
+      "sha256": "sha256-6fa64238780a2a8a0ee6b60d8b386c780837e07fd2afe53bf51a3e6f8314fb45"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1705,
+      "sha256": "sha256-f315b615b6486ab0491a1cc61fc982593a7c2a39a4999320e8060d911509cea8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

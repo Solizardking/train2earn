@@ -1,0 +1,7 @@
+{
+  "slug": "oracle",
+  "name": "oracle",
+  "description": "Best practices for using the oracle CLI (prompt + file bundling, engines, sessions, and file attachment patterns).",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/oracle/SKILL.md"
+}

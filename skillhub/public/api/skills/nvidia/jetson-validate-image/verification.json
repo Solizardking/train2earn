@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-validate-image",
+  "name": "jetson-validate-image",
+  "description": "Use after jetson-flash-image to run static BSP checks, on-target smoke/regression tests on a flashed DUT, or both. Not for build or flash steps. Triggers: validate bsp, on-target validation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-validate-image/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-validate-image/metadata.json",
+  "bundleHash": "sha256-73972265c39b76a185c5fb877b260052b1ee707cd21fa318463253cca9086cfa",
+  "merkleLeaf": "sha256-bdf23402ed3b8317c0dcee625b7bad0770ae30325aaee3fe74564f88621d25bd",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3571,
+      "sha256": "sha256-1112d42d015080abfaed49d270d4274f5d6ddd7f486bf64a5ac7df12f6381145"
+    },
+    {
+      "path": "references/dut-access.md",
+      "bytes": 15324,
+      "sha256": "sha256-3bbce430673b9da3bfa10699ad01be96c2347c81a57bc9f84ab8c61be2ce0aeb"
+    },
+    {
+      "path": "scripts/uart_session.py",
+      "bytes": 25628,
+      "sha256": "sha256-68126e87d320db088878fc4c72d5f48559876f0e7095fd6f8c3c46728dd4b459"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3585,
+      "sha256": "sha256-8c3b353dfd67d101f9d053fa7542c1aa8db3cfeb4e092d38070ca6aceadbdebd"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13940,
+      "sha256": "sha256-89ea19249821528e1afc2c111fc55477f2e6df6df812ee12391eb2e4204d89d9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-skills-index",
+  "name": "vulcan-skills-index",
+  "description": "Index for the bundled Vulcan skill pack exposed through solana-clawd. Use to discover the correct focused Vulcan skill.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-skills-index/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-skills-index/metadata.json",
+  "bundleHash": "sha256-7ec58d23f8a21d2aa2c153ac9d3773071083eb2c09921513d94cae2637b06974",
+  "merkleLeaf": "sha256-4b315d9a08e69e2a8102c1a55b476b04d801a187de3bfac97613d97465e40a36",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 712,
+      "sha256": "sha256-ce8e586bbc22080b6af5b35b9e856d54f9ad49d79ace58d8694876c4c80df30c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

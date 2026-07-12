@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-trade-execution",
+  "name": "vulcan-trade-execution",
+  "description": "Safe Phoenix order execution via Vulcan: pre-trade checks, market/limit orders, paper/dry-run/live gates, and post-trade verification.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-trade-execution/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-trade-execution/metadata.json",
+  "bundleHash": "sha256-c3f8d0ab374f4e001443855d71bbc15f8bada273220dd693e53140fa13f09ff3",
+  "merkleLeaf": "sha256-1649d6ed3c127a0daa336a62e0adfa65b37d0acf426d720c23c36ea5dc9c3aaf",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 443,
+      "sha256": "sha256-b668d83e44a852a0a23b6394462ffdd8faa82121412b1b9000801de18af39e99"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

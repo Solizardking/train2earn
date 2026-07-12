@@ -1,0 +1,7 @@
+{
+  "slug": "sonoscli",
+  "name": "sonoscli",
+  "description": "Control Sonos speakers (discover/status/play/volume/group).",
+  "category": "Media / Devices",
+  "skill": "/api/skills/sonoscli/SKILL.md"
+}

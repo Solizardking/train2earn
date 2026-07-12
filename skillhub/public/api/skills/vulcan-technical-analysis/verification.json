@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-technical-analysis",
+  "name": "vulcan-technical-analysis",
+  "description": "Technical indicators and trigger evaluation for Phoenix markets: RSI, MACD, BBands, ATR, ADX, VWAP, Stoch, SMA, EMA.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-technical-analysis/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-technical-analysis/metadata.json",
+  "bundleHash": "sha256-5949b767f963823c2e1ced8db629fb9eef2734a4b1812c32c826d656c40a90cd",
+  "merkleLeaf": "sha256-98bf6917a1997b41cfbcdee79dc8edbd46d35824710e6ae9f460cfbcb6cf89e8",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 402,
+      "sha256": "sha256-68ec1e9801154133979f5fcd56c8db99c0dce405353253d68cefea9e44ac8212"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

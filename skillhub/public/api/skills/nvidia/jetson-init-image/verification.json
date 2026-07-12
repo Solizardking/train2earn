@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-init-image",
+  "name": "jetson-init-image",
+  "description": "Extract Jetson Linux + sample-rootfs tarballs and run apply_binaries.sh for the active target, then record bsp_image in the profile. Use after jetson-init-target; not for source-tree setup.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-image/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-image/metadata.json",
+  "bundleHash": "sha256-6fea7d5cc8766c2d68b925ff95d3ffda3ea5012119ad7158273e44d2d4ae08b1",
+  "merkleLeaf": "sha256-cad74cbc24c1f967ad38a9aa16bb3e235c1539caddc58dc2bca8a7a26d7e8fca",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3812,
+      "sha256": "sha256-0e3c716dee66fd9a7ca553537082f9662855d402d172016fdbabd9c10f36a881"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4087,
+      "sha256": "sha256-c9a88abee9457c035f0ac420e596bf4839df72ad061e37229597f3f8d49a25f6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7285,
+      "sha256": "sha256-12ce4a63ae000c122eeeed9e0bab776066bab6f921cf90ce7366a9b74b9075eb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

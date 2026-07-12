@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cuopt-numerical-optimization-api",
+  "name": "cuopt-numerical-optimization-api",
+  "description": "LP, MILP, and QP (beta) with cuOpt — Python, C, and CLI. Use when the user is solving LP, MILP, or QP with any cuOpt interface.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-numerical-optimization-api/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-numerical-optimization-api/metadata.json",
+  "bundleHash": "sha256-98d02bb3b35b43ee470ee9bbc5bee8d150d567909cca949db06c155917e81288",
+  "merkleLeaf": "sha256-c08df1d80f4b1874e368b48b99bb82662a4cd7ec74aa12c63753fa7c528d207f",
+  "files": [
+    {
+      "path": "assets/c/lp_basic/lp_simple.c",
+      "bytes": 3705,
+      "sha256": "sha256-54df28f49a0c1afae13bbb9368d50a9080e4d3766b39b3a25771cf1d5548d07a"
+    },
+    {
+      "path": "assets/c/lp_basic/README.md",
+      "bytes": 466,
+      "sha256": "sha256-ba4bc35024cb2e2fea579224c21f7b5614b9f1e0e45ef410fdfd6b2ea9724c36"
+    },
+    {
+      "path": "assets/c/lp_duals/lp_duals.c",
+      "bytes": 4060,
+      "sha256": "sha256-6c4b059ce1220dca853cd628a3582d1381c76a5723d3192caf013ac85fce9675"
+    },
+    {
+      "path": "assets/c/lp_duals/README.md",
+      "bytes": 500,
+      "sha256": "sha256-b9d30c0f5fd090719b672d89f3f36b7a4dd00ce1e06af65da07e9a7fc7b45177"
+    },
+    {
+      "path": "assets/c/lp_warmstart/README.md",
+      "bytes": 289,
+      "sha256": "sha256-8eb19380b49c41036bf0e2ed4dc2a91a9ef3bc699c00362b8b7ea983d9acad43"
+    },
+    {
+      "path": "assets/c/milp_basic/milp_simple.c",
+      "bytes": 3463,
+      "sha256": "sha256-8b5289b788cd220f99a8f4e9d6c1de9dc26abd4b3743dd64332626b116f7e07b"
+    },
+    {
+      "path": "assets/c/milp_basic/README.md",
+      "bytes": 405,
+      "sha256": "sha256-c8f9f30d6bf59955fe213349e53c6ba9ac55fe6e3988af3da5f34ccceadc32b5"
+    },
+    {
+      "path": "assets/c/milp_production_planning/milp_production.c",
+      "bytes": 3546,
+      "sha256": "sha256-5ca46828f62971b70e481fc5c6fc2b8eff1ca06cb5bbd4e001f9e2beeb4994fa"
+    },
+    {
+      "path": "assets/c/milp_production_planning/README.md",
+      "bytes": 459,
+      "sha256": "sha256-46dd9b33e86a8156b22f8c64944aac0891ae166d4d83f6a3f654a3ec61fc107c"
+    },
+    {
+      "path": "assets/c/mps_solver/data/sample.mps",
+      "bytes": 490,
+      "sha256": "sha256-30b3f871918160e9c1c5e760e39e9e5a973e51aaad09798765c8ca741641bb04"
+    },
+    {
+      "path": "assets/c/mps_solver/mps_solver.c",
+      "bytes": 3493,
+      "sha256": "sha256-f53299f1bb6833e9edfdd12b7112845c240c2da0521f88b03e3f65ea0aab5eff"
+    },
+    {
+      "path": "assets/c/mps_solver/README.md",
+      "bytes": 590,
+      "sha256": "sha256-76d650631964cf8b2ad379a0c25a61739d5dcb0d2746276abdc6805d76eee4dc"
+    },
+    {
+      "path": "assets/c/README.md",
+      "bytes": 1712,
+      "sha256": "sha256-80080653f6b4f90f4a44f12f6705c7b933e6bf5586d721d536a417ea3099b99d"
+    },
+    {
+      "path": "assets/cli/lp_production/production.mps",
+      "bytes": 375,
+      "sha256": "sha256-e56ae2fef98dfa6b341566942aad5b7467958fcd92b793402f49d0c7bf762c01"
+    },
+    {
+      "path": "assets/cli/lp_production/README.md",
+      "bytes": 192,
+      "sha256": "sha256-b25af53197c5d20ec2976ba786e6e6a25f0eb568d7c532eefeec06736d1925a8"
+    },
+    {
+      "path": "assets/cli/lp_simple/README.md",
+      "bytes": 191,
+      "sha256": "sha256-bc13fe6884a32d9da5b11475ccf98f68f1fdabe706d4b3c38c7be08401435bf5"
+    },
+    {
+      "path": "assets/cli/lp_simple/sample.mps",
+      "bytes": 490,
+      "sha256": "sha256-30b3f871918160e9c1c5e760e39e9e5a973e51aaad09798765c8ca741641bb04"
+    },
+    {
+      "path": "assets/cli/milp_facility/facility.mps",
+      "bytes": 694,
+      "sha256": "sha256-368705697db45b3b3e1708bd1391e167d5a9f5348816514d0a801c2ce579f08c"
+    },
+    {
+      "path": "assets/cli/milp_facility/README.md",
+      "bytes": 199,
+      "sha256": "sha256-cda5b7afe62b7169a160618ad16311924d3a07fadede5db41edb7df325c63b05"
+    },
+    {
+      "path": "assets/cli/README.md",
+      "bytes": 856,
+      "sha256": "sha256-e0ba100e776ae7047b4014da489c3e4f3d730752271998debc9af029953acc45"
+    },
+    {
+      "path": "assets/python/least_squares/model.py",
+      "bytes": 831,
+      "sha256": "sha256-2caa81435a4136e871a3fbb4bbe108cc1b56fa392a466257884fc2f5c39e4d87"
+    },
+    {
+      "path": "assets/python/least_squares/README.md",
+      "bytes": 136,
+      "sha256": "sha256-668b72b0d819ac36af2381614ebb78db5377d091745f29e49801f28cce7f6acd"
+    },
+    {
+      "path": "assets/python/lp_basic/model.py",
+      "bytes": 1122,
+      "sha256": "sha256-f941f7956ce689afbe9e8018899d651ae8823f1357fcaad14ab9e475e15f37bc"
+    },
+    {
+      "path": "assets/python/lp_basic/README.md",
+      "bytes": 207,
+      "sha256": "sha256-4acc17c77d3de29d7afe4d4176001f945f58f4f1f219854e57c7b28519284d25"
+    },
+    {
+      "path": "assets/python/lp_duals/model.py",
+      "bytes": 1213,
+      "sha256": "sha256-50888d88c2df91597c5dfa4b223e75806eeda818232ab5c766301b7d5f248463"
+    },
+    {
+      "path": "assets/python/lp_duals/README.md",
+      "bytes": 227,
+      "sha256": "sha256-24d1649b4200621a6d5f6be74923c797c7c8e551f4384da51a282262dff5bef0"
+    },
+    {
+      "path": "assets/python/lp_warmstart/model.py",
+      "bytes": 1860,
+      "sha256": "sha256-591ba5f376d666f7764f91d01635e05249929f4c0abd1d90c16dee647c04536f"
+    },
+    {
+      "path": "assets/python/lp_warmstart/README.md",
+      "bytes": 140,
+      "sha256": "sha256-8dc345421a300259c62537e3eb6f040ba25de3ccabef07355423f3448ace5f88"
+    },
+    {
+      "path": "assets/python/maximization_workaround/model.py",
+      "bytes": 736,
+      "sha256": "sha256-4157cbfa815fe878316b95f1d4f6688c77cd0aa3bb8caa0835d98a4a108f0bf7"
+    },
+    {
+      "path": "assets/python/maximization_workaround/README.md",
+      "bytes": 152,
+      "sha256": "sha256-f936a6b8a716a92aa909de3e9215c67a309b2122a8a809cdd9dd654c5cc627b9"
+    },
+    {
+      "path": "assets/python/milp_basic/incumbent_callback.py",
+      "bytes": 1857,
+      "sha256": "sha256-1220591fbbcd51807f1d126f8960fbd417177f56bab2e214cbc760169faacd16"
+    },
+    {
+      "path": "assets/python/milp_basic/model.py",
+      "bytes": 1184,
+      "sha256": "sha256-d48f179e2a8c097a80f532a1bc20c12944059affd42d2e50e226f66767918aa4"
+    },
+    {
+      "path": "assets/python/milp_basic/README.md",
+      "bytes": 433,
+      "sha256": "sha256-0d6c4ba7dba018764c89699b9723bf59ba1ac4fc155c7551900665cfe929db4b"
+    },
+    {
+      "path": "assets/python/milp_production_planning/model.py",
+      "bytes": 1235,
+      "sha256": "sha256-0109d316bfdc037f2707f909e4134c4169d3703b3420c1239f140fed4439ccbf"
+    },
+    {
+      "path": "assets/python/milp_production_planning/README.md",
+      "bytes": 165,
+      "sha256": "sha256-4d7b2481d7e7cecb7ae7364078d3660dc511fe16b67f7288a521c7a8f6af3557"
+    },
+    {
+      "path": "assets/python/mps_solver/data/README.md",
+      "bytes": 2025,
+      "sha256": "sha256-18d3b6047149167392e39ecd47326cc3ffe124c6ef9468d54172ac69603d2549"
+    },
+    {
+      "path": "assets/python/mps_solver/data/sample.mps",
+      "bytes": 490,
+      "sha256": "sha256-30b3f871918160e9c1c5e760e39e9e5a973e51aaad09798765c8ca741641bb04"
+    },
+    {
+      "path": "assets/python/mps_solver/model.py",
+      "bytes": 8409,
+      "sha256": "sha256-ae52c273cd3823e8a216207489eac919aac1b7ce59bde6960efef943457e4f4f"
+    },
+    {
+      "path": "assets/python/mps_solver/README.md",
+      "bytes": 2248,
+      "sha256": "sha256-78a9078033d49a96774251aa7edf1322cf964b293a4f6376ed5b97aa199cffaa"
+    },
+    {
+      "path": "assets/python/mps_solver/results.md",
+      "bytes": 2521,
+      "sha256": "sha256-eb0cc93e3fb15c982a187cdca51068689380f2198cd4426a64f73b227ce8bf0e"
+    },
+    {
+      "path": "assets/python/portfolio/model.py",
+      "bytes": 1610,
+      "sha256": "sha256-9dcf115d5887e4d903a897dbbbb49fe14fd8ad5f7ab420fd62df5601eebfc3b2"
+    },
+    {
+      "path": "assets/python/portfolio/README.md",
+      "bytes": 232,
+      "sha256": "sha256-8e09791f50d3edcc8d220f275a7d627ba400700a126eb039d4be8812d7659b9f"
+    },
+    {
+      "path": "assets/python/README.md",
+      "bytes": 581,
+      "sha256": "sha256-e621dda2e5d7a52ca97cd3190b4b46c56a4d93382a7c5b1b63b718f47126341f"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3886,
+      "sha256": "sha256-f8668641a9da9b7879f592ce77f7198d7fd765b258025301990d4fe512b352cb"
+    },
+    {
+      "path": "references/c_api.md",
+      "bytes": 4811,
+      "sha256": "sha256-cdda9266dae5edd2de99c29ffa5b88002e3ef2b1b9ad585443ef8148cf16f00c"
+    },
+    {
+      "path": "references/cli_api.md",
+      "bytes": 5621,
+      "sha256": "sha256-ec16c46e3b911d4236266fe7fef1aa5e70a1811bd5e2e0929e238ac79cb05e59"
+    },
+    {
+      "path": "references/python_api.md",
+      "bytes": 4789,
+      "sha256": "sha256-5482e16c13a4e08496d67913277a5159aa11c19b7f1128abc8e90401f82dbcaa"
+    },
+    {
+      "path": "references/qp_examples.md",
+      "bytes": 5800,
+      "sha256": "sha256-6e5aecf36d1d844406242a4a04844b43f6a6fd5b6bbbcd873c53f27912eece9a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4225,
+      "sha256": "sha256-2e1f1cc991480b03775a32164aa5269d9feb02d792a9bc9b629788c1e32aa8aa"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4946,
+      "sha256": "sha256-ac00f14099b3d0a7843d972e2e32aa707e7ff6907a03b42db2e302d33dba37bb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

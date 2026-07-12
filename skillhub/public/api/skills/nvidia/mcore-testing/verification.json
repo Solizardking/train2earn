@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/mcore-testing",
+  "name": "mcore-testing",
+  "description": "Test system for Megatron-LM. Covers test layout, recipe YAML structure, adding and running unit and functional tests, golden values, marker filters, and CI parity.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/mcore-testing/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/mcore-testing/metadata.json",
+  "bundleHash": "sha256-7f365dfac5bf6a410c5185e2874d07710df22e08027603f331074d46e410e529",
+  "merkleLeaf": "sha256-8574d1df79e8bbd1ab4c3f22dadb617ef9a456f204ca4f4afe69ba51dca61dec",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2747,
+      "sha256": "sha256-02d7aa60ff7f7de0bcf0735652dddc5adb913b0d270ebf9a485bff9e72aabe3a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2533,
+      "sha256": "sha256-af81d7316b41772e47cc0396746e3b449b8814b95ac7998b31fb1d2353c3e7df"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7443,
+      "sha256": "sha256-a43229bf5eb517b12742bfe9b27398c6d5854af7f2afd7906fcbfecdc96da3d8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

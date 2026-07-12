@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/dicom-series-preflight",
+  "name": "dicom-series-preflight",
+  "description": "Used for header-only preflight of one DICOM series folder before conversion or inference. Not for de-identification or clinical clearance.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/dicom-series-preflight/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dicom-series-preflight/metadata.json",
+  "bundleHash": "sha256-a21cbbedf3170f787a7361898fdb796bcc5167e90b6a9914a9ad0381b41aff4e",
+  "merkleLeaf": "sha256-56405d9e2aa5c1a4025175f329c4a5f0f78705e67b4f88db5a3d473098d65683",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4289,
+      "sha256": "sha256-2d71dd48c682055334d32ae8b85169ae2e6fe466cb15f85d6bd014baf236df4e"
+    },
+    {
+      "path": "scripts/preflight_series.py",
+      "bytes": 12930,
+      "sha256": "sha256-778555bc2387268cd45e66b1bf40770bb4abc4045ac1442fca4db0646437b337"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 3588,
+      "sha256": "sha256-a003a968aa0108ba5e5ce07b57e20280a51211f8f6fe3c78ab1e680e66d122e3"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3741,
+      "sha256": "sha256-411c2d6d4c0912f4c4582b4e7adc64e2562fd7516b89690ffa9f34721d4cb360"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3343,
+      "sha256": "sha256-ab050367ef76abba858a28cd184e3e5c38ef8252a1aab87acb9084f23e8d6070"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

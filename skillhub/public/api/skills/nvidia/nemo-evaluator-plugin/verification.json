@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-evaluator-plugin",
+  "name": "nemo-evaluator-plugin",
+  "description": "Use when working on the Evaluator plugin CLI, jobs, SDK-backed specs, metric types, or plugin-owned Evaluator skills.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-evaluator-plugin/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-evaluator-plugin/metadata.json",
+  "bundleHash": "sha256-2bb65056ce73f63ff1174945a1dca086dd1a6c406a6e1a1c05e32292d1a82223",
+  "merkleLeaf": "sha256-246d13afdf8115e0cd088aa669bc338f1382c4109cce440e681332a1da93c540",
+  "files": [
+    {
+      "path": "assets/examples/plugin_sdk_examples.py",
+      "bytes": 3849,
+      "sha256": "sha256-f3786a572706257c54ebc2eca4fdb2cea31ba57d39ccc024d611596c5ee47842"
+    },
+    {
+      "path": "assets/specs/exact_match_benchmark.json",
+      "bytes": 4355,
+      "sha256": "sha256-62b33dea762ea75052ec5058f8ebe5072db10c7a07d9f666e0d6a3cd97396bc7"
+    },
+    {
+      "path": "assets/specs/exact_match_metric.json",
+      "bytes": 1889,
+      "sha256": "sha256-f0c9d7b1e33de11bfc5310827619c98cf4d858301511e6dc2243940e6cfd96bf"
+    },
+    {
+      "path": "assets/specs/llm_as_judge.json",
+      "bytes": 4987,
+      "sha256": "sha256-48956af2a34e42b80b09f67864dc5e6294be5fa54cbbfb8b687cbfd12505f4dc"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4244,
+      "sha256": "sha256-20eba994bed0729a087b38ca7ea0d20ab9d02deab7ff1fc7aa478aa5e3243e47"
+    },
+    {
+      "path": "references/api-auth.md",
+      "bytes": 895,
+      "sha256": "sha256-a0ea4a6f708aea4c0c14ba6c5dbe555562eaa1c2dffea1ee9a7b2f18fd6c5e38"
+    },
+    {
+      "path": "references/llm-judge.md",
+      "bytes": 1259,
+      "sha256": "sha256-37b11119c5fb2cacaf97023cb05bcde4ebccc62128e12c535ef8325d3ef612bb"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 1545,
+      "sha256": "sha256-a5c26213e908418f1662fd60df5891da57175f2a3ec488f5757f7029fe81aeda"
+    },
+    {
+      "path": "scripts/generate_example_specs.py",
+      "bytes": 1641,
+      "sha256": "sha256-317b437eb99922a93090dd6776887967774ad2ce5d2b2e5a13cd86f96ea53d4d"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3973,
+      "sha256": "sha256-5490d2e8d18206a26f96417f44b5460196dda16312fde041a8c235092fba1c0c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5225,
+      "sha256": "sha256-7f83a416a1252c78f60a7ef3df5780beafef2a7069e037f408ffbf3f27b27d26"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

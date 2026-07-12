@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "blucli",
+  "name": "blucli",
+  "description": "BluOS CLI (blu) for discovery, playback, grouping, and volume.",
+  "source": "https://skills.x402.wtf/api/skills/blucli/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/blucli/metadata.json",
+  "bundleHash": "sha256-ca7373e34eaf59495efe70af435f4e3e5c2b5d369565bce98965339b23aaca6f",
+  "merkleLeaf": "sha256-54e1f1c99f2b4d6ae0abd9363489483d11787e1012626fcbdd4efa9332493496",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 829,
+      "sha256": "sha256-9ee7d09e29bf8c5ab75cd645b9e47330a2e1207f1de0ee15c854c9ebef74cba6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-ocrnet",
+  "name": "tao-train-ocrnet",
+  "description": "OCRNet for scene text recognition. Recognizes text content from cropped text-region images and supports CTC and attention-based decoders. Use when training, evaluating, exporting, pruning, quantizing, retraining, or running inference for a TAO OCRNet model. Trigger phrases include \"train OCRNet\", \"scene text recognition\", \"OCR cropped text\", \"CTC / attention text decoder\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-ocrnet/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-ocrnet/metadata.json",
+  "bundleHash": "sha256-d211a9ff6ded5e3d2dc35c0c294cfd4ed9502d6bf84e5b5f9cc4abca7ced2a2a",
+  "merkleLeaf": "sha256-f77e63e783f024eeea72e6a2c8faee4eef20931c8436b1989c4b2baae0c3c780",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4040,
+      "sha256": "sha256-c9b79b7fb3a3b318ea5d84a93b5749b7f00ff5cb6965e1d26c04cd774fbc1b60"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 8357,
+      "sha256": "sha256-fddaa748611e330d51207933fb60803149a4729b9bf5c8554172319c0510eeaf"
+    },
+    {
+      "path": "references/spec_template_dataset_convert.yaml",
+      "bytes": 1817,
+      "sha256": "sha256-5fa37ff6c7e824f5019c209908e545c5a497535bfd948127e0bee3f7ed3d58de"
+    },
+    {
+      "path": "references/spec_template_deploy_experiment.yaml",
+      "bytes": 2950,
+      "sha256": "sha256-6bbcafb04dbf3689024db022089438a56cfa12470a6121ee30ab7a00a845b533"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1960,
+      "sha256": "sha256-892e920729f75677d272431f7b27f6d163d93b7e8911203ca61941b30b9bfc8f"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 1818,
+      "sha256": "sha256-41bde12161e4f43946033049bf67baf40e427e9d929692c977238b373babf41d"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 2141,
+      "sha256": "sha256-be6f1437ff9962801a76d1da430c1ffca96eb2b034e2598f91d684a55fb7c023"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 1939,
+      "sha256": "sha256-90a474c6603933d3ccdd775ef97b14762da8001f5980d8676bffc1135df6e87d"
+    },
+    {
+      "path": "references/spec_template_prune.yaml",
+      "bytes": 1912,
+      "sha256": "sha256-94f79aafe93b55127d81bb97ea1f7a1d67f28e41d7459bd600b1344905714d6c"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 1746,
+      "sha256": "sha256-81758d2f4e58b0fcc0ceede3575de76f79d3e4a5dc1da4fab65a7e02e355fa2a"
+    },
+    {
+      "path": "references/spec_template_retrain.yaml",
+      "bytes": 1746,
+      "sha256": "sha256-81758d2f4e58b0fcc0ceede3575de76f79d3e4a5dc1da4fab65a7e02e355fa2a"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 1746,
+      "sha256": "sha256-81758d2f4e58b0fcc0ceede3575de76f79d3e4a5dc1da4fab65a7e02e355fa2a"
+    },
+    {
+      "path": "references/tao-deploy-ocrnet.md",
+      "bytes": 5452,
+      "sha256": "sha256-e0475d2c5d7e61d5828140f99015d13dbacc1e1f746ba744e87a3ca0fa22051e"
+    },
+    {
+      "path": "references/tao-deploy-ocrnet.skill_info.yaml",
+      "bytes": 4085,
+      "sha256": "sha256-72bdf1422a641a98c9d7c062d7dca5392e631050992abdf3d0f34079306cf076"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3770,
+      "sha256": "sha256-19ef4cfd80de81fffffb8625959b394ce4559141a1feada00d17b9108d8047fd"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17166,
+      "sha256": "sha256-d157a6d8a3e4ff727dff7066cb35ec2cbf61b333f8c473552359a781f14766e7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

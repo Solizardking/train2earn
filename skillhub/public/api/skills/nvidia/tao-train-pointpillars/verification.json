@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-pointpillars",
+  "name": "tao-train-pointpillars",
+  "description": "PointPillars for 3D object detection from LiDAR point clouds. Encodes point clouds into a pseudo-image via a pillar-based representation, then applies 2D detection — used in autonomous driving and robotics. Use when training, evaluating, exporting, pruning, retraining, or running inference for a TAO PointPillars model. Trigger phrases include \"train PointPillars\", \"LiDAR 3D detection\", \"point-cloud object detection\", \"pillar-based 3D detector\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-pointpillars/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-pointpillars/metadata.json",
+  "bundleHash": "sha256-827ba34835d449b10f3c85c1ba698d99aa0f15e35d836cc12a4bef9444e8bdad",
+  "merkleLeaf": "sha256-84e9b8fc97797727b4ac99d921443ca2ea24f0ab9fa641e8b16b41520f739972",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4080,
+      "sha256": "sha256-998c9c839477a22665e528382882ff7a2cf34f7cd46b19428fd620297712a06b"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 5235,
+      "sha256": "sha256-1a3cf917f46bf9c17bb3e6549fb97bedbda6e408a6ee552ac37bc2b3fba54c0d"
+    },
+    {
+      "path": "references/spec_template_dataset_convert.yaml",
+      "bytes": 5694,
+      "sha256": "sha256-b7b8032a362a81378b99f5eb96f74b165561be698360590f4109f861f3ba7ab0"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 1794,
+      "sha256": "sha256-57eb430c1795791586197d16b0bbee921d35ee1a9fed9f82983ededd3351eac8"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 149,
+      "sha256": "sha256-aab6601f62f97b22fc5b103b8a37c788ed86d0158bf6eefba6bf3d58089dcf31"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 1839,
+      "sha256": "sha256-5779f2107c5097107aba75d9190e30479fe4edba0bb8f1e43f247c1e5a4b8258"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 5794,
+      "sha256": "sha256-b710d92477eed85d4b39db3df48a363933dadc8b52a2c197660759d095cf73b9"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 5863,
+      "sha256": "sha256-75615535e9d08f3946b703713c42595dd1973c33ed0504adaf824536af03441f"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 5871,
+      "sha256": "sha256-89bcda4cb1e729c6cba2017d5d91d8dc0b669fb9f04af2c868605a26320e447e"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 5842,
+      "sha256": "sha256-7127be4c910a229262fab2c4ff4a49b88480af8ba096ac3305e8d047917e936f"
+    },
+    {
+      "path": "references/spec_template_prune.yaml",
+      "bytes": 5751,
+      "sha256": "sha256-e7ddc4b4691e164532091e5b7eb8c0725615cec854e4907233d506a269315dc8"
+    },
+    {
+      "path": "references/spec_template_retrain.yaml",
+      "bytes": 5710,
+      "sha256": "sha256-a121a0070abdce0d52e4574dba69b0f3f9ffda580bedc3bf05556e8b6a845e7b"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 5694,
+      "sha256": "sha256-b7b8032a362a81378b99f5eb96f74b165561be698360590f4109f861f3ba7ab0"
+    },
+    {
+      "path": "references/tao-deploy-pointpillars.md",
+      "bytes": 6314,
+      "sha256": "sha256-db8447b4f2ef1aa8f989d5b5446284fc6a57b5dc0ca7f4ef8092e4f72c4f3a3f"
+    },
+    {
+      "path": "references/tao-deploy-pointpillars.skill_info.yaml",
+      "bytes": 2706,
+      "sha256": "sha256-5a80361be28e515a115621309ac93b2ac6ee5b0fbf28a0037b5ce282738dbc8c"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3799,
+      "sha256": "sha256-7e2e70297f447347cb2d46d466254a7d300cd3f2588ad173314e85f6aea3db78"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15352,
+      "sha256": "sha256-b73c216c3fd01524090ad9f041fe927288c4f68c51ca24f4ba99ddaea8f9fd1a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

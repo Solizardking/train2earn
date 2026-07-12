@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-ai-agents",
+  "name": "pump-ai-agents",
+  "description": "Create and maintain AI-agent integration files for Pump.fun SDK work, including AGENTS/CLAUDE/COPILOT/GEMINI instructions, .well-known discovery, LLM context docs, skills registries, MCP prompts, and terminal rules. Use when wiring agents to Pump.fun development workflows.",
+  "source": "https://skills.x402.wtf/api/skills/pump-ai-agents/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-ai-agents/metadata.json",
+  "bundleHash": "sha256-0c4c1af58d413f9c7093639396ba8be45871e9d9fc3147669b1f0912761bf29d",
+  "merkleLeaf": "sha256-c5dba4a552919c85d96b0c94a50aea4ba8cedead88fb73b30ea5b13369fa549e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3316,
+      "sha256": "sha256-c44e45e7bd748643f6f906329b13c70f4ba1c4804172a1728d6ec036cbbfd066"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

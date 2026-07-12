@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "pump-bonding-curve",
+  "name": "pump-bonding-curve",
+  "description": "Implement Pump.fun bonding-curve math for token pricing, buy/sell quotes, fee-aware calculations, market cap, tiered fees, ceiling division, virtual versus real reserves, and migration edge cases. Use when reviewing or coding Pump.fun pricing logic.",
+  "source": "https://skills.x402.wtf/api/skills/pump-bonding-curve/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/pump-bonding-curve/metadata.json",
+  "bundleHash": "sha256-0aa60dd93d51a641867f6f5306e4e02d8dd1e69372756d87d6e3e6464d58b175",
+  "merkleLeaf": "sha256-20c2afc2660a08b83227855e5bbf52680941150e3c5e70dfee29c37f333f2294",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4892,
+      "sha256": "sha256-50843b8e64a8f65be6326979cf612d29a6a265cc923e7c341d196317005c12b0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

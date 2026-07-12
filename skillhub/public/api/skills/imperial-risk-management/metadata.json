@@ -1,0 +1,7 @@
+{
+  "slug": "imperial-risk-management",
+  "name": "imperial-risk-management",
+  "description": "Risk checks for Imperial-routed perps: profile funding, existing exposure, venue choice, margin headroom, and Telegram pre-trade snapshots.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/imperial-risk-management/SKILL.md"
+}

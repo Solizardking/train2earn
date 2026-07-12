@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemotron-policy-generator",
+  "name": "nemotron-policy-generator",
+  "description": "Generates BYO custom safety policies for NVIDIA Nemotron content-safety guardrails — Nemotron-Content-Safety-Reasoning-4B (text) and multimodal Nemotron-3-Content-Safety. Produces a Markdown policy, JSON taxonomy, and drop-in inference prompts. Maps rough words or an existing policy to V2 categories, adding custom categories or topic-following rules.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemotron-policy-generator/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemotron-policy-generator/metadata.json",
+  "bundleHash": "sha256-388dcee42fb2cac5a9e6fd7a951dc366ba92f2cf8fadee96fec0a66d61d2a613",
+  "merkleLeaf": "sha256-a7dde8c0c3884852cceac1cad7c59be4284e18efd2132e1dcf1c265b4ac0f8e9",
+  "files": [
+    {
+      "path": "assets/nemotron_policy_generator.html",
+      "bytes": 44864,
+      "sha256": "sha256-213885c6c49acece7bfa2a5fc8aa1fd79a260e5b19d86cc2d24c014f273639f4"
+    },
+    {
+      "path": "assets/nemotron_system_prompt_template.txt",
+      "bytes": 13552,
+      "sha256": "sha256-ae1ed185fe3f4b72fd67f26687c2b039293194b52fc780017790f734cc139b89"
+    },
+    {
+      "path": "assets/policy_json_schema.json",
+      "bytes": 3046,
+      "sha256": "sha256-5c2973bf19badc4c570852c68439d2474f9189575f0416dd653b906dc225d150"
+    },
+    {
+      "path": "assets/policy_md_template.md",
+      "bytes": 2456,
+      "sha256": "sha256-e5c1dded116c4e93d93c70beb7f6734edb7826aa44f050d4596a53885ee52ad5"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4230,
+      "sha256": "sha256-5bbb39dbd5d862a25d7fe14dedde7aa2b55f9c3a648aaab0a6229b90a54cfc51"
+    },
+    {
+      "path": "references/content_safety_taxonomy.md",
+      "bytes": 13045,
+      "sha256": "sha256-13ebb8fc5ee1d08aaac068df9970173faa4f397912ec9b4bdaee6f8cfbfce5ff"
+    },
+    {
+      "path": "references/policy_patterns.md",
+      "bytes": 3371,
+      "sha256": "sha256-a9d981890302028238c8f31f69e4ae1cda98bbb40e647dea7110da5970de3011"
+    },
+    {
+      "path": "references/target_models.md",
+      "bytes": 4703,
+      "sha256": "sha256-a7cc1367e75784654ec6910704aad6292c4885b06d08165e54cce62a8d1ac43a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4025,
+      "sha256": "sha256-9aff7608dae617dd14e6be0756f35c884ea7f7a3d6d4daa87ee99084d8d4072c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19882,
+      "sha256": "sha256-5c9cb78cca6b5afa24742d4f387f13b34b4de63b4cf0d911ea6a569da036626d"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

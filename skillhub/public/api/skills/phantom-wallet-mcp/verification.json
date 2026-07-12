@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "phantom-wallet-mcp",
+  "name": "phantom-wallet-mcp",
+  "description": "Execute wallet operations through the Phantom MCP server. Use when the user wants to interact with their Phantom wallet directly — get addresses, transfer SOL or SPL tokens, buy/swap tokens, sign transactions, and sign messages across Solana, Ethereum, Bitcoin, and Sui. Requires the @phantom/mcp-server to be configured as an MCP server.",
+  "source": "https://skills.x402.wtf/api/skills/phantom-wallet-mcp/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/phantom-wallet-mcp/metadata.json",
+  "bundleHash": "sha256-6c7d1fd6d4cd99b198b27a32f0c9ac9803c9eca22e069825b2b48a731a25be67",
+  "merkleLeaf": "sha256-eedb3a3f4f0dbcc2999e0532943a57ef5481f80fca8a5c0b4848ac25e853b84c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3665,
+      "sha256": "sha256-f1db8b6e23f44d7d0c59fb4656c90aaad7745926e48971db03c05fa5a0126363"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

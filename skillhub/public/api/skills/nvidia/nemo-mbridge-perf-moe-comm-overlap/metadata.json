@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemo-mbridge-perf-moe-comm-overlap",
+  "name": "nemo-mbridge-perf-moe-comm-overlap",
+  "description": "MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemo-mbridge-perf-moe-comm-overlap/SKILL.md"
+}

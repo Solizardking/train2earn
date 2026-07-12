@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-reid",
+  "name": "tao-train-reid",
+  "description": "Person re-identification (ReID). Learns discriminative embeddings to match the same person across different camera views, based on metric learning. Use when training, evaluating, exporting, or running inference for a TAO person re-identification model. Trigger phrases include \"train ReID\", \"person re-identification\", \"cross-camera person matching\", \"ReID embeddings\", \"person re-id\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-reid/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-reid/metadata.json",
+  "bundleHash": "sha256-50dcbfdf51f6b24ca4785384675ac6de359c3d4918c18554e489adaadf0a1f4d",
+  "merkleLeaf": "sha256-4900831a8eb682e25a956a288b445e1d165f763b153f8a4028e38418f5e775d2",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4030,
+      "sha256": "sha256-c992a83b697b7653f591fcbf2d9d0bd1198922cdf24505eb507c8c42293e022e"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4441,
+      "sha256": "sha256-57797249729285708cbd893949f072e08117a781492caebbdd065e20865acf1f"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 2448,
+      "sha256": "sha256-62541ff02075c323f2d1f677c3c1795c55ce5f4f8353611ed1f62840a7d77db4"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 2292,
+      "sha256": "sha256-62bf91732dfde53848c0d86d2a3fd134a306ea9b6774282224d150c2d46fb613"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 2405,
+      "sha256": "sha256-82f30c6314307198166b9f0769d5be4aeee95b24bbae4b4027cc14bc554c03d1"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2221,
+      "sha256": "sha256-1b0493d8bcc481e410509a47c3cfa6ef4daa6a80b8e954ff912fce5c62826a0a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4060,
+      "sha256": "sha256-5ff346010da71ffb592cc73750df38dcb40499dd44e56fb1fbd3e50291147b1c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12562,
+      "sha256": "sha256-ab663a79a6195d6358025acb1f6b701b4a9a892f92f7dec618ab6029b1619f0c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

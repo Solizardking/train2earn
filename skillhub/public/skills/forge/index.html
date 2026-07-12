@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Agent Skill Creator — forge</title>
+<meta name="description" content="Turn any workflow into reusable AI agent software that installs on 17 platforms — no spec writing, no prompt engineering, no coding required." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230b0f0e%22/><path d=%22M9 22 L16 8 L23 22%22 stroke=%22%2339d7a6%22 stroke-width=%222.4%22 fill=%22none%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/></svg>">
+<style>
+  :root{
+    --bg:#0b0f0e; --panel:#151b19; --panel-strong:#1b2421; --ink:#edf7f3; --muted:#9baba6;
+    --line:#2b3834; --green:#39d7a6; --blue:#75a8ff; --amber:#e8b44e; --purple:#b99cff; --red:#ff8b82;
+    --chip:#1d2a26; --soft-green:rgba(57,215,166,.14); --soft-blue:rgba(117,168,255,.14);
+    --soft-amber:rgba(232,180,78,.14); --soft-red:rgba(255,139,130,.14); --soft-purple:rgba(185,156,255,.14);
+    --shadow:0 1px 2px rgba(0,0,0,.28), 0 18px 42px rgba(0,0,0,.24);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background: linear-gradient(180deg,#121815 0%, var(--bg) 58%, #0f100c 100%);
+    color:var(--ink);
+    font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height:1.55;
+    min-height:100vh;
+  }
+  a{color:inherit;}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 24px;}
+  .overflow-x{overflow-x:auto;}
+
+  header.top{
+    position:sticky; top:0; z-index:20;
+    border-bottom:1px solid var(--line);
+    background:rgba(11,15,14,.82); backdrop-filter:blur(10px);
+  }
+  header.top .bar{display:flex; align-items:center; justify-content:space-between; padding:14px 24px; gap:16px;}
+  .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px; text-decoration:none;}
+  .brand .mark{width:26px; height:26px; border-radius:7px; background:var(--soft-green); border:1px solid var(--green); display:flex; align-items:center; justify-content:center; color:var(--green); font-size:13px;}
+  .navlinks{display:flex; gap:6px; flex-wrap:wrap;}
+  .navlinks a{
+    font-size:13px; color:var(--muted); text-decoration:none; padding:7px 12px; border-radius:8px; border:1px solid transparent;
+    transition:.15s;
+  }
+  .navlinks a:hover{color:var(--ink); border-color:var(--line); background:var(--panel);}
+
+  .hero{padding:64px 0 32px;}
+  .kicker{display:inline-flex; align-items:center; gap:8px; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--green); background:var(--soft-green); border:1px solid var(--green); padding:6px 12px; border-radius:999px; margin-bottom:20px;}
+  h1{font-size:clamp(2rem, 5vw, 3.1rem); line-height:1.08; margin:0 0 18px; letter-spacing:-.02em;}
+  h1 .accent{color:var(--green);}
+  .lede{font-size:1.1rem; color:var(--muted); max-width:640px; margin:0 0 28px;}
+  .cta-row{display:flex; flex-wrap:wrap; gap:12px; margin-bottom:36px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px; padding:11px 18px; border-radius:10px; font-size:14px; font-weight:600;
+    text-decoration:none; border:1px solid var(--line); cursor:pointer; transition:.15s; font-family:inherit;
+  }
+  .btn-primary{background:var(--green); color:#06110d; border-color:var(--green);}
+  .btn-primary:hover{filter:brightness(1.08);}
+  .btn-ghost{background:var(--panel); color:var(--ink);}
+  .btn-ghost:hover{background:var(--panel-strong); border-color:var(--green);}
+  .btn code{font-family:inherit;}
+
+  .install-box{
+    background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:4px; max-width:640px; box-shadow:var(--shadow); margin-bottom:36px;
+  }
+  .install-tabs{display:flex; gap:4px; padding:8px 8px 0;}
+  .install-tabs button{
+    background:transparent; border:none; color:var(--muted); font-size:12.5px; font-weight:600; padding:8px 14px; border-radius:8px 8px 0 0; cursor:pointer; font-family:inherit;
+  }
+  .install-tabs button.active{color:var(--ink); background:var(--panel-strong);}
+  .install-cmd{
+    display:flex; align-items:center; gap:10px; padding:14px 16px; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:13px; color:var(--green); background:var(--panel-strong); border-radius:8px; margin:0 8px 8px; overflow-x:auto;
+  }
+  .install-cmd span{white-space:pre; flex:1;}
+  .copy-btn{
+    background:var(--chip); border:1px solid var(--line); color:var(--muted); border-radius:6px; padding:5px 10px; font-size:11px; cursor:pointer; flex-shrink:0; font-family:inherit;
+  }
+  .copy-btn:hover{color:var(--ink); border-color:var(--green);}
+  .copy-btn.copied{color:var(--green); border-color:var(--green);}
+
+  .stats{display:grid; grid-template-columns:repeat(auto-fit, minmax(140px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:12px; overflow:hidden; margin-bottom:48px;}
+  .stat{background:var(--panel); padding:20px; text-align:center;}
+  .stat .num{font-size:1.5rem; font-weight:800; color:var(--green);}
+  .stat .lbl{font-size:12px; color:var(--muted); margin-top:4px;}
+
+  .demo-frame{border:1px solid var(--line); border-radius:14px; overflow:hidden; box-shadow:var(--shadow); background:#000; margin-bottom:20px;}
+  .demo-frame img{display:block; width:100%; height:auto;}
+  .demo-caption{font-size:12.5px; color:var(--muted); text-align:center; margin:0 0 56px;}
+
+  section{padding:12px 0 56px;}
+  .section-head{margin-bottom:28px;}
+  .section-head .tag{font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--purple); font-weight:700; margin-bottom:8px; display:block;}
+  .section-head h2{font-size:1.7rem; margin:0 0 8px; letter-spacing:-.01em;}
+  .section-head p{color:var(--muted); max-width:640px; margin:0;}
+
+  .pipeline{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-bottom:20px;}
+  .stage{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px; position:relative;}
+  .stage .stage-num{font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; padding:4px 10px; border-radius:999px; display:inline-block; margin-bottom:12px;}
+  .stage.s1 .stage-num{color:var(--blue); background:var(--soft-blue); border:1px solid var(--blue);}
+  .stage.s2 .stage-num{color:var(--amber); background:var(--soft-amber); border:1px solid var(--amber);}
+  .stage.s3 .stage-num{color:var(--green); background:var(--soft-green); border:1px solid var(--green);}
+  .stage h3{margin:0 0 8px; font-size:1.05rem;}
+  .stage p{color:var(--muted); font-size:13.5px; margin:0 0 12px;}
+  .phase-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px;}
+  .phase-list li{font-size:12.5px; color:var(--ink); background:var(--panel-strong); border:1px solid var(--line); border-radius:8px; padding:8px 10px;}
+  .phase-list b{color:var(--muted); font-weight:600; margin-right:4px;}
+
+  .grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px; transition:.15s;}
+  .card:hover{border-color:var(--green); transform:translateY(-2px);}
+  .card .eyebrow{font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--blue); font-weight:700; margin-bottom:8px;}
+  .card h3{margin:0 0 8px; font-size:1.05rem;}
+  .card p{color:var(--muted); font-size:13.5px; margin:0 0 10px;}
+  .card .out{font-size:12.5px; color:var(--green); font-weight:600;}
+  .card code.path{display:block; margin-top:12px; font-size:11.5px; color:var(--muted); background:var(--panel-strong); border-radius:6px; padding:6px 8px; font-family:ui-monospace,monospace; word-break:break-all;}
+
+  table.cmp{width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--line); border-radius:14px; overflow:hidden; font-size:13.5px;}
+  table.cmp th, table.cmp td{padding:12px 16px; text-align:left; border-bottom:1px solid var(--line);}
+  table.cmp th{color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.04em; background:var(--panel-strong);}
+  table.cmp tr:last-child td{border-bottom:none;}
+  table.cmp td.hl{color:var(--green); font-weight:700;}
+  table.cmp td:first-child{color:var(--ink); font-weight:600;}
+
+  .whats-new{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .new-card{background:var(--panel); border:1px solid var(--purple); border-radius:14px; padding:20px; box-shadow:0 0 0 1px transparent;}
+  .new-card .pill{display:inline-block; font-size:11px; font-weight:800; color:var(--purple); background:var(--soft-purple); border:1px solid var(--purple); padding:3px 9px; border-radius:999px; margin-bottom:10px;}
+  .new-card h3{margin:0 0 8px; font-size:1rem;}
+  .new-card p{color:var(--muted); font-size:13.5px; margin:0;}
+
+  .platform-chips{display:flex; flex-wrap:wrap; gap:8px;}
+  .platform-chips span{background:var(--chip); border:1px solid var(--line); color:var(--ink); font-size:12.5px; padding:6px 12px; border-radius:999px;}
+
+  footer{border-top:1px solid var(--line); padding:32px 0 48px; margin-top:24px;}
+  footer .foot-row{display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; align-items:center;}
+  footer .flinks{display:flex; gap:16px; flex-wrap:wrap; font-size:13px; color:var(--muted);}
+  footer .flinks a{text-decoration:none;}
+  footer .flinks a:hover{color:var(--green);}
+  footer .copy{font-size:12.5px; color:var(--muted);}
+
+  @media (max-width:820px){
+    .pipeline, .grid-3, .whats-new{grid-template-columns:1fr;}
+    .navlinks{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="bar wrap" style="padding-left:0;padding-right:0;">
+    <a class="brand" href="/">
+      <span class="mark">◂</span> Skills Catalog
+    </a>
+    <div class="navlinks">
+      <a href="#how-it-works">How it works</a>
+      <a href="#examples">Examples</a>
+      <a href="#compare">Compare</a>
+      <a href="#whats-new">What's new</a>
+      <a href="#install">Install</a>
+      <a href="https://github.com/FrancyJGLisboa/agent-skill-creator" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <span class="kicker">● forge · agent-skill-creator · v6.0.0</span>
+    <h1>Turn any workflow into<br><span class="accent">reusable AI agent software.</span></h1>
+    <p class="lede">Describe a workflow in plain English — or hand over a PDF, a link, a script. Get back a complete, validated, security-scanned agent skill with functional code, its own eval spec, and a cross-platform installer. No spec writing. No prompt engineering. No coding.</p>
+
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#install">Install forge</a>
+      <a class="btn btn-ghost" href="/api/skills/forge/SKILL.md">View SKILL.md</a>
+      <a class="btn btn-ghost" href="/api/skills/forge/README.md">Full README</a>
+    </div>
+
+    <div class="demo-frame">
+      <img src="/api/skills/forge/assets/demo.gif" alt="Terminal recording: validate, security_scan, and eval --rollout all passing on a generated skill" loading="lazy" />
+    </div>
+    <p class="demo-caption">Genuine output from a real run — <code>validate</code> → <code>security_scan</code> → eval <code>--rollout</code> on a generated skill.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="num">17</div><div class="lbl">install targets</div></div>
+      <div class="stat"><div class="num">5</div><div class="lbl">pipeline phases</div></div>
+      <div class="stat"><div class="num">2</div><div class="lbl">hard gates: validate + security</div></div>
+      <div class="stat"><div class="num">3–6</div><div class="lbl">eval checks per skill</div></div>
+      <div class="stat"><div class="num">MIT</div><div class="lbl">license</div></div>
+    </div>
+  </section>
+
+  <section id="how-it-works">
+    <div class="section-head">
+      <span class="tag">How it works</span>
+      <h2>Five phases, three stages, two hard gates.</h2>
+      <p>You don't need to understand any of this to use it — the agent reads your material, uncovers the implicit requirements, and builds from a deeper spec than what you typed.</p>
+    </div>
+    <div class="pipeline">
+      <div class="stage s1">
+        <span class="stage-num">Understand</span>
+        <h3>Discovery + Design</h3>
+        <p>Reads all your material, researches APIs, and derives what you actually need — not just what you typed.</p>
+        <ul class="phase-list">
+          <li><b>Phase 1</b> Discovery — compare APIs by cost, rate limits, docs; decide with justification</li>
+          <li><b>Phase 2</b> Design — 4–6 priority use cases, artifact assessment, eval criteria (3–6 checks + 3 golden cases)</li>
+        </ul>
+      </div>
+      <div class="stage s2">
+        <span class="stage-num">Build</span>
+        <h3>Architecture + Detection</h3>
+        <p>Decides simple skill vs. multi-agent suite, then writes activation keywords so agents actually discover it.</p>
+        <ul class="phase-list">
+          <li><b>Phase 3</b> Architecture — single SKILL.md or complex component suite</li>
+          <li><b>Phase 4</b> Detection — ≤1024-char description with domain keywords for cross-platform activation</li>
+        </ul>
+      </div>
+      <div class="stage s3">
+        <span class="stage-num">Verify</span>
+        <h3>Implementation + Gates</h3>
+        <p>Generates every file, then blocks delivery unless it passes validation and a security scan.</p>
+        <ul class="phase-list">
+          <li><b>Phase 5</b> SKILL.md, AGENTS.md, scripts, references, eval spec, install.sh, README</li>
+          <li><b>Gates</b> spec validation, security scan (keys, injection), pipeline check, eval <code>--validate</code></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="examples">
+    <div class="section-head">
+      <span class="tag">Try it</span>
+      <h2>Three runnable examples</h2>
+      <p>Each ships in <code>references/examples/</code> and passes the same gates the creator applies to skills it generates — <code>validate.py</code>, <code>check_pipeline.py</code>, and its own bundled eval spec.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="eyebrow">You'd say…</div>
+        <h3>weekly-crm-report</h3>
+        <p>"Clean this CRM export and total sales by region."</p>
+        <div class="out">→ a deduped regional-totals JSON summary</div>
+        <code class="path">references/examples/weekly-crm-report/</code>
+      </div>
+      <div class="card">
+        <div class="eyebrow">You'd say…</div>
+        <h3>pr-blocker-summarizer</h3>
+        <p>"Summarize my open PRs, blockers first."</p>
+        <div class="out">→ a standup digest: blocked vs. ready, one-line count</div>
+        <code class="path">references/examples/pr-blocker-summarizer/</code>
+      </div>
+      <div class="card">
+        <div class="eyebrow">You'd say…</div>
+        <h3>stock-analyzer</h3>
+        <p>"Analyze AAPL with RSI and MACD."</p>
+        <div class="out">→ indicators + a buy/sell/hold signal with reasoning</div>
+        <code class="path">references/examples/stock-analyzer/</code>
+      </div>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="section-head">
+      <span class="tag">Why this vs. the alternatives</span>
+      <h2>Built-in gates that others leave to you</h2>
+    </div>
+    <div class="overflow-x">
+    <table class="cmp">
+      <thead>
+        <tr><th></th><th>Agent Skill Creator</th><th>Hand-writing a SKILL.md</th><th>Anthropic's skill-creator</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Time to a working skill</td><td class="hl">~minutes, one prompt</td><td>Hours of spec + iteration</td><td>Minutes (interactive Q&amp;A)</td></tr>
+        <tr><td>Coding required</td><td class="hl">None — it writes the code</td><td>Yes</td><td>Some</td></tr>
+        <tr><td>Cross-platform install</td><td class="hl">17 platforms, auto-detected</td><td>One tool, by hand</td><td>Claude-focused</td></tr>
+        <tr><td>Validation + security scan</td><td class="hl">Yes, hard gates</td><td>Manual</td><td>Partial</td></tr>
+        <tr><td>Ships an eval spec</td><td class="hl">Yes, per skill</td><td>No</td><td>No</td></tr>
+        <tr><td>Optimizable (autoresearch handoff)</td><td class="hl">Yes</td><td>No</td><td>No</td></tr>
+        <tr><td>Input you can hand it</td><td class="hl">Prose, PDF, URL, code, transcript</td><td>You write it from scratch</td><td>Guided prompts</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section id="whats-new">
+    <div class="section-head">
+      <span class="tag">What's new — v6</span>
+      <h2>Artifacts, and a metric for every skill</h2>
+    </div>
+    <div class="whats-new">
+      <div class="new-card">
+        <span class="pill">Artifacts-first</span>
+        <h3>Interactive React artifacts, no React written</h3>
+        <p>When output is visualizable — time series, comparisons, KPIs, tables — Phase 2 inlines one of four bundled templates (line-chart, bar-chart, kpi-cards, data-table) plus the artifact protocol into the generated SKILL.md. Hosts that don't render artifacts get honest degradation: fenced code, unchanged markdown analysis. Suppress with <code>--no-artifact</code>, or force one with <code>--artifact &lt;name&gt;</code>.</p>
+      </div>
+      <div class="new-card">
+        <span class="pill">Eval specs</span>
+        <h3>Every skill ships its own metric</h3>
+        <p>Each generated skill carries <code>evals/&lt;name&gt;.eval.md</code> plus <code>scripts/run_evals.py</code> — 3–6 binary checks and ≥3 golden cases, seeded from your own files. <code>run_evals.py</code> exits non-zero on failure and drops into CI. <code>--rollout --promote</code> captures the first passing baseline. On by default; skip with <code>--no-eval</code>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="install">
+    <div class="section-head">
+      <span class="tag">Quick start</span>
+      <h2>Install, then describe what you do</h2>
+      <p>No clone, no pip, no API key to get started — just git and any one of 17 supported tools.</p>
+    </div>
+
+    <div class="install-box">
+      <div class="install-tabs">
+        <button class="active" data-tab="mac">macOS / Linux</button>
+        <button data-tab="win-ps">Windows (PowerShell)</button>
+        <button data-tab="win-cmd">Windows (cmd)</button>
+      </div>
+      <div class="install-cmd" data-panel="mac">
+        <span>curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh</span>
+        <button class="copy-btn" data-copy="curl -fsSL https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.sh | sh">Copy</button>
+      </div>
+      <div class="install-cmd" data-panel="win-ps" style="display:none;">
+        <span>irm https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.ps1 | iex</span>
+        <button class="copy-btn" data-copy="irm https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.ps1 | iex">Copy</button>
+      </div>
+      <div class="install-cmd" data-panel="win-cmd" style="display:none;">
+        <span>powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.ps1 | iex"</span>
+        <button class="copy-btn" data-copy='powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/main/scripts/bootstrap.ps1 | iex"'>Copy</button>
+      </div>
+    </div>
+
+    <p style="color:var(--muted); font-size:13.5px; margin-bottom:16px;">Then open your AI tool and describe what you do:</p>
+    <div class="install-box" style="max-width:640px;">
+      <div class="install-cmd" style="margin:8px;">
+        <span>/agent-skill-creator Every Friday I clean the CRM export, calculate&#10;regional totals, and email a PDF sales report.</span>
+      </div>
+    </div>
+
+    <p style="color:var(--muted); font-size:13.5px; margin:28px 0 12px;">Auto-detected on install:</p>
+    <div class="platform-chips">
+      <span>Claude Code</span><span>Cursor</span><span>GitHub Copilot</span><span>Gemini CLI</span>
+      <span>Windsurf</span><span>Kiro</span><span>Cline</span><span>Roo Code</span>
+      <span>Kilo Code</span><span>Factory Droid</span><span>Goose</span><span>OpenCode</span>
+      <span>+ 5 more</span>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="flinks">
+      <a href="/">← Back to catalog</a>
+      <a href="/api/skills/forge/CHANGELOG.md">Changelog</a>
+      <a href="/api/skills/forge/CONTRIBUTING.md">Contributing</a>
+      <a href="/api/skills/forge/CODE_OF_CONDUCT.md">Code of Conduct</a>
+      <a href="https://github.com/FrancyJGLisboa/agent-skill-creator" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <div class="copy">MIT License</div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var tabs = document.querySelectorAll('.install-tabs button');
+    var panels = document.querySelectorAll('.install-cmd[data-panel]');
+    tabs.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        tabs.forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        var target = btn.getAttribute('data-tab');
+        panels.forEach(function(p){
+          p.style.display = (p.getAttribute('data-panel') === target) ? 'flex' : 'none';
+        });
+      });
+    });
+
+    document.querySelectorAll('.copy-btn[data-copy]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var text = btn.getAttribute('data-copy');
+        navigator.clipboard.writeText(text).then(function(){
+          var original = btn.textContent;
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(function(){
+            btn.textContent = original;
+            btn.classList.remove('copied');
+          }, 1600);
+        });
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

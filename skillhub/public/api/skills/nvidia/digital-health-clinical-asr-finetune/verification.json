@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/digital-health-clinical-asr-finetune",
+  "name": "digital-health-clinical-asr-finetune",
+  "description": "Stage 4 of the Clinical ASR Flywheel. Use when priority KER is above 0.3 to run stock NeMo SFT on Parakeet TDT v2 and offline cycle N+1 re-eval. NOT for generic word boosting (use /finetune-asr).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-finetune/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-finetune/metadata.json",
+  "bundleHash": "sha256-1fa14c3ec05e74fb98a9982d4759be782465dd3fe99d6d698f470bf1ad0026d8",
+  "merkleLeaf": "sha256-ca2912ecb42867644151eeda6d72151b7e4446c1d2261153ea049e353abbf013",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3834,
+      "sha256": "sha256-10ea757c262c991ed1a19505d5c61e182e11ff531f0b7fd89f81653cc2618284"
+    },
+    {
+      "path": "references/container-paths.md",
+      "bytes": 3248,
+      "sha256": "sha256-17eb40b405e8c4bad9fcbb5ab54f8d4f474a779f638fd03cf5caded70ed2971d"
+    },
+    {
+      "path": "references/stage4-finetune.md",
+      "bytes": 8799,
+      "sha256": "sha256-73ec581d5f03567fcd5c98ab985caedc609c77aaf922fe6e14562c866e31b847"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3771,
+      "sha256": "sha256-0d5e31d22ff6d0cbb79cbc564cd2f6a9024c1c2918c2045238f52f55ec1efff6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 20185,
+      "sha256": "sha256-951ddeba55bd2ab770240ed77ebe51280a9dccd2b93b59b6edee1e2579549d5b"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

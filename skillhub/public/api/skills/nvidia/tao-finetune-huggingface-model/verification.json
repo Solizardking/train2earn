@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-finetune-huggingface-model",
+  "name": "tao-finetune-huggingface-model",
+  "description": "Fine-tune any HuggingFace CV / VLM / LLM model on local NVIDIA GPUs inside an NGC PyTorch container. Use when the user wants to fine-tune a HuggingFace model (full or LoRA), train a vision / VLM / LLM model end-to-end, generate a reproducible HF training pipeline, smoke-test a HuggingFace model locally before scale-up, push a fine-tuned model to the HF Hub with a model card, or emit a self-contained rerun skill for an existing HuggingFace finetune. Supports image classification, object detection, semantic / instance / panoptic segmentation, depth estimation, image-text-to-text VLM (SFT / LoRA), and LLM SFT / DPO / GRPO. Six-step workflow: inspect and qualify, hardware and NGC image, research, generate and smoke, train + eval + infer, push and emit rerun skill.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-huggingface-model/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-huggingface-model/metadata.json",
+  "bundleHash": "sha256-b05f7e59349b070918fd24a459a20ed70504549a6f0aef8cf6faf095a680c349",
+  "merkleLeaf": "sha256-a13264960ae11ecd6a1040d08393fbc40b979a59202fe4df010c9d90a55db888",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4182,
+      "sha256": "sha256-5009c81413d7820f8512530e6960446daf77790c63b95e02ae745e3c17183d89"
+    },
+    {
+      "path": "references/compat-workarounds.md",
+      "bytes": 12075,
+      "sha256": "sha256-f4529820973f8014bb08b54adad0a70425faab28d92c9c94cd8e9670a1e4c17c"
+    },
+    {
+      "path": "references/core-rules.md",
+      "bytes": 4825,
+      "sha256": "sha256-2c9f9f96b259c999bdc8dc2fe625499277e63a2e9801009be84557f221e3aae4"
+    },
+    {
+      "path": "references/cv-scripts.md",
+      "bytes": 34024,
+      "sha256": "sha256-2fdb18780342ea450ab0390119f3879245c1624d6248afff7a1281771d137a3c"
+    },
+    {
+      "path": "references/dataset-patterns.md",
+      "bytes": 10793,
+      "sha256": "sha256-a3f9112dffd9cc25554e1d38f79934eceaab4db07fca7cc0bff88846862503ed"
+    },
+    {
+      "path": "references/dataset-recommendations.md",
+      "bytes": 11300,
+      "sha256": "sha256-bedf2155e5731e0943cebcde5e42dfdfe5ae9469464959cb83874b97b024425f"
+    },
+    {
+      "path": "references/dataset-sources.md",
+      "bytes": 17707,
+      "sha256": "sha256-9f6cd4d2fb8ef87aba67a8f652a5fe0d3e5e9ad2904cfc8b4bd3f55c60939807"
+    },
+    {
+      "path": "references/deliverables.md",
+      "bytes": 20633,
+      "sha256": "sha256-65755483df41e38c7d99ea78ade22c9b8cadbd5ef06d9d8d644934895239dd02"
+    },
+    {
+      "path": "references/detailed-workflow.md",
+      "bytes": 715,
+      "sha256": "sha256-def5d01a0ab3e9719c671119530742e003d0f122947a9981e58fa5d9db34b181"
+    },
+    {
+      "path": "references/docker-runs.md",
+      "bytes": 9094,
+      "sha256": "sha256-2f7dab8427413455efadef8a0a882569d48e374c421e5b06cfc17f3d6291432b"
+    },
+    {
+      "path": "references/error-playbook.md",
+      "bytes": 3844,
+      "sha256": "sha256-ffa5a57c49df0df60ee08ea62efc5c954e364ae798944dd221361a027df288cf"
+    },
+    {
+      "path": "references/hardware-container.md",
+      "bytes": 8661,
+      "sha256": "sha256-2876fd98a2bbe357a244933d6d58f6a26aec367ff17d1f5bb4b35d50278e8635"
+    },
+    {
+      "path": "references/hub-push.md",
+      "bytes": 5564,
+      "sha256": "sha256-54a9d541f0d45ecbda7b93c2628044799f112c345208557140c51080f6ad2bda"
+    },
+    {
+      "path": "references/model-discovery.md",
+      "bytes": 10782,
+      "sha256": "sha256-f398071273ebe6c155a2025efcb90ffa8f71e5cc928b860da93c812db06856cd"
+    },
+    {
+      "path": "references/pipeline-skill-template.md",
+      "bytes": 9163,
+      "sha256": "sha256-06edff11d3260c80384cae604e3e2e5c13f8b2df767a83a2356f2f44bd60c1ba"
+    },
+    {
+      "path": "references/progress-tracking.md",
+      "bytes": 9869,
+      "sha256": "sha256-954e4ba5276b3ec1a4dbec6dc75f101394e5a741698e4aebb16916add5af4a58"
+    },
+    {
+      "path": "references/reporting.md",
+      "bytes": 18895,
+      "sha256": "sha256-e789443ae511a90c1d2bb3c064c7f7d2dacb1b3e101a69896cc86c5b3f99eecf"
+    },
+    {
+      "path": "references/research-priorities.md",
+      "bytes": 6607,
+      "sha256": "sha256-3fae7cc7fd1e6c65d2b387492251b0a6928641c175120217935d980f10325a84"
+    },
+    {
+      "path": "references/tao-rerun-convnext-cifar10.md",
+      "bytes": 4571,
+      "sha256": "sha256-dda9a4e2abc7dd9f04a70627c706d6958c1b2db04edab34a1ee057d5c2164da2"
+    },
+    {
+      "path": "references/tao-rerun-detr-cppe5.md",
+      "bytes": 3937,
+      "sha256": "sha256-ae5ccbbeb4e19c173e2364b8c5c66e5f2cd5d16de3ce3445b4e94d967d0ed9ff"
+    },
+    {
+      "path": "references/tao-rerun-segformer-foodseg103.md",
+      "bytes": 3831,
+      "sha256": "sha256-c38ac7d74c37d2c1cc3b68bb3ac39ffeaab344cb3985fe053511994142494e98"
+    },
+    {
+      "path": "references/tao-rerun-smolvlm-vqav2.md",
+      "bytes": 4534,
+      "sha256": "sha256-9a1eecbd6948e6316d3ba981bae18f0e6dc4b6c238b90c6a90e34f4d647e2e48"
+    },
+    {
+      "path": "references/testing.md",
+      "bytes": 21305,
+      "sha256": "sha256-59c4bac134ec6472cd2386b5610df91b0201402826b0d2393e7c88d541b648ab"
+    },
+    {
+      "path": "references/vlm-scripts.md",
+      "bytes": 28375,
+      "sha256": "sha256-64046567fb83105f89a92158aa82484f487cfda82fce459954221a40f0557757"
+    },
+    {
+      "path": "references/workflow-generate-train.md",
+      "bytes": 7717,
+      "sha256": "sha256-c6c2eee4dae7225b77359ee472a37cf5b1a9ac60b083bbb76866cc5303d2dae8"
+    },
+    {
+      "path": "references/workflow-intake-preflight.md",
+      "bytes": 22950,
+      "sha256": "sha256-ef1b91fab7be54fad84bc6ccc9bbfc53e5cae16ec4a8dd0ede03200769f784c2"
+    },
+    {
+      "path": "references/workflow-push-rerun.md",
+      "bytes": 3050,
+      "sha256": "sha256-479d76ed97ed8063ba5c62d0341af6f6a336a16cfb1002beb5520dced3a6250a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4198,
+      "sha256": "sha256-1829ad8237c034868c0819c9ab1fd528afbde16fdbc54d4a11124ba24d149da9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17991,
+      "sha256": "sha256-2978c20a676877cdfc413fd4535173ae5194e45d94c345df80fb776a2f683a5c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

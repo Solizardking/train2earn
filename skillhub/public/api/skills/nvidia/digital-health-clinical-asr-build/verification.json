@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/digital-health-clinical-asr-build",
+  "name": "digital-health-clinical-asr-build",
+  "description": "Stage 2 of the Clinical ASR Flywheel. Use when curating clinical terms, tagging IPA, and synthesizing a NeMo manifest. NOT for scoring (use /digital-health-clinical-asr-eval).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-build/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-build/metadata.json",
+  "bundleHash": "sha256-883145fe848f335f898a3cbaaa4f35192616c779434ad572e9c947e3d54ad294",
+  "merkleLeaf": "sha256-9f6fb41f789625ecf4da56a6fd8a4971a5c202916a33e30aae2e952bc5b894fd",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3992,
+      "sha256": "sha256-ab47a5bad8f284c3b21a9903080d6b9db634d49727fb55d9bc4a66d4b62141af"
+    },
+    {
+      "path": "references/manifest-schema.md",
+      "bytes": 5451,
+      "sha256": "sha256-8e3ae0128e1a5ac1ff095d486e8c13deba8aa91fac4f9934a857c85f9b43584c"
+    },
+    {
+      "path": "references/pronunciation-pipeline.md",
+      "bytes": 15569,
+      "sha256": "sha256-e1204674119c70e11d0ebd5e18df93c12ec0701011742c70bc290c4fe247e1b6"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4001,
+      "sha256": "sha256-8a5de058e0077279ecdde0187c32655712e9814679740dbc3a746e0e08665e08"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19869,
+      "sha256": "sha256-05d528c2abbaf727594808b28ca3fa1a0ff1c97956cfffac9c8bac5a4fed3757"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

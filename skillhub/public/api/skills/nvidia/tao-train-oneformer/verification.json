@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-oneformer",
+  "name": "tao-train-oneformer",
+  "description": "OneFormer for universal image segmentation. Unifies panoptic, instance, and semantic segmentation with a single architecture using task-conditioned queries. Use when training, evaluating, exporting, quantizing, or running inference for a TAO OneFormer model. Trigger phrases include \"train OneFormer\", \"universal segmentation\", \"task-conditioned segmentation\", \"panoptic / instance / semantic in one model\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-oneformer/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-oneformer/metadata.json",
+  "bundleHash": "sha256-8840c9cfa6f25f35230b7d86d00af608c0807e4ffd06f02cb94359a2a225fe48",
+  "merkleLeaf": "sha256-1270952831192a42adb6836dae23d93a75a99ebb4ec9a731ea8e40846eb8a934",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4072,
+      "sha256": "sha256-f92182011ea6388087539ea12814eca21812a1736b78bfc592f855fc99949104"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 9661,
+      "sha256": "sha256-4f46a5ab6127b3205c1362e206109fecfd6d35b3905e5f9cf2cf38bfc2f8b034"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 521,
+      "sha256": "sha256-d39aa8dcc3321b12596b620738acb55381a424b85e99ef392f52eea21fdbd79c"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 277,
+      "sha256": "sha256-5e765ec8a72ad365d47b77830518b24b9f3509af4b0baf4312cd02f0d0ce7065"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 521,
+      "sha256": "sha256-d39aa8dcc3321b12596b620738acb55381a424b85e99ef392f52eea21fdbd79c"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 4751,
+      "sha256": "sha256-bcd89bb521da819d0dd269d4cac7d8806a2fe201d5a48ac27858e7c01b4e5785"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 4820,
+      "sha256": "sha256-552f83ed65c5f80a7b35f14461ddbcc0f355afe728ede6825d91a1aa66d672ea"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 4883,
+      "sha256": "sha256-9cc32e9363ac2001ec65dda83d6cd0a0624a337691f5ddbf624a63a90471b919"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 4796,
+      "sha256": "sha256-c2afb4eb4b2948a43a79384ea1b764ca501d8671148f0bdcfabd09a55e58e8e5"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 4604,
+      "sha256": "sha256-4e9e3f25653f943c9eef4df7bfd5a1244afbea179368ba5ee120eca9a336d5f2"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 4604,
+      "sha256": "sha256-4e9e3f25653f943c9eef4df7bfd5a1244afbea179368ba5ee120eca9a336d5f2"
+    },
+    {
+      "path": "references/tao-deploy-oneformer.md",
+      "bytes": 6134,
+      "sha256": "sha256-c789f97bb6d469ac5a427a9e74f19e745e5ba5f6e0e21b466d77c5bacd5e4527"
+    },
+    {
+      "path": "references/tao-deploy-oneformer.skill_info.yaml",
+      "bytes": 3759,
+      "sha256": "sha256-ba6a474c479e5d87193e6958efe302981ca10707d7f7314f5523b58f50c0335a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4002,
+      "sha256": "sha256-53f114ca75e5693adac34a550d174821263bd069344947e24f5be9d1103a3e4d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19633,
+      "sha256": "sha256-cd3acf2b143fb1d1b86683e2c59cd952f77676d79c4e153339299c2bf6241825"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

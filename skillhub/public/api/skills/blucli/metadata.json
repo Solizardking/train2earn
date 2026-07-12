@@ -1,0 +1,7 @@
+{
+  "slug": "blucli",
+  "name": "blucli",
+  "description": "BluOS CLI (blu) for discovery, playback, grouping, and volume.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/blucli/SKILL.md"
+}

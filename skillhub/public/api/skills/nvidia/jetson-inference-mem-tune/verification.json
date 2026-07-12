@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-inference-mem-tune",
+  "name": "jetson-inference-mem-tune",
+  "description": "Pick the serving stack and per-runtime memory flags (vLLM, SGLang, llama.cpp, TensorRT Edge-LLM) for an LLM/VLM workload on any NVIDIA Jetson.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-inference-mem-tune/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-inference-mem-tune/metadata.json",
+  "bundleHash": "sha256-bc1108797f76e7ad9ee01514b7d2a82902517c9e4d4b8e84129ab3a9d197e136",
+  "merkleLeaf": "sha256-1fad7479a289cd85b73cd1e988de9ec58ff08a7b867caf73cd7cf051bf698430",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3347,
+      "sha256": "sha256-4a2d7c25d52db7309b83db1f52050f0a4f5b8fcb0ddff9b66429412937f1cfc0"
+    },
+    {
+      "path": "scripts/recommend.py",
+      "bytes": 10255,
+      "sha256": "sha256-8bc8643b9eb0a42f8bb0d174acaac2999c409b46b0f0b6e11c648c9b17295edb"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3752,
+      "sha256": "sha256-6f8615d9e45ab1b7086132aea3fc57ea78d5d489e7f87e1db51806c85c1a2752"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11436,
+      "sha256": "sha256-329a322031d2971ad46e2d88bd4744219eeb788e03cbd33001aa4a4fe35c19ab"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/hsb-flash",
+  "name": "hsb-flash",
+  "description": "Flash the FPGA on an HSB board connected to an NVIDIA devkit. Supports HSB Lattice boards (FPGA versions 2407, 2412, 2507, 2510) and Leopard Imaging VB1940 \"all-in-one\" cameras (FPGA versions 2507, 2510). Uses release-specific YAML manifests and board-type-specific program commands. Lattice and VB1940 commands must never be mixed.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/hsb-flash/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/hsb-flash/metadata.json",
+  "bundleHash": "sha256-f24ada5f183941b6afbc4aa45fd14a8d7928f77b53660fab44ad0ff728e7e44f",
+  "merkleLeaf": "sha256-500f46f3fb85e541e969e53c164eed4cc335186ef184b070ed13293c623af490",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 5171,
+      "sha256": "sha256-55349e0d771c377382fe175df4d278235eac850ff23a7778e549b810c5401efd"
+    },
+    {
+      "path": "references/flashing-infrastructure.md",
+      "bytes": 7863,
+      "sha256": "sha256-c064bf9d4e61385a664ddf5f0a9b6be07b3eb4e5f6aff5d797b0ac9dfb5c061c"
+    },
+    {
+      "path": "references/help-text.md",
+      "bytes": 5130,
+      "sha256": "sha256-d5aa9c049b1391467274f263c3c6dce7a9a378f80cbac749d6ac4899d1b3927c"
+    },
+    {
+      "path": "references/phase-details.md",
+      "bytes": 76445,
+      "sha256": "sha256-be15a05ecd9e64dbe8a170a24ee193f9ba1c88aa869443d14a8b848eeff63ad4"
+    },
+    {
+      "path": "scripts/v2.0.0/local_manifest.py",
+      "bytes": 3998,
+      "sha256": "sha256-5a4f57fe5faeaed4171fbf39644ac0d41227d29cd72ac1fb8a38d35786413251"
+    },
+    {
+      "path": "scripts/v2.0.0/make_manifest.py",
+      "bytes": 4329,
+      "sha256": "sha256-6978eb2a3e33ec9aac9282a196acbe9ef33f1904e3861e2834c85da3897c44fb"
+    },
+    {
+      "path": "scripts/v2.0.0/manifest-2407.yaml",
+      "bytes": 1377,
+      "sha256": "sha256-d42f91bc77b3e93341934f63bd142fc2a7f07288adce8348926eab6e72d19fd2"
+    },
+    {
+      "path": "scripts/v2.0.0/manifest.yaml",
+      "bytes": 1371,
+      "sha256": "sha256-8345109f99ff8ba28e8e011b7da8ccb8deca233b70697819742ab643d4064c87"
+    },
+    {
+      "path": "scripts/v2.3.0/manifest_leopard_cpnx100.yaml",
+      "bytes": 484,
+      "sha256": "sha256-998c69fd0d6e7bff1cb0330da277a3f70f060b200e0f849495f281f0b9e0d36e"
+    },
+    {
+      "path": "scripts/v2.3.1/manifest_leopard_cpnx100.yaml",
+      "bytes": 484,
+      "sha256": "sha256-998c69fd0d6e7bff1cb0330da277a3f70f060b200e0f849495f281f0b9e0d36e"
+    },
+    {
+      "path": "scripts/v2.3.1/manifest.yaml",
+      "bytes": 1017,
+      "sha256": "sha256-cfc148f49ae8393e49ff1c81e09a776f65bfde9da456f448ed7c94f01442711a"
+    },
+    {
+      "path": "scripts/v2.5.0/manifest_leopard_cpnx100.yaml",
+      "bytes": 488,
+      "sha256": "sha256-1c7255238bc398b3ba7646eea49a9695b070c6e5997d6e11dd02cca4f76f1918"
+    },
+    {
+      "path": "scripts/v2.5.0/manifest.yaml",
+      "bytes": 1035,
+      "sha256": "sha256-01678b302c1cd69f7fc92bb234440a354ea48ca8901633817f814d5b43ad267f"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3886,
+      "sha256": "sha256-1d1a7b3fb5cd4c36f9cbd4050a91230ea6fcdf9d9f6728ac45f9df32b426ddd5"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17699,
+      "sha256": "sha256-17b105ebf36066eafaae16bc1f84de757300fb25901ba857cc502e613a52ad57"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

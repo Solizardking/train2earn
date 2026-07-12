@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-activation-recompute",
+  "name": "nemo-mbridge-perf-activation-recompute",
+  "description": "Validate and use selective and full activation recompute in Megatron Bridge to reduce GPU memory usage at the cost of extra compute.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-activation-recompute/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-activation-recompute/metadata.json",
+  "bundleHash": "sha256-1cb92a8da781c69946bc52d4e8c286d6d33ea37dcd44b8e881a427362f5d90c7",
+  "merkleLeaf": "sha256-f9666547c894946f2fdeadc14522ffd3e1fe22c4c2c379f880e8eca6c8b3f125",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4036,
+      "sha256": "sha256-c72d77bd690ff5db196b140d404f891f6ab4e3333c0bc41f9de5bef20ec2df89"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 7920,
+      "sha256": "sha256-0e432d4ab73d40093ad2a48fe12d4e5aecfe9697aad4deb0e8a1fbbcc0183aec"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3814,
+      "sha256": "sha256-1eb5e63dd5210fde6b3e54f8c1c486f0c51d4b0d1b6af2410adeabfd02e96703"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9197,
+      "sha256": "sha256-e4244526231220b8a6745e362d29dee5fe0239239c5f3b46b4060316fa86a982"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

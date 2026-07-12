@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/aiq-research",
+  "name": "aiq-research",
+  "description": "Use when asked to run deep research or AI-Q research through a reachable NVIDIA AI-Q Blueprint backend.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/aiq-research/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/aiq-research/metadata.json",
+  "bundleHash": "sha256-6f49cd1ac2dea075174c7e49d2897f3209d314be1ff60b1b70980c353d0d002b",
+  "merkleLeaf": "sha256-2d25b3b559147a248a27eec5287e7708f67995ba3297dd096185aba69dfae8fa",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3470,
+      "sha256": "sha256-3ea81b12c915ae2ab07c2872aff3de7053c552243979375bb5d8be4be50c60f4"
+    },
+    {
+      "path": "scripts/aiq.py",
+      "bytes": 30339,
+      "sha256": "sha256-de0f63e3980041d5c202a09b764f78e4e9172e0972356fa17cb4d0c571b66449"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4089,
+      "sha256": "sha256-d44ae50062696dbcdd76bf35374517bb3d31d79736ec38a1f92035e06f8e706e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16423,
+      "sha256": "sha256-2fac59742c3d288ca43245981bacbdd9c0b769b53e4513d4fe87b13d2304e1b7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

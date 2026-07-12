@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-expert-parallel-overlap",
+  "name": "nemo-mbridge-perf-expert-parallel-overlap",
+  "description": "Validate and use MoE expert-parallel communication overlap in Megatron-Bridge, including overlap_moe_expert_parallel_comm, delay_wgrad_compute, and flex dispatcher backends such as DeepEP and HybridEP.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-expert-parallel-overlap/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-expert-parallel-overlap/metadata.json",
+  "bundleHash": "sha256-dfd172a4d5721f4a56acd233b4785f26c6f803b9070ae1a0803ef607e6405e03",
+  "merkleLeaf": "sha256-2b3f7b649aa9c89856c250f732cde193036ae5721028985c339b79b690edd855",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4054,
+      "sha256": "sha256-9dcc52aab410b178d33cd1bf3bc4d8564a7075f47e2f46462492853ba72ae9f4"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 7519,
+      "sha256": "sha256-7874d5ced6b095f3381b8944d7d4430d6686345f0b37e5344075f304c0f027e6"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4375,
+      "sha256": "sha256-a6e483c1b023502fa7ca37aaf133d3b9ee909a49a7ef5839e2076626e6656d5a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11517,
+      "sha256": "sha256-06ede723c0149b6226485a904104122b57074d445419ac40e366bfa7c4c56c43"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

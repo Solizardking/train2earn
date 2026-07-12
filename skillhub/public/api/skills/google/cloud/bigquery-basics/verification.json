@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/bigquery-basics",
+  "name": "bigquery-basics",
+  "description": "Manages datasets, tables, and jobs in BigQuery. Use when you need to interact with BigQuery, run SQL queries, manage BigQuery resources (datasets, tables, views), or perform basic data ingestion and analysis.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/bigquery-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/bigquery-basics/metadata.json",
+  "bundleHash": "sha256-5f778f035502ec167e2e1131b88ab7f85b332f33f551b0782174965aa06becae",
+  "merkleLeaf": "sha256-07bd114006fc656533e1104f15442d8851d2e2f43d596c3a5219fe185008d423",
+  "files": [
+    {
+      "path": "references/cli-usage.md",
+      "bytes": 2047,
+      "sha256": "sha256-b8ec6d981390d543a6af0ac3072813c6f7df641547dc17ecfaa2d43e766612db"
+    },
+    {
+      "path": "references/client-library-usage.md",
+      "bytes": 2319,
+      "sha256": "sha256-4b091ffcd5f657e1c96dc60e2ad913266850a380c39190a26bbd90e229eb6b5a"
+    },
+    {
+      "path": "references/core-concepts.md",
+      "bytes": 3442,
+      "sha256": "sha256-ccb7991b5f0cfb850defa220536831b3e579516377788cd9b2a4067adc1f00c8"
+    },
+    {
+      "path": "references/iac-usage.md",
+      "bytes": 1777,
+      "sha256": "sha256-4cc7cba990280a5f2438bb965fb4bd575ca5967289f72bfd19b7830eb44b0208"
+    },
+    {
+      "path": "references/iam-security.md",
+      "bytes": 1979,
+      "sha256": "sha256-384c8d4b1eb64f9567cbc6f167cd38802a0b4b836b0616305d947fe4f46cca04"
+    },
+    {
+      "path": "references/mcp-usage.md",
+      "bytes": 2355,
+      "sha256": "sha256-f4cf2ef39e89ae3fc8e3a0bc19100e3382dc1eeec920d4cd8c5801dc51a62df7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2511,
+      "sha256": "sha256-d19c3511d7328131b5c368fefbf4353fc387bc69cf0e59314656671c308b7b93"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

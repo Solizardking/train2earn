@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-init-source",
+  "name": "jetson-init-source",
+  "description": "Set up the BSP source workspace: Linux_for_Tegra overlay tracker, bsp_sources, Crosstool-NG toolchain. Use after jetson-init-image; not for fetching inputs.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-source/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-init-source/metadata.json",
+  "bundleHash": "sha256-6e07f61f6e351ead8af7c2a2bfb98aaaa80847fee8b76b756c3e40568b6c4e61",
+  "merkleLeaf": "sha256-34091203627db6fdc1b62c568d3e3c8f57f23e5034f3360813b51b6cfba9dc8e",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3817,
+      "sha256": "sha256-058a4c851384d4d1d7d6220de11b916d3de8f89345f4436974c5b1634f4acf8f"
+    },
+    {
+      "path": "references/branch-a-extraction.md",
+      "bytes": 4497,
+      "sha256": "sha256-fb9152ff6ebbca6277a6ef0618b0c281a6af20c8e5a75c22f06a8a040f6b1a3a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3640,
+      "sha256": "sha256-cf803c834bc656b4daaf9a158487637c7af59e6cea2b3f66988437ea05fa7a8e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17065,
+      "sha256": "sha256-94f34c1bdc43bc95d77fe26f6474e5817e3f5d5ab4c113582e58d959d5f7cd1f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

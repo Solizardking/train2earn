@@ -1,0 +1,7 @@
+{
+  "slug": "obsidian",
+  "name": "obsidian",
+  "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+  "category": "Productivity / Messaging",
+  "skill": "/api/skills/obsidian/SKILL.md"
+}

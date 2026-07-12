@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "in-progress/wizard",
+  "name": "wizard",
+  "description": "Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each step, and writing .env files and GitHub Actions secrets.",
+  "source": "https://skills.x402.wtf/api/skills/in-progress/wizard/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/in-progress/wizard/metadata.json",
+  "bundleHash": "sha256-a6bb9d29edf10a81f58fccc52b23a6d3466ec9e09efe3a5de1fd634f03f54b9e",
+  "merkleLeaf": "sha256-5f0341dbfd59d6face418cfdc1d340bcbf80403ec50a687fe218e6c28d9a71a1",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4185,
+      "sha256": "sha256-e113612095b14178e680022153f2409fb14ea8b992e55d59ad8ce94071ffaf49"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

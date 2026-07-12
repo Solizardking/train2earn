@@ -1,0 +1,68 @@
+{
+  "buildCommand": "npm run build:catalog",
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/api/skills",
+      "destination": "/api/skills.json"
+    },
+    {
+      "source": "/api/skills/:slug",
+      "destination": "/api/skills/:slug/metadata.json"
+    },
+    {
+      "source": "/skills",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/scanner",
+      "destination": "/scanner/index.html"
+    },
+    {
+      "source": "/publish",
+      "destination": "/publish/index.html"
+    },
+    {
+      "source": "/submissions",
+      "destination": "/submissions/index.html"
+    },
+    {
+      "source": "/api/submissions",
+      "destination": "/api/submissions.json"
+    },
+    {
+      "source": "/api/onchain",
+      "destination": "/api/onchain.json"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=3600"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=3600"
+        }
+      ]
+    }
+  ]
+}

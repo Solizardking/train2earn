@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-lot-size-calculator",
+  "name": "vulcan-lot-size-calculator",
+  "description": "Convert desired token/notional amounts to Phoenix base lots. Use whenever a Vulcan command requires size/base lots.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-lot-size-calculator/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-lot-size-calculator/metadata.json",
+  "bundleHash": "sha256-aeca374cb0997809f074d6fb0f6d5309afd8f17b2ca96f135a61c9c48ef07f2c",
+  "merkleLeaf": "sha256-41c91b7a903f89acb8d156ee945d2a546ce7d5aa2bcbf633da04cf523dc64cde",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 449,
+      "sha256": "sha256-a925c6235b41b2673091eaf0074c684e19426546aaac19259b4cc077e92be441"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

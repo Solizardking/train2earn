@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/cuopt-routing-api-python",
+  "name": "cuopt-routing-api-python",
+  "description": "Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only. Use when the user is building or solving routing in Python.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/cuopt-routing-api-python/SKILL.md"
+}

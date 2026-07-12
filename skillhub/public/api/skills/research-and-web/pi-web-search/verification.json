@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "research-and-web/pi-web-search",
+  "name": "pi-web-search",
+  "description": "ONLY for Pi Agents — all other agents have their own web tools. How Pi accesses the web via the pi-web-access package — search, fetch URLs/PDFs/YouTube/GitHub. Use whenever a Pi task needs current info, docs, news, prices, or content from a specific URL.",
+  "source": "https://skills.x402.wtf/api/skills/research-and-web/pi-web-search/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/research-and-web/pi-web-search/metadata.json",
+  "bundleHash": "sha256-950c1466473d04ec174897e832cd8be803a5842383dc89f236a22bb0f9c9d8d6",
+  "merkleLeaf": "sha256-9fa24badcfc47ce3bda58d7acc9deb7130455e6bc14480163ea76b9f7c53eaf2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3095,
+      "sha256": "sha256-7acc6f83bc1da6445516c14828f71191e3c08798d242bc3c8ef2712cf820afd7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

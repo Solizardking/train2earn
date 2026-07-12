@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-moe-hardware-configs",
+  "name": "nemo-mbridge-perf-moe-hardware-configs",
+  "description": "Representative MoE training playbooks by hardware platform and model family. Summarizes rounded throughput bands, parallelism patterns, and common tuning stacks.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-hardware-configs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-hardware-configs/metadata.json",
+  "bundleHash": "sha256-1ad9f0a2604b1a63b63343700e695dcf6ef3257eb38cddb48669ba4568b89292",
+  "merkleLeaf": "sha256-42df146c29f87496f70e5d984c1da1372648d723f69d5886f9672e7bf9feb5ca",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4338,
+      "sha256": "sha256-b7a201c8050c799019c847f8538dcf95adb16e43f75b0e12fbe3c4631816704a"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 5298,
+      "sha256": "sha256-0cae981c487ee3055ac6c23a82b9acccdc531286fb35e3974b0827780e2664fe"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3854,
+      "sha256": "sha256-8bd860efdf17f60f61ea7404b95578ffe36575a181e73481c8e6614fa7df9003"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6021,
+      "sha256": "sha256-7c481040880c803b4d59f73d91a9b75fd6c35dcb5c6a89efdc029879ee10b2a1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

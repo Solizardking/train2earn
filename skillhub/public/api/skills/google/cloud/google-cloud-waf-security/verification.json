@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-waf-security",
+  "name": "google-cloud-waf-security",
+  "description": "Generates security-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify security requirements, and provide actionable recommendations for IAM, network security, data protection, and operational security.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-security/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-security/metadata.json",
+  "bundleHash": "sha256-5b1d95ca1338a8ae84bc3473ed068e24f355fac51609cc37263d8379a367e832",
+  "merkleLeaf": "sha256-1729e7570f6e36812ea985e2537bf034194c88c712619e44efa8f6002a90ec6e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 14629,
+      "sha256": "sha256-d9cf26d346204a7cba11940341caec6b91fa396b8b9b393de257a8bad68738f9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

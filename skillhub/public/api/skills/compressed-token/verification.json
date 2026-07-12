@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "compressed-token",
+  "name": "compressed-token",
+  "description": "For compressed token operations on Solana ~400x cheaper than SPL: create mints with interface PDAs, mint, transfer, approve, revoke, compress, decompress, merge, and Token-2022 with compression. Compressed token accounts are always rent-free. @lightprotocol/compressed-token (TypeScript) with createRpc() from @lightprotocol/stateless.js.",
+  "source": "https://skills.x402.wtf/api/skills/compressed-token/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/compressed-token/metadata.json",
+  "bundleHash": "sha256-ddb23c89184dab75cfe9ff84008dc81b908266c456b672f9797089ad4c82da88",
+  "merkleLeaf": "sha256-473ad2bcd5bd28d2203f38c6d6080bded8411b282bb9c883b41f4b45a18d7665",
+  "files": [
+    {
+      "path": "references/approve-revoke.md",
+      "bytes": 2113,
+      "sha256": "sha256-88d1a5814298e78d0171ea5cbdc99330e01ae0d229043db5b86881453da92a17"
+    },
+    {
+      "path": "references/compress-decompress.md",
+      "bytes": 4973,
+      "sha256": "sha256-2a2b893e80a74eea76200e2e22ffad09b2e735419a500cac2a86dcaba219ac50"
+    },
+    {
+      "path": "references/create-mint.md",
+      "bytes": 2737,
+      "sha256": "sha256-ca74de208b30ecb292f1595c433a58adf28593dddf904201926fbfaee73d0371"
+    },
+    {
+      "path": "references/distribution.md",
+      "bytes": 7522,
+      "sha256": "sha256-686f3abd86e785cd428b93c88e5d77dbfaaded2c1481be1596692ab1a2435460"
+    },
+    {
+      "path": "references/merge-token-accounts.md",
+      "bytes": 1922,
+      "sha256": "sha256-092b83dd98a2c0292a45151d341f5fe16dca8212bb0a36f19c831c0cfc1ff54e"
+    },
+    {
+      "path": "references/mint-to.md",
+      "bytes": 2143,
+      "sha256": "sha256-06a0d6d7997d58a8b9724f5ec4430ea0da2daeb1cdac7cefaa80a0c5f4843cda"
+    },
+    {
+      "path": "references/queries.md",
+      "bytes": 1840,
+      "sha256": "sha256-5345558a88a7b8f969eaf7063a6aa8294a1452717b809e4642d63bbcdfb598d4"
+    },
+    {
+      "path": "references/token-2022.md",
+      "bytes": 3811,
+      "sha256": "sha256-034d2b11b2d89ff5cb584805411b8fb094efaa3ff66966f61620a03730beb8dc"
+    },
+    {
+      "path": "references/transfer.md",
+      "bytes": 3382,
+      "sha256": "sha256-e6177628c3231ed0bd68a278e1016682ae6acf2ffa5a79019c99d673f5a61176"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8375,
+      "sha256": "sha256-7bb747507042b70b2a9887aa73427028538bb1022a3b509ed9420f2ca43a4751"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

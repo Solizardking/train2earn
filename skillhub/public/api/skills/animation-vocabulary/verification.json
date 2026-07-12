@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "animation-vocabulary",
+  "name": "animation-vocabulary",
+  "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one.",
+  "source": "https://skills.x402.wtf/api/skills/animation-vocabulary/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/animation-vocabulary/metadata.json",
+  "bundleHash": "sha256-2d151183dde7968537c97c9aeb573f3168b7d5ae77f31a978c96e0cc7e3c8b83",
+  "merkleLeaf": "sha256-a309640cd59891cd6f70796c89d464763210f93c16c729c533b4b715cef30341",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 13128,
+      "sha256": "sha256-d718b48fe3c7898804d588f050a2e266d82c9f5ef51da256c8cb8b5951527757"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

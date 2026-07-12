@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "personal/edit-article",
+  "name": "edit-article",
+  "description": "Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edit, revise, or improve an article draft.",
+  "source": "https://skills.x402.wtf/api/skills/personal/edit-article/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/personal/edit-article/metadata.json",
+  "bundleHash": "sha256-3d1df50a645d24df0eb3354b97c78d7b329505449449ef8897bab00e742946d5",
+  "merkleLeaf": "sha256-e9972b5967234b53f6b673539e55d8b673422a8c462967db9889339c28001506",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 752,
+      "sha256": "sha256-e10fba546f45357fe0aaa7494b9e186910d4525818d19f9b2ad6f28cc506aa5e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

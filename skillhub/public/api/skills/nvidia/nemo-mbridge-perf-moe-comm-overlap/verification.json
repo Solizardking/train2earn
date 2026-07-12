@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-moe-comm-overlap",
+  "name": "nemo-mbridge-perf-moe-comm-overlap",
+  "description": "MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-comm-overlap/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-comm-overlap/metadata.json",
+  "bundleHash": "sha256-e55e6d7e2991933d347ec8a62d28d6e646f930c464ee1d3cc6cfcf2f8ed21a98",
+  "merkleLeaf": "sha256-555324330e5b70b0a2c7f4a468056ddf24691e4b491a1090abc6d14c69ddff49",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4014,
+      "sha256": "sha256-73509bf9342d1d9c6b947bfce29451075e3bbb7947b94bc738ec0d65263b981c"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 2075,
+      "sha256": "sha256-c3328ec179c7846f3457c55dd84a6c572980598bea3dc3d611481cdf98825b4f"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4140,
+      "sha256": "sha256-870d709ace0ffc612a9161cd4f3fb0157c74c7ced2bd1e6ea15a5229903c6317"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5053,
+      "sha256": "sha256-3598fd1dfee0d53ee03fb55834ff1c9ffceadb84c57a30d8cc218e6f48c8228f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

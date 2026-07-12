@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "skill-authoring/effective-agent-skills",
+  "name": "effective-agent-skills",
+  "description": "How to write effective agent skills — what to do, what not to do, anatomy, progressive disclosure, design patterns, anti-patterns, testing, security. Read this whenever a skill (Claude Skill, Agent Skill, SKILL.md) is being created, edited, reviewed, or debugged. Use when the user says \"create a skill\", \"new skill\", \"update this skill\", \"improve a skill\", \"why isn't my skill triggering\", or anything else involving authoring or editing SKILL.md files.",
+  "source": "https://skills.x402.wtf/api/skills/skill-authoring/effective-agent-skills/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/skill-authoring/effective-agent-skills/metadata.json",
+  "bundleHash": "sha256-fa4ca03b6ed168f0a2e5894f883427d8dd434c5907e47d9c896c962f63b19dda",
+  "merkleLeaf": "sha256-cd788874e93c6deee964934c0c8325c3616e9e8614cbe35cdbbafb182c152dd4",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 15836,
+      "sha256": "sha256-b5290be123af185c2e73a622ca37b99c830553a5e1f3ffa80344cbb03a1dccea"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

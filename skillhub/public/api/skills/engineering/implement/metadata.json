@@ -1,0 +1,7 @@
+{
+  "slug": "engineering/implement",
+  "name": "implement",
+  "description": "Implement a piece of work based on a spec or set of tickets.",
+  "category": "Utilities",
+  "skill": "/api/skills/engineering/implement/SKILL.md"
+}

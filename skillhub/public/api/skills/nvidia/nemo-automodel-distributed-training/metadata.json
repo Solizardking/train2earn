@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemo-automodel-distributed-training",
+  "name": "nemo-automodel-distributed-training",
+  "description": "Guide for selecting and configuring distributed training strategies in NeMo AutoModel, including FSDP2, Megatron FSDP, DDP, and parallelism settings.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemo-automodel-distributed-training/SKILL.md"
+}

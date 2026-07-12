@@ -1,0 +1,7 @@
+{
+  "slug": "google/cloud/gke-batch-hpc",
+  "name": "gke-batch-hpc",
+  "description": "Runs batch and HPC workloads on GKE, utilizing job queues and parallel processing. Use when running GKE batch jobs, configuring GKE HPC, or setting up GKE job queues. Don't use for standard web application deployments (use gke-app-onboarding instead).",
+  "category": "Google / Cloud",
+  "skill": "/api/skills/google/cloud/gke-batch-hpc/SKILL.md"
+}

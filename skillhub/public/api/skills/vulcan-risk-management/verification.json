@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-risk-management",
+  "name": "vulcan-risk-management",
+  "description": "Risk checks for Phoenix perps: margin health, leverage tiers, liquidation distance, notional caps, exposure, stops, and strategy guardrails.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-risk-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-risk-management/metadata.json",
+  "bundleHash": "sha256-122b4358d735f52f2f854f863e11e4041b72c51ba8905ad43d076f4426a837c1",
+  "merkleLeaf": "sha256-03336d431ef0874d6f4bf47575041b6455da7f5fdea2ff20b690d273c5ff350f",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 458,
+      "sha256": "sha256-4827309efc83fb013b759a1ccedd611dbeef95c23ce176ce4389379ad61c3615"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

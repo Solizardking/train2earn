@@ -1,0 +1,7 @@
+{
+  "slug": "pump-admin-ops",
+  "name": "pump-admin-ops",
+  "description": "Build and execute Pump.fun admin workflows for authority management, creator reassignment, IDL authority changes, cashback claims, Mayhem mode, and cross-program Pump/PumpAMM admin instructions. Use when operating Pump protocol authority or administrative tasks.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/pump-admin-ops/SKILL.md"
+}

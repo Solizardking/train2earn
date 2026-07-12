@@ -1,0 +1,7 @@
+{
+  "slug": "clawd-token-ops",
+  "name": "clawd-token-ops",
+  "description": "Work with $CLAWD token operations for Solana CLAWD and Cheshire Terminal. Use when checking or documenting the $CLAWD mint, token-gated balances, Jupiter buy/swap flows, burn tracking, holders, staking, treasury payments, or any task that asks to include the Clawd token address.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/clawd-token-ops/SKILL.md"
+}

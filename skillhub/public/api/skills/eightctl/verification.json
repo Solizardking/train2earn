@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "eightctl",
+  "name": "eightctl",
+  "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
+  "source": "https://skills.x402.wtf/api/skills/eightctl/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/eightctl/metadata.json",
+  "bundleHash": "sha256-d4f2f724bc23b607625029012c0f2d2cc642cc6be49438cfc0fbb6dec0cfad71",
+  "merkleLeaf": "sha256-436d4e3fb32b0bb3519e0ea2f2bb8232d1a24ea2fceae415a07c592303c2cd1b",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 905,
+      "sha256": "sha256-1b9f4a871415be4d9d2bffbe454604359291bf528b07f202d4c1925786054028"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

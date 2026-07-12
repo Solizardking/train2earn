@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/physicsnemo-discover",
+  "name": "physicsnemo-discover",
+  "description": "Official NVIDIA-authored guidance for navigating PhysicsNeMo — pick the model, datapipe, or example for a SciML/AI4Science task (surrogates, forecasting, downscaling, physics-informed, inverse, generative). Points at existing files via live repo search; never writes code. Do NOT use for installation or environment setup, training-loop or other code authoring/scaffolding, contributor/CI/packaging questions, repo-specific questions in physicsnemo-sym/-cfd/-curator, or general (non-physics) ML/PyTorch.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/physicsnemo-discover/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physicsnemo-discover/metadata.json",
+  "bundleHash": "sha256-1683480f74a919a7e95d2c5a099e68d3611bbbc050f748c57496a33f773d45f6",
+  "merkleLeaf": "sha256-f1bd6b32aa66c65c701e6cfe31a36fb4ef8179d004474adeab2b9c7c41374d58",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4290,
+      "sha256": "sha256-edca8eebbdfb02cb10cb6eaa19637801c792c61fb5ef0d6c2184c670d5bb9f7c"
+    },
+    {
+      "path": "references/RECIPES.md",
+      "bytes": 7121,
+      "sha256": "sha256-e9e7b5277bf9b6e90e50de6d69167b24b6a419370d19b22f0caded5cae527242"
+    },
+    {
+      "path": "references/TAXONOMY.md",
+      "bytes": 12071,
+      "sha256": "sha256-f14a993718021e17e9d8aefde9b4ccbacfc5200c7bd3d33a9fef7ec7eb96ecfc"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3818,
+      "sha256": "sha256-167b32c80f5e75ec280e4780613ac566e01d01ba241827ab056a94ba48570e62"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7464,
+      "sha256": "sha256-7ff4564485e94139d17c12552d8a2c2d57d7985297189f385692be62d71cfda2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

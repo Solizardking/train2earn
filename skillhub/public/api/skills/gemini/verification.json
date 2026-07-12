@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "gemini",
+  "name": "gemini",
+  "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
+  "source": "https://skills.x402.wtf/api/skills/gemini/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/gemini/metadata.json",
+  "bundleHash": "sha256-4280dab3bfae0375f1d4e8b28d4d8b39843d64bd03573965ab9cf38ec05a2dbd",
+  "merkleLeaf": "sha256-2f23b5946853ca03659e901e6e1864d541f49e5a7ca00272e479e2524a29453d",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 746,
+      "sha256": "sha256-bd1a39d637571c70c3c5e6deeec4d2ce9a8e612ad8df1ef178b4bc24f2eea8e5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

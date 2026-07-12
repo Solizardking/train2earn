@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nv-generate-mr",
+  "name": "nv-generate-mr",
+  "description": "Used for generating synthetic body MRI volumes with NV-Generate-CTMR rflow-mr. Not for paired masks or production training data.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-mr/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-generate-mr/metadata.json",
+  "bundleHash": "sha256-71f51e177659f62fb46117c874b132d5656f3d8805f3367e502e540d47d4d92b",
+  "merkleLeaf": "sha256-b1a45595e6de6b21e80ff361fe6d81fb9c341c77d30e79a77b99a70b53ed4ff0",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3987,
+      "sha256": "sha256-1bfcae1cb9ecfc59b21bcf563e80b462035d4a8681654bcdb9e637cb3fb5c1cd"
+    },
+    {
+      "path": "references/fov-and-downloads.md",
+      "bytes": 1011,
+      "sha256": "sha256-82edab80f6d9d5b281beef1a2c25ef38105841f0341a58a12c69237cd20aa6ae"
+    },
+    {
+      "path": "scripts/run_mr.py",
+      "bytes": 25983,
+      "sha256": "sha256-0cf767152cac570dd300527e8dacbb5467becf0b5736957109ac9195ff547f84"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 7517,
+      "sha256": "sha256-5659629b1c04bb200bc0dc2a875a44c218eb80840ed207658ca672bed86bd9b1"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4161,
+      "sha256": "sha256-0425c95563568fd9c83924c2a40bc6cfbf7e303894a685f8e31f668353153a2d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8037,
+      "sha256": "sha256-7177ff15f0380c03fe2cbca906c4fd98518d8a0d7b6aec8bffbb4619aabf7e80"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

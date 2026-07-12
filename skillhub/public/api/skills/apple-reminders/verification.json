@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "apple-reminders",
+  "name": "apple-reminders",
+  "description": "Manage Apple Reminders via the `remindctl` CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+  "source": "https://skills.x402.wtf/api/skills/apple-reminders/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/apple-reminders/metadata.json",
+  "bundleHash": "sha256-08f7791792113a911dce4ec0740a1cdff1e42f193ea13f550ab55d3f6d90836e",
+  "merkleLeaf": "sha256-04726a268cae082436fceaa10cde7307f1a5a1f5c5ef27d30c581959d88e9bb9",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2310,
+      "sha256": "sha256-0cbe33ba91010d54e2c53e20500ffc1fd8320b507b1ba8fcb5cf3170487a5918"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

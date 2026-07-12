@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-hierarchical-context-parallel",
+  "name": "nemo-mbridge-perf-hierarchical-context-parallel",
+  "description": "Operational guide for enabling hierarchical context parallelism in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-hierarchical-context-parallel/metadata.json",
+  "bundleHash": "sha256-3a27b85ca389162e8dbe92f64dd1e38814c16b9b7971d5ab6186eaeb54439968",
+  "merkleLeaf": "sha256-6ae0361fb89403cb19851cbcf1ae1114b5467cb48c59dfbad3e55ad060e8a092",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4459,
+      "sha256": "sha256-42ccae50be1e83d828f8c281fbd71dc6c8fb13658303fcbbda843c958d82e964"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 2800,
+      "sha256": "sha256-850639603fb4d5fea25d30d61314e4806cc97ec4bad6deb9477d33a24310bd54"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3949,
+      "sha256": "sha256-45d302eeef437672ad5c0b333dc900e3b47f8f58e4c60aea237566fc95ee8164"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5641,
+      "sha256": "sha256-5881cb210e69f1875dfcec3e34caa614a95c67fd972e6baf8fb740b644bf8609"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

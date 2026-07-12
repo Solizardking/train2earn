@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/dynamo-router-starter",
+  "name": "dynamo-router-starter",
+  "description": "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-runner for recipe deployment and troubleshoot for failure diagnosis.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/dynamo-router-starter/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dynamo-router-starter/metadata.json",
+  "bundleHash": "sha256-755acea3e489e4c7103fa0078b352cecfa9a768ddf05d972c337cadfb6ee018f",
+  "merkleLeaf": "sha256-153068315ec055ced180fef294671a9a954736aab8ccdc3b41658af00669bb0e",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2708,
+      "sha256": "sha256-8766e4de4fe3c8ecacee89d961efff2e43574c6640f6784ead2de1a752c3c7cb"
+    },
+    {
+      "path": "references/router-modes.md",
+      "bytes": 2132,
+      "sha256": "sha256-2126de2a637fb38cccf77333e03f7307e128a4f7b088a42d0cc39b93e83406f3"
+    },
+    {
+      "path": "scripts/check_router_health.py",
+      "bytes": 4860,
+      "sha256": "sha256-72321f4427461bfba497227d1e554c2ff83efbc39d4ed3f36f2c75c840410de2"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2414,
+      "sha256": "sha256-5c646db90e465b161898e870539750d2d10ed5bd710e5d0ef7051f0e494dfd2d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5712,
+      "sha256": "sha256-1274a47bcd28c5086c26ce1a10f2b2e6c4a28b1b3fa9599ad2c4d1cb6ba67728"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

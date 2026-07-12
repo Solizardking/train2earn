@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/ads/google-mobile-ads/google-mobile-ads-android-migrate-to-next-gen",
+  "name": "google-mobile-ads-android-migrate-to-next-gen",
+  "description": "Migrates Android applications from the old, legacy Google Mobile Ads (GMA) SDK (com.google.android.gms:play-services-ads) to the new GMA Next-Gen SDK (com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk). Provides comprehensive mapping tables for imports, classes, and method signatures to help determine migration steps. Use when migrating an existing Android codebase from the old, legacy GMA SDK to GMA Next-Gen SDK.",
+  "source": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-android-migrate-to-next-gen/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-android-migrate-to-next-gen/metadata.json",
+  "bundleHash": "sha256-9978e1b51b4c30604a4e671afea26e099ca680948a71b3c822e392bb251ffe6b",
+  "merkleLeaf": "sha256-0e335775141e6c88a2ee245c5da1689597448726098a93b15aaa7ac6cc6844b9",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 39586,
+      "sha256": "sha256-e8a1e910b87e4988722158aa8d6745418b035cf3bca63e6761872a71579c54d0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

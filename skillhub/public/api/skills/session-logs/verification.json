@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "session-logs",
+  "name": "session-logs",
+  "description": "Search and analyze your own session logs (older/parent conversations) using jq.",
+  "source": "https://skills.x402.wtf/api/skills/session-logs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/session-logs/metadata.json",
+  "bundleHash": "sha256-5891982eef87d2bb5dfeb977ec06fdc1a5951303c3a45b6fe7aec17f32417998",
+  "merkleLeaf": "sha256-bfd5ade938fd46f06df52dd9fdae0f5565c0b684771970a5b280a7b2af019184",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3409,
+      "sha256": "sha256-1990eab1094ede3525e639726b79b9bdc6751c95d6dbf6f4e97f24a46581f9ab"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

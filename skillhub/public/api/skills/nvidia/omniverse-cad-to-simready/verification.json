@@ -1,0 +1,604 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/omniverse-cad-to-simready",
+  "name": "omniverse-cad-to-simready",
+  "description": "Coordinate the end-to-end CAD/source-asset to SimReady workflow. Use for broad requests such as CAD to SimReady, source asset to simulation-ready USD, or prop packaging that require conversion, material/physics assignment, SimReady conformance, validation, and optional package creation; deploy or verify Content Agents services first when property assignment is enabled; route single-stage work through nested references.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/omniverse-cad-to-simready/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/omniverse-cad-to-simready/metadata.json",
+  "bundleHash": "sha256-af948b9340c4bc52aa2dbf07c8a03065ac886c0d07a97e920710f7a63c6e9d6e",
+  "merkleLeaf": "sha256-1a57fdadea265e064b99643c01a7f03017549d92de63a94decbaff732178241e",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 427,
+      "sha256": "sha256-10c8b975606df186e8796ff6e18f76dd9102bb8d4526a5ee10a4d5b18df7dfa1"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 7405,
+      "sha256": "sha256-217f7cc260691668b136482c6aa033714b9884b455521f7e0dc68b13625bd198"
+    },
+    {
+      "path": "references/assemble-package-source/README.md",
+      "bytes": 3534,
+      "sha256": "sha256-e7407d892e80ae97f3ff5a4d34ef0a85b2e1d76a57472d1e7173cb26dd1aae61"
+    },
+    {
+      "path": "references/assemble-package-source/scripts/check_dependencies.py",
+      "bytes": 1111,
+      "sha256": "sha256-eac380335f463c2b26548efdddd33df48eb0ae76b617fe0e570a7af0ee8de082"
+    },
+    {
+      "path": "references/assemble-package-source/scripts/report_schema.json",
+      "bytes": 1209,
+      "sha256": "sha256-b36b494554b9f20ec2b4158916ae5765ec5629d6b798bff80304ef58af687466"
+    },
+    {
+      "path": "references/assemble-package-source/scripts/run.py",
+      "bytes": 17983,
+      "sha256": "sha256-903198a72157f3c956906cad205bcd40d37bb501daeeabc8282c6e455fd25e2c"
+    },
+    {
+      "path": "references/commands.md",
+      "bytes": 5379,
+      "sha256": "sha256-a55c51dd47141455a7d16232a2426df36cb875578d82fa55c672eceafe6e865d"
+    },
+    {
+      "path": "references/content-agents/README.md",
+      "bytes": 19012,
+      "sha256": "sha256-df14a44923ec3dfdd4276043c59004c63403006b1f08a07ee04b75a0cc4a202c"
+    },
+    {
+      "path": "references/content-agents/references/material-agent-client/README.md",
+      "bytes": 12414,
+      "sha256": "sha256-b7a5fffd3a861afafba424763cee1edd4cd0658f2b881cf994dca98ce21d1d5f"
+    },
+    {
+      "path": "references/content-agents/references/material-agent-client/scripts/check_dependencies.py",
+      "bytes": 417,
+      "sha256": "sha256-b008733ec65fdc8ad7a9d9dd8dd3f16df2163e309bbc2bb7b21ead8d42ab3216"
+    },
+    {
+      "path": "references/content-agents/references/material-agent-client/scripts/report_schema.json",
+      "bytes": 722,
+      "sha256": "sha256-cdc893161b69012cd217faaab237901cd0763982fe62dcbe33712ba496faee4f"
+    },
+    {
+      "path": "references/content-agents/references/material-agent-client/scripts/run.py",
+      "bytes": 405,
+      "sha256": "sha256-cd993495817cb48ececfd193b00b91bf45f7fa3feeceb639ae28c88100c81285"
+    },
+    {
+      "path": "references/content-agents/references/physics-agent-client/README.md",
+      "bytes": 13442,
+      "sha256": "sha256-563bf4cc3ea7910bc683a159e02ff633801b834ebb2d9638daaf9a10dd10e2ba"
+    },
+    {
+      "path": "references/content-agents/references/physics-agent-client/scripts/check_dependencies.py",
+      "bytes": 417,
+      "sha256": "sha256-b008733ec65fdc8ad7a9d9dd8dd3f16df2163e309bbc2bb7b21ead8d42ab3216"
+    },
+    {
+      "path": "references/content-agents/references/physics-agent-client/scripts/report_schema.json",
+      "bytes": 722,
+      "sha256": "sha256-cdc893161b69012cd217faaab237901cd0763982fe62dcbe33712ba496faee4f"
+    },
+    {
+      "path": "references/content-agents/references/physics-agent-client/scripts/run.py",
+      "bytes": 405,
+      "sha256": "sha256-cd993495817cb48ececfd193b00b91bf45f7fa3feeceb639ae28c88100c81285"
+    },
+    {
+      "path": "references/content-agents/references/texture-agent-client/README.md",
+      "bytes": 6357,
+      "sha256": "sha256-c58864acee3483728c2e30f6dd5c4a5bb84a8093fa75c5fe2f13fd21078344ea"
+    },
+    {
+      "path": "references/content-agents/references/texture-agent-client/scripts/check_dependencies.py",
+      "bytes": 417,
+      "sha256": "sha256-b008733ec65fdc8ad7a9d9dd8dd3f16df2163e309bbc2bb7b21ead8d42ab3216"
+    },
+    {
+      "path": "references/content-agents/references/texture-agent-client/scripts/report_schema.json",
+      "bytes": 722,
+      "sha256": "sha256-cdc893161b69012cd217faaab237901cd0763982fe62dcbe33712ba496faee4f"
+    },
+    {
+      "path": "references/content-agents/references/texture-agent-client/scripts/run.py",
+      "bytes": 405,
+      "sha256": "sha256-cd993495817cb48ececfd193b00b91bf45f7fa3feeceb639ae28c88100c81285"
+    },
+    {
+      "path": "references/content-agents/scripts/check_dependencies.py",
+      "bytes": 1340,
+      "sha256": "sha256-872dce1f9cfcd9400e0b7438b559270cd89a91627bd8f534b3b2031d346c10e1"
+    },
+    {
+      "path": "references/content-agents/scripts/content_agent_check_dependencies.py",
+      "bytes": 4743,
+      "sha256": "sha256-d80c3a22fe503d48da07b240796f0a283880210324a6d4541d69ba9e4a83296a"
+    },
+    {
+      "path": "references/content-agents/scripts/content_agent_client.py",
+      "bytes": 72887,
+      "sha256": "sha256-21aafc0e4b830d2bd8228b3073687ce7110acc28b21f367ac071b1e5755b009b"
+    },
+    {
+      "path": "references/content-agents/scripts/content_agent_material_cleanup.py",
+      "bytes": 10922,
+      "sha256": "sha256-6031852cce8d7033b7c8d7ea1b396d772ab49daa2b4f048c3289d07adad46d83"
+    },
+    {
+      "path": "references/content-agents/scripts/content_agent_report_schema.json",
+      "bytes": 722,
+      "sha256": "sha256-cdc893161b69012cd217faaab237901cd0763982fe62dcbe33712ba496faee4f"
+    },
+    {
+      "path": "references/content-agents/scripts/report_schema.json",
+      "bytes": 961,
+      "sha256": "sha256-b5a17e23c3135e997bd7dba9dbef6473022cc559ec089116bd5fd80aa2f0a8f8"
+    },
+    {
+      "path": "references/content-agents/scripts/run.py",
+      "bytes": 9811,
+      "sha256": "sha256-d6ed39349facebcdc37fde4c437b46e24b7bd7d6803c8f779299dccd057aab29"
+    },
+    {
+      "path": "references/convert-to-usd/README.md",
+      "bytes": 10988,
+      "sha256": "sha256-d8b50556c7678c965c420de344b27a97695087064ecc4607c56aa28e195991fe"
+    },
+    {
+      "path": "references/convert-to-usd/references/mujoco-usd-converter/README.md",
+      "bytes": 4135,
+      "sha256": "sha256-fcec1483d298f2bcfdf8690167476c55cf5af92379f0c1ff1a5d323fce471388"
+    },
+    {
+      "path": "references/convert-to-usd/references/mujoco-usd-converter/scripts/check_dependencies.py",
+      "bytes": 1576,
+      "sha256": "sha256-62716bf36eaaae78085f027a7cc8ec083cfcef65988733ddd9af9f052a037fa6"
+    },
+    {
+      "path": "references/convert-to-usd/references/mujoco-usd-converter/scripts/report_schema.json",
+      "bytes": 405,
+      "sha256": "sha256-b2f018c5fecbc9acf92fac94c1af3dfa05a7952deeb57f2b0c88e07b6e1a2eb6"
+    },
+    {
+      "path": "references/convert-to-usd/references/mujoco-usd-converter/scripts/run.py",
+      "bytes": 9494,
+      "sha256": "sha256-b32a805a97e8415aa098e719642cdd6076d3147e5bd42a153484e054cbed05d4"
+    },
+    {
+      "path": "references/convert-to-usd/references/openusd-exchange-sdk-usdex/README.md",
+      "bytes": 4782,
+      "sha256": "sha256-5def874b107d1dd22ac74509c15fee9bcda7df6317bd5a88da6225045dc025b8"
+    },
+    {
+      "path": "references/convert-to-usd/references/urdf-usd-converter/README.md",
+      "bytes": 3919,
+      "sha256": "sha256-be879767b0be88f5eb86026430ddcc649dd1ee96a64bafc5e77c55bf6b7ca854"
+    },
+    {
+      "path": "references/convert-to-usd/references/urdf-usd-converter/scripts/check_dependencies.py",
+      "bytes": 1570,
+      "sha256": "sha256-75c503006a4b83383f3d29917ad1711881370967ef435fec823e2c633f5376b7"
+    },
+    {
+      "path": "references/convert-to-usd/references/urdf-usd-converter/scripts/report_schema.json",
+      "bytes": 403,
+      "sha256": "sha256-475ba331c4fc8ac991929f52d82973c6b95e0229255c694fcff693171391b72b"
+    },
+    {
+      "path": "references/convert-to-usd/references/urdf-usd-converter/scripts/run.py",
+      "bytes": 9661,
+      "sha256": "sha256-74f7e8de6c121c68247dd179b219f045795dd4d26126d2a5e7e326cbfe2d6e41"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-cad/README.md",
+      "bytes": 11940,
+      "sha256": "sha256-1a44e5dc10e7944813920d3cdcf6b4e35cd475dfa0a28dd712d2fbdda11709a1"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-cad/scripts/check_dependencies.py",
+      "bytes": 8547,
+      "sha256": "sha256-d9e523f7ebed052d2050c859452f5ab139849e6ff0c65f1a8bb82126326b3420"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-cad/scripts/kit_app_template_cad.py",
+      "bytes": 27858,
+      "sha256": "sha256-83336649122f068a4b97fa6bb71d96837bb63a9f8dc0ef85a1298c1234053ff7"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-cad/scripts/report_schema.json",
+      "bytes": 476,
+      "sha256": "sha256-73b7243ae8f2aaa2133fa3c5222feeea0c4b4f5cdf8ead4503477f5478dd9d81"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-cad/scripts/run.py",
+      "bytes": 25997,
+      "sha256": "sha256-bdf6e4cd2e68d374f27ca31b787a43cd7af00fc660d56b1d97242eab9df04e32"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-gsplat/README.md",
+      "bytes": 4262,
+      "sha256": "sha256-80786bda5c658575d7ba3216d15c6ed430711760996048e7f1669e302a32d602"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-gsplat/scripts/check_dependencies.py",
+      "bytes": 2166,
+      "sha256": "sha256-4a134689079ca3e7791909b7cd4a13ef235d6c59a23795c8c5d751ea1664f985"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-gsplat/scripts/report_schema.json",
+      "bytes": 413,
+      "sha256": "sha256-c433360ffb8ecaf6adca400d4f7c8d1a0da9089ad3a66573d419f2de2864a48f"
+    },
+    {
+      "path": "references/convert-to-usd/references/usd-convert-gsplat/scripts/run.py",
+      "bytes": 13917,
+      "sha256": "sha256-bde7de510b5dd11e2a924f742c82259f4526ee5c7a857d229212a5fdba9ca8c7"
+    },
+    {
+      "path": "references/convert-to-usd/scripts/check_dependencies.py",
+      "bytes": 1747,
+      "sha256": "sha256-d5f65892a770f37d2b5f33c8706b25ccb54fcb026da8bffbb9d2945992501ba7"
+    },
+    {
+      "path": "references/convert-to-usd/scripts/report_schema.json",
+      "bytes": 1413,
+      "sha256": "sha256-22ea844769bbdb4a6310d33c9aca1dfe86e3f35c90490d9e9cd7d91ad69a2a21"
+    },
+    {
+      "path": "references/convert-to-usd/scripts/run.py",
+      "bytes": 23141,
+      "sha256": "sha256-d1bb21b7d2981da6843debcb1d121b74b20ca98d38dfdc30328d777a25e9bca1"
+    },
+    {
+      "path": "references/deploy-content-agents/README.md",
+      "bytes": 8085,
+      "sha256": "sha256-7ac81dcd30a5ecef474c154920ef8320cad97da5b64c97d1a383361dfdec8fbd"
+    },
+    {
+      "path": "references/deploy-content-agents/references/deploy-material-agent-docker.md",
+      "bytes": 413,
+      "sha256": "sha256-2e4a307694bbfad72c47a0c880df505d4593e70d908360ebb22f57924c266bd2"
+    },
+    {
+      "path": "references/deploy-content-agents/references/deploy-ovrtx-docker.md",
+      "bytes": 395,
+      "sha256": "sha256-ebc9841e97484430dc87f096d9bbc573a30d4a0770ccd52de4c0ae04fb169375"
+    },
+    {
+      "path": "references/deploy-content-agents/references/deploy-physics-agent-docker.md",
+      "bytes": 411,
+      "sha256": "sha256-9504b02f4f37731a636fad5fe4343c01ec64cf87447c1400e61ce997e4714cc3"
+    },
+    {
+      "path": "references/deploy-content-agents/references/deploy-texture-agent-docker.md",
+      "bytes": 411,
+      "sha256": "sha256-a8a7d3971e3822979afcac60754929906b5df097107605a30916c285591638d6"
+    },
+    {
+      "path": "references/identify-asset-context/README.md",
+      "bytes": 4853,
+      "sha256": "sha256-3e0238931d8abfdce94abf2dfc1bc86ae877e36f2d302ab52b9f82ec74860c9a"
+    },
+    {
+      "path": "references/identify-asset-context/scripts/check_dependencies.py",
+      "bytes": 1522,
+      "sha256": "sha256-0123381d0a608bbd3947974f9413f7b630a36c12c234eb12a82c490845a37d4c"
+    },
+    {
+      "path": "references/identify-asset-context/scripts/report_schema.json",
+      "bytes": 751,
+      "sha256": "sha256-14c636075bd3f5d2a49d5c5478bb634ee968e227cea15bff45f2f28ad261ca82"
+    },
+    {
+      "path": "references/identify-asset-context/scripts/run.py",
+      "bytes": 11351,
+      "sha256": "sha256-b6524d5302732049fadeb6fe1fbcf59732fb28d7cce8696bbd1a1d8a651597fd"
+    },
+    {
+      "path": "references/nv-core-package-sample-validation/README.md",
+      "bytes": 5303,
+      "sha256": "sha256-30ede00b8b606d3c3c23d0987a97dc2bb171c00478f8c854d46f633e6b77a125"
+    },
+    {
+      "path": "references/nv-core-package-sample-validation/scripts/check_dependencies.py",
+      "bytes": 419,
+      "sha256": "sha256-8f160fe92ac9c112f007436deb21b3cbda7981218508d972d0c4fc1b37372a25"
+    },
+    {
+      "path": "references/nv-core-package-sample-validation/scripts/report_schema.json",
+      "bytes": 702,
+      "sha256": "sha256-779a5f6b1390f512540d53f13167cf5cd02711edc003abff89c532c062debf07"
+    },
+    {
+      "path": "references/nv-core-package-sample-validation/scripts/run.py",
+      "bytes": 400,
+      "sha256": "sha256-4a92b336e51364422cc2d07c3446d658932880078aef2ff844f873c956368a4f"
+    },
+    {
+      "path": "references/nv-core-package-sample/README.md",
+      "bytes": 6358,
+      "sha256": "sha256-610127139a0c00dfe1c395385ec20e5fce2fef1f3d8578a807636ef1c2465cd3"
+    },
+    {
+      "path": "references/nv-core-package-sample/scripts/check_dependencies.py",
+      "bytes": 419,
+      "sha256": "sha256-8f160fe92ac9c112f007436deb21b3cbda7981218508d972d0c4fc1b37372a25"
+    },
+    {
+      "path": "references/nv-core-package-sample/scripts/report_schema.json",
+      "bytes": 702,
+      "sha256": "sha256-779a5f6b1390f512540d53f13167cf5cd02711edc003abff89c532c062debf07"
+    },
+    {
+      "path": "references/nv-core-package-sample/scripts/run.py",
+      "bytes": 400,
+      "sha256": "sha256-4a92b336e51364422cc2d07c3446d658932880078aef2ff844f873c956368a4f"
+    },
+    {
+      "path": "references/omni-asset-validate-geometry/README.md",
+      "bytes": 3621,
+      "sha256": "sha256-166be82b1dc941d08597a560f6b7689f0d8297aa49cbc534fad4c023d4ba8f05"
+    },
+    {
+      "path": "references/omni-asset-validate-geometry/scripts/check_dependencies.py",
+      "bytes": 1561,
+      "sha256": "sha256-b45282b90d7e6a54558c35f7a2cf7a8737118f06fd6c697d3fb791038e34b8e7"
+    },
+    {
+      "path": "references/omni-asset-validate-geometry/scripts/report_schema.json",
+      "bytes": 363,
+      "sha256": "sha256-fdafe20bd82e03505dda039019e2657c2fe66b84063f6a29e84f9fb3a680fc27"
+    },
+    {
+      "path": "references/omni-asset-validate-geometry/scripts/run.py",
+      "bytes": 2068,
+      "sha256": "sha256-6dfdf088820875207013b31325474985314d3c4ff7565a6957a4e2ec715bc520"
+    },
+    {
+      "path": "references/omni-asset-validate-physics/README.md",
+      "bytes": 3529,
+      "sha256": "sha256-53046e1388f4b0892d3bc5043d8877db334f5c0097e607e6e6968eb396b3be56"
+    },
+    {
+      "path": "references/omni-asset-validate-physics/scripts/check_dependencies.py",
+      "bytes": 1559,
+      "sha256": "sha256-c7f3e9283e4c8bab4586a554a6a1f29f9a63fabac8eb3a72c50e159673bff672"
+    },
+    {
+      "path": "references/omni-asset-validate-physics/scripts/report_schema.json",
+      "bytes": 362,
+      "sha256": "sha256-e6a0916d5b40513c2275241d52521bdac556c4273f080d1f7436a45e067e7424"
+    },
+    {
+      "path": "references/omni-asset-validate-physics/scripts/run.py",
+      "bytes": 2055,
+      "sha256": "sha256-425daec9b1b75ced40a73bf51a71f2b99fc7eedca6395d8e0378c9156c64a724"
+    },
+    {
+      "path": "references/omni-asset-validate/README.md",
+      "bytes": 3631,
+      "sha256": "sha256-9bf20c57f727e16ee1f64d41d577476ab44e8d493f0b723fa51fbcd8259ec6df"
+    },
+    {
+      "path": "references/omni-asset-validate/scripts/check_dependencies.py",
+      "bytes": 2051,
+      "sha256": "sha256-07a04eb7c0b434f551b06d5a8198a3122fd7ab6eb27cff253c76f27437cbbdfd"
+    },
+    {
+      "path": "references/omni-asset-validate/scripts/report_schema.json",
+      "bytes": 359,
+      "sha256": "sha256-c52bd1078e651fea940348b9dcbe0867f4a16a63c3033decfdce2b1c2b0563f9"
+    },
+    {
+      "path": "references/omni-asset-validate/scripts/run.py",
+      "bytes": 13312,
+      "sha256": "sha256-5908fa8ee060c5efd451370a6e8ecd2e5dbada96301bc38627a5c8e4e4672e87"
+    },
+    {
+      "path": "references/ovrtx-render-service/README.md",
+      "bytes": 13807,
+      "sha256": "sha256-047bbb45fdac5fe05c50af6db706e40b4855a063e6eb636683a6a093d99ade95"
+    },
+    {
+      "path": "references/ovrtx-render-service/scripts/check_dependencies.py",
+      "bytes": 3040,
+      "sha256": "sha256-0f592fe890a77936aa797c12fa26ae97860ead5c13235d1daacf697541f3ba85"
+    },
+    {
+      "path": "references/ovrtx-render-service/scripts/report_schema.json",
+      "bytes": 674,
+      "sha256": "sha256-322f08adf43374cf5020caffe0155b455d693f3b619be879fbcfe15f48dc2ae3"
+    },
+    {
+      "path": "references/ovrtx-render-service/scripts/run.py",
+      "bytes": 24056,
+      "sha256": "sha256-dff4376336aa04caf448585a7f8f5ec401978aaa284966ea115bc633c14acc8b"
+    },
+    {
+      "path": "references/ovrtx-render-service/scripts/stage_prep.py",
+      "bytes": 18905,
+      "sha256": "sha256-7154c775e6dec5674323b158f6d50a749dbf8256e46661e2542d475363b6f8dd"
+    },
+    {
+      "path": "references/ovrtx-render-service/scripts/turntable.py",
+      "bytes": 11049,
+      "sha256": "sha256-b6bb356181d50d4afa882284386acd503b37f81aae271a1ace7b297b718fd63d"
+    },
+    {
+      "path": "references/preflight/README.md",
+      "bytes": 10106,
+      "sha256": "sha256-aedceb59a00ca11ba4f20d74af22103b3be10da0a27a2a6ad2e9c87fbc84823b"
+    },
+    {
+      "path": "references/preflight/scripts/preflight.ps1",
+      "bytes": 460,
+      "sha256": "sha256-0e6c23e5d428cd1eb50d74334a1fa2628cf208d4634827f4b4e4e8d26c58aa2b"
+    },
+    {
+      "path": "references/preflight/scripts/preflight.py",
+      "bytes": 70437,
+      "sha256": "sha256-112232a81374a1be2e116f9d2c5403d8baac8a042dc205e17fc3354eee4526f7"
+    },
+    {
+      "path": "references/preflight/scripts/preflight.sh",
+      "bytes": 278,
+      "sha256": "sha256-0b069b7a66b9d3ca4b1eafedb9f34a28318704a03e525939ae6107fbf6aa2c1c"
+    },
+    {
+      "path": "references/simready-conform-profile/README.md",
+      "bytes": 14001,
+      "sha256": "sha256-0687f86d99e8b7ad92d357bc5f2f3c0ba64eb645db51badd3dbf861debf6828f"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_000_CORE/README.md",
+      "bytes": 1294,
+      "sha256": "sha256-411694142c0a19aa64640c4d4aa9e7fd1d213f989b596d91342a4254c3800817"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_000_CORE/scripts/check_dependencies.py",
+      "bytes": 1396,
+      "sha256": "sha256-aeb7dbee431a654cab8dd3072864c85d8cede288e07bc33efb0392da3a25fb85"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_000_CORE/scripts/report_schema.json",
+      "bytes": 418,
+      "sha256": "sha256-a1592b06d4adb647e3ddd000d20c383efe024fef9d5912ac0b38c3e38575c878"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_000_CORE/scripts/run.py",
+      "bytes": 11830,
+      "sha256": "sha256-31e2f6735f086c04bffa442ca517cbf19a07b3a27da3cd1ff51670d6970b1e20"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_001_MINIMAL/README.md",
+      "bytes": 1547,
+      "sha256": "sha256-cb3e5032bd32501368a384f7f085e41104d445c583e5e3cc6e53250ad13c9ab7"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_001_MINIMAL/scripts/check_dependencies.py",
+      "bytes": 1982,
+      "sha256": "sha256-fea84b9a0ae72c3d1d8323717b88c912e15921e6ef1caeb9a3859027814c0e73"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_001_MINIMAL/scripts/report_schema.json",
+      "bytes": 668,
+      "sha256": "sha256-fe887806b592101787e0a00253333679b3ab6b5ed0e4ec79c4cd10cc284a7d4c"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_001_MINIMAL/scripts/run.py",
+      "bytes": 16655,
+      "sha256": "sha256-409fa93228a89c3099711806f38ba18abcada825c8e8250c92fe6833b25f9429"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_004_SIMULATE_MULTI_BODY_PHYSICS/README.md",
+      "bytes": 1396,
+      "sha256": "sha256-dc7f5f5875f714455c1f79cfbc1873251d347adee89ebd1c51662741ec83afd3"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_004_SIMULATE_MULTI_BODY_PHYSICS/scripts/check_dependencies.py",
+      "bytes": 1657,
+      "sha256": "sha256-93bba0b8ca337419960c6681f0860aff053dc5f3f23dc56f182edd0eca70cd90"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_004_SIMULATE_MULTI_BODY_PHYSICS/scripts/report_schema.json",
+      "bytes": 1026,
+      "sha256": "sha256-b453995ca10eaa359c949d63d9c79dcfe9587d94694c19f27afa9eb046b8164c"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_004_SIMULATE_MULTI_BODY_PHYSICS/scripts/run.py",
+      "bytes": 13651,
+      "sha256": "sha256-fa4f8680600e9ab161c2571419ac1619ffebac322e9df59b2b604eb9484d1971"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_005_SIMULATE_GRASP_PHYSICS/README.md",
+      "bytes": 1874,
+      "sha256": "sha256-6f04dfdab61920f1b0df2eb1da9caef75adb10934508695c6f3ecd442b194f6a"
+    },
+    {
+      "path": "references/simready-conform-profile/references/FET_005_SIMULATE_GRASP_PHYSICS/scripts/author_grasp_line.py",
+      "bytes": 11468,
+      "sha256": "sha256-8e0702fdf3ceaf0228957fce94888c10c0e70b9f33d3dab87ce19a61e479ba57"
+    },
+    {
+      "path": "references/simready-conform-profile/scripts/check_dependencies.py",
+      "bytes": 1981,
+      "sha256": "sha256-4c82e9e446bd6002d6c3404212649dc22e544744945e2188f4d726098e7e5b6b"
+    },
+    {
+      "path": "references/simready-conform-profile/scripts/report_schema.json",
+      "bytes": 466,
+      "sha256": "sha256-13caffc41790e2f89684f4256d42b39773835817dfdffb89d6b949bb0e0d3456"
+    },
+    {
+      "path": "references/simready-conform-profile/scripts/run.py",
+      "bytes": 20279,
+      "sha256": "sha256-1534bd1837a35e1930965126b2d4f60d71b8d141df96f191fef24fcebdd3bd7a"
+    },
+    {
+      "path": "references/simready-validate/README.md",
+      "bytes": 9730,
+      "sha256": "sha256-fb7af400906b0ac5c273833c8933b1d0b93e7e74bceb06c68e4d9641a852e77e"
+    },
+    {
+      "path": "references/simready-validate/scripts/check_dependencies.py",
+      "bytes": 4299,
+      "sha256": "sha256-198d940dba7baf372eb655449529db8842a97c919c49e93861c729744a068e93"
+    },
+    {
+      "path": "references/simready-validate/scripts/report_schema.json",
+      "bytes": 480,
+      "sha256": "sha256-a56bf390a1467ea530a0fb09a2b401cd6048facc88181e11134145c8dcfc5246"
+    },
+    {
+      "path": "references/simready-validate/scripts/run.py",
+      "bytes": 28616,
+      "sha256": "sha256-4b946d2d6f15f07033a08e0c125f161b442b32c8da52d72e1e6a3137fdaab88e"
+    },
+    {
+      "path": "references/validate-usd-minimum/README.md",
+      "bytes": 2598,
+      "sha256": "sha256-4bbc869964f2b66485603d5909e054a6c7e18bdb7b23fc89711fdc565e26bca2"
+    },
+    {
+      "path": "references/validate-usd-minimum/scripts/check_dependencies.py",
+      "bytes": 1709,
+      "sha256": "sha256-f8a2d35dad1ada7e9ebd64c81a88b88dd8ffa07aad4d8712537c40a0401c8187"
+    },
+    {
+      "path": "references/validate-usd-minimum/scripts/report_schema.json",
+      "bytes": 1337,
+      "sha256": "sha256-869fd696a9ebc2ef82f1cc711c231a5537d36525d93e97eb0c9aea4baafdf1a5"
+    },
+    {
+      "path": "references/validate-usd-minimum/scripts/run.py",
+      "bytes": 11808,
+      "sha256": "sha256-9bc080ea5a414e1bb1b8370b607c3028e10d80f05d6a494df7539d9c5c24984d"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 16061,
+      "sha256": "sha256-e59d97ab8de0b4b1cc4419feb26804f92ee3fdf905f28ddffd57bcf542f27edc"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3006,
+      "sha256": "sha256-30d9997a7357cba536bf05e5319a10dce2dcab83cc177715138cb92778d27402"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17961,
+      "sha256": "sha256-8ff34f478610613bd37aa19ce0c3b0fdc2352226ca561b831799fce4db069531"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

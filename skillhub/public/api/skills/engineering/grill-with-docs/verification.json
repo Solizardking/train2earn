@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/grill-with-docs",
+  "name": "grill-with-docs",
+  "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/grill-with-docs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/grill-with-docs/metadata.json",
+  "bundleHash": "sha256-f8061bc96e57d210c19ec11a2349803c08a15eec8d85687c40c719a4257c1cfb",
+  "merkleLeaf": "sha256-3faf0afb9443fab04b3485c028ea0048771a26874ab26dc2a82b526234de007d",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 245,
+      "sha256": "sha256-610d091047bcfb9db0f75c057d15538481a721111579fc5ec7f83ad9131a2165"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

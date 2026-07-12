@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/accelerated-computing-cudf",
+  "name": "accelerated-computing-cudf",
+  "description": "Official NVIDIA-authored guidance for NVIDIA cuDF GPU DataFrames, pandas acceleration, dask-cuDF, ETL, joins, groupby, CSV/Parquet I/O, nullable semantics, and multi-GPU DataFrame workloads.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/accelerated-computing-cudf/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/accelerated-computing-cudf/metadata.json",
+  "bundleHash": "sha256-a9375626aa8dd22af59f1bb6e1ba6c553e3d1afc0725b8fc491a96d2b7c95126",
+  "merkleLeaf": "sha256-eadddb90680ced0a5da38862fea7653914cd42700cd3252a6007aa1d440f2b80",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4293,
+      "sha256": "sha256-5d0f5a64a3137403e4e2d75f45edab4198819755039a116b9624b49878f957f0"
+    },
+    {
+      "path": "references/api-patterns.md",
+      "bytes": 7035,
+      "sha256": "sha256-01400c73b21bb931b3229bbb3da2c90241ffd4544de6bb052b49103f4261b8d3"
+    },
+    {
+      "path": "references/cudf-pandas-accelerator.md",
+      "bytes": 3699,
+      "sha256": "sha256-0c1ee7948b1d8191cd27dca17bb55e7b95442e3af477b5c343cc01814c352d3f"
+    },
+    {
+      "path": "references/dask-cudf-patterns.md",
+      "bytes": 7142,
+      "sha256": "sha256-8a889f318d1bf4f5e090cd79a9b2fe2b9ce4d2459cb9143322083aaaa4fcc72a"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4111,
+      "sha256": "sha256-e0833a679c6b489b013b567dc104fd60f565c3e3a0f32c122310d632b4b556a7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9404,
+      "sha256": "sha256-4b8d3851b7e84b6ffb8fc6d781f66cf340a0b6f994c9f8b88894f82f7caeb353"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

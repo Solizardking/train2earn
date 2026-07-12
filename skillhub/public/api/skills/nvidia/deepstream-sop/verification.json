@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/deepstream-sop",
+  "name": "deepstream-sop",
+  "description": "Use this skill when building, deploying, evaluating, debugging, or measuring latency for the DeepStream SOP Inference Microservice — a GPU-accelerated FastAPI service that detects whether operators perform assembly-line steps in order via event boundary detection (GEBD) plus VLM classification. Trigger even if the user does not name it: verify operator step sequence, detect missing or out-of-order SOP steps, score factory/work-cell video for procedure compliance, run VLM-based SOP checking on industrial cameras, or call /v1/chat/completions with a file, RTSP, or Basler camera. Also trigger for its internals: SOPVideoProcessor, DeepStream GEBD model (e.g. DDM) via Triton CAPI, nvds_custom_postprocess, Cosmos Reason 1/2 vLLM, SSE streaming, Kafka NvProto/JSON output, Basler/Pylon camera + emulation, Docker compose, chunk-level latency. Do NOT trigger for generic DeepStream pipelines, object detection/tracking, NIM imports, or video summarization.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/deepstream-sop/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/deepstream-sop/metadata.json",
+  "bundleHash": "sha256-a23f8e447215fc6439584c60a17649573dc8df19fd67f358dae3faf5433014a7",
+  "merkleLeaf": "sha256-2ae47e1a764bbf1a66b8d0b398f7f115503295060216713450b2cda82a0adc55",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3834,
+      "sha256": "sha256-0a900797d398d31c4e9c6198577915778c030acca86d732ed6bf211820a2e0b6"
+    },
+    {
+      "path": "references/compose_reference.yaml",
+      "bytes": 9319,
+      "sha256": "sha256-fcf31458deb2387514d3d7be21ee88cc7ccec788d609623ed0b71f78bdbacab4"
+    },
+    {
+      "path": "references/copy_sources_reference.sh",
+      "bytes": 1476,
+      "sha256": "sha256-a36b47868a221f32edb0e452287dd8afb4eb0c01ef94567454b27bff4cf8f826"
+    },
+    {
+      "path": "references/ddm_net_reference.py",
+      "bytes": 3928,
+      "sha256": "sha256-ccb5cae7935c6adf30b4bbbdf4bc2250f8ec27981eb708d8c878d622906b0625"
+    },
+    {
+      "path": "references/ddm_pytorch2.patch",
+      "bytes": 2612,
+      "sha256": "sha256-ed7056db58df04fb780c2e9f76d08f0d55333b7f37aa89226bfb543e98909185"
+    },
+    {
+      "path": "references/Dockerfile_reference",
+      "bytes": 8656,
+      "sha256": "sha256-b34e5405ac3c62ad4cd6e4c1518574f5cf0b5e10204006e5452c1479e7c91279"
+    },
+    {
+      "path": "references/Emulation_0815-0000.pfs",
+      "bytes": 3689,
+      "sha256": "sha256-7d5ee3ba66b75d7ac6e1125d140348be745811031e650248dca9cdf529026ddc"
+    },
+    {
+      "path": "references/eval_sop_prompt.md",
+      "bytes": 877,
+      "sha256": "sha256-d65a6da202c5e8287e3e019dee3c73227bf86f46237bf7ee573a844c818a4d3f"
+    },
+    {
+      "path": "references/example_sop_prompt.md",
+      "bytes": 1034,
+      "sha256": "sha256-a0d4dca09258dbdf40b7a5199fb8785d574b60c33a3b1ee9a2b68bc3195db381"
+    },
+    {
+      "path": "references/export_ddm_to_tensorrt_reference.py",
+      "bytes": 25105,
+      "sha256": "sha256-a2ec68bdc3391cdd86481430ebf51fae26cb7f9a6ec7d10766804babf555ef49"
+    },
+    {
+      "path": "references/ext_pb2_reference.py",
+      "bytes": 5211,
+      "sha256": "sha256-ba04abf2d452f29b5f4b6d109dea31b44281707fb8e6c39865b0a8d44466a772"
+    },
+    {
+      "path": "references/ext.proto",
+      "bytes": 6035,
+      "sha256": "sha256-5557888d73fe16198676115fb90ccf208e1adcfd1557f5db90ad71e35b8cc4ff"
+    },
+    {
+      "path": "references/license.txt",
+      "bytes": 11437,
+      "sha256": "sha256-6af9262863483ec9b7a25e8fe4baf8f93e98d6f1ec94d200bf868c7f291a8cf2"
+    },
+    {
+      "path": "references/Makefile_custom_postprocess_reference",
+      "bytes": 1463,
+      "sha256": "sha256-ce2206e9fc8745cde0400996c508f6b64f98654191ab5120ac4216bd5551939f"
+    },
+    {
+      "path": "references/messager_reference.py",
+      "bytes": 11136,
+      "sha256": "sha256-c14a98af1c35b195d7a412d391b8267ee54a57952bc1c807b4e629ec21735bd8"
+    },
+    {
+      "path": "references/missing_number_detector_reference.py",
+      "bytes": 22032,
+      "sha256": "sha256-3ec2a8d9804005466bfdb6ce65bb1e869dbdc3ab73a80c9e3e441399de8b13cb"
+    },
+    {
+      "path": "references/nv_pb2_reference.py",
+      "bytes": 16464,
+      "sha256": "sha256-ed899b57f5efff6444a14f4257f8823450c31ff7c079265a5a4cf4addcec7f7b"
+    },
+    {
+      "path": "references/nv.proto",
+      "bytes": 12310,
+      "sha256": "sha256-20bd8ddffb8b6c9cef86c3fb1adcb31e564730c85e41f4f5de4c2e07c5b64d80"
+    },
+    {
+      "path": "references/nvds_custom_postprocess_tensor_reference.cpp",
+      "bytes": 14967,
+      "sha256": "sha256-64f0a7da388dad4d02159a451652fc7d5118175fdc7de48cc4b371f158208ec1"
+    },
+    {
+      "path": "references/package_file_list_reference.txt",
+      "bytes": 1965,
+      "sha256": "sha256-11fe8d09ee3db85d339af6d622f3d4c36b7a79edd3afcfd720f38896de3b45a7"
+    },
+    {
+      "path": "references/protos_init_reference.py",
+      "bytes": 804,
+      "sha256": "sha256-6fcb13d0f154d1c60e619f630dfb56e3486722c597691ea948a177e7a99dcd0c"
+    },
+    {
+      "path": "references/README_reference.md",
+      "bytes": 6285,
+      "sha256": "sha256-3c309c1622b3ab9dfee9b6340b6415354f2ff6e46de4cb5a5b29e1c04667d01a"
+    },
+    {
+      "path": "references/skill_01_fastapi_endpoints.md",
+      "bytes": 16650,
+      "sha256": "sha256-fa424ae61cc82aa3651df3568f6afa1de43c13931fa4c236f99944d8765da751"
+    },
+    {
+      "path": "references/skill_02_pydantic_schemas.md",
+      "bytes": 5973,
+      "sha256": "sha256-207c803941459d0fb14fb301df35fc1b2313d1ef8d2d17ee0b64fda5f804c974"
+    },
+    {
+      "path": "references/skill_03_deepstream_pipeline.md",
+      "bytes": 23696,
+      "sha256": "sha256-7361d975019cc53b8a26eb956e2fcd4d250c5a699501c862ba38dd4e4d18375e"
+    },
+    {
+      "path": "references/skill_04_config_templates.md",
+      "bytes": 6944,
+      "sha256": "sha256-9b17de0e39d5731ca615ca6c05fd5f484682460de92da8eab5c684464ae7bc9d"
+    },
+    {
+      "path": "references/skill_05_triton_ddm_model.md",
+      "bytes": 17026,
+      "sha256": "sha256-e47783ad5d381f9a3814378ff9166f2e04d698ea85728a41ef087d5d0cf4e0d8"
+    },
+    {
+      "path": "references/skill_05b_custom_postprocess.md",
+      "bytes": 4285,
+      "sha256": "sha256-1d4d1a335bd47520f6d48a752c6315fae49077a525a64dec96ac744cbce46a3a"
+    },
+    {
+      "path": "references/skill_06_sop_process_manager.md",
+      "bytes": 47867,
+      "sha256": "sha256-c7e6b153d21c658fdbd722fb06373811e3b457870e0932e5e9ba6b21086670a0"
+    },
+    {
+      "path": "references/skill_06b_sop_checker.md",
+      "bytes": 16508,
+      "sha256": "sha256-312712310ba1b3db470903eacd22b0e2b309bbbf9228a678c3029672db5e4281"
+    },
+    {
+      "path": "references/skill_07_sse_streaming.md",
+      "bytes": 5592,
+      "sha256": "sha256-277e9bd073e2a7ad0c27647724f0334385775a1bb33b6810e6d1f85e5463da7e"
+    },
+    {
+      "path": "references/skill_08_basler_camera.md",
+      "bytes": 11486,
+      "sha256": "sha256-6afbce81e20cbef48129c7b9cdd808db1b77a663233fa3ebd08d5d0065671851"
+    },
+    {
+      "path": "references/skill_09_docker_build_deploy.md",
+      "bytes": 12279,
+      "sha256": "sha256-4cf8fc44fa76c870e868284edfa08ef86019a0103257bc7667dc0713825a897b"
+    },
+    {
+      "path": "references/skill_10_test_suite.md",
+      "bytes": 2966,
+      "sha256": "sha256-17a2aaaf5fc8b193659cf1f3594fda2684d4d1b7a7c017fc1eb22b63d2b6d1e7"
+    },
+    {
+      "path": "references/skill_11_env_variables.md",
+      "bytes": 8021,
+      "sha256": "sha256-b40edc31333b4c0dca0c3fc0fd973f756671cbacea2794774867e7fdf338027a"
+    },
+    {
+      "path": "references/skill_12_evaluation_workflow.md",
+      "bytes": 46470,
+      "sha256": "sha256-ad72da0343f4fdc26951ea5bec1fea7e70790e4c5432782fd45122cd7929006b"
+    },
+    {
+      "path": "references/skill_13_verification_curl.md",
+      "bytes": 4089,
+      "sha256": "sha256-305d03baf3d711e7491a6f87a567ba5d82ebc4437a57ad5b16c6fdf9aa6089cf"
+    },
+    {
+      "path": "references/skill_14_implementation_checklist.md",
+      "bytes": 8431,
+      "sha256": "sha256-2203c970c0a446adf464fb8498676ed35afa657c0e0c8963b705c8d3d81b2046"
+    },
+    {
+      "path": "references/skill_15_latency_measurement.md",
+      "bytes": 8201,
+      "sha256": "sha256-ebf8e6d6cb6dc473bc9b7d63ec82ff5128f4d08dcb8f333bc18415fbf4b7daa4"
+    },
+    {
+      "path": "references/skill_16_message_schema.md",
+      "bytes": 15145,
+      "sha256": "sha256-09c7730a69f888c993611a7812dcb3d74ee5b0cc5b1026d2e983e63d7fa42fbe"
+    },
+    {
+      "path": "references/skill_17_camera_latency_measurement.md",
+      "bytes": 12289,
+      "sha256": "sha256-f9526a37435f684d7f2b705e4501d7bd1930fd9451ac70ff7c23f4d385feba11"
+    },
+    {
+      "path": "references/skill_18_rtsp_streaming_output.md",
+      "bytes": 24471,
+      "sha256": "sha256-ded2de4b003d99d31e48438cb6ab48a7b5495ef84fb93d985c4e940450d3be2f"
+    },
+    {
+      "path": "references/sop_architecture.svg",
+      "bytes": 16748,
+      "sha256": "sha256-c4a395ddee70bc3e280a0387bbab5ce57e314dd18ae722a1516f096a98a40c6d"
+    },
+    {
+      "path": "references/sop_step_checker_reference.py",
+      "bytes": 10803,
+      "sha256": "sha256-131a3cfd3cbd3ca9ab6fc902c0e92705ae13b7ebf83e815eef1f0210e0a3043c"
+    },
+    {
+      "path": "references/start_server.sh",
+      "bytes": 1261,
+      "sha256": "sha256-f54df93578e302bdadf4afa1542015e6598725f395803542f0a13c6deac9c6c1"
+    },
+    {
+      "path": "references/test_api_endpoints_reference.py",
+      "bytes": 23698,
+      "sha256": "sha256-e654b9cb3ca92062452cbad348b2578f0957dbf7de8eff868128cf5876c08dff"
+    },
+    {
+      "path": "references/triton_config_template.pbtxt",
+      "bytes": 1513,
+      "sha256": "sha256-41d29d0f0f1ead10f6d4af7884540f65f232c3c80fe00b1c190d1f5161b9e8cd"
+    },
+    {
+      "path": "references/triton_model_reference.py",
+      "bytes": 23332,
+      "sha256": "sha256-ff74858a5a597a1fe8e6b8808065d209bbd7cd6f7f5208d55bb0921fa0d9846d"
+    },
+    {
+      "path": "references/utils_reference.py",
+      "bytes": 6287,
+      "sha256": "sha256-ec6f9307723055bc3cf05b9ef575436c9d82846fb188082986aad0e1a42da31a"
+    },
+    {
+      "path": "references/vllm_inference_reference.py",
+      "bytes": 21209,
+      "sha256": "sha256-2f4631d8e0676088a2e878b49cb6661712010a65331bdeb05bcc28cf132dec5f"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4404,
+      "sha256": "sha256-fc55275614c23eade19dd4f2912f8b56f02a517621823b5e2a5ea8a3ea1cbca0"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19633,
+      "sha256": "sha256-9030b35061302ba3a61cac1b9c1c691b737373b3514384388a2ffa6bccf4d308"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

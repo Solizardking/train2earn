@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "swarm-orchestrator",
+  "name": "swarm-orchestrator",
+  "description": "Orchestrate multi-bot trading swarms on Pump.fun with persona-driven agents",
+  "source": "https://skills.x402.wtf/api/skills/swarm-orchestrator/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/swarm-orchestrator/metadata.json",
+  "bundleHash": "sha256-7fe6517c6b5b20a20e71fe119766c56f22281085577496d15edc36936a5844fd",
+  "merkleLeaf": "sha256-e2e6b690d56460ae23555d8467f78c08ca5897b5573d3d1d35c9627d8a5f01c2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3654,
+      "sha256": "sha256-94ad2f6888a911183fab6cb7f6819990ef31732865e65d2572f3c1fa0f635b45"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

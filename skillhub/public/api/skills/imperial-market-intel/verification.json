@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial-market-intel",
+  "name": "imperial-market-intel",
+  "description": "Imperial and Phoenix market data: funding, mark prices, route checks, Phoenix depth, and pre-trade venue context.",
+  "source": "https://skills.x402.wtf/api/skills/imperial-market-intel/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial-market-intel/metadata.json",
+  "bundleHash": "sha256-c089736e671f9292208c78ffa095ea37ea45c6d7b4837d226301c52ad59e3927",
+  "merkleLeaf": "sha256-1bc6d147bfefd8b65df23ced34a5b4be6c7d7774e11079906f1ccbf139a3eecb",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 666,
+      "sha256": "sha256-28ae9f371c7ff91dbb5dad609b445db5d75f7c48c03acf90b7512cdd6ec2324a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

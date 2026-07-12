@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "openrouter-typescript-sdk",
+  "name": "openrouter-typescript-sdk",
+  "description": "Complete reference for integrating with 300+ AI models through the OpenRouter TypeScript SDK and Agent packages using the callModel pattern",
+  "source": "https://skills.x402.wtf/api/skills/openrouter-typescript-sdk/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/openrouter-typescript-sdk/metadata.json",
+  "bundleHash": "sha256-b08e93fcc9d929c14cb8a4030dfcd0fdfcc13af1d298c34ec2aed53af5352ab1",
+  "merkleLeaf": "sha256-9895155b463f1adac164feb7b56ba8f76e812815fdf692ef965fe2b77947c28e",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 31463,
+      "sha256": "sha256-40058154520558f4ffaa7e11683e0d8698a5a2df2bdc89245631891c42c5eb2a"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

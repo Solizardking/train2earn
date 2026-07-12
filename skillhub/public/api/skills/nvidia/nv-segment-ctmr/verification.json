@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nv-segment-ctmr",
+  "name": "nv-segment-ctmr",
+  "description": "Used for running NV-Segment-CTMR on CT or MRI NIfTI volumes and recording label-map evidence. Not for clinical interpretation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-segment-ctmr/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-segment-ctmr/metadata.json",
+  "bundleHash": "sha256-4a49db416a04e7deee14ad8c31ab07d4580f6d21d99e80e48d952a1ce728daa0",
+  "merkleLeaf": "sha256-d11b1e4b92ee8f773fad716c6ca9bb61c7747a78194269004c5589ebd5869837",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3994,
+      "sha256": "sha256-dc2e2bb23c05e767d52542bd2e726dd7fc42ee7062b30bd88cff0907f7bbc93c"
+    },
+    {
+      "path": "scripts/run_ctmr.py",
+      "bytes": 20864,
+      "sha256": "sha256-aecb82510ff4922f55cda8312d3f66cee26836f907daa394ebc7b8032e64b0dd"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 7125,
+      "sha256": "sha256-523f8ee52728c777a2a1e494310e3b8aae814e60a91bdb725e8ce6be6b1af40e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3998,
+      "sha256": "sha256-efc78b2f1e3afe51727de61c109e672ecb411d12cc53c40a4c28a97991cd5292"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8968,
+      "sha256": "sha256-b62e52d0b2250bcdcebba6d6ef2af6a201ab62cbdfb97929a378e3afb9f7a779"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/cuopt-multi-objective-exploration",
+  "name": "cuopt-multi-objective-exploration",
+  "description": "Trace and interpret the Pareto frontier across competing objectives using repeated single-objective cuOpt solves (weighted-sum and ε-constraint).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/cuopt-multi-objective-exploration/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/cuopt-multi-objective-exploration/metadata.json",
+  "bundleHash": "sha256-c693a91bead5660623cf902a421fbff0c369d3fd49ef519bfe9a7d567c5c63fa",
+  "merkleLeaf": "sha256-f6df19cd041065dee4236d7c6321e4dedc72617fa7ad3395d88736cfe1934c2e",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3891,
+      "sha256": "sha256-15099c649e5421fa70a80232d265c91f6fff1c9ee12ffd6a595a0a2d164a78bf"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4106,
+      "sha256": "sha256-6b04e209f0f2ee3fece6823e11d9991b11ea989d1704556f182ee65648a3643f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11855,
+      "sha256": "sha256-c8ac8d1c8ef5d133aec9603c44472f1c6dc1531ab0281499d66b129db19de0b8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

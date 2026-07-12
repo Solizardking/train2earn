@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemotron-retrieval-recipes",
+  "name": "nemotron-retrieval-recipes",
+  "description": "Use when planning, debugging, tuning, evaluating, exporting, or deploying public Nemotron `embed`/`rerank` retrieval recipes.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemotron-retrieval-recipes/SKILL.md"
+}

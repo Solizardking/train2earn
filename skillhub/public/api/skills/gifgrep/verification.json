@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "gifgrep",
+  "name": "gifgrep",
+  "description": "Search GIF providers with CLI/TUI, download results, and extract stills/sheets.",
+  "source": "https://skills.x402.wtf/api/skills/gifgrep/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/gifgrep/metadata.json",
+  "bundleHash": "sha256-bf77b2701069205bb6b18016a0711c75cae37d887de3790ec64a6d05a3511d23",
+  "merkleLeaf": "sha256-bf59bdc71f0f6b65c8b8d201c795a47029572260d25ab425d44d465f78c70f92",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1882,
+      "sha256": "sha256-1cf64ee164ffffac317b7156d0c107cff8714abe4ae6438387cf27d4a513890c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

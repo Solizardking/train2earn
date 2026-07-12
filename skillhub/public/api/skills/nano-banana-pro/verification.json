@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nano-banana-pro",
+  "name": "nano-banana-pro",
+  "description": "Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro).",
+  "source": "https://skills.x402.wtf/api/skills/nano-banana-pro/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nano-banana-pro/metadata.json",
+  "bundleHash": "sha256-56fb03bba835730ae88a03a94ccbd562c1c6be16c87e262f2e3a4bb7fef46675",
+  "merkleLeaf": "sha256-6b526b615b009a8a7f0bc1a2c13ce22e036db8084bf476e9fbec3d1657d673d2",
+  "files": [
+    {
+      "path": "scripts/generate_image.py",
+      "bytes": 5746,
+      "sha256": "sha256-a72366773b50219f77dfc8ff5fc31e67612571da0cf8f5a45009766bb80f09f1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1176,
+      "sha256": "sha256-9086c20a424b61e9f250c65b987397c70498c90aed7f4c855f45b0cf197546fe"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

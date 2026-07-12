@@ -1,0 +1,7 @@
+{
+  "slug": "cheshire-terminal",
+  "name": "cheshire-terminal",
+  "description": "Operate and extend Cheshire Terminal, the cheshireterminal.ai voice-controlled Solana terminal powered by $CLAWD. Use when working on voice terminal flows, token launch commands, LiveKit voice integration, Jupiter swap surfaces, burn/staking flows, or any task that mentions Cheshire Terminal, cheshireterminal.ai, $CLAWD terminal, or Clawd voice commands.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/cheshire-terminal/SKILL.md"
+}

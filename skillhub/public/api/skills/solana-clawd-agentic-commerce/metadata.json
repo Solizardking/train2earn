@@ -1,0 +1,7 @@
+{
+  "slug": "solana-clawd-agentic-commerce",
+  "name": "solana-clawd-agentic-commerce",
+  "description": "Build and operate Solana CLAWD agents that spend through Pay CLI, expose paid stores, mint Metaplex-readable identities, and launch Genesis agent tokens.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/solana-clawd-agentic-commerce/SKILL.md"
+}

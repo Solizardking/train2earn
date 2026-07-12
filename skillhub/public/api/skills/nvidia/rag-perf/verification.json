@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/rag-perf",
+  "name": "rag-perf",
+  "description": "Performance benchmarking for a deployed NVIDIA RAG Blueprint server: profiling pass + aiperf load test driven by a single YAML config. Not for accuracy / RAGAS scoring (use rag-eval) or for deploying / repairing services (use rag-blueprint).",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/rag-perf/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/rag-perf/metadata.json",
+  "bundleHash": "sha256-666141dd23879d0c256dc5e7ad7c5dda75f3cd22f41f2b1c2159acae300181d7",
+  "merkleLeaf": "sha256-39ffee4fb75dcb0f0866d143339dbeaa47c6f550404f85ecd46a6db184108d5c",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2672,
+      "sha256": "sha256-8d8d6be1865ac6ad2f231c13699bd848627a9b5bb8e00ab83c174f01e072cb96"
+    },
+    {
+      "path": "references/config-schema.md",
+      "bytes": 7762,
+      "sha256": "sha256-3277828f4bc6a9789cbb2469f28c2eea95379f08ee2928d42fb4282857ba52d7"
+    },
+    {
+      "path": "references/output-and-analysis.md",
+      "bytes": 13098,
+      "sha256": "sha256-e62c74bbdde5716cec3d20566d04081dd3187b637ea9a2ae59acc85c36ded677"
+    },
+    {
+      "path": "references/synthetic-generation.md",
+      "bytes": 7341,
+      "sha256": "sha256-7f8678cdb8a18c83c82e86eb20e2462fcaa26bf6a5be4fcfeb372b927d8a89d1"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2750,
+      "sha256": "sha256-a48b66b88c6b1748706b4a7e9d648af42fb5550c08503f91e6508e523ab44368"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 16346,
+      "sha256": "sha256-81f1d3a07186d9bfe3be54ae90fdb0addfef7c23b8845affd981c9e04a57fe54"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

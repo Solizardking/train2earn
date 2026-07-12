@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-finetune-cosmos-embed",
+  "name": "tao-finetune-cosmos-embed",
+  "description": "Cosmos-Embed1 video-text embedding for text-to-video retrieval, video-to-video search, semantic deduplication, and fine-tuning. Use when the user asks to \"fine-tune Cosmos-Embed1\", \"run cosmos-embed inference\", \"export Cosmos-Embed1\", \"embed videos\", or \"search videos with text\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-cosmos-embed/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-finetune-cosmos-embed/metadata.json",
+  "bundleHash": "sha256-08e5af38685511243f816ce07f84d0e049ea27fce5ed84129eba77fbd7cce71a",
+  "merkleLeaf": "sha256-32cd7c8eaac47a34fbc8a40057cf2c0d722abdf497f987d74215c1219275d3e1",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3996,
+      "sha256": "sha256-53c6c91010714c22ed6f923128e2325692616285c73362ad8c54394f76a156e4"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 2780,
+      "sha256": "sha256-ecd1b8df0576bf8ccce36a246b2b3bd13dbda43e99cbbc9389a9a0819eb5de0a"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1175,
+      "sha256": "sha256-a0a897edfd5793f4cd61c7dadc4c01595e17ad2ef3d85e1ffd713dd136b55fab"
+    },
+    {
+      "path": "references/spec_template_export_hf.yaml",
+      "bytes": 755,
+      "sha256": "sha256-0b8c4873ff73cc0a042442ffa6eee02d28327573308351b188dbe49634dbad6b"
+    },
+    {
+      "path": "references/spec_template_export_onnx.yaml",
+      "bytes": 827,
+      "sha256": "sha256-fbe4f6da9477b61043085a125bd56a4c056561c5a7143e52d110d675f9d77556"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 1130,
+      "sha256": "sha256-94af098f7dafcc8806f1533aac63de03b17d6fd3a4d9075464bf1fe70a76fad7"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 2282,
+      "sha256": "sha256-f65aeda6abfdeb9134bfdbf85086db83ea262d8c592b579243fd28b27ad75304"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4102,
+      "sha256": "sha256-9a49dcdbf0118f46f69043c521498a7673e1bed77140c7f4601e57a93047c18c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 14120,
+      "sha256": "sha256-8f8d70c5177be87aae95c5040d952a4a639beeeab124f1809c4f29256c2a7cbb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

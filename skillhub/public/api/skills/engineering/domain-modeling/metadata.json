@@ -1,0 +1,7 @@
+{
+  "slug": "engineering/domain-modeling",
+  "name": "domain-modeling",
+  "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/engineering/domain-modeling/SKILL.md"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-customize-pcie",
+  "name": "jetson-customize-pcie",
+  "description": "Per-controller PCIe enable / disable / lanes / link-speed for a Jetson Thor or Orin custom carrier via ODMDATA + kernel-DT overlay. Do NOT use for UPHY lane allocation or endpoint-mode bring-up.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-pcie/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-pcie/metadata.json",
+  "bundleHash": "sha256-741426b5b4bbc9277a3cb64be9f3753ccfe1cffc3afede13c0c93ca95087a48c",
+  "merkleLeaf": "sha256-cd96c049616e4e6e01bd274ba746fbe9b6384d6aaf74874a73a677e1c5118a79",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3832,
+      "sha256": "sha256-5957ec2d96ed5214e7a19f6dc54867aa3fdde25b2689ac3a2c86f5d7f967f84c"
+    },
+    {
+      "path": "references/gotchas.md",
+      "bytes": 2349,
+      "sha256": "sha256-238ada9743c537e7dd12a786c6a9584446428af42e672698268360da0e82717d"
+    },
+    {
+      "path": "references/procedure.md",
+      "bytes": 15200,
+      "sha256": "sha256-189b30aeed99cc1d43dfb940d072cf4707b251830a83e8fecb74c5b297029843"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3760,
+      "sha256": "sha256-50f78d597ba67257d823422ffbcfa022caa34ff43c18a4e3c6da74cb6993fdc2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9336,
+      "sha256": "sha256-38d55e9897a2725df6fea85cf9a90d7d64cb625e5ed21466de753ccb23285250"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

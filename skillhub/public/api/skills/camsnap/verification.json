@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "camsnap",
+  "name": "camsnap",
+  "description": "Capture frames or clips from RTSP/ONVIF cameras.",
+  "source": "https://skills.x402.wtf/api/skills/camsnap/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/camsnap/metadata.json",
+  "bundleHash": "sha256-6a4b5821b61f9b59bf5967b5f0be9e8b423e753a6c79d84b18f35b69fd440d48",
+  "merkleLeaf": "sha256-41d3267521ee965ee755849425bf19ea42cda35719cbe95fc6a926d2441b9a7a",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 898,
+      "sha256": "sha256-5e499af0105023f43112460f15d97ac6e741d1c185661e2215a5f8585ad68107"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

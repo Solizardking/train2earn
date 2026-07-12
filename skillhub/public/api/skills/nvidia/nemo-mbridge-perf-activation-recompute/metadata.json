@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nemo-mbridge-perf-activation-recompute",
+  "name": "nemo-mbridge-perf-activation-recompute",
+  "description": "Validate and use selective and full activation recompute in Megatron Bridge to reduce GPU memory usage at the cost of extra compute.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nemo-mbridge-perf-activation-recompute/SKILL.md"
+}

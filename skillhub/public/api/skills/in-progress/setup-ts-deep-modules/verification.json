@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "in-progress/setup-ts-deep-modules",
+  "name": "setup-ts-deep-modules",
+  "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module — implementation hidden in subfolders, reachable only through its entry-point files. User-invoked.",
+  "source": "https://skills.x402.wtf/api/skills/in-progress/setup-ts-deep-modules/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/in-progress/setup-ts-deep-modules/metadata.json",
+  "bundleHash": "sha256-5aa8d168651450351ad9caa280ec3f6bfa9cfffd9dbc5677a379d99e15a74de5",
+  "merkleLeaf": "sha256-4c32e4a029d17f07290b0839b8bd9e446464fc220873b96360ae466920ce474c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 7602,
+      "sha256": "sha256-2c6e39ccdd77f85337c13a4877c222d47dcd26e31619157af9688798244192d5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

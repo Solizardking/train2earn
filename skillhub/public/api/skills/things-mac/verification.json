@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "things-mac",
+  "name": "things-mac",
+  "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local Things database). Use when a user asks Clawdbot to add a task to Things, list inbox/today/upcoming, search tasks, or inspect projects/areas/tags.",
+  "source": "https://skills.x402.wtf/api/skills/things-mac/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/things-mac/metadata.json",
+  "bundleHash": "sha256-943b0d05b9c77d514d85db2df14babdebd7f893d0d90947d52e6db88ad0d2e78",
+  "merkleLeaf": "sha256-3d41cf491f3888baaf07d47e299f600aed1495b4b1755e2b594e5d80de5f350b",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3350,
+      "sha256": "sha256-c5cd40a9d8180fc220d7fd0f0372612ac00f92174677bdb0c47e3fd2f0bd9307"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

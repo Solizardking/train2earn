@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-tpsl-management",
+  "name": "vulcan-tpsl-management",
+  "description": "Take-profit and stop-loss setup, cancellation, laddered exits, position-side rules, and verification for Vulcan/Phoenix.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-tpsl-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-tpsl-management/metadata.json",
+  "bundleHash": "sha256-ecc0da3be50c85bf3a086651edf5dc6a6dd175653aa700e5aace28f8c739426f",
+  "merkleLeaf": "sha256-4147e86da907a8f0ebac7696aaa6f89d54062f405c627e46943c51faa14badfa",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 429,
+      "sha256": "sha256-fc8365fb93da95a61ce54f77f35f043b068215c5b70f5f7d5e2ba235f8ad9abf"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

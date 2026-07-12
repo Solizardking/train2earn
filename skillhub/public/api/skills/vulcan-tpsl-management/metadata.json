@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-tpsl-management",
+  "name": "vulcan-tpsl-management",
+  "description": "Take-profit and stop-loss setup, cancellation, laddered exits, position-side rules, and verification for Vulcan/Phoenix.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-tpsl-management/SKILL.md"
+}

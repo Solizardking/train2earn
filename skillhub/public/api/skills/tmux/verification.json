@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "tmux",
+  "name": "tmux",
+  "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+  "source": "https://skills.x402.wtf/api/skills/tmux/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/tmux/metadata.json",
+  "bundleHash": "sha256-fee65923b299eda1ee08b461216188ac4d25a553056159e2b07a900c8d55a914",
+  "merkleLeaf": "sha256-7456b7287544c94e5f4e798dcdf05284d31e187b8dcb7d2b758cd830e778404a",
+  "files": [
+    {
+      "path": "scripts/find-sessions.sh",
+      "bytes": 2945,
+      "sha256": "sha256-a137d03b3b37332439a1592831d60479ff86315c7e6d6ed7da0fb799db0f13f7"
+    },
+    {
+      "path": "scripts/wait-for-text.sh",
+      "bytes": 2139,
+      "sha256": "sha256-96bc42702f7353c32233c223d61dd11f2f99033267aeefac838aea8983a67735"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4112,
+      "sha256": "sha256-9a1008915a7643a7316898995142daf56524b05d1d343385bd60e9db6a8cea05"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

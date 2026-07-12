@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/cuopt-install",
+  "name": "cuopt-install",
+  "description": "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/cuopt-install/SKILL.md"
+}

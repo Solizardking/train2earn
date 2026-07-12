@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "blogwatcher",
+  "name": "blogwatcher",
+  "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+  "source": "https://skills.x402.wtf/api/skills/blogwatcher/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/blogwatcher/metadata.json",
+  "bundleHash": "sha256-99b8fac361f8e9d4a4ebdaa21ea9c08c2e7d37f7bef88226da9952a71834bf92",
+  "merkleLeaf": "sha256-1467d8a367f881a92d77231a149af509b7d57ecbba72a188540fca8aacdc1af5",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1221,
+      "sha256": "sha256-c22cd0c2c61891df92e3fb18a3ec5952cbffd5d1e06455cde78753e0cc8d3e32"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

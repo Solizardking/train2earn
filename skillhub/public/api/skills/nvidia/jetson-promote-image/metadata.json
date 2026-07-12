@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/jetson-promote-image",
+  "name": "jetson-promote-image",
+  "description": "Use to promote overlay files and built artifacts into the staged BSP image. Do NOT use to flash or build. Triggers: promote bsp image.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/jetson-promote-image/SKILL.md"
+}

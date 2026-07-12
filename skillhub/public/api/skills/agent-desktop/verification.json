@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "agent-desktop",
+  "name": "agent-desktop",
+  "description": "Use the built-in `Computer` sub-agent with `agent-desktop` for macOS desktop automation. Apply when a task needs application launching, accessibility snapshots, stable element refs, window focusing, semantic clicks/typing, or visual confirmation outside the browser sandbox.",
+  "source": "https://skills.x402.wtf/api/skills/agent-desktop/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/agent-desktop/metadata.json",
+  "bundleHash": "sha256-2a65bddc23ff1a63f920d2ede1b70289ce91818ee34f1606ff8ed189ee05026f",
+  "merkleLeaf": "sha256-07790da4eab571fc26b0a24a41ce33ff8e86bf28584fa859ec1fcea62ef7de86",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2878,
+      "sha256": "sha256-5b817bb2fa21aa2805bdac04a53e89d018d1fd82df5754b0bcb614382421af6e"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-link-docs",
+  "name": "jetson-link-docs",
+  "description": "Bind pre-downloaded Jetson reference docs (developer guide, design guide, pinmux, schematics) into the active profile documents block. Use after staging docs on disk; not for downloading.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-link-docs/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-link-docs/metadata.json",
+  "bundleHash": "sha256-1b5126a2cf4c2c95e54667e0834360df9085f9dc6f4c761858509e502c259b3d",
+  "merkleLeaf": "sha256-f5c8a074df5be2ed54e2773a82452d39a051b1d8543a391c7469cccc7b6ddada",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3805,
+      "sha256": "sha256-52fa56a87794c4e179adce48297158ffc72a349f688d17c36d8108d605315cf0"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3853,
+      "sha256": "sha256-6d875996ee1a30d8703674fbacd751238a515ca84d42670b9ea6fe5da01d0f10"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13390,
+      "sha256": "sha256-ca96ac6bba5ebafde5214a1b0b38a6f5b331a077135633de4abafd8b96c157d4"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

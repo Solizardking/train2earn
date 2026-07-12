@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-promote-image",
+  "name": "jetson-promote-image",
+  "description": "Use to promote overlay files and built artifacts into the staged BSP image. Do NOT use to flash or build. Triggers: promote bsp image.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-promote-image/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-promote-image/metadata.json",
+  "bundleHash": "sha256-a9d718c107a4260016791f4009d7174b04734fa546713614ab327d0f92053724",
+  "merkleLeaf": "sha256-ab0855ca17787307385dfb96b88226d59c400dc3dd4d8e368ca2e5f6ec5807ee",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3827,
+      "sha256": "sha256-38d0be4421a565dd863dec9ac662b4bcb487c927a1e4af0a9563aed6374f6ae7"
+    },
+    {
+      "path": "references/build-source-freshness-gate.md",
+      "bytes": 4663,
+      "sha256": "sha256-961a24bdf7f5ec1da8d827e6de5ec0fcfda94439433397ab552754f0a66ee586"
+    },
+    {
+      "path": "references/copy-pass-snippets.md",
+      "bytes": 6684,
+      "sha256": "sha256-e54addf0144b5178b7350142bd68dc80b4260e537d4da5a97dc7c22b3de8469c"
+    },
+    {
+      "path": "references/kernel-image-and-initramfs.md",
+      "bytes": 6011,
+      "sha256": "sha256-6f5edf7377e04157515f03046a9f79064c2077e541a3e10d976f28467d8b0b3b"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3706,
+      "sha256": "sha256-bc63961ef38e7f4381e43aeb38bea3fb242fea100178920acc0629649bb68e06"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 20046,
+      "sha256": "sha256-8cdfa699298ee267d83012085ab56232688edbfdf791abae2b0e05b5df524ee6"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

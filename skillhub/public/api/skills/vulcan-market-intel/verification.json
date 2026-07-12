@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-market-intel",
+  "name": "vulcan-market-intel",
+  "description": "Phoenix market data, tickers, orderbooks, candles, funding, spreads, liquidity, and pre-trade market context.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-market-intel/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-market-intel/metadata.json",
+  "bundleHash": "sha256-9c7850a7a695bb77603fcb2f73e84ba62bc40daa91435286146908d462071114",
+  "merkleLeaf": "sha256-ea1e1416c85b57eeba70aa7e6e0f48eba6a2636f11cd4b188bf498741fbf81ef",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 396,
+      "sha256": "sha256-b43510d1bf7c54f34cf3bd861b734e074fa5bd71d33da8ccd55be544a5433c63"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/digital-health-clinical-asr-setup",
+  "name": "digital-health-clinical-asr-setup",
+  "description": "Stage 1 of Clinical ASR Flywheel. Use when bootstrapping a cycle: NVCF+MW disclosure, NVIDIA_API_KEY check, deps install, TTS+ASR smoke test.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-setup/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/digital-health-clinical-asr-setup/metadata.json",
+  "bundleHash": "sha256-da5236dc7f2b2a058cbd38095bb587052c96da917956e5b615a53b6020e4ba6b",
+  "merkleLeaf": "sha256-82362277d7f2f688fc90d316319890529a9a59fc167885e4c5ebbce4ad00d4ee",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 2845,
+      "sha256": "sha256-6b2fb5ce51424168aff647ba1bcbadd0ef5ae75e819867e306cca75dadd033d2"
+    },
+    {
+      "path": "references/dependency-ownership.md",
+      "bytes": 5827,
+      "sha256": "sha256-394c00198d34bef6995627e77627cd92b3d52140c447edd1154f3959c15e3ee6"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2809,
+      "sha256": "sha256-5d769fdbc07f42e8cca5a621561910d3e506a886463e6d6a1952c1d409838c91"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18282,
+      "sha256": "sha256-025880f0939e1caf28fbf5bf3943c1490ab32ad18f642a511f1bfa617a265984"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

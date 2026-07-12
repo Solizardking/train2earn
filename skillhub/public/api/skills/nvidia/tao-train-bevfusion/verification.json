@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-bevfusion",
+  "name": "tao-train-bevfusion",
+  "description": "BEVFusion for multi-sensor 3D object detection. Fuses LiDAR point clouds and camera images in bird's-eye-view (BEV) space, used in autonomous driving for robust 3D perception. Use when training, evaluating, or running inference for a TAO BEVFusion model. Trigger phrases include \"train BEVFusion\", \"LiDAR + camera fusion\", \"BEV 3D detection\", \"multi-sensor 3D perception\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-bevfusion/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-bevfusion/metadata.json",
+  "bundleHash": "sha256-e9db68a572562ccf33a2932268b8454ca86ca06631946e867d6ed87021a3cc81",
+  "merkleLeaf": "sha256-b83414ddb64cd5f455c3adc801b43b37e8701d94b2c7680d6c402a932a7de206",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4068,
+      "sha256": "sha256-fc0799f086500592e64e4429b5e091f71b56774f4ae15b961592338f6f06899e"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 2488,
+      "sha256": "sha256-998e7329691f15549200e516d56364f6e836ca603dea26449fac1ce7dad63fc8"
+    },
+    {
+      "path": "references/spec_template_dataset_convert.yaml",
+      "bytes": 156,
+      "sha256": "sha256-51abd726bd6d39bcf1a5aade7b88e415b733a5cca75b100b91faf4999546bdd3"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 7002,
+      "sha256": "sha256-4e145788b4ba94d46c26916bb62ef28f3e950c5bbc577041f93af88dde2e8a2b"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 7002,
+      "sha256": "sha256-f4e36d44b0e415c346b973e6b831ae4ca32ef67066d99fc1fae36ea445895c87"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 7001,
+      "sha256": "sha256-30ef5afd809b73d95824b6e8c36dc32ffbf5c6833a8e0627645fda9b785d0047"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3937,
+      "sha256": "sha256-36bbf1ddadbd1b77bef2e768dc73427bc4a23da0217f5bbd2401552d9c93eb58"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12836,
+      "sha256": "sha256-144ad5149172edd69700b0fbc0131bb1035399aafeb629d0ecd76d477fc289eb"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

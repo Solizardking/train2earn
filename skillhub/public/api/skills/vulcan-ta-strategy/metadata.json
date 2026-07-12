@@ -1,0 +1,7 @@
+{
+  "slug": "vulcan-ta-strategy",
+  "name": "vulcan-ta-strategy",
+  "description": "Technical-analysis-driven Phoenix strategy runner using declarative rules and Vulcan strategy ledgers.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/vulcan-ta-strategy/SKILL.md"
+}

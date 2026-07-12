@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/holoscan-install-debian",
+  "name": "holoscan-install-debian",
+  "description": "Install Holoscan SDK natively on Ubuntu via apt. Use for C++ installs on Ubuntu; pair with /holoscan-install-wheel for Python.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/holoscan-install-debian/SKILL.md"
+}

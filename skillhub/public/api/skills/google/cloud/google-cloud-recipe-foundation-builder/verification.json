@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-recipe-foundation-builder",
+  "name": "google-cloud-recipe-foundation-builder",
+  "description": "Deploys a baseline landing zone foundation for a Google Cloud Organization, establishing security guardrails using Organization Policies, resource hierarchy folders and projects, billing association, and centralized logging and monitoring. Deploys Google Cloud's recommended security controls and architecture. Use when setting up a new Google Cloud Organization or establishing a secure, enterprise-grade landing zone foundation.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-recipe-foundation-builder/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-recipe-foundation-builder/metadata.json",
+  "bundleHash": "sha256-c282ce5fdc02084f1c6aa03bc3811ebdd8876e29ce3aa0d4b0f50943a4d165cf",
+  "merkleLeaf": "sha256-ce50ea2356ad5e6d89bbec3dbee22b0311c9f5b8151aa5766b018c8e6cd46f8f",
+  "files": [
+    {
+      "path": "references/admin-iam.md",
+      "bytes": 8754,
+      "sha256": "sha256-51d2754a5ee1fe197070c6c191533bd1bf0b3868cd32a5906ed15a26e35e8428"
+    },
+    {
+      "path": "references/logging-monitoring.md",
+      "bytes": 2659,
+      "sha256": "sha256-a9b287aa2fc0ca1926fdc9540a7150bbe6507003d193efeb8ecc5ad80e6203bc"
+    },
+    {
+      "path": "references/org-policies.md",
+      "bytes": 7749,
+      "sha256": "sha256-fb73f2a3c4cc3dca9e8f2f90bdba2d1ff0716d430a9846e470e832749741c9fa"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19222,
+      "sha256": "sha256-02c0d6856e1d3eb4ea18e42c266e8b54d2623e959c803610c1b5e999377658b3"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

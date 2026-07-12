@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gke-basics",
+  "name": "gke-basics",
+  "description": "Core GKE cluster discovery and hub. Use to route to specialized GKE skills. Do not use for specialized tasks (networking, security, etc.) directly.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gke-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gke-basics/metadata.json",
+  "bundleHash": "sha256-a9ed5b93324d5449068a8ee03589b6dc751d058e74db99ec2a495bc7f1bee3f5",
+  "merkleLeaf": "sha256-4455cd03c91728e0e91e22b59401df18917812db18ab5cd207c83f38e8d3111c",
+  "files": [
+    {
+      "path": "references/cli-reference.md",
+      "bytes": 14578,
+      "sha256": "sha256-842dbc7c09ce323477ce22df2c80e5155171d11fccac86b9bd8af9ada4613368"
+    },
+    {
+      "path": "references/client-library-usage.md",
+      "bytes": 2443,
+      "sha256": "sha256-e7915768a71003eaa04ef5528e6cccfbc1fcf4f89f0dde7e24f3c37000855810"
+    },
+    {
+      "path": "references/core-concepts.md",
+      "bytes": 3291,
+      "sha256": "sha256-49134cfe5c0f3a56755e84631bd113a0021f75ca94405bddf66bd3f63f884375"
+    },
+    {
+      "path": "references/iac-usage.md",
+      "bytes": 2140,
+      "sha256": "sha256-aa6d6d3b8906bab106036891adce6dcad02a072c475d7c6cd8a41c586b36b7e6"
+    },
+    {
+      "path": "references/mcp-usage.md",
+      "bytes": 4083,
+      "sha256": "sha256-103abbdff846f34658d55234266410803321e077e127d3c3c78f2725dffd5052"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4011,
+      "sha256": "sha256-b223c373cf98c754d22a9e8e5d8ab8a61451dc5ed0a84ced1026080cc5ac0872"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

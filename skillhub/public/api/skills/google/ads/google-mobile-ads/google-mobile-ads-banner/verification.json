@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/ads/google-mobile-ads/google-mobile-ads-banner",
+  "name": "google-mobile-ads-banner",
+  "description": "Provides instructions to implement, integrate, or configure Google Mobile Ads (GMA) banner ads in Android and iOS mobile applications. Use when the task involves setting up banner ads in a mobile application.",
+  "source": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-banner/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/ads/google-mobile-ads/google-mobile-ads-banner/metadata.json",
+  "bundleHash": "sha256-4bd961000adf869ca19b865adac582eaa6436a5a6b2c72e30f384a040cbada68",
+  "merkleLeaf": "sha256-db3c25cda1e27f746d2db779d7a30dcc94e4f4cad17507ff1943cbdac018a0f2",
+  "files": [
+    {
+      "path": "references/android-banner.md",
+      "bytes": 3133,
+      "sha256": "sha256-1dacfe0c018dcb7733013a18117e14b0f7e274017ab7f90602077c5a5623f741"
+    },
+    {
+      "path": "references/ios-banner.md",
+      "bytes": 1884,
+      "sha256": "sha256-36fcaa14873566e11d30393ebd60d1532d5bb2b69e5632394025d7e95996feee"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1955,
+      "sha256": "sha256-4676c259224b87570de976ecfdeae8d75475ab4f56031bada9851930925ef138"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

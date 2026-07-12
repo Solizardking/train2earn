@@ -1,0 +1,7 @@
+{
+  "slug": "swarm-orchestrator",
+  "name": "swarm-orchestrator",
+  "description": "Orchestrate multi-bot trading swarms on Pump.fun with persona-driven agents",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/swarm-orchestrator/SKILL.md"
+}

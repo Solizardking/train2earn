@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nv-reason-cxr",
+  "name": "nv-reason-cxr",
+  "description": "Used for command-shape or live NV-Reason-CXR chest X-ray reasoning smoke tests. Not for diagnosis or clinical reporting.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-reason-cxr/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-reason-cxr/metadata.json",
+  "bundleHash": "sha256-e646a1dda72ecd1aae352d6a7bcdf304dfdd6afdf4b12543f6fcd16eddf56fcb",
+  "merkleLeaf": "sha256-dd52fb099bac2abd6345a755ed0b9e45c8133db0f1393544363664e9ff4e9dc3",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3981,
+      "sha256": "sha256-b52af7ac501d6a95d4a45fdfbea5211fd22c998c77b9f0c7f81e1a7865e2c691"
+    },
+    {
+      "path": "scripts/run_nv_reason_cxr.py",
+      "bytes": 33749,
+      "sha256": "sha256-c3fc56b4dc4cd714243f0ba53fa5687a33ceb31ead580673b51f47c5021a58eb"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 7452,
+      "sha256": "sha256-beb89b994faf60a849b18aaef957bf78e6594682d567d1f31f9fdb3615caef20"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3927,
+      "sha256": "sha256-4ec765e3ba377f4abafedb53778aac270671f7c8615616fcb83be9b53c3312ff"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15727,
+      "sha256": "sha256-4fc7afa15551a6cb0dc1e4b7b201538e70fa8d96f548cd41ccb53c510dab3d75"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "skill-creator",
+  "name": "skill-creator",
+  "description": "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.",
+  "category": "Dev Tools / Agents",
+  "skill": "/api/skills/skill-creator/SKILL.md"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-perf-moe-long-context",
+  "name": "nemo-mbridge-perf-moe-long-context",
+  "description": "Long-context MoE training guidance for Megatron Bridge. Covers CP sizing, selective recompute, dispatcher choices, and practical patterns from DSV3, Qwen3, and Qwen3-Next long-context experiments.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-long-context/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-perf-moe-long-context/metadata.json",
+  "bundleHash": "sha256-a8478ca5291115e6875c9a1a26e2eeca1750651d43ebb5b4eb359c7a7dffd117",
+  "merkleLeaf": "sha256-a3609bfce5a261de87803af809294c9e072a15c23add55380431550e532f1d2c",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4357,
+      "sha256": "sha256-ae716ac34d57df415e0889344cb17453e934ce5bd15e3a8fca1e5c952fc0d3e5"
+    },
+    {
+      "path": "card.yaml",
+      "bytes": 3531,
+      "sha256": "sha256-0820c9dcb16e38b3799002724bd932a90296e7c7721c06e58235b097dea82c47"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3922,
+      "sha256": "sha256-d1570d78d7e88d03c17c618eb483daddfc3785f1e25535848aeaa8cf34560b7d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4935,
+      "sha256": "sha256-5fef955b43953fcf0191874aa411293533ab6a79f8cb5e863af3bcc77bf1acbd"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

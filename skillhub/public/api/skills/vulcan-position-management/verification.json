@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "vulcan-position-management",
+  "name": "vulcan-position-management",
+  "description": "List, show, close, reduce Phoenix positions and attach/cancel TP/SL.",
+  "source": "https://skills.x402.wtf/api/skills/vulcan-position-management/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/vulcan-position-management/metadata.json",
+  "bundleHash": "sha256-c971a210c80dfa99d32c8ba20a24e337738a407e41ead2d7fe7305404d542870",
+  "merkleLeaf": "sha256-443be111846b4449c72a9bb0d3f1a98ddaab700832e7af2d045bbd47a99ee520",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 374,
+      "sha256": "sha256-7bd917479a01aac91bf18e23ef926e4bd17fe31a63c2685308dc5343201e75ae"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

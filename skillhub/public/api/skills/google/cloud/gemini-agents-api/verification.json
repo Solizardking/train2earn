@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/gemini-agents-api",
+  "name": "gemini-agents-api",
+  "description": "Manages custom Agent resources on Gemini Enterprise Agent Platform. Use when the user wants to programmatically create, configure, list, update, or delete stateful, server-managed Agent resources (including mounting files, skills, and tools) before executing conversations.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/gemini-agents-api/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/gemini-agents-api/metadata.json",
+  "bundleHash": "sha256-03c7965f43f39815a53ce1540103186afb485938867305a0eda187c83ea4085b",
+  "merkleLeaf": "sha256-d6ca3d1216e0fb7d803879bdb353a4e88838f0786f98f326a8d49a6a7dd37977",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 12788,
+      "sha256": "sha256-f5a9fed5921983bff6f96a8658429b555aab3334fe5ba03cf71de6e2b62291d7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-waf-reliability",
+  "name": "google-cloud-waf-reliability",
+  "description": "Generates reliability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework. Use this skill to evaluate a workload, identify reliability requirements, and provide actionable recommendations for build, deploy, and manage the workload reliably in Google Cloud.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-reliability/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-reliability/metadata.json",
+  "bundleHash": "sha256-2faef20baf80466982ad5acb72f577e708ae796f04d5d390e014f94301209774",
+  "merkleLeaf": "sha256-b6a50be081605f73b88bca253ee125b93517cb2e375b04cb5e17a5b666852e62",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 7173,
+      "sha256": "sha256-047151ae9ef4c65113044dcb80ad68aae3603e1b66b61fd717cbd6f8eff582e0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

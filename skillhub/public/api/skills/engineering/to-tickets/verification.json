@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "engineering/to-tickets",
+  "name": "to-tickets",
+  "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket locally, or native blocking links on a real tracker.",
+  "source": "https://skills.x402.wtf/api/skills/engineering/to-tickets/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/engineering/to-tickets/metadata.json",
+  "bundleHash": "sha256-91c49f8a38ce3bf97b5f15ad072b829987aee2c360ff2faef2e73dab3b3fce9b",
+  "merkleLeaf": "sha256-794d08541737105046284178575bfcb2f62ee6a3b878fe5b73d20bdb33ff8b8b",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5800,
+      "sha256": "sha256-1846d215e24ec1219b199a708329ca915db93138d4f3675af29db4d32ee41391"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

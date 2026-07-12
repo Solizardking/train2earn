@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/nv-segment-ct",
+  "name": "nv-segment-ct",
+  "description": "Used for running NV-Segment-CT VISTA3D on CT NIfTI volumes and recording label-map evidence.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/nv-segment-ct/SKILL.md"
+}

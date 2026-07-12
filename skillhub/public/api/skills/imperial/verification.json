@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "imperial",
+  "name": "imperial",
+  "description": "Entry-point skill for Imperial perpetual routing on Solana. Use before answering or acting on Imperial router flows, Phoenix-routed perps, profile funding, market/portfolio intel, risk checks, TP/SL, TWAP, grid, or Telegram bot trading workflows.",
+  "source": "https://skills.x402.wtf/api/skills/imperial/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/imperial/metadata.json",
+  "bundleHash": "sha256-655d00cab02782cd40039fd50dab5d12d40191aa2f6921ce245edea1e387de26",
+  "merkleLeaf": "sha256-6f49549cbfe2b1c9190e47d94eafe436810455f97c83b78f98dc8510c2da43e9",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1197,
+      "sha256": "sha256-61d7a9750374cbb7b7d4572b36d35ae92e99f1002b996eb56ea47469f95f4eca"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

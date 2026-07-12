@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "dflow-kalshi-market-scanner",
+  "name": "dflow-kalshi-market-scanner",
+  "description": "Find Kalshi prediction markets on DFlow that match a criterion — arbitrage (YES+NO<$1), cheap long-shots, near-certain short-dated plays, biggest movers, widest spreads, highest volume, closing soonest, and series/event-level scans. Use when the user asks \"where's the free money?\", \"any mispriced markets?\", \"cheap YES with volume\", \"what moved today?\", \"markets closing soon\", \"cheapest YES in this event\", \"top markets by volume\", or \"alert me when X happens\" (streaming). Do NOT use to place orders (use `dflow-kalshi-trading`), to view a user's own positions (use `dflow-kalshi-portfolio`), or for general live-data plumbing unrelated to a scan (use `dflow-kalshi-market-data`).",
+  "source": "https://skills.x402.wtf/api/skills/dflow-kalshi-market-scanner/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/dflow-kalshi-market-scanner/metadata.json",
+  "bundleHash": "sha256-8eed64396edd5eb6fe964089b9780301451e644f0f04ef8bd6acddb017769d50",
+  "merkleLeaf": "sha256-7b7f33e12ebdd26754834240f80b4efa7b12f4e2669c9dbd9bd5e105490926d7",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 18873,
+      "sha256": "sha256-9c21164cd04a626d6391b60b69b110717f9235bf5d44f55591a6b7d2e7e0077c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

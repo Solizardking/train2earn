@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "trello",
+  "name": "trello",
+  "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
+  "source": "https://skills.x402.wtf/api/skills/trello/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/trello/metadata.json",
+  "bundleHash": "sha256-1ea438799adb0958f1617c2dffc17ba7c0cefe076bbc64ae1cca8529a4b88eb7",
+  "merkleLeaf": "sha256-d8f8ea09f77c6cb84ad0d2d037406cebafe83e3a436f14e6b2779cdcbae7251c",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 2651,
+      "sha256": "sha256-ede0f3181af05734e178a9415295402ecfe4cb2da08d1d26515634e874ec08e1"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

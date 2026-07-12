@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/ads/google-ads-api/google-ads-api-quickstart",
+  "name": "google-ads-api-quickstart",
+  "description": "Guides developers through Google Ads API quickstart: credential setup, choosing from 6 client libraries/REST, configuring environments, and running a \"retrieve campaigns\" script. Troubleshoots common setup errors: USER_PERMISSION_DENIED, login_customer_id issues, and DEVELOPER_TOKEN_NOT_APPROVED.",
+  "source": "https://skills.x402.wtf/api/skills/google/ads/google-ads-api/google-ads-api-quickstart/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/ads/google-ads-api/google-ads-api-quickstart/metadata.json",
+  "bundleHash": "sha256-d97d342e32466cb6de3c0a7881204d84f9c44d4179429a8cf1d0d39204bb85a0",
+  "merkleLeaf": "sha256-7e1adda5b936c793200b0b6808c6315c358f831426dd54d706d3d1e9fadf047b",
+  "files": [
+    {
+      "path": "references/dotnet.md",
+      "bytes": 4125,
+      "sha256": "sha256-263aeb6ad6f97f4198c3c170b2434bffdb18f81d67b189012d767dc94a071449"
+    },
+    {
+      "path": "references/java.md",
+      "bytes": 8396,
+      "sha256": "sha256-331c0629e853b26bac5045b749443f36e71da01858dd116b0ec8cc03d3db1dfa"
+    },
+    {
+      "path": "references/perl.md",
+      "bytes": 2866,
+      "sha256": "sha256-2b7e066d99920f9c2b880f44ffd1d1f8194ec00ef5b141445a33b32bb9464c55"
+    },
+    {
+      "path": "references/php.md",
+      "bytes": 4102,
+      "sha256": "sha256-d092c5e33a287bf678f78487db963f3154fb2ebb1e4c97bbd08602ed3e24913c"
+    },
+    {
+      "path": "references/python.md",
+      "bytes": 7534,
+      "sha256": "sha256-096f640f2cafae0308617e6cc62580e00fb38efa7094d9db5b507fc1e0c7c42c"
+    },
+    {
+      "path": "references/rest.md",
+      "bytes": 5307,
+      "sha256": "sha256-b9ad834da260496b67a6ed5d5a184b029a36b254c6e1eb8549a6cd53d786ff01"
+    },
+    {
+      "path": "references/ruby.md",
+      "bytes": 3583,
+      "sha256": "sha256-f0efce81d0eff8258801b451d10c5e36a8b028b05f1c5893f5157a245d4f44e3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17610,
+      "sha256": "sha256-54f4e4eac588e94c7c1f25c1f6540d46c3de5a5c8c9132f8f05bd97ee8170fbe"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

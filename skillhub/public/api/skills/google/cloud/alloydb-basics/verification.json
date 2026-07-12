@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/alloydb-basics",
+  "name": "alloydb-basics",
+  "description": "Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model context protocol (MCP) tools for automated database operations.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/alloydb-basics/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/alloydb-basics/metadata.json",
+  "bundleHash": "sha256-f2b2d055a8df9d97dff5cf4dea0f5ae05343d3cf40cbb0b3848c9a067723ac6a",
+  "merkleLeaf": "sha256-8c44bf5194c95549e72e61a03fbe56db3ddee4ef85474eb4a22d096f534ddd8d",
+  "files": [
+    {
+      "path": "references/cli-usage.md",
+      "bytes": 1185,
+      "sha256": "sha256-84a934e66bc4954769c9ce7651b796985366e2fd53bfc2ac1528597b4bab5276"
+    },
+    {
+      "path": "references/client-library-usage.md",
+      "bytes": 5524,
+      "sha256": "sha256-c44f9a3d95cbb0972f2d091404ec187996c72a1d2beef4c2a01adb842113c905"
+    },
+    {
+      "path": "references/core-concepts.md",
+      "bytes": 2158,
+      "sha256": "sha256-fce2731c4414784a6437f6bd8195a154df4d8056029e737f913585bc112b7200"
+    },
+    {
+      "path": "references/iac-usage.md",
+      "bytes": 3285,
+      "sha256": "sha256-e5c70133ac7bc060c2fd89a2c10c263c1311dacf40c37f0d7350a72d737bf84f"
+    },
+    {
+      "path": "references/iam-security.md",
+      "bytes": 4382,
+      "sha256": "sha256-5ae32036bc7eead339eb8bdc62e7e94346c2e115e7b6f8e01921d34df5a25c62"
+    },
+    {
+      "path": "references/mcp-usage.md",
+      "bytes": 1364,
+      "sha256": "sha256-9050b70b7f42be044d011c54663ada8a86dc825de49fd9c467298a087e1daf72"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2418,
+      "sha256": "sha256-b91216ea59bc484bb866d347c6cb23581c6b1ab6a88e8adefe11b3297284fbc5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

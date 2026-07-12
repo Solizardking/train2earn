@@ -1,0 +1,7 @@
+{
+  "slug": "spotify-player",
+  "name": "spotify-player",
+  "description": "Terminal Spotify playback/search via spogo (preferred) or spotify_player.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/spotify-player/SKILL.md"
+}

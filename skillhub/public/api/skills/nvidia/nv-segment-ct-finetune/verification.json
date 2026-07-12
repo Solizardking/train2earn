@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nv-segment-ct-finetune",
+  "name": "nv-segment-ct-finetune",
+  "description": "Used for smoke or dataset finetuning of NV-Segment-CT VISTA3D on CT NIfTI labels. Not for clinical validation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nv-segment-ct-finetune/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nv-segment-ct-finetune/metadata.json",
+  "bundleHash": "sha256-37e40cc95bc54610d53b17792edd1d9763d988bc6dcbb4fc6a18514ae17b4cae",
+  "merkleLeaf": "sha256-f8d72abe82d3422c26624f05e82470d1b645cf1c9d615237fb66b75d4943a25d",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4033,
+      "sha256": "sha256-2a9cdbef9c2834209d703db863b2a2e1707e2f135c5b5f5451b8a4d8f5e5c3e1"
+    },
+    {
+      "path": "references/task06-and-results.md",
+      "bytes": 3888,
+      "sha256": "sha256-08043beb8fb395cf8371e55d4cdd64632572d0b9edc9fa0147092c5d56c336f9"
+    },
+    {
+      "path": "scripts/run_finetune.py",
+      "bytes": 68176,
+      "sha256": "sha256-a46ce96cb596eec75b5bb2b978039a3d7c86562acb45160a8d974669df28b2b6"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 12451,
+      "sha256": "sha256-4ee2ba3dad5d6f315cd1bf4f299f08a42c7db60c85bd33cd8b6eeaab96ac7411"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3945,
+      "sha256": "sha256-74c3ff468c6fc2aab7407dd6e4d71fd1b46fdcef14820d236a4c79bca1599f3f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9203,
+      "sha256": "sha256-2d19894c9ce6cfb8c4bd98de677570e4d14d1a86bc07da39a932729be3d69a1c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

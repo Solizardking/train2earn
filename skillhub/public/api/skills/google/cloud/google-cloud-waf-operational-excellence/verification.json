@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/google-cloud-waf-operational-excellence",
+  "name": "google-cloud-waf-operational-excellence",
+  "description": "Generates operations-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Operational Excellence pillar of the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify operational requirements, and provide actionable recommendations for deployment, monitoring, and incident management.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-operational-excellence/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/google-cloud-waf-operational-excellence/metadata.json",
+  "bundleHash": "sha256-bbba9a37ea3ba80f3a922d739ef0f6f9454c4ac6901161e844fb98a0576bd00b",
+  "merkleLeaf": "sha256-e793675133dc623f90323e27f57d7d55fabe86fb948f07e4cf2d287ce49c5069",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 6921,
+      "sha256": "sha256-519aaf57bfacf495f594c46c50726361422c4483bf84adce6e647137e95657d7"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

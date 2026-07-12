@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-pose-classification",
+  "name": "tao-train-pose-classification",
+  "description": "Pose classification using ST-GCN (Spatial Temporal Graph Convolutional Network). Classifies skeleton sequences into action categories from pose-keypoint data. Use when training, evaluating, exporting, or running inference for a TAO pose-classification model. Trigger phrases include \"train pose classification\", \"skeleton action recognition\", \"ST-GCN\", \"keypoint sequence classifier\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-pose-classification/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-pose-classification/metadata.json",
+  "bundleHash": "sha256-c5d3f8ecd25d41ca705d9cdc7cb3cd4f60c7b7b259a3f0d0e5ef3614d062a6ec",
+  "merkleLeaf": "sha256-c104d6888c713714f11f1458ece2319e6f11e867472d5c96d54e4a0e72640ebe",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4141,
+      "sha256": "sha256-b87db78ba5361e748ba101fcf67fc7ea7dacfd5915a394504b0ae7b2728ae19c"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 4493,
+      "sha256": "sha256-2b3a0e2ea222dfa398de4c84494dda7fc3a4eb582eef4c07e7a0d58bad43e47e"
+    },
+    {
+      "path": "references/spec_template_dataset_convert.yaml",
+      "bytes": 517,
+      "sha256": "sha256-0639e6e74d9f0d55a6797dd2728eccaf6529c759db27eec18197b2e250b7facf"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 1482,
+      "sha256": "sha256-32d659b5391095e235de17cdf1f4a40d586e8aac252557311caf0cfa68745928"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 1374,
+      "sha256": "sha256-1c0797842e68bd1bce970c17c09bf77f0d762731eafb50edc2d5bbc842c97dcd"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 1501,
+      "sha256": "sha256-0353c5ec7c4d52199db1256409225c1f58ac1795457be4e0edd5f61c7b102284"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 1304,
+      "sha256": "sha256-dfac83d83f4239e31cfdf84c55413581f3be74926d4d3f9bec0a192cf4a40a69"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4112,
+      "sha256": "sha256-83a3eaebf2b4e76956b0d0131a643ed31f853b899450141c88c0a651a364d4c9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 13149,
+      "sha256": "sha256-5b82b3dbc1f33f8c3f59fa5141c161f92f19778ffd629f38aa63bb8861d20cd8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

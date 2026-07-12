@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/nemo-mbridge-recipe-recommender",
+  "name": "nemo-mbridge-recipe-recommender",
+  "description": "Recommend and customize Megatron Bridge recipes for a user's model, GPU count, and training goal. Indexes library recipes (pretrain/SFT/PEFT) and performance recipes.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-recipe-recommender/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/nemo-mbridge-recipe-recommender/metadata.json",
+  "bundleHash": "sha256-c24804873678d072dde0d439a5eb8e59b19998c5e997dc0554c3e8e0e8f98ae2",
+  "merkleLeaf": "sha256-5417a17c06529c6073c884747ac11bf943444c2f241735c999e730f016692a23",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3876,
+      "sha256": "sha256-3c1a814e9123c2be77509ad6c786c1c23f95f09a640250b0e17710b345f47d65"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4188,
+      "sha256": "sha256-5a400dec950441dfbd3c724f78766da97f58ca9296f659869ac21efb875c9396"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 19417,
+      "sha256": "sha256-9aff064285ddfdddc5d7a0ff39d1c0a481380452c0d2eab15a7ec5657d071ac5"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

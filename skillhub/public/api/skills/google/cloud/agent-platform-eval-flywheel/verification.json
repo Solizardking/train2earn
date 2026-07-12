@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "google/cloud/agent-platform-eval-flywheel",
+  "name": "agent-platform-eval-flywheel",
+  "description": "Measures and improves the quality of AI models and agents on Google Cloud using the Eval Quality Flywheel methodology. Use when evaluating an agent or model, building an eval dataset, picking or writing evaluation metrics, analyzing failures, comparing results before and after a fix, or when guidance is needed on Agent Platform eval methodology — including dataset schema, LLM-as-judge scoring, and common failure causes. For fine-tuning, use agent-platform-tuning. For general production deployment, use agent-platform-deploy.",
+  "source": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-eval-flywheel/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/google/cloud/agent-platform-eval-flywheel/metadata.json",
+  "bundleHash": "sha256-a579720b6805a1983195783ff1960fc0344595cc461bc633a80a19806de3fccb",
+  "merkleLeaf": "sha256-0af1f5c00eac970aef1fd89a885d63f41da221fa31580c471823d96d8789cccd",
+  "files": [
+    {
+      "path": "references/dataset_schema.md",
+      "bytes": 9358,
+      "sha256": "sha256-528637ad461d0dd1e945d2e35e938b06c3bdb10251c03edd58bcbe5b35f922e5"
+    },
+    {
+      "path": "references/deployment.md",
+      "bytes": 6948,
+      "sha256": "sha256-48cad7d8c74cd1d1f6c527a8704d24d187dfa3654d5a212648bb45f656a6139e"
+    },
+    {
+      "path": "references/failure_patterns.md",
+      "bytes": 6356,
+      "sha256": "sha256-861e35adcd3fffc81f3d0e204d4bd348f1737fd16cd323f6e1bbbfd40ca62e71"
+    },
+    {
+      "path": "references/metric_registry.md",
+      "bytes": 12479,
+      "sha256": "sha256-fa2f6bd80cc1fbba1a25ea034d82317e131ebe87f56935c48b5950b6f0a7689f"
+    },
+    {
+      "path": "references/sdk_patterns.md",
+      "bytes": 8229,
+      "sha256": "sha256-130de1012b3360bbef9103ba67ff300e9f100a3442fab4f95cc30d7bcc922ab3"
+    },
+    {
+      "path": "scripts/compare_results.py",
+      "bytes": 6328,
+      "sha256": "sha256-27100ae990acb95c3c73f38627b6fc55e4fa0450b6a9f3415ed5f64c85d18ece"
+    },
+    {
+      "path": "scripts/endpoint_evaluation.py",
+      "bytes": 5410,
+      "sha256": "sha256-61d268dd4e6f6635758926a59a14ddedec5baf2da55fec80618092c51cfb17e4"
+    },
+    {
+      "path": "scripts/inspect_results.py",
+      "bytes": 7068,
+      "sha256": "sha256-8a3267fca9987e7dea43eb4acfc651fd1f41ef3798ee373fe01d63987872b734"
+    },
+    {
+      "path": "scripts/maas_evaluation.py",
+      "bytes": 2344,
+      "sha256": "sha256-23070c6e5346b4ed0c23efb1c80a4d13d97bd81caf71a0507e85eae9c57652c4"
+    },
+    {
+      "path": "scripts/parse_adk_traces.py",
+      "bytes": 8639,
+      "sha256": "sha256-4ccdc48d55719c6b3bdc003d0792e3ba5c872830dd623db5c17aa0d8cd5279d1"
+    },
+    {
+      "path": "scripts/render_html_report.py",
+      "bytes": 3600,
+      "sha256": "sha256-407b74d1b424d7d50b9ac0fca65af939a3e56c639a5b45758a71b9623d8e54cb"
+    },
+    {
+      "path": "scripts/validate_dataset.py",
+      "bytes": 10911,
+      "sha256": "sha256-248ad50985fbb3c00332c78d1dfc83f7e03a5fab0534bb3ebd0bb97763ad363b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 18182,
+      "sha256": "sha256-265e3208740b13ea11c54aa3e2260c67efa4f3dbe6ce67fb6f8b7d1ec852b2d9"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

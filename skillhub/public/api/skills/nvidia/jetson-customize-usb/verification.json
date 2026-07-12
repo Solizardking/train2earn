@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/jetson-customize-usb",
+  "name": "jetson-customize-usb",
+  "description": "Enable/disable Jetson USB2/USB3 SS ports via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-usb/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/jetson-customize-usb/metadata.json",
+  "bundleHash": "sha256-1763a23f909a635867838d58f375ca05d000c5547dffe81b6c60ae981a4c502d",
+  "merkleLeaf": "sha256-4ffff81b84272d3ef9357b544c4df940ad0cfa9ceb63d53a7626f522d49964fb",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3827,
+      "sha256": "sha256-4822824ba3b1cbcf6cd160dfbb417fd62b0af8bc96f33c5bcd5d6364114aa651"
+    },
+    {
+      "path": "references/gotchas.md",
+      "bytes": 2201,
+      "sha256": "sha256-0f872d6293f6373a04fbb47ffba05b5f81f28653b2dd8aa9704d4c01e628ceec"
+    },
+    {
+      "path": "references/procedure.md",
+      "bytes": 15382,
+      "sha256": "sha256-bb0af1340b8d0dcca8d799049386a06fbdb08f785906a9345d3320ec74ff7bb6"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 664,
+      "sha256": "sha256-384aedd0d01b8b68a22c62b68e72b68ea7506f26e1e651cf183385af5b22b3c1"
+    },
+    {
+      "path": "references/run-state-sidecar.md",
+      "bytes": 1305,
+      "sha256": "sha256-907b54a505a84f37c86e770c1456d79d43f174733ba698c0f653bb465e3fc74a"
+    },
+    {
+      "path": "references/usb-architecture.md",
+      "bytes": 3584,
+      "sha256": "sha256-0bcff4daf7776dbaa176bc041003756065865de7d5f49f15bcab476eb9ad7d68"
+    },
+    {
+      "path": "references/usb-dt-bindings.md",
+      "bytes": 1823,
+      "sha256": "sha256-8f4790f69373c22af26d70f829519eea75fc630cac6299f842cd6f90fd27cd83"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3734,
+      "sha256": "sha256-f3246e3d04c92f4f2545286077c677810bb7ba86d5d62c76843f848bdc60cf5e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8397,
+      "sha256": "sha256-5c08383c04ad1f55ad452139e4e428616a42eaefe4559d6d7aa4e4f96f5e88c2"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "openai-whisper-api",
+  "name": "openai-whisper-api",
+  "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+  "category": "Media / Devices",
+  "skill": "/api/skills/openai-whisper-api/SKILL.md"
+}

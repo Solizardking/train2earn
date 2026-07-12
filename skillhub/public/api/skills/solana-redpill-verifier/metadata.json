@@ -1,0 +1,7 @@
+{
+  "slug": "solana-redpill-verifier",
+  "name": "solana-redpill-verifier",
+  "description": "Solana RedPill TEE verifier development and operations for the `web/solana-redpill-verifier` stack. Use for Pinocchio SVM proof storage, TeeProofV2 PDA layout, StoreProofV2 transactions, RedPill/TDX and NVIDIA NRAS attestation anchoring, CLAWD TEE Gateway setup, OpenAI-compatible attested inference proxying, Solana Attestation Service Token-2022 credentials, TypeScript client integration, OP-TEE signer integration, deployment, and debugging proof anchoring on Solana.",
+  "category": "Solana / Blockchain",
+  "skill": "/api/skills/solana-redpill-verifier/SKILL.md"
+}

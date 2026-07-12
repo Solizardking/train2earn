@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-train-mask-grounding-dino",
+  "name": "tao-train-mask-grounding-dino",
+  "description": "Mask Grounding DINO for grounded instance segmentation. Extends Grounding DINO with a mask-prediction head for open-set segmentation guided by text prompts. Use when training, evaluating, exporting, quantizing, or running inference for a TAO Mask-Grounding-DINO model. Trigger phrases include \"train Mask Grounding DINO\", \"open-vocabulary segmentation\", \"text-prompted instance segmentation\", \"grounded mask DETR\".",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask-grounding-dino/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-train-mask-grounding-dino/metadata.json",
+  "bundleHash": "sha256-0f34af4bd138f0d94d3b28d14a9ee5d91366164cec4838d03677855f85981fb2",
+  "merkleLeaf": "sha256-1da2e912f98e6a73c897f66e4642c7d95852c739f5e8decbe5b436b11ffde679",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4136,
+      "sha256": "sha256-141522c927312f489e6f845e13def5e394cdce667f0234f83da7ccbddd6ced7e"
+    },
+    {
+      "path": "references/skill_info.yaml",
+      "bytes": 6309,
+      "sha256": "sha256-8abe8d18f7840bfa071c40967f76568ee164a22a76e68849c1b2a8aebfd4e78e"
+    },
+    {
+      "path": "references/spec_template_deploy_evaluate.yaml",
+      "bytes": 567,
+      "sha256": "sha256-48e8fb323c843a307f95a380d8f33b3c7229159d15ea00c9a0c16098f2f9a5f0"
+    },
+    {
+      "path": "references/spec_template_deploy_gen_trt_engine.yaml",
+      "bytes": 365,
+      "sha256": "sha256-4d81ca8afbb02ed237dd29a5ff3d415db134df09e94c80e437229e09498c4def"
+    },
+    {
+      "path": "references/spec_template_deploy_inference.yaml",
+      "bytes": 1651,
+      "sha256": "sha256-8b4899deedadef0260b6f067b2308cbe9f01171b941a4ec9215cdee88994f413"
+    },
+    {
+      "path": "references/spec_template_evaluate.yaml",
+      "bytes": 3612,
+      "sha256": "sha256-4431f22cb4303360e555fe448640390b7471441e49a11ace24fb71b595c43b60"
+    },
+    {
+      "path": "references/spec_template_export.yaml",
+      "bytes": 3645,
+      "sha256": "sha256-956a979752254d7e3dfb65c483f76108063b6d9a806443c6e8854b941b20653b"
+    },
+    {
+      "path": "references/spec_template_gen_trt_engine.yaml",
+      "bytes": 3682,
+      "sha256": "sha256-8fcf7e0d6ba4298d7bad59fddc7cc6660e8f48b6c953449f9c94acbed0a2e7ac"
+    },
+    {
+      "path": "references/spec_template_inference.yaml",
+      "bytes": 3692,
+      "sha256": "sha256-24701f5d09ffcc38522206de3feecf243de1912d1febd4b1124a591e8e928585"
+    },
+    {
+      "path": "references/spec_template_quantize.yaml",
+      "bytes": 3418,
+      "sha256": "sha256-970b8b1884fe002212a8d5c8ee11cdced41b98833d5c76f1a6e20a5c32b82b1a"
+    },
+    {
+      "path": "references/spec_template_train.yaml",
+      "bytes": 3400,
+      "sha256": "sha256-5a93cd509121ad74278d8d935a176a11931143bb5de40180e1bcefdf40d10714"
+    },
+    {
+      "path": "references/tao-deploy-mask-grounding-dino.md",
+      "bytes": 5683,
+      "sha256": "sha256-63453ef6643dd34ced8628a566a632d5b4f26f1b6a082e46d0e75ae482ea416e"
+    },
+    {
+      "path": "references/tao-deploy-mask-grounding-dino.skill_info.yaml",
+      "bytes": 3395,
+      "sha256": "sha256-0491fd36451875783a64876d93068137daf93480a56d93e1de36e7cbb937b4db"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3794,
+      "sha256": "sha256-ca0f78ce8c902db375d358379a2be332829049483853cfc2a367a36b3866c623"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 12985,
+      "sha256": "sha256-f68f3ae1a85fd48a60c170f45417bb4917fff9174267e1f69c650a9f8405816f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

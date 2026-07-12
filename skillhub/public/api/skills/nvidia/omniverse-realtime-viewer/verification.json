@@ -1,0 +1,509 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/omniverse-realtime-viewer",
+  "name": "omniverse-realtime-viewer",
+  "description": "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/omniverse-realtime-viewer/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/omniverse-realtime-viewer/metadata.json",
+  "bundleHash": "sha256-f695b7e3ca86d32f45f9411ecb5275d9fb9d9462d886b6e32683f4d891f33e41",
+  "merkleLeaf": "sha256-53aeb8131b5947ddeb56ad8806c01ca10d8c1f481c2e3dd5aa3f03eae2a6e9ce",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 315,
+      "sha256": "sha256-9242fc027e221a2c8bb18988d481cb623047d594de640c5db77ef134d0df751a"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 5652,
+      "sha256": "sha256-631671f282c7c7d02cbcf390104440f8d20fba219621d3dd88c7ad6c0100ce03"
+    },
+    {
+      "path": "references/aov-switching/README.md",
+      "bytes": 15606,
+      "sha256": "sha256-28f7de284a484fbdcba275c1884a5da906886a4d120de0a54c1feffda41d9e46"
+    },
+    {
+      "path": "references/camera-auto-select/README.md",
+      "bytes": 7572,
+      "sha256": "sha256-2e410e2ba30f0225de67c41b0b3823d2d9e555e53f2b43b0632cffb8c136b351"
+    },
+    {
+      "path": "references/camera-controls/README.md",
+      "bytes": 17529,
+      "sha256": "sha256-7f12651b6e4b3c3e945e6ff5d1674e5e98f78e5c749930e736b945b8427b69cc"
+    },
+    {
+      "path": "references/camera-picker/README.md",
+      "bytes": 9976,
+      "sha256": "sha256-137ebc816814198025d5bc76fafdce5fd59c4f85cbce6e64757f6ff5add709e7"
+    },
+    {
+      "path": "references/cloud-assets/README.md",
+      "bytes": 10691,
+      "sha256": "sha256-8a579cb05193cc8c4d8b962d3c640ffd116f096c33dfc3af4e04d1c0455f9669"
+    },
+    {
+      "path": "references/cloud-deployment/README.md",
+      "bytes": 18464,
+      "sha256": "sha256-fe80c3e94718d446e4ba5ced39b295afb60347eedf5cf00d11b6c0c36e2ec23a"
+    },
+    {
+      "path": "references/conventions.md",
+      "bytes": 5415,
+      "sha256": "sha256-a1b8f9e18625e9c7c62c14fe340586240e0613d68bb8e8e0cfe95881fa77b036"
+    },
+    {
+      "path": "references/cpp-native-viewer/interaction-features.md",
+      "bytes": 19624,
+      "sha256": "sha256-af0941bb169311f581234eba7b61af994df92289822fdae79147ea70160ad05f"
+    },
+    {
+      "path": "references/cpp-native-viewer/presentation-loop.md",
+      "bytes": 9197,
+      "sha256": "sha256-061e5482419d3da2156e8b999d7291bff6ac727722958f684c7e57f502d7c4c4"
+    },
+    {
+      "path": "references/cpp-native-viewer/project-build.md",
+      "bytes": 6591,
+      "sha256": "sha256-c242b04b6145bfe3e6d229080e4f3df9460d2fb0636adf61acdaf741496194a8"
+    },
+    {
+      "path": "references/cpp-native-viewer/README.md",
+      "bytes": 2484,
+      "sha256": "sha256-8fa5afa1bd191936d70fd9dcb819cc1d5db890817a1564f89990c8ffa2e6f8a2"
+    },
+    {
+      "path": "references/cpp-native-viewer/renderer-session.md",
+      "bytes": 4630,
+      "sha256": "sha256-a5293a34d90d6da5bb1dd7c7c7adbcffdcf9bcded5cdbb7e54893c6744362d40"
+    },
+    {
+      "path": "references/cpp-native-viewer/validation.md",
+      "bytes": 3401,
+      "sha256": "sha256-121e3297b800ebb19062ddd58df649dd875ee9f5bf7aed587e3c23377cabf156"
+    },
+    {
+      "path": "references/dependencies/electron-shm.md",
+      "bytes": 1573,
+      "sha256": "sha256-ff9fce18be449dbbc8d6adf7cfcbaf8f5d765a5689c78b149bfec1c87a437f80"
+    },
+    {
+      "path": "references/dependencies/environment-validation.md",
+      "bytes": 4535,
+      "sha256": "sha256-8b6e1290e529aca921a8416a98b917068837e674958dbc093a596697cf6e4440"
+    },
+    {
+      "path": "references/dependencies/frontend.md",
+      "bytes": 2381,
+      "sha256": "sha256-10543b0c271d1e560d2dee89f8806472ea690dd4bb9693ff2d3e2827e751ed98"
+    },
+    {
+      "path": "references/dependencies/local-openusd-gpu.md",
+      "bytes": 4522,
+      "sha256": "sha256-ce7cffe02f367d11ed5690cd367b0e091ca247c0bd830c5b2aac0651231e3adf"
+    },
+    {
+      "path": "references/dependencies/nvidia-runtime.md",
+      "bytes": 9208,
+      "sha256": "sha256-3b49c2a9ebf51680bf231a5a40202567dcde113a68c8c227130de2831756ed57"
+    },
+    {
+      "path": "references/dependencies/ovrtx.md",
+      "bytes": 2462,
+      "sha256": "sha256-46800bde41859435d3c5352d96052f436d52af50e7ed03e85e7c27b141f68628"
+    },
+    {
+      "path": "references/dependencies/ovstream.md",
+      "bytes": 2541,
+      "sha256": "sha256-a26a316c4280a991f85b25963677a8c36d7ae17ab46b1a5992ee9a5bfc4ba30b"
+    },
+    {
+      "path": "references/dependencies/quick-setup.md",
+      "bytes": 5393,
+      "sha256": "sha256-84bb81d5612d5d843b7b308a66068dd7b94e324cd8694e02f183594d708c6584"
+    },
+    {
+      "path": "references/dependencies/README.md",
+      "bytes": 3483,
+      "sha256": "sha256-f3e0ee3f017bf43a9ff5dc543f57f942134db768c92134506b1227f2120dfc65"
+    },
+    {
+      "path": "references/electron-shm-viewer/architecture-project.md",
+      "bytes": 6445,
+      "sha256": "sha256-2d9cfd5bcdc731a2f86ddf4945f974031c8d49c02de70e9b4e170917fac29a1d"
+    },
+    {
+      "path": "references/electron-shm-viewer/electron-client.md",
+      "bytes": 5717,
+      "sha256": "sha256-44c6060540846afaa399c8db0e07917f48ecf81c34433b2553a26547a46d5225"
+    },
+    {
+      "path": "references/electron-shm-viewer/protocol-interaction-lifecycle.md",
+      "bytes": 7101,
+      "sha256": "sha256-2b8704101598ccd1220af29f67346142ff8b9a341d13f226de3bb16a6907885e"
+    },
+    {
+      "path": "references/electron-shm-viewer/python-shm-server.md",
+      "bytes": 4983,
+      "sha256": "sha256-caaf35f333ab29f9bee8d23b5a5bc4712346acac0fddeb7ff044c3f66ceb2bb1"
+    },
+    {
+      "path": "references/electron-shm-viewer/README.md",
+      "bytes": 2222,
+      "sha256": "sha256-ce3d4f2747a62aa3540e81a2b40b9b962988f62a16e375f9091437459856e842"
+    },
+    {
+      "path": "references/electron-shm-viewer/validation.md",
+      "bytes": 2834,
+      "sha256": "sha256-5cbbc0ce101ea9597236240f2aff669b9702b2f41286dda688bab5418461a4e7"
+    },
+    {
+      "path": "references/gl-viewport-overlay/architecture.md",
+      "bytes": 4166,
+      "sha256": "sha256-a901a9219e044a65eb53f41c47fb6af57dd4e8c815d16142eb5c748e10dc2a68"
+    },
+    {
+      "path": "references/gl-viewport-overlay/example-gizmo.md",
+      "bytes": 5619,
+      "sha256": "sha256-ee6c707005d4f2c9531992cf84438493ed72f3a21db7b7905b3087b5468f7679"
+    },
+    {
+      "path": "references/gl-viewport-overlay/interaction-pattern.md",
+      "bytes": 4139,
+      "sha256": "sha256-034dee35f058c83c0f6a4489a7fd440f62228c70c434a2575a83a3113034fe18"
+    },
+    {
+      "path": "references/gl-viewport-overlay/projection-alignment.md",
+      "bytes": 4386,
+      "sha256": "sha256-9bcd4d0c1ab2d43a05527555e68883b38217b3d8701d45cbb0c1b894428400eb"
+    },
+    {
+      "path": "references/gl-viewport-overlay/README.md",
+      "bytes": 8045,
+      "sha256": "sha256-8f1a8b523c2b583737702ee0dacf85042ebe862e26b5be230fdba660fc943e22"
+    },
+    {
+      "path": "references/headless-shm-cli/README.md",
+      "bytes": 12519,
+      "sha256": "sha256-ea8ea19d11bc7b3ebcb8810a6f0112765961795ccb5100a4a221ef7552cf8188"
+    },
+    {
+      "path": "references/huggingface-usd/README.md",
+      "bytes": 7925,
+      "sha256": "sha256-fbac279c0067b41fb10bfcd67a224f5b38d019ff765ac86759e0684ae4ebe72b"
+    },
+    {
+      "path": "references/local-viewer/README.md",
+      "bytes": 15317,
+      "sha256": "sha256-ca8d091fff3eb1585583fcc7210ca49a74ff9c5b7f2f0c9ceed29f93fae1311b"
+    },
+    {
+      "path": "references/native-picking-selection/README.md",
+      "bytes": 10600,
+      "sha256": "sha256-9921ecb0214d2b16984b6529b5b6bdd96420e1f798a7b66fb05ac1ea7650c0b0"
+    },
+    {
+      "path": "references/object-selection/README.md",
+      "bytes": 9614,
+      "sha256": "sha256-667bcf4acc3c2e9b120c26dc231292fc81eb0e7e91c80942adfeb2a4fd6fd7fb"
+    },
+    {
+      "path": "references/ovrtx-rendering/README.md",
+      "bytes": 18625,
+      "sha256": "sha256-3020d4107a59d93b8f39deb4d5c4baa902cf8f2e8cf3bf97aab5fd31528bb4dd"
+    },
+    {
+      "path": "references/ovui-library/api-reference.md",
+      "bytes": 4430,
+      "sha256": "sha256-ae761f8d2085db77aca6ae5b2efd6d18fffa0f665bde9fc93a97da289ec9cce4"
+    },
+    {
+      "path": "references/ovui-library/extending.md",
+      "bytes": 4903,
+      "sha256": "sha256-83f654613b767d6ac6254faddd424c79adad954f0fa53d676180d1328311ba30"
+    },
+    {
+      "path": "references/ovui-library/README.md",
+      "bytes": 3416,
+      "sha256": "sha256-d82c9ba12cc82e707c14adc5390759f1573846d1797d8d57c7a9f8b8a2d61b3c"
+    },
+    {
+      "path": "references/ovui-local-viewer-recipe/interaction-features.md",
+      "bytes": 16512,
+      "sha256": "sha256-5adb011db14fbfd0ee78783c668ba8735b5d601daebe2cdaeaddd583d1ee7219"
+    },
+    {
+      "path": "references/ovui-local-viewer-recipe/project-structure.md",
+      "bytes": 6310,
+      "sha256": "sha256-389d93a1d76b6b25b51c6fa6a94dc9eae8586a955c66a9220bf016b041e9f055"
+    },
+    {
+      "path": "references/ovui-local-viewer-recipe/README.md",
+      "bytes": 3809,
+      "sha256": "sha256-33f403a2ec161efd5047d3034838faec38063033330f66c6f69c7d1cdbae4218"
+    },
+    {
+      "path": "references/ovui-local-viewer-recipe/setup-shell-renderer.md",
+      "bytes": 14659,
+      "sha256": "sha256-43a45f5c1394e2fd088994560b0b939e65f1a6477dcb6c297b9791ca357f4a12"
+    },
+    {
+      "path": "references/ovui-local-viewer-recipe/validation-build-order.md",
+      "bytes": 5654,
+      "sha256": "sha256-9524a66f7a64e42767f3ab06ddc07ad98f09d44241de8cba43302943d2c2b157"
+    },
+    {
+      "path": "references/ovwidgets-editor-shell/README.md",
+      "bytes": 8840,
+      "sha256": "sha256-59f0136e4a0b49b430a152178aee257307cf526e2500404b61d640398c3f8ee2"
+    },
+    {
+      "path": "references/prim-info-display/README.md",
+      "bytes": 9546,
+      "sha256": "sha256-d23e427ef01626cf95a552f3035d7ce2908547f2943f6d5a45061f4790797d35"
+    },
+    {
+      "path": "references/prim-pick-effects/README.md",
+      "bytes": 6082,
+      "sha256": "sha256-64beaae3986aa1530c705499a9d67b3d23b1fcac8518a9ad5b3452916c456df1"
+    },
+    {
+      "path": "references/prim-transform-safety/README.md",
+      "bytes": 8378,
+      "sha256": "sha256-dcdb324002651d9b3f3078f96a90d9ede968920ca96f918478f0b5681b23eb1a"
+    },
+    {
+      "path": "references/render-settings/README.md",
+      "bytes": 10105,
+      "sha256": "sha256-a2f83e3d9c40bb0089474cd4c044cd627666674c5188dcfe2c1053d36c870fed"
+    },
+    {
+      "path": "references/routing.md",
+      "bytes": 16925,
+      "sha256": "sha256-410ecd70f1fe41e54229ee602f43aa0c81037168c43c96a50557e29bb7977c00"
+    },
+    {
+      "path": "references/seg-outline-highlight/README.md",
+      "bytes": 1421,
+      "sha256": "sha256-1662bfc56abe9efcc27030455908186fb8722b56182d74a6291be18ecf88b094"
+    },
+    {
+      "path": "references/selection-animation/README.md",
+      "bytes": 9959,
+      "sha256": "sha256-c1b240634355739232b7e34ab675bf693e131f071906a7b187c9e8477162bea1"
+    },
+    {
+      "path": "references/selection-feedback/README.md",
+      "bytes": 6765,
+      "sha256": "sha256-93bcdef57315dfe1d4bd8d9722e7d0bc240f714a7fadcdbe7d39924601c300be"
+    },
+    {
+      "path": "references/stage-attribute-reads/README.md",
+      "bytes": 5619,
+      "sha256": "sha256-752697076439cb5ebabe77509f859b52ebd4c1c825a861ae24e6444380fc8bc4"
+    },
+    {
+      "path": "references/stage-hierarchy/fallback-worker-protocol.md",
+      "bytes": 3613,
+      "sha256": "sha256-a88798221e91f39d130b136fcfb847c0c25b7e65b971f26d65c7fd675cbf2017"
+    },
+    {
+      "path": "references/stage-hierarchy/README.md",
+      "bytes": 17512,
+      "sha256": "sha256-b30efd7967a827a002ec0697d4c6703e97199c2680f5cec2dfdb349d38770a29"
+    },
+    {
+      "path": "references/stage-loading/README.md",
+      "bytes": 19804,
+      "sha256": "sha256-36556d7e2e2c93ff3bec5a202602e576bc3ab04d2c6bed9c4b9b805edeb9b917"
+    },
+    {
+      "path": "references/stage-management/README.md",
+      "bytes": 10323,
+      "sha256": "sha256-1d9e4bf0b2d8852353f06a4556f22a0b8b9dd105f1c6aac58311503259867aba"
+    },
+    {
+      "path": "references/stage-queries/README.md",
+      "bytes": 5419,
+      "sha256": "sha256-80bd77eefb5f839d2af492f8fbad438403e8fcb689220b9e29aea19a5e843fb7"
+    },
+    {
+      "path": "references/streaming-client/README.md",
+      "bytes": 17774,
+      "sha256": "sha256-c589eb6fc21a608c38bb206c275fac69a862713801af2974455fc0e21fce71d8"
+    },
+    {
+      "path": "references/streaming-lifecycle/README.md",
+      "bytes": 8993,
+      "sha256": "sha256-3cfeea33af4f9a4886717b5200d75e0387984ae314c04cb6dbf7c7678ea3aadb"
+    },
+    {
+      "path": "references/streaming-messages/README.md",
+      "bytes": 16892,
+      "sha256": "sha256-959722afea950f3d82f9427f18894bc0c1e2d896373853751cf7927809edb32b"
+    },
+    {
+      "path": "references/streaming-messages/server-handler-map.md",
+      "bytes": 3152,
+      "sha256": "sha256-aaed0231a2175ebccf31ac842deca3fd3a980ecb1d3bed9e470ead54d785efcc"
+    },
+    {
+      "path": "references/streaming-server/frame-loop-and-continuity.md",
+      "bytes": 3370,
+      "sha256": "sha256-218623278a291cd09565b4582c35db1b891931a21d80c68c56c4c1ace1312e05"
+    },
+    {
+      "path": "references/streaming-server/README.md",
+      "bytes": 19069,
+      "sha256": "sha256-1b521e2af04a80b78ceaa7d61d516e7faf79a880703a3f67bf1755464780880a"
+    },
+    {
+      "path": "references/streaming-viewer-recipe/client-protocol.md",
+      "bytes": 11261,
+      "sha256": "sha256-d11ba7ea389bd640baba31f9118933cd9e6f95290445922a6a5b95fe23535ad0"
+    },
+    {
+      "path": "references/streaming-viewer-recipe/interaction-features.md",
+      "bytes": 13336,
+      "sha256": "sha256-b4454b6d8098f7fccb53a2ebab645ffa194cf00a93c16aa0306a7d27c393742b"
+    },
+    {
+      "path": "references/streaming-viewer-recipe/project-structure.md",
+      "bytes": 7199,
+      "sha256": "sha256-38e8d2e8a0f1f21341185ce15e5760377b970f520cbe1cc204532b7d4b2a1a89"
+    },
+    {
+      "path": "references/streaming-viewer-recipe/README.md",
+      "bytes": 4966,
+      "sha256": "sha256-ea280f322873aca2b366d794f01d716f7849b8655bc07f2aa9e88f409cea98ff"
+    },
+    {
+      "path": "references/streaming-viewer-recipe/server-runtime.md",
+      "bytes": 17194,
+      "sha256": "sha256-0ea14ae036a38d941e405088f47b6eac3201d96481b939b368494ec6699bfee8"
+    },
+    {
+      "path": "references/streaming-viewer-recipe/validation-build-order.md",
+      "bytes": 5963,
+      "sha256": "sha256-59caf9292d1c1526bc2c7db3463415f49f96da50ef927ced865d85f071fdf9e1"
+    },
+    {
+      "path": "references/streaming-vs-local/README.md",
+      "bytes": 8345,
+      "sha256": "sha256-473a39f323c353afe06440d888f8512b0c16b78f304204405c4a821b94e8060c"
+    },
+    {
+      "path": "references/tauri-local-viewer/README.md",
+      "bytes": 18631,
+      "sha256": "sha256-0e19d5f19409aed7323d0d6976ec4faca014ae57f334db0a8cc9c54a7c89d16f"
+    },
+    {
+      "path": "references/tauri-shm-transform-gizmo/README.md",
+      "bytes": 12101,
+      "sha256": "sha256-ee62082ce0dd0d9c58bc5ec70042b07e343907a18b11d9644fbb656c52dd4ffd"
+    },
+    {
+      "path": "references/transform-manipulator/README.md",
+      "bytes": 15388,
+      "sha256": "sha256-44b226deb3a7381c0c9b0390430a81b9e154f482a29acd71598fe3ae2fc4b907"
+    },
+    {
+      "path": "references/troubleshooting/README.md",
+      "bytes": 7414,
+      "sha256": "sha256-b3fa4b84aa7e3db5a95bf81eb5c3cf1ee53c349bff2cd89c8447bc431d4a384f"
+    },
+    {
+      "path": "references/troubleshooting/scenario-playbooks.md",
+      "bytes": 19299,
+      "sha256": "sha256-b8eed5abd39d41e4b6dcc0ef55f6f44730fc7dc6a8ea40968bb6db6a01460f47"
+    },
+    {
+      "path": "references/usd-sample-data/README.md",
+      "bytes": 11986,
+      "sha256": "sha256-07ba1054c4dfd304b253342def515f281b1bbeb213be4c44f5d2a49c0416c37d"
+    },
+    {
+      "path": "references/usd-viewer-app/README.md",
+      "bytes": 7665,
+      "sha256": "sha256-ee2a4e9ba9c94ed8efb080840bb040fe918e7673cb8f099c47bb87557ae6115f"
+    },
+    {
+      "path": "references/validation.md",
+      "bytes": 3122,
+      "sha256": "sha256-e3ba1a0178ae0bca58a8e0f8b71be3aaa06b8884ffeff846aa5f95ea85027393"
+    },
+    {
+      "path": "references/viewer-backend-interface/README.md",
+      "bytes": 18146,
+      "sha256": "sha256-4cd16a267eaa8ea5e10287a6b48ee3e172d7de6a3bc817851126f9ecaec59289"
+    },
+    {
+      "path": "references/viewer-control-patterns/README.md",
+      "bytes": 4901,
+      "sha256": "sha256-d994a50d3dc7ce6176772fe65345188de310ad6db72104e4057e79e3a1ab3ecf"
+    },
+    {
+      "path": "references/viewer-data-view-patterns/README.md",
+      "bytes": 4964,
+      "sha256": "sha256-ddf19ecb0542ef57322fe15d8ae2d63f3c7151b24ca3f57e79a1f2a19b99cea4"
+    },
+    {
+      "path": "references/viewer-feedback-status/README.md",
+      "bytes": 5034,
+      "sha256": "sha256-93bafd5ef45e5b4888018e20dc9cd625c6fcb1114dd7f49ca30f99067e916d30"
+    },
+    {
+      "path": "references/viewer-input-routing/README.md",
+      "bytes": 7963,
+      "sha256": "sha256-6d02cb28f041a463d50b0ca712c8e6742c2f4cbb3592dc456a257349699f1e4c"
+    },
+    {
+      "path": "references/viewer-layout-patterns/README.md",
+      "bytes": 4790,
+      "sha256": "sha256-b5adaa561f8283626b08a1483b372cc63deaf7ce2d3545ff614d2ae9c3c829b0"
+    },
+    {
+      "path": "references/viewer-ux-workflow/README.md",
+      "bytes": 4714,
+      "sha256": "sha256-2a12913b9ed19c2dbd666af01ebe00c03f990d31dd5e5fa46492a13d7342352b"
+    },
+    {
+      "path": "references/viewport-overlays/README.md",
+      "bytes": 4912,
+      "sha256": "sha256-01cc4a07b7411c740974f1bdb29c44544bbed5ada979f64078f30c3bdccdc775"
+    },
+    {
+      "path": "references/viewport-resize/README.md",
+      "bytes": 8699,
+      "sha256": "sha256-e7de76e7b32a3bdc4b87569ccf2932696102e4cf5bce83a079ccb136e7d241cb"
+    },
+    {
+      "path": "references/webgl-shm-transport/README.md",
+      "bytes": 14897,
+      "sha256": "sha256-a3e5fd868f5cb98602e1b751e8378f41a3e8174223571173697a09ce68c36c41"
+    },
+    {
+      "path": "references/windows-native-setup/README.md",
+      "bytes": 5829,
+      "sha256": "sha256-e1a78f4d14667f5f92fc766de87a446bbccfe63dc4b4aa52f1cf1ea710f4372e"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 2940,
+      "sha256": "sha256-a0554c492abf088991e7e1148ca8950f57892316be7c73c09af1eeb4fb9eaeb9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7611,
+      "sha256": "sha256-6e6a1f7ed10d152be12b7d210e8f7f399c203912985cc8ade684fb18645dc262"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

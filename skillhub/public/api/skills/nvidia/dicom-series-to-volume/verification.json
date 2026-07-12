@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/dicom-series-to-volume",
+  "name": "dicom-series-to-volume",
+  "description": "Used for converting one CT DICOM series folder to a HU NIfTI volume with affine evidence. Not for multi-frame DICOM or clinical use.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/dicom-series-to-volume/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dicom-series-to-volume/metadata.json",
+  "bundleHash": "sha256-fc1a4f9191babe62e5642fbf66d6f7472a73eef2ff2e6edd0f4ee2c8476fae60",
+  "merkleLeaf": "sha256-97ed9a079d3613cc5caaed6508ee97a54dd4c05127158449f3c1700186f60d5d",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4292,
+      "sha256": "sha256-047ac2ec5cc7bce8ace7e12c456ebb60dd0efddc26f9550f660a9a83cb2ca615"
+    },
+    {
+      "path": "scripts/series_to_volume.py",
+      "bytes": 9274,
+      "sha256": "sha256-95481cd0e7e59abada7a97722011e58f8c44cc70b289330737f3ac39813aedf6"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 6188,
+      "sha256": "sha256-29602f5fe390dbdfc9c87bddc6692bb17268502a41a682dd10f0f055bee68548"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3774,
+      "sha256": "sha256-f11d65617de7162353a6532b36951eee6dc453aec39a39823ef028220a008acf"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3592,
+      "sha256": "sha256-988fc8c0291811fd229c7854646808c96fe3ae9af27a7f6ef27a39b527f06db0"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

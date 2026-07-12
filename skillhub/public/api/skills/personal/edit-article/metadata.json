@@ -1,0 +1,7 @@
+{
+  "slug": "personal/edit-article",
+  "name": "edit-article",
+  "description": "Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edit, revise, or improve an article draft.",
+  "category": "Utilities",
+  "skill": "/api/skills/personal/edit-article/SKILL.md"
+}

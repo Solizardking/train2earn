@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "deprecated/qa",
+  "name": "qa",
+  "description": "Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues. Explores the codebase in the background for context and domain language. Use when user wants to report bugs, do QA, file issues conversationally, or mentions \"QA session\".",
+  "source": "https://skills.x402.wtf/api/skills/deprecated/qa/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/deprecated/qa/metadata.json",
+  "bundleHash": "sha256-9b474cb6ea5caccb8a4eecbb4043565df046a6c68da3faac4d30aad5e7784454",
+  "merkleLeaf": "sha256-eda5c36f2c03b6202a88d8a9daf794a7d934972639e60b5cb7732a8727c37cf3",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 4965,
+      "sha256": "sha256-d9727aac6503981bf69bdd8b37e0d85b32b8fbd353a57528c252dac1337ab761"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

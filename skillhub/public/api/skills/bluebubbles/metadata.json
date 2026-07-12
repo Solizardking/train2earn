@@ -1,0 +1,7 @@
+{
+  "slug": "bluebubbles",
+  "name": "bluebubbles",
+  "description": "Build or update the BlueBubbles external channel plugin for Clawdbot (extension package, REST send/probe, webhook inbound).",
+  "category": "Productivity / Messaging",
+  "skill": "/api/skills/bluebubbles/SKILL.md"
+}

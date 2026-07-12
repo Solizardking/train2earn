@@ -1,0 +1,7 @@
+{
+  "slug": "google/cloud/gke-basics",
+  "name": "gke-basics",
+  "description": "Core GKE cluster discovery and hub. Use to route to specialized GKE skills. Do not use for specialized tasks (networking, security, etc.) directly.",
+  "category": "Google / Cloud",
+  "skill": "/api/skills/google/cloud/gke-basics/SKILL.md"
+}

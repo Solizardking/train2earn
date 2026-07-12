@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/tao-port-huggingface-model",
+  "name": "tao-port-huggingface-model",
+  "description": "Integrate a HuggingFace Computer Vision model into the NVIDIA TAO Toolkit ecosystem (tao-core config, tao-pytorch trainer, tao-deploy TensorRT pipeline). Use when the user asks to \"integrate a HuggingFace model into TAO\", \"add an HF model to TAO Toolkit\", \"wire a HuggingFace ViT/DETR/ SegFormer into tao-pytorch\", \"build a TAO trainer + deploy pipeline for an HF CV model\", or pastes a HuggingFace model URL/ID and wants it turned into a TAO model. Covers the full 7-phase loop: prerequisites check, HuggingFace inspection and validation, codebase exploration, tao-core configuration and native trainer implementation, ONNX export plus TensorRT deploy integration, packaging and L0 testing, container-based end-to-end validation, and (conditional) accuracy/latency tuning. Supports classification, object detection, semantic / instance / panoptic segmentation, zero-shot detection, and depth estimation.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/tao-port-huggingface-model/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/tao-port-huggingface-model/metadata.json",
+  "bundleHash": "sha256-4f93feda479447a7aa9cbf3667de7ffdee8126f5d10d57b221b3b3f84c4befe6",
+  "merkleLeaf": "sha256-1ff717ed287345f88dc619d6cb6fa6bf2df4ae7d81b0574427b6c45e0df50828",
+  "files": [
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4026,
+      "sha256": "sha256-33c9684ed1ffd6db2d5784391c3329d4dab78b876a4cc36c275145c19cb6d79c"
+    },
+    {
+      "path": "references/cross-cutting.md",
+      "bytes": 10415,
+      "sha256": "sha256-4f339a8cfdac8f8d00b3660a6192ddcbf2da21c096ae5784eb56287c5ec69c68"
+    },
+    {
+      "path": "references/docker-patterns.md",
+      "bytes": 16237,
+      "sha256": "sha256-ad16b05890c3f06d13cf85ae04a874b892d3289150e452bae689b99d77a44335"
+    },
+    {
+      "path": "references/hf-inspection.md",
+      "bytes": 6320,
+      "sha256": "sha256-64f60ff4b6197b67ad19ed6dba15b7b24aefa3e401fbc459d0eb29c641184470"
+    },
+    {
+      "path": "references/phase-0-prereqs.md",
+      "bytes": 9944,
+      "sha256": "sha256-f4cb24832a972f452827848fc17e287e4d12afb12a2e76168f8490aef0525925"
+    },
+    {
+      "path": "references/phase-1-inspection.md",
+      "bytes": 10245,
+      "sha256": "sha256-5c4eda18e98972ead935a0afbdee02f68fd29bb34c3f0fd9552f6cc173c90ea6"
+    },
+    {
+      "path": "references/phase-2-codebase.md",
+      "bytes": 7469,
+      "sha256": "sha256-0ff990b71bc2d9effffec13eee1f573b4aaf5d4e6b8f5c311f02a5de2847a8be"
+    },
+    {
+      "path": "references/phase-3-implementation.md",
+      "bytes": 35497,
+      "sha256": "sha256-33241246c55c9bcba85ab14973d3cc0ba3978260139c549c58a39d1e01b71ad6"
+    },
+    {
+      "path": "references/phase-4-deploy.md",
+      "bytes": 13025,
+      "sha256": "sha256-348deed7b1f46ff5827761fd12a42805eb0020fea2912f6579db7110ff09e3a2"
+    },
+    {
+      "path": "references/phase-5-packaging.md",
+      "bytes": 3420,
+      "sha256": "sha256-761f9fa854585c782a4432aaf27c8ae7d6bf876793a4409b95e5d976cb43fbdb"
+    },
+    {
+      "path": "references/phase-6-container-tests.md",
+      "bytes": 15742,
+      "sha256": "sha256-0019517017776b62519cf8fd9cbb09e04ee3f7e411b9b2192fca2179b94f74f4"
+    },
+    {
+      "path": "references/phase-7-optimization.md",
+      "bytes": 7972,
+      "sha256": "sha256-744f5a28d8382c413ba979d74d708722a66ed9747305e82152cd17b8f0bec220"
+    },
+    {
+      "path": "references/repo-structure.md",
+      "bytes": 10817,
+      "sha256": "sha256-f39ec9a0b5ec315c73130e10819e9ea4cf596172572abeb168bfa0a45c78ea14"
+    },
+    {
+      "path": "references/tao-patterns.md",
+      "bytes": 20574,
+      "sha256": "sha256-d28d81fcd92710e9d682fd73797c1788a15d789aafd2307b62526481aecfcec7"
+    },
+    {
+      "path": "references/task-type-guide.md",
+      "bytes": 16829,
+      "sha256": "sha256-bc74d9798930493254b3b7ed61cf8b39e82367d22e47070f2fdbe1720f0902a0"
+    },
+    {
+      "path": "references/workflow-consistency.md",
+      "bytes": 28153,
+      "sha256": "sha256-227bee8e5f0f3992c1aff211705671465560e506be95ad2149c98b7eda953735"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4406,
+      "sha256": "sha256-4cbd5cc49af682e7ca8465b3e52b7e8905e99d2e4d88727a5d3ddf4b50a5d291"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 17985,
+      "sha256": "sha256-36c7717d8712a58e7195a0a05989e2ce1ecb432e2d047d6e40b618c590cc701f"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

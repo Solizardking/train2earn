@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "anthropic-skills/theme-factory",
+  "name": "theme-factory",
+  "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+  "source": "https://skills.x402.wtf/api/skills/anthropic-skills/theme-factory/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/anthropic-skills/theme-factory/metadata.json",
+  "bundleHash": "sha256-8cccbc5dafb2cbf9dcec70ff7519c585f19d1b8328932e11966bb84e34eccc3a",
+  "merkleLeaf": "sha256-a6d8ba2f99e0e3d694095653437c350263f4da06f825649fe941cb6f2a8baa4b",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3124,
+      "sha256": "sha256-c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

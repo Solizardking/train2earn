@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/dicom-metadata-extract",
+  "name": "dicom-metadata-extract",
+  "description": "Used for extracting selected metadata from one DICOM file and flagging standard-tag PHI presence. Not for anonymization or clinical use.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/dicom-metadata-extract/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/dicom-metadata-extract/metadata.json",
+  "bundleHash": "sha256-f0e27da0ea1f37278b30574574fcad0a5402b47f95e09ed9a67bb14d8734a229",
+  "merkleLeaf": "sha256-52ca6d8ee8558b3ad0927eb43cfbf3251c468b8137759cd3875bed2a6c780d07",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 508,
+      "sha256": "sha256-6cc1fb178d5abea67d6a6b51993ba11324a66a4c6482eda70aed715119c4cfcc"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 4194,
+      "sha256": "sha256-e167f725ec56a17947a8c9e80d4bc8eaccc9cfc78716127e1f3b88f0a5deaac4"
+    },
+    {
+      "path": "scripts/extract_metadata.py",
+      "bytes": 5404,
+      "sha256": "sha256-1c515aa1ded3d7deb3ea9cffc75ec2fa12add1cad3377f09eb28864715f61ad4"
+    },
+    {
+      "path": "skill_manifest.yaml",
+      "bytes": 4999,
+      "sha256": "sha256-8072a6185b30767c26ab8657fdb249cbe19c75fe5f144b964b9e49a949711c66"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 3593,
+      "sha256": "sha256-4db4998dbbe577b2d4cafa04e419ac12899fd1a27bdb47e55f2f3b0669a9f7ca"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3238,
+      "sha256": "sha256-c90a0fb137fbbd554cf419c9964c24f9dedfdf8b7b617b427a74f84c3ba8293c"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "nvidia/holoscan-install-source",
+  "name": "holoscan-install-source",
+  "description": "Build Holoscan SDK from source via the in-tree ./run script. Use only when published packages don't meet the user's needs.",
+  "category": "NVIDIA / Accelerated Computing",
+  "skill": "/api/skills/nvidia/holoscan-install-source/SKILL.md"
+}

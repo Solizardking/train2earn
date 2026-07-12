@@ -1,0 +1,7 @@
+{
+  "slug": "camsnap",
+  "name": "camsnap",
+  "description": "Capture frames or clips from RTSP/ONVIF cameras.",
+  "category": "Media / Devices",
+  "skill": "/api/skills/camsnap/SKILL.md"
+}

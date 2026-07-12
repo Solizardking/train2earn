@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "cloudflare-one-migrations",
+  "name": "cloudflare-one-migrations",
+  "description": "Plans migrations from Zscaler ZIA/ZPA, Palo Alto, legacy VPN, SWG, or SASE stacks to Cloudflare One. Use for migration assessments, policy mapping, rollout plans, and parity/gap analysis.",
+  "source": "https://skills.x402.wtf/api/skills/cloudflare-one-migrations/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/cloudflare-one-migrations/metadata.json",
+  "bundleHash": "sha256-4f937b54e4415bd7c9b2cf9806e0c66303a7d0ab7110faaa062e023b41c431c0",
+  "merkleLeaf": "sha256-741f7c6be43ca28595b4d4b06a731618de8e8b23bc290847d6c6ec39212d6105",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 12363,
+      "sha256": "sha256-50ed246b92a3f82c7afac864201093269fad8de24e4ce7ea18929103a26adad8"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

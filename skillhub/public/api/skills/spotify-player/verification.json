@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "spotify-player",
+  "name": "spotify-player",
+  "description": "Terminal Spotify playback/search via spogo (preferred) or spotify_player.",
+  "source": "https://skills.x402.wtf/api/skills/spotify-player/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/spotify-player/metadata.json",
+  "bundleHash": "sha256-770584fce027056f4423e4b87c0fdc901f70b4551474ff677d23f58f5ce62f8f",
+  "merkleLeaf": "sha256-9f035b10fb2090fc1d2ed4120dbabbee8cce892952c40f9928fd2c53912a726a",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1369,
+      "sha256": "sha256-4a7a735fe86c25c51c589f1c59890b8ae8d83ed6663bef57e8b0252e4ab0b1fc"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

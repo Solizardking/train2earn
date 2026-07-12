@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "nvidia/physical-ai-defect-image-generation",
+  "name": "physical-ai-defect-image-generation",
+  "description": "Use when the user wants to orchestrate defect image generation with NVIDIA Cosmos AnomalyGen (Cosmos-Predict2-derived) on OSMO for PCBA, metal surface, and glass inspection. The Day 0 path handles cold-start with USD-to-ROI, image-edit augmentation, and AnomalyGen to create initial PCBA datasets. The Day 1 path performs inference and labeling on real images. This skill helps with first-time asset setup, creation of finetuning checkpoints, and configuring deployment.",
+  "source": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-defect-image-generation/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/nvidia/physical-ai-defect-image-generation/metadata.json",
+  "bundleHash": "sha256-a387ba563b71b2aa0cc328049ca0ae030fac6c683777b7daf05135a40b6e963f",
+  "merkleLeaf": "sha256-5f82ae0464c3c1f20cdf9dbdb0124155d244b721bc6f70caff99e6df9a8210dd",
+  "files": [
+    {
+      "path": "assets/configs/finetune.yaml",
+      "bytes": 14425,
+      "sha256": "sha256-de92cf89aab215f895a0401595eb6194c785aff52bfabd4546546aec499dc779"
+    },
+    {
+      "path": "assets/configs/good_image_generation.yaml",
+      "bytes": 21438,
+      "sha256": "sha256-36769f88b3624b0ffc3f6fad52139298a976faffe89ca9e0bbba713ba861b7d3"
+    },
+    {
+      "path": "assets/configs/setup/setup_glass.yaml",
+      "bytes": 10239,
+      "sha256": "sha256-1a099366cc802d1780d86e0f67aeccceb3f72f26ca30ca8ab385a69d5fbaf7fe"
+    },
+    {
+      "path": "assets/configs/setup/setup_metal.yaml",
+      "bytes": 6773,
+      "sha256": "sha256-b0598d791aebc09b9a48af5b3af11abd82d0941d1f6091940e67a27555c9c53b"
+    },
+    {
+      "path": "assets/configs/setup/setup_pcb.yaml",
+      "bytes": 8462,
+      "sha256": "sha256-1f94890ea607d25e2f409306c6747a2421188a4282a7ba6553fd8fece110d61b"
+    },
+    {
+      "path": "assets/configs/setup/setup_pretrained.yaml",
+      "bytes": 7277,
+      "sha256": "sha256-828dde49cf5f0564534b15c4721f05ab7421aaf6cf236c24de1365858a182338"
+    },
+    {
+      "path": "assets/configs/structural_defect_generation.yaml",
+      "bytes": 22502,
+      "sha256": "sha256-450ebe606f33ce31d1a9b24bd7355ec6b27187c158a53fdabfb3d91934afea30"
+    },
+    {
+      "path": "assets/configs/texture_defect_generation_day0.yaml",
+      "bytes": 51210,
+      "sha256": "sha256-ea803ec78f5813edf841b7d9d79f835c826ec0c90e1994e3832ef67712a97f96"
+    },
+    {
+      "path": "assets/configs/texture_defect_generation_day1_manual_roi.yaml",
+      "bytes": 35363,
+      "sha256": "sha256-1966afbaa987af5afda7a3337d68b9b09f714d6b9593f9c61b1b5f9a867b434f"
+    },
+    {
+      "path": "assets/configs/texture_defect_generation_day1_real_alignment.yaml",
+      "bytes": 52665,
+      "sha256": "sha256-7b1d575e5b37203570210c2afcf862bc027a77f8c1c6c4cda26bad830f1fd316"
+    },
+    {
+      "path": "assets/cookbooks/glass/ag_config.yaml",
+      "bytes": 1385,
+      "sha256": "sha256-766e0b026bdb60699e4d97ba71e22be88d44d988682fdc9ecc80b59d4b55bc7e"
+    },
+    {
+      "path": "assets/cookbooks/metal_surface/ag_config.yaml",
+      "bytes": 1536,
+      "sha256": "sha256-fb9fd312e954ae5fa5c8e742a2fda1f92ceb355184f5b057969f037ae68cd59b"
+    },
+    {
+      "path": "assets/cookbooks/pcb/0603_H100/day0_crop.yaml",
+      "bytes": 424,
+      "sha256": "sha256-bf184ebf80753503b2beec42c3196bc7db751108c66db966823d712bcdd718ed"
+    },
+    {
+      "path": "assets/cookbooks/pcb/0603_H100/day0_image.yaml",
+      "bytes": 2810,
+      "sha256": "sha256-1fe41e76ee65dbe9339194484725cd672d02ab6609a13a6e37f14ef19bb48afc"
+    },
+    {
+      "path": "assets/cookbooks/pcb/0603_H100/defect_image.yaml",
+      "bytes": 4680,
+      "sha256": "sha256-e75cc86cc72028ee0cb2714754753074387c1df6e8f018078a864a8785d6bb2b"
+    },
+    {
+      "path": "assets/cookbooks/pcb/0603_H100/pcba_target.yaml",
+      "bytes": 295,
+      "sha256": "sha256-d5e22b07849d96457de4fe9849a7afcdf0dc800a088c12e0dab77bd24640cc4a"
+    },
+    {
+      "path": "assets/cookbooks/pcb/0603_H100/usd2roi_nvpcb.yaml",
+      "bytes": 2989,
+      "sha256": "sha256-8a1630263ff17eaa8c99a4ef09463f8b3bf81cc219d8ddb02ceda7405d22c7a3"
+    },
+    {
+      "path": "assets/cookbooks/pcb/1152819000/day0_crop.yaml",
+      "bytes": 411,
+      "sha256": "sha256-4ff69fde6ae607a73dd6b1c25a50e5baa5689ea00c653d8d57b7379762314901"
+    },
+    {
+      "path": "assets/cookbooks/pcb/1152819000/day0_image.yaml",
+      "bytes": 2258,
+      "sha256": "sha256-d76275725abe49db6e09dd3ca07f196c904042f4040201ff3ee68186ec611ba1"
+    },
+    {
+      "path": "assets/cookbooks/pcb/1152819000/defect_image.yaml",
+      "bytes": 4451,
+      "sha256": "sha256-e0a8b1ca6bf175de59eb5cb87a2b01805ecd84d3a76f7ac6c217065c56fcbf9f"
+    },
+    {
+      "path": "assets/cookbooks/pcb/1152819000/pcba_target.yaml",
+      "bytes": 281,
+      "sha256": "sha256-480efe9a333950e4c8ab104d16f4317699cd5fa7f603fab4d36782563970df87"
+    },
+    {
+      "path": "assets/cookbooks/pcb/1152819000/usd2roi_nvpcb.yaml",
+      "bytes": 3276,
+      "sha256": "sha256-15c5eee80d96f3d2690733017fccf6655f7e17a0f403bcbb246fb4a1f03aac47"
+    },
+    {
+      "path": "assets/cookbooks/pcb/ag_config.yaml",
+      "bytes": 1437,
+      "sha256": "sha256-63b6ba1929ef090bca56e44e27b42dd09e7b1e574c0d6cb02fe7daeac4ecd880"
+    },
+    {
+      "path": "assets/cookbooks/pcb/augmentation_config_ovsl2sl.yaml",
+      "bytes": 2536,
+      "sha256": "sha256-b1674af43c35a97d0357fd870294228a83da913d2c297aef9acc83240e1ad73c"
+    },
+    {
+      "path": "assets/cookbooks/pcb/usd2roi_day1.yaml",
+      "bytes": 7551,
+      "sha256": "sha256-5276d021bd3ebf29cca4a49f281376d2d9ff72dbd41a30c84b95a2229a517bdd"
+    },
+    {
+      "path": "BENCHMARK.md",
+      "bytes": 3902,
+      "sha256": "sha256-0f328fb0c39daffda24faee768191746e9522804cb7014dc751d016954e4a014"
+    },
+    {
+      "path": "references/container-images.md",
+      "bytes": 3814,
+      "sha256": "sha256-7220160d65f5800a2f446d809bdc95743a2926a9d9dac43e478ba941c51b504a"
+    },
+    {
+      "path": "references/contents.md",
+      "bytes": 3484,
+      "sha256": "sha256-5e7b1050a198129fabffa997a35af5465aa87d02884706156fa31c221f597196"
+    },
+    {
+      "path": "references/disambiguation.md",
+      "bytes": 6318,
+      "sha256": "sha256-a3e4dcb9fb75daf503ee2379497e7e14af2c2ecb43b183b9b88452dbd592e332"
+    },
+    {
+      "path": "references/flows/finetune.md",
+      "bytes": 6249,
+      "sha256": "sha256-2f7cf84aebc6c96fa79095e51d84f1fe9503af50e764f4923bb1c141bf061d74"
+    },
+    {
+      "path": "references/flows/good_image_generation.md",
+      "bytes": 7485,
+      "sha256": "sha256-acfcbc7c3dd367d7a254738dffefd6479c389f3bf4ae8f59ff11501c8e4eb6c1"
+    },
+    {
+      "path": "references/flows/structural_defect_generation.md",
+      "bytes": 11388,
+      "sha256": "sha256-a4375e40f4cc255207c835692787d77b06263d5a5806b116be56cd5f96fd49e3"
+    },
+    {
+      "path": "references/flows/texture_defect_generation_day0.md",
+      "bytes": 5189,
+      "sha256": "sha256-acd640190a2e5bbc989faca762aacc3f62cf79891f1058726952955d32139580"
+    },
+    {
+      "path": "references/flows/texture_defect_generation_day1_manual_roi.md",
+      "bytes": 5528,
+      "sha256": "sha256-fa25752ae7363cf2525ee8919d5eb62aefd81a7b95484548d55ce10ca869d7fc"
+    },
+    {
+      "path": "references/flows/texture_defect_generation_day1_real_alignment.md",
+      "bytes": 6529,
+      "sha256": "sha256-5ebc1257e618b6a71d673b36d04d4f4efaa4225eaed4614e5a017e824571acdd"
+    },
+    {
+      "path": "references/gpu_sizing.md",
+      "bytes": 3660,
+      "sha256": "sha256-b8719b19f61de152e1dfda0de8e8390440f709f9f1e4c7d2ead35c8f90327270"
+    },
+    {
+      "path": "references/knob_mapping.md",
+      "bytes": 2510,
+      "sha256": "sha256-3993ae265221e6d909f47e2ed3d7c089554b3a6d5ab93cb592bc81ddb9a95dd8"
+    },
+    {
+      "path": "references/monitoring.md",
+      "bytes": 3391,
+      "sha256": "sha256-a60724ec6aed7d98b3aa31d89ff49b922deb31d02b82eabd19b79e597fe75a0b"
+    },
+    {
+      "path": "references/nim/qwen-image-edit-nvpcb-ovsl2sl.yaml",
+      "bytes": 2531,
+      "sha256": "sha256-6d29d6e68b0afc214f8952acfdf7fddb9440dc11bf9a89f3d8e5091113e47bc0"
+    },
+    {
+      "path": "references/nim/README.md",
+      "bytes": 7527,
+      "sha256": "sha256-f64d8e66cb627da7e9e75f379390aad81d2f7d5fc5847043303d46af9b83561b"
+    },
+    {
+      "path": "references/output_rendering.md",
+      "bytes": 12413,
+      "sha256": "sha256-c38735e3327ee527b45404dcc49bb93c5c6faaa3dc71159536d6e24d8217ee86"
+    },
+    {
+      "path": "references/output_retrieval.md",
+      "bytes": 1734,
+      "sha256": "sha256-5b7e06c79fc555272f5eb986514ddaa4daebc4f3cf11ea1ca0a4f249bd8bf1f7"
+    },
+    {
+      "path": "references/preconditions.md",
+      "bytes": 9992,
+      "sha256": "sha256-4a9f2cc33fee15de9ecbc5c9144c88f458f2e7be82d3ce5c3fc0d218a58cc9a5"
+    },
+    {
+      "path": "references/setup.md",
+      "bytes": 33196,
+      "sha256": "sha256-1a35db295d53423dfa50b397b193b7afb1234d19a73afb359b69ef0458d91670"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "bytes": 16149,
+      "sha256": "sha256-a5bdae52ce8b1f25f963da45e4396372cf2ee8f94a1637eae77e469f2f10b26d"
+    },
+    {
+      "path": "scripts/pick_best_step.sh",
+      "bytes": 3454,
+      "sha256": "sha256-848c6b7431c630ee85d78be4c0a3e1cc7229ac9a11916dde90e179342426583d"
+    },
+    {
+      "path": "scripts/preflight_credentials.sh",
+      "bytes": 5463,
+      "sha256": "sha256-fad68901228710d76191dd9e23ba1c5bf8853989d4aa9d3b6d3039177929c383"
+    },
+    {
+      "path": "scripts/preflight_pod_template.sh",
+      "bytes": 3989,
+      "sha256": "sha256-8363900a31c3357c6b3f3f757cb7f0fcbd57c0f809bc0012c6f1e7b9824967ec"
+    },
+    {
+      "path": "scripts/preflight_urls.sh",
+      "bytes": 3017,
+      "sha256": "sha256-4be073888867845cb7f7fb63c6e8547556c3d1e3e9c92b5256b2d5190f9b5c6a"
+    },
+    {
+      "path": "scripts/render_defect_spec.py",
+      "bytes": 4123,
+      "sha256": "sha256-bf3f9054debeaed927c50bfac4f4a6d97a3277033c1768efbd711020a10009d8"
+    },
+    {
+      "path": "skill-card.md",
+      "bytes": 4104,
+      "sha256": "sha256-263bdf1a5c9873fedd221f792179e4a49d73026cb5ac9fcdf69d8d35a571dfcc"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 20002,
+      "sha256": "sha256-02b77b4e1eedf523422a4f17fb6dd143cbfc044eca624ee8bbc716099c508828"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}

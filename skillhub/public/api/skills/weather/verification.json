@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "skill-verification/v1",
+  "slug": "weather",
+  "name": "weather",
+  "description": "Get current weather and forecasts (no API key required).",
+  "source": "https://skills.x402.wtf/api/skills/weather/SKILL.md",
+  "metadata": "https://skills.x402.wtf/api/skills/weather/metadata.json",
+  "bundleHash": "sha256-82c18c28b3a181594ccf70b8b1a5668f7a84ff1a4898c8829baef4ed0b561021",
+  "merkleLeaf": "sha256-b362765a2ad8629f94d0f800ca6ec87364208f217f1be1cf4a035dc9bc1700be",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 1169,
+      "sha256": "sha256-1ca0c8d768ad603ea8d5d47f56a9b435fe575f7f34e719eda85c82003d740e93"
+    }
+  ],
+  "registry": "https://skills.x402.wtf/.well-known/onchain-skill-registry.json",
+  "solana": {
+    "cluster": "mainnet-beta",
+    "status": "anchor-ready",
+    "registryProgramId": null,
+    "registryPda": null
+  }
+}
